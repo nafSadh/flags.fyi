@@ -1,2 +1,2 @@
 # flags.fyi
-Flags For Your Information
+Flags *For Your Information*
