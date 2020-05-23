@@ -9,11 +9,11 @@
             import VueRouter from 'vue-router'
             Vue.use(VueRouter)
             const FlagPage = {
-                  template: '<div>User {{ $route.params.id }}</div>'
+                  template: '<div>Flag {{ $route.params.id }}</div>'
                 }
             const router = new VueRouter({
                 routes: [
-                    { path: '/flag/:id', component: User }
+                    { path: '/flag/:id', component: FlagPage }
                 ]
             })
           </script>
