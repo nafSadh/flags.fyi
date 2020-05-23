@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flags.fyi</title>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+        <script type="module">
+            import Vue from 'https://cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.esm.browser.js'
+            import VueRouter from 'vue-router'
+            Vue.use(VueRouter)
+            const FlagPage = {
+                  template: '<div>User {{ $route.params.id }}</div>'
+                }
+            const router = new VueRouter({
+                routes: [
+                    { path: '/flag/:id', component: User }
+                ]
+            })
+          </script>
+    </head>
+    <body>
+        <h1>
+            Flags.fyi
+        </h1>
+        <p>
+            There was nothing. Everything started from nothingness.<br/>
+            There was no flags.<br/>
+            Then the firsr flag emerged.<br/>
+            And many flags came after that.<br/>     
+        </p>
+    </body>
+</html>
