@@ -5,9 +5,9 @@
         <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
         <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
         <script type="module">
-            import Vue from 'https://cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.esm.browser.js'
-            import VueRouter from 'vue-router'
-            Vue.use(VueRouter)
+            //import Vue from 'https://cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.esm.browser.js'
+            //import VueRouter from 'vue-router'
+            //Vue.use(VueRouter)
             const FlagPage = {
                   template: '<div>Flag {{ $route.params.id }}</div>'
                 }
@@ -15,17 +15,16 @@
                 routes: [
                     { path: '/flag/:id', component: FlagPage }
                 ]
-            })
-            var app = new Vue({
-  el: '#app',
-  data: {
-    message: 'Hello Vue!'
-  }
-})
+            })            
+            const app = new Vue({
+            router
+            }).$mount('#app')
           </script>
     </head>
     <body>
-        <div id="app"></div>
+        <div id="app">
+            <router-view></router-view>
+        </div>
         <h1>
             Flags.fyi
         </h1>
