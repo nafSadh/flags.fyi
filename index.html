@@ -16,9 +16,16 @@
                     { path: '/flag/:id', component: FlagPage }
                 ]
             })
+            var app = new Vue({
+  el: '#app',
+  data: {
+    message: 'Hello Vue!'
+  }
+})
           </script>
     </head>
     <body>
+        <div id="app"></div>
         <h1>
             Flags.fyi
         </h1>
