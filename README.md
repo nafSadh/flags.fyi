@@ -1,6 +1,6 @@
-# flags.fyi
+# 🚩 Flags.fyi
 
-> Flags FYI, by Flagstaff🚩
+> **Flags** _for your info_, by Flagstaff
 
 ## Build Setup
 

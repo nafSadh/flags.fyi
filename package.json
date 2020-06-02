@@ -1,8 +1,8 @@
 {
   "name": "flags-fyi",
   "version": "1.0.0",
-  "description": "Flags FYI, by Flagstaff🚩",
-  "author": "nafsadh",
+  "description": "Flags FYI, by Flagstaff 🚩",
+  "author": "nafSadh",
   "private": true,
   "scripts": {
     "dev": "nuxt",
