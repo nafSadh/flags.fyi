@@ -71,7 +71,7 @@ export default {
     routes() {
       const flagRoutes = []
       for (const flagId in flagsJson) {
-        flagRoutes.push('/flag/' + flagId)
+        flagRoutes.push('/' + flagId)
       }
       return flagRoutes
     }
