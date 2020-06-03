@@ -4,6 +4,10 @@
 
 _2020.06.02_
 
+- set local run --port 61495 as it is the leet for `flags` |f6|l1|A4|g9|S5|
+
+_2020.06.02_
+
 - setup dynamic route generation for flag ids
   - add dummy static/flags.json
   - setup `generate.routes()` in `nuxt.config.js`

@@ -5,7 +5,7 @@
   "author": "nafSadh",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt --port 61495",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
