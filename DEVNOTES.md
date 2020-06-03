@@ -4,6 +4,9 @@
 
 _2020.06.02_
 
+- setup dynamic route generation for flag ids
+  - add dummy static/flags.json
+  - setup `generate.routes()` in `nuxt.config.js`
 - setup nuxt generated spa deployment for gh-pages
   - `npm install push-dir --save-dev`
   - add deploy script to `package.json`
@@ -14,9 +17,9 @@ _2020.06.02_
 
 _2020.06.01_
 
-- clean slate
 - restart as a [Vue](https://vuejs.org/) powered statically generated web app
   using [NuxtJS](https://nuxtjs.org/)
-- `npx create-nuxt-app flags.fyi`
+  - `npx create-nuxt-app flags.fyi`
+- clean slate
 
 _init_

@@ -1,3 +1,5 @@
+import flagsJson from './static/flags.json'
+
 export default {
   mode: 'spa',
   /*
@@ -62,5 +64,16 @@ export default {
      ** You can extend webpack config here
      */
     extend(config, ctx) {}
+  },
+
+  generate: {
+    /* generate route for flag/_id.vue pages */
+    routes() {
+      const flagRoutes = []
+      for (const flagId in flagsJson) {
+        flagRoutes.push('/flag/' + flagId)
+      }
+      return flagRoutes
+    }
   }
 }
