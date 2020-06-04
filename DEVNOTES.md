@@ -10,6 +10,7 @@ _2020.06.03_
     - hence `~/pages/_flag_id.vue`
   - flags.fyi/:flag/file.ext should be the url for static resources
     - hence `~/static/:flag/...`
+- switch nuxt.mode to `universal` so that browser gets generated pages loaded with content
 
 _2020.06.02_
 
