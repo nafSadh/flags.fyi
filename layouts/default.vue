@@ -44,10 +44,18 @@ export default {
   data() {
     return {
       items: [
+        { title: 'Home', icon: 'home', to: { name: 'index' } },
         {
-          title: 'Home',
-          icon: 'home',
-          to: { name: 'index' }
+          title: 'Bangladesh',
+          to: { name: 'flagId', params: { flagId: 'bangladesh' } }
+        },
+        {
+          title: 'UK',
+          to: { name: 'flagId', params: { flagId: 'uk' } }
+        },
+        {
+          title: 'US',
+          to: { name: 'flagId', params: { flagId: 'us' } }
         }
       ]
     }

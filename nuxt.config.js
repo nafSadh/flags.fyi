@@ -67,7 +67,7 @@ export default {
   },
 
   generate: {
-    /* generate route for flag/_id.vue pages */
+    /* generate route for _flagId.vue pages */
     routes() {
       const flagRoutes = []
       for (const flagId in flagsJson) {

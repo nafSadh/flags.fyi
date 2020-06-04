@@ -2,9 +2,14 @@
 
 > A reverse chronological log
 
-_2020.06.02_
+_2020.06.03_
 
 - set local run --port 61495 as it is the leet for `flags` |f6|l1|A4|g9|S5|
+- Unified URL structure:
+  - flags.fyi/:flag/ should be the url for the page about the flag
+    - hence `~/pages/_flag_id.vue`
+  - flags.fyi/:flag/file.ext should be the url for static resources
+    - hence `~/static/:flag/...`
 
 _2020.06.02_
 
