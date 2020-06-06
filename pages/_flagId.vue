@@ -1,7 +1,8 @@
 <template>
   <section class="section">
     <h1 class="title">{{ title }}</h1>
-    <img v-if="hasFlagImg" :src="flagImg" />
+    <!-- <img v-if="hasFlagImg" :src="flagImg" /> -->
+    <img v-if="hasFlagImg" :src="require('~/assets/export/' + `${flagImg}`)" />
   </section>
 </template>
 <script>
@@ -21,7 +22,10 @@ export default {
       return !!this.flagData.svg
     },
     flagImg() {
-      return this.flagData.svg
+      if (this.flagData.svg) {
+        return this.flagData.svg
+      }
+      return ''
     },
     title() {
       if (this.flagData.title) {
