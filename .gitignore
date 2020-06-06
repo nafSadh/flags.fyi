@@ -88,3 +88,6 @@ sw.*
 
 # Vim swap files
 *.swp
+
+# a folder for locally keeping things ignored by git
+.gitignored/

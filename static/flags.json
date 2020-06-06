@@ -1,5 +1,7 @@
 {
-  "bangladesh": {},
+  "bangladesh": {
+    "svg": "bangladesh/flag.svg"
+  },
   "uk": {},
   "us": {
     "title": "Flag of the US"

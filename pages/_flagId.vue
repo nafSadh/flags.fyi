@@ -1,6 +1,7 @@
 <template>
   <section class="section">
     <h1 class="title">{{ title }}</h1>
+    <img v-if="hasFlagImg" :src="flagImg" />
   </section>
 </template>
 <script>
@@ -15,6 +16,12 @@ export default {
     },
     flagData() {
       return flagJson[this.flagId]
+    },
+    hasFlagImg() {
+      return !!this.flagData.svg
+    },
+    flagImg() {
+      return this.flagData.svg
     },
     title() {
       if (this.flagData.title) {
