@@ -1,13 +1,13 @@
 <template>
   <section class="section">
     <h1 class="title">{{ title }}</h1>
-    <!-- <img v-if="hasFlagImg" :src="flagImg" /> -->
     <img v-if="hasFlagImg" :src="require('~/assets/export/' + `${flagImg}`)" />
   </section>
 </template>
 <script>
 import flagJson from '~/static/flags.json'
 export default {
+  components: {},
   data() {
     return {}
   },

@@ -75,5 +75,14 @@ export default {
       }
       return flagRoutes
     }
+  },
+
+  hooks: {
+    generate: {
+      done(generator, errors) {
+        const copydir = require('copy-dir')
+        copydir.sync('./assets/export', './dist')
+      }
+    }
   }
 }

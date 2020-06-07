@@ -2,10 +2,26 @@
 
 > A reverse chronological log
 
+_2020.06.06_
+
+- uniform static-asset content structure
+  - Flag images (svg and in on-ideal cases png/jpeg) needs to be displayed on
+    (A) vue generated pages, such as, `_flagId.vue` (e.g. as an img loaded into
+    https://flags.fyi/bangladesh/) and (B) available as direct url, e.g.,
+    https://flags.fyi/bangladesh/flags.svg). For case A, to display htmls with
+    preloaded img, these files needs to be served using webpack and hence be in
+    `~/assets/` directory. In contrast, for case B, these files also need to be
+    served from generated websites root location, i.e., as if they were in nuxt
+    `~/static/` directory.
+    Hence:
+    - move flag images to `~/asset/export/`
+    - use `npm i copy-dir --save-dev` to copy files from this directory to the
+      `dist/` root upon `nuxt generate` by adding a hook to `generate.done`
+
 _2020.06.03_
 
 - set local run --port 61495 as it is the leet for `flags` |f6|l1|A4|g9|S5|
-- Unified URL structure:
+- unified URL structure:
   - flags.fyi/:flag/ should be the url for the page about the flag
     - hence `~/pages/_flag_id.vue`
   - flags.fyi/:flag/file.ext should be the url for static resources
