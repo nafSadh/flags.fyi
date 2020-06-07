@@ -79,7 +79,11 @@ export default {
 
   hooks: {
     generate: {
+      /* hook: function run upon nuxt generate 
+      https://nuxtjs.org/api/internals-generator#hooks */
       done(generator, errors) {
+        /* use https://www.npmjs.com/package/copy-dir to 
+        export some assets to root */
         const copydir = require('copy-dir')
         copydir.sync('./assets/export', './dist')
       }
