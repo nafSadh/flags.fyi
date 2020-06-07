@@ -7,7 +7,6 @@
 <script>
 import flagJson from '~/static/flags.json'
 export default {
-  components: {},
   data() {
     return {}
   },
