@@ -50,6 +50,10 @@ export default {
           to: { name: 'flagId', params: { flagId: 'bangladesh' } }
         },
         {
+          title: 'Bangladesh Navy',
+          to: { name: 'flagId', params: { flagId: 'bangladesh-navy' } }
+        },
+        {
           title: 'UK',
           to: { name: 'flagId', params: { flagId: 'uk' } }
         },

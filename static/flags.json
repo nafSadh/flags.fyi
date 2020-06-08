@@ -1,7 +1,22 @@
 {
   "bangladesh": {
-    "ns": "bangladesh",
-    "svg": "bangladesh/flag.svg"
+    "svg": "bangladesh/flag.svg",
+    "use": "national flag",
+    "flag_of": { "country": "bangladesh" },
+    "colors": [
+      { "hex": "006a4e", "color": "green" },
+      { "hex": "f42a41", "color": "red" }
+    ]
+  },
+  "bangladesh-navy": {
+    "svg": "bangladesh/navy.svg",
+    "use": "naval ensign",
+    "flag_of": { "country": "bangladesh" },
+    "colors": [
+      { "hex": "006a4e", "color": "green" },
+      { "hex": "f42a41", "color": "red" },
+      { "hex": "ffffff", "color": "white" }
+    ]
   },
   "uk": {},
   "us": {
