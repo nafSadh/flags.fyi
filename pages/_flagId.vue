@@ -1,13 +1,15 @@
 <template>
   <section class="section">
-    <div v-if="hasFlagSvg" class="box has-background-light">
+    <div v-if="hasFlagSvg" class="box is-radiusless	has-background-light">
       <div class="card-image">
         <figure class="image">
           <img :src="require('~/assets/export/' + `${flagSvg}`)" />
         </figure>
       </div>
     </div>
-    <h1 class="title ">{{ title }}</h1>
+    <article class="content">
+      <h1 class="title ">{{ title }}</h1>
+    </article>
   </section>
 </template>
 <script>
