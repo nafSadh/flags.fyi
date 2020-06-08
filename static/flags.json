@@ -18,8 +18,11 @@
       { "hex": "ffffff", "color": "white" }
     ]
   },
-  "uk": {},
+  "uk": {
+    "svg": "uk/flag.svg"
+  },
   "us": {
-    "title": "Flag of the US"
+    "title": "Flag of the US",
+    "svg": "us/flag.svg"
   }
 }
