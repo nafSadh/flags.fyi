@@ -5,7 +5,9 @@
   </section>
 </template>
 <script>
+import _ from 'lodash'
 import flagJson from '~/static/flags.json'
+
 export default {
   data() {
     return {}
@@ -30,12 +32,23 @@ export default {
       if (this.flagData.title) {
         return this.flagData.title
       }
-      return 'Flag of ' + this.capitalize(this.flagId)
+      return this.usedAs + ' of ' + this.titleCase(this.flagId)
+    },
+    usedAs() {
+      if (this.flagData.use) {
+        return this.titleCase(this.flagData.use)
+      }
+      return 'Flag'
     }
   },
   methods: {
-    capitalize(str) {
-      return str.charAt(0).toUpperCase() + str.slice(1)
+    titleCase(str) {
+      if (str.length < 3) {
+        return _.toUpper(str)
+      }
+      return _.words(str)
+        .map(_.upperFirst)
+        .join(' ')
     }
   }
 }
