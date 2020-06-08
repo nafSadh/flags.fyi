@@ -45,22 +45,7 @@ export default {
     return {
       items: [
         { title: 'Home', icon: 'home', to: { name: 'index' } },
-        {
-          title: 'Bangladesh',
-          to: { name: 'flagId', params: { flagId: 'bangladesh' } }
-        },
-        {
-          title: 'Bangladesh Navy',
-          to: { name: 'flagId', params: { flagId: 'bangladesh-navy' } }
-        },
-        {
-          title: 'UK',
-          to: { name: 'flagId', params: { flagId: 'uk' } }
-        },
-        {
-          title: 'US',
-          to: { name: 'flagId', params: { flagId: 'us' } }
-        }
+        { title: 'Flags', to: { name: 'flagIndex' } }
       ]
     }
   }
