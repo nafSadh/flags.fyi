@@ -13,7 +13,6 @@
   </section>
 </template>
 <script>
-import _ from 'lodash'
 import flagJson from '~/static/flags.json'
 
 export default {
@@ -40,23 +39,13 @@ export default {
       if (this.flagData.title) {
         return this.flagData.title
       }
-      return this.usedAs + ' of ' + this.titleCase(this.flagId)
+      return this.usedAs + ' of ' + this.$titleCase(this.flagId)
     },
     usedAs() {
       if (this.flagData.use) {
-        return this.titleCase(this.flagData.use)
+        return this.$titleCase(this.flagData.use)
       }
       return 'Flag'
-    }
-  },
-  methods: {
-    titleCase(str) {
-      if (str.length < 3) {
-        return _.toUpper(str)
-      }
-      return _.words(str)
-        .map(_.upperFirst)
-        .join(' ')
     }
   }
 }

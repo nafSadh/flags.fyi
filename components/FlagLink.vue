@@ -19,7 +19,7 @@ export default {
   },
   computed: {
     title() {
-      return this.flagId
+      return this.$titleCase(this.flagId)
     },
     to() {
       return {
