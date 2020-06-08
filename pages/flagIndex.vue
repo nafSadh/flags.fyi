@@ -1,13 +1,14 @@
 <template>
   <section class="section">
-    <div class="columns is-multiline">
-      <div
+    <div class="buttons">
+      <!-- TODO: class="button is-link is-light" when bulma 0.9.0 ready for nuxt -->
+      <button
         v-for="(flagData, flagId) in flagsJson"
         :key="flagId"
-        class="column is-narrow"
+        class="button is-light"
       >
         <flag-link :flag-id="flagId" :flag-data="flagData" />
-      </div>
+      </button>
     </div>
   </section>
 </template>
