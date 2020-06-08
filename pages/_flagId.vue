@@ -1,7 +1,13 @@
 <template>
   <section class="section">
-    <h1 class="title">{{ title }}</h1>
-    <img v-if="hasFlagImg" :src="require('~/assets/export/' + `${flagImg}`)" />
+    <div v-if="hasFlagSvg" class="box has-background-light">
+      <div class="card-image">
+        <figure class="image">
+          <img :src="require('~/assets/export/' + `${flagSvg}`)" />
+        </figure>
+      </div>
+    </div>
+    <h1 class="title ">{{ title }}</h1>
   </section>
 </template>
 <script>
@@ -19,10 +25,10 @@ export default {
     flagData() {
       return flagJson[this.flagId]
     },
-    hasFlagImg() {
+    hasFlagSvg() {
       return !!this.flagData.svg
     },
-    flagImg() {
+    flagSvg() {
       if (this.flagData.svg) {
         return this.flagData.svg
       }
