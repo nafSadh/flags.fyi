@@ -90,4 +90,4 @@ sw.*
 *.swp
 
 # a folder for locally keeping things ignored by git
-.gitignoredgit/
+.gitignored/
