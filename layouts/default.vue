@@ -20,17 +20,15 @@
         <div id="navbarBasicExample" class="navbar-menu">
           <div class="navbar-end">
             <nuxt-link class="navbar-item" to="flagIndex">
-              Flags
+              Index of Flags
             </nuxt-link>
           </div>
         </div>
       </div>
     </nav>
 
-    <section class="main-content columns">
-      <div class="container">
-        <nuxt />
-      </div>
+    <section class="main-content container">
+      <nuxt />
     </section>
   </div>
 </template>
