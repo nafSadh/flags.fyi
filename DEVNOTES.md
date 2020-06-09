@@ -2,6 +2,11 @@
 
 > A reverse chronological log
 
+_2020.06.08_
+
+- The **Flagstaff logo** is used to represent both 'flags.fyi' and 'Flagstaff'.
+  It is essentially a flag on a flagstaff that looks like the letter 'F'.
+
 _2020.06.06_
 
 - uniform static-asset content structure
