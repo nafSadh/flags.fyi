@@ -4,6 +4,15 @@
 
 _2020.06.08_
 
+- Bulma v0.9.0
+  - Bulma released v0.9.0 but Buefy is on v0.7.5 and has yet to publish roadmap
+  - meanwhile '@nuxtjs/bulma' from gh/nuxt-community/modules is yet to update
+  - use https://gitpkg.now.sh/ to install Bulma from a fork of '@nuxtjs/bulma':
+    - `npm i 'https://gitpkg.now.sh/nafSadh/nuxt-modules/packages/bulma?master' --save`
+    - add '@nuxtjs/bulma'to nuxt.config.js:modules
+
+_2020.06.08_
+
 - The **Flagstaff logo** is used to represent both 'flags.fyi' and 'Flagstaff'.
   It is essentially a flag on a flagstaff that looks like the letter 'F'.
 
