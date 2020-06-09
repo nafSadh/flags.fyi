@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512">
+
+  <rect width="512" height="512" fill="white"/>
+  <g stroke="#8F00FF" fill="none" transform="translate(0,-16)">
+    <polygon transform="translate(128,64)" 
+      points="0,0 0,128 256,64" 
+      stroke-width="24" stroke-linejoin="round"/>
+    <polygon transform="translate(128,192)" 
+      points="0,0 0,128 256,64" 
+      stroke-width="24" stroke-linejoin="round"/>
+    <rect transform="translate(128,320)"
+      width="8" height="128" 
+      stroke-width="24" stroke-linejoin="round"/>
+    <rect transform="translate(96,72)"
+      width="8" height="240" 
+      stroke-width="8" stroke-linejoin="round"/>
+    <rect transform="translate(104,480)"
+      stroke="#8F00FF" fill="#8F00FF"
+      width="64" height="24" 
+      stroke-width="16" stroke-linejoin="round"/>
+  </g>
+</svg>

@@ -7,9 +7,9 @@
     >
       <div class="navbar-brand">
         <a class="navbar-item" href="/">
-          <img src="~assets/placeholder-logo.svg" alt="Buefy" height="28" />
+          <img src="~assets/flagstaff-sm.svg" alt="flags.fyi" height="28" />
+          <b>Flags.fyi</b>
         </a>
-
         <div class="navbar-burger">
           <span />
           <span />
