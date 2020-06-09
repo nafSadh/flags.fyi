@@ -19,7 +19,7 @@
         </div>
         <div id="navbarBasicExample" class="navbar-menu">
           <div class="navbar-end">
-            <nuxt-link class="navbar-item" to="flagIndex">
+            <nuxt-link class="navbar-item" to="/flagIndex">
               Index of Flags
             </nuxt-link>
           </div>
