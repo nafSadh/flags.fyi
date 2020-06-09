@@ -1,11 +1,12 @@
 <template>
   <section class="section">
     <div class="buttons">
-      <!-- TODO: class="button is-link is-light" when bulma 0.9.0 ready for nuxt -->
+      <!-- TODO: class="button is-link is-light" when bulma 0.9.0 adopted for nuxt/buefy -->
       <button
         v-for="(flagData, flagId) in flagsJson"
         :key="flagId"
-        class="button is-light"
+        class="button is-rounded is-light level is-mobile"
+        style="padding:0 1rem 0 0;"
       >
         <flag-link :flag-id="flagId" :flag-data="flagData" />
       </button>

@@ -1,9 +1,15 @@
 <template>
-  <nuxt-link :to="to">
-    <span v-if="hasFlagSvg" class="icon">
-      <img :src="require('~/assets/export/' + `${flagSvg}`)" />
+  <nuxt-link :to="to" class="level-left">
+    <span v-if="hasFlagSvg" class="level-item">
+      <figure class="image is-32x32">
+        <img
+          :src="require('~/assets/export/' + `${flagSvg}`)"
+          class="image is-32x32 is-rounded"
+          style="object-fit:cover;"
+        />
+      </figure>
     </span>
-    <span>{{ title }}</span>
+    <span class="">{{ title }}</span>
   </nuxt-link>
 </template>
 <script>
