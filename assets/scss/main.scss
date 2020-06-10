@@ -1,0 +1,21 @@
+// Import Bulma's core
+@import '~bulma/sass/utilities/_all';
+
+// Set your colors
+// ref: https://en.wikipedia.org/wiki/Shades_of_violet#Electric_violet
+$flagstaff-purple: #8f00ff; // Electric Violet
+
+$primary: $flagstaff-purple;
+$primary-invert: findColorInvert($primary);
+
+$twitter: #4099ff;
+$twitter-invert: findColorInvert($twitter);
+
+$colors: (
+  'primary': (
+    $primary,
+    $primary-invert
+  )
+);
+// Import Bulma styles
+@import '~bulma';

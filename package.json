@@ -42,8 +42,10 @@
     "husky": "^4.0.0",
     "lint-staged": "^10.2.9",
     "ncp": "^2.0.0",
+    "node-sass": "^4.14.1",
     "prettier": "^1.19.1",
     "push-dir": "^0.4.1",
+    "sass-loader": "^8.0.2",
     "stylelint": "^10.1.0"
   }
 }
