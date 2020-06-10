@@ -9,7 +9,7 @@
         />
       </figure>
     </span>
-    <span class="">{{ title }}</span>
+    <span class="has-text-primary">{{ title }}</span>
   </nuxt-link>
 </template>
 <script>

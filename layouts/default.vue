@@ -1,19 +1,19 @@
 <template>
   <div>
     <nav
-      class="navbar header has-shadow is-primary"
+      class="navbar header has-shadow is-light"
       role="navigation"
       aria-label="main navigation"
     >
       <div class="container">
         <div class="navbar-brand">
-          <a class="navbar-item" href="/">
+          <a class="navbar-item has-text-primary" href="/">
             <img
               src="~assets/logo/flagstaff-grid-sm.svg"
               alt="flags.fyi"
-              height="28"
-            />
-            <b>Flags.fyi</b>
+              height="32"
+            />&nbsp;
+            <b class="">Flags.fyi</b>
           </a>
           <div class="navbar-burger">
             <span />
@@ -21,7 +21,7 @@
             <span />
           </div>
         </div>
-        <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-menu">
           <div class="navbar-end">
             <nuxt-link class="navbar-item" to="/flagIndex">
               Index of Flags

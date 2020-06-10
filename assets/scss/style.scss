@@ -12,5 +12,7 @@ $primary: $flagstaff-purple;
 $twitter: #4099ff;
 $twitter-invert: findColorInvert($twitter);
 
+$navbar-item-img-max-height: 2rem;
+
 // Import Bulma styles
 @import '~bulma';
