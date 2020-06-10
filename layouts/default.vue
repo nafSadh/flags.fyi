@@ -9,7 +9,7 @@
         <div class="navbar-brand">
           <a class="navbar-item" href="/">
             <img
-              src="~assets/logo/flagstaff-sm.svg"
+              src="~assets/logo/flagstaff-grid-sm.svg"
               alt="flags.fyi"
               height="28"
             />
