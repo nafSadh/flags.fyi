@@ -1,22 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512">
+  <defs>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M 64 0 L 0 0 0 64" fill="none" stroke="#ccc" stroke-width="1"/>
+    </pattern>
+    <pattern id="smallGrid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <rect width="64" height="64" x="0" y="0" fill="none" stroke="#ccc" stroke-width=".5"/>
+      <path d="M 0 32 H 0 64 M 32 0 V 64 0" fill="none" stroke="#ccc" stroke-width=".25"/>
+    </pattern>
+  </defs>
   <rect width="512" height="512" fill="white"/>
-  <g stroke="#ccc" stroke-width="2">
-    <line x1="0" x2="0" y1="0" y2="512" transform="translate(64,0)"/>
-    <line x1="0" x2="0" y1="0" y2="512" transform="translate(128,0)"/>
-    <line x1="0" x2="0" y1="0" y2="512" transform="translate(192,0)"/>
-    <line x1="0" x2="0" y1="0" y2="512" transform="translate(256,0)"/>
-    <line x1="0" x2="0" y1="0" y2="512" transform="translate(320,0)"/>
-    <line x1="0" x2="0" y1="0" y2="512" transform="translate(384,0)"/>
-    <line x1="0" x2="0" y1="0" y2="512" transform="translate(448,0)"/>
-    
-    <line x1="0" x2="512" y1="0" y2="0" transform="translate(0,64)"/>
-    <line x1="0" x2="512" y1="0" y2="0" transform="translate(0,128)"/>
-    <line x1="0" x2="512" y1="0" y2="0" transform="translate(0,192)"/>
-    <line x1="0" x2="512" y1="0" y2="0" transform="translate(0,256)"/>
-    <line x1="0" x2="512" y1="0" y2="0" transform="translate(0,320)"/>
-    <line x1="0" x2="512" y1="0" y2="0" transform="translate(0,384)"/>
-    <line x1="0" x2="512" y1="0" y2="0" transform="translate(0,448)"/>
-  </g>
+  <rect width="512" height="512" fill="url(#smallGrid)"/>
   <g stroke="none" fill="#8f00ff" transform="translate(64,64)">
     <rect width="0" height="384" x="64" y="0"/>
     <rect width="64" height="384" x="96" y="0"/>
