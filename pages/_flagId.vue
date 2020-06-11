@@ -1,5 +1,8 @@
 <template>
   <div>
+    <section class="section container">
+      <h1 class="title">{{ title }}</h1>
+    </section>
     <section v-if="hasFlagSvg" class="hero is-light is-bold">
       <div class="hero-body">
         <div class="container">
@@ -10,9 +13,7 @@
       </div>
     </section>
     <section class="section main-content container">
-      <article class="content">
-        <h1 class="title ">{{ title }}</h1>
-      </article>
+      <article class="content"></article>
     </section>
   </div>
 </template>
