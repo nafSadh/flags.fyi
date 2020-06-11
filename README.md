@@ -2,6 +2,26 @@
 
 > **Flags** _for your info_, by Flagstaff
 
+## About
+
+**Flags.fyi** _by "Flagstaff"_ is a web compendium of flag info. It revolves
+around [`flags.json`](https://flags.fyi/flags.json) that contains stuff (images,
+description etc.) of [vexillologic](https://en.wikipedia.org/wiki/Vexillology)
+interest. https://flags.fyi is the canonical web app that is aimed to present
+these data in an user friendly manner.
+
+### Flagstaff
+
+Flags.fyi is a project by "Flagstaff", an unincorporated entity, led by
+[nafSadh](https://nafSadh.com).
+
+#### Personnell
+
+Right now Flagstaff is pretty much an one-man-show.
+
+- **Prinicpal Vexillophile** and **Webmaster General**:
+  [Khan MNM Sadh](https://nafSadh.com) [@nafsadh](https://github.com/nafSadh/)
+
 ## Build Setup
 
 ```bash
