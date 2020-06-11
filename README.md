@@ -76,7 +76,7 @@ structue:
 ## URL Structure
 
 - Root url is `https://flags.fyi/`.
-- `index/` shall be an index of all flags currently hosted.
+- `flag-index/` shall be an index of all flags currently hosted.
 - Site is mostly flatly structured so that URLs can be as short as semantically
   plausible.
 - Page about a flag is at `flag-id` - this is always direct child of root.

@@ -14,7 +14,7 @@
           />&nbsp;
           <b class="">Flags.fyi</b>
         </a>
-        <nuxt-link class="navbar-item is-hidden-desktop" to="/flagIndex">
+        <nuxt-link class="navbar-item is-hidden-desktop" to="/flag-index">
           <span class="icon">
             <fa icon="list-ul" />
           </span>
@@ -27,7 +27,7 @@
       </div>
       <div class="navbar-menu">
         <div class="navbar-end">
-          <nuxt-link class="navbar-item " to="/flagIndex">
+          <nuxt-link class="navbar-item " to="/flag-index">
             <span class="icon">
               <fa icon="list-ul" />
             </span>
