@@ -7,13 +7,13 @@
         </div>
       </div>
     </section>
-    <section class="section main-content container">
+    <section class="section main-content container px-0">
       <div class="buttons">
         <button
           v-for="(flagData, flagId) in flagsJson"
           :key="flagId"
-          class="button is-rounded is-primary is-light level is-mobile"
-          style="padding:0 1rem 0 0;"
+          class="button is-rounded is-primary is-light py-0 pl-0 pr-4
+                level is-mobile "
         >
           <flag-link :flag-id="flagId" :flag-data="flagData" />
         </button>

@@ -8,7 +8,7 @@
         <p class="title">
           Flags.fyi
         </p>
-        <button class="button is-primary is-light">
+        <button class="button is-primary is-light is-rounded">
           <nuxt-link class="has-text-primary" to="/flag-index">
             <span>Goto: Index of Flags</span>
           </nuxt-link>
