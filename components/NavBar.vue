@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="navbar header is-light"
+    class="navbar header is-white"
     role="navigation"
     aria-label="main navigation"
   >

@@ -1,17 +1,25 @@
 <template>
-  <section class="section main-content container">
-    <h1 class="title has-text-grey-dark">Index of Flags</h1>
-    <div class="buttons">
-      <button
-        v-for="(flagData, flagId) in flagsJson"
-        :key="flagId"
-        class="button is-rounded is-primary is-light level is-mobile"
-        style="padding:0 1rem 0 0;"
-      >
-        <flag-link :flag-id="flagId" :flag-data="flagData" />
-      </button>
-    </div>
-  </section>
+  <div>
+    <section class="hero is-primary">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">Index of Flags</h1>
+        </div>
+      </div>
+    </section>
+    <section class="section main-content container">
+      <div class="buttons">
+        <button
+          v-for="(flagData, flagId) in flagsJson"
+          :key="flagId"
+          class="button is-rounded is-primary is-light level is-mobile"
+          style="padding:0 1rem 0 0;"
+        >
+          <flag-link :flag-id="flagId" :flag-data="flagData" />
+        </button>
+      </div>
+    </section>
+  </div>
 </template>
 <script>
 import FlagLink from '~/components/FlagLink'
