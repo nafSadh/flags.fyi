@@ -1,5 +1,5 @@
 <template>
-  <section class="section">
+  <section class="section main-content container">
     <div class="buttons">
       <button
         v-for="(flagData, flagId) in flagsJson"

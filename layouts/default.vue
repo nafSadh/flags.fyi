@@ -38,22 +38,19 @@
         </div>
       </div>
     </nav>
-
-    <section class="main-content container">
-      <nuxt />
-    </section>
+    <nuxt />
   </div>
 </template>
 
 <script>
 export default {
+  data() {
+    return {}
+  },
   head: {
     bodyAttrs: {
       class: 'has-background-white'
     }
-  },
-  data() {
-    return {}
   }
 }
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <section class="section">
+  <section class="section main-content container">
     <div v-if="hasFlagSvg" class="box is-radiusless	has-background-light">
       <div class="card-image">
         <figure class="image">
