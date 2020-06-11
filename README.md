@@ -72,3 +72,22 @@ structue:
   file inside this directory is mapped to `/`. `CNAME` and `flags.json` resides
   here.
 - ~/**store**: {not used} For [Vuex Store](https://nuxtjs.org/guide/vuex-store).
+
+## URL Structure
+
+- Root url is `https://flags.fyi/`.
+- `index/` shall be an index of all flags currently hosted.
+- Site is mostly flatly structured so that URLs can be as short as semantically
+  plausible.
+- Page about a flag is at `flag-id` - this is always direct child of root.
+  Location of a flag image is directly related to flag-id. Flag location is one
+  hop away from root. Flag id can be grouped around top level entities (i.e.,
+  country, internation organizatio, civilization etc.). The flag image directly
+  related to top level entity is at `${entity}/flag.svg` and other flags are at
+  `${entity}/{flag-name}.ext`; flag-id for the later is of the format
+  `entity-flag-name`.  
+  For example, national flag of Bangladesh is at `bangladesh/flag.svg` and the
+  flag-id for it is `bangladesh`. The Naval Ensign for Bangladesh Navy is at
+  `bangladesh/navy.svg` and the flag-id is `bangladesh-navy`. The historic flag
+  used by the country in 1971 is at `bangladesh/1971.svg` and the flag-id for it
+  is `bangladesh-1971`.
