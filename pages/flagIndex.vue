@@ -1,5 +1,6 @@
 <template>
   <section class="section main-content container">
+    <h1 class="title has-text-grey-dark">Index of Flags</h1>
     <div class="buttons">
       <button
         v-for="(flagData, flagId) in flagsJson"

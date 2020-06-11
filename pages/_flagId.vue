@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="main-content">
     <section class="section container">
-      <h1 class="title">{{ title }}</h1>
+      <h1 class="title has-text-grey-dark">{{ title }}</h1>
     </section>
     <section v-if="hasFlagSvg" class="hero is-light is-bold">
       <div class="hero-body">
@@ -12,7 +12,7 @@
         </div>
       </div>
     </section>
-    <section class="section main-content container">
+    <section class="section container">
       <article class="content"></article>
     </section>
   </div>
