@@ -1,14 +1,6 @@
 <template>
   <div class="main-content">
-    <section v-if="hasFlagSvg" class="hero is-light is-bold">
-      <div class="hero-body">
-        <div class="container">
-          <figure class="image box px-0 py-0 container">
-            <img :src="require('~/assets/export/' + `${flagSvg}`)" />
-          </figure>
-        </div>
-      </div>
-    </section>
+    <vexilum :flag-data="flagData" />
     <section class="section container">
       <article class="content">
         <h1 class="title has-text-grey-dark">{{ title }}</h1>
@@ -17,9 +9,13 @@
   </div>
 </template>
 <script>
+import Vexilum from '~/components/Vexillum'
 import flagJson from '~/static/flags.json'
 
 export default {
+  components: {
+    Vexilum
+  },
   data() {
     return {}
   },
