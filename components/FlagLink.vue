@@ -4,8 +4,8 @@
       <figure class="image is-32x32">
         <img
           :src="require('~/assets/export/' + `${flagSvg}`)"
-          class="image is-32x32 is-rounded"
-          style="object-fit:cover;"
+          :class="flagIconStyle"
+          class="image is-32x32 is-rounded object-fit-cover"
         />
       </figure>
     </span>
@@ -43,6 +43,11 @@ export default {
         params: {
           flagId: this.flagId
         }
+      }
+    },
+    flagIconStyle() {
+      return {
+        'object-at-left': !!this.flagData._ && this.flagData._.includes('left')
       }
     }
   }

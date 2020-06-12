@@ -7,7 +7,7 @@
         </div>
       </div>
     </section>
-    <section class="section main-content container px-0">
+    <section class="section main-content container">
       <div class="buttons">
         <button
           v-for="(flagData, flagId) in flagsJson"
