@@ -3,18 +3,9 @@
   "bangladesh": {
     "svg": "bangladesh/flag.svg",
     "use": "national flag",
-    "flag_of": { "country": "bangladesh" }
+    "of": { "country": "bangladesh" }
   },
-  "bangladesh-navy": {
-    "svg": "bangladesh/navy.svg",
-    "use": "naval ensign",
-    "flag_of": { "country": "bangladesh" },
-    "colors": [
-      { "hex": "006a4e", "color": "green" },
-      { "hex": "f42a41", "color": "red" },
-      { "hex": "ffffff", "color": "white" }
-    ]
-  },
+  "bangladesh-navy": { "svg": "bangladesh/navy.svg" },
   "korea": {
     "svg": "korea/flag.svg",
     "title": "Flag of the Republic of Korea (South Korea)"
