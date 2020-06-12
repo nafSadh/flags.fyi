@@ -4,7 +4,20 @@
 
 _2020.06.12_
 
-- Supplementary
+- **Supplementary flags.json files**
+  - Flags.fyi aims to collect a high amount of data on flags. This may lead to
+    a very large `flags.json` file. The solution is to split this JSON file into
+    many.
+  - In the spirit of revolving around single `flags.json`, we will split data by
+    fields. Top level `flags.json` will only contain bare minimum essential
+    fields, such as, flag-id, svg, used as etc. All non essential fields, such
+    as, color data, related flags etc. will be in many auxiliary JSON files.
+  - Auxiliary JSON (auxJson) files will be in `~/assets/export/` directories.
+  - The first part of kebob-cased-flag-id is idPrefix. AuxJson files will be in
+    directory named idPrefix. For example, auxJson for both `bangladesh` and
+    `bangladesh-navy` is located at `~/assets/export/bangladesh/flags.json`.
+  - To resolve existence of auxJson and loading them with ease, they need to be
+    registered in `~/assets/export/add-to-flags.json`.
 
 _2020.06.09_
 
