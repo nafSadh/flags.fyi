@@ -2,7 +2,11 @@
 
 > A reverse chronological log
 
-_2020.06.08_
+_2020.06.12_
+
+- Supplementary
+
+_2020.06.09_
 
 - Bulma v0.9.0
   - Bulma released v0.9.0 but Buefy is on v0.7.5 and has yet to publish roadmap

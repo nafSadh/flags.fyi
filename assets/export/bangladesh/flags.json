@@ -1,0 +1,8 @@
+{
+  "bangladesh": {
+    "colors": [
+      { "hex": "006a4e", "color": "green" },
+      { "hex": "f42a41", "color": "red" }
+    ]
+  }
+}
