@@ -5,7 +5,7 @@
 _2020.06.12_
 
 - **Supplementary flags.json files**
-  - Flags.fyi aims to collect a high amount of data on flags. This may lead to
+  - Flags.fyi aims to collect a lage amount of data on flags. This may lead to
     a very large `flags.json` file. The solution is to split this JSON file into
     many.
   - In the spirit of revolving around single `flags.json`, we will split data by
