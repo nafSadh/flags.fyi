@@ -4,7 +4,7 @@
     <section class="section container">
       <article class="content">
         <h1 class="title has-text-grey-dark">{{ title }}</h1>
-        {{ auxData }}
+        {{ flagData }}
       </article>
     </section>
   </div>
@@ -29,16 +29,19 @@ export default {
     idPrefix() {
       return _.split(this.flagId, '-')[0]
     },
+    idSuffix() {
+      return _.split(this.flagId, '-')[0]
+    },
     auxData() {
-      const auxJsonPath = this.idPrefix + '/flags.json'
       if (flagJsonAddOns[this.idPrefix]) {
+        const auxJsonPath = this.idPrefix + '/flags.json'
         const auxJson = require('~/assets/export/' + auxJsonPath)
         return auxJson[this.flagId] ? auxJson[this.flagId] : {}
       }
       return {}
     },
     flagData() {
-      return flagJson[this.flagId]
+      return _.merge(flagJson[this.flagId], this.auxData)
     },
     hasFlagSvg() {
       return !!this.flagData.svg

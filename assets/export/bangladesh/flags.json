@@ -4,5 +4,14 @@
       { "hex": "006a4e", "color": "green" },
       { "hex": "f42a41", "color": "red" }
     ]
+  },
+  "bangladesh-navy": {
+    "use": "naval ensign",
+    "of": { "country": "bangladesh" },
+    "colors": [
+      { "hex": "006a4e", "color": "green" },
+      { "hex": "f42a41", "color": "red" },
+      { "hex": "ffffff", "color": "white" }
+    ]
   }
 }
