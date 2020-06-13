@@ -29,7 +29,10 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ['~/plugins/utils.js'],
+  plugins: [
+    { src: '~/plugins/install-no-ssr.js', ssr: false },
+    '~/plugins/utils.js'
+  ],
   /*
    ** Nuxt.js dev-modules
    */

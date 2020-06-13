@@ -31,8 +31,9 @@
     "@nuxtjs/pwa": "^3.0.0-0",
     "lodash": "^4.17.15",
     "nuxt": "^2.0.0",
+    "nuxt-buefy": "^0.3.2",
     "nuxt-fontawesome": "^0.4.0",
-    "nuxt-buefy": "^0.3.2"
+    "vue-json-component": "^0.4.1"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^2.0.0",

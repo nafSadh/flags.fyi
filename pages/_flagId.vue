@@ -8,6 +8,10 @@
           <h3>Colors</h3>
           <b-table :data="colors" :columns="colorColumns"></b-table>
         </div>
+        <h3>JSON View</h3>
+        <no-ssr>
+          <json-view :data="flagData" />
+        </no-ssr>
       </article>
     </section>
   </div>
