@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="navbar header is-white"
+    class="navbar header is-light"
     role="navigation"
     aria-label="main navigation"
   >
@@ -38,6 +38,3 @@
     </div>
   </nav>
 </template>
-<script>
-export default {}
-</script>

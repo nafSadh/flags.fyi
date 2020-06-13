@@ -6,9 +6,9 @@
   In Flags.fyi, Vexilum displays a flag image in a hero.
 -->
 <template>
-  <section v-if="hasFlagSvg" class="hero is-light is-bold">
-    <div class="hero-body">
-      <div class="container">
+  <section v-if="hasFlagSvg" class="hero is-white has-transparent-fill">
+    <div class="hero-body ">
+      <div class="container ">
         <figure class="image box px-0 py-0 container">
           <img :src="require('~/assets/export/' + `${flagSvg}`)" />
         </figure>
