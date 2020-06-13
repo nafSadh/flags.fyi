@@ -4,7 +4,10 @@
     <section class="section container">
       <article class="content">
         <h1 class="title has-text-grey-dark">{{ title }}</h1>
-        {{ flagData }}
+        <div>
+          <h3>Colors</h3>
+          <b-table :data="colors" :columns="colorColumns"></b-table>
+        </div>
       </article>
     </section>
   </div>
@@ -20,7 +23,9 @@ export default {
     Vexilum
   },
   data() {
-    return {}
+    return {
+      colorColumns: [{ field: 'color' }, { field: 'hex', label: 'hex' }]
+    }
   },
   computed: {
     flagId() {
@@ -42,6 +47,9 @@ export default {
     },
     flagData() {
       return _.merge(flagJson[this.flagId], this.auxData)
+    },
+    colors() {
+      return this.flagData.colors ? this.flagData.colors : []
     },
     hasFlagSvg() {
       return !!this.flagData.svg
