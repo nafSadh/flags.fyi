@@ -8,11 +8,33 @@
           <h3>Colors</h3>
           <b-table :data="colors" :columns="colorColumns"></b-table>
         </div>
-        <h3>JSON View</h3>
-        <no-ssr>
-          <json-view :data="flagData" />
-        </no-ssr>
       </article>
+      <b-collapse class="card" animation="slide" :open="false">
+        <div
+          slot="trigger"
+          slot-scope="props"
+          class="card-header"
+          role="button"
+        >
+          <p class="card-header-title">
+            JSON data
+          </p>
+          <a class="card-header-icon has-text-grey">
+            <fa
+              :icon="
+                props.open ? ['far', 'minus-square'] : ['far', 'plus-square']
+              "
+            />
+          </a>
+        </div>
+        <div class="card-content">
+          <div class="content">
+            <no-ssr>
+              <json-view :data="flagData" />
+            </no-ssr>
+          </div>
+        </div>
+      </b-collapse>
     </section>
   </div>
 </template>
@@ -36,9 +58,6 @@ export default {
       return this.$route.params.flagId
     },
     idPrefix() {
-      return _.split(this.flagId, '-')[0]
-    },
-    idSuffix() {
       return _.split(this.flagId, '-')[0]
     },
     auxData() {
