@@ -29,9 +29,9 @@
         </div>
         <div class="card-content">
           <div class="content">
-            <no-ssr>
+            <client-only>
               <json-view :data="flagData" />
-            </no-ssr>
+            </client-only>
           </div>
         </div>
       </b-collapse>
@@ -40,12 +40,14 @@
 </template>
 <script>
 import _ from 'lodash'
+import CollapseCard from '~/components/CollapseCard'
 import Vexilum from '~/components/Vexillum'
 import flagJson from '~/static/flags.json'
 import flagJsonAddOns from '~/assets/export/add-to-flags.json'
 
 export default {
   components: {
+    CollapseCard,
     Vexilum
   },
   data() {

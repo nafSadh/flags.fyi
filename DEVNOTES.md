@@ -34,7 +34,7 @@ example nesting block-level elements inside <p>, or missing <tbody>. Bailing
 hydration and performing full client-side render.
 ```
 
-One solution can be wrapping use of such components within `<no-ssr>`.
+One solution can be wrapping use of such components within `<client-only>`.
 See more on:
 [Develop Paper](https://developpaper.com/a-common-error-warning-for-nuxt-js/).
 
