@@ -4,7 +4,7 @@
     <section class="section container">
       <article class="content">
         <h1 class="title has-text-grey-dark">{{ title }}</h1>
-        <div>
+        <div v-if="colors.length > 0">
           <h3>Colors</h3>
           <b-table :data="colors" :columns="colorColumns"></b-table>
         </div>
