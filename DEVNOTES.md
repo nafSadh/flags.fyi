@@ -4,6 +4,15 @@
 
 _2020.06.13_
 
+**Vue.js Slots**
+[Slot](https://vuejs.org/v2/guide/components-slots.html)s can be used to pass
+through content into components.
+
+**Display JSON data in tree format**
+
+There are few Vue plugins for this, e.g., 'vue-json-component' and
+'vue-json-tree-view'.
+
 **Installing Vue components/packages**
 
 This was bit of hurdle. Some npm installed third-party components/packages
@@ -37,11 +46,6 @@ hydration and performing full client-side render.
 One solution can be wrapping use of such components within `<client-only>`.
 See more on:
 [Develop Paper](https://developpaper.com/a-common-error-warning-for-nuxt-js/).
-
-**Display JSON data in tree format**
-
-There are few Vue plugins for this, e.g., 'vue-json-component' and
-'vue-json-tree-view'.
 
 _2020.06.12_
 
