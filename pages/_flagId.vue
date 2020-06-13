@@ -9,32 +9,11 @@
           <b-table :data="colors" :columns="colorColumns"></b-table>
         </div>
       </article>
-      <b-collapse class="card" animation="slide" :open="false">
-        <div
-          slot="trigger"
-          slot-scope="props"
-          class="card-header"
-          role="button"
-        >
-          <p class="card-header-title">
-            JSON data
-          </p>
-          <a class="card-header-icon has-text-grey">
-            <fa
-              :icon="
-                props.open ? ['far', 'minus-square'] : ['far', 'plus-square']
-              "
-            />
-          </a>
-        </div>
-        <div class="card-content">
-          <div class="content">
-            <client-only>
-              <json-view :data="flagData" />
-            </client-only>
-          </div>
-        </div>
-      </b-collapse>
+      <collapse-card title="Json Data">
+        <client-only>
+          <json-view :data="flagData" />
+        </client-only>
+      </collapse-card>
     </section>
   </div>
 </template>
