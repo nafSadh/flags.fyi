@@ -1,7 +1,12 @@
 <template>
   <div v-if="hasColors">
     <h3>Colors</h3>
-    <b-table :data="colors">
+    <b-table
+      :data="colors"
+      mobile-cards
+      detailed
+      :has-detailed-visible="(row) => !!row.detail"
+    >
       <template slot-scope="props">
         <b-table-column field="color">
           <fa
@@ -36,6 +41,11 @@
           {{ props.row[col.field] }}
         </b-table-column>
       </template>
+      <template slot="detail" slot-scope="props">
+        <article>
+          {{ props.row.detail }}
+        </article>
+      </template>
     </b-table>
   </div>
 </template>
@@ -55,12 +65,13 @@ export default {
     },
     genericColumns() {
       const genericCols = []
-      const specificCols = new Set(['color', 'hex'])
+      const specificCols = new Set(['color', 'hex', 'detail'])
       const alreadyProcessed = new Set()
       for (const row of this.colors) {
         for (const col of _.keys(row)) {
           if (!specificCols.has(col) && !alreadyProcessed.has(col)) {
             genericCols.push({ field: col, label: this.$titleCase(col) })
+            alreadyProcessed.add(col)
           }
         }
       }
