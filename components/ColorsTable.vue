@@ -24,8 +24,8 @@
         </b-table-column>
         <b-table-column field="hex" label="Hex triplet">
           <template slot="header">
-            <b-tooltip label="Hex triplet" position="is-right" dashed>
-              <a href="https://en.wikipedia.org/wiki/Hex_triplet">Hex</a>
+            <b-tooltip dashed :label="ColorInfo.hex.hint" position="is-right">
+              <a target="_blank" :href="ColorInfo.hex.ref">Hex</a>
             </b-tooltip>
           </template>
           <code
@@ -43,6 +43,15 @@
           :key="col.field"
           :label="col.label"
         >
+          <template slot="header" slot-scope="{ column }">
+            <b-tooltip
+              dashed
+              :label="!!col.hint ? col.hint : col.label"
+              position="is-right"
+            >
+              <a target="_blank" :href="col.ref"> {{ column.label }} </a>
+            </b-tooltip>
+          </template>
           {{ props.row[col.field] }}
         </b-table-column>
       </template>
@@ -56,12 +65,18 @@
 </template>
 <script>
 import _ from 'lodash'
+import ColorInfo from '~/static/color-info.json'
 
 export default {
   props: {
     colors: {
       type: Array,
       required: true
+    }
+  },
+  data() {
+    return {
+      ColorInfo
     }
   },
   computed: {
@@ -75,7 +90,16 @@ export default {
       for (const row of this.colors) {
         for (const col of _.keys(row)) {
           if (!specificCols.has(col) && !alreadyProcessed.has(col)) {
-            genericCols.push({ field: col, label: this.$titleCase(col) })
+            if (_.has(ColorInfo, col)) {
+              const colInfo = ColorInfo[col]
+              colInfo.field = col
+              if (!_.has(colInfo, 'label')) {
+                colInfo.label = this.$titleCase(col)
+              }
+              genericCols.push(colInfo)
+            } else {
+              genericCols.push({ field: col, label: this.$titleCase(col) })
+            }
             alreadyProcessed.add(col)
           }
         }
