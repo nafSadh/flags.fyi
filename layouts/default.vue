@@ -16,7 +16,7 @@ export default {
   },
   head: {
     bodyAttrs: {
-      class: 'has-background-white'
+      class: 'has-background-white has-navbar-fixed-top'
     }
   }
 }
