@@ -1,6 +1,11 @@
 <template>
   <div v-if="hasColors">
-    <h3>Colors</h3>
+    <h2
+      class="title is-5 card-header-title 
+      has-background-primary-light has-text-primary"
+    >
+      Colors
+    </h2>
     <b-table
       :data="colors"
       mobile-cards

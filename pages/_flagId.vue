@@ -6,7 +6,7 @@
         <h1 class="title has-text-grey-dark">{{ title }}</h1>
         <colors-table :colors="flagData.colors" />
       </article>
-      <collapse-card title="JSON data">
+      <collapse-card title="json:data">
         <client-only>
           <json-view :data="flagData" />
         </client-only>

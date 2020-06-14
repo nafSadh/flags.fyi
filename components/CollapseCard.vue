@@ -6,10 +6,14 @@
       class="card-header is-shadowless has-background-light"
       role="button"
     >
-      <h3 class="card-header-title">
+      <h2
+        class="card-header-title 
+        has-background-primary-light has-text-primary 
+        has-text-weight-semibold is-size-5"
+      >
         {{ title }}
-      </h3>
-      <a class="card-header-icon">
+      </h2>
+      <a class="card-header-icon has-background-primary-light">
         <fa
           :icon="props.open ? ['fas', 'chevron-up'] : ['fas', 'chevron-down']"
         />

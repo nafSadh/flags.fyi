@@ -19,6 +19,8 @@ $dimensions: 16 24 32 48 64 96 128 256 !default;
 $link: $primary;
 // $link-focus-border: $twitter;
 
+// $content-heading-color: $primary;
+
 // Import Bulma and Buefy styles
 @import '~bulma';
 @import '~buefy/src/scss/buefy';
