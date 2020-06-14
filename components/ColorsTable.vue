@@ -7,6 +7,11 @@
           {{ $titleCase(props.row.color) }}
         </b-table-column>
         <b-table-column field="hex" label="Hex triplet">
+          <template slot="header">
+            <b-tooltip label="Hex triplet" position="is-right" dashed>
+              <a href="https://en.wikipedia.org/wiki/Hex_triplet">Hex</a>
+            </b-tooltip>
+          </template>
           <code class="has-text-dark">#{{ props.row.hex }}</code>
         </b-table-column>
         <b-table-column
