@@ -9,7 +9,7 @@
       <h3 class="card-header-title">
         {{ title }}
       </h3>
-      <a class="card-header-icon has-text-grey">
+      <a class="card-header-icon">
         <fa
           :icon="props.open ? ['fas', 'chevron-up'] : ['fas', 'chevron-down']"
         />
