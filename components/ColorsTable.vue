@@ -4,6 +4,12 @@
     <b-table :data="colors">
       <template slot-scope="props">
         <b-table-column field="color">
+          <fa
+            icon="square"
+            :style="{
+              color: '#' + `${props.row.hex}`
+            }"
+          />
           {{ $titleCase(props.row.color) }}
         </b-table-column>
         <b-table-column field="hex" label="Hex triplet">
@@ -12,7 +18,15 @@
               <a href="https://en.wikipedia.org/wiki/Hex_triplet">Hex</a>
             </b-tooltip>
           </template>
-          <code class="has-text-dark">#{{ props.row.hex }}</code>
+          <code
+            :class="
+              $rLuminance(props.row.hex) > 0.5
+                ? 'has-text-dark'
+                : 'has-text-light'
+            "
+            :style="{ background: '#' + `${props.row.hex}` }"
+            ><b>#{{ props.row.hex }}</b></code
+          >
         </b-table-column>
         <b-table-column
           v-for="col of genericColumns"
