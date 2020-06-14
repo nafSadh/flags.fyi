@@ -1,7 +1,23 @@
 <template>
   <div v-if="hasColors">
     <h3>Colors</h3>
-    <b-table :data="formattedData" :columns="columns"></b-table>
+    <b-table :data="colors">
+      <template slot-scope="props">
+        <b-table-column field="color">
+          {{ $titleCase(props.row.color) }}
+        </b-table-column>
+        <b-table-column field="hex" label="Hex triplet">
+          <code class="has-text-dark">#{{ props.row.hex }}</code>
+        </b-table-column>
+        <b-table-column
+          v-for="col of genericColumns"
+          :key="col.field"
+          :label="col.label"
+        >
+          {{ props.row[col.field] }}
+        </b-table-column>
+      </template>
+    </b-table>
   </div>
 </template>
 <script>
@@ -18,42 +34,18 @@ export default {
     hasColors() {
       return this.colors && this.colors.length > 0
     },
-    formattedData() {
-      const data = []
-      for (const row of this.colors) {
-        const rowData = {}
-        for (const col of _.keys(row)) {
-          const val = row[col]
-          switch (col) {
-            case 'hex':
-              rowData.hex = '#' + val
-              break
-            case 'color':
-              rowData.color = this.$titleCase(val)
-              break
-            default:
-              rowData[col] = val
-          }
-        }
-        data.push(rowData)
-      }
-      return data
-    },
-    columns() {
-      const columns = [
-        { field: 'color' },
-        { field: 'hex', label: 'Hex triplet' }
-      ]
-      const fixedCols = new Set(['color', 'hex'])
-      const addedColumns = new Set()
+    genericColumns() {
+      const genericCols = []
+      const specificCols = new Set(['color', 'hex'])
+      const alreadyProcessed = new Set()
       for (const row of this.colors) {
         for (const col of _.keys(row)) {
-          if (!fixedCols.has(col) && !addedColumns.has(col)) {
-            columns.push({ field: col, label: this.$titleCase(col) })
+          if (!specificCols.has(col) && !alreadyProcessed.has(col)) {
+            genericCols.push({ field: col, label: this.$titleCase(col) })
           }
         }
       }
-      return columns
+      return genericCols
     }
   }
 }
