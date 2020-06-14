@@ -4,10 +4,7 @@
     <section class="section container">
       <article class="content">
         <h1 class="title has-text-grey-dark">{{ title }}</h1>
-        <div v-if="colors.length > 0">
-          <h3>Colors</h3>
-          <b-table :data="colors" :columns="colorColumns"></b-table>
-        </div>
+        <colors-table :colors="flagData.colors" />
       </article>
       <collapse-card title="Json Data">
         <client-only>
@@ -20,6 +17,7 @@
 <script>
 import _ from 'lodash'
 import CollapseCard from '~/components/CollapseCard'
+import ColorsTable from '~/components/ColorsTable'
 import Vexilum from '~/components/Vexillum'
 import flagJson from '~/static/flags.json'
 import flagJsonAddOns from '~/assets/export/add-to-flags.json'
@@ -27,12 +25,11 @@ import flagJsonAddOns from '~/assets/export/add-to-flags.json'
 export default {
   components: {
     CollapseCard,
+    ColorsTable,
     Vexilum
   },
   data() {
-    return {
-      colorColumns: [{ field: 'color' }, { field: 'hex', label: 'hex' }]
-    }
+    return {}
   },
   computed: {
     flagId() {
@@ -51,9 +48,6 @@ export default {
     },
     flagData() {
       return _.merge(flagJson[this.flagId], this.auxData)
-    },
-    colors() {
-      return this.flagData.colors ? this.flagData.colors : []
     },
     hasFlagSvg() {
       return !!this.flagData.svg
