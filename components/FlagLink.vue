@@ -1,9 +1,9 @@
 <template>
   <nuxt-link :to="to" class="level-left">
-    <span v-if="hasFlagSvg" class="level-item">
+    <span v-if="hasFlagImg" class="level-item">
       <figure class="image is-32x32">
         <img
-          :src="require('~/assets/export/' + `${flagSvg}`)"
+          :src="require('~/assets/export/' + `${flagImg}`)"
           :class="flagIconStyle"
           class="image is-32x32 is-rounded object-fit-cover"
         />
@@ -25,12 +25,12 @@ export default {
     }
   },
   computed: {
-    hasFlagSvg() {
-      return !!this.flagData.svg
+    hasFlagImg() {
+      return !!this.flagData.flag
     },
-    flagSvg() {
-      if (this.flagData.svg) {
-        return this.flagData.svg
+    flagImg() {
+      if (this.flagData.flag) {
+        return this.flagData.flag
       }
       return ''
     },

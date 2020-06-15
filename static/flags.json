@@ -1,19 +1,19 @@
 {
-  "abkhazia": { "svg": "abkhazia/flag.svg", "_": "left" },
+  "abkhazia": { "flag": "abkhazia/flag.svg", "_": "left" },
   "bangladesh": {
-    "svg": "bangladesh/flag.svg",
+    "flag": "bangladesh/flag.svg",
     "use": "national flag",
     "of": { "country": "bangladesh" }
   },
-  "bangladesh-navy": { "svg": "bangladesh/navy.svg" },
+  "bangladesh-navy": { "flag": "bangladesh/navy.svg" },
   "korea": {
-    "svg": "korea/flag.svg",
+    "flag": "korea/flag.svg",
     "title": "Flag of the Republic of Korea (South Korea)"
   },
   "korea-dprk": {
-    "svg": "korea/dprk.svg",
+    "flag": "korea/dprk.svg",
     "title": "Flag of the Democratic People's Republic of Korea (North Korea)"
   },
-  "uk": { "svg": "uk/flag.svg" },
-  "us": { "title": "Flag of the US", "svg": "us/flag.svg", "_": "left" }
+  "uk": { "flag": "uk/flag.svg" },
+  "us": { "title": "Flag of the US", "flag": "us/flag.svg", "_": "left" }
 }

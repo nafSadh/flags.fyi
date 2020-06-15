@@ -6,11 +6,11 @@
   In Flags.fyi, Vexilum displays a flag image in a hero.
 -->
 <template>
-  <section v-if="hasFlagSvg" class="hero is-white has-transparent-fill">
+  <section v-if="hasFlagImg" class="hero is-white has-transparent-fill">
     <div class="hero-body ">
       <div class="container ">
         <figure class="image box px-0 py-0 container">
-          <img :src="require('~/assets/export/' + `${flagSvg}`)" />
+          <img :src="require('~/assets/export/' + `${flagImg}`)" />
         </figure>
       </div>
     </div>
@@ -25,12 +25,12 @@ export default {
     }
   },
   computed: {
-    hasFlagSvg() {
-      return !!this.flagData.svg
+    hasFlagImg() {
+      return !!this.flagData.flag
     },
-    flagSvg() {
-      if (this.flagData.svg) {
-        return this.flagData.svg
+    flagImg() {
+      if (this.flagData.flag) {
+        return this.flagData.flag
       }
       return ''
     }
