@@ -4,48 +4,46 @@
 
 _2020.06.13_
 
-**Vue.js Slots**
-[Slot](https://vuejs.org/v2/guide/components-slots.html)s can be used to pass
-through content into components.
+- **Vue.js Slots**
+  - [Slot](https://vuejs.org/v2/guide/components-slots.html)s can be used to pass
+    through content into components.
 
-**Display JSON data in tree format**
+- **Display JSON data in tree format**
+  - There are few Vue plugins for this, e.g., 'vue-json-component' and
+    'vue-json-tree-view'.
 
-There are few Vue plugins for this, e.g., 'vue-json-component' and
-'vue-json-tree-view'.
-
-**Installing Vue components/packages**
-
-This was bit of hurdle. Some npm installed third-party components/packages
-cannot be imported right away.
-
-In constrast vanilla js npm packages like, `lodash` can be npm installed and
-used in any .vue file right away like this:
-
-```js
-import _ from 'lodash'
-```
-
-Vue plugins need to be [setup](https://nuxtjs.org/guide/plugins/#vue-plugins) in
-NuxtJS. Some of them don't play nice with SSR. Set `ssr` to false for these.
-
-```js
-plugins: [{ src: '~/plugins/install-no-ssr.js', ssr: false }]
-```
-
-See: [SO answer](https://stackoverflow.com/q/54525838/).
-
-You might end up seeing following warning:
-
-```
-[Vue warn]: The client-side rendered virtual DOM tree is not matching
-server-rendered content. This is likely caused by incorrect HTML markup, for
-example nesting block-level elements inside <p>, or missing <tbody>. Bailing
-hydration and performing full client-side render.
-```
-
-One solution can be wrapping use of such components within `<client-only>`.
-See more on:
-[Develop Paper](https://developpaper.com/a-common-error-warning-for-nuxt-js/).
+- **Installing Vue components/packages**
+  This was bit of hurdle. Some npm installed third-party components/packages
+  cannot be imported right away.
+  
+  In constrast vanilla js npm packages like, `lodash` can be npm installed and
+  used in any .vue file right away like this:
+  
+  ```js
+  import _ from 'lodash'
+  ```
+  
+  Vue plugins need to be [setup](https://nuxtjs.org/guide/plugins/#vue-plugins) in
+  NuxtJS. Some of them don't play nice with SSR. Set `ssr` to false for these.
+  
+  ```js
+  plugins: [{ src: '~/plugins/install-no-ssr.js', ssr: false }]
+  ```
+  
+  See: [SO answer](https://stackoverflow.com/q/54525838/).
+  
+  You might end up seeing following warning:
+  
+  ```
+  [Vue warn]: The client-side rendered virtual DOM tree is not matching
+  server-rendered content. This is likely caused by incorrect HTML markup, for
+  example nesting block-level elements inside <p>, or missing <tbody>. Bailing
+  hydration and performing full client-side render.
+  ```
+  
+  One solution can be wrapping use of such components within `<client-only>`.
+  See more on:
+  [Develop Paper](https://developpaper.com/a-common-error-warning-for-nuxt-js/).
 
 _2020.06.12_
 
