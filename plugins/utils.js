@@ -8,7 +8,7 @@ Vue.prototype.$parseHex = function(hex) {
 Vue.prototype.$rgb = (function() {
   /**
    * Converts input string to valid lowercase simple color
-   * see: https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-lowercase-simple-colour
+   * see: https://html.spec.whatwg.org/#valid-lowercase-simple-colour
    *
    * @param {sring} str one of 3/4/6/7 character long string representing rgb
    * @returns {string} string formatted as valid lowercase simple color
