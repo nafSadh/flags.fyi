@@ -2,9 +2,7 @@
   "abkhazia": { "flag": "abkhazia/flag.svg", "_": "left" },
   "afghanistan": { "flag": "afghanistan/flag.svg" },
   "bangladesh": {
-    "flag": "bangladesh/flag.svg",
-    "use": "national flag",
-    "of": { "country": "bangladesh" }
+    "flag": "bangladesh/flag.svg"
   },
   "bangladesh-navy": { "flag": "bangladesh/navy.svg" },
   "korea": {
@@ -13,8 +11,9 @@
   },
   "korea-dprk": {
     "flag": "korea/dprk.svg",
+    "name": "N. Korea (DPRK)",
     "title": "Flag of the Democratic People's Republic of Korea (North Korea)"
   },
-  "uk": { "flag": "uk/flag.svg" },
-  "us": { "title": "Flag of the US", "flag": "us/flag.svg", "_": "left" }
+  "uk": { "flag": "uk/flag.svg", "name": "United Kingdom" },
+  "us": { "flag": "us/flag.svg", "name": "United States", "_": "left" }
 }

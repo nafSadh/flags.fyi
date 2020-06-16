@@ -58,11 +58,16 @@ export default {
       }
       return ''
     },
+    name() {
+      return this.flagData.name
+        ? this.flagData.name
+        : this.$titleCase(this.flagId)
+    },
     title() {
       if (this.flagData.title) {
         return this.flagData.title
       }
-      return this.usedAs + ' of ' + this.$titleCase(this.flagId)
+      return this.usedAs + ' of ' + this.name
     },
     usedAs() {
       if (this.flagData.use) {

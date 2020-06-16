@@ -17,7 +17,13 @@
         "officialSpec": "Brilliant Orange H-2RS 60 parts per 1000",
         "detail": "The red disc represents the sun rising over Bengal, and also the blood of those who died for the independence of Bangladesh."
       }
-    ]
+    ],
+    "use": "national flag",
+    "of": { "country": "bangladesh" },
+    "countryData": {
+      "name": "Bangladesh",
+      "un": "member"
+    }
   },
   "bangladesh-navy": {
     "use": "naval ensign",

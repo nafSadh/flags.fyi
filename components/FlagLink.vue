@@ -9,7 +9,7 @@
         />
       </figure>
     </span>
-    <span class="has-text-primary">{{ title }}</span>
+    <span class="has-text-primary">{{ name }}</span>
   </nuxt-link>
 </template>
 <script>
@@ -34,8 +34,10 @@ export default {
       }
       return ''
     },
-    title() {
-      return this.$titleCase(this.flagId)
+    name() {
+      return this.flagData.name
+        ? this.flagData.name
+        : this.$titleCase(this.flagId)
     },
     to() {
       return {
