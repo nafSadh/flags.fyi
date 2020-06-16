@@ -2,6 +2,20 @@
 
 > A reverse chronological log
 
+_2020.06.15_
+
+- **Color strings**
+  - **RGB Hex**: Follow [Google HTML/CSS Style Guide
+    ](https://google.github.io/styleguide/htmlcssguide.html#Capitalization) and
+    "rules for serializing simple color values" from [WHATWG HTML standard
+    ](https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#colours),
+    thus use [valid lowercase simple color
+    ](https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-lowercase-simple-colour)
+    , i.e., '#' followed by six lowercase hexadecimal digits; e.g.: #17afee.
+    - Exception: To avoid typo, in JSON and code, shorthand is preferred for
+      white (#fff), black (#000) and any color where all six digit are same
+      (e.g., #yyy instead of #yyyyyy). For, rendered HTML use full 7 character.
+
 _2020.06.13_
 
 **Vue.js Slots**

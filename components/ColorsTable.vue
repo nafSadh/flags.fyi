@@ -17,7 +17,7 @@
           <fa
             icon="square"
             :style="{
-              color: '#' + `${props.row.hex}`
+              color: `${$rgb.hex(props.row.hex)}`
             }"
           />
           {{ $titleCase(props.row.color) }}
@@ -25,17 +25,17 @@
         <b-table-column field="hex" label="Hex triplet">
           <template slot="header">
             <b-tooltip dashed :label="ColorInfo.hex.hint" position="is-right">
-              <a target="_blank" :href="ColorInfo.hex.ref">Hex</a>
+              <a target="_blank" :href="ColorInfo.hex.ref">RGB Hex</a>
             </b-tooltip>
           </template>
           <code
             :class="
-              $rLuminance(props.row.hex) > 0.5
+              $rgb.luminance(props.row.hex) > 0.5
                 ? 'has-text-dark'
                 : 'has-text-light'
             "
-            :style="{ background: '#' + `${props.row.hex}` }"
-            ><b>#{{ props.row.hex }}</b></code
+            :style="{ background: `${$rgb.hex(props.row.hex)}` }"
+            ><b>{{ $rgb.hex(props.row.hex) }}</b></code
           >
         </b-table-column>
         <b-table-column
