@@ -1,5 +1,6 @@
 {
   "abkhazia": { "flag": "abkhazia/flag.svg", "_": "left" },
+  "afghanistan": { "flag": "afghanistan/flag.svg" },
   "bangladesh": {
     "flag": "bangladesh/flag.svg",
     "use": "national flag",

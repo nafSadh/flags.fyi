@@ -1,0 +1,11 @@
+{
+  "afghanistan": {
+    "ratio": "2:3",
+    "colors": [
+      { "color": "black", "hex": "#000", "cmyk": "0-0-0-100" },
+      { "color": "red", "hex": "#d32011", "cmyk": "0-85-92-17" },
+      { "color": "green", "hex": "#007a36", "cmyk": "100-0-56-52" },
+      { "color": "white", "hex": "#fff", "cmyk": "0-0-0-0" }
+    ]
+  }
+}
