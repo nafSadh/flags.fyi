@@ -2,7 +2,7 @@
 
 > A reverse chronological log
 
-_2020.06.16_
+_2020.06.16-17_
 
 - **optimize generated file sizes**
   - [optimizeCSS](https://nuxtjs.org/api/configuration-build/#optimizecss)
@@ -11,13 +11,17 @@ _2020.06.16_
   - [extractCSS](https://nuxtjs.org/api/configuration-build/#extractcss)
     bangladesh/index.html 90kB -> 8.36kB
     total /dist 14.2MB -> 2.70MB
-  - [PurgeCSS](https://github.com/Developmint/nuxt-purgecss)
-    bangladesh/index.html 8.36kB -> not affected
-    generated total CSS files ~900kB -> ~50kB
-    total /dist 2.70MB -> 1.98MB
+  - [PurgeCSS](https://github.com/Developmint/nuxt-purgecss)  
+    bangladesh/index.html 8.36kB -> not affected  
+    generated total CSS files ~900kB -> ~50kB  
+    total /dist 2.70MB -> 1.98MB  
     !!! but messes up style and layout
+  - Optimize Font Awesome imports
+    bangladesh/index.html 8.36kB -> 7.86kB  
+    generated total CSS files ~900kB -> ~800kB  
+    total /dist 2.70MB -> 1.98MB
 
-_2020.06.16-A_
+_2020.06.16_
 
 - **use npm/gh-pages for deplyments**
   - install using `npm i -D gh-pages`
