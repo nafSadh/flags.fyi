@@ -2,6 +2,15 @@
 
 > A reverse chronological log
 
+_2020.06.16_
+
+- **use npm/gh-pages for deplyments**
+  - install using `npm i -D gh-pages`
+  - add script in `package.json`:
+    `"deploy": "gh-pages -d dist -m 'deploy changes'"`
+  - sadly gh-pages doesn't update server for new files immediately and thus
+    breaking things
+
 _2020.06.15_
 
 - **Color strings**

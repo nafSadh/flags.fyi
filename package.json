@@ -10,7 +10,8 @@
     "start": "nuxt start",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "generate": "nuxt generate",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
+    "deploy-gh-pages-experimental": "gh-pages -d dist -m 'deploy changes'"
   },
   "lint-staged": {
     "*.{js,vue}": "npm run lint",
