@@ -15,6 +15,7 @@ _2020.06.16_
     bangladesh/index.html 8.36kB -> not affected
     generated total CSS files ~900kB -> ~50kB
     total /dist 2.70MB -> 1.98MB
+    !!! but messes up style and layout
 
 _2020.06.16-A_
 
