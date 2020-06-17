@@ -11,6 +11,10 @@ _2020.06.16_
   - [extractCSS](https://nuxtjs.org/api/configuration-build/#extractcss)
     bangladesh/index.html 90kB -> 8.36kB
     total /dist 14.2MB -> 2.70MB
+  - [PurgeCSS](https://github.com/Developmint/nuxt-purgecss)
+    bangladesh/index.html 8.36kB -> not affected
+    generated total CSS files ~900kB -> ~50kB
+    total /dist 2.70MB -> 1.98MB
 
 _2020.06.16-A_
 
