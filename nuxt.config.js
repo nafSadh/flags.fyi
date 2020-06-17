@@ -67,6 +67,8 @@ export default {
    ** Build configuration
    */
   build: {
+    extractCSS: true,
+    optimizeCSS: {},
     /*
      ** You can extend webpack config here
      */

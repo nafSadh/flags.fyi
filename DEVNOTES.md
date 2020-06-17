@@ -4,6 +4,16 @@
 
 _2020.06.16_
 
+- **optimize generated file sizes**
+  - [optimizeCSS](https://nuxtjs.org/api/configuration-build/#optimizecss)
+    bangladesh/index.html 90kB -> no change
+    total /dist 14.2MB -> no change
+  - [extractCSS](https://nuxtjs.org/api/configuration-build/#extractcss)
+    bangladesh/index.html 90kB -> 8.36kB
+    total /dist 14.2MB -> 2.70MB
+
+_2020.06.16-A_
+
 - **use npm/gh-pages for deplyments**
   - install using `npm i -D gh-pages`
   - add script in `package.json`:
