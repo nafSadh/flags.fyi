@@ -3,7 +3,7 @@
     <div class="hero-body ">
       <div class="container has-text-centered">
         <figure class="image box px-0 py-0 container is-256x256">
-          <img src="~/assets/logo/flagstaff-grid-2.svg" />
+          <img src="~/assets/logo/flagstaff-f.svg" />
         </figure>
         <p class="title">
           Flags.fyi

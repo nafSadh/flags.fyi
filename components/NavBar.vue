@@ -8,7 +8,7 @@
       <div class="navbar-brand">
         <a class="navbar-item has-text-primary" href="/">
           <img
-            src="~assets/logo/flagstaff-grid-2-sm.svg"
+            src="~assets/logo/flagstaff-f.svg"
             alt="flags.fyi"
             height="32"
           />&nbsp;
