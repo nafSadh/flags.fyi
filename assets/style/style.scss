@@ -15,9 +15,14 @@ $twitter-invert: findColorInvert($twitter);
 $navbar-item-img-max-height: 2rem;
 
 $dimensions: 16 24 32 48 64 96 128 256 !default;
-// Links
+
 $link: $primary;
-// $link-focus-border: $twitter;
+
+$custom-colors: (
+  'secondary': (
+    #70ff00
+  )
+);
 
 // $content-heading-color: $primary;
 
