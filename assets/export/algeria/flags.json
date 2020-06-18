@@ -1,0 +1,11 @@
+{
+  "algeria": {
+    "ratio": "2:3",
+    "colors": [
+      { "color": "red", "hex": "#d21034", "pantone": "186 C", "cmyk": "0,92,75,18" },
+      { "color": "green", "hex": "#007229", "pantone": "356 C", "cmyk": "100,0,64,55" },
+      { "color": "white", "hex": "#fff", "pantone": "White", "cmyk": "0,0,0,0" }
+    ],
+    "cs": "algeria/flag.cs.svg"
+  }
+}
