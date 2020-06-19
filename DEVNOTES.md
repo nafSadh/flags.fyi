@@ -38,7 +38,7 @@ _2020.06.16-18_
   }
   ```
 
-  _2020.06.16-17_
+_2020.06.16-17_
 
 - **optimize generated file sizes**
   - [optimizeCSS](https://nuxtjs.org/api/configuration-build/#optimizecss)  
