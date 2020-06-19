@@ -2,9 +2,12 @@
   <div class="main-content">
     <vexilum :flag-data="flagData" />
     <section class="section container">
+      <h1 class="title has-text-grey-dark">{{ title }}</h1>
       <article class="content">
-        <h1 class="title has-text-grey-dark">{{ title }}</h1>
         <colors-table :colors="flagData.colors" />
+        <div v-if="flagData.article" class="content">
+          <markdown-it-vue :content="articleMd" />
+        </div>
       </article>
       <collapse-card title="json:data">
         <client-only>
@@ -74,6 +77,13 @@ export default {
         return this.$titleCase(this.flagData.use)
       }
       return 'Flag'
+    },
+    articleMd() {
+      if (this.flagData.article) {
+        const md = require('~/assets/export/' + this.flagData.article)
+        return md.default
+      }
+      return ''
     }
   }
 }

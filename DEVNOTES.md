@@ -2,7 +2,43 @@
 
 > A reverse chronological log
 
-_2020.06.16-17_
+_2020.06.16-18_
+
+- **support markdown content**
+  Some flag info may contain rich text content. For example as `article` field.
+  This can wither be markdown formatted string inline in `flags.json` files or
+  some `*.md` file.  
+   These contents need to be loaded and rendered within Vue pages.
+
+  Since, this project is using NuxtJS, official Nuxt wrapper for [markdown-it
+  ](https://github.com/markdown-it/markdown-it), [@nuxtjs/markdownit
+  ](https://github.com/nuxt-community/modules/tree/master/packages/markdownit)
+  is the natural first choice. However, it is not the ideal candidate, was it
+  relies on `v-html=` binding. Moreover, it is not well suited for loading `.md`
+  files as it tends to load html-fied content from those.
+
+  Thus:  
+   we are using [markdown-it-vue](https://github.com/ravenq/markdown-it-vue).  
+   `npm i markdown-it-vue --save`
+
+  To load raw `markdown` contents from `.md` files using webpack `require()`,
+  we need to use [raw-loader](https://webpack.js.org/loaders/raw-loader/)  
+  `npm install raw-loader --save-dev`
+
+  Add following settings to `nuxt.config.js`:
+
+  ```js
+  build: {
+    extend(config, ctx) {
+      config.module.rules.push({
+        test: /\.md$/i,
+        use: 'raw-loader'
+      })
+    }
+  }
+  ```
+
+  _2020.06.16-17_
 
 - **optimize generated file sizes**
   - [optimizeCSS](https://nuxtjs.org/api/configuration-build/#optimizecss)  
