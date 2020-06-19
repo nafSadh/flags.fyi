@@ -6,7 +6,9 @@
       <article class="content">
         <colors-table :colors="flagData.colors" />
         <div v-if="flagData.article">
-          <vue-markdown>{{ articleMd }}</vue-markdown>
+          <vue-markdown :breaks="!flagData.article">{{
+            articleMd
+          }}</vue-markdown>
         </div>
       </article>
       <collapse-card title="json:data">
