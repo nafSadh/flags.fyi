@@ -17,9 +17,24 @@ _2020.06.16-18_
   relies on `v-html=` binding. Moreover, it is not well suited for loading `.md`
   files as it tends to load html-fied content from those.
 
-  Thus:  
-   we are using [markdown-it-vue](https://github.com/ravenq/markdown-it-vue).  
-   `npm i markdown-it-vue --save`
+  Thus we are using either of:
+
+  1. [markdown-it-vue](https://github.com/ravenq/markdown-it-vue).
+     `npm i markdown-it-vue --save`
+     - This leads to large build, jumping from 1.98 MB to ~4MB. Switching to
+       `import MarkdownItVueLight from 'markdown-it-vue/dist/markdown-it-vue-light.umd.min.js'`
+       can reduce the size to 3.35MB.
+     - markdown-it-vue and its light version comes with many fancy stuff ans css
+       which makes it bloat
+  2. [vue-markdown](https://www.npmjs.com/package/vue-markdown)
+     Note: it was throwing some error complaining about babel runtime.
+     Per [this gh issue](https://github.com/miaolz123/vue-markdown/issues/18),
+     `npm i babel-runtime --save`, solves it.
+     - this still results in a build of 2.56 MB
+
+  Beware: both of them are still doing client side loading.
+
+  TODO: Find a way to optimize size, also have things ssr'd.
 
   To load raw `markdown` contents from `.md` files using webpack `require()`,
   we need to use [raw-loader](https://webpack.js.org/loaders/raw-loader/)  
@@ -37,9 +52,6 @@ _2020.06.16-18_
     }
   }
   ```
-
-  Note: [vue-markdown](https://www.npmjs.com/package/vue-markdown) was throwing
-  some error complaining about babel runtime.
 
 _2020.06.16-17_
 
