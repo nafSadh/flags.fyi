@@ -38,6 +38,9 @@ _2020.06.16-18_
   }
   ```
 
+  Note: [vue-markdown](https://www.npmjs.com/package/vue-markdown) was throwing
+  some error complaining about babel runtime.
+
 _2020.06.16-17_
 
 - **optimize generated file sizes**

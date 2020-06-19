@@ -5,8 +5,8 @@
       <h1 class="title has-text-grey-dark">{{ title }}</h1>
       <article class="content">
         <colors-table :colors="flagData.colors" />
-        <div v-if="flagData.article" class="content">
-          <markdown-it-vue :content="articleMd" />
+        <div v-if="flagData.article">
+          <vue-markdown>{{ articleMd }}</vue-markdown>
         </div>
       </article>
       <collapse-card title="json:data">
@@ -19,6 +19,7 @@
 </template>
 <script>
 import _ from 'lodash'
+import VueMarkdown from 'vue-markdown'
 import CollapseCard from '~/components/CollapseCard'
 import ColorsTable from '~/components/ColorsTable'
 import Vexilum from '~/components/Vexillum'
@@ -29,7 +30,8 @@ export default {
   components: {
     CollapseCard,
     ColorsTable,
-    Vexilum
+    Vexilum,
+    VueMarkdown
   },
   data() {
     return {}

@@ -31,12 +31,14 @@
     "@nuxtjs/bulma": "https://gitpkg.now.sh/nafSadh/nuxt-modules/packages/bulma?master",
     "@nuxtjs/dotenv": "^1.4.0",
     "@nuxtjs/pwa": "^3.0.0-0",
+    "babel-runtime": "^6.26.0",
     "lodash": "^4.17.15",
     "markdown-it-vue": "^1.1.2",
     "nuxt": "^2.12.0",
     "nuxt-buefy": "^0.3.2",
     "nuxt-fontawesome": "^0.4.0",
-    "vue-json-component": "^0.4.1"
+    "vue-json-component": "^0.4.1",
+    "vue-markdown": "^2.2.4"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^2.0.0",
