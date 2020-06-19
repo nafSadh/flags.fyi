@@ -6,6 +6,7 @@
       { "color": "green", "hex": "#007229", "pantone": "356 C", "cmyk": "100,0,64,55" },
       { "color": "white", "hex": "#fff", "pantone": "White", "cmyk": "0,0,0,0" }
     ],
-    "cs": "algeria/flag.cs.svg"
+    "cs": "algeria/flag.cs.svg",
+    "article": "algeria/flag.md"
   }
 }
