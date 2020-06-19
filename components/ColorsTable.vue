@@ -1,5 +1,5 @@
 <template>
-  <div v-if="hasColors">
+  <div v-if="hasColors" class="has-border-bottom-primary-light">
     <h2
       class="title is-5 card-header-title 
       has-background-primary-light has-text-primary"

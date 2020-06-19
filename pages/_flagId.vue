@@ -1,22 +1,26 @@
 <template>
   <div class="main-content">
     <vexilum :flag-data="flagData" />
-    <section class="section container">
+    <article class="section container">
       <h1 class="title has-text-grey-dark">{{ title }}</h1>
-      <article class="content">
+      <section class="content">
         <colors-table :colors="flagData.colors" />
-        <div v-if="flagData.article">
+        <div v-if="flagData.article" class="py-6">
+          <figure v-if="!!flagData.cs" class="image is-256x256 is-pulled-right">
+            <img :src="require('~/assets/export/' + `${flagData.cs}`)" />
+            <figcaption>Construction sheet</figcaption>
+          </figure>
           <vue-markdown :breaks="!flagData.article">{{
             articleMd
           }}</vue-markdown>
         </div>
-      </article>
+      </section>
       <collapse-card title="json:data">
         <client-only>
           <json-view :data="flagData" />
         </client-only>
       </collapse-card>
-    </section>
+    </article>
   </div>
 </template>
 <script>

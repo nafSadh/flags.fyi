@@ -14,3 +14,13 @@
 .object-fit-cover {
   object-fit: cover;
 }
+
+.has-border-bottom-primary {
+  border-bottom: 1px solid #8f00ff;
+}
+.has-border-bottom-primary-light {
+  border-bottom: 1px solid #f6ebff;
+}
+.has-border-bottom-light {
+  border-bottom: 1px solid #ccc;
+}
