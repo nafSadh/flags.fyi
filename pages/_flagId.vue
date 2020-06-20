@@ -1,6 +1,6 @@
 <template>
   <div class="main-content">
-    <vexilum :flag-data="flagData" />
+    <vexilum :flag="flagData.flag" />
     <article class="section container">
       <h1 class="title has-text-grey-dark">{{ title }}</h1>
       <section class="content">
@@ -27,7 +27,7 @@ import CollapseCard from '~/components/CollapseCard'
 import ColorsTable from '~/components/ColorsTable'
 import ConstructionSheet from '~/components/ConstructionSheet'
 import Vexilum from '~/components/Vexillum'
-import flagJson from '~/static/flags.json'
+import flagsJson from '~/static/flags.json'
 import flagJsonAddOns from '~/assets/export/add-to-flags.json'
 
 export default {
@@ -47,19 +47,26 @@ export default {
     flagId() {
       return this.$route.params.flagId
     },
-    idPrefix() {
-      return _.split(this.flagId, '-')[0]
+    namespace() {
+      return flagsJson[this.flagId].ns || _.split(this.flagId, '-')[0]
+    },
+    namePart() {
+      return this.$namePartFromId(this.flagId, this.namespace)
     },
     auxData() {
-      if (flagJsonAddOns[this.idPrefix]) {
-        const auxJsonPath = this.idPrefix + '/flags.json'
+      if (flagJsonAddOns[this.namespace]) {
+        const auxJsonPath = this.namespace + '/flags.json'
         const auxJson = require('~/assets/export/' + auxJsonPath)
         return auxJson[this.flagId] ? auxJson[this.flagId] : {}
       }
       return {}
     },
     flagData() {
-      return _.merge(flagJson[this.flagId], this.auxData)
+      const flagData = flagsJson[this.flagId]
+      if (!flagData.flag) {
+        flagData.flag = this.$inferFlagSvg(this.namespace, this.namePart)
+      }
+      return _.merge(flagData, this.auxData)
     },
     name() {
       return this.flagData.name

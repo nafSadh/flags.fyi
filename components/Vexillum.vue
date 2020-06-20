@@ -19,18 +19,18 @@
 <script>
 export default {
   props: {
-    flagData: {
-      type: Object,
+    flag: {
+      type: String,
       required: true
     }
   },
   computed: {
     hasFlagImg() {
-      return !!this.flagData.flag
+      return this.flag !== 'none'
     },
     flagImg() {
-      if (this.flagData.flag) {
-        return this.flagData.flag
+      if (this.flag) {
+        return this.flag
       }
       return ''
     }

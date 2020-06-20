@@ -1,13 +1,13 @@
 {
-  "abkhazia": { "flag": "abkhazia/flag.svg", "_": "left" },
-  "afghanistan": { "flag": "afghanistan/flag.svg" },
-  "albania": { "flag": "albania/flag.svg" },
-  "algeria": { "flag": "algeria/flag.svg" },
+  "abkhazia": { "_": "left" },
+  "afghanistan": {},
+  "albania": {},
+  "algeria": {},
   "bangladesh": {
     "flag": "bangladesh/flag.svg"
   },
-  "bangladesh-navy": { "flag": "bangladesh/navy.svg" },
-  "juneteenth": { "flag": "juneteenth/flag.svg" },
+  "bangladesh-navy": {},
+  "juneteenth": {},
   "korea": {
     "flag": "korea/flag.svg",
     "title": "Flag of the Republic of Korea (South Korea)"

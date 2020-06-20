@@ -98,3 +98,17 @@ Vue.prototype.$titleCase = function(str) {
     .map(_.upperFirst)
     .join(' ')
 }
+
+Vue.prototype.$namePartFromId = function(flagId, namespace) {
+  const dashIndex = flagId.indexOf('-')
+  return _.startsWith(flagId, namespace)
+    ? dashIndex > 0
+      ? flagId.substring(dashIndex + 1)
+      : ''
+    : flagId
+}
+
+Vue.prototype.$inferFlagSvg = function(namespace, namePart) {
+  const fileNamePart = namePart && namePart.length > 0 ? namePart : 'flag'
+  return namespace + '/' + fileNamePart + '.svg'
+}

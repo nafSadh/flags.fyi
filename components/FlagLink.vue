@@ -13,6 +13,7 @@
   </nuxt-link>
 </template>
 <script>
+import _ from 'lodash'
 export default {
   props: {
     flagData: {
@@ -25,14 +26,20 @@ export default {
     }
   },
   computed: {
+    namespace() {
+      return this.flagData.ns || _.split(this.flagId, '-')[0]
+    },
+    namePart() {
+      return this.$namePartFromId(this.flagId, this.namespace)
+    },
     hasFlagImg() {
-      return !!this.flagData.flag
+      return this.flagData.flag !== 'none'
     },
     flagImg() {
-      if (this.flagData.flag) {
-        return this.flagData.flag
-      }
-      return ''
+      return this.hasFlagImg
+        ? this.flagData.flag ||
+            this.$inferFlagSvg(this.namespace, this.namePart)
+        : ''
     },
     name() {
       return this.flagData.name
