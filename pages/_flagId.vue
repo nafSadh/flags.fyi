@@ -28,7 +28,7 @@ import ColorsTable from '~/components/ColorsTable'
 import ConstructionSheet from '~/components/ConstructionSheet'
 import Vexilum from '~/components/Vexillum'
 import flagsJson from '~/static/flags.json'
-import flagJsonAddOns from '~/assets/export/add-to-flags.json'
+import flagJsonIncludes from '~/assets/export/include-flags.json'
 
 export default {
   components: {
@@ -54,7 +54,7 @@ export default {
       return this.$namePartFromId(this.flagId, this.namespace)
     },
     auxData() {
-      if (flagJsonAddOns[this.namespace]) {
+      if (flagJsonIncludes[this.namespace]) {
         const auxJsonPath = this.namespace + '/flags.json'
         const auxJson = require('~/assets/export/' + auxJsonPath)
         return auxJson[this.flagId] ? auxJson[this.flagId] : {}

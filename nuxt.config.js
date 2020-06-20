@@ -88,6 +88,7 @@ export default {
   },
 
   generate: {
+    exclude: ['/flag-index-alt'],
     /* generate route for _flagId.vue pages */
     routes() {
       const flagRoutes = []
