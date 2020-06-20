@@ -1,0 +1,14 @@
+{
+  "california": {
+    "ratio": "2:3",
+    "colors": [
+      { "color": "white", "hex": "#fff", "pantone": "Safe", "cableNo": "75001", "label": "White" },
+      { "color": "red", "hex": "#B71234", "pantone": "200", "cableNo": "70180", "label": "Old Glory Red" },
+      { "color": "maple", "hex": "#BD8A5E", "pantone": "729C", "cableNo": "70129", "label": "Maple Sugar" },
+      { "color": "seal", "hex": "#584528", "pantone": "462C", "cableNo": "70108", "label": "Seal" },
+      { "color": "green", "hex": "#008542", "pantone": "348", "cableNo": "70168", "label": "Irish Green" }
+    ],
+    "cs": "us/california.cs.svg",
+    "article": "us/california.md"
+  }
+}
