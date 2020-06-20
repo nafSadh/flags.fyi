@@ -12,5 +12,9 @@
   "pantone": {
     "hint": "PMS",
     "ref": "https://en.wikipedia.org/wiki/Pantone#Pantone_Color_Matching_System"
+  },
+  "cableNo": {
+    "hint": "Standard Color Reference of America",
+    "ref": "https://en.wikipedia.org/wiki/Standard_Color_Reference_of_America"
   }
 }
