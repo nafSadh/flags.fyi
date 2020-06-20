@@ -116,7 +116,14 @@ export default {
     imports: [
       {
         set: '@fortawesome/free-solid-svg-icons',
-        icons: ['faListUl', 'faSquare', 'faChevronUp', 'faChevronDown']
+        icons: [
+          'faListUl',
+          'faSquare',
+          'faChevronUp',
+          'faChevronDown',
+          'faCompress',
+          'faExpandArrowsAlt'
+        ]
       }
       // {
       //   set: '@fortawesome/free-regular-svg-icons',

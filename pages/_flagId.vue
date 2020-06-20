@@ -6,10 +6,7 @@
       <section class="content">
         <colors-table :colors="flagData.colors" />
         <div v-if="flagData.article" class="py-6">
-          <figure v-if="!!flagData.cs" class="image is-256x256 is-pulled-right">
-            <img :src="require('~/assets/export/' + `${flagData.cs}`)" />
-            <figcaption>Construction sheet</figcaption>
-          </figure>
+          <construction-sheet :cs="flagData.cs" />
           <vue-markdown :breaks="!flagData.article">{{
             articleMd
           }}</vue-markdown>
@@ -28,6 +25,7 @@ import _ from 'lodash'
 import VueMarkdown from 'vue-markdown'
 import CollapseCard from '~/components/CollapseCard'
 import ColorsTable from '~/components/ColorsTable'
+import ConstructionSheet from '~/components/ConstructionSheet'
 import Vexilum from '~/components/Vexillum'
 import flagJson from '~/static/flags.json'
 import flagJsonAddOns from '~/assets/export/add-to-flags.json'
@@ -36,11 +34,14 @@ export default {
   components: {
     CollapseCard,
     ColorsTable,
+    ConstructionSheet,
     Vexilum,
     VueMarkdown
   },
   data() {
-    return {}
+    return {
+      expanded: false
+    }
   },
   computed: {
     flagId() {
