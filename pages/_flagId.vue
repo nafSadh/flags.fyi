@@ -61,15 +61,6 @@ export default {
     flagData() {
       return _.merge(flagJson[this.flagId], this.auxData)
     },
-    hasFlagSvg() {
-      return !!this.flagData.svg
-    },
-    flagSvg() {
-      if (this.flagData.svg) {
-        return this.flagData.svg
-      }
-      return ''
-    },
     name() {
       return this.flagData.name
         ? this.flagData.name
