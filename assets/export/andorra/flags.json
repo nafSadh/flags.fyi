@@ -1,0 +1,11 @@
+{
+  "andorra": {
+    "colors": [
+      { "color": "blue", "hex": "#0018a8", "pantone": "Blue 072 C", "cmyk": "100-88-0-5" },
+      { "color": "yellow", "hex": "#fedf00", "pantone": "Yellow C", "cmyk": "0-1-100-0" },
+      { "color": "red", "hex": "#d0103a", "pantone": "199 C", "cmyk": "0-100-62-0" }
+    ],
+    "cs": "andorra/flag.cs.svg",
+    "article": "andorra/flag.md"
+  }
+}
