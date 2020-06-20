@@ -1,4 +1,4 @@
-## Description
+## Construction
 
 The national flag of Algeria (Arabic: علم الجزائر‎, romanized: ʿalam al-jazāʾir,
 Berber languages: ⴰⵛⴻⵏⵢⴰⵍ ⵏ ⴷⵣⴰⵢⴻⵔ, romanized: Acenyal n Dzayer ) consists of two
@@ -6,8 +6,6 @@ equal vertical bars, green and white, charged in the center with a red star and
 crescent, a symbol of Islam as the nation's prominent faith. The flag was
 adopted on 3 July 1962. A similar version was used by the Algerian government in
 exile from 1958–1962.
-
-## Construction
 
 According to algeria-un.org, cited in 1999, the features of the flag are set
 down precisely, being described as:
