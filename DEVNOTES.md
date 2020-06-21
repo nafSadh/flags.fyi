@@ -2,6 +2,10 @@
 
 > A reverse chronological log
 
+_2020.06.16-21_
+
+- Renamed primary branch name to 'default' from 'master'
+
 _2020.06.16-18_
 
 - **support markdown content**
