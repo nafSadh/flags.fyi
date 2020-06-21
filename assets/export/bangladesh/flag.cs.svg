@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 width="1210" height="870" viewBox="172 80 1210 870">
+	<rect x="273.5" y="231.5" fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" width="1000" height="600"/>
+<g>
+	<line x1="274" y1="178" x2="1274" y2="178"/>
+	<g>
+		<line fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" x1="290" y1="178" x2="296" y2="178"/>
+		
+			<line fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" stroke-dasharray="12,12" x1="308" y1="178" x2="1246" y2="178"/>
+		<line fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" x1="1252" y1="178" x2="1258" y2="178"/>
+		<g>
+			<path d="M293.895,178l4.383-7.206l-0.246-0.163l-11.75,4.667c-4.094,0.9-8.188,1.801-12.281,2.702
+				c4.094,0.9,8.188,1.801,12.281,2.702l11.75,4.667l0.246-0.123L293.895,178z"/>
+		</g>
+		<g>
+			<path d="M1254.105,178l-4.383-7.206l0.246-0.163l11.75,4.667c4.094,0.9,8.188,1.801,12.281,2.702
+				c-4.094,0.9-8.188,1.801-12.281,2.702l-11.75,4.667l-0.246-0.123L1254.105,178z"/>
+		</g>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 737.0649 151.6875)" font-family="'MyriadPro-Regular'" font-size="72">10</text>
+<text transform="matrix(1 0 0 1 190.8042 553.5)" font-family="'MyriadPro-Regular'" font-size="72">6</text>
+<line fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" stroke-dasharray="2,3" x1="274" y1="530.5" x2="1274" y2="530.5"/>
+<g>
+	<g>
+		<line fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" x1="251" y1="247" x2="251" y2="253"/>
+		
+			<line fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" stroke-dasharray="12,12" x1="251" y1="265" x2="251" y2="803"/>
+		<line fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" x1="251" y1="809" x2="251" y2="815"/>
+		<g>
+			<path d="M251,250.895l7.206,4.383l0.163-0.246l-4.667-11.75c-0.9-4.094-1.801-8.188-2.702-12.281
+				c-0.9,4.094-1.801,8.188-2.702,12.281l-4.667,11.75l0.123,0.246L251,250.895z"/>
+		</g>
+		<g>
+			<path d="M251,811.105l7.206-4.383l0.163,0.246l-4.667,11.75c-0.9,4.094-1.801,8.188-2.702,12.281
+				c-0.9-4.094-1.801-8.188-2.702-12.281l-4.667-11.75l0.123-0.246L251,811.105z"/>
+		</g>
+	</g>
+</g>
+<g>
+	<line x1="274" y1="865" x2="724" y2="865"/>
+	<g>
+		
+			<line fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" stroke-dasharray="12,12" x1="290" y1="865" x2="708" y2="865"/>
+		<g>
+			<path d="M293.895,864.5l4.383-7.206l-0.246-0.163l-11.75,4.667c-4.094,0.9-8.188,1.801-12.281,2.702
+				c4.094,0.9,8.188,1.801,12.281,2.702l11.75,4.667l0.246-0.123L293.895,864.5z"/>
+		</g>
+		<g>
+			<path d="M704.105,864.5l-4.383-7.206l0.246-0.163l11.75,4.667c4.094,0.9,8.188,1.801,12.281,2.702
+				c-4.094,0.9-8.188,1.801-12.281,2.702l-11.75,4.667l-0.246-0.123L704.105,864.5z"/>
+		</g>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 454.6133 929.5684)" font-family="'MyriadPro-Regular'" font-size="72">4.5</text>
+<line stroke="#000000" stroke-width="3" stroke-miterlimit="10" stroke-dasharray="2,3" x1="723.5" y1="831" x2="723.5" y2="231"/>
+<circle fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" cx="723.062" cy="531.081" r="200"/>
+<g>
+	<g>
+		
+			<line fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="10" stroke-dasharray="12,12" x1="723.062" y1="531.081" x2="879.939" y2="445.08"/>
+		<g>
+			<path d="M898.462,434.926c-6.942,8.012-14.731,19.458-18.23,28.977l-2.723-17.491l-13.279-11.699
+				C874.137,436.883,887.975,436.473,898.462,434.926z"/>
+		</g>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 743.8037 602.5928)" font-family="'MyriadPro-Regular'" font-size="72">r = 2</text>
+<g>
+	<line x1="1294" y1="531" x2="1294" y2="831"/>
+	<g>
+		
+			<line fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" stroke-dasharray="12,12" x1="1294" y1="547" x2="1294" y2="815"/>
+		<g>
+			<path d="M1294,550.895l7.206,4.383l0.163-0.246l-4.667-11.75c-0.9-4.094-1.801-8.188-2.702-12.281
+				c-0.9,4.094-1.801,8.188-2.702,12.281l-4.667,11.75l0.123,0.246L1294,550.895z"/>
+		</g>
+		<g>
+			<path d="M1294,811.105l7.206-4.383l0.163,0.246l-4.667,11.75c-0.9,4.094-1.801,8.188-2.702,12.281
+				c-0.9-4.094-1.801-8.188-2.702-12.281l-4.667-11.75l0.123-0.246L1294,811.105z"/>
+		</g>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 1315.5879 697.0547)" font-family="'MyriadPro-Regular'" font-size="72">3</text>
+</svg>
