@@ -13,7 +13,7 @@
       <section class="content">
         <colors-table v-if="flagData.colors" :colors="flagData.colors" />
         <div class="pt-6">
-          <h2 v-if="!flagData.article">Construction</h2>
+          <h2 v-if="!flagData.article && !!flagData.cs">Construction</h2>
           <construction-sheet
             v-if="flagData.cs"
             :cs="flagData.cs"
