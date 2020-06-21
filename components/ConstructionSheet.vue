@@ -1,13 +1,9 @@
 <template>
-  <figure
-    v-if="!!cs"
-    class="image "
-    :class="expanded ? '' : 'is-160x160 is-pulled-right'"
-  >
+  <figure v-if="!!cs" class="image " :class="expanded ? fullStyle : thumbStyle">
     <img :src="require('~/assets/export/' + `${cs}`)" />
     <figcaption @click="expanded = !expanded">
       Construction sheet
-      <a>
+      <a class="is-hidden-mobile">
         <fa :icon="expanded ? 'compress' : 'expand-arrows-alt'" />
       </a>
     </figcaption>
@@ -15,9 +11,15 @@
 </template>
 <script>
 export default {
-  props: { cs: { type: String, required: true } },
+  props: {
+    cs: { type: String, required: true },
+    fullStyle: { type: String, default: '' },
+    thumbStyle: { type: String, default: 'is-tablet-160x160 is-pulled-right' }
+  },
   data() {
-    return { expanded: false }
+    return {
+      expanded: false
+    }
   }
 }
 </script>

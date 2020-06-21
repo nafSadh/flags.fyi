@@ -2,12 +2,25 @@
   <div class="main-content">
     <vexilum :flag="flagData.flag" />
     <article class="section container">
-      <h1 class="title has-text-grey-dark">{{ title }}</h1>
+      <div class="columns multiline">
+        <div class="column">
+          <h1 class="title has-text-grey-dark">{{ title }}</h1>
+        </div>
+        <div v-if="flagData.cs" class="column is-half"></div>
+      </div>
       <section class="content">
         <colors-table :colors="flagData.colors" />
-        <div v-if="flagData.article" class="py-6">
-          <construction-sheet :cs="flagData.cs" />
-          <vue-markdown :breaks="!flagData.article">{{
+        <div class="py-6">
+          <h2 v-if="!flagData.article">Construction</h2>
+          <construction-sheet
+            :cs="flagData.cs"
+            :thumb-style="
+              flagData.article
+                ? 'is-tablet-160x160 is-pulled-right'
+                : 'is-tablet-256x256 mx-0'
+            "
+          />
+          <vue-markdown v-if="flagData.article" :breaks="!flagData.article">{{
             articleMd
           }}</vue-markdown>
         </div>
