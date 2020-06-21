@@ -13,7 +13,10 @@
       <section class="content">
         <colors-table v-if="flagData.colors" :colors="flagData.colors" />
         <div class="pt-6">
-          <h2 v-if="!flagData.article && !!flagData.cs">Construction</h2>
+          <h2 v-if="!flagData.article && !flagData.design && !!flagData.cs">
+            Construction
+          </h2>
+          <h2 v-if="!!flagData.design">Design</h2>
           <construction-sheet
             v-if="flagData.cs"
             :cs="flagData.cs"
@@ -23,6 +26,7 @@
                 : 'is-tablet-256x256 mx-0'
             "
           />
+          <span v-if="!!flagData.design">{{ flagData.design }}</span>
           <vue-markdown v-if="flagData.article" :breaks="!flagData.article">{{
             articleMd
           }}</vue-markdown>
