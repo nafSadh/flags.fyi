@@ -40,3 +40,7 @@ $custom-colors: (
     }
   }
 }
+
+.has-max-width-tablet {
+  max-width: $tablet;
+}

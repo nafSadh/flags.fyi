@@ -1,6 +1,9 @@
 <template>
   <figure v-if="!!cs" class="image " :class="expanded ? fullStyle : thumbStyle">
-    <img :src="require('~/assets/export/' + `${cs}`)" />
+    <img
+      :src="require('~/assets/export/' + `${cs}`)"
+      class="has-max-width-tablet"
+    />
     <figcaption @click="expanded = !expanded">
       Construction sheet
       <a class="is-hidden-mobile">

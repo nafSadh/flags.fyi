@@ -10,13 +10,13 @@
       </div>
       <section class="content">
         <colors-table :colors="flagData.colors" />
-        <div class="py-6">
+        <div class="pt-6">
           <h2 v-if="!flagData.article">Construction</h2>
           <construction-sheet
             :cs="flagData.cs"
             :thumb-style="
               flagData.article
-                ? 'is-tablet-160x160 is-pulled-right'
+                ? 'is-tablet-192x192 is-pulled-right pt-3'
                 : 'is-tablet-256x256 mx-0'
             "
           />
