@@ -6,13 +6,16 @@
         <div class="column">
           <h1 class="title has-text-grey-dark">{{ title }}</h1>
         </div>
-        <div v-if="flagData.cs" class="column is-half"></div>
+        <div class="column is-narrow">
+          <browse-flags-buttons :flag-id="flagId" />
+        </div>
       </div>
       <section class="content">
-        <colors-table :colors="flagData.colors" />
+        <colors-table v-if="flagData.colors" :colors="flagData.colors" />
         <div class="pt-6">
           <h2 v-if="!flagData.article">Construction</h2>
           <construction-sheet
+            v-if="flagData.cs"
             :cs="flagData.cs"
             :thumb-style="
               flagData.article
@@ -36,6 +39,7 @@
 <script>
 import _ from 'lodash'
 import VueMarkdown from 'vue-markdown'
+import BrowseFlagsButtons from '~/components/BrowseFlagsButtons'
 import CollapseCard from '~/components/CollapseCard'
 import ColorsTable from '~/components/ColorsTable'
 import ConstructionSheet from '~/components/ConstructionSheet'
@@ -45,6 +49,7 @@ import flagJsonIncludes from '~/assets/export/include-flags.json'
 
 export default {
   components: {
+    BrowseFlagsButtons,
     CollapseCard,
     ColorsTable,
     ConstructionSheet,

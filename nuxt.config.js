@@ -122,6 +122,8 @@ export default {
           'faSquare',
           'faChevronUp',
           'faChevronDown',
+          'faChevronRight',
+          'faChevronLeft',
           'faCompress',
           'faExpandArrowsAlt'
         ]

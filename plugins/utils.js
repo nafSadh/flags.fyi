@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import _ from 'lodash'
+import flagsJson from '~/static/flags.json'
 
 Vue.prototype.$parseHex = function(hex) {
   return parseInt(Number('0x' + hex), 10)
@@ -112,3 +113,18 @@ Vue.prototype.$inferFlagSvg = function(namespace, namePart) {
   const fileNamePart = namePart && namePart.length > 0 ? namePart : 'flag'
   return namespace + '/' + fileNamePart + '.svg'
 }
+
+function computeMetadata() {
+  const metadata = {}
+  const list = _.keys(flagsJson)
+  const n = list.length
+  metadata[list[0]] = { prev: list[n - 1], next: list[1] }
+  for (let i = 1; i < n - 1; i++) {
+    metadata[list[i]] = { prev: list[i - 1], next: list[i + 1] }
+  }
+  metadata[list[n - 1]] = { prev: list[n - 2], next: list[0] }
+
+  return metadata
+}
+
+Vue.prototype.$metadata = computeMetadata()
