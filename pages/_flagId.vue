@@ -13,10 +13,10 @@
       <section class="content">
         <colors-table v-if="flagData.colors" :colors="flagData.colors" />
         <div class="pt-6">
-          <h2 v-if="!flagData.article && !flagData.design && !!flagData.cs">
+          <h2 v-if="!flagData.article && !flagData.desc && !!flagData.cs">
             Construction
           </h2>
-          <h2 v-if="!!flagData.design">Design</h2>
+          <h2 v-if="!!flagData.desc">Description</h2>
           <construction-sheet
             v-if="flagData.cs"
             :cs="flagData.cs"
@@ -26,7 +26,7 @@
                 : 'is-tablet-256x256 mx-0'
             "
           />
-          <span v-if="!!flagData.design">{{ flagData.design }}</span>
+          <span v-if="!!flagData.desc">{{ flagData.desc }}</span>
           <vue-markdown v-if="flagData.article" :breaks="!flagData.article">{{
             articleMd
           }}</vue-markdown>
@@ -77,18 +77,23 @@ export default {
     },
     auxData() {
       if (flagJsonIncludes[this.namespace]) {
-        const auxJsonPath = this.namespace + '/flags.json'
+        const auxJsonPath =
+          this.namespace + '/' + flagJsonIncludes[this.namespace]
         const auxJson = require('~/assets/flags/' + auxJsonPath)
         return auxJson[this.flagId] ? auxJson[this.flagId] : {}
       }
       return {}
     },
     flagData() {
-      const flagData = flagsJson[this.flagId]
+      let flagData = flagsJson[this.flagId]
+      flagData = _.merge(flagData, this.auxData)
       if (!flagData.flag) {
         flagData.flag = this.$inferFlagSvg(this.namespace, this.namePart)
       }
-      return _.merge(flagData, this.auxData)
+      if (flagData.desc) {
+        flagData.desc = this.$arrayText(flagData.desc)
+      }
+      return flagData
     },
     name() {
       return this.flagData.name

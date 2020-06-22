@@ -128,3 +128,16 @@ function computeMetadata() {
 }
 
 Vue.prototype.$metadata = computeMetadata()
+
+Vue.prototype.$arrayText = function(arrayText) {
+  if (_.isString(arrayText)) {
+    return arrayText
+  } else if (_.isArray(arrayText)) {
+    let text = ''
+    for (const str of arrayText) {
+      text += str + ' '
+    }
+    return text
+  }
+  return ''
+}
