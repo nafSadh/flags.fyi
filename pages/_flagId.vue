@@ -49,7 +49,7 @@ import ColorsTable from '~/components/ColorsTable'
 import ConstructionSheet from '~/components/ConstructionSheet'
 import Vexilum from '~/components/Vexillum'
 import flagsJson from '~/static/flags.json'
-import flagJsonIncludes from '~/assets/flags/include-flags.json'
+import flagJsonIncludes from '~/assets/flags/includes.json'
 
 export default {
   components: {
