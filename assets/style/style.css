@@ -11,6 +11,10 @@
   object-position: left;
 }
 
+.object-at-right {
+  object-position: right;
+}
+
 .object-fit-cover {
   object-fit: cover;
 }

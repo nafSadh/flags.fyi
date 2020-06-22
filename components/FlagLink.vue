@@ -56,7 +56,9 @@ export default {
     },
     flagIconStyle() {
       return {
-        'object-at-left': !!this.flagData._ && this.flagData._.includes('left')
+        'object-at-left': !!this.flagData._ && this.flagData._.includes('left'),
+        'object-at-right':
+          !!this.flagData._ && this.flagData._.includes('right')
       }
     }
   }
