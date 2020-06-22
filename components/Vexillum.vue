@@ -10,7 +10,7 @@
     <div class="hero-body ">
       <div class="container ">
         <figure class="image box px-0 py-0 container">
-          <img :src="require('~/assets/export/' + `${flagImg}`)" />
+          <img :src="require('~/assets/flags/' + `${flagImg}`)" />
         </figure>
       </div>
     </div>

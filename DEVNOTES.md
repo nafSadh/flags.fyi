@@ -4,6 +4,9 @@
 
 _2020.06.16-21_
 
+- **[flags]**  
+  moved `~/asset/export/` to `~/asset/flags/` to better match with commit tag:
+  [flag]
 - Renamed primary branch name to 'default' from 'master'
 
 _2020.06.16-18_
@@ -153,12 +156,12 @@ _2020.06.12_
     fields. Top level `flags.json` will only contain bare minimum essential
     fields, such as, flag-id, svg, used as etc. All non essential fields, such
     as, color data, related flags etc. will be in many auxiliary JSON files.
-  - Auxiliary JSON (auxJson) files will be in `~/assets/export/` directories.
+  - Auxiliary JSON (auxJson) files will be in `~/assets/flags/` directories.
   - The first part of kebob-cased-flag-id is idPrefix. AuxJson files will be in
     directory named idPrefix. For example, auxJson for both `bangladesh` and
-    `bangladesh-navy` is located at `~/assets/export/bangladesh/flags.json`.
+    `bangladesh-navy` is located at `~/assets/flags/bangladesh/flags.json`.
   - To resolve existence of auxJson and loading them with ease, they need to be
-    registered in `~/assets/export/add-to-flags.json`.
+    registered in `~/assets/flags/add-to-flags.json`.
 
 _2020.06.09_
 
@@ -186,7 +189,8 @@ _2020.06.06_
     served from generated websites root location, i.e., as if they were in nuxt
     `~/static/` directory.
     Hence:
-    - move flag images to `~/asset/export/`
+    - move flag images to ~~`~/asset/export/`~~
+      <small>[updated on 2020.06.21:]</small> `~/asset/flags/`
     - use `npm i copy-dir --save-dev` to copy files from this directory to the
       `dist/` root upon `nuxt generate` by adding a hook to `generate.done`
 

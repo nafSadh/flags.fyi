@@ -3,7 +3,7 @@
     <span v-if="hasFlagImg" class="level-item">
       <figure class="image is-32x32">
         <img
-          :src="require('~/assets/export/' + `${flagImg}`)"
+          :src="require('~/assets/flags/' + `${flagImg}`)"
           :class="flagIconStyle"
           class="image is-32x32 is-rounded object-fit-cover"
         />

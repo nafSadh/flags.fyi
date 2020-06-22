@@ -33,7 +33,7 @@
               </div>
               <figure class="image">
                 <img
-                  :src="require('~/assets/export/' + `${flagData.flag}`)"
+                  :src="require('~/assets/flags/' + `${flagData.flag}`)"
                   class="image object-fit-cover"
                 />
               </figure>
@@ -46,7 +46,7 @@
       <span v-for="(flagData, flagId) in flagsJson" :key="flagId">
         <span class="is-size-4">
           <span class="icon is-medium">
-            <img :src="require('~/assets/export/' + `${flagData.flag}`)" />
+            <img :src="require('~/assets/flags/' + `${flagData.flag}`)" />
           </span>
           {{ flagId }}
         </span>

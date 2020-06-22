@@ -1,7 +1,7 @@
 <template>
   <figure v-if="!!cs" class="image " :class="expanded ? fullStyle : thumbStyle">
     <img
-      :src="require('~/assets/export/' + `${cs}`)"
+      :src="require('~/assets/flags/' + `${cs}`)"
       class="has-max-width-tablet"
     />
     <figcaption @click="expanded = !expanded">

@@ -107,7 +107,7 @@ export default {
         /* use https://www.npmjs.com/package/copy-dir to 
         export some assets to root */
         const copydir = require('copy-dir')
-        copydir.sync('./assets/export', './dist')
+        copydir.sync('./assets/flags', './dist')
       }
     }
   },
