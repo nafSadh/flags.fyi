@@ -15,7 +15,7 @@
 <script>
 export default {
   props: {
-    cs: { type: String, required: true },
+    cs: { type: String, default: undefined },
     fullStyle: { type: String, default: '' },
     thumbStyle: { type: String, default: 'is-tablet-160x160 is-pulled-right' }
   },

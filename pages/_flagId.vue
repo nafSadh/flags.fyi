@@ -11,14 +11,15 @@
         </div>
       </div>
       <section class="content">
-        <colors-table v-if="flagData.colors" :colors="flagData.colors" />
-        <div class="pt-6">
+        <div v-if="flagData.colors" class="pb-4">
+          <colors-table :colors="flagData.colors" />
+        </div>
+        <div class="pt-4">
           <h2 v-if="!flagData.article && !flagData.desc && !!flagData.cs">
             Construction
           </h2>
           <h2 v-if="!!flagData.desc">Description</h2>
           <construction-sheet
-            v-if="flagData.cs"
             :cs="flagData.cs"
             :thumb-style="
               flagData.article
