@@ -141,3 +141,7 @@ Vue.prototype.$arrayText = function(arrayText) {
   }
   return ''
 }
+
+Vue.prototype.$toFlagId = function(flagId) {
+  return { name: 'flagId', params: { flagId } }
+}
