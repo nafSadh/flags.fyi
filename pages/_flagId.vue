@@ -18,7 +18,7 @@
           <h2 v-if="!flagData.article && !flagData.desc && !!flagData.cs">
             Construction
           </h2>
-          <h2 v-if="!!flagData.desc">Description</h2>
+          <h2 v-if="!!flagData.desc && !!flagData.colors">Description</h2>
           <construction-sheet
             :cs="flagData.cs"
             :thumb-style="
@@ -27,7 +27,9 @@
                 : 'is-tablet-256x256 mx-0'
             "
           />
-          <span v-if="!!flagData.desc">{{ flagData.desc }}</span>
+          <vue-markdown v-if="!!flagData.desc">{{
+            flagData.desc
+          }}</vue-markdown>
           <vue-markdown v-if="flagData.article" :breaks="!flagData.article">{{
             articleMd
           }}</vue-markdown>
@@ -105,13 +107,8 @@ export default {
       if (this.flagData.title) {
         return this.flagData.title
       }
-      return this.usedAs + ' of ' + this.name
-    },
-    usedAs() {
-      if (this.flagData.use) {
-        return this.$titleCase(this.flagData.use)
-      }
-      return 'Flag'
+      const usedAs = this.$titleCase(this.$parseUse(this.flagData.use).as)
+      return usedAs + ' of ' + this.name
     },
     articleMd() {
       if (this.flagData.article) {

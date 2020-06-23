@@ -145,3 +145,8 @@ Vue.prototype.$arrayText = function(arrayText) {
 Vue.prototype.$toFlagId = function(flagId) {
   return { name: 'flagId', params: { flagId } }
 }
+
+Vue.prototype.$parseUse = function(use) {
+  const useObj = { as: _.isString(use) ? use : 'flag' }
+  return _.isObject(use) ? _.merge(useObj, use) : useObj
+}
