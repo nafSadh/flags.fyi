@@ -7,11 +7,19 @@
   "angola": {},
   "anguilla": { "ns": "british" },
   "anguilla-dolphin": { "ns": "british", "name": "Dolphin Flag" },
+  "anguilla-governor": { "ns": "british" },
+  "bermuda": { "ns": "british" },
+  "british-antarctic-territory": {},
+  "british-falkland-islands": {},
+  "british-indian-ocean-territory": {},
+  "british-virgin-islands": {},
   "bangladesh": {
     "flag": "bangladesh/flag.svg"
   },
   "bangladesh-navy": {},
   "california": { "ns": "us" },
+  "cayman-islands": { "ns": "british" },
+  "gibraltar": { "ns": "british" },
   "juneteenth": {},
   "korea": {
     "flag": "korea/flag.svg",

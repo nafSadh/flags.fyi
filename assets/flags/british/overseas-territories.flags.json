@@ -12,5 +12,14 @@
     "title": "Dolphin Flag of Anguilla",
     "use": { "as": "former flag", "since": "1967.09.29", "until": "1969.03.19" },
     "article": "british/anguilla-dolphin.md"
+  },
+  "anguilla-governor": { "title": "Standard of the Governor of Anguilla" },
+  "bermuda": {
+    "ratio": "1:2",
+    "use": { "since": "1999" },
+    "desc": [
+      "The **flag of Bermuda** is a British Red Ensign with the Union Flag in the upper left corner,",
+      "and the coat of arms of Bermuda in the lower right."
+    ]
   }
 }
