@@ -1,6 +1,12 @@
-<!-- a button in a <nuxt-link/>, can have fa icon and the slot. -->
+<!-- 
+A button in a <nuxt-link>, can have fa icon and the slot. 
+
+<nuxt-link-button> extends <nuxt-link> (https://nuxtjs.org/api/components-nuxt-link/),
+which in turn extends <router-link> with tag (https://router.vuejs.org/api/#tag)
+set to button. This way, it renders as a button.  
+-->
 <template>
-  <nuxt-link :to="to" class="button">
+  <nuxt-link tag="button" :to="to" class="button">
     <span v-if="!!icon" class="icon is-small">
       <fa :icon="icon" />
     </span>
