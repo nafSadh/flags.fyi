@@ -1,15 +1,15 @@
 <template>
   <div class="buttons has-addons">
     <nuxt-link-button
+      v-shortkey="{ 0: ['arrowleft'], p: ['p'] }"
       icon="chevron-left"
       :to="toPrev"
-      v-shortkey="{ 0: ['arrowleft'], p: ['p'] }"
       @shortkey.native="$router.push(toPrev)"
     />
     <nuxt-link-button
+      v-shortkey="{ 0: ['arrowright'], n: ['n'] }"
       icon="chevron-right"
       :to="toNext"
-      v-shortkey="{ 0: ['arrowright'], n: ['n'] }"
       @shortkey.native="$router.push(toNext)"
     />
   </div>
