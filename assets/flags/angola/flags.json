@@ -7,8 +7,7 @@
       { "color": "black", "hex": "#000", "pantone": "Process Black C", "cmyk": "10/10/10/100" }
     ],
     "desc": "Two horizontal bands of red and black with the Machete and Gear Emblem in the center.",
-    "use": "national flag",
-    "since": "1975.11.11",
+    "use": { "as": "national flag", "since": "1975-11-11" },
     "of": { "country": "angola" },
     "countryData": {
       "officialName": "Republic of Angola",
