@@ -6,7 +6,7 @@
   "printWidth": 80,
   "overrides": [
     {
-      "files": ["flags.json"],
+      "files": ["*flags.json"],
       "options": {
         "printWidth": 120
       }
