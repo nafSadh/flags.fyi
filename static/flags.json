@@ -6,6 +6,7 @@
   "andorra": {},
   "angola": {},
   "anguilla": { "ns": "british" },
+  "anguilla-dolphin": { "ns": "british", "name": "Dolphin Flag" },
   "bangladesh": {
     "flag": "bangladesh/flag.svg"
   },
