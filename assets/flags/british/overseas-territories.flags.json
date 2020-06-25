@@ -21,5 +21,15 @@
       "The **flag of Bermuda** is a British Red Ensign with the Union Flag in the upper left corner,",
       "and the coat of arms of Bermuda in the lower right."
     ]
-  }
+  },
+  "british-overseas-territories": {
+    "title": "British Overseas Territories (Unofficial flag)",
+    "desc": [
+      "Flag used by **Friends of the British Overseas Territories** _(FOTBOT)_.",
+      "It is a charitable and youth organisation based in the United Kingdom that seeks to raise awareness about the",
+      "16 British Overseas Territories (BOTs) by promoting their culture, history and bio-diversity."
+    ]
+  },
+  "pitcairn": { "title": "Flag of Pitcairn, Henderson, Ducie and Oeno Islands" },
+  "sgssi": { "title": "South Georgia and the South Sandwich Islands" }
 }

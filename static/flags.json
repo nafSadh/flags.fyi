@@ -8,10 +8,12 @@
   "anguilla": { "ns": "british" },
   "anguilla-dolphin": { "ns": "british", "name": "Dolphin Flag" },
   "anguilla-governor": { "ns": "british" },
+  "ascension-island": { "ns": "british" },
   "bermuda": { "ns": "british" },
   "british-antarctic-territory": {},
   "british-falkland-islands": {},
   "british-indian-ocean-territory": {},
+  "british-overseas-territories": {},
   "british-virgin-islands": {},
   "bangladesh": {},
   "bangladesh-navy": {},
@@ -29,6 +31,12 @@
     "title": "Flag of the Democratic People's Republic of Korea (North Korea)"
   },
   "mann": { "ns": "british.cd", "name": "Mann (Isle of Man)" },
+  "montserrat": { "ns": "british" },
+  "pitcairn": { "ns": "british", "name": "Pitcairn Islands" },
+  "saint-helena": { "ns": "british" },
+  "sgssi": { "ns": "british", "name": "SGSSI" },
+  "tci": { "ns": "british", "name": "Turks and Caicos Islands" },
+  "tristan": { "ns": "british", "name": "Tristan da Cunha" },
   "uk": { "flag": "uk/flag.svg", "name": "United Kingdom" },
   "us": { "flag": "us/flag.svg", "name": "United States", "_": "left" }
 }
