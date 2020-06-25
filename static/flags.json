@@ -13,9 +13,7 @@
   "british-falkland-islands": {},
   "british-indian-ocean-territory": {},
   "british-virgin-islands": {},
-  "bangladesh": {
-    "flag": "bangladesh/flag.svg"
-  },
+  "bangladesh": {},
   "bangladesh-navy": {},
   "california": { "ns": "us" },
   "cayman-islands": { "ns": "british" },
@@ -30,6 +28,7 @@
     "name": "N. Korea (DPRK)",
     "title": "Flag of the Democratic People's Republic of Korea (North Korea)"
   },
+  "mann": { "ns": "british.cd", "name": "Mann (Isle of Man)" },
   "uk": { "flag": "uk/flag.svg", "name": "United Kingdom" },
   "us": { "flag": "us/flag.svg", "name": "United States", "_": "left" }
 }

@@ -6,5 +6,6 @@
   "angola": "flags.json",
   "bangladesh": "flags.json",
   "british": "overseas-territories.flags.json",
+  "british.cd": "crown-deps.flags.json",
   "us": "flags.json"
 }
