@@ -2,6 +2,17 @@
 
 > A reverse chronological log
 
+_2020.06.16-23_
+
+- **namespace.dot**
+  Multiple namespaces may share same directory. For example, british oversearch
+  terrtories and british crown dependencies both can share same ./british/
+  directory with first one in `british` namespace and the second one in
+  `british.cd` namespace.
+
+  This is achieved by introducing the concept of dot namespace, where
+  resource related to a `namespace.dot` resides in `namespace` directory.
+
 _2020.06.16-21_
 
 - **[flags]**  

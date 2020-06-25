@@ -109,9 +109,14 @@ Vue.prototype.$namePartFromId = function(flagId, namespace) {
     : flagId
 }
 
+Vue.prototype.$dirName = function(namespace) {
+  return _.split(namespace, '.')[0]
+}
+
 Vue.prototype.$inferFlagSvg = function(namespace, namePart) {
   const fileNamePart = namePart && namePart.length > 0 ? namePart : 'flag'
-  return namespace + '/' + fileNamePart + '.svg'
+  const folderPart = Vue.prototype.$dirName(namespace)
+  return folderPart + '/' + fileNamePart + '.svg'
 }
 
 function computeMetadata() {

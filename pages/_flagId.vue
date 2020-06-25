@@ -81,7 +81,7 @@ export default {
     auxData() {
       if (flagJsonIncludes[this.namespace]) {
         const auxJsonPath =
-          this.namespace + '/' + flagJsonIncludes[this.namespace]
+          this.$dirName(this.namespace) + '/' + flagJsonIncludes[this.namespace]
         const auxJson = require('~/assets/flags/' + auxJsonPath)
         return auxJson[this.flagId] ? auxJson[this.flagId] : {}
       }
