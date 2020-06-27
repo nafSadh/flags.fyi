@@ -1,0 +1,13 @@
+{
+  "antigua-and-barbuda": {
+    "ratio": "2:3",
+    "colors": [
+      { "color": "black", "hex": "#000" },
+      { "color": "yellow", "hex": "#fcd116" },
+      { "color": "blue", "hex": "#0072c6" },
+      { "color": "white", "hex": "#fff" },
+      { "color": "red", "hex": "#ce1126" }
+    ],
+    "article": "antigua-and-barbuda/flag.md"
+  }
+}

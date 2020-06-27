@@ -9,6 +9,7 @@
   "anguilla": { "ns": "british" },
   "anguilla-dolphin": { "ns": "british", "name": "Dolphin Flag" },
   "anguilla-governor": { "ns": "british" },
+  "antigua-and-barbuda": { "ns": "antigua-and-barbuda", "flag": "antigua-and-barbuda/flag.svg" },
   "ascension-island": { "ns": "british" },
   "bermuda": { "ns": "british" },
   "british-antarctic-territory": {},
@@ -22,6 +23,7 @@
   "cayman-islands": { "ns": "british" },
   "gibraltar": { "ns": "british" },
   "guernsey": { "ns": "british.cd" },
+  "jersey": { "ns": "british.cd" },
   "juneteenth": {},
   "korea": {
     "flag": "korea/flag.svg",
