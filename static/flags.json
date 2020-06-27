@@ -2,6 +2,7 @@
   "abkhazia": { "_": "left" },
   "afghanistan": {},
   "albania": {},
+  "alderney": { "ns": "british.cd" },
   "algeria": {},
   "andorra": {},
   "angola": {},
@@ -20,6 +21,7 @@
   "california": { "ns": "us" },
   "cayman-islands": { "ns": "british" },
   "gibraltar": { "ns": "british" },
+  "guernsey": { "ns": "british.cd" },
   "juneteenth": {},
   "korea": {
     "flag": "korea/flag.svg",
@@ -34,6 +36,7 @@
   "montserrat": { "ns": "british" },
   "pitcairn": { "ns": "british", "name": "Pitcairn Islands" },
   "saint-helena": { "ns": "british" },
+  "sark": { "ns": "british.cd" },
   "sgssi": { "ns": "british", "name": "SGSSI" },
   "tci": { "ns": "british", "name": "Turks and Caicos Islands" },
   "tristan": { "ns": "british", "name": "Tristan da Cunha" },
