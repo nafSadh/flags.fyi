@@ -91,12 +91,14 @@ Vue.prototype.$rgb = (function() {
   }
 })()
 
+const noTitleCase = new Set(['a', 'an', 'and', 'the'])
+
 Vue.prototype.$titleCase = function(str) {
   if (str.length < 3) {
     return _.toUpper(str)
   }
   return _.words(str)
-    .map(_.upperFirst)
+    .map((word) => (noTitleCase.has(word) ? word : _.upperFirst(word)))
     .join(' ')
 }
 
