@@ -8,6 +8,7 @@
       { "color": "white", "hex": "#fff" },
       { "color": "red", "hex": "#ce1126" }
     ],
+    "colorNote": "RGB hex values are based on Wikipedia SVG.",
     "article": "antigua-and-barbuda/flag.md"
   }
 }
