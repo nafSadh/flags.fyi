@@ -1,0 +1,20 @@
+{
+  "comoros": {
+    "ratio": "3:5",
+    "colors": [
+      { "color": "green", "hex": "#3d8e33", "pantone": "363", "cmyk": "57–0–54–44" },
+      { "color": "yellow", "hex": "#ffc61e", "pantone": "127", "cmyk": "0–22–88–0" },
+      { "color": "white", "hex": "#fff", "pantone": "Safe", "cmyk": "0–0–0–0" },
+      { "color": "red", "hex": "#ce1126", "pantone": "363", "186": "0–92–82–15" },
+      { "color": "blue", "hex": "#3a75c4", "pantone": "285", "cmyk": "70–40–0–23" }
+    ],
+    "article": "comoros/flag.md",
+    "use": { "as": "national flag", "since": "2001-12-23" },
+    "of": { "country": "comoros" },
+    "countryData": {
+      "name": "Comoros",
+      "officialName": "Union of the Comoros",
+      "un": "member"
+    }
+  }
+}
