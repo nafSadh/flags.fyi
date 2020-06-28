@@ -28,6 +28,7 @@
   "grande-comore": { "ns": "comoros" },
   "moheli": { "ns": "comoros", "name": "Mohéli" },
   "comoros-mayotte": {},
+  "djibouti": { "g": "n,af,arab", "_": "left" },
   "gibraltar": { "ns": "british" },
   "guernsey": { "ns": "british.cd" },
   "jersey": { "ns": "british.cd" },
