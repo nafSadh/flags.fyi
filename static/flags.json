@@ -1,24 +1,24 @@
 {
-  "abkhazia": { "_": "left" },
-  "afghanistan": {},
-  "albania": {},
+  "abkhazia": { "g": "n", "_": "left" },
+  "afghanistan": { "g": "n" },
+  "albania": { "g": "n" },
   "alderney": { "ns": "british.cd" },
-  "algeria": { "g": "arab" },
-  "andorra": {},
-  "angola": {},
+  "algeria": { "g": "n,arab" },
+  "andorra": { "g": "n" },
+  "angola": { "g": "n" },
   "anguilla": { "ns": "british" },
   "anguilla-dolphin": { "ns": "british", "name": "Dolphin Flag" },
   "anguilla-governor": { "ns": "british" },
   "antigua-and-barbuda": { "ns": "antigua-and-barbuda", "flag": "antigua-and-barbuda/flag.svg" },
   "ascension-island": { "ns": "british" },
-  "bahrain": { "g": "arab" },
+  "bahrain": { "g": "n,arab" },
   "bermuda": { "ns": "british" },
   "british-antarctic-territory": {},
   "british-falkland-islands": {},
   "british-indian-ocean-territory": {},
   "british-overseas-territories": {},
   "british-virgin-islands": {},
-  "bangladesh": {},
+  "bangladesh": { "g": "n" },
   "bangladesh-navy": {},
   "california": { "ns": "us" },
   "cayman-islands": { "ns": "british" },
@@ -27,10 +27,12 @@
   "jersey": { "ns": "british.cd" },
   "juneteenth": {},
   "korea": {
+    "g": "n",
     "flag": "korea/flag.svg",
     "title": "Flag of the Republic of Korea (South Korea)"
   },
   "korea-dprk": {
+    "g": "n",
     "flag": "korea/dprk.svg",
     "name": "N. Korea (DPRK)",
     "title": "Flag of the Democratic People's Republic of Korea (North Korea)"
@@ -43,6 +45,6 @@
   "sgssi": { "ns": "british", "name": "SGSSI" },
   "tci": { "ns": "british", "name": "Turks and Caicos Islands" },
   "tristan": { "ns": "british", "name": "Tristan da Cunha" },
-  "uk": { "flag": "uk/flag.svg", "name": "United Kingdom" },
-  "us": { "flag": "us/flag.svg", "name": "United States", "_": "left" }
+  "uk": { "g": "n", "flag": "uk/flag.svg", "name": "United Kingdom" },
+  "us": { "g": "n", "flag": "us/flag.svg", "name": "United States", "_": "left" }
 }

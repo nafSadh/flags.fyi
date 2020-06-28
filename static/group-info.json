@@ -1,0 +1,30 @@
+{
+  "n": "national-flag",
+  "national-flag": {
+    "desc": "National flags of de-facto country nations"
+  },
+  "af": "africa",
+  "africa": {
+    "desc": "Flags from the contitent of Africa"
+  },
+  "as": "asia",
+  "asia": {
+    "desc": "Flags from the contitent of Asia"
+  },
+  "na": "north-america",
+  "north-america": {
+    "desc": "Flags from the contitent of North America"
+  },
+  "sa": "north-america",
+  "south-america": {
+    "desc": "Flags from the contitent of South America"
+  },
+  "e": "europe",
+  "europe": {
+    "desc": "Flags from the contitent of Europer"
+  },
+  "eu": "european-union",
+  "european-union": {
+    "desc": "Countries of the European Union"
+  }
+}
