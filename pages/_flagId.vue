@@ -19,6 +19,9 @@
             Construction
           </h2>
           <h2 v-if="!!flagData.desc && !!flagData.colors">Description</h2>
+          <vue-markdown v-if="!!flagData.desc">{{
+            flagData.desc
+          }}</vue-markdown>
           <construction-sheet
             :cs="flagData.cs"
             :thumb-style="
@@ -27,9 +30,6 @@
                 : 'is-tablet-256x256 mx-0'
             "
           />
-          <vue-markdown v-if="!!flagData.desc">{{
-            flagData.desc
-          }}</vue-markdown>
           <vue-markdown v-if="flagData.article" :breaks="!flagData.article">{{
             articleMd
           }}</vue-markdown>
@@ -111,11 +111,13 @@ export default {
       return usedAs + ' of ' + this.name
     },
     articleMd() {
-      if (this.flagData.article) {
+      if (!this.flagData.article) return ''
+      if (_.isArray(this.flagData.article)) {
+        return this.$arrayText(this.flagData.article)
+      } else {
         const md = require('~/assets/flags/' + this.flagData.article)
         return md.default
       }
-      return ''
     }
   }
 }
