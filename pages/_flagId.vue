@@ -12,7 +12,7 @@
       </div>
       <section class="content">
         <div v-if="flagData.colors" class="pb-4">
-          <colors-table :colors="flagData.colors" />
+          <colors-table :colors="flagData.colors" :note="flagData.colorNote" />
         </div>
         <div class="pt-4">
           <h2 v-if="!flagData.article && !flagData.desc && !!flagData.cs">

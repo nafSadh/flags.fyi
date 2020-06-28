@@ -60,6 +60,9 @@
           {{ props.row.detail }}
         </article>
       </template>
+      <template v-if="note" slot="footer">
+        <span class="has-text-grey has-text-weight-light">† {{ note }}</span>
+      </template>
     </b-table>
   </div>
 </template>
@@ -72,7 +75,8 @@ export default {
     colors: {
       type: Array,
       required: true
-    }
+    },
+    note: { type: String, default: undefined }
   },
   data() {
     return {
