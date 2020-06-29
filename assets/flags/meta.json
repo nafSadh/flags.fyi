@@ -117,10 +117,38 @@
   },
   "djibouti": {
     "prev": "comoros-mayotte",
+    "next": "egypt-mamluk"
+  },
+  "egypt-mamluk": {
+    "prev": "djibouti",
+    "next": "egypt-eyalet"
+  },
+  "egypt-eyalet": {
+    "prev": "egypt-mamluk",
+    "next": "egypt-khedivate"
+  },
+  "egypt-khedivate": {
+    "prev": "egypt-eyalet",
+    "next": "egypt-sultanate"
+  },
+  "egypt-sultanate": {
+    "prev": "egypt-khedivate",
+    "next": "egypt-kingdom"
+  },
+  "egypt-kingdom": {
+    "prev": "egypt-sultanate",
+    "next": "egypt-revolution"
+  },
+  "egypt-revolution": {
+    "prev": "egypt-kingdom",
+    "next": "egypt"
+  },
+  "egypt": {
+    "prev": "egypt-revolution",
     "next": "gibraltar"
   },
   "gibraltar": {
-    "prev": "djibouti",
+    "prev": "egypt",
     "next": "guernsey"
   },
   "guernsey": {

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   width="300" height="200">
+  <metadata><rdf:RDF><cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Mameluke Flag</dc:title>
+  </cc:Work></rdf:RDF></metadata>
+<path fill="#ffc90f" d="M0,0V200H260A40,40 0 0,0 260,120H180V80H260A40,40 0 0,0 260,0Z"/>
+<path fill="#ffffff" d="M67.1445,33.3333C87.1206,33.3333,103.334,63.2,103.334,100C103.334,136.8,87.1206,166.667,67.1445,166.667C54.3413,166.667,43.1003,154.367,36.6667,135.868C41.9639,146.604,49.6074,153.333,58.0972,153.333C74.0786,153.333,87.0486,129.44,87.0486,100C87.0486,70.5598,74.0786,46.6667,58.0972,46.6667C49.6074,46.6667,41.9639,53.396,36.6667,64.1318C43.1003,45.6331,54.3413,33.3333,67.1445,33.3333Z"/>
+</svg>
