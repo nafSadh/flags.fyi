@@ -24,6 +24,15 @@
     ],
     "article": "egypt/flag.md"
   },
+  "egypt-uar": {
+    "use": { "as": "flag", "since": "1958", "until": "1971" },
+    "desc": [
+      "The **United Arab Republic** (UAR; Arabic: الجمهورية العربية المتحدة‎ al-Jumhūrīyah al-'Arabīyah al-Muttaḥidah) ",
+      "was a sovereign state in the Middle East from 1958 to 1971. It was initially a political **union** between ",
+      "**Egypt** and **Syria** from 1958 until Syria seceded from the union after the 1961 Syrian coup d'état.  \n",
+      "Egypt continued to be known officially as the United Arab Republic until 1971."
+    ]
+  },
   "egypt-revolution": {
     "title": "Egyptian Revolution Flag",
     "use": { "as": "flag", "since": "1953", "until": "1958" },

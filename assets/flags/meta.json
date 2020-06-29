@@ -141,10 +141,14 @@
   },
   "egypt-revolution": {
     "prev": "egypt-kingdom",
+    "next": "egypt-uar"
+  },
+  "egypt-uar": {
+    "prev": "egypt-revolution",
     "next": "egypt"
   },
   "egypt": {
-    "prev": "egypt-revolution",
+    "prev": "egypt-uar",
     "next": "gibraltar"
   },
   "gibraltar": {
