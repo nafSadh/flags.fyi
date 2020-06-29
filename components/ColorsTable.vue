@@ -10,7 +10,7 @@
       :data="colors"
       mobile-cards
       detailed
-      :has-detailed-visible="(row) => !!row.detail"
+      :has-detailed-visible="(row) => !!row.note"
     >
       <template slot-scope="props">
         <b-table-column field="color">
@@ -57,7 +57,7 @@
       </template>
       <template slot="detail" slot-scope="props">
         <article>
-          {{ props.row.detail }}
+          {{ props.row.note }}
         </article>
       </template>
       <template v-if="note" slot="footer">
@@ -89,7 +89,7 @@ export default {
     },
     genericColumns() {
       const genericCols = []
-      const specificCols = new Set(['color', 'hex', 'detail'])
+      const specificCols = new Set(['color', 'hex', 'note'])
       const alreadyProcessed = new Set()
       for (const row of this.colors) {
         for (const col of _.keys(row)) {

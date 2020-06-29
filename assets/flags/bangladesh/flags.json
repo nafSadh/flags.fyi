@@ -7,7 +7,7 @@
         "cmyk": "100-0-26-58",
         "pantone": "342c",
         "officialSpec": "Procion Brilliant Green H-2RS 50 parts per 1000",
-        "detail": "The green field stands for the lushness of the land of Bangladesh and the eternal youth of Bangladeshis."
+        "note": "The green field stands for the lushness of the land of Bangladesh and the eternal youth of Bangladeshis."
       },
       {
         "color": "red",
@@ -15,7 +15,7 @@
         "pantone": "485",
         "cmyk": "0-83-73-4",
         "officialSpec": "Brilliant Orange H-2RS 60 parts per 1000",
-        "detail": "The red disc represents the sun rising over Bengal, and also the blood of those who died for the independence of Bangladesh."
+        "note": "The red disc represents the sun rising over Bengal, and also the blood of those who died for the independence of Bangladesh."
       }
     ],
     "cs": "bangladesh/flag.cs.svg",
