@@ -16,13 +16,15 @@
 </template>
 <script>
 import NuxtLinkButton from '~/components/NuxtLinkButton'
+import metadata from '~/assets/flags/meta.json'
+
 export default {
   components: { NuxtLinkButton },
   props: { flagId: { type: String, required: true } },
   data() {
     return {
-      toPrev: this.$toFlagId(this.$metadata[this.flagId].prev),
-      toNext: this.$toFlagId(this.$metadata[this.flagId].next)
+      toPrev: this.$toFlagId(metadata[this.flagId].prev),
+      toNext: this.$toFlagId(metadata[this.flagId].next)
     }
   }
 }

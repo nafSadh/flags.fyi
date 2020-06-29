@@ -1,0 +1,186 @@
+{
+  "abkhazia": {
+    "prev": "us",
+    "next": "afghanistan"
+  },
+  "afghanistan": {
+    "prev": "abkhazia",
+    "next": "albania"
+  },
+  "albania": {
+    "prev": "afghanistan",
+    "next": "alderney"
+  },
+  "alderney": {
+    "prev": "albania",
+    "next": "algeria"
+  },
+  "algeria": {
+    "prev": "alderney",
+    "next": "andorra"
+  },
+  "andorra": {
+    "prev": "algeria",
+    "next": "angola"
+  },
+  "angola": {
+    "prev": "andorra",
+    "next": "anguilla"
+  },
+  "anguilla": {
+    "prev": "angola",
+    "next": "anguilla-dolphin"
+  },
+  "anguilla-dolphin": {
+    "prev": "anguilla",
+    "next": "anguilla-governor"
+  },
+  "anguilla-governor": {
+    "prev": "anguilla-dolphin",
+    "next": "antigua-and-barbuda"
+  },
+  "antigua-and-barbuda": {
+    "prev": "anguilla-governor",
+    "next": "ascension-island"
+  },
+  "ascension-island": {
+    "prev": "antigua-and-barbuda",
+    "next": "bahrain"
+  },
+  "bahrain": {
+    "prev": "ascension-island",
+    "next": "bermuda"
+  },
+  "bermuda": {
+    "prev": "bahrain",
+    "next": "british-antarctic-territory"
+  },
+  "british-antarctic-territory": {
+    "prev": "bermuda",
+    "next": "british-falkland-islands"
+  },
+  "british-falkland-islands": {
+    "prev": "british-antarctic-territory",
+    "next": "british-indian-ocean-territory"
+  },
+  "british-indian-ocean-territory": {
+    "prev": "british-falkland-islands",
+    "next": "british-overseas-territories"
+  },
+  "british-overseas-territories": {
+    "prev": "british-indian-ocean-territory",
+    "next": "british-virgin-islands"
+  },
+  "british-virgin-islands": {
+    "prev": "british-overseas-territories",
+    "next": "bangladesh"
+  },
+  "bangladesh": {
+    "prev": "british-virgin-islands",
+    "next": "bangladesh-navy"
+  },
+  "bangladesh-navy": {
+    "prev": "bangladesh",
+    "next": "california"
+  },
+  "california": {
+    "prev": "bangladesh-navy",
+    "next": "cayman-islands"
+  },
+  "cayman-islands": {
+    "prev": "california",
+    "next": "chad"
+  },
+  "chad": {
+    "prev": "cayman-islands",
+    "next": "comoros"
+  },
+  "comoros": {
+    "prev": "chad",
+    "next": "anjouan"
+  },
+  "anjouan": {
+    "prev": "comoros",
+    "next": "grande-comore"
+  },
+  "grande-comore": {
+    "prev": "anjouan",
+    "next": "moheli"
+  },
+  "moheli": {
+    "prev": "grande-comore",
+    "next": "comoros-mayotte"
+  },
+  "comoros-mayotte": {
+    "prev": "moheli",
+    "next": "djibouti"
+  },
+  "djibouti": {
+    "prev": "comoros-mayotte",
+    "next": "gibraltar"
+  },
+  "gibraltar": {
+    "prev": "djibouti",
+    "next": "guernsey"
+  },
+  "guernsey": {
+    "prev": "gibraltar",
+    "next": "jersey"
+  },
+  "jersey": {
+    "prev": "guernsey",
+    "next": "juneteenth"
+  },
+  "juneteenth": {
+    "prev": "jersey",
+    "next": "korea"
+  },
+  "korea": {
+    "prev": "juneteenth",
+    "next": "korea-dprk"
+  },
+  "korea-dprk": {
+    "prev": "korea",
+    "next": "mann"
+  },
+  "mann": {
+    "prev": "korea-dprk",
+    "next": "montserrat"
+  },
+  "montserrat": {
+    "prev": "mann",
+    "next": "pitcairn"
+  },
+  "pitcairn": {
+    "prev": "montserrat",
+    "next": "saint-helena"
+  },
+  "saint-helena": {
+    "prev": "pitcairn",
+    "next": "sark"
+  },
+  "sark": {
+    "prev": "saint-helena",
+    "next": "sgssi"
+  },
+  "sgssi": {
+    "prev": "sark",
+    "next": "tci"
+  },
+  "tci": {
+    "prev": "sgssi",
+    "next": "tristan"
+  },
+  "tristan": {
+    "prev": "tci",
+    "next": "uk"
+  },
+  "uk": {
+    "prev": "tristan",
+    "next": "us"
+  },
+  "us": {
+    "prev": "uk",
+    "next": "abkhazia"
+  }
+}

@@ -2,6 +2,13 @@
 
 > A reverse chronological log
 
+_2020.06.16-28_
+
+- **flags/meta.json**
+  Previous/next navigation was generated in utils and was attached to Vue. This
+  led to some issues. Now, added `compile-flags.py` script to generate a
+  `flags/meta.json` from `flags.json`.
+
 _2020.06.16-23_
 
 - **namespace.dot**
