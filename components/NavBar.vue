@@ -27,7 +27,12 @@
       </div>
       <div class="navbar-menu">
         <div class="navbar-end">
-          <nuxt-link class="navbar-item " to="/flag-index">
+          <nuxt-link
+            class="navbar-item "
+            to="/flag-index"
+            v-shortkey="['i']"
+            @shortkey.native="$router.push('/flag-index')"
+          >
             <span class="icon">
               <fa icon="list-ul" />
             </span>
