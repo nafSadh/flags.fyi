@@ -70,5 +70,9 @@
   },
   "egypt-mamluk": {
     "use": { "as": "flag", "since": "1250", "until": "1517" }
+  },
+  "eagle-of-saladin": {
+    "title": "Eagle of Saladin",
+    "desc": "A reconstruction of Saladin's personal standard, featuring the eagle."
   }
 }

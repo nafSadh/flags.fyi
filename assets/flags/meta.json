@@ -117,10 +117,14 @@
   },
   "djibouti": {
     "prev": "comoros-mayotte",
+    "next": "eagle-of-saladin"
+  },
+  "eagle-of-saladin": {
+    "prev": "djibouti",
     "next": "egypt-mamluk"
   },
   "egypt-mamluk": {
-    "prev": "djibouti",
+    "prev": "eagle-of-saladin",
     "next": "egypt-eyalet"
   },
   "egypt-eyalet": {
