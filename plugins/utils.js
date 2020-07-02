@@ -90,7 +90,7 @@ Vue.prototype.$rgb = (function() {
   }
 })()
 
-const noTitleCase = new Set(['a', 'an', 'and', 'the'])
+const noTitleCase = new Set(['a', 'an', 'and', 'of', 'the'])
 
 Vue.prototype.$titleCase = function(str) {
   if (str.length < 3) {
