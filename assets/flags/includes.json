@@ -5,6 +5,7 @@
   "andorra": "flags.json",
   "angola": "flags.json",
   "antigua-and-barbuda": "flags.json",
+  "arab": "flags.json",
   "bahrain": "flags.json",
   "bangladesh": "flags.json",
   "british": "overseas-territories.flags.json",
@@ -12,5 +13,6 @@
   "comoros": "flags.json",
   "djibouti": "flags.json",
   "egypt": "flags.json",
+  "iraq": "flags.json",
   "us": "flags.json"
 }

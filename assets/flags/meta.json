@@ -41,10 +41,14 @@
   },
   "antigua-and-barbuda": {
     "prev": "anguilla-governor",
+    "next": "arab-federation"
+  },
+  "arab-federation": {
+    "prev": "antigua-and-barbuda",
     "next": "ascension-island"
   },
   "ascension-island": {
-    "prev": "antigua-and-barbuda",
+    "prev": "arab-federation",
     "next": "bahrain"
   },
   "bahrain": {
@@ -161,10 +165,30 @@
   },
   "guernsey": {
     "prev": "gibraltar",
+    "next": "iraq"
+  },
+  "iraq": {
+    "prev": "guernsey",
+    "next": "iraq-mandatory"
+  },
+  "iraq-mandatory": {
+    "prev": "iraq",
+    "next": "iraq-hashemite"
+  },
+  "iraq-hashemite": {
+    "prev": "iraq-mandatory",
+    "next": "iraq-republic"
+  },
+  "iraq-republic": {
+    "prev": "iraq-hashemite",
+    "next": "iraq-baath"
+  },
+  "iraq-baath": {
+    "prev": "iraq-republic",
     "next": "jersey"
   },
   "jersey": {
-    "prev": "guernsey",
+    "prev": "iraq-baath",
     "next": "juneteenth"
   },
   "juneteenth": {
