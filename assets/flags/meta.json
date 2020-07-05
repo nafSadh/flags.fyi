@@ -165,14 +165,10 @@
   },
   "guernsey": {
     "prev": "gibraltar",
-    "next": "iraq"
-  },
-  "iraq": {
-    "prev": "guernsey",
     "next": "iraq-mandatory"
   },
   "iraq-mandatory": {
-    "prev": "iraq",
+    "prev": "guernsey",
     "next": "iraq-hashemite"
   },
   "iraq-hashemite": {
@@ -185,14 +181,22 @@
   },
   "iraq-baath": {
     "prev": "iraq-republic",
+    "next": "iraq"
+  },
+  "iraq": {
+    "prev": "iraq-baath",
     "next": "jersey"
   },
   "jersey": {
-    "prev": "iraq-baath",
+    "prev": "iraq",
+    "next": "jordan"
+  },
+  "jordan": {
+    "prev": "jersey",
     "next": "juneteenth"
   },
   "juneteenth": {
-    "prev": "jersey",
+    "prev": "jordan",
     "next": "korea"
   },
   "korea": {
@@ -201,10 +205,18 @@
   },
   "korea-dprk": {
     "prev": "korea",
+    "next": "kuwait"
+  },
+  "kuwait": {
+    "prev": "korea-dprk",
+    "next": "lebanon"
+  },
+  "lebanon": {
+    "prev": "kuwait",
     "next": "mann"
   },
   "mann": {
-    "prev": "korea-dprk",
+    "prev": "lebanon",
     "next": "montserrat"
   },
   "montserrat": {
