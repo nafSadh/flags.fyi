@@ -28,9 +28,9 @@
       <div class="navbar-menu">
         <div class="navbar-end">
           <nuxt-link
+            v-shortkey="['i']"
             class="navbar-item "
             to="/flag-index"
-            v-shortkey="['i']"
             @shortkey.native="$router.push('/flag-index')"
           >
             <span class="icon">
