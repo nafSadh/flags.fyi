@@ -5,6 +5,9 @@
       <div class="columns multiline">
         <div class="column">
           <h1 class="title has-text-grey-dark">{{ title }}</h1>
+          <h2 v-if="flagData.subtitle" class="subtitle has-text-grey-dark">
+            {{ flagData.subtitle }}
+          </h2>
         </div>
         <div class="column is-narrow">
           <browse-flags-buttons :flag-id="flagId" />
