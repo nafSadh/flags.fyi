@@ -233,10 +233,18 @@
   },
   "sark": {
     "prev": "saint-helena",
+    "next": "sassanid"
+  },
+  "sassanid": {
+    "prev": "sark",
+    "next": "sassanid-alt"
+  },
+  "sassanid-alt": {
+    "prev": "sassanid",
     "next": "sgssi"
   },
   "sgssi": {
-    "prev": "sark",
+    "prev": "sassanid-alt",
     "next": "tci"
   },
   "tci": {

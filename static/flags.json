@@ -67,6 +67,8 @@
   "pitcairn": { "ns": "british", "name": "Pitcairn Islands" },
   "saint-helena": { "ns": "british" },
   "sark": { "ns": "british.cd" },
+  "sassanid": { "ns": "persia", "flag": "persia/derafsh-kaviani.svg" },
+  "sassanid-alt": { "ns": "persia", "flag": "persia/derafsh-kaviani.png" },
   "sgssi": { "ns": "british", "name": "SGSSI" },
   "tci": { "ns": "british", "name": "Turks and Caicos Islands" },
   "tristan": { "ns": "british", "name": "Tristan da Cunha" },
