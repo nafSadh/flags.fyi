@@ -10,7 +10,7 @@
   },
   "libya-civil": {
     "use": { "since": "2011" },
-    "desc": "During the Libyan Civil War, design without the star and crescent was common on homemade flags"
+    "desc": ["During the Libyan Civil War, design without the star and crescent was common on homemade flags"]
   },
   "libya-jamahiriya": {
     "title": "Great Socialist People's Libyan Arab Jamahiriya",
