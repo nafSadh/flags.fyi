@@ -1,0 +1,58 @@
+{
+  "libya": {
+    "ratio": "1:2",
+    "use": { "since": "2011-08-03" },
+    "cs": "libya/flag.cs.svg",
+    "desc": [
+      "A horizontal triband of red, black (double width) and green; ",
+      "charged with a white crescent and five-pointed star centred on the black stripe."
+    ]
+  },
+  "libya-civil-war": { "use": { "since": "2011" } },
+  "libya-jamahiriya": {
+    "title": "Great Socialist People's Libyan Arab Jamahiriya",
+    "subtitle": "Gaddafi regime",
+    "use": { "since": "1969", "until": "1977" }
+  },
+  "libya-ar": {
+    "subtitle": "Gaddafi era",
+    "use": { "since": "1969", "until": "1977" }
+  },
+  "libya-kingdom": {
+    "subtitle": "United Kingdom of Libya",
+    "use": { "since": "1951", "until": "1969" }
+  },
+  "libya-cyrenaica": {
+    "use": { "since": "1949", "until": "1951" },
+    "desc": [
+      "The Emirate of Cyrenaica (Arabic: إمارة برقة‎) came into existence when Sayyid Idris ",
+      "unilaterally proclaimed Cyrenaica an independent Senussi emirate on 1 March 1949, ",
+      "backed by the United Kingdom. Sayyid Idris proclaimed himself Emir of Cyrenaica at a ",
+      "'national conference' in Benghazi."
+    ]
+  },
+  "libya-italian": {
+    "use": { "since": "1911", "until": "1947" },
+    "desc": [
+      "After the Italo-Turkish War (1911-1912), Italy established the two colonies of ",
+      "**Italian Tripolitania** and **Cyrenaica**, which merged into **Italian Libya** in 1934. ",
+      "They all used the flag of Italy."
+    ]
+  },
+  "libya-tripolitanian-republic": {
+    "use": { "since": "1918", "until": "1923" },
+    "desc": [
+      "Tripolitanian Republic (Arabic: الجمهورية الطرابلسية‎, al-Jumhuriyat at-Trabulsiya), was an ",
+      "Arab republic that declared the independence of Tripolitania from Italian Libya after World War I."
+    ]
+  },
+  "libya-ottoman": {
+    "subtitle": "Tripoli",
+    "desc": [
+      "The coastal region of what is today **Libya** was ruled by the Ottoman Empire \n",
+      "- from 1551 to 1864, as the Eyalet of Tripolitania (Ottoman Turkish: ایالت طرابلس غرب‎ Eyālet-i Trâblus Gârb)\n",
+      "- from 1864 to 1912, as the Vilayet of Tripolitania (Ottoman Turkish: ولايت طرابلس غرب‎ Vilâyet-i Trâblus Gârb)\n"
+    ],
+    "use": { "since": "1551", "until": "1912" }
+  }
+}

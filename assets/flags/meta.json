@@ -213,10 +213,46 @@
   },
   "lebanon": {
     "prev": "kuwait",
+    "next": "libya-ottoman"
+  },
+  "libya-ottoman": {
+    "prev": "lebanon",
+    "next": "libya-tripolitanian-republic"
+  },
+  "libya-tripolitanian-republic": {
+    "prev": "libya-ottoman",
+    "next": "libya-italian"
+  },
+  "libya-italian": {
+    "prev": "libya-tripolitanian-republic",
+    "next": "libya-cyrenaica"
+  },
+  "libya-cyrenaica": {
+    "prev": "libya-italian",
+    "next": "libya-kingdom"
+  },
+  "libya-kingdom": {
+    "prev": "libya-cyrenaica",
+    "next": "libya-ar"
+  },
+  "libya-ar": {
+    "prev": "libya-kingdom",
+    "next": "libya-jamahiriya"
+  },
+  "libya-jamahiriya": {
+    "prev": "libya-ar",
+    "next": "libya"
+  },
+  "libya": {
+    "prev": "libya-jamahiriya",
+    "next": "libya-civil-war"
+  },
+  "libya-civil-war": {
+    "prev": "libya",
     "next": "mann"
   },
   "mann": {
-    "prev": "lebanon",
+    "prev": "libya-civil-war",
     "next": "montserrat"
   },
   "montserrat": {
