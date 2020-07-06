@@ -245,14 +245,14 @@
   },
   "libya": {
     "prev": "libya-jamahiriya",
-    "next": "libya-civil-war"
+    "next": "libya-civil"
   },
-  "libya-civil-war": {
+  "libya-civil": {
     "prev": "libya",
     "next": "mann"
   },
   "mann": {
-    "prev": "libya-civil-war",
+    "prev": "libya-civil",
     "next": "montserrat"
   },
   "montserrat": {

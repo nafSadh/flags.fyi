@@ -70,7 +70,7 @@
   "libya-ar": { "g": "h", "name": "Libyan Arab Republic" },
   "libya-jamahiriya": { "g": "h" },
   "libya": { "g": "nf,af,arab" },
-  "libya-civil-war": { "g": "nf,af,arab", "name": "Libya (civil war)" },
+  "libya-civil": { "g": "nf,af,arab", "name": "Libya (civil war)" },
   "mann": { "ns": "british.cd", "name": "Mann (Isle of Man)" },
   "montserrat": { "ns": "british" },
   "pitcairn": { "ns": "british", "name": "Pitcairn Islands" },

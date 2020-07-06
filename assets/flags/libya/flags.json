@@ -8,7 +8,10 @@
       "charged with a white crescent and five-pointed star centred on the black stripe."
     ]
   },
-  "libya-civil-war": { "use": { "since": "2011" } },
+  "libya-civil": {
+    "use": { "since": "2011" },
+    "desc": "During the Libyan Civil War, design without the star and crescent was common on homemade flags"
+  },
   "libya-jamahiriya": {
     "title": "Great Socialist People's Libyan Arab Jamahiriya",
     "subtitle": "Gaddafi regime",
