@@ -19,7 +19,7 @@ Flags.fyi is a project by "Flagstaff", an unincorporated entity, led by
 
 Right now Flagstaff is pretty much an one-man-show.
 
-- **Prinicpal Vexillophile** and **Webmaster General**:
+- **Principal Vexillophile** and **Webmaster General**:
   [Khan MNM Sadh](https://nafSadh.com) [@nafsadh](https://github.com/nafSadh/)
 
 ## Build Setup
