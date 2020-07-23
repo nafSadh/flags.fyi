@@ -1,0 +1,14 @@
+{
+  "mauritania": {
+    "ratio": "2:3",
+    "use": { "since": "2017-08-15" },
+    "desc": [
+      "The flag of Mauritania (Arabic: علم موريتانيا) is a green field containing a gold star and crescent, ",
+      "with a red stripe at the top and bottom of the field."
+    ]
+  },
+  "mauritania-1959": {
+    "title": "Former flag of Mauritania (1959-2017)",
+    "use": { "since": "1959-04-01", "until": "2017-08-15" }
+  }
+}

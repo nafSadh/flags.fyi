@@ -72,6 +72,8 @@
   "libya": { "g": "nf,af,arab" },
   "libya-civil": { "g": "nf,af,arab", "name": "Libya (civil)" },
   "mann": { "ns": "british.cd", "name": "Mann (Isle of Man)" },
+  "mauritania": { "g": "nf,af,arab" },
+  "mauritania-1959": { "name": "Mauritania (1959-2017)" },
   "montserrat": { "ns": "british" },
   "pitcairn": { "ns": "british", "name": "Pitcairn Islands" },
   "saint-helena": { "ns": "british" },

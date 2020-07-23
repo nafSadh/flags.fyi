@@ -253,10 +253,18 @@
   },
   "mann": {
     "prev": "libya-civil",
+    "next": "mauritania"
+  },
+  "mauritania": {
+    "prev": "mann",
+    "next": "mauritania-1959"
+  },
+  "mauritania-1959": {
+    "prev": "mauritania",
     "next": "montserrat"
   },
   "montserrat": {
-    "prev": "mann",
+    "prev": "mauritania-1959",
     "next": "pitcairn"
   },
   "pitcairn": {
