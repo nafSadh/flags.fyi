@@ -1,0 +1,19 @@
+{
+  "angola": {
+    "ratio": "2:3",
+    "colors": [
+      { "color": "red", "hex": "#c8102e", "pantone": "186 C", "cmyk": "20/100/90/0" },
+      { "color": "yellow", "hex": "#ffcd00", "pantone": "116 C", "cmyk": "0/15/100/0" },
+      { "color": "black", "hex": "#000", "pantone": "Process Black C", "cmyk": "10/10/10/100" }
+    ],
+    "desc": "Two horizontal bands of red and black with the Machete and Gear Emblem in the center.",
+    "use": { "as": "national flag", "since": "1975-11-11" },
+    "of": { "country": "angola" },
+    "countryData": {
+      "officialName": "Republic of Angola",
+      "continent": "africa",
+      "location": "west coast of Southern Africa"
+    },
+    "related": ["mpla"]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "iraq": {
+    "ratio": "2:3",
+    "colors": [
+      { "color": "red", "hex": "#ce1126", "rgb": "206/17/38", "cmyk": "0/92/82/19" },
+      { "color": "white", "hex": "#fff", "rgb": "255/255/255", "cmyk": "0/0/0/0" },
+      { "color": "black", "hex": "#000", "rgb": "0/0/0", "cmyk": "0/0/0/100" },
+      { "color": "green", "hex": "#007a3d", "rgb": "0/122/61", "cmyk": "100/0/50/52" }
+    ],
+    "desc": [
+      "A horizontal tricolour of red, white, and black, charged with the takbīr (Allahu akbar, 'God is [the] greatest'",
+      ") in green Kufic script, centered on the white stripe."
+    ],
+    "of": { "country": "iraq" },
+    "countryData": {
+      "name": "Republic of Iraq"
+    }
+  },
+  "iraq-mandatory": {
+    "title": "Kingdom of Iraq under British administration",
+    "use": { "since": "1921", "until": "1932" }
+  },
+  "iraq-hashemite": {
+    "title": "Hashemite Kingdom of Iraq",
+    "use": { "since": "1932", "until": "1958" }
+  },
+  "iraq-republic": { "use": { "since": "1959", "until": "1968" } },
+  "iraq-baath": {
+    "use": { "since": "1968", "until": "2003" },
+    "desc": "Iraq ruled by Saddam Hussein's Ba'athist party"
+  }
+}

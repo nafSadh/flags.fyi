@@ -1,0 +1,310 @@
+{
+  "abkhazia": {
+    "prev": "us",
+    "next": "afghanistan"
+  },
+  "afghanistan": {
+    "prev": "abkhazia",
+    "next": "albania"
+  },
+  "albania": {
+    "prev": "afghanistan",
+    "next": "alderney"
+  },
+  "alderney": {
+    "prev": "albania",
+    "next": "algeria"
+  },
+  "algeria": {
+    "prev": "alderney",
+    "next": "andorra"
+  },
+  "andorra": {
+    "prev": "algeria",
+    "next": "angola"
+  },
+  "angola": {
+    "prev": "andorra",
+    "next": "anguilla"
+  },
+  "anguilla": {
+    "prev": "angola",
+    "next": "anguilla-dolphin"
+  },
+  "anguilla-dolphin": {
+    "prev": "anguilla",
+    "next": "anguilla-governor"
+  },
+  "anguilla-governor": {
+    "prev": "anguilla-dolphin",
+    "next": "antigua-and-barbuda"
+  },
+  "antigua-and-barbuda": {
+    "prev": "anguilla-governor",
+    "next": "arab-federation"
+  },
+  "arab-federation": {
+    "prev": "antigua-and-barbuda",
+    "next": "ascension-island"
+  },
+  "ascension-island": {
+    "prev": "arab-federation",
+    "next": "bahrain"
+  },
+  "bahrain": {
+    "prev": "ascension-island",
+    "next": "bermuda"
+  },
+  "bermuda": {
+    "prev": "bahrain",
+    "next": "british-antarctic-territory"
+  },
+  "british-antarctic-territory": {
+    "prev": "bermuda",
+    "next": "british-falkland-islands"
+  },
+  "british-falkland-islands": {
+    "prev": "british-antarctic-territory",
+    "next": "british-indian-ocean-territory"
+  },
+  "british-indian-ocean-territory": {
+    "prev": "british-falkland-islands",
+    "next": "british-overseas-territories"
+  },
+  "british-overseas-territories": {
+    "prev": "british-indian-ocean-territory",
+    "next": "british-virgin-islands"
+  },
+  "british-virgin-islands": {
+    "prev": "british-overseas-territories",
+    "next": "bangladesh"
+  },
+  "bangladesh": {
+    "prev": "british-virgin-islands",
+    "next": "bangladesh-navy"
+  },
+  "bangladesh-navy": {
+    "prev": "bangladesh",
+    "next": "california"
+  },
+  "california": {
+    "prev": "bangladesh-navy",
+    "next": "cayman-islands"
+  },
+  "cayman-islands": {
+    "prev": "california",
+    "next": "chad"
+  },
+  "chad": {
+    "prev": "cayman-islands",
+    "next": "comoros"
+  },
+  "comoros": {
+    "prev": "chad",
+    "next": "anjouan"
+  },
+  "anjouan": {
+    "prev": "comoros",
+    "next": "grande-comore"
+  },
+  "grande-comore": {
+    "prev": "anjouan",
+    "next": "moheli"
+  },
+  "moheli": {
+    "prev": "grande-comore",
+    "next": "comoros-mayotte"
+  },
+  "comoros-mayotte": {
+    "prev": "moheli",
+    "next": "djibouti"
+  },
+  "djibouti": {
+    "prev": "comoros-mayotte",
+    "next": "eagle-of-saladin"
+  },
+  "eagle-of-saladin": {
+    "prev": "djibouti",
+    "next": "egypt-mamluk"
+  },
+  "egypt-mamluk": {
+    "prev": "eagle-of-saladin",
+    "next": "egypt-eyalet"
+  },
+  "egypt-eyalet": {
+    "prev": "egypt-mamluk",
+    "next": "egypt-khedivate"
+  },
+  "egypt-khedivate": {
+    "prev": "egypt-eyalet",
+    "next": "egypt-sultanate"
+  },
+  "egypt-sultanate": {
+    "prev": "egypt-khedivate",
+    "next": "egypt-kingdom"
+  },
+  "egypt-kingdom": {
+    "prev": "egypt-sultanate",
+    "next": "egypt-revolution"
+  },
+  "egypt-revolution": {
+    "prev": "egypt-kingdom",
+    "next": "egypt-uar"
+  },
+  "egypt-uar": {
+    "prev": "egypt-revolution",
+    "next": "egypt"
+  },
+  "egypt": {
+    "prev": "egypt-uar",
+    "next": "gibraltar"
+  },
+  "gibraltar": {
+    "prev": "egypt",
+    "next": "guernsey"
+  },
+  "guernsey": {
+    "prev": "gibraltar",
+    "next": "iraq-mandatory"
+  },
+  "iraq-mandatory": {
+    "prev": "guernsey",
+    "next": "iraq-hashemite"
+  },
+  "iraq-hashemite": {
+    "prev": "iraq-mandatory",
+    "next": "iraq-republic"
+  },
+  "iraq-republic": {
+    "prev": "iraq-hashemite",
+    "next": "iraq-baath"
+  },
+  "iraq-baath": {
+    "prev": "iraq-republic",
+    "next": "iraq"
+  },
+  "iraq": {
+    "prev": "iraq-baath",
+    "next": "jersey"
+  },
+  "jersey": {
+    "prev": "iraq",
+    "next": "jordan"
+  },
+  "jordan": {
+    "prev": "jersey",
+    "next": "juneteenth"
+  },
+  "juneteenth": {
+    "prev": "jordan",
+    "next": "korea"
+  },
+  "korea": {
+    "prev": "juneteenth",
+    "next": "korea-dprk"
+  },
+  "korea-dprk": {
+    "prev": "korea",
+    "next": "kuwait"
+  },
+  "kuwait": {
+    "prev": "korea-dprk",
+    "next": "lebanon"
+  },
+  "lebanon": {
+    "prev": "kuwait",
+    "next": "libya-ottoman"
+  },
+  "libya-ottoman": {
+    "prev": "lebanon",
+    "next": "libya-tripolitanian-republic"
+  },
+  "libya-tripolitanian-republic": {
+    "prev": "libya-ottoman",
+    "next": "libya-italian"
+  },
+  "libya-italian": {
+    "prev": "libya-tripolitanian-republic",
+    "next": "libya-cyrenaica"
+  },
+  "libya-cyrenaica": {
+    "prev": "libya-italian",
+    "next": "libya-kingdom"
+  },
+  "libya-kingdom": {
+    "prev": "libya-cyrenaica",
+    "next": "libya-ar"
+  },
+  "libya-ar": {
+    "prev": "libya-kingdom",
+    "next": "libya-jamahiriya"
+  },
+  "libya-jamahiriya": {
+    "prev": "libya-ar",
+    "next": "libya"
+  },
+  "libya": {
+    "prev": "libya-jamahiriya",
+    "next": "libya-civil"
+  },
+  "libya-civil": {
+    "prev": "libya",
+    "next": "mann"
+  },
+  "mann": {
+    "prev": "libya-civil",
+    "next": "mauritania"
+  },
+  "mauritania": {
+    "prev": "mann",
+    "next": "mauritania-1959"
+  },
+  "mauritania-1959": {
+    "prev": "mauritania",
+    "next": "montserrat"
+  },
+  "montserrat": {
+    "prev": "mauritania-1959",
+    "next": "pitcairn"
+  },
+  "pitcairn": {
+    "prev": "montserrat",
+    "next": "saint-helena"
+  },
+  "saint-helena": {
+    "prev": "pitcairn",
+    "next": "sark"
+  },
+  "sark": {
+    "prev": "saint-helena",
+    "next": "sassanid"
+  },
+  "sassanid": {
+    "prev": "sark",
+    "next": "sassanid-alt"
+  },
+  "sassanid-alt": {
+    "prev": "sassanid",
+    "next": "sgssi"
+  },
+  "sgssi": {
+    "prev": "sassanid-alt",
+    "next": "tci"
+  },
+  "tci": {
+    "prev": "sgssi",
+    "next": "tristan"
+  },
+  "tristan": {
+    "prev": "tci",
+    "next": "uk"
+  },
+  "uk": {
+    "prev": "tristan",
+    "next": "us"
+  },
+  "us": {
+    "prev": "uk",
+    "next": "abkhazia"
+  }
+}

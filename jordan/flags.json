@@ -1,0 +1,12 @@
+{
+  "jordan": {
+    "title": "Flag of Hashemite Kingdom of Jordan",
+    "colors": [
+      { "color": "red", "hex": "#ce1126", "rgb": "206/17/38", "cmyk": "0/92/82/19" },
+      { "color": "white", "hex": "#fff", "rgb": "255/255/255", "cmyk": "0/0/0/0" },
+      { "color": "green", "hex": "#007a3d", "rgb": "0/122/61", "cmyk": "100/0/50/52" },
+      { "color": "black", "hex": "#000", "rgb": "0/0/0", "cmyk": "0/0/0/100" }
+    ],
+    "article": "jordan/flag.md"
+  }
+}

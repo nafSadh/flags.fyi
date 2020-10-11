@@ -1,0 +1,18 @@
+{
+  "bahrain": {
+    "ratio": "3:5",
+    "colors": [
+      { "color": "red", "hex": "#ce1126", "pantone": "186 c", "cmyk": "0-90-0-5" },
+      { "color": "white", "hex": "#fff", "pantone": "white", "cmyk": "0-0-0-0" }
+    ],
+    "cs": "bahrain/flag.cs.svg",
+    "desc": [
+      "The national flag of Bahrain (Arabic: علم البحرين‎) consists of a white band on the left, ",
+      "separated from a red area on the right by five triangles that serve as a serrated line. ",
+      "The five white triangles symbolize the five pillars of Islam.",
+      "<br/><br/><small>Tip: ",
+      "It is sometimes mistaken for the flag of Qatar, but that flag is maroon, not red, ",
+      "has more points (9) and normally has a much greater length-to-width ratio.</small>"
+    ]
+  }
+}

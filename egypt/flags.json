@@ -1,0 +1,78 @@
+{
+  "egypt": {
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#ce1126",
+        "cmyk": "0/92/82/19",
+        "note": "The red band symbolizes the Egyptians’ blood in the war against colonization."
+      },
+      {
+        "color": "white",
+        "hex": "#fff",
+        "cmyk": "0/0/0/0",
+        "note": "The white band symbolizes the purity of the Egyptian’s heart."
+      },
+      {
+        "color": "black",
+        "hex": "#000",
+        "cmyk": "0/0/0/100",
+        "note": "The black band below the white, symbolizes the manner in which darkness is overcome."
+      },
+      { "color": "gold", "hex": "#c09300", "cmyk": "0/23/100/25" }
+    ],
+    "article": "egypt/flag.md"
+  },
+  "egypt-uar": {
+    "use": { "as": "flag", "since": "1958", "until": "1971" },
+    "desc": [
+      "The **United Arab Republic** (UAR; Arabic: الجمهورية العربية المتحدة‎ al-Jumhūrīyah al-'Arabīyah al-Muttaḥidah) ",
+      "was a sovereign state in the Middle East from 1958 to 1971. It was initially a political **union** between ",
+      "**Egypt** and **Syria** from 1958 until Syria seceded from the union after the 1961 Syrian coup d'état.  \n",
+      "Egypt continued to be known officially as the United Arab Republic until 1971."
+    ]
+  },
+  "egypt-revolution": {
+    "title": "Egyptian Revolution Flag",
+    "use": { "as": "flag", "since": "1953", "until": "1958" },
+    "desc": [
+      "The **Egyptian Revolution Flag** was used by the **Republic of Egypt** following the ",
+      "Egyptian Revolution of 1952."
+    ]
+  },
+  "egypt-kingdom": {
+    "use": { "as": "flag", "since": "1922", "until": "1953" },
+    "of": { "country": "egypt-kingdom" },
+    "countryData": {
+      "name": "Kingdom of Egypt"
+    }
+  },
+  "egypt-sultanate": {
+    "use": { "as": "flag", "since": "1914", "until": "1922" }
+  },
+  "egypt-khedivate": {
+    "use": { "as": "flag", "since": "1867", "until": "1914" }
+  },
+  "egypt-eyalet": {
+    "use": { "as": "flag", "since": "1844", "until": "1867" },
+    "of": { "territory": "egypt-eyalet" },
+    "territoryData": {
+      "name": "Egypt Eyalet",
+      "note": [
+        "The Eyalet of Egypt operated as an administrative division of the Ottoman Empire from 1517 to 1867. ",
+        "It originated as a result of the conquest of Mamluk Egypt by the Ottomans in 1517, following the ",
+        "Ottoman–Mamluk War (1516–1517) and the absorption of Syria into the Empire in 1516. ",
+        "The Ottomans administered Egypt as an eyalet of the their Empire (Ottoman Turkish: ایالت مصر‎‎ Eyālet-i Mıṣr) ",
+        "from 1517 until 1867, with an interruption during the French occupation of 1798 to 1801."
+      ]
+    }
+  },
+  "egypt-mamluk": {
+    "use": { "as": "flag", "since": "1250", "until": "1517" }
+  },
+  "eagle-of-saladin": {
+    "title": "Eagle of Saladin",
+    "desc": "A reconstruction of Saladin's personal standard, featuring the eagle."
+  }
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+	width="1200" height="800" viewBox="0 -21 63 42">
+	<rect fill="#D21034" width="63" height="42" y="-21"/>
+	<circle fill="#fff" r="10.5" cx="25.5"/>
+	<circle fill="#D21034" r="8.5" cx="28"/>
+	<g id="stars" transform="translate(38,-4.9) scale(-2.3,2.8)">
+		<g id="star">
+			<g id="cone">
+				<polyline id="triangle" fill="#fff" points="0,0 0,1 .5,1" transform="translate(0,-1) rotate(18)"/>
+				<use xlink:href="#triangle" transform="scale(-1,1)"/>
+			</g>
+			<use xlink:href="#cone" transform="rotate(72)"/>
+			<use xlink:href="#cone" transform="rotate(-72)"/>
+			<use xlink:href="#cone" transform="rotate(144)"/>
+			<use xlink:href="#cone" transform="rotate(-144)"/>
+		</g>
+		<use xlink:href="#star" transform="translate(0,3.5) scale(1,-1)"/>
+		<use xlink:href="#star" transform="rotate(-90) translate(-1.75,-2.8)"/>
+	</g>
+</svg>

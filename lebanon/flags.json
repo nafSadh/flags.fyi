@@ -1,0 +1,12 @@
+{
+  "lebanon": {
+    "colors": [
+      { "color": "red", "hex": "#ed1c24" },
+      { "color": "white", "hex": "#fff" },
+      { "color": "green", "hex": "#00a651" }
+    ],
+    "colorNote": "Color estimaed from Wikipedia SVG.",
+    "cs": "lebanon/flag.cs.gif",
+    "article": "lebanon/flag.md"
+  }
+}

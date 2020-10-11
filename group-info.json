@@ -1,0 +1,39 @@
+{
+  "nf": "national-flag",
+  "national-flag": {
+    "title": "National flags of de-facto country nations"
+  },
+  "fn": "former-flag",
+  "former-flag": {
+    "title": "Former national flags of modern countries"
+  },
+  "af": "africa",
+  "africa": {
+    "title": "Flags from the contitent of Africa"
+  },
+  "as": "asia",
+  "asia": {
+    "title": "Flags from the contitent of Asia"
+  },
+  "na": "north-america",
+  "north-america": {
+    "title": "Flags from the contitent of North America"
+  },
+  "sa": "north-america",
+  "south-america": {
+    "title": "Flags from the contitent of South America"
+  },
+  "e": "europe",
+  "europe": {
+    "title": "Flags from the contitent of Europer"
+  },
+  "eu": "european-union",
+  "european-union": {
+    "title": "Countries of the European Union"
+  },
+  "h": "historic",
+  "historic": {
+    "title": "Historic flags",
+    "note": "Flags used by hisotirc countries, nations, states, empires, kingdoms etc."
+  }
+}

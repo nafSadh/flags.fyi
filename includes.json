@@ -1,0 +1,23 @@
+{
+  "afghanistan": "flags.json",
+  "albania": "flags.json",
+  "algeria": "flags.json",
+  "andorra": "flags.json",
+  "angola": "flags.json",
+  "antigua-and-barbuda": "flags.json",
+  "arab": "flags.json",
+  "bahrain": "flags.json",
+  "bangladesh": "flags.json",
+  "british": "overseas-territories.flags.json",
+  "british.cd": "crown-deps.flags.json",
+  "comoros": "flags.json",
+  "djibouti": "flags.json",
+  "egypt": "flags.json",
+  "iraq": "flags.json",
+  "jordan": "flags.json",
+  "lebanon": "flags.json",
+  "libya": "flags.json",
+  "mauritania": "flags.json",
+  "persia": "flags.json",
+  "us": "flags.json"
+}
