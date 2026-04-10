@@ -316,6 +316,10 @@ body.flag-page { overflow: hidden; height: 100vh; }
   display: inline-block; padding: 0.1em 0.4em; border-radius: 3px;
   font-family: var(--font-mono); font-weight: 600; font-size: 0.85em;
 }
+.color-table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
 
 /* ─── Related flags (bottom of sidebar) ───────────────────────────── */
 .related-flags {

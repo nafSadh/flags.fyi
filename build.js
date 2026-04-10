@@ -483,6 +483,95 @@ function flagImgPath(flagSvgPath) {
   return '/' + flagSvgPath;
 }
 
+// ─── SEO helpers ────────────────────────────────────────────────────────────
+
+const SITE_URL = 'https://flags.fyi';
+
+function metaDescription(fd, flagId) {
+  const title = fd.title || '';
+  // Try building from desc (first bullet, truncated to ~120 chars)
+  if (fd.desc) {
+    const descText = typeof fd.desc === 'string' ? fd.desc : arrayText(fd.desc);
+    // Extract first bullet or first sentence
+    const firstBullet = descText.replace(/^[\s\-*]+/, '').split('\n')[0].trim();
+    const truncated = firstBullet.length > 120 ? firstBullet.substring(0, 117) + '...' : firstBullet;
+    const colorList = fd.colors ? fd.colors.map(c => titleCase(c.color)).join(', ') : '';
+    const ratio = fd.ratio || '';
+    let desc = title + ': ' + truncated + '.';
+    if (colorList) desc += ' Colors: ' + colorList + '.';
+    if (ratio) desc += ' Ratio ' + ratio + '.';
+    return desc;
+  }
+  // Fallback: use use.as and use.since
+  const useObj = parseUse(fd.use);
+  const since = (typeof fd.use === 'object' && fd.use.since) ? fd.use.since : '';
+  const ratio = fd.ratio || '';
+  let desc = title + '.';
+  if (useObj.as) desc += ' Used as ' + useObj.as;
+  if (since) desc += ' since ' + since;
+  if (useObj.as) desc += '.';
+  if (ratio) desc += ' Aspect ratio ' + ratio + '.';
+  return desc;
+}
+
+function ogTags(title, description, imagePath, urlPath) {
+  return `<meta property="og:title" content="${escHtml(title)}">
+  <meta property="og:description" content="${escHtml(description)}">
+  <meta property="og:image" content="${SITE_URL}${imagePath}">
+  <meta property="og:url" content="${SITE_URL}${urlPath}">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Flags.fyi">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="${escHtml(title)}">
+  <meta name="twitter:description" content="${escHtml(description)}">
+  <meta name="twitter:image" content="${SITE_URL}${imagePath}">`;
+}
+
+function canonicalTag(urlPath) {
+  return `<link rel="canonical" href="${SITE_URL}${urlPath}">`;
+}
+
+function jsonLdScript(fd, flagId) {
+  const desc = metaDescription(fd, flagId);
+  const imgPath = (fd.flag && fd.flag !== 'none') ? '/' + fd.flag : '/logo.svg';
+  const data = {
+    '@context': 'https://schema.org',
+    '@type': 'CreativeWork',
+    'name': fd.title || '',
+    'description': desc,
+    'image': SITE_URL + imgPath,
+    'url': SITE_URL + '/' + flagId + '/',
+    'isPartOf': { '@type': 'WebSite', 'name': 'Flags.fyi', 'url': SITE_URL + '/' }
+  };
+  if (fd.of && fd.of.country) {
+    data.about = { '@type': 'Country', 'name': titleCase(fd.of.country) };
+  }
+  return '<script type="application/ld+json">' + JSON.stringify(data) + '</script>';
+}
+
+function jsonLdWebSite() {
+  const data = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    'name': 'Flags.fyi',
+    'url': SITE_URL + '/',
+    'description': 'Flags.fyi: explore national, historical, and organizational flags with colors, construction sheets, and detailed descriptions.'
+  };
+  return '<script type="application/ld+json">' + JSON.stringify(data) + '</script>';
+}
+
+function jsonLdCollectionPage(title, description, urlPath) {
+  const data = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    'name': title,
+    'description': description,
+    'url': SITE_URL + urlPath,
+    'isPartOf': { '@type': 'WebSite', 'name': 'Flags.fyi', 'url': SITE_URL + '/' }
+  };
+  return '<script type="application/ld+json">' + JSON.stringify(data) + '</script>';
+}
+
 // ─── shared HTML pieces (Pico CSS) ───────────────────────────────────────────
 function htmlHead(title, extraHead = '') {
   return `<!DOCTYPE html>
@@ -495,6 +584,10 @@ function htmlHead(title, extraHead = '') {
   <link rel="stylesheet" href="/style.css">
   ${extraHead}
 </head>`;
+}
+
+function analyticsSnippet() {
+  return `<script data-goatcounter="https://flags-fyi.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>`;
 }
 
 function navbar() {
@@ -531,6 +624,7 @@ function colorsTableHtml(colors, colorNote) {
   }
 
   let html = `<div class="colors-header">Colors</div>
+  <div class="color-table-wrap">
   <table>
     <thead><tr>
       <th>Color</th>
@@ -565,13 +659,19 @@ function colorsTableHtml(colors, colorNote) {
   if (colorNote) {
     html += `\n    <tfoot><tr><td colspan="${2 + genericCols.length}"><small class="text-muted">&dagger; ${escHtml(colorNote)}</small></td></tr></tfoot>`;
   }
-  html += `\n  </table>`;
+  html += `\n  </table>
+  </div>`;
   return html;
 }
 
 // ─── generate landing page (index.html) ──────────────────────────────────────
 function generateLanding() {
-  const html = `${htmlHead('Flags.fyi')}
+  const landingDesc = 'Flags.fyi: explore national, historical, and organizational flags with colors, construction sheets, and detailed descriptions.';
+  const landingExtra = `<meta name="description" content="${escHtml(landingDesc)}">
+  ${ogTags('Explore Flags of the World', landingDesc, '/logo.svg', '/')}
+  ${canonicalTag('/')}
+  ${jsonLdWebSite()}`;
+  const html = `${htmlHead('Explore Flags of the World', landingExtra)}
 <body>
   <div class="hero-landing">
     <div>
@@ -581,6 +681,7 @@ function generateLanding() {
       <a href="/flag-index/" class="btn">Index of Flags</a>
     </div>
   </div>
+  ${analyticsSnippet()}
 </body>
 </html>`;
   fs.writeFileSync(path.join(ROOT, 'index.html'), html);
@@ -626,7 +727,7 @@ function generateFlagIndex() {
   // Render a flag grid item
   function flagItem(flagId, fd) {
     const flagSrc = fd.flag && fd.flag !== 'none' ? flagImgPath(fd.flag) : '';
-    return `<a href="/${flagId}/">${flagSrc ? `<img src="${flagSrc}" alt="" class="thumb" loading="lazy">` : ''}${escHtml(fd._name)}</a>`;
+    return `<a href="/${flagId}/">${flagSrc ? `<img src="${flagSrc}" alt="${escHtml(fd._name || fd.name || '')}" class="thumb" loading="lazy">` : ''}${escHtml(fd._name)}</a>`;
   }
 
   // Category ordering
@@ -710,7 +811,12 @@ function generateFlagIndex() {
   }
 
   const totalFlags = allIds.length;
-  const indexHtml = `${htmlHead('Index of Flags')}
+  const hubDesc = 'Browse flags by category. Explore national, historical, and organizational flags with color details and construction sheets.';
+  const hubExtra = `<meta name="description" content="${escHtml(hubDesc)}">
+  ${ogTags('Index of Flags', hubDesc, '/logo.svg', '/flag-index/')}
+  ${canonicalTag('/flag-index/')}
+  ${jsonLdCollectionPage('Index of Flags', hubDesc, '/flag-index/')}`;
+  const indexHtml = `${htmlHead('Index of Flags', hubExtra)}
 <body>
   ${navbar()}
   <div class="hero-banner">
@@ -724,6 +830,7 @@ function generateFlagIndex() {
     ${hubSections}
   </main>
   <script src="/app.js"><\/script>
+  ${analyticsSnippet()}
 </body>
 </html>`;
 
@@ -742,7 +849,12 @@ function generateFlagIndex() {
   }
   const allDir = path.join(baseDir, 'all');
   fs.mkdirSync(allDir, { recursive: true });
-  const allHtml = `${htmlHead('All Flags')}
+  const allDesc = 'Browse all flags alphabetically on Flags.fyi.';
+  const allExtra = `<meta name="description" content="${escHtml(allDesc)}">
+  ${ogTags('All Flags', allDesc, '/logo.svg', '/flag-index/all/')}
+  ${canonicalTag('/flag-index/all/')}
+  ${jsonLdCollectionPage('All Flags', allDesc, '/flag-index/all/')}`;
+  const allHtml = `${htmlHead('All Flags', allExtra)}
 <body>
   ${navbar()}
   <div class="hero-banner">
@@ -754,6 +866,7 @@ function generateFlagIndex() {
     </div>
   </main>
   <script src="/app.js"><\/script>
+  ${analyticsSnippet()}
 </body>
 </html>`;
   fs.writeFileSync(path.join(allDir, 'index.html'), allHtml);
@@ -785,7 +898,12 @@ function generateFlagIndex() {
   }
   const ordDir = path.join(baseDir, 'ordered');
   fs.mkdirSync(ordDir, { recursive: true });
-  const ordHtml = `${htmlHead('Flags — Navigation Order')}
+  const ordDesc = 'Browse flags in navigation order on Flags.fyi.';
+  const ordExtra = `<meta name="description" content="${escHtml(ordDesc)}">
+  ${ogTags('Flags — Navigation Order', ordDesc, '/logo.svg', '/flag-index/ordered/')}
+  ${canonicalTag('/flag-index/ordered/')}
+  ${jsonLdCollectionPage('Flags — Navigation Order', ordDesc, '/flag-index/ordered/')}`;
+  const ordHtml = `${htmlHead('Flags — Navigation Order', ordExtra)}
 <body>
   ${navbar()}
   <div class="hero-banner">
@@ -797,6 +915,7 @@ function generateFlagIndex() {
     </div>
   </main>
   <script src="/app.js"><\/script>
+  ${analyticsSnippet()}
 </body>
 </html>`;
   fs.writeFileSync(path.join(ordDir, 'index.html'), ordHtml);
@@ -815,7 +934,12 @@ function generateFlagIndex() {
       items += flagItem(flagId, fd);
     }
 
-    const catHtml = `${htmlHead(cat.title + ' — Flags')}
+    const catDesc = `Browse ${cat.title} flags on Flags.fyi.`;
+    const catExtra = `<meta name="description" content="${escHtml(catDesc)}">
+  ${ogTags(cat.title + ' — Flags', catDesc, '/logo.svg', '/flag-index/' + cat.id + '/')}
+  ${canonicalTag('/flag-index/' + cat.id + '/')}
+  ${jsonLdCollectionPage(cat.title + ' — Flags', catDesc, '/flag-index/' + cat.id + '/')}`;
+    const catHtml = `${htmlHead(cat.title + ' — Flags', catExtra)}
 <body>
   ${navbar()}
   <div class="hero-banner">
@@ -827,6 +951,7 @@ function generateFlagIndex() {
     </div>
   </main>
   <script src="/app.js"><\/script>
+  ${analyticsSnippet()}
 </body>
 </html>`;
 
@@ -842,7 +967,12 @@ function generateFlagIndex() {
     for (const { flagId, fd } of uncategorized) {
       items += flagItem(flagId, fd);
     }
-    const otherHtml = `${htmlHead('Other Flags')}
+    const otherDesc = 'Browse Other flags on Flags.fyi.';
+    const otherExtra = `<meta name="description" content="${escHtml(otherDesc)}">
+  ${ogTags('Other Flags', otherDesc, '/logo.svg', '/flag-index/other/')}
+  ${canonicalTag('/flag-index/other/')}
+  ${jsonLdCollectionPage('Other Flags', otherDesc, '/flag-index/other/')}`;
+    const otherHtml = `${htmlHead('Other Flags', otherExtra)}
 <body>
   ${navbar()}
   <div class="hero-banner">
@@ -854,6 +984,7 @@ function generateFlagIndex() {
     </div>
   </main>
   <script src="/app.js"><\/script>
+  ${analyticsSnippet()}
 </body>
 </html>`;
     fs.writeFileSync(path.join(otherDir, 'index.html'), otherHtml);
@@ -943,7 +1074,7 @@ function relatedFlagsHtml(related) {
   let html = '<div class="related-flags"><div class="related-header">Related</div><div class="related-list">';
   for (const r of related) {
     const src = r.flag && r.flag !== 'none' ? flagImgPath(r.flag) : '';
-    html += `<a href="/${r.id}/" title="${escHtml(r.name)}">${src ? `<img src="${src}" alt="${escHtml(r.name)}" class="related-thumb">` : ''}</a>`;
+    html += `<a href="/${r.id}/" title="${escHtml(r.name)}">${src ? `<img src="${src}" alt="${escHtml(r.name)}" class="related-thumb" loading="lazy">` : ''}</a>`;
   }
   html += '</div></div>';
   return html;
@@ -1267,6 +1398,19 @@ function getCommonsUrl(flagId) {
 
 const wikiIcon = `<svg width="20" height="20" viewBox="0 0 128 128"><path d="M120.85,29.21C120.85,29.62 120.72,29.99 120.47,30.33C120.21,30.66 119.94,30.83 119.63,30.83C117.14,31.07 115.09,31.87 113.51,33.24C111.92,34.6 110.29,37.21 108.6,41.05L82.8,99.19C82.63,99.73 82.16,100 81.38,100C80.77,100 80.3,99.73 79.96,99.19L65.49,68.93L48.85,99.19C48.51,99.73 48.04,100 47.43,100C46.69,100 46.2,99.73 45.96,99.19L20.61,41.05C19.03,37.44 17.36,34.92 15.6,33.49C13.85,32.06 11.4,31.17 8.27,30.83C8,30.83 7.74,30.69 7.51,30.4C7.27,30.12 7.15,29.79 7.15,29.42C7.15,28.47 7.42,28 7.96,28C10.22,28 12.58,28.1 15.05,28.3C17.34,28.51 19.5,28.61 21.52,28.61C23.58,28.61 26.01,28.51 28.81,28.3C31.74,28.1 34.34,28 36.6,28C37.14,28 37.41,28.47 37.41,29.42C37.41,30.36 37.24,30.83 36.91,30.83C34.65,31 32.87,31.58 31.57,32.55C30.27,33.53 29.62,34.81 29.62,36.4C29.62,37.21 29.89,38.22 30.43,39.43L51.38,86.74L63.27,64.28L52.19,41.05C50.2,36.91 48.56,34.23 47.28,33.03C46,31.84 44.06,31.1 41.46,30.83C41.22,30.83 41,30.69 40.78,30.4C40.56,30.12 40.45,29.79 40.45,29.42C40.45,28.47 40.68,28 41.16,28C43.42,28 45.49,28.1 47.38,28.3C49.2,28.51 51.14,28.61 53.2,28.61C55.22,28.61 57.36,28.51 59.62,28.3C61.95,28.1 64.24,28 66.5,28C67.04,28 67.31,28.47 67.31,29.42C67.31,30.36 67.15,30.83 66.81,30.83C62.29,31.14 60.03,32.42 60.03,34.68C60.03,35.69 60.55,37.26 61.6,39.38L68.93,54.26L76.22,40.65C77.23,38.73 77.74,37.11 77.74,35.79C77.74,32.69 75.48,31.04 70.96,30.83C70.55,30.83 70.35,30.36 70.35,29.42C70.35,29.08 70.45,28.76 70.65,28.46C70.86,28.15 71.06,28 71.26,28C72.88,28 74.87,28.1 77.23,28.3C79.49,28.51 81.35,28.61 82.8,28.61C83.84,28.61 85.38,28.52 87.4,28.35C89.96,28.12 92.11,28 93.83,28C94.23,28 94.43,28.4 94.43,29.21C94.43,30.29 94.06,30.83 93.32,30.83C90.69,31.1 88.57,31.83 86.97,33.01C85.37,34.19 83.37,36.87 80.98,41.05L71.26,59.02L84.42,85.83L103.85,40.65C104.52,39 104.86,37.48 104.86,36.1C104.86,32.79 102.6,31.04 98.08,30.83C97.67,30.83 97.47,29.42 97.47,28.47C97.47,28.47 97.77,28 98.38,28C100.03,28 101.99,28.1 104.25,28.3C106.34,28.51 108.1,28.61 109.51,28.61C111,28.61 112.72,28.51 114.67,28.3C116.7,28.1 118.52,28 120.14,28C120.61,28 120.85,28.4 120.85,29.21z" fill="currentColor"/></svg>`;
 
+// ─── SVG sprite for deduplicating repeated icons ────────────────────────────
+function svgSprite() {
+  return `<svg style="display:none" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="icon-wiki" viewBox="0 0 128 128"><path d="M120.85,29.21C120.85,29.62 120.72,29.99 120.47,30.33C120.21,30.66 119.94,30.83 119.63,30.83C117.14,31.07 115.09,31.87 113.51,33.24C111.92,34.6 110.29,37.21 108.6,41.05L82.8,99.19C82.63,99.73 82.16,100 81.38,100C80.77,100 80.3,99.73 79.96,99.19L65.49,68.93L48.85,99.19C48.51,99.73 48.04,100 47.43,100C46.69,100 46.2,99.73 45.96,99.19L20.61,41.05C19.03,37.44 17.36,34.92 15.6,33.49C13.85,32.06 11.4,31.17 8.27,30.83C8,30.83 7.74,30.69 7.51,30.4C7.27,30.12 7.15,29.79 7.15,29.42C7.15,28.47 7.42,28 7.96,28C10.22,28 12.58,28.1 15.05,28.3C17.34,28.51 19.5,28.61 21.52,28.61C23.58,28.61 26.01,28.51 28.81,28.3C31.74,28.1 34.34,28 36.6,28C37.14,28 37.41,28.47 37.41,29.42C37.41,30.36 37.24,30.83 36.91,30.83C34.65,31 32.87,31.58 31.57,32.55C30.27,33.53 29.62,34.81 29.62,36.4C29.62,37.21 29.89,38.22 30.43,39.43L51.38,86.74L63.27,64.28L52.19,41.05C50.2,36.91 48.56,34.23 47.28,33.03C46,31.84 44.06,31.1 41.46,30.83C41.22,30.83 41,30.69 40.78,30.4C40.56,30.12 40.45,29.79 40.45,29.42C40.45,28.47 40.68,28 41.16,28C43.42,28 45.49,28.1 47.38,28.3C49.2,28.51 51.14,28.61 53.2,28.61C55.22,28.61 57.36,28.51 59.62,28.3C61.95,28.1 64.24,28 66.5,28C67.04,28 67.31,28.47 67.31,29.42C67.31,30.36 67.15,30.83 66.81,30.83C62.29,31.14 60.03,32.42 60.03,34.68C60.03,35.69 60.55,37.26 61.6,39.38L68.93,54.26L76.22,40.65C77.23,38.73 77.74,37.11 77.74,35.79C77.74,32.69 75.48,31.04 70.96,30.83C70.55,30.83 70.35,30.36 70.35,29.42C70.35,29.08 70.45,28.76 70.65,28.46C70.86,28.15 71.06,28 71.26,28C72.88,28 74.87,28.1 77.23,28.3C79.49,28.51 81.35,28.61 82.8,28.61C83.84,28.61 85.38,28.52 87.4,28.35C89.96,28.12 92.11,28 93.83,28C94.23,28 94.43,28.4 94.43,29.21C94.43,30.29 94.06,30.83 93.32,30.83C90.69,31.1 88.57,31.83 86.97,33.01C85.37,34.19 83.37,36.87 80.98,41.05L71.26,59.02L84.42,85.83L103.85,40.65C104.52,39 104.86,37.48 104.86,36.1C104.86,32.79 102.6,31.04 98.08,30.83C97.67,30.83 97.47,29.42 97.47,28.47C97.47,28.47 97.77,28 98.38,28C100.03,28 101.99,28.1 104.25,28.3C106.34,28.51 108.1,28.61 109.51,28.61C111,28.61 112.72,28.51 114.67,28.3C116.7,28.1 118.52,28 120.14,28C120.61,28 120.85,28.4 120.85,29.21z" fill="currentColor"/></symbol>
+  <symbol id="icon-index" viewBox="0 0 16 16"><path d="M2 3h12M2 6.5h8M2 10h10M2 13.5h6" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/></symbol>
+  <symbol id="icon-prev" viewBox="0 0 16 16"><path d="M10.5 2.5L4.5 8l6 5.5" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="icon-next" viewBox="0 0 16 16"><path d="M5.5 2.5L11.5 8l-6 5.5" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="icon-details" viewBox="0 0 16 16"><path d="M2 4h12M2 8h12M2 12h8" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/></symbol>
+  <symbol id="icon-close" viewBox="0 0 16 16"><path d="M4 4l8 8M12 4l-8 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+  <symbol id="icon-verified" viewBox="0 0 16 16"><path d="M8 1a7 7 0 100 14A7 7 0 008 1zm3.3 5.7l-4 4a1 1 0 01-1.4 0l-2-2a1 1 0 111.4-1.4L6.6 8.6l3.3-3.3a1 1 0 011.4 1.4z" fill="currentColor"/></symbol>
+  <symbol id="icon-unverified" viewBox="0 0 16 16"><circle cx="8" cy="8" r="7" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 4.5v4M8 10.5v1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></symbol>
+</svg>`;
+
 // ─── generate individual flag pages ──────────────────────────────────────────
 function generateFlagPage(flagId) {
   const fd = getFullFlagData(flagId);
@@ -1286,11 +1430,11 @@ function generateFlagPage(flagId) {
   let prevBtn = '', nextBtn = '';
   if (meta && meta.prev) {
     const prevName = getFullFlagData(meta.prev)._name;
-    prevBtn = `<a href="/${meta.prev}/" class="nav-btn" title="${escHtml(prevName)}"><svg width="18" height="18" viewBox="0 0 16 16"><path d="M10.5 2.5L4.5 8l6 5.5" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></a>`;
+    prevBtn = `<a href="/${meta.prev}/" class="nav-btn" title="${escHtml(prevName)}"><svg width="18" height="18" viewBox="0 0 16 16"><use href="#icon-prev"/></svg></a>`;
   }
   if (meta && meta.next) {
     const nextName = getFullFlagData(meta.next)._name;
-    nextBtn = `<a href="/${meta.next}/" class="nav-btn" title="${escHtml(nextName)}"><svg width="18" height="18" viewBox="0 0 16 16"><path d="M5.5 2.5L11.5 8l-6 5.5" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></a>`;
+    nextBtn = `<a href="/${meta.next}/" class="nav-btn" title="${escHtml(nextName)}"><svg width="18" height="18" viewBox="0 0 16 16"><use href="#icon-next"/></svg></a>`;
   }
 
   // Colors table
@@ -1303,7 +1447,7 @@ function generateFlagPage(flagId) {
   let csHtml = '';
   if (fd.cs) {
     csHtml = `<figure class="cs-block">
-      <img src="${flagImgPath(fd.cs)}" alt="Construction sheet">
+      <img src="${flagImgPath(fd.cs)}" alt="Construction sheet: ${escHtml(fd.title)}" loading="lazy">
       <figcaption>Construction sheet</figcaption>
     </figure>`;
   }
@@ -1344,7 +1488,7 @@ function generateFlagPage(flagId) {
   // Deep dive toggle button (only if there's content)
   const deepDiveBtn = hasDeepDive
     ? `<button class="deep-dive-btn" id="deepDiveToggle" title="Deep dive (d)">
-        <svg width="18" height="18" viewBox="0 0 16 16"><path d="M2 4h12M2 8h12M2 12h8" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/></svg>
+        <svg width="18" height="18" viewBox="0 0 16 16"><use href="#icon-details"/></svg>
         <span>Details</span>
       </button>`
     : '';
@@ -1362,13 +1506,13 @@ function generateFlagPage(flagId) {
 
   // Wikipedia link
   const wikiUrl = getWikiUrl(flagId, fd);
-  const wikiRailBtn = `<a href="${escHtml(wikiUrl)}" class="rail-btn" title="Wikipedia" target="_blank" rel="noopener">${wikiIcon}</a>\n`;
+  const wikiRailBtn = `<a href="${escHtml(wikiUrl)}" class="rail-btn" title="Wikipedia" target="_blank" rel="noopener"><svg width="20" height="20" viewBox="0 0 128 128"><use href="#icon-wiki"/></svg></a>\n`;
 
   // Wikimedia Commons reference
   const commonsUrl = getCommonsUrl(flagId);
   const commonsBtn = commonsUrl
-    ? `<a href="${escHtml(commonsUrl)}" class="ref-badge verified" title="Source: Wikimedia Commons" target="_blank" rel="noopener"><svg width="12" height="12" viewBox="0 0 16 16"><path d="M8 1a7 7 0 100 14A7 7 0 008 1zm3.3 5.7l-4 4a1 1 0 01-1.4 0l-2-2a1 1 0 111.4-1.4L6.6 8.6l3.3-3.3a1 1 0 011.4 1.4z" fill="currentColor"/></svg> verified</a>`
-    : `<span class="ref-badge unverified" title="Source not verified"><svg width="12" height="12" viewBox="0 0 16 16"><circle cx="8" cy="8" r="7" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 4.5v4M8 10.5v1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg> unverified</span>`;
+    ? `<a href="${escHtml(commonsUrl)}" class="ref-badge verified" title="Source: Wikimedia Commons" target="_blank" rel="noopener"><svg width="12" height="12" viewBox="0 0 16 16"><use href="#icon-verified"/></svg> verified</a>`
+    : `<span class="ref-badge unverified" title="Source not verified"><svg width="12" height="12" viewBox="0 0 16 16"><use href="#icon-unverified"/></svg> unverified</span>`;
 
   // Year ribbon — for historical flags: "former" style; for current flags: "since YYYY" style
   let yearRibbonHtml = '';
@@ -1388,7 +1532,7 @@ function generateFlagPage(flagId) {
     const nowItems = nowIds.map(nid => {
       const nfd = getFullFlagData(nid);
       const nflagSrc = (nfd.flag && nfd.flag !== 'none') ? flagImgPath(nfd.flag) : '';
-      return `<a href="/${nid}/" class="successor-flag" title="${escHtml(nfd._name)}">${nflagSrc ? `<img src="${nflagSrc}" alt="${escHtml(nfd._name)}">` : ''}</a>`;
+      return `<a href="/${nid}/" class="successor-flag" title="${escHtml(nfd._name)}">${nflagSrc ? `<img src="${nflagSrc}" alt="${escHtml(nfd._name)}" loading="lazy">` : ''}</a>`;
     }).join('');
     successorHtml = `<div class="successor-row">${yearRibbonHtml}<span class="successor-arrow">→</span>${nowItems}</div>`;
   } else if (yearRibbonHtml) {
@@ -1404,8 +1548,15 @@ function generateFlagPage(flagId) {
     categoryTagsHtml = `<div class="category-tags">${tags}</div>`;
   }
 
-  const html = `${htmlHead(fd.title)}
+  const flagMetaDesc = metaDescription(fd, flagId);
+  const flagOgImage = flagSrc || '/logo.svg';
+  const flagExtra = `<meta name="description" content="${escHtml(flagMetaDesc)}">
+  ${ogTags(fd.title, flagMetaDesc, flagOgImage, '/' + flagId + '/')}
+  ${canonicalTag('/' + flagId + '/')}
+  ${jsonLdScript(fd, flagId)}`;
+  const html = `${htmlHead(fd.title, flagExtra)}
 <body class="flag-page">
+  ${svgSprite()}
   <!-- Top navbar with centered title -->
   <nav class="site-nav">
     <ul><li><a href="/" class="site-logo"><img src="/logo.svg" alt="">Flags.fyi</a></li></ul>
@@ -1416,7 +1567,7 @@ function generateFlagPage(flagId) {
   <!-- Thin left sidebar -->
   <div class="left-rail">
     <a href="/flag-index/" class="rail-btn" title="Index of Flags (i)">
-      <svg width="20" height="20" viewBox="0 0 16 16"><path d="M2 3h12M2 6.5h8M2 10h10M2 13.5h6" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/></svg>
+      <svg width="20" height="20" viewBox="0 0 16 16"><use href="#icon-index"/></svg>
     </a>
     ${categoryRailHtml}
     ${wikiRailBtn}
@@ -1427,7 +1578,7 @@ function generateFlagPage(flagId) {
     <!-- Left column: flag + (sidebar content moves here when dive open) -->
     <div class="flag-column" id="flagColumn">
       <div class="flag-viewport" id="flagViewport">
-        ${flagSrc ? `<img src="${flagSrc}" alt="${escHtml(fd.title)}" class="flag-img" id="flagImg">` : '<div class="flag-img-placeholder"></div>'}
+        ${flagSrc ? `<img src="${flagSrc}" alt="${escHtml(fd.title)}" class="flag-img" id="flagImg" fetchpriority="high">` : '<div class="flag-img-placeholder"></div>'}
       </div>
     </div>
 
@@ -1441,7 +1592,7 @@ function generateFlagPage(flagId) {
       <div class="sidebar-info" id="sidebarInfo">
         ${subtitleHtml}
         ${colorsHtml}
-        <a href="${escHtml(wikiUrl)}" class="wiki-link" target="_blank" rel="noopener">${wikiIcon}</a>
+        <a href="${escHtml(wikiUrl)}" class="wiki-link" target="_blank" rel="noopener"><svg width="20" height="20" viewBox="0 0 128 128"><use href="#icon-wiki"/></svg></a>
         ${commonsBtn}
       </div>
       <div class="sidebar-bottom">
@@ -1456,7 +1607,7 @@ function generateFlagPage(flagId) {
       <div class="deep-dive-header">
         <h2>${escHtml(fd.title)}</h2>
         <button class="deep-dive-close" id="deepDiveClose" title="Close (Esc)">
-          <svg width="20" height="20" viewBox="0 0 16 16"><path d="M4 4l8 8M12 4l-8 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <svg width="20" height="20" viewBox="0 0 16 16"><use href="#icon-close"/></svg>
         </button>
       </div>
       <div class="deep-dive-body">
@@ -1473,6 +1624,7 @@ function generateFlagPage(flagId) {
   </div>
 
   <script src="/app.js"><\/script>
+  ${analyticsSnippet()}
 </body>
 </html>`;
 
@@ -1481,7 +1633,9 @@ function generateFlagPage(flagId) {
 
 // ─── 200.html / 404.html ────────────────────────────────────────────────────
 function generate404() {
-  const html = `${htmlHead('Page Not Found')}
+  const notFoundExtra = `<meta name="description" content="Page not found on Flags.fyi.">
+  ${canonicalTag('/404.html')}`;
+  const html = `${htmlHead('Page Not Found', notFoundExtra)}
 <body>
   ${navbar()}
   <main class="container" style="text-align:center;padding-top:4rem">
@@ -1490,6 +1644,7 @@ function generate404() {
     <a href="/flag-index/" class="btn">Browse All Flags</a>
   </main>
   <script src="/app.js"><\/script>
+  ${analyticsSnippet()}
 </body>
 </html>`;
   fs.writeFileSync(path.join(ROOT, '200.html'), html);
@@ -1533,6 +1688,60 @@ function copyFlagAssets() {
   return count;
 }
 
+// ─── sitemap.xml ────────────────────────────────────────────────────────────
+function generateSitemap() {
+  const today = new Date().toISOString().split('T')[0];
+  let urls = '';
+
+  function addUrl(loc, priority, changefreq) {
+    urls += `  <url>\n    <loc>${SITE_URL}${loc}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>${changefreq || 'monthly'}</changefreq>\n    <priority>${priority}</priority>\n  </url>\n`;
+  }
+
+  // Landing page
+  addUrl('/', '1.0', 'monthly');
+
+  // Flag-index hub
+  addUrl('/flag-index/', '0.9', 'monthly');
+
+  // All flags page
+  addUrl('/flag-index/all/', '0.7', 'monthly');
+
+  // Ordered page
+  addUrl('/flag-index/ordered/', '0.7', 'monthly');
+
+  // Category pages
+  const allIds = getAllFlagIds();
+  const catFlagsSet = new Set();
+  for (const flagId of allIds) {
+    const fd = getFullFlagData(flagId);
+    const cats = getFlagCategories(fd);
+    for (const cat of cats) catFlagsSet.add(cat.id);
+  }
+  for (const catId of catFlagsSet) {
+    addUrl('/flag-index/' + catId + '/', '0.7', 'monthly');
+  }
+
+  // Flag pages
+  for (const flagId of allIds) {
+    const fd = getFullFlagData(flagId);
+    const gs = (fd.g || '').split(',').map(s => s.trim()).filter(Boolean);
+    const isHistorical = !!(fd.now || gs.includes('h'));
+    const priority = isHistorical ? '0.5' : '0.8';
+    addUrl('/' + flagId + '/', priority, 'monthly');
+  }
+
+  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}</urlset>\n`;
+  fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), sitemap);
+  console.log('  sitemap.xml');
+}
+
+// ─── robots.txt ─────────────────────────────────────────────────────────────
+function generateRobotsTxt() {
+  const txt = `User-agent: *\nAllow: /\n\nSitemap: ${SITE_URL}/sitemap.xml\n`;
+  fs.writeFileSync(path.join(ROOT, 'robots.txt'), txt);
+  console.log('  robots.txt');
+}
+
 // ─── main ────────────────────────────────────────────────────────────────────
 function main() {
   console.log('Building flags.fyi static site...\n');
@@ -1567,7 +1776,11 @@ function main() {
   // ─── Generate FLAGS.md ───
   generateFlagsMd(flagIds);
 
-  console.log(`\nDone! Generated ${flagIds.length} flag pages + index + landing + 404 + FLAGS.md`);
+  // ─── SEO: sitemap + robots.txt ───
+  generateSitemap();
+  generateRobotsTxt();
+
+  console.log(`\nDone! Generated ${flagIds.length} flag pages + index + landing + 404 + FLAGS.md + sitemap.xml + robots.txt`);
 }
 
 // ─── FLAGS.md — master list of all flags ──────────────────────────────────────
