@@ -1,0 +1,52 @@
+{
+  "guernsey": {
+    "title": "Flag of Guernsey",
+    "ratio": "2:3",
+    "use": {
+      "as": "civil flag",
+      "since": "1985-02-15"
+    },
+    "of": {
+      "country": "guernsey"
+    },
+    "countryData": {
+      "name": "Guernsey",
+      "officialName": "Bailiwick of Guernsey",
+      "un": "none"
+    },
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "The Cross of St George."
+      },
+      {
+        "color": "red",
+        "hex": "#E8112D",
+        "pantone": "186 C",
+        "cmyk": "0/93/81/9",
+        "note": "The Cross of St George, patron saint of England."
+      },
+      {
+        "color": "gold",
+        "hex": "#FFD700",
+        "note": "William the Conqueror's cross",
+        "cmyk": "0/16/100/0"
+      }
+    ],
+    "desc": [
+      "- A white field with a red St George's Cross and a golden cross of William the Conqueror within it\n",
+      "- The gold cross was added in 1985 to distinguish it from the flag of England\n",
+      "- **Construction:** a white field bearing a red St George's Cross\n",
+      "- Inside the cross, a gold Cross of William the Conqueror is centred\n",
+      "- The gold cross is proportionally smaller, fitting within the red cross arms"
+    ],
+    "cs": "guernsey/flag.cs.svg",
+    "trivia": [
+      "- Guernsey uses a modified Union Jack with a cross representing St. George\n",
+      "- Guernsey is a Crown dependency with its own government but under British sovereignty\n",
+      "- The island has its own local flag separate from the official Union Jack"
+    ]
+  }
+}

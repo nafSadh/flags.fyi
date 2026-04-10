@@ -1,62 +1,285 @@
 {
   "egypt": {
+    "title": "Flag of the Arab Republic of Egypt",
     "ratio": "2:3",
+    "use": {
+      "as": "national flag and ensign",
+      "since": "1984-10-04"
+    },
     "colors": [
       {
         "color": "red",
         "hex": "#ce1126",
         "cmyk": "0/92/82/19",
-        "note": "The red band symbolizes the Egyptians’ blood in the war against colonization."
+        "note": "The red band symbolizes the Egyptians' blood in the war against colonization.",
+        "pantone": "186 C"
       },
       {
         "color": "white",
         "hex": "#fff",
         "cmyk": "0/0/0/0",
-        "note": "The white band symbolizes the purity of the Egyptian’s heart."
+        "note": "The white band symbolizes the purity of the Egyptian's heart."
       },
       {
         "color": "black",
         "hex": "#000",
         "cmyk": "0/0/0/100",
-        "note": "The black band below the white, symbolizes the manner in which darkness is overcome."
+        "note": "The black band below the white, symbolizes the manner in which darkness is overcome.",
+        "pantone": "Black"
       },
-      { "color": "gold", "hex": "#c09300", "cmyk": "0/23/100/25" }
+      {
+        "color": "gold",
+        "hex": "#c09300",
+        "cmyk": "0/23/100/25",
+        "note": "The Eagle of Saladin (national emblem) centred on the white stripe.",
+        "pantone": "117 C"
+      }
     ],
-    "article": "egypt/flag.md"
+    "article": "egypt/flag.md",
+    "desc": [
+      "- A horizontal tricolour of red, white, and black with the gold Eagle of Saladin (national emblem) centred on\n",
+      "- the white stripe. The current design was adopted on 4 October 1984, deriving from the Arab Liberation Flag tradition"
+    ],
+    "of": {
+      "country": "egypt"
+    },
+    "countryData": {
+      "name": "Egypt",
+      "officialName": "Arab Republic of Egypt",
+      "un": "member"
+    },
+    "cs": "egypt/flag.cs.svg",
+    "trivia": [
+      "- The Eagle of Saladin (Qurʾān eagle) is the same eagle used by several other Arab nations\n",
+      "- The red-white-black tricolour was designed during the 1952 Egyptian Revolution\n",
+      "- The colours represent the bloodshed of revolution (red), purity (white), and resistance (black)"
+    ]
   },
   "egypt-uar": {
-    "use": { "as": "flag", "since": "1958", "until": "1971" },
+    "title": "United Arab Republic Flag",
+    "ratio": "2:3",
+    "use": {
+      "as": "flag",
+      "since": "1958",
+      "until": "1971"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#ce1126",
+        "cmyk": "0/92/82/19",
+        "note": "The blood of martyrs."
+      },
+      {
+        "color": "white",
+        "hex": "#fff",
+        "cmyk": "0/0/0/0",
+        "note": "Peace and the bright future."
+      },
+      {
+        "color": "black",
+        "hex": "#000",
+        "cmyk": "0/0/0/100",
+        "note": "The end of colonial oppression."
+      },
+      {
+        "color": "green",
+        "hex": "#007a3d",
+        "cmyk": "100/0/50/52",
+        "note": "The two stars represented Egypt and Syria."
+      }
+    ],
     "desc": [
-      "The **United Arab Republic** (UAR; Arabic: الجمهورية العربية المتحدة‎ al-Jumhūrīyah al-'Arabīyah al-Muttaḥidah) ",
-      "was a sovereign state in the Middle East from 1958 to 1971. It was initially a political **union** between ",
-      "**Egypt** and **Syria** from 1958 until Syria seceded from the union after the 1961 Syrian coup d'état.  \n",
-      "Egypt continued to be known officially as the United Arab Republic until 1971."
+      "- The **United Arab Republic** (UAR; Arabic: الجمهورية العربية المتحدة‎ al-Jumhūrīyah al-'Arabīyah al-Muttaḥidah)\n",
+      "- was a sovereign state in the Middle East from 1958 to 1971. It was initially a political **union** between\n",
+      "- **Egypt** and **Syria** from 1958 until Syria seceded from the union after the 1961 Syrian coup d'état\n",
+      "- Egypt continued to be known officially as the United Arab Republic until 1971\n",
+      "- **Construction:** three equal horizontal bands of red (top), white (middle), and black (bottom), with two green five-pointed stars centred on the white band"
+    ],
+    "of": {
+      "country": "egypt"
+    },
+    "countryData": {
+      "name": "United Arab Republic",
+      "officialName": "United Arab Republic",
+      "un": "none"
+    },
+    "cs": "egypt/egypt-uar.cs.svg",
+    "trivia": [
+      "- The United Arab Republic (1958–1961) briefly united Egypt and Syria\n",
+      "- The flag represented Pan-Arab unity and Nasserism\n",
+      "- Egypt continued using these colours after the union dissolved"
     ]
   },
   "egypt-revolution": {
     "title": "Egyptian Revolution Flag",
-    "use": { "as": "flag", "since": "1953", "until": "1958" },
+    "ratio": "2:3",
+    "use": {
+      "as": "flag",
+      "since": "1953",
+      "until": "1958"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#ce1126",
+        "cmyk": "0/92/82/19",
+        "note": "The revolution and sacrifice of 1952."
+      },
+      {
+        "color": "white",
+        "hex": "#fff",
+        "cmyk": "0/0/0/0",
+        "note": "The bright future."
+      },
+      {
+        "color": "black",
+        "hex": "#000",
+        "cmyk": "0/0/0/100",
+        "note": "The dark colonial past."
+      }
+    ],
     "desc": [
-      "The **Egyptian Revolution Flag** was used by the **Republic of Egypt** following the ",
-      "Egyptian Revolution of 1952."
+      "- The **Egyptian Revolution Flag** was used by the **Republic of Egypt** following the\n",
+      "- Egyptian Revolution of 1952\n",
+      "- **Construction:** the Liberation Flag — three equal horizontal bands of red, white, and black. Adopted during the Egyptian Revolution of 1952"
+    ],
+    "of": {
+      "country": "egypt"
+    },
+    "countryData": {
+      "name": "Egypt",
+      "officialName": "Egyptian Revolution (1952)",
+      "un": "none"
+    },
+    "cs": "egypt/egypt-revolution.cs.svg",
+    "trivia": [
+      "- The Revolutionary Egypt flag (1952–1958) represented the Nasser era\n",
+      "- Symbolised the end of monarchy and British influence\n",
+      "- Briefly used Pan-Arab colours during Egyptian-Syrian union"
     ]
   },
   "egypt-kingdom": {
-    "use": { "as": "flag", "since": "1922", "until": "1953" },
-    "of": { "country": "egypt-kingdom" },
+    "title": "Kingdom of Egypt",
+    "ratio": "2:3",
+    "use": {
+      "as": "flag",
+      "since": "1922",
+      "until": "1953"
+    },
+    "of": {
+      "country": "egypt-kingdom"
+    },
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#007a3d",
+        "cmyk": "100/0/50/52"
+      },
+      {
+        "color": "white",
+        "hex": "#fff",
+        "cmyk": "0/0/0/0"
+      }
+    ],
     "countryData": {
       "name": "Kingdom of Egypt"
-    }
+    },
+    "desc": [
+      "- The flag of the Kingdom of Egypt was green with a white crescent and three white stars\n",
+      "- It was used from 1922 until the revolution of 1952\n",
+      "- **Construction:** a green field with a white crescent and three white five-pointed stars centred"
+    ],
+    "cs": "egypt/egypt-kingdom.cs.svg",
+    "trivia": [
+      "- The Kingdom of Egypt (1922–1952) gained nominal independence from Britain\n",
+      "- The monarchy ruled during this period until the Egyptian Revolution\n",
+      "- The flag represented a transitional period in Egyptian sovereignty"
+    ]
   },
   "egypt-sultanate": {
-    "use": { "as": "flag", "since": "1914", "until": "1922" }
+    "use": {
+      "as": "flag",
+      "since": "1914",
+      "until": "1922"
+    },
+    "desc": [
+      "- The Sultanate of Egypt flag, a green and white design used 1914-1922\n",
+      "- **Construction:** a green field with a white crescent and three stars, similar to the Khedivate flag but under different sovereignty"
+    ],
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#007A3D",
+        "cmyk": "100/0/50/52",
+        "note": "Islam and Egyptian independence."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0"
+      }
+    ],
+    "of": {
+      "country": "egypt"
+    },
+    "countryData": {
+      "name": "Egypt",
+      "officialName": "Sultanate of Egypt",
+      "un": "none"
+    },
+    "cs": "egypt/egypt-sultanate.cs.svg",
+    "trivia": [
+      "- The Sultanate of Egypt (1914–1922) was declared by the British to formally sever Egypt's last ties with the Ottoman Empire during WWI\n",
+      "- Sultan Hussein Kamel was installed by the British to replace the Ottoman-aligned Khedive Abbas II"
+    ]
   },
   "egypt-khedivate": {
-    "use": { "as": "flag", "since": "1867", "until": "1914" }
+    "use": {
+      "as": "flag",
+      "since": "1867",
+      "until": "1914"
+    },
+    "desc": [
+      "- The Khedivate of Egypt flag with red field and white crescents and stars\n",
+      "- **Construction:** a red field with three white crescents, each with a white star, arranged vertically in the centre"
+    ],
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#CE1126",
+        "cmyk": "0/92/82/19",
+        "note": "The traditional colour of Ottoman Egypt."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0"
+      }
+    ],
+    "of": {
+      "country": "egypt"
+    },
+    "countryData": {
+      "name": "Egypt",
+      "officialName": "Khedivate of Egypt",
+      "un": "none"
+    },
+    "cs": "egypt/egypt-khedivate.cs.svg",
+    "trivia": [
+      "- The Khedive of Egypt held a title higher than Pasha but lower than Sultan — a unique Ottoman distinction\n",
+      "- Under Khedive Ismail, Egypt hosted the opening of the Suez Canal in 1869"
+    ]
   },
   "egypt-eyalet": {
-    "use": { "as": "flag", "since": "1844", "until": "1867" },
-    "of": { "territory": "egypt-eyalet" },
+    "use": {
+      "as": "flag",
+      "since": "1844",
+      "until": "1867"
+    },
+    "of": {
+      "territory": "egypt-eyalet"
+    },
     "territoryData": {
       "name": "Egypt Eyalet",
       "note": [
@@ -66,13 +289,96 @@
         "The Ottomans administered Egypt as an eyalet of the their Empire (Ottoman Turkish: ایالت مصر‎‎ Eyālet-i Mıṣr) ",
         "from 1517 until 1867, with an interruption during the French occupation of 1798 to 1801."
       ]
-    }
+    },
+    "desc": [
+      "- The flag of Ottoman Egypt (the Egypt Eyalet) was a red field, reflecting the suzerainty of the Ottoman Empire, which used red as its imperial colour\n",
+      "- Egypt was an Ottoman province from 1517 until the rise of Muhammad Ali Pasha, who established a semi-independent dynasty in the early 19th century\n",
+      "- **Construction:** a plain red field. Various crescent and star devices were sometimes added. Ratio approximately 2:3"
+    ],
+    "colors": [
+      {
+        "color": "ottoman red",
+        "hex": "#E30A17",
+        "cmyk": "0/96/90/11",
+        "note": "Ottoman suzerainty."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0"
+      }
+    ],
+    "countryData": {
+      "name": "Egypt",
+      "officialName": "Egypt Eyalet (Ottoman province)",
+      "un": "none"
+    },
+    "cs": "egypt/egypt-eyalet.cs.svg",
+    "trivia": [
+      "- Ottoman Egypt was technically a province but operated with significant autonomy under Muhammad Ali's dynasty\n",
+      "- The red flag was shared with much of the Ottoman Empire, which used red as its imperial colour"
+    ]
   },
   "egypt-mamluk": {
-    "use": { "as": "flag", "since": "1250", "until": "1517" }
+    "use": {
+      "as": "flag",
+      "since": "1250",
+      "until": "1517"
+    },
+    "desc": [
+      "- The Mamluk Sultanate flag, a yellow standard used before Ottoman conquest\n",
+      "- **Construction:** a yellow field, sometimes bearing calligraphic or heraldic devices. Mamluk banners varied by sultan"
+    ],
+    "colors": [
+      {
+        "color": "yellow",
+        "hex": "#FCD116",
+        "cmyk": "0/17/91/1",
+        "note": "The Mamluk Sultanate."
+      }
+    ],
+    "of": {
+      "country": "egypt"
+    },
+    "countryData": {
+      "name": "Egypt",
+      "officialName": "Mamluk Sultanate of Egypt",
+      "un": "none"
+    },
+    "cs": "egypt/egypt-mamluk.cs.svg",
+    "trivia": [
+      "- The Mamluk Sultanate was ruled by a military caste of originally enslaved soldiers — one of history's most unusual governance systems\n",
+      "- The Mamluks defeated both the Mongols (at Ain Jalut, 1260) and the Crusaders"
+    ]
   },
   "eagle-of-saladin": {
     "title": "Eagle of Saladin",
-    "desc": "A reconstruction of Saladin's personal standard, featuring the eagle."
+    "desc": [
+      "- A reconstruction of Saladin's personal standard, featuring the eagle\n",
+      "- **Construction:** a heraldic emblem — the Eagle of Saladin rendered in gold on a shield, used as a charge on several Arab national flags"
+    ],
+    "colors": [
+      {
+        "color": "gold",
+        "hex": "#C09300",
+        "cmyk": "0/23/100/25"
+      },
+      {
+        "color": "black",
+        "hex": "#000",
+        "cmyk": "0/0/0/100"
+      }
+    ],
+    "countryData": {
+      "name": "Egypt",
+      "officialName": "Eagle of Saladin (heraldic emblem)",
+      "un": "none"
+    },
+    "cs": "egypt/eagle-of-saladin.cs.svg",
+    "trivia": [
+      "- The Eagle of Saladin is used on the flags of Egypt, Syria, Iraq, and Palestine\n",
+      "- Represents Arab nationalism and Islamic heritage\n",
+      "- Saladin is a legendary figure in Islamic history"
+    ]
   }
 }

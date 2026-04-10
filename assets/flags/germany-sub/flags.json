@@ -1,0 +1,75 @@
+{
+  "de-bavaria": {
+    "title": "Flag of Bavaria",
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "The lozenges (diamonds) of the Bavarian coat of arms."
+      },
+      {
+        "color": "blue",
+        "hex": "#0066b3",
+        "cmyk": "100/43/0/30",
+        "note": "Bavarian state colour since the Wittelsbach dynasty."
+      }
+    ],
+    "desc": [
+      "- The Bavarian flag features the iconic white-and-blue lozenges (Rautenflagge), one of the most recognisable sub-national flags in Europe\n",
+      "- **Construction:** a field of white and blue lozenges (diamonds) arranged in a diagonal pattern\n",
+      "- At least 21 complete lozenges are visible, with a white lozenge in the upper-hoist corner"
+    ],
+    "flag": "germany-sub/de-bavaria.svg",
+    "of": {
+      "country": "germany"
+    },
+    "countryData": {
+      "name": "Bavaria",
+      "officialName": "Free State of Bavaria",
+      "un": "none"
+    },
+    "cs": "germany-sub/de-bavaria.cs.svg",
+    "trivia": [
+      "- Bavaria's flag uses blue and white, the colours of the Wittelsbach dynasty\n",
+      "- These colours have represented Bavaria since the 12th century\n",
+      "- Bavaria maintains a distinct identity within modern Germany"
+    ]
+  },
+  "de-prussia": {
+    "title": "Flag of the Kingdom of Prussia",
+    "colors": [
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "Prussian state colour; the eagle of Brandenburg."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "The Prussian field; Teutonic Order heritage."
+      }
+    ],
+    "desc": [
+      "- The Prussian flag was black and white, featuring the black Prussian eagle. Prussia was the dominant state that unified Germany in 1871\n",
+      "- **Construction:** a white field bearing a black Prussian eagle centred. The eagle holds an orb and sceptre"
+    ],
+    "flag": "germany-sub/de-prussia.svg",
+    "of": {
+      "country": "germany"
+    },
+    "countryData": {
+      "name": "Prussia",
+      "officialName": "Kingdom of Prussia",
+      "un": "none"
+    },
+    "cs": "germany-sub/de-prussia.cs.svg",
+    "trivia": [
+      "- Prussia's flag represented one of the most powerful German states historically\n",
+      "- The black eagle symbolised Prussian power and militarism\n",
+      "- Prussia dominated German unification in 1871"
+    ]
+  }
+}

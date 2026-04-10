@@ -1,0 +1,45 @@
+{
+  "ukraine": {
+    "title": "Flag of Ukraine",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "1992-01-28"
+    },
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#0057B7",
+        "cmyk": "100/67/0/28",
+        "pantone": "2935 C",
+        "note": "Represents the sky, peace, and truth"
+      },
+      {
+        "color": "yellow",
+        "hex": "#FFD700",
+        "cmyk": "0/15/100/0",
+        "pantone": "012 C",
+        "note": "Represents wheat fields and prosperity"
+      }
+    ],
+    "desc": [
+      "- Two equal horizontal bands of blue over yellow, adopted on 28 January 1992 after independence\n",
+      "- The colours symbolise the clear blue sky above golden wheat fields"
+    ],
+    "article": "ukraine/flag.md",
+    "of": {
+      "country": "ukraine"
+    },
+    "countryData": {
+      "name": "Ukraine",
+      "officialName": "Ukraine",
+      "un": "member"
+    },
+    "cs": "ukraine/flag.cs.svg",
+    "trivia": [
+      "- The blue represents the sky; the yellow represents wheat and the nation's agricultural wealth\n",
+      "- The colours were formally adopted in 1996 after Ukrainian independence from the Soviet Union\n",
+      "- Ukraine's flag has been used since medieval times but was suppressed during Soviet rule"
+    ]
+  }
+}

@@ -1,19 +1,62 @@
 {
   "djibouti": {
+    "title": "Flag of the Republic of Djibouti",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "1977-06-27"
+    },
+    "colors": [
+      {
+        "color": "light blue",
+        "hex": "#6AB2E7",
+        "cmyk": "59/11/0/0",
+        "pantone": "284 C",
+        "note": "Upper half; represents the Issa Somali people and the sky."
+      },
+      {
+        "color": "green",
+        "hex": "#12AD2B",
+        "cmyk": "77/0/100/0",
+        "pantone": "354 C",
+        "note": "Lower half; represents the Afar people and the earth."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Hoist triangle; symbolises peace."
+      },
+      {
+        "color": "red",
+        "hex": "#D7141A",
+        "cmyk": "0/86/63/0",
+        "pantone": "185 C",
+        "note": "Five-pointed star inside the white triangle; represents unity and the blood of independence martyrs."
+      }
+    ],
     "desc": [
-      "The national flag of Djibouti (",
-      "Somali: Calanka Jabuuti, ",
-      "Arabic: علم جيبوتي‎, ",
-      "French: Drapeau de Djibouti) ",
-      "is a:\n",
-      "- horizontal flag bicolor with equal bands of light blue and light green,\n",
-      "- with a white, equilateral triangle at the hoist\n",
-      "- in the center of the triangle is a red star\n\n",
-      "**Symbolism**  \n",
-      "- the light blue represents the sky and the sea, as well as the Issa Somalis\n",
-      "- the green represents the everlasting green of the earth, as well as the Afars\n",
-      "- the white represents the colour of peace\n",
-      "- the red star represents the unity and the blood shed by the martyrs of independence."
+      "- Two equal horizontal bands of light blue (top) and green (bottom) with a white isosceles triangle at the hoist bearing a red five-pointed star\n",
+      "- The design reflects the nation's two main ethnic groups — the Issa (blue) and Afar (green) — while the white triangle and red star represent peace and unity\n",
+      "- Adopted on 27 June 1977 upon independence from France; the flag was originally the banner of the Ligue Populaire Africaine pour l'Indépendance\n",
+      "- **Construction:** two equal horizontal stripes with a white equilateral triangle extending from the hoist\n",
+      "- The red star is centred within the triangle\n",
+      "- Ratio 2:3"
+    ],
+    "article": "djibouti/flag.md",
+    "of": {
+      "country": "djibouti"
+    },
+    "countryData": {
+      "name": "Djibouti",
+      "officialName": "Republic of Djibouti",
+      "un": "member"
+    },
+    "cs": "djibouti/flag.cs.svg",
+    "trivia": [
+      "- The light blue represents the Issa people; the green represents the Afar people of Djibouti\n",
+      "- The white triangle represents peace; the red star represents unity\n",
+      "- Djibouti's flag emphasizes the balance between its two major ethnic groups"
     ]
   }
 }

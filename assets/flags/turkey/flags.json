@@ -1,0 +1,46 @@
+{
+  "turkey": {
+    "title": "Flag of Turkey",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "1936-05-29"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#E30A17",
+        "cmyk": "0/93/89/11",
+        "note": "Represents courage and the blood shed for independence",
+        "pantone": "186 C"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Represents peace; forms the crescent and star"
+      }
+    ],
+    "desc": [
+      "- A red field with a white crescent and five-pointed star, standardised by the Turkish Flag Law of 1936. Based on the late Ottoman flag of 1844\n",
+      "- **Construction:** a red field with a white crescent and five-pointed star slightly offset to the hoist of centre\n",
+      "- The crescent's outer arc radius is one-quarter of the flag's height\n",
+      "- The star is positioned between the crescent's tips"
+    ],
+    "article": "turkey/flag.md",
+    "of": {
+      "country": "turkey"
+    },
+    "countryData": {
+      "name": "Turkey",
+      "officialName": "Republic of Türkiye",
+      "un": "member"
+    },
+    "cs": "turkey/flag.cs.svg",
+    "trivia": [
+      "- The star-and-crescent was adopted from the Ottoman Empire\n",
+      "- Turkey's flag is one of the oldest designs still in use, dating back to Ottoman times\n",
+      "- The red represents bravery and the struggle for independence; the white star represents peace"
+    ]
+  }
+}

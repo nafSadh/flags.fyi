@@ -1,0 +1,75 @@
+{
+  "fr-bourbon": {
+    "title": "Flag of Bourbon France",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "The royal colour of the Bourbon monarchy."
+      }
+    ],
+    "desc": [
+      "- The Bourbon Restoration (1815–1830) returned to the plain white flag of the Ancien Régime, abandoning the revolutionary tricolour"
+    ],
+    "flag": "france-hist/fr-bourbon.svg",
+    "of": {
+      "country": "france"
+    },
+    "countryData": {
+      "name": "France",
+      "officialName": "Kingdom of France (Bourbon)",
+      "un": "none"
+    },
+    "cs": "france-hist/fr-bourbon.cs.svg",
+    "trivia": [
+      "- The Bourbon dynasty ruled France from 1589 to 1848 (with interruptions)\n",
+      "- The fleur-de-lis represented royal authority and French monarchy\n",
+      "- One of Europe's longest-ruling dynasties"
+    ]
+  },
+  "fr-free-france": {
+    "title": "Flag of Free France",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#002395",
+        "cmyk": "100/77/0/42",
+        "note": "Liberty (from the French Tricolore)."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "Equality."
+      },
+      {
+        "color": "red",
+        "hex": "#ed2939",
+        "cmyk": "0/83/76/7",
+        "note": "Fraternity. The Cross of Lorraine was added by de Gaulle."
+      }
+    ],
+    "desc": [
+      "- Free France (1940–1944) used the French tricolour with the red Cross of Lorraine superimposed, the emblem chosen by Charles de Gaulle to resist Nazi occupation\n",
+      "- **Construction:** the French Tricolore defaced with a red Cross of Lorraine. The cross is centred or placed in the canton"
+    ],
+    "flag": "france-hist/fr-free-france.svg",
+    "of": {
+      "country": "france"
+    },
+    "countryData": {
+      "name": "Free France",
+      "officialName": "Free France",
+      "un": "none"
+    },
+    "cs": "france-hist/fr-free-france.cs.svg",
+    "trivia": [
+      "- Free France (1940–1944) represented the French Resistance during WWII\n",
+      "- Charles de Gaulle led the fight against Nazi occupation\n",
+      "- The Cross of Lorraine became the symbol of Free France"
+    ]
+  }
+}

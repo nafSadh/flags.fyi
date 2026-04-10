@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="750" viewBox="-3780 -3780 90720 63000" fill="none" font-family="Calibri,Arial,'Liberation Sans',sans-serif">
+	<title>Flag of Greece — construction sheet</title>
+	<!-- DIMENSIONS
+		SVG:
+			S_RAW:     90720.00 × 63000.00
+			S_DISPLAY:  1080.00 × 750.00
+		FLAG:
+			F_RAW:     83160.00 × 55440.00
+			F_DISPLAY:   990.00 × 660.00
+			F_LABEL:      27.00 × 18.00
+			F_RATIO:       3.00 × 2.00
+	-->
+	<defs>
+		<marker id="left-arrow" viewBox="-4 -4 10 8" orient="auto" markerWidth="10" markerHeight="8">
+			<path fill="blue" d="m2 0 4 4-10-4L6-4z"/>
+		</marker>
+	</defs>
+	<path fill="#f8f8f8" d="m-3780-3780h90720v63000H-3780z"/>
+	<path fill="#fff" d="m0 0h83160v55440H0z"/>
+	<g opacity=".5" transform="scale(3080)">
+		<path fill="#0d5eaf" d="m0 0h27v18H0z"/>
+		<path stroke="#fff" stroke-width="2" d="m5 0v11M0 5h10m0-2h17M10 7h17M0 11h27M0 15h27"/>
+	</g>
+	<g stroke="#000" stroke-width="140" stroke-linejoin="round" stroke-linecap="round">
+		<g opacity=".2" stroke-width="100">
+			<path stroke-dashoffset="362" stroke-dasharray="725,315,105,315" d="m41580 27720V0m0 27720v27720"/>
+			<path stroke-dashoffset="368" stroke-dasharray="735,315,105,315" d="m41580 27720H0m41580 0h41580"/>
+		</g>
+		<path stroke="#444" stroke-width="250" d="m0 0h83160v55440H0z"/>
+		<path d="m0 12320h12320V0M0 18480h12320v12320H0M18480 0v12320h12320V6160h52360m0 6160H30800v6160h52360m0 6160H30800v-6160H18480v12320h64680M0 36960h83160M0 43120h83160M0 49280h83160"/>
+		<path stroke="#222" stroke-width="75" stroke-dasharray="210,210" d="m0-2520v30240m0 30240V27720M12320-2520V0m6160-2520V0m12320-2520v8680m52360-8680v30240m0 30240V27720M-2520 0h44100m44100 0H41580m44100 6160h-2520m2520 6160h-2520m2520 6160h-2520m2520 6160h-2520m-70840 6160h6160m67200 0h-2520m2520 6160h-2520m2520 6160h-2520m2520 6160h-2520M12320 12320h6160v6160h-6160zM-2520 55440h44100m44100 0H41580"/>
+	</g>
+	<g fill="#008" opacity=".8">
+		<circle r="200" cx="12320" cy="12320"/>
+		<circle r="200" cx="18480" cy="12320"/>
+		<circle r="200" cx="12320" cy="18480"/>
+		<circle r="200" cx="18480" cy="18480"/>
+		<circle r="200" cx="12320" cy="30800"/>
+		<circle r="200" cx="18480" cy="30800"/>
+		<circle r="200" cx="30800" cy="6160"/>
+		<circle r="200" cx="30800" cy="12320"/>
+		<circle r="200" cx="30800" cy="18480"/>
+	</g>
+	<g stroke="#00f" stroke-width="75" marker-start="url(#left-arrow)">
+		<path d="m300-1575h4760"/>
+		<path d="m12020-1575H7260"/>
+		<path d="m12620-1575h1680"/>
+		<path d="m18180-1575h-1680"/>
+		<path d="m18780-1575h4760"/>
+		<path d="m30500-1575h-4760"/>
+		<path d="m31100-1575h24080"/>
+		<path d="m82860-1575H58780"/>
+		<path d="m300 57015h39480"/>
+		<path d="m82860 57015H43380"/>
+		<path d="m-1575 55140V29520"/>
+		<path d="m-1575 300v25620"/>
+		<path d="m84735 5860V4180"/>
+		<path d="m84735 300v1680"/>
+		<path d="m84735 12020v-1680"/>
+		<path d="m84735 6460v1680"/>
+		<path d="m84735 18180v-1680"/>
+		<path d="m84735 12620v1680"/>
+		<path d="m84735 24340v-1680"/>
+		<path d="m84735 18780v1680"/>
+		<path d="m84735 30500v-1680"/>
+		<path d="m84735 24940v1680"/>
+		<path d="m84735 36660v-1680"/>
+		<path d="m84735 31100v1680"/>
+		<path d="m84735 42820v-1680"/>
+		<path d="m84735 37260v1680"/>
+		<path d="m84735 48980v-1680"/>
+		<path d="m84735 43420v1680"/>
+		<path d="m84735 55140v-1680"/>
+		<path d="m84735 49580v1680"/>
+	</g>
+	<g fill="#000" text-anchor="middle" font-size="50" transform="scale(50)">
+		<g>
+			<text x="123" y="-16">4</text>
+			<text x="308" y="-16">2</text>
+			<text x="493" y="-16">4</text>
+			<text x="1140" y="-16">17</text>
+			<text x="832" y="1155">27</text>
+		</g>
+		<g transform="rotate(270)">
+			<text x="-554" y="-16">18</text>
+			<text x="-1047" y="1710">2</text>
+			<text x="-924" y="1710">2</text>
+			<text x="-801" y="1710">2</text>
+			<text x="-678" y="1710">2</text>
+			<text x="-554" y="1710">2</text>
+			<text x="-431" y="1710">2</text>
+			<text x="-308" y="1710">2</text>
+			<text x="-185" y="1710">2</text>
+			<text x="-62" y="1710">2</text>
+		</g>
+		<g font-size="27">
+			<text x="-37" y="1159">[<tspan font-weight="bold" fill="#080">GR</tspan>]</text>
+			<text x="1700" y="1159">[<tspan font-weight="bold" fill="#080">2:3</tspan>]</text>
+		</g>
+	</g>
+</svg>

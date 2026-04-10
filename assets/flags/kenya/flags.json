@@ -1,0 +1,57 @@
+{
+  "kenya": {
+    "title": "Flag of Kenya",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "1963-12-12"
+    },
+    "colors": [
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "Represents the Kenyan people",
+        "pantone": "Black"
+      },
+      {
+        "color": "red",
+        "hex": "#BB0000",
+        "cmyk": "0/75/85/10",
+        "note": "Commemorates the blood shed for independence",
+        "pantone": "485 C"
+      },
+      {
+        "color": "green",
+        "hex": "#006600",
+        "cmyk": "100/0/90/20",
+        "note": "Reflects the country's fertile land",
+        "pantone": "348 C"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Signifies peace and purity"
+      }
+    ],
+    "desc": [
+      "- Horizontal black, red, and green bands with white fimbriations, centred with a Maasai shield and crossed spears. Adopted upon independence in 1963"
+    ],
+    "article": "kenya/flag.md",
+    "of": {
+      "country": "kenya"
+    },
+    "countryData": {
+      "name": "Kenya",
+      "officialName": "Republic of Kenya",
+      "un": "member"
+    },
+    "cs": "kenya/flag.cs.svg",
+    "trivia": [
+      "- The shield and spears represent defence of freedom; the black represents the people\n",
+      "- The green and white bands represent the land and peace; red represents bloodshed for independence\n",
+      "- Kenya's flag emphasizes both Pan-African colours and local symbols of Maasai warrior culture"
+    ]
+  }
+}

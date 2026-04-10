@@ -1,16 +1,31 @@
 {
   "arab-federation": {
     "title": "Arab Federation of Iraq and Jordan",
-    "use": { "since": "1958", "until": "1958" },
+    "use": {
+      "since": "1958",
+      "until": "1958"
+    },
     "desc": [
-      "The Arab Federation of Iraq and Jordan was a short-lived country that was formed in 1958 ",
-      "from the union of Iraq and Jordan. Although the name implies a federal structure, it was ",
-      "_de facto_ a confederation.\n  ",
-      "The Federation was formed on 14 February 1958, when King Faisal II of Iraq and his cousin, ",
-      "King Hussein of Jordan, sought to unite their two Hashemite kingdoms, as a response to the ",
-      "formation of the United Arab Republic between Egypt and Syria. The union lasted only six ",
-      "months, being officially dissolved on 2 August 1958, after Faisal was deposed by a ",
-      "military coup on 14 July."
+      "- The Arab Federation of Iraq and Jordan was a short-lived country that was formed in 1958\n",
+      "- from the union of Iraq and Jordan. Although the name implies a federal structure, it was\n",
+      "- _de facto_ a confederation\n",
+      "- The Federation was formed on 14 February 1958, when King Faisal II of Iraq and his cousin,\n",
+      "- King Hussein of Jordan, sought to unite their two Hashemite kingdoms, as a response to the\n",
+      "- formation of the United Arab Republic between Egypt and Syria. The union lasted only six\n",
+      "- months, being officially dissolved on 2 August 1958, after Faisal was deposed by a\n",
+      "- military coup on 14 July\n",
+      "- **Construction:** three equal horizontal bands of black, white, and green with a red triangle on the hoist, combining Pan-Arab colours"
+    ],
+    "countryData": {
+      "name": "Arab Federation",
+      "officialName": "Arab Federation of Iraq and Jordan",
+      "un": "none"
+    },
+    "cs": "arab/arab-federation.cs.svg",
+    "trivia": [
+      "- The Arab Federation (1958) briefly united the Hashemite kingdoms of Iraq and Jordan\n",
+      "- The flag represented Pan-Arab unity and Hashemite dynastic power\n",
+      "- The federation lasted only six months before the Iraqi Revolution of 1958"
     ]
   }
 }

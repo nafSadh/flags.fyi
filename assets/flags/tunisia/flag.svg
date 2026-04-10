@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <!-- Red field -->
+  <rect width="1200" height="800" fill="#CE1126"/>
+  <!-- White circle in center -->
+  <circle cx="600" cy="400" r="250" fill="#FFFFFF"/>
+  <!-- Red crescent in white circle -->
+  <g transform="translate(600, 400)">
+    <!-- Crescent shape -->
+    <circle cx="0" cy="0" r="90" fill="#CE1126"/>
+    <circle cx="15" cy="0" r="85" fill="#FFFFFF"/>
+    <!-- Star in center -->
+    <polygon points="0,-60 18,-18 60,-18 30,12 48,54 0,24 -48,54 -30,12 -60,-18 -18,-18" fill="#CE1126"/>
+  </g>
+</svg>

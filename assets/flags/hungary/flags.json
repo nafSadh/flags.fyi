@@ -1,0 +1,51 @@
+{
+  "hungary": {
+    "title": "Flag of Hungary",
+    "ratio": "1:2",
+    "use": {
+      "as": "national flag",
+      "since": "1957-05-23"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#CD2A3E",
+        "cmyk": "0/100/100/0",
+        "note": "Symbolizes strength and valor",
+        "pantone": "186 C"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Represents faithfulness and purity"
+      },
+      {
+        "color": "green",
+        "hex": "#436F4D",
+        "cmyk": "87/35/76/25",
+        "note": "Symbolizes hope and fertility",
+        "pantone": "348 C"
+      }
+    ],
+    "desc": [
+      "- Three equal horizontal stripes of red, white, and green, originating from the 1848 Hungarian Revolution\n",
+      "- The tricolour represents strength, faithfulness, and hope for the Hungarian nation"
+    ],
+    "article": "hungary/flag.md",
+    "of": {
+      "country": "hungary"
+    },
+    "countryData": {
+      "name": "Hungary",
+      "officialName": "Hungary",
+      "un": "member"
+    },
+    "cs": "hungary/flag.cs.svg",
+    "trivia": [
+      "- The red, white, and green have represented Hungary since the 13th century\n",
+      "- The coat of arms shows a crown with a cross, referencing the Holy Crown of Hungary (St. Stephen's Crown)\n",
+      "- Hungary's flag is one of the oldest European symbols, predating most modern nation-states"
+    ]
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "uk-scotland": {
+    "title": "Flag of Scotland (St Andrew's Cross)",
+    "ratio": "3:5",
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#005eb8",
+        "cmyk": "100/49/0/28",
+        "note": "The sky behind the cross."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "The Saltire (Cross of St Andrew), Scotland's patron saint."
+      }
+    ],
+    "desc": [
+      "- The Saltire (St Andrew's Cross) is a white diagonal cross on blue\n",
+      "- Dating to the 9th century, it may be the oldest flag in continuous use in the world after the Dannebrog\n",
+      "- **Construction:** a blue (royal blue or sky blue) field bearing a white saltire (St Andrew's Cross) extending to all four corners"
+    ],
+    "flag": "uk-sub/scotland.svg",
+    "of": {
+      "country": "uk"
+    },
+    "countryData": {
+      "name": "Scotland",
+      "officialName": "Scotland",
+      "un": "none"
+    },
+    "cs": "uk-sub/uk-scotland.cs.svg",
+    "trivia": [
+      "- Scotland uses St. Andrew's Cross (the saltire) as its national flag\n",
+      "- The white cross on blue represents St. Andrew, patron saint of Scotland\n",
+      "- One of the oldest national flags still in use"
+    ]
+  },
+  "uk-wales": {
+    "title": "Flag of Wales (Y Ddraig Goch)",
+    "ratio": "3:5",
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "Peace and honesty."
+      },
+      {
+        "color": "green",
+        "hex": "#00ab39",
+        "cmyk": "100/0/67/33",
+        "note": "The leek and the green fields of Wales."
+      },
+      {
+        "color": "red",
+        "hex": "#d4003c",
+        "cmyk": "0/100/72/17",
+        "note": "The red dragon (Y Ddraig Goch), symbol of Wales since the Roman period."
+      }
+    ],
+    "desc": [
+      "- The Welsh flag features a red dragon (Y Ddraig Goch) on a white-over-green field. Notably, Wales is not represented in the Union Jack\n",
+      "- **Construction:** two equal horizontal bands of white (top) and green (bottom), with a large red dragon (Y Ddraig Goch) passant centred on the flag"
+    ],
+    "flag": "uk-sub/wales.svg",
+    "of": {
+      "country": "uk"
+    },
+    "countryData": {
+      "name": "Wales",
+      "officialName": "Wales",
+      "un": "none"
+    },
+    "cs": "uk-sub/uk-wales.cs.svg",
+    "trivia": [
+      "- The red dragon on the Welsh flag does not appear in the Union Jack because Wales was already annexed to England when the Union Flag was created\n",
+      "- The dragon (Y Ddraig Goch) has been a Welsh symbol since medieval times\n",
+      "- The green and white represent the colours of Wales's traditional heraldry"
+    ]
+  },
+  "uk-england": {
+    "title": "Flag of England (St George's Cross)",
+    "ratio": "3:5",
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "The field representing peace."
+      },
+      {
+        "color": "red",
+        "hex": "#ce1124",
+        "cmyk": "0/92/83/19",
+        "note": "The Cross of St George, patron saint of England since the 13th century."
+      }
+    ],
+    "desc": [
+      "- The St George's Cross is a red cross on a white field, used since the medieval period. It forms the dominant element of the Union Jack\n",
+      "- **Construction:** a white field with a red St George's Cross\n",
+      "- The cross arms are approximately one-fifth of the flag's dimensions in width, extending to all edges"
+    ],
+    "flag": "uk-sub/england.svg",
+    "of": {
+      "country": "uk"
+    },
+    "countryData": {
+      "name": "England",
+      "officialName": "England",
+      "un": "none"
+    },
+    "cs": "uk-sub/uk-england.cs.svg",
+    "trivia": [
+      "- England uses St. George's Cross as its national flag\n",
+      "- The red cross on white represents St. George, the patron saint of England\n",
+      "- One of the oldest national symbols in the world"
+    ]
+  },
+  "uk-northern-ireland": {
+    "title": "Ulster Banner",
+    "ratio": "1:2",
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "Peace."
+      },
+      {
+        "color": "red",
+        "hex": "#c8102e",
+        "cmyk": "0/92/77/22",
+        "note": "The Red Hand of Ulster and the Cross of St George."
+      },
+      {
+        "color": "blue",
+        "hex": "#00247d",
+        "cmyk": "100/71/0/51"
+      }
+    ],
+    "desc": [
+      "- The Ulster Banner (1953–1972) was the official flag of Northern Ireland\n",
+      "- It features the Red Hand of Ulster, a six-pointed star, and a crown on a red cross\n",
+      "- **Construction:** (unofficial) a white field with a red St George's Cross bearing the Red Hand of Ulster on a white six-pointed star, crowned"
+    ],
+    "flag": "uk-sub/uk-northern-ireland.svg",
+    "of": {
+      "country": "uk"
+    },
+    "countryData": {
+      "name": "Northern Ireland",
+      "officialName": "Northern Ireland",
+      "un": "none"
+    },
+    "cs": "uk-sub/uk-northern-ireland.cs.svg",
+    "trivia": [
+      "- Northern Ireland uses a specific flag representing the region's identity\n",
+      "- Reflects the complex political status and cultural divisions\n",
+      "- Official flag status remains contested between different communities"
+    ]
+  },
+  "uk-cornwall": {
+    "title": "Flag of Cornwall (St Piran)",
+    "ratio": "3:5",
+    "colors": [
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "The Cornish tin miners and Celtic heritage."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "The Cross of St Piran, patron saint of Cornwall."
+      }
+    ],
+    "desc": [
+      "- St Piran's flag — a white cross on black — represents Cornwall. Legend says it symbolises white tin flowing from black ore\n",
+      "- **Construction:** a black field with a white cross (St Piran's Cross). The cross arms extend to all four edges"
+    ],
+    "flag": "uk-sub/uk-cornwall.svg",
+    "of": {
+      "country": "uk"
+    },
+    "countryData": {
+      "name": "Cornwall",
+      "officialName": "Cornwall (Saint Piran's Flag)",
+      "un": "none"
+    },
+    "cs": "uk-sub/uk-cornwall.cs.svg",
+    "trivia": [
+      "- Cornwall has its own distinct flag representing the Cornish people\n",
+      "- The black and white represent traditional Cornish identity\n",
+      "- Cornwall maintains a distinct cultural and linguistic heritage"
+    ]
+  }
+}

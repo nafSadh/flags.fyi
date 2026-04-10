@@ -1,0 +1,51 @@
+{
+  "mexico": {
+    "title": "Flag of Mexico",
+    "ratio": "4:7",
+    "use": {
+      "as": "national flag",
+      "since": "1968-09-16"
+    },
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#006341",
+        "cmyk": "100/0/34/61",
+        "note": "Represents hope",
+        "pantone": "3425 C"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Represents unity"
+      },
+      {
+        "color": "red",
+        "hex": "#CE1126",
+        "cmyk": "0/92/82/19",
+        "note": "Represents the blood of national heroes",
+        "pantone": "186 C"
+      }
+    ],
+    "desc": [
+      "- Three vertical stripes of green, white, and red with the national coat of arms — an eagle devouring a serpent atop a cactus — centred on the white stripe\n",
+      "- The current version was adopted in 1968"
+    ],
+    "article": "mexico/flag.md",
+    "of": {
+      "country": "mexico"
+    },
+    "countryData": {
+      "name": "Mexico",
+      "officialName": "United Mexican States",
+      "un": "member"
+    },
+    "cs": "mexico/flag.cs.svg",
+    "trivia": [
+      "- The eagle eating a serpent on a cactus comes from an Aztec legend about the founding of Tenochtitlan\n",
+      "- The green represents hope; the white represents unity; the red represents bloodshed\n",
+      "- Mexico's flag has remained virtually unchanged since 1821, making it one of the oldest continuously used designs"
+    ]
+  }
+}

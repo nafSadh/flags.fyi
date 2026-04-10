@@ -1,0 +1,51 @@
+{
+  "russia": {
+    "title": "Flag of Russia",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "1991-08-22"
+    },
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Represents nobility and honesty"
+      },
+      {
+        "color": "blue",
+        "hex": "#0036A7",
+        "cmyk": "100/65/0/34",
+        "note": "Represents faith and stability",
+        "pantone": "286 C"
+      },
+      {
+        "color": "red",
+        "hex": "#E4181C",
+        "cmyk": "0/87/86/10",
+        "note": "Represents courage and love",
+        "pantone": "485 C"
+      }
+    ],
+    "desc": [
+      "- Three equal horizontal stripes of white, blue, and red, adopted on 22 August 1991\n",
+      "- The tricolour traces back to Tsar Peter the Great's merchant flag of the 1690s"
+    ],
+    "article": "russia/flag.md",
+    "of": {
+      "country": "russia"
+    },
+    "countryData": {
+      "name": "Russia",
+      "officialName": "Russian Federation",
+      "un": "member"
+    },
+    "cs": "russia/flag.cs.svg",
+    "trivia": [
+      "- The white represents peace, the blue represents faith and loyalty, the red represents courage\n",
+      "- This tricolour was established by Peter the Great in the 17th century\n",
+      "- Russia's flag has been used continuously since 1991 after the fall of the Soviet Union"
+    ]
+  }
+}

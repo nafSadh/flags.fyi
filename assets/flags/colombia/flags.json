@@ -1,0 +1,52 @@
+{
+  "colombia": {
+    "title": "Flag of Colombia",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "1861-11-26"
+    },
+    "colors": [
+      {
+        "color": "yellow",
+        "hex": "#FFCD00",
+        "cmyk": "2/17/91/0",
+        "note": "Represents wealth, sovereignty, and the sun",
+        "pantone": "116 C"
+      },
+      {
+        "color": "blue",
+        "hex": "#003087",
+        "cmyk": "100/70/0/0",
+        "note": "Represents the sky, seas, and rivers",
+        "pantone": "286 C"
+      },
+      {
+        "color": "red",
+        "hex": "#C8102E",
+        "cmyk": "14/100/79/4",
+        "note": "Represents blood spilled for independence",
+        "pantone": "186 C"
+      }
+    ],
+    "desc": [
+      "- Three horizontal stripes with yellow occupying the top half, and blue and red each taking a quarter\n",
+      "- Part of the Mirandine flag tradition inspired by Francisco de Miranda"
+    ],
+    "article": "colombia/flag.md",
+    "of": {
+      "country": "colombia"
+    },
+    "countryData": {
+      "name": "Colombia",
+      "officialName": "Republic of Colombia",
+      "un": "member"
+    },
+    "cs": "colombia/flag.cs.svg",
+    "trivia": [
+      "- The yellow stripe takes up half the flag by area, representing the nation's resources and optimism\n",
+      "- The colours represent blood (red), hope (yellow), and sovereignty (blue)\n",
+      "- Adopted in 1861; Colombia's flag inspired by the Gran Colombian flag of Simón Bolívar"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "south-africa": {
+    "title": "Flag of South Africa",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "1994-04-27"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#DE3831",
+        "cmyk": "0/100/90/0",
+        "note": "Represents sacrifice",
+        "pantone": "179 C"
+      },
+      {
+        "color": "blue",
+        "hex": "#002395",
+        "cmyk": "100/65/0/30",
+        "note": "Represents the sky and unity",
+        "pantone": "Reflex Blue C"
+      },
+      {
+        "color": "green",
+        "hex": "#007A4D",
+        "cmyk": "100/0/85/40",
+        "note": "Represents the land and natural heritage",
+        "pantone": "3415 C"
+      },
+      {
+        "color": "yellow",
+        "hex": "#FFB612",
+        "cmyk": "0/25/80/0",
+        "note": "Represents mineral wealth",
+        "pantone": "1235 C"
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "Represents the African people",
+        "pantone": "Black"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Represents peace and unity"
+      }
+    ],
+    "desc": [
+      "- A horizontal Y-shape in green with white and gold borders, dividing a red upper half and blue lower half with a black triangle at the hoist\n",
+      "- Adopted on 27 April 1994 during the first fully inclusive elections"
+    ],
+    "article": "south-africa/flag.md",
+    "of": {
+      "country": "south-africa"
+    },
+    "countryData": {
+      "name": "South Africa",
+      "officialName": "Republic of South Africa",
+      "un": "member"
+    },
+    "cs": "south-africa/flag.cs.svg",
+    "trivia": [
+      "- The colours represent the rainbow nation concept of post-apartheid South Africa\n",
+      "- The 'Y' shape represents the convergence of different peoples and cultures\n",
+      "- South Africa adopted this flag in 1994 to symbolise the end of apartheid and new democracy"
+    ]
+  }
+}

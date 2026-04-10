@@ -1,0 +1,279 @@
+{
+  "french-algeria": {
+    "title": "Flag of French Algeria",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#002395",
+        "cmyk": "100/77/0/42",
+        "note": "French Tricolore."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "French Tricolore."
+      },
+      {
+        "color": "red",
+        "hex": "#ed2939",
+        "cmyk": "0/83/76/7",
+        "note": "French Tricolore."
+      }
+    ],
+    "desc": [
+      "- French Algeria (1830–1962) was considered an integral part of France and flew the French tricolour as its official flag\n",
+      "- **Construction:** the French Tricolore served as the official flag during French colonial rule of Algeria"
+    ],
+    "flag": "colonial/french-algeria.svg",
+    "countryData": {
+      "name": "French Algeria",
+      "officialName": "French Algeria",
+      "un": "none"
+    },
+    "cs": "colonial/french-algeria.cs.svg",
+    "trivia": [
+      "- French Algeria was a French colony from 1830 to 1962\n",
+      "- The Union Jack represented French colonial rule\n",
+      "- Algeria's independence war (1954–1962) was particularly brutal"
+    ]
+  },
+  "british-palestine": {
+    "title": "Flag of the British Mandate of Palestine",
+    "ratio": "1:2",
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#00247d",
+        "cmyk": "100/71/0/51"
+      },
+      {
+        "color": "red",
+        "hex": "#cf142b",
+        "cmyk": "0/90/79/19",
+        "note": "The Union Jack; British mandate authority."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0"
+      }
+    ],
+    "desc": [
+      "- The British Mandate of Palestine (1920–1948) used a Blue Ensign defaced with a circle containing the word \"Palestine\" in English, Arabic, and Hebrew\n",
+      "- **Construction:** a Blue Ensign or Red Ensign defaced with the Mandate of Palestine badge"
+    ],
+    "flag": "colonial/british-palestine.svg",
+    "countryData": {
+      "name": "Mandatory Palestine",
+      "officialName": "British Mandate for Palestine",
+      "un": "none"
+    },
+    "cs": "colonial/british-palestine.cs.svg",
+    "trivia": [
+      "- Palestine was a British mandate from 1920 to 1948 after World War I\n",
+      "- The flag used during this period reflected British administrative authority\n",
+      "- The mandate ended with the establishment of the State of Israel in 1948"
+    ]
+  },
+  "french-syria": {
+    "title": "Flag of the French Mandate of Syria",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#007a3d",
+        "cmyk": "100/0/50/52"
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "French Tricolore."
+      },
+      {
+        "color": "blue",
+        "hex": "#002395",
+        "cmyk": "100/77/0/42",
+        "note": "French mandate; French Tricolore."
+      }
+    ],
+    "desc": [
+      "- The flag of French Mandate Syria featured the French Tricolore with various modifications, including a green cedared design for the separate State of Aleppo and State of Damascus\n",
+      "- Used during France's administration of Syria under the League of Nations mandate (1920–1946), the flag reflected colonial control while incorporating local symbols\n",
+      "- **Construction:** the French Tricolore in vertical format, sometimes defaced with local emblems. Ratio 2:3"
+    ],
+    "flag": "colonial/french-syria.svg",
+    "countryData": {
+      "name": "French Syria",
+      "officialName": "French Mandate for Syria",
+      "un": "none"
+    },
+    "cs": "colonial/french-syria.cs.svg",
+    "trivia": [
+      "- Syria was a French mandate from 1920 to 1946 after World War I\n",
+      "- The Union Jack represented French administrative authority\n",
+      "- Syria gained independence in 1946"
+    ]
+  },
+  "french-lebanon": {
+    "title": "Flag of the French Mandate of Lebanon",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#002395",
+        "cmyk": "100/77/0/42",
+        "note": "French mandate; French Tricolore."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "French Tricolore."
+      },
+      {
+        "color": "red",
+        "hex": "#ed2939",
+        "cmyk": "0/83/76/7",
+        "note": "French Tricolore."
+      }
+    ],
+    "desc": [
+      "- The flag of French Mandate Lebanon featured the French Tricolore with a cedar of Lebanon centred on the white stripe\n",
+      "- Used during France's League of Nations mandate (1920–1943), it reflected French colonial authority while incorporating Lebanon's ancient cedar symbol\n",
+      "- The cedar was retained on the independent Lebanese flag adopted in 1943\n",
+      "- **Construction:** the French vertical Tricolore (blue-white-red) with a green cedar centred on the white band. Ratio 2:3"
+    ],
+    "flag": "colonial/french-lebanon.svg",
+    "countryData": {
+      "name": "French Lebanon",
+      "officialName": "French Mandate for Lebanon",
+      "un": "none"
+    },
+    "cs": "colonial/french-lebanon.cs.svg",
+    "trivia": [
+      "- Lebanon was a French mandate from 1920 to 1943 after World War I\n",
+      "- The Union Jack represented French administrative authority\n",
+      "- Lebanon gained independence in 1943"
+    ]
+  },
+  "anglo-egyptian-sudan": {
+    "title": "Flag of Anglo-Egyptian Sudan",
+    "ratio": "1:2",
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#00247d",
+        "cmyk": "100/71/0/51",
+        "note": "British influence in the condominium."
+      },
+      {
+        "color": "red",
+        "hex": "#cf142b",
+        "cmyk": "0/90/79/19",
+        "note": "Egyptian influence in the condominium."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0"
+      }
+    ],
+    "desc": [
+      "- The Anglo-Egyptian Sudan (1899–1956) was a condominium using the Union Jack and Egyptian flag together, symbolising joint British-Egyptian rule\n",
+      "- **Construction:** a blue field with the condominium emblem, representing the joint Anglo-Egyptian administration"
+    ],
+    "flag": "colonial/anglo-egyptian-sudan.svg",
+    "countryData": {
+      "name": "Anglo-Egyptian Sudan",
+      "officialName": "Anglo-Egyptian Sudan",
+      "un": "none"
+    },
+    "cs": "colonial/anglo-egyptian-sudan.cs.svg",
+    "trivia": [
+      "- Sudan was jointly administered by Britain and Egypt from 1899 to 1956\n",
+      "- The flag represents this unique colonial arrangement during the British-Egyptian condominium\n",
+      "- Sudan gained independence in 1956 and adopted its own national flag"
+    ]
+  },
+  "italian-somaliland": {
+    "title": "Flag of Italian Somaliland",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#008c45",
+        "cmyk": "100/0/51/45",
+        "note": "Italian Tricolore."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "Italian Tricolore."
+      },
+      {
+        "color": "red",
+        "hex": "#cd212a",
+        "cmyk": "0/84/80/20",
+        "note": "Italian Tricolore."
+      }
+    ],
+    "desc": [
+      "- Italian Somaliland (1889–1960) used the Italian tricolour, representing Italian colonial rule over southern Somalia\n",
+      "- **Construction:** the Italian tricolour used as the colonial flag, sometimes with a colonial badge"
+    ],
+    "flag": "colonial/italian-somaliland.svg",
+    "countryData": {
+      "name": "Italian Somaliland",
+      "officialName": "Italian Somaliland",
+      "un": "none"
+    },
+    "cs": "colonial/italian-somaliland.cs.svg",
+    "trivia": [
+      "- Italian Somaliland was an Italian colony in the Horn of Africa (1889–1960)\n",
+      "- The Union Jack represented Italian colonial rule\n",
+      "- Merged with British Somaliland to form Somalia in 1960"
+    ]
+  },
+  "british-somaliland": {
+    "title": "Flag of British Somaliland",
+    "ratio": "1:2",
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#00247d",
+        "cmyk": "100/71/0/51",
+        "note": "British Blue Ensign."
+      },
+      {
+        "color": "red",
+        "hex": "#cf142b",
+        "cmyk": "0/90/79/19"
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0"
+      }
+    ],
+    "desc": [
+      "- British Somaliland (1884–1960) used a Blue Ensign defaced with a crown badge — representing British rule over northern Somalia\n",
+      "- **Construction:** a Blue Ensign with the British Somaliland badge in the fly half"
+    ],
+    "flag": "colonial/british-somaliland.svg",
+    "countryData": {
+      "name": "British Somaliland",
+      "officialName": "British Somaliland Protectorate",
+      "un": "none"
+    },
+    "cs": "colonial/british-somaliland.cs.svg",
+    "trivia": [
+      "- British Somaliland was a British protectorate from 1884 to 1960\n",
+      "- The Union Jack reflected British administration and control\n",
+      "- Merged with Italian Somaliland to form Somalia in 1960"
+    ]
+  }
+}

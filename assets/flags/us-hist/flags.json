@@ -1,0 +1,133 @@
+{
+  "us-betsy-ross": {
+    "title": "Betsy Ross Flag (13 Stars)",
+    "ratio": "10:19",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#b22234",
+        "cmyk": "0/81/71/30",
+        "note": "Hardiness and valour (same symbolism as the current flag)."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "Purity and innocence."
+      },
+      {
+        "color": "blue",
+        "hex": "#3c3b6e",
+        "cmyk": "45/46/0/57",
+        "note": "Vigilance, perseverance, and justice."
+      }
+    ],
+    "desc": [
+      "- The Betsy Ross flag features 13 red and white alternating stripes with a circle of 13 white five-pointed stars on a blue canton — representing the original 13 colonies\n",
+      "- Tradition credits Betsy Ross with sewing the first American flag in 1776 at George Washington's request, though this story is debated by historians\n",
+      "- The circular arrangement of stars is the most distinctive feature\n",
+      "- **Construction:** 13 alternating red and white stripes (red at top and bottom)\n",
+      "- A blue canton with 13 five-pointed stars arranged in a circle\n",
+      "- Ratio approximately 10:19"
+    ],
+    "flag": "us-hist/us-betsy-ross.svg",
+    "of": {
+      "country": "us"
+    },
+    "countryData": {
+      "name": "United States",
+      "officialName": "Betsy Ross Flag",
+      "un": "none"
+    },
+    "cs": "us-hist/us-betsy-ross.cs.svg",
+    "trivia": [
+      "- The Betsy Ross flag is a popular symbol of early American independence\n",
+      "- Allegedly sewn by Betsy Ross, though historical evidence is unclear\n",
+      "- Featured 13 stars in a circle representing the 13 original states"
+    ]
+  },
+  "us-confederate-stars-bars": {
+    "title": "First Flag of the Confederate States",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#bf0a30",
+        "cmyk": "0/95/75/25",
+        "note": "The field colour of the first Confederate national flag."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "The stripe."
+      },
+      {
+        "color": "blue",
+        "hex": "#002868",
+        "cmyk": "100/62/0/59",
+        "note": "The canton containing the stars of seceding states."
+      }
+    ],
+    "desc": [
+      "- The 'Stars and Bars' was the first national flag of the Confederate States of America (1861–1863), featuring a blue canton with a circle of white stars on three stripes of red, white, and red\n",
+      "- Often confused with the more famous Confederate Battle Flag, the Stars and Bars was replaced because it too closely resembled the US flag on the battlefield, causing confusion\n",
+      "- **Construction:** three horizontal stripes (red, white, red) with a blue canton containing white stars in a circle\n",
+      "- The number of stars varied as states joined\n",
+      "- Ratio approximately 2:3"
+    ],
+    "flag": "us-hist/us-confederate-stars-bars.svg",
+    "countryData": {
+      "name": "Confederate States",
+      "officialName": "Stars and Bars (Confederate)",
+      "un": "none"
+    },
+    "cs": "us-hist/us-confederate-stars-bars.cs.svg",
+    "trivia": [
+      "- The original Confederate flag featured stars and bars\n",
+      "- Used by the Confederate States of America (1861–1865)\n",
+      "- Later appropriated by segregationists and hate groups"
+    ]
+  },
+  "us-confederate-stainless": {
+    "title": "Stainless Banner of the Confederate States",
+    "ratio": "1:2",
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "The 'stainless' white field."
+      },
+      {
+        "color": "red",
+        "hex": "#bf0a30",
+        "cmyk": "0/95/75/25",
+        "note": "The saltire of the battle flag."
+      },
+      {
+        "color": "blue",
+        "hex": "#002868",
+        "cmyk": "100/62/0/59",
+        "note": "The canton from the battle flag."
+      }
+    ],
+    "desc": [
+      "- The 'Stainless Banner' was the second national flag of the Confederacy (1863–1865), featuring the familiar blue-saltire battle flag as a canton on a white field\n",
+      "- The overwhelming white field was criticised because it could be mistaken for a white flag of surrender — leading to the addition of a red vertical stripe at the fly (the 'Blood-Stained Banner', 1865)\n",
+      "- **Construction:** a white field with the Confederate Battle Flag (red with blue saltire and white stars) as the canton. Ratio 2:3"
+    ],
+    "flag": "us-hist/us-confederate-stainless.svg",
+    "countryData": {
+      "name": "Confederate States",
+      "officialName": "Stainless Banner (Confederate)",
+      "un": "none"
+    },
+    "cs": "us-hist/us-confederate-stainless.cs.svg",
+    "trivia": [
+      "- The Confederate flag was redesigned after the Civil War\n",
+      "- The 'Stainless Banner' variant was used from 1863–1865\n",
+      "- Highly controversial due to its association with slavery and racism"
+    ]
+  }
+}

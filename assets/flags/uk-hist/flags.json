@@ -1,0 +1,38 @@
+{
+  "scotland-kingdom": {
+    "title": "Royal Standard of Scotland",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "gold",
+        "hex": "#ffd700",
+        "cmyk": "0/16/100/0"
+      },
+      {
+        "color": "red",
+        "hex": "#cf142b",
+        "cmyk": "0/90/79/19"
+      }
+    ],
+    "desc": [
+      "- The Kingdom of Scotland's Royal Standard featured a red rampant lion on gold — one of the oldest heraldic designs in continuous use\n",
+      "- The blue Saltire (St Andrew's Cross) was also used\n",
+      "- **Construction:** a blue field bearing a white saltire (St Andrew's Cross). The saltire extends to all four corners of the flag"
+    ],
+    "flag": "uk-hist/scotland-kingdom.svg",
+    "of": {
+      "country": "uk"
+    },
+    "countryData": {
+      "name": "Scotland",
+      "officialName": "Kingdom of Scotland",
+      "un": "none"
+    },
+    "cs": "uk-hist/scotland-kingdom.cs.svg",
+    "trivia": [
+      "- The Kingdom of Scotland used its own flag before the union with England\n",
+      "- The lion rampant represents Scottish heraldry\n",
+      "- United with England in 1707 to form Great Britain"
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "kuwait": {
+    "title": "Flag of Kuwait",
+    "ratio": "1:2",
+    "use": {
+      "as": "national flag",
+      "since": "1961-09-07"
+    },
+    "of": {
+      "country": "kuwait"
+    },
+    "countryData": {
+      "name": "Kuwait",
+      "officialName": "State of Kuwait",
+      "un": "member"
+    },
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#007A3D",
+        "cmyk": "100/0/70/15",
+        "pantone": "340 C",
+        "note": "Represents fertile land and plantations"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Represents peace"
+      },
+      {
+        "color": "red",
+        "hex": "#CE1126",
+        "cmyk": "0/90/80/5",
+        "pantone": "186 C",
+        "note": "Represents blood shed in defence of the nation"
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "Represents victory over enemies"
+      }
+    ],
+    "desc": [
+      "- A horizontal triband of green, white, and red with a black trapezoid on the hoist side\n",
+      "- Adopted on 7 September 1961, shortly after independence from Britain, and officially hoisted on 24 November 1961\n",
+      "- The colours are inspired by a poem by Safie Al-Deen Al-Hili"
+    ],
+    "cs": "kuwait/flag.cs.svg",
+    "trivia": [
+      "- The black trapezoid represents the enemy; the green represents Islamic faith; red represents bloodshed\n",
+      "- The white represents purity and peaceful intentions\n",
+      "- Kuwait adopted this flag in 1961 upon independence from Britain"
+    ]
+  }
+}

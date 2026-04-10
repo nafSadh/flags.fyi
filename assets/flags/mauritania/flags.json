@@ -1,14 +1,97 @@
 {
   "mauritania": {
+    "title": "Flag of the Islamic Republic of Mauritania",
     "ratio": "2:3",
-    "use": { "since": "2017-08-15" },
+    "use": {
+      "as": "national flag",
+      "since": "2017-08-15"
+    },
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#00A95C",
+        "cmyk": "100/0/56/35",
+        "pantone": "347 C",
+        "note": "Field colour; represents Islam and the hope of a bright future."
+      },
+      {
+        "color": "gold",
+        "hex": "#FFD700",
+        "cmyk": "0/15/100/1",
+        "pantone": "012 C",
+        "note": "Crescent and star; the crescent symbolises Islam and the star unity among the people."
+      },
+      {
+        "color": "red",
+        "hex": "#D01C1F",
+        "cmyk": "0/88/85/18",
+        "pantone": "186 C",
+        "note": "Top and bottom stripes, added in 2017; represent the blood shed by defenders of the nation."
+      }
+    ],
     "desc": [
-      "The flag of Mauritania (Arabic: علم موريتانيا) is a green field containing a gold star and crescent, ",
-      "with a red stripe at the top and bottom of the field."
+      "- A green field with a gold crescent (horns upward) and five-pointed star, bordered by red stripes at the top and bottom\n",
+      "- The green and gold design dates to independence in 1959\n",
+      "- The red stripes were added on 15 August 2017 following a constitutional referendum, honouring those who died defending Mauritania\n",
+      "- The crescent and star are pan-Islamic symbols; the crescent's upward-facing horns are a distinctive feature\n",
+      "- **Construction:** the green field occupies the central portion, with red stripes at top and bottom each 1/5 of the flag height\n",
+      "- The crescent is centred, opening upward, with the star above it\n",
+      "- Ratio 2:3"
+    ],
+    "article": "mauritania/flag.md",
+    "of": {
+      "country": "mauritania"
+    },
+    "countryData": {
+      "name": "Mauritania",
+      "officialName": "Islamic Republic of Mauritania",
+      "un": "member"
+    },
+    "cs": "mauritania/flag.cs.svg",
+    "trivia": [
+      "- The green represents Islam; the red represents bloodshed for independence; white represents purity\n",
+      "- The star and crescent represent Islam and the nation's faith\n",
+      "- Mauritania's flag was adopted in 1959 and includes Islamic symbols in a Pan-African design"
     ]
   },
   "mauritania-1959": {
-    "title": "Former flag of Mauritania (1959-2017)",
-    "use": { "since": "1959-04-01", "until": "2017-08-15" }
+    "title": "Former flag of Mauritania (1959–2017)",
+    "ratio": "2:3",
+    "use": {
+      "since": "1959-04-01",
+      "until": "2017-08-15"
+    },
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#00A95C",
+        "cmyk": "100/0/46/34",
+        "note": "Islam and the land of Mauritania."
+      },
+      {
+        "color": "gold",
+        "hex": "#FFD700",
+        "cmyk": "0/16/100/0"
+      }
+    ],
+    "desc": [
+      "- The original flag of Mauritania (1959–2017) was a green field with a gold crescent and star — without the red top and bottom stripes that were added in 2017\n",
+      "- This design was adopted upon independence from France on 28 November 1960 and remained unchanged for nearly six decades until a constitutional referendum on 5 August 2017 added the red stripes\n",
+      "- **Construction:** a green field with a gold crescent (horns upward) and five-pointed star centred. Ratio 2:3"
+    ],
+    "of": {
+      "country": "mauritania"
+    },
+    "countryData": {
+      "name": "Mauritania",
+      "officialName": "Islamic Republic of Mauritania (1959–2017 flag)",
+      "un": "none"
+    },
+    "cs": "mauritania/mauritania-1959.cs.svg",
+    "trivia": [
+      "- Mauritania's original flag from 1959 upon independence from France\n",
+      "- Represented the nation's Islamic identity and Arab heritage\n",
+      "- Evolved with the addition of the Shahada inscription later"
+    ]
   }
 }

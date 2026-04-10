@@ -1,12 +1,53 @@
 {
   "algeria": {
+    "title": "Flag of the People's Democratic Republic of Algeria",
     "ratio": "2:3",
+    "use": {
+      "as": "national flag and ensign",
+      "since": "1962-07-03"
+    },
     "colors": [
-      { "color": "red", "hex": "#d21034", "pantone": "186 C", "cmyk": "0,92,75,18" },
-      { "color": "green", "hex": "#007229", "pantone": "356 C", "cmyk": "100,0,64,55" },
-      { "color": "white", "hex": "#fff", "pantone": "White", "cmyk": "0,0,0,0" }
+      {
+        "color": "red",
+        "hex": "#d21034",
+        "pantone": "186 C",
+        "cmyk": "0,92,75,18",
+        "note": "Represents liberty and the blood of those who fought for independence."
+      },
+      {
+        "color": "green",
+        "hex": "#007229",
+        "pantone": "356 C",
+        "cmyk": "100,0,64,55",
+        "note": "Represents Islam and the beauty of nature."
+      },
+      {
+        "color": "white",
+        "hex": "#fff",
+        "pantone": "White",
+        "cmyk": "0,0,0,0",
+        "note": "Represents purity and peace."
+      }
     ],
     "cs": "algeria/flag.cs.svg",
-    "article": "algeria/flag.md"
+    "article": "algeria/flag.md",
+    "desc": [
+      "- The flag of Algeria consists of two equal vertical bands of green and white with a red crescent and\n",
+      "- five-pointed star centred over the boundary. Adopted on 3 July 1962 upon independence from France,\n",
+      "- the green symbolises Islam, white represents purity, and the red crescent and star are traditional Islamic symbols"
+    ],
+    "of": {
+      "country": "algeria"
+    },
+    "countryData": {
+      "name": "Algeria",
+      "officialName": "People's Democratic Republic of Algeria",
+      "un": "member"
+    },
+    "trivia": [
+      "- The exact placement of the crescent and star is mathematically defined using intersecting circles\n",
+      "- The star has five points, common in Islamic symbolism; the crescent faces right, traditional for Muslim flags\n",
+      "- Adopted in 1962 after a brutal eight-year independence war against France"
+    ]
   }
 }

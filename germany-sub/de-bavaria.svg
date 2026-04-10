@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#ffffff"/>
+       <!-- Blue lozenges -->
+       <polygon points="150,100 300,250 150,400 0,250" fill="#0066cc"/>
+       <polygon points="450,100 600,250 450,400 300,250" fill="#0066cc"/>
+       <polygon points="750,100 900,250 750,400 600,250" fill="#0066cc"/>
+       <polygon points="1050,100 1200,250 1050,400 900,250" fill="#0066cc"/>
+       <polygon points="300,300 450,450 300,600 150,450" fill="#0066cc"/>
+       <polygon points="600,300 750,450 600,600 450,450" fill="#0066cc"/>
+       <polygon points="900,300 1050,450 900,600 750,450" fill="#0066cc"/></svg>

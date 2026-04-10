@@ -1,0 +1,44 @@
+{
+  "peru": {
+    "title": "Flag of Peru",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "1825-02-25"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#D91023",
+        "cmyk": "0/93/84/15",
+        "note": "Represents blood spilled for independence",
+        "pantone": "186 C"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Represents peace, purity, and justice"
+      }
+    ],
+    "desc": [
+      "- Three vertical stripes with red outer bands and a white centre stripe\n",
+      "- The civil flag omits the coat of arms, while the state flag displays it centred on the white"
+    ],
+    "article": "peru/flag.md",
+    "of": {
+      "country": "peru"
+    },
+    "countryData": {
+      "name": "Peru",
+      "officialName": "Republic of Peru",
+      "un": "member"
+    },
+    "cs": "peru/flag.cs.svg",
+    "trivia": [
+      "- The two vertical red stripes represent bloodshed for independence; the white represents peace\n",
+      "- The coat of arms shows a condor, llama, and chinchilla — representing the fauna of Peru's three regions\n",
+      "- Peru's state flag is narrower than the civil flag, creating two slightly different designs"
+    ]
+  }
+}

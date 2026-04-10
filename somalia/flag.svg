@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <!-- Light blue field -->
+  <rect width="1200" height="800" fill="#4189DD"/>
+  <!-- White 5-pointed star in center -->
+  <g transform="translate(600, 400)">
+    <polygon points="0,-120 35,-40 125,-40 50,20 85,100 0,40 -85,100 -50,20 -125,-40 -35,-40" fill="#FFFFFF"/>
+  </g>
+</svg>

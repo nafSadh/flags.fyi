@@ -1,0 +1,145 @@
+{
+  "jolly-roger": {
+    "title": "The Jolly Roger (Pirate Flag)",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "Death, darkness, and the pirate's menace."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "The skull and crossbones; mortality and defiance."
+      }
+    ],
+    "desc": [
+      "- A black field bearing a white skull above two crossed bones (or swords)\n",
+      "- The most famous pirate flag, used from the early 18th century during the Golden Age of Piracy\n",
+      "- Many variants existed — Edward 'Blackbeard' Teach used a skeleton with a spear and bleeding heart; Calico Jack Rackham's had crossed swords instead of bones\n",
+      "- The name 'Jolly Roger' may derive from the French 'joli rouge' (pretty red) or from a general slang term for a grinning skull\n",
+      "- **Construction:** a black field with a white skull and crossbones (or variant device) centred. No standard ratio"
+    ],
+    "flag": "maritime/jolly-roger.svg",
+    "countryData": {
+      "name": "Jolly Roger",
+      "officialName": "Jolly Roger (pirate flag)",
+      "un": "none"
+    },
+    "cs": "maritime/jolly-roger.cs.svg",
+    "trivia": [
+      "- No two pirate captains used the same Jolly Roger — each had a personalised version\n",
+      "- The skull and crossbones design conveyed a specific message of danger and death\n",
+      "- Most pirate flags actually used variations of red or solid colours; the black 'Jolly Roger' is more legend than historical fact"
+    ]
+  },
+  "white-ensign": {
+    "title": "White Ensign of the Royal Navy",
+    "ratio": "1:2",
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "Field of the Royal Navy ensign."
+      },
+      {
+        "color": "red",
+        "hex": "#cf142b",
+        "cmyk": "0/90/79/19",
+        "note": "The Cross of St George."
+      },
+      {
+        "color": "blue",
+        "hex": "#00247d",
+        "cmyk": "100/71/0/51",
+        "note": "The Union Jack in the canton."
+      }
+    ],
+    "desc": [
+      "- The White Ensign (St George's Ensign) is the ensign of the Royal Navy, featuring a white field with the red Cross of St George and the Union Jack in the canton\n",
+      "- It has been used by the Royal Navy since 1864 and is one of the most recognisable naval ensigns in the world\n",
+      "- Ships flying this ensign are under the protection of the Crown\n",
+      "- **Construction:** a white field with a red Cross of St George extending to the edges, and the Union Flag occupying the upper-hoist canton. Ratio 1:2"
+    ],
+    "flag": "maritime/white-ensign.svg",
+    "countryData": {
+      "name": "White Ensign",
+      "officialName": "White Ensign (Royal Navy)",
+      "un": "none"
+    },
+    "cs": "maritime/white-ensign.cs.svg",
+    "trivia": [
+      "- The White Ensign is used by the British Royal Navy\n",
+      "- Features the Union Jack and the cross of St. George\n",
+      "- One of the oldest naval flags still in use"
+    ]
+  },
+  "red-ensign": {
+    "title": "Red Ensign of the British Merchant Navy",
+    "ratio": "1:2",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#cf142b",
+        "cmyk": "0/90/79/19",
+        "note": "The British merchant navy tradition."
+      },
+      {
+        "color": "blue",
+        "hex": "#00247d",
+        "cmyk": "100/71/0/51",
+        "note": "The Union Jack in the canton."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0"
+      }
+    ],
+    "desc": [
+      "- The Red Ensign (Red Duster) is the civil ensign of the United Kingdom, flown by British merchant ships. Many colonial flags were based on it\n",
+      "- **Construction:** a red field (1:2) with the Union Flag in the upper-hoist canton, occupying one-quarter of the flag area"
+    ],
+    "flag": "maritime/red-ensign.svg",
+    "countryData": {
+      "name": "Red Ensign",
+      "officialName": "Red Ensign (British Merchant Navy)",
+      "un": "none"
+    },
+    "cs": "maritime/red-ensign.cs.svg",
+    "trivia": [
+      "- The Red Ensign is used by various nations and maritime purposes\n",
+      "- Represents British naval and maritime traditions\n",
+      "- Used by merchant marine and civilian ships"
+    ]
+  },
+  "signal-flags": {
+    "title": "International Maritime Signal Flags",
+    "ratio": "1:1",
+    "colors": [],
+    "desc": [
+      "- The International Code of Signals uses 26 alphabetical signal flags, 10 numerical pennants, and several special flags to communicate between ships at sea\n",
+      "- Developed from earlier systems dating to the 17th century, the current International Code was adopted in 1857 and revised by the IMO\n",
+      "- Each flag represents a letter and also has a specific meaning when flown individually\n",
+      "- **Construction:** varies by flag\n",
+      "- The signal flags use a standardised set of colours and geometric patterns (stripes, crosses, triangles) for maximum visibility at sea\n",
+      "- Ratio typically 3:4 for rectangular flags"
+    ],
+    "flag": "maritime/signal-flags.svg",
+    "countryData": {
+      "name": "International Maritime Signal Flags",
+      "officialName": "International Code of Signals",
+      "un": "none"
+    },
+    "cs": "maritime/signal-flags.cs.svg",
+    "trivia": [
+      "- Each International Code signal flag has a single-letter meaning when flown alone\n",
+      "- 'B' (Bravo) means 'I am loading, unloading, or carrying dangerous cargo'\n",
+      "- All 26 letter flags have distinct meanings used in naval and maritime communication"
+    ]
+  }
+}

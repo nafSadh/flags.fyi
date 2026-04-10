@@ -1,0 +1,44 @@
+{
+  "austria": {
+    "title": "Flag of Austria",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag and ensign",
+      "since": "1945-05-01"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#ED2939",
+        "cmyk": "0/86/76/7",
+        "note": "Symbolizes courage, strength, and sacrifice",
+        "pantone": "186 C"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Represents purity, peace, and neutrality"
+      }
+    ],
+    "desc": [
+      "- Three equal horizontal stripes of red-white-red, one of the oldest flag designs in the world\n",
+      "- Inspired by the legend of Duke Leopold V's bloodstained tunic during the Siege of Acre in 1191"
+    ],
+    "article": "austria/flag.md",
+    "of": {
+      "country": "austria"
+    },
+    "countryData": {
+      "name": "Austria",
+      "officialName": "Republic of Austria",
+      "un": "member"
+    },
+    "cs": "austria/flag.cs.svg",
+    "trivia": [
+      "- The red-white-red design dates to 1191, making it one of Europe's oldest national symbols\n",
+      "- Legend says Duke Leopold V dropped his white belt during battle, leaving a white stripe on his bloodstained red shield\n",
+      "- Austria's flag is among the few with three stripes of equal width in these specific colours"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "bermuda": {
+    "title": "Flag of Bermuda",
+    "ratio": "1:2",
+    "use": {
+      "as": "civil flag",
+      "since": "1910-10-04"
+    },
+    "of": {
+      "country": "bermuda"
+    },
+    "countryData": {
+      "name": "Bermuda",
+      "officialName": "Bermuda (British Overseas Territory)",
+      "un": "none"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#C8102E",
+        "pantone": "186 C",
+        "cmyk": "0/92/77/22",
+        "note": "British Red Ensign tradition."
+      },
+      {
+        "color": "blue",
+        "hex": "#012169",
+        "pantone": "280 C",
+        "cmyk": "99/69/0/59",
+        "note": "The coat of arms depicting a lion holding a shipwreck."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0"
+      },
+      {
+        "color": "green",
+        "hex": "#009A44",
+        "cmyk": "100/0/56/40"
+      }
+    ],
+    "desc": [
+      "- A Red Ensign with the coat of arms of Bermuda in the fly\n",
+      "- The arms depict a red lion holding a shield showing a sinking ship, representing the wreck of the Sea Venture in 1609"
+    ],
+    "cs": "bermuda/flag.cs.svg",
+    "trivia": [
+      "- The lion on the shield holds a key, symbolising Bermuda's strategic location in Atlantic trade routes\n",
+      "- Bermuda's flag features the Union Jack, reflecting its status as a British Overseas Territory\n",
+      "- The red is said to reference the red earth found on Bermuda's beaches"
+    ]
+  }
+}

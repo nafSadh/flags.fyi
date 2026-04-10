@@ -1,0 +1,43 @@
+{
+  "gh-gold-coast": {
+    "title": "Flag of the Gold Coast Colony",
+    "ratio": "1:2",
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#00247d",
+        "cmyk": "100/71/0/51",
+        "note": "British Blue Ensign tradition."
+      },
+      {
+        "color": "red",
+        "hex": "#cf142b",
+        "cmyk": "0/90/79/19"
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0"
+      }
+    ],
+    "desc": [
+      "- The Gold Coast Colony (1877–1957) used a British Blue Ensign defaced with a badge featuring an elephant and palm tree — predecessor to Ghana\n",
+      "- **Construction:** a Blue Ensign with the Gold Coast colonial badge in the fly half"
+    ],
+    "flag": "ghana-hist/gh-gold-coast.svg",
+    "of": {
+      "country": "ghana"
+    },
+    "countryData": {
+      "name": "Gold Coast",
+      "officialName": "Gold Coast (British colony)",
+      "un": "none"
+    },
+    "cs": "ghana-hist/gh-gold-coast.cs.svg",
+    "trivia": [
+      "- The Gold Coast was Britain's colonial territory, known for gold exports\n",
+      "- Became Ghana in 1957, the first sub-Saharan African nation to gain independence\n",
+      "- The flag represented the transition to independence"
+    ]
+  }
+}

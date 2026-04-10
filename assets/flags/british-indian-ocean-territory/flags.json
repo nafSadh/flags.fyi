@@ -1,0 +1,49 @@
+{
+  "british-indian-ocean-territory": {
+    "title": "Flag of the British Indian Ocean Territory",
+    "ratio": "1:2",
+    "use": {
+      "as": "territorial flag",
+      "since": "1990-11-08"
+    },
+    "of": {
+      "country": "british-indian-ocean-territory"
+    },
+    "countryData": {
+      "name": "British Indian Ocean Territory",
+      "officialName": "British Indian Ocean Territory",
+      "un": "none"
+    },
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#012169",
+        "cmyk": "99/69/0/59",
+        "note": "British Blue Ensign; the Indian Ocean."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "The wavy stripes representing the ocean."
+      },
+      {
+        "color": "red",
+        "hex": "#C8102E",
+        "cmyk": "0/92/77/22"
+      }
+    ],
+    "desc": [
+      "- A Blue Ensign defaced with the territory's coat of arms — a palm tree atop wavy blue-and-white stripes with a crown above, and the Union Flag in the canton\n",
+      "- Adopted on 8 November 1990 for the British Indian Ocean Territory, which includes Diego Garcia\n",
+      "- The palm tree and waves represent the tropical atoll nature of the islands\n",
+      "- **Construction:** Blue Ensign with coat of arms in the fly. Ratio 1:2"
+    ],
+    "cs": "british-indian-ocean-territory/flag.cs.svg",
+    "trivia": [
+      "- This British territory consists of the Chagos Archipelago in the Indian Ocean\n",
+      "- The Union Jack appears in the flag\n",
+      "- Territorial claims by Mauritius over this region remain disputed"
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "tanzania": {
+    "title": "Flag of Tanzania",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "1964-06-30"
+    },
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#1EB53A",
+        "cmyk": "68/0/100/0",
+        "note": "Represents the land and vegetation",
+        "pantone": "355 C"
+      },
+      {
+        "color": "yellow",
+        "hex": "#FCD116",
+        "cmyk": "0/10/98/0",
+        "note": "Represents mineral wealth",
+        "pantone": "116 C"
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "Represents the Swahili people",
+        "pantone": "Black"
+      },
+      {
+        "color": "blue",
+        "hex": "#00A3DD",
+        "cmyk": "79/7/0/0",
+        "note": "Represents the Indian Ocean and water resources",
+        "pantone": "298 C"
+      }
+    ],
+    "desc": [
+      "- A yellow-fimbriated black diagonal stripe from the lower hoist to the upper fly, with green above and blue below\n",
+      "- Created when Tanganyika and Zanzibar merged to form Tanzania in 1964"
+    ],
+    "article": "tanzania/flag.md",
+    "of": {
+      "country": "tanzania"
+    },
+    "countryData": {
+      "name": "Tanzania",
+      "officialName": "United Republic of Tanzania",
+      "un": "member"
+    },
+    "cs": "tanzania/flag.cs.svg",
+    "trivia": [
+      "- The diagonal represents the path to national development\n",
+      "- The black represents the people; green represents the land; gold represents mineral resources; blue represents the ocean\n",
+      "- Tanzania adopted this flag in 1961 when it gained independence from Britain"
+    ]
+  }
+}

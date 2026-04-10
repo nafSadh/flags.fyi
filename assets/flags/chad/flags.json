@@ -1,0 +1,52 @@
+{
+  "chad": {
+    "title": "Flag of Chad",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "1959-11-06"
+    },
+    "of": {
+      "country": "chad"
+    },
+    "countryData": {
+      "name": "Chad",
+      "officialName": "Republic of Chad",
+      "un": "member"
+    },
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#002664",
+        "cmyk": "100/62/0/61",
+        "pantone": "281 C",
+        "note": "Represents the sky, hope, agriculture, and the waters of southern Chad"
+      },
+      {
+        "color": "yellow",
+        "hex": "#FECB00",
+        "cmyk": "0/19/100/0",
+        "pantone": "116 C",
+        "note": "Represents the sun and the desert of northern Chad"
+      },
+      {
+        "color": "red",
+        "hex": "#C60C30",
+        "cmyk": "0/94/76/22",
+        "pantone": "186 C",
+        "note": "Represents progress, unity, and sacrifice"
+      }
+    ],
+    "desc": [
+      "- Three equal vertical bands of blue (hoist side), yellow, and red\n",
+      "- Adopted on 6 November 1959, the design is a compromise between the French Tricolore and the Pan-African colours\n",
+      "- The flag is nearly identical to Romania's, differing only in a slightly darker shade of blue"
+    ],
+    "cs": "chad/flag.cs.svg",
+    "trivia": [
+      "- The blue, gold, and red stripes represent hope, prosperity, and blood shed for independence\n",
+      "- The colours are Pan-African, adopted like many African nations post-1950s\n",
+      "- Chad and Romania's flags are nearly identical (the exact same colours and proportions), causing rare diplomatic confusion"
+    ]
+  }
+}

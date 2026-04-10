@@ -1,0 +1,88 @@
+{
+  "ph-katipunan": {
+    "title": "Flag of the Katipunan",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#ce1126",
+        "cmyk": "0/92/82/19"
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0"
+      }
+    ],
+    "desc": [
+      "- The flag of the Katipunan (Kataas-taasan, Kagalang-galangang Katipunan ng mga Anak ng Bayan) was a red field with a white sun — the banner of the revolutionary society that launched the Philippine Revolution in 1896\n",
+      "- Founded by Andrés Bonifacio, the Katipunan used several flag variants\n",
+      "- The most common featured a white mythological sun (representing liberty) on a red field (representing the blood of revolution)\n",
+      "- **Construction:** a red field with a white sun device centred. Ratio approximately 2:3"
+    ],
+    "flag": "philippines-hist/ph-katipunan.svg",
+    "of": {
+      "country": "philippines"
+    },
+    "countryData": {
+      "name": "Philippines",
+      "officialName": "Katipunan",
+      "un": "none"
+    },
+    "cs": "philippines-hist/ph-katipunan.cs.svg",
+    "trivia": [
+      "- The Katipunan was the revolutionary group that fought Philippine independence\n",
+      "- The flag represented the independence movement against Spanish rule\n",
+      "- Led the Philippine Revolution of 1896"
+    ]
+  },
+  "ph-revolutionary": {
+    "title": "Flag of the First Philippine Republic",
+    "ratio": "1:2",
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#0038a8",
+        "cmyk": "100/67/0/34"
+      },
+      {
+        "color": "red",
+        "hex": "#ce1126",
+        "cmyk": "0/92/82/19"
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0"
+      },
+      {
+        "color": "yellow",
+        "hex": "#fcd116",
+        "cmyk": "0/17/91/1"
+      }
+    ],
+    "desc": [
+      "- The Philippine revolutionary flag designed by Emilio Aguinaldo featured a white triangle at the hoist with a golden sun and three stars, on a field of blue and red horizontal stripes\n",
+      "- First unfurled at the proclamation of Philippine independence on 12 June 1898, it is essentially the precursor to the modern Philippine flag\n",
+      "- The three stars represent Luzon, Visayas, and Mindanao; the eight rays of the sun represent the first eight provinces that revolted\n",
+      "- **Construction:** a white equilateral triangle at the hoist, with a golden sun (eight rays) and three five-pointed stars\n",
+      "- Two horizontal stripes of blue (top) and red\n",
+      "- Ratio 1:2"
+    ],
+    "flag": "philippines-hist/ph-revolutionary.svg",
+    "of": {
+      "country": "philippines"
+    },
+    "countryData": {
+      "name": "Philippines",
+      "officialName": "Philippine Revolution",
+      "un": "none"
+    },
+    "cs": "philippines-hist/ph-revolutionary.cs.svg",
+    "trivia": [
+      "- The revolutionary Philippines flag represented the independence movement\n",
+      "- Preceded the modern flag and was used during the Spanish-American War\n",
+      "- Adopted when the Philippines declared independence from Spain"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "abkhazia": {
+    "title": "Flag of Abkhazia",
+    "ratio": "1:2",
+    "use": {
+      "as": "national flag",
+      "since": "1992-07-23"
+    },
+    "of": {
+      "country": "abkhazia"
+    },
+    "countryData": {
+      "name": "Abkhazia",
+      "officialName": "Republic of Abkhazia",
+      "un": "none"
+    },
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#00993E",
+        "cmyk": "85/0/92/20",
+        "note": "Four of the seven alternating stripes; represent Islam."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Three of the seven stripes and the open hand; represent tolerance and the Christian population."
+      },
+      {
+        "color": "red",
+        "hex": "#E60000",
+        "cmyk": "0/100/100/10",
+        "note": "Canton; represents statehood and political courage."
+      }
+    ],
+    "desc": [
+      "- Seven alternating green and white horizontal stripes (starting with green) with a red canton bearing a white open right hand and seven white five-pointed stars arranged in an arc\n",
+      "- The seven stripes and seven stars represent the seven historic districts of Abkhazia\n",
+      "- The open hand symbolises the Abkhaz concept of hospitality ('Apsua')\n",
+      "- The green stripes represent Islam; the white stripes represent Christianity, reflecting the nation's religious diversity\n",
+      "- Adopted on 23 July 1992 during the Georgian–Abkhaz conflict\n",
+      "- Abkhazia is a partially recognised state; its independence is recognised by Russia and a handful of other nations\n",
+      "- **Construction:** seven equal horizontal stripes alternating green and white (green at top and bottom)\n",
+      "- The canton occupies the upper-left four stripes in height\n",
+      "- The open hand is centred in the canton, palm outward\n",
+      "- Ratio 1:2"
+    ],
+    "cs": "abkhazia/flag.cs.svg",
+    "trivia": [
+      "- Abkhazia is a partially recognized territory with contested sovereignty\n",
+      "- Recognized by Russia but not by most of the international community\n",
+      "- Located on the Black Sea coast between Russia and Georgia"
+    ]
+  }
+}

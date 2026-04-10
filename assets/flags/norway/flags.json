@@ -1,0 +1,53 @@
+{
+  "norway": {
+    "title": "Flag of Norway",
+    "ratio": "8:11",
+    "use": {
+      "as": "national flag",
+      "since": "1821-07-13"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#BA0C2F",
+        "cmyk": "0/91/78/26",
+        "note": "Represents bravery and Scandinavian heritage",
+        "pantone": "032 C"
+      },
+      {
+        "color": "blue",
+        "hex": "#00205B",
+        "cmyk": "100/80/0/64",
+        "note": "Represents truth and loyalty",
+        "pantone": "281 C"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Border of the cross representing peace"
+      }
+    ],
+    "desc": [
+      "- A red field with a blue Nordic cross outlined in white. Adopted in 1821, reflecting Norway's Scandinavian heritage and Christian traditions\n",
+      "- **Construction:** a red field with an indigo-blue Scandinavian cross outlined in white\n",
+      "- The cross is offset toward the hoist\n",
+      "- The arms of the cross are 2/22 of the flag's height in width (blue), with white border strips half that width"
+    ],
+    "article": "norway/flag.md",
+    "of": {
+      "country": "norway"
+    },
+    "countryData": {
+      "name": "Norway",
+      "officialName": "Kingdom of Norway",
+      "un": "member"
+    },
+    "cs": "norway/flag.cs.svg",
+    "trivia": [
+      "- The Nordic cross represents Christianity; the colours represent the Scandinavian union heritage\n",
+      "- The blue cross with white border is offset toward the hoist\n",
+      "- Norway adopted this flag in 1821 upon union with Sweden; it became fully independent in 1905"
+    ]
+  }
+}

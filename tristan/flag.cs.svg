@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="780" viewBox="-4000 -3500 18000 13000" fill="none" font-family="Calibri,Arial,'Liberation Sans',sans-serif">
+  <title>Flag of Tristan da Cunha — construction sheet</title>
+<defs>
+    <marker id="left-arrow" viewBox="-4 -4 10 8" orient="auto" markerWidth="10" markerHeight="8">
+        <path fill="blue" d="m2 0 4 4-10-4L6-4z"/>
+    </marker>
+</defs>
+<path fill="#fafafa" d="m-4000 -3500h18000v13000H-4000z"/>
+<path fill="#fff" d="m0 0h10000v5000H0z"/>
+<g opacity=".5">
+  <path fill="#012169" d="m0 0h10000v5000H0z"/>
+</g>
+<g stroke="#000" stroke-width="140" stroke-linejoin="round" stroke-linecap="round">
+  <path stroke="#444" stroke-width="250" d="m0 0h10000v5000H0z"/>
+  <path stroke-dasharray="200,200" stroke-width="75" d="m4000.0 0v2750.0H0"/>
+</g>
+<g stroke="#00f" stroke-width="75" marker-start="url(#left-arrow)">
+  <path d="m750 7000h3500.0"/>
+  <path d="m9250 7000H5750.0"/>
+  <path d="m12000 4250V3250.0"/>
+  <path d="m12000 750v1000.0"/>
+</g>
+<g fill="#000" text-anchor="middle" font-size="50" transform="scale(50)">
+  <text x="100" y="165">2</text>
+  <g transform="rotate(270)"><text y="270">1</text></g>
+  <g font-size="27">
+    <text x="-2" y="172">[<tspan font-weight="bold" fill="#080">TRI</tspan>]</text>
+    <text x="202" y="172">[<tspan font-weight="bold" fill="#080">1:2</tspan>]</text>
+  </g>
+</g>
+</svg>

@@ -1,0 +1,51 @@
+{
+  "ireland": {
+    "title": "Flag of Ireland",
+    "ratio": "1:2",
+    "use": {
+      "as": "national flag",
+      "since": "1937-12-29"
+    },
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#009A49",
+        "cmyk": "100/0/80/10",
+        "note": "Symbolizes the Catholic and nationalist tradition",
+        "pantone": "347 C"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Represents peace between Catholic and Protestant communities"
+      },
+      {
+        "color": "orange",
+        "hex": "#FF7900",
+        "cmyk": "0/65/100/0",
+        "note": "Represents the Protestant tradition and followers of William of Orange",
+        "pantone": "151 C"
+      }
+    ],
+    "desc": [
+      "- Three equal vertical stripes of green, white, and orange, designed by Thomas Francis Meagher in 1848\n",
+      "- The white centre symbolises reconciliation between the green (Catholic) and orange (Protestant) communities"
+    ],
+    "article": "ireland/flag.md",
+    "of": {
+      "country": "ireland"
+    },
+    "countryData": {
+      "name": "Ireland",
+      "officialName": "Ireland",
+      "un": "member"
+    },
+    "cs": "ireland/flag.cs.svg",
+    "trivia": [
+      "- The green represents Irish nationalism, the orange represents the Protestant tradition, and white represents hope for peace\n",
+      "- The tricolour was inspired by the French Tricolore and represents reconciliation between Irish and Anglo-Irish communities\n",
+      "- Adopted in 1919 as a symbol of Irish independence; it remained unofficial until 1949"
+    ]
+  }
+}

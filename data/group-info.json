@@ -1,0 +1,119 @@
+{
+  "nf": "national-flag",
+  "national-flag": {
+    "title": "National flags of de-facto country nations"
+  },
+  "fn": "former-flag",
+  "former-flag": {
+    "title": "Former national flags of modern countries"
+  },
+  "af": "africa",
+  "africa": {
+    "title": "Flags from the continent of Africa"
+  },
+  "as": "asia",
+  "asia": {
+    "title": "Flags from the continent of Asia"
+  },
+  "na": "north-america",
+  "north-america": {
+    "title": "Flags from the continent of North America"
+  },
+  "sa": "south-america",
+  "south-america": {
+    "title": "Flags from the continent of South America"
+  },
+  "e": "europe",
+  "europe": {
+    "title": "Flags from the continent of Europe"
+  },
+  "eu": "european-union",
+  "european-union": {
+    "title": "Countries of the European Union"
+  },
+  "oc": "oceania",
+  "oceania": {
+    "title": "Flags from Oceania and the Pacific Islands"
+  },
+  "h": "historic",
+  "historic": {
+    "title": "Historic flags",
+    "note": "Flags used by historic countries, nations, states, empires, kingdoms etc."
+  },
+  "caribbean": {
+    "title": "Flags from the Caribbean"
+  },
+  "arab": {
+    "title": "Arab world",
+    "note": "Flags of Arab League member states and related entities"
+  },
+  "gulf": {
+    "title": "Persian Gulf states",
+    "note": "Flags of the GCC and Gulf region"
+  },
+  "south-asia": {
+    "title": "South Asia",
+    "note": "Flags from the Indian subcontinent"
+  },
+  "east-asia": {
+    "title": "East Asia",
+    "note": "Flags from East Asian nations"
+  },
+  "southeast-asia": {
+    "title": "Southeast Asia",
+    "note": "Flags from Southeast Asian nations"
+  },
+  "nordic": {
+    "title": "Nordic countries",
+    "note": "Flags from Scandinavia and the Nordics"
+  },
+  "levant": {
+    "title": "Levant",
+    "note": "Flags from the Eastern Mediterranean / Levantine region"
+  },
+  "maghreb": {
+    "title": "Maghreb",
+    "note": "Flags from Northwest Africa"
+  },
+  "horn-of-africa": {
+    "title": "Horn of Africa",
+    "note": "Flags from the Horn of Africa region"
+  },
+  "british-overseas": {
+    "title": "British Overseas Territories",
+    "note": "Flags of British Crown Dependencies and Overseas Territories"
+  },
+  "bot": "british-overseas",
+  "caliphate": {
+    "title": "Islamic Caliphates & Dynasties",
+    "note": "Flags of historical Islamic caliphates, sultanates, and dynasties"
+  },
+  "empire": {
+    "title": "Empires & Ancient States",
+    "note": "Flags of historical empires and ancient states"
+  },
+  "intl": {
+    "title": "International Organizations",
+    "note": "Flags of international and supranational organizations"
+  },
+  "pan": {
+    "title": "Pan-Movement & Identity",
+    "note": "Flags representing pan-national movements and cultural identities"
+  },
+  "pride": {
+    "title": "Pride & Social Movement",
+    "note": "Flags of social movements and pride"
+  },
+  "maritime": {
+    "title": "Maritime & Signal",
+    "note": "Naval ensigns, pirate flags, and maritime signal flags"
+  },
+  "sub": {
+    "title": "Sub-national & State Flags",
+    "note": "Flags of states, provinces, and constituent countries"
+  },
+  "colonial": {
+    "title": "Colonial & Mandate",
+    "note": "Flags from colonial and mandate periods"
+  }
+}

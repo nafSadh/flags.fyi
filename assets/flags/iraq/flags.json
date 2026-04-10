@@ -1,32 +1,276 @@
 {
   "iraq": {
+    "title": "Flag of the Republic of Iraq",
     "ratio": "2:3",
+    "use": {
+      "as": "national flag and ensign",
+      "since": "2008-01-22"
+    },
     "colors": [
-      { "color": "red", "hex": "#ce1126", "rgb": "206/17/38", "cmyk": "0/92/82/19" },
-      { "color": "white", "hex": "#fff", "rgb": "255/255/255", "cmyk": "0/0/0/0" },
-      { "color": "black", "hex": "#000", "rgb": "0/0/0", "cmyk": "0/0/0/100" },
-      { "color": "green", "hex": "#007a3d", "rgb": "0/122/61", "cmyk": "100/0/50/52" }
+      {
+        "color": "red",
+        "hex": "#ce1126",
+        "rgb": "206/17/38",
+        "cmyk": "0/92/82/19",
+        "note": "Represents sacrifice and courage."
+      },
+      {
+        "color": "white",
+        "hex": "#fff",
+        "rgb": "255/255/255",
+        "cmyk": "0/0/0/0",
+        "note": "Represents peace and generosity."
+      },
+      {
+        "color": "black",
+        "hex": "#000",
+        "rgb": "0/0/0",
+        "cmyk": "0/0/0/100",
+        "note": "Represents the Arab heritage."
+      },
+      {
+        "color": "green",
+        "hex": "#007a3d",
+        "rgb": "0/122/61",
+        "cmyk": "100/0/50/52",
+        "note": "The takbīr inscription in green Kufic script."
+      }
     ],
     "desc": [
-      "A horizontal tricolour of red, white, and black, charged with the takbīr (Allahu akbar, 'God is [the] greatest'",
-      ") in green Kufic script, centered on the white stripe."
+      "- A horizontal tricolour of red, white, and black, charged with the takbīr (Allahu akbar, 'God is [the] greatest'\n",
+      "- ) in green Kufic script, centered on the white stripe. Adopted on 22 January 2008, replacing the three green stars"
     ],
-    "of": { "country": "iraq" },
+    "of": {
+      "country": "iraq"
+    },
     "countryData": {
       "name": "Republic of Iraq"
-    }
+    },
+    "article": "iraq/flag.md",
+    "cs": "iraq/flag.cs.svg",
+    "trivia": [
+      "- The three stars represent the unity of the Arab world, the Three Caliphates, or three historic regions\n",
+      "- The colours are Pan-Arab colours representing the Arab Revolt against Ottoman rule\n",
+      "- Iraq's flag has been modified several times to remove Saddam Hussein's added script after 2003"
+    ]
   },
   "iraq-mandatory": {
     "title": "Kingdom of Iraq under British administration",
-    "use": { "since": "1921", "until": "1932" }
+    "ratio": "1:2",
+    "use": {
+      "since": "1921",
+      "until": "1932"
+    },
+    "desc": [
+      "- The flag of Mandatory Iraq under British administration featured a black, white, and green horizontal triband with a red trapezoid at the hoist — the colours of the Arab Revolt that helped establish the state\n",
+      "- The Kingdom of Iraq adopted this flag in 1924 as part of British-arranged governance under the Hashemite monarchy\n",
+      "- **Construction:** three horizontal stripes of black (top), white, and green, with a red trapezoid at the hoist bearing two white seven-pointed stars\n",
+      "- Ratio approximately 1:2"
+    ],
+    "colors": [
+      {
+        "color": "black",
+        "hex": "#000",
+        "cmyk": "0/0/0/100",
+        "note": "Abbasid dynasty heritage."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Umayyad dynasty heritage."
+      },
+      {
+        "color": "green",
+        "hex": "#007A3D",
+        "cmyk": "100/0/50/52",
+        "note": "Fatimid dynasty heritage."
+      },
+      {
+        "color": "red",
+        "hex": "#CE1126",
+        "cmyk": "0/92/82/19",
+        "note": "Hashemite dynasty heritage."
+      }
+    ],
+    "of": {
+      "country": "iraq"
+    },
+    "countryData": {
+      "name": "Iraq",
+      "officialName": "Mandatory Iraq (British Mandate)",
+      "un": "none"
+    },
+    "cs": "iraq/iraq-mandatory.cs.svg",
+    "trivia": [
+      "- Iraq was a British mandate from 1920 to 1932 after World War I\n",
+      "- The Union Jack represented British administrative authority\n",
+      "- Iraq gained nominal independence in 1932"
+    ]
   },
   "iraq-hashemite": {
     "title": "Hashemite Kingdom of Iraq",
-    "use": { "since": "1932", "until": "1958" }
+    "ratio": "1:2",
+    "use": {
+      "since": "1932",
+      "until": "1958"
+    },
+    "desc": [
+      "- The flag of the Hashemite Kingdom of Iraq (1924–1958) continued the Pan-Arab colour scheme with black, white, and green horizontal bands and a red trapezoid at the hoist\n",
+      "- This flag represented the Hashemite monarchy established by King Faisal I\n",
+      "- It was abandoned after the July 1958 revolution that overthrew the monarchy\n",
+      "- **Construction:** three horizontal stripes of black (top), white, and green with a red trapezoid at the hoist containing two white seven-pointed stars\n",
+      "- Ratio approximately 1:2"
+    ],
+    "colors": [
+      {
+        "color": "black",
+        "hex": "#000",
+        "cmyk": "0/0/0/100",
+        "note": "Abbasid dynasty."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Umayyad dynasty."
+      },
+      {
+        "color": "green",
+        "hex": "#007A3D",
+        "cmyk": "100/0/50/52",
+        "note": "Fatimid dynasty."
+      },
+      {
+        "color": "red",
+        "hex": "#CE1126",
+        "cmyk": "0/92/82/19",
+        "note": "Hashemite dynasty — the ruling family of the Kingdom."
+      }
+    ],
+    "of": {
+      "country": "iraq"
+    },
+    "countryData": {
+      "name": "Iraq",
+      "officialName": "Kingdom of Iraq",
+      "un": "none"
+    },
+    "cs": "iraq/iraq-hashemite.cs.svg",
+    "trivia": [
+      "- The Hashemite kingdom of Iraq (1921–1958) was established by the British mandate\n",
+      "- Represented the Hashemite dynasty's rule in Iraq\n",
+      "- Overthrown in the 1958 Iraqi Revolution"
+    ]
   },
-  "iraq-republic": { "use": { "since": "1959", "until": "1968" } },
+  "iraq-republic": {
+    "title": "Iraqi Republic (Qasim era)",
+    "ratio": "2:3",
+    "use": {
+      "since": "1959",
+      "until": "1963"
+    },
+    "desc": [
+      "- Post-monarchy flag after the 14 July Revolution with vertical tricolour\n",
+      "- **Construction:** three equal horizontal bands of red (top), white (middle), and black (bottom), with 'Allahu Akbar' in green Kufic script centred on the white band"
+    ],
+    "colors": [
+      {
+        "color": "black",
+        "hex": "#000",
+        "cmyk": "0/0/0/100",
+        "note": "The past overcome."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Peace."
+      },
+      {
+        "color": "green",
+        "hex": "#007A3D",
+        "cmyk": "100/0/50/52",
+        "note": "Islam."
+      },
+      {
+        "color": "red",
+        "hex": "#CE1126",
+        "cmyk": "0/92/82/19",
+        "note": "Revolution and the struggle for independence."
+      },
+      {
+        "color": "yellow",
+        "hex": "#FFD700",
+        "cmyk": "0/16/100/0"
+      }
+    ],
+    "of": {
+      "country": "iraq"
+    },
+    "countryData": {
+      "name": "Iraq",
+      "officialName": "Republic of Iraq",
+      "un": "member"
+    },
+    "cs": "iraq/iraq-republic.cs.svg",
+    "trivia": [
+      "- The Iraqi Republic (1958–1968) represented the period after the monarchy's overthrow\n",
+      "- The flag changed multiple times reflecting different political regimes\n",
+      "- Increasingly centralised power under Arab nationalist governments"
+    ]
+  },
   "iraq-baath": {
-    "use": { "since": "1968", "until": "2003" },
-    "desc": "Iraq ruled by Saddam Hussein's Ba'athist party"
+    "title": "Iraqi Republic (Ba'athist)",
+    "ratio": "2:3",
+    "use": {
+      "since": "1963",
+      "until": "2008"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#ce1126",
+        "cmyk": "0/92/82/19",
+        "note": "Arab nationalism and revolution."
+      },
+      {
+        "color": "white",
+        "hex": "#fff",
+        "cmyk": "0/0/0/0",
+        "note": "Peace and a bright future."
+      },
+      {
+        "color": "black",
+        "hex": "#000",
+        "cmyk": "0/0/0/100",
+        "note": "The dark past of oppression."
+      },
+      {
+        "color": "green",
+        "hex": "#007a3d",
+        "cmyk": "100/0/50/52",
+        "note": "Takbir script; Islam and Arab identity."
+      }
+    ],
+    "desc": [
+      "- The Ba'athist-era flag featured a horizontal tricolour of red, white, and black with three green stars\n",
+      "- The stars were said to represent unity, freedom, and socialism. Used during Saddam Hussein's rule\n",
+      "- **Construction:** three equal horizontal bands of red, white, and black with three green five-pointed stars and 'Allahu Akbar' in green Kufic script centred on the white band"
+    ],
+    "of": {
+      "country": "iraq"
+    },
+    "countryData": {
+      "name": "Iraq",
+      "officialName": "Republic of Iraq (Ba'athist)",
+      "un": "none"
+    },
+    "cs": "iraq/iraq-baath.cs.svg",
+    "trivia": [
+      "- The Ba'ath Party ruled Iraq from 1963 to 2003 under Saddam Hussein\n",
+      "- The flag represented Ba'athist Arab nationalism and socialism\n",
+      "- Overthrown during the 2003 invasion"
+    ]
   }
 }

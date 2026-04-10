@@ -1,0 +1,130 @@
+{
+  "hejaz": {
+    "title": "Flag of the Kingdom of Hejaz",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "The Arab Revolt; Abbasid heritage."
+      },
+      {
+        "color": "green",
+        "hex": "#009736",
+        "cmyk": "100/0/64/41",
+        "note": "Fatimid heritage."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "Umayyad heritage."
+      },
+      {
+        "color": "red",
+        "hex": "#ce1126",
+        "cmyk": "0/92/82/19",
+        "note": "Hashemite kingdom."
+      }
+    ],
+    "desc": [
+      "- The Kingdom of Hejaz (1916–1925) flag was the original Arab Revolt flag — the direct ancestor of the Pan-Arab flag and the flags of Jordan, Palestine, and others\n",
+      "- **Construction:** three horizontal bands of black (top), green (middle), and white (bottom), with a red triangle on the hoist — the original Arab Revolt flag design"
+    ],
+    "flag": "arab-hist/hejaz.svg",
+    "countryData": {
+      "name": "Hejaz",
+      "officialName": "Kingdom of Hejaz",
+      "un": "none"
+    },
+    "cs": "arab-hist/hejaz.cs.svg",
+    "trivia": [
+      "- The Kingdom of Hejaz (1916–1925) was an early Arab state in the Arabian Peninsula\n",
+      "- Briefly independent during the Arab Revolt against Ottoman rule\n",
+      "- Conquered by Saudi Arabia and incorporated into the modern kingdom"
+    ]
+  },
+  "hatay": {
+    "title": "Flag of the Republic of Hatay",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#e30a17",
+        "cmyk": "0/96/90/11",
+        "note": "Turkish heritage."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "Peace."
+      }
+    ],
+    "desc": [
+      "- The flag of the Republic of Hatay (1938–1939) featured a red field with a white horizontal stripe and a red star and crescent on the white band\n",
+      "- Hatay was a short-lived state in what is now southern Turkey's Hatay Province, which joined Turkey in 1939 after a controversial referendum\n",
+      "- The flag design reflected both Turkish influence and the desire for independent identity\n",
+      "- **Construction:** a red field with a horizontal white stripe centred. A red star and crescent on the white band. Ratio approximately 2:3"
+    ],
+    "flag": "arab-hist/hatay.svg",
+    "countryData": {
+      "name": "Hatay",
+      "officialName": "State of Hatay",
+      "un": "none"
+    },
+    "cs": "arab-hist/hatay.cs.svg",
+    "trivia": [
+      "- Hatay was a disputed territory between Turkey and Syria (1938–1939)\n",
+      "- Awarded to Turkey after French mandate authority allowed a plebiscite\n",
+      "- Syria still claims Hatay as part of its territory"
+    ]
+  },
+  "arab-federation": {
+    "colors": [
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "Abbasid dynasty heritage."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Umayyad dynasty."
+      },
+      {
+        "color": "green",
+        "hex": "#009736",
+        "cmyk": "100/0/64/41",
+        "note": "Fatimid dynasty."
+      },
+      {
+        "color": "red",
+        "hex": "#CE1126",
+        "cmyk": "0/92/82/19",
+        "note": "Hashemite dynasty (Iraq and Jordan)."
+      }
+    ],
+    "desc": [
+      "- The flag of the Arab Federation (1958) was a horizontal triband of black, white, and green with a red triangle at the hoist — the Pan-Arab colours representing the Abbasid, Umayyad, Fatimid, and Hashemite dynasties\n",
+      "- The Arab Federation was a brief union of Iraq and Jordan formed in February 1958 as a counterweight to the United Arab Republic (Egypt–Syria)\n",
+      "- It lasted only five months before being dissolved by the Iraqi revolution of July 1958\n",
+      "- **Construction:** three equal horizontal stripes of black (top), white, and green, with a red isosceles triangle at the hoist\n",
+      "- A white seven-pointed star sat within the triangle\n",
+      "- Ratio 1:2"
+    ],
+    "countryData": {
+      "name": "Arab Federation",
+      "officialName": "Arab Federation of Iraq and Jordan",
+      "un": "none"
+    },
+    "cs": "arab-hist/arab-federation.cs.svg",
+    "trivia": [
+      "- The Arab Federation lasted only 5 months (Feb–Jul 1958), making it one of the shortest-lived political unions in modern history\n",
+      "- It was created as a direct response to Egypt and Syria forming the United Arab Republic"
+    ]
+  }
+}

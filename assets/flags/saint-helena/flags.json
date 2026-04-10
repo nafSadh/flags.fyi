@@ -1,0 +1,52 @@
+{
+  "saint-helena": {
+    "title": "Flag of Saint Helena",
+    "ratio": "1:2",
+    "use": {
+      "as": "civil flag",
+      "since": "1984"
+    },
+    "of": {
+      "country": "saint-helena"
+    },
+    "countryData": {
+      "name": "Saint Helena",
+      "officialName": "Saint Helena, Ascension and Tristan da Cunha",
+      "un": "none"
+    },
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#012169",
+        "cmyk": "99/69/0/59",
+        "note": "British Blue Ensign; the South Atlantic."
+      },
+      {
+        "color": "red",
+        "hex": "#C8102E",
+        "cmyk": "0/92/77/22"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0"
+      },
+      {
+        "color": "yellow",
+        "hex": "#FFD100",
+        "cmyk": "0/18/100/0"
+      }
+    ],
+    "desc": [
+      "- A Blue Ensign with the coat of arms of Saint Helena\n",
+      "- The arms feature a rocky coastline with a sailing ship and a wirebird (the island's endemic bird)\n",
+      "- **Construction:** a Blue Ensign (1:2) with the Union Flag in the upper-hoist canton. The territorial badge appears in the fly half"
+    ],
+    "cs": "saint-helena/flag.cs.svg",
+    "trivia": [
+      "- Saint Helena uses the Union Jack, reflecting its status as a British Overseas Territory\n",
+      "- The island is famous as Napoleon's place of exile\n",
+      "- Saint Helena has one of the most isolated locations of any British territory"
+    ]
+  }
+}

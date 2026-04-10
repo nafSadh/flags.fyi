@@ -1,0 +1,117 @@
+{
+  "jp-tokugawa": {
+    "title": "Flag of the Tokugawa Shogunate",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "The Tokugawa shogunate's standard."
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "The hollyhock (Aoi) mon of the Tokugawa clan."
+      }
+    ],
+    "desc": [
+      "- The flag associated with the Tokugawa shogunate featured the Tokugawa hollyhock (aoi) mon — three heart-shaped leaves in a circle — typically in black on a white field\n",
+      "- The Tokugawa clan ruled Japan from 1603 to 1868 during the Edo period\n",
+      "- Their mon (family crest) became synonymous with Japanese feudal authority and appears on many historical objects\n",
+      "- **Construction:** a white field bearing the black Tokugawa aoi mon centred. Various proportions were used"
+    ],
+    "flag": "japan-hist/jp-tokugawa.svg",
+    "of": {
+      "country": "japan"
+    },
+    "countryData": {
+      "name": "Japan",
+      "officialName": "Tokugawa Shogunate",
+      "un": "none"
+    },
+    "cs": "japan-hist/jp-tokugawa.cs.svg",
+    "trivia": [
+      "- The Tokugawa shogunate (1603–1868) ruled Japan and used distinctive banners\n",
+      "- The crest (mon) represented the shogun's authority\n",
+      "- The shogunate period saw Japan's isolationist policy"
+    ]
+  },
+  "jp-rising-sun-army": {
+    "title": "War Flag of the Imperial Japanese Army",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "The nation of Japan."
+      },
+      {
+        "color": "red",
+        "hex": "#bc002d",
+        "cmyk": "0/100/76/26",
+        "note": "The rising sun with 16 rays, used by the Imperial Japanese Army."
+      }
+    ],
+    "desc": [
+      "- The flag of the Imperial Japanese Army was a red disc with 16 red rays extending to the edges on a white field — the Kyokujitsu-ki (Rising Sun Flag)\n",
+      "- Used from 1870 until the end of World War II in 1945, the flag remains controversial in East Asia due to its association with Japanese militarism and wartime atrocities\n",
+      "- **Construction:** a white field with a red disc centred and 16 equally spaced red rays extending from the disc to all four edges. Ratio 2:3"
+    ],
+    "flag": "japan-hist/jp-rising-sun-army.svg",
+    "of": {
+      "country": "japan"
+    },
+    "countryData": {
+      "name": "Japan",
+      "officialName": "Imperial Japanese Army",
+      "un": "none"
+    },
+    "cs": "japan-hist/jp-rising-sun-army.cs.svg",
+    "trivia": [
+      "- The Imperial Japanese Army flag featured the rising sun with rays\n",
+      "- Represents Japanese militarism during WWII\n",
+      "- Highly controversial due to associations with Japanese imperialism"
+    ]
+  },
+  "jp-rising-sun-navy": {
+    "title": "Ensign of the Imperial Japanese Navy",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "The nation of Japan."
+      },
+      {
+        "color": "red",
+        "hex": "#bc002d",
+        "cmyk": "0/100/76/26",
+        "note": "The rising sun with 16 rays, used by the Imperial Japanese Navy (offset to hoist)."
+      }
+    ],
+    "desc": [
+      "- The flag of the Imperial Japanese Navy was similar to the Army version but with the sun disc offset toward the hoist, giving the rays an asymmetric appearance\n",
+      "- This naval ensign was used from 1889 to 1945 and was readopted by the Japan Maritime Self-Defense Force in 1954, making it one of the few WWII-era military flags still in official use\n",
+      "- **Construction:** a white field with a red disc offset slightly toward the hoist and 16 red rays extending from it to all edges. Ratio 2:3"
+    ],
+    "flag": "japan-hist/jp-rising-sun-navy.svg",
+    "of": {
+      "country": "japan"
+    },
+    "countryData": {
+      "name": "Japan",
+      "officialName": "Imperial Japanese Navy",
+      "un": "none"
+    },
+    "cs": "japan-hist/jp-rising-sun-navy.cs.svg",
+    "trivia": [
+      "- The Imperial Japanese Navy flag featured the rising sun motif\n",
+      "- Represents Japanese naval power during the imperial and WWII periods\n",
+      "- Still used by Japan's Maritime Self-Defense Force with modifications"
+    ]
+  }
+}

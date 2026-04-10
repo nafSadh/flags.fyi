@@ -1,0 +1,44 @@
+{
+  "pakistan": {
+    "title": "Flag of Pakistan",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "1947-08-14"
+    },
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#01411C",
+        "cmyk": "98/0/57/75",
+        "note": "Represents Islam and the Muslim-majority population",
+        "pantone": "340 C"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Represents religious minorities and commitment to equality"
+      }
+    ],
+    "desc": [
+      "- A dark green field with a white crescent and five-pointed star, plus a vertical white stripe at the hoist\n",
+      "- Based on the All-India Muslim League flag, adopted at independence in 1947"
+    ],
+    "article": "pakistan/flag.md",
+    "of": {
+      "country": "pakistan"
+    },
+    "countryData": {
+      "name": "Pakistan",
+      "officialName": "Islamic Republic of Pakistan",
+      "un": "member"
+    },
+    "cs": "pakistan/flag.cs.svg",
+    "trivia": [
+      "- The white stripe represents religious minorities; the crescent and star represent Islam\n",
+      "- The green represents the Muslim majority; white represents secular values and minorities' rights\n",
+      "- Pakistan adopted this flag in 1947 upon partition from India"
+    ]
+  }
+}

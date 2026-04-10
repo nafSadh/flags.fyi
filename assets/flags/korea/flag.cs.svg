@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="750" viewBox="-45360 -31500 90720 63000" fill="none" font-family="Calibri,Arial,'Liberation Sans',sans-serif">
+	<title>Flag of South Korea — construction sheet</title>
+	<!-- DIMENSIONS
+		SVG:
+			S_RAW:     90720.00 × 63000.00
+			S_DISPLAY:  1080.00 × 750.00
+		FLAG:
+			F_RAW:     83160.00 × 55440.00
+			F_DISPLAY:   990.00 × 660.00
+			F_LABEL:      72.00 × 48.00
+			F_RATIO:       3.00 × 2.00
+	-->
+	<defs>
+		<marker id="left-arrow" viewBox="-4 -4 10 8" orient="auto" markerWidth="10" markerHeight="8">
+			<path fill="blue" d="m2 0 4 4-10-4L6-4z"/>
+		</marker>
+	</defs>
+	<path fill="#fff" d="m-41580-27720h83160v55440h-83160z"/>
+	<g opacity=".5">
+		<g transform="scale(577.5)">
+			<path fill="#fff" d="m-72-48H72v96H-72z"/>
+			<g transform="rotate(33.6900675)">
+				<circle fill="#cd2e3a" r="24"/>
+				<path fill="#0047a0" d="m-24 0A1 1 0 0 0 0 0a1 1 0 0 1 24 0 1 1 0 0 1-48 0z"/>
+				<path fill="#000" d="m-52-12h4v24h-4zm6 0h4v24h-4zm6 0h4v24h-4zm76 0h4v11h-4zm0 13h4v11h-4zm6-13h4v11h-4zm0 13h4v11h-4zm6-13h4v11h-4zm0 13h4v11h-4z"/>
+			</g>
+			<g transform="rotate(-33.6900675)">
+				<path fill="#000" d="m-52-12h4v24h-4zm6 0h4v11h-4zm0 13h4v11h-4zm6-13h4v24h-4zm76 0h4v11h-4zm0 13h4v11h-4zm6-13h4v24h-4zm6 0h4v11h-4zm0 13h4v11h-4z"/>
+			</g>
+		</g>
+	</g>
+	<g stroke="#000" stroke-width="140" stroke-linejoin="round" stroke-linecap="round">
+		<g opacity=".5" stroke-width="100">
+			<path stroke-dashoffset="312" stroke-dasharray="625,315,105,315" d="m0-16590v-11130m0 41580v13860"/>
+			<path stroke-dashoffset="362" stroke-dasharray="725,315,105,315" d="m-13860 0h-27720m55440 0h27720"/>
+			<path stroke-dasharray="735,315,105,315" stroke-dashoffset="840" d="m0-30240v2520M-44100 0h2520"/>
+			<path opacity=".2" stroke-dasharray="735,315,105,315" stroke-dashoffset="368" d="m0-13860V0m0 13860V0m-13860 0H0m13860 0H0"/>
+			<path stroke-dasharray="682,315" stroke-dashoffset="341" d="m0 0-41580-27720M11532-7688l30048-20032m-58878 39252-24282 16188M0 0l12755 8504m2272 1514 26553 17702"/>
+			<path opacity=".5" stroke-dasharray="682,315" stroke-dashoffset="341" d="m11532-7688L0 0m-11532 7688L0 0"/>
+		</g>
+		<g stroke="#800" opacity=".8">
+			<path stroke-dasharray="420,420" stroke-dashoffset="210" d="m-11532-7688A1 1 0 0 1 0 0"/>
+			<path opacity=".3" stroke-dasharray="735,315,105,315" stroke-dashoffset="368" d="m-5766-3844 3844-5766m-3844 5766-3844 5766"/>
+		</g>
+		<g stroke="#008" opacity=".8">
+			<path stroke-dasharray="420,420" stroke-dashoffset="210" d="m11532 7688A1 1 0 0 1 0 0"/>
+			<path opacity=".3" stroke-dasharray="735,315,105,315" stroke-dashoffset="368" d="m5766 3844 3844-5766M5766 3844 1922 9610"/>
+		</g>
+		<path stroke="#bbb" stroke-dasharray="439,420" stroke-dashoffset="210" d="m0-20790a1 1 0 0 1 0 41580m0-41580a1 1 0 0 0 0 41580"/>
+		<path stroke="#222" opacity=".1" stroke-width="75" stroke-dasharray="210,210" d="m-21142 5766 34596-23064m-26908 34596L21142-5766"/>
+		<path stroke="#444" stroke-width="250" d="m-41580-27720h83160v55440h-83160z"/>
+		<g transform="rotate(33.69006753)">
+			<path stroke="#800" opacity="1" d="m-13860 0A1 1 0 0 0 0 0"/>
+			<path stroke="#008" opacity="1" d="m13860 0A1 1 0 0 0 0 0"/>
+			<circle r="13860"/>
+			<path d="m-30030-6930h2310V6930h-2310zm3465 0h2310V6930h-2310zm3465 0h2310V6930h-2310zm43890 0h2310v6352h-2310zm0 7508h2310v6352h-2310zm3465-7508h2310v6352h-2310zm0 7508h2310v6352h-2310zm3465-7508h2310v6352h-2310zm0 7508h2310v6352h-2310z"/>
+		</g>
+		<g transform="rotate(-33.6900675)">
+			<path d="m-30030-6930h2310V6930h-2310zm3465 0h2310v6352h-2310zm0 7508h2310v6352h-2310zm3465-7508h2310V6930h-2310zm43890 0h2310v6352h-2310zm0 7508h2310v6352h-2310zm3465-7508h2310V6930h-2310zm3465 0h2310v6352h-2310zm0 7508h2310v6352h-2310z"/>
+		</g>
+		<path stroke="#222" stroke-width="75" stroke-dasharray="210,210" d="m-41580-30240V0m0 30240V0m27720-15015V0m27720-15015V0m27720-30240V0m0 30240V0m-85680-27720H0m44100 0H0m-44100 55440H0m44100 0H0M-30228-8795l1397-2097m6291 7223 1398-2097m0-16658 49973 33316m2096 1397-2096-1397m-1427 6683-2097-1398m1456 2359-2097-1398m-53497-28030 49973 33316m2097 1398-2097-1398m1398-26093-1398-2097m3320 815-1398-2096m2359 1456-1398-2097m3320 815-1398-2097m2359 1457-1397-2097m3319 815-1397-2097m-57662 21784 7689-5126m42284-28190-7688 5126m13309-1238-2097 1398m2738-437-2097 1398m-46449 38601 7688-5126m42285-28190-7689 5126"/>
+		<path stroke-width="135" d="m208-312-416 624m520-104-624-416m-5246-3948-416 624m520-104-624-416M5974 3532l-416 624m520-104-624-416"/>
+	</g>
+	<g fill="#008" opacity=".8">
+		<circle r="200" cx="0" cy="0"/>
+		<circle r="200" cx="17298" cy="-11532"/>
+		<circle r="200" cx="17298" cy="11532"/>
+		<circle r="200" cx="-17298" cy="11532"/>
+		<circle r="200" cx="-17298" cy="-11532"/>
+		<circle r="200" cx="0" cy="-13860"/>
+		<circle r="200" cx="13860" cy="0"/>
+		<circle r="200" cx="11532" cy="7688"/>
+		<circle r="200" cx="0" cy="13860"/>
+		<circle r="200" cx="-13860" cy="-0"/>
+		<circle r="200" cx="-11532" cy="-7688"/>
+		<circle r="200" cx="-1922" cy="-9610"/>
+		<circle r="200" cx="-9610" cy="1922"/>
+		<circle r="200" cx="9610" cy="-1922"/>
+		<circle r="200" cx="1922" cy="9610"/>
+		<circle r="200" cx="-41580" cy="-27720"/>
+		<circle r="200" cx="41580" cy="-27720"/>
+		<circle r="200" cx="41580" cy="27720"/>
+		<circle r="200" cx="-41580" cy="27720"/>
+		<circle r="200" cx="-21142" cy="-22424"/>
+		<circle r="200" cx="-13454" cy="-17298"/>
+		<circle r="200" cx="21142" cy="5766"/>
+		<circle r="200" cx="28831" cy="10892"/>
+		<circle r="200" cx="-28831" cy="-10892"/>
+		<circle r="200" cx="-21142" cy="-5766"/>
+		<circle r="200" cx="13454" cy="17298"/>
+		<circle r="200" cx="21142" cy="22424"/>
+		<circle r="200" cx="24666" cy="-17138"/>
+		<circle r="200" cx="25307" cy="-16177"/>
+		<circle r="200" cx="-28831" cy="10892"/>
+		<circle r="200" cx="-21142" cy="5766"/>
+		<circle r="200" cx="13454" cy="-17298"/>
+		<circle r="200" cx="21142" cy="-22424"/>
+		<circle r="200" cx="-21142" cy="22424"/>
+		<circle r="200" cx="-13454" cy="17298"/>
+		<circle r="200" cx="21142" cy="-5766"/>
+		<circle r="200" cx="23064" cy="-7047"/>
+		<circle r="200" cx="24025" cy="-7688"/>
+		<circle r="200" cx="25947" cy="-8970"/>
+		<circle r="200" cx="26909" cy="-9610"/>
+		<circle r="200" cx="28831" cy="-10892"/>
+	</g>
+	<g fill="#ff0">
+		<circle r="100" cx="0" cy="0"/>
+		<circle r="100" cx="-11532" cy="-7688"/>
+		<circle r="100" cx="11532" cy="7688"/>
+		<circle r="100" cx="17298" cy="-11532"/>
+		<circle r="100" cx="17298" cy="11532"/>
+		<circle r="100" cx="-17298" cy="11532"/>
+		<circle r="100" cx="-17298" cy="-11532"/>
+	</g>
+	<g stroke="#00f" stroke-width="75" marker-start="url(#left-arrow)">
+		<path d="m-41280-29295h18690"/>
+		<path d="m-300-29295h-18690"/>
+		<path d="m300-29295h18690"/>
+		<path d="m41280-29295H22590"/>
+		<path d="m-41280 29295h39480"/>
+		<path d="m41280 29295H1800"/>
+		<path d="m-13560-14910h11760"/>
+		<path d="m13560-14910H1800"/>
+		<path d="m-43155-300v-11760"/>
+		<path d="m-43155-27420v11760"/>
+		<path d="m-43155 27420V15660"/>
+		<path d="m-43155 300v11760"/>
+		<path d="m43155 27420V1800"/>
+		<path d="m43155-27420v25620"/>
+		<path d="m-17049 11366 1802-1201"/>
+		<path d="m-11782 7855-1801 1200"/>
+		<path d="m21766-4289-1830 1220"/>
+		<path d="m29954-9747 1830-1221"/>
+		<path d="m25810-18261-1220-1831"/>
+		<path d="m26784-16801 1220 1830"/>
+		<path d="m10213 14777 2680-4019"/>
+		<path d="m17569 3744-2679 4019"/>
+		<path d="m-29455-9415 2680 1786"/>
+		<path d="m-22266-4622-2679-1786"/>
+		<path d="m22619 23048 597-896"/>
+		<path d="m25810 18261-597 896"/>
+		<path d="m26784 16801 597-895"/>
+		<path d="m29975 12015-597 895"/>
+	</g>
+	<g fill="#000" text-anchor="middle" font-size="50" transform="scale(50)">
+		<g>
+			<text x="-416" y="-571">36</text>
+			<text x="416" y="-571">36</text>
+			<text y="601">72</text>
+			<text y="-287">24</text>
+		</g>
+		<g transform="rotate(33.7)">
+			<text x="-508" y="185">8</text>
+		</g>
+		<g transform="rotate(56.3)">
+			<text x="-70" y="-617">1</text>
+		</g>
+		<g transform="rotate(270)">
+			<text x="277" y="-848">24</text>
+			<text x="-277" y="-848">24</text>
+			<text y="878">48</text>
+		</g>
+		<g transform="rotate(303.7)">
+			<text y="349">12</text>
+			<text x="-75" y="647">5½</text>
+			<text x="75" y="647">5½</text>
+		</g>
+		<g transform="rotate(326.3)">
+			<text x="-346" y="15">6</text>
+			<text x="439" y="185">2</text>
+			<text x="474" y="185">1</text>
+			<text x="508" y="185">2</text>
+			<text x="543" y="185">1</text>
+			<text x="578" y="185">2</text>
+		</g>
+		<g font-size="27" text-anchor="middle">
+			<text x="-863.1" y="605">[<tspan font-weight="bold" fill="#080">KR</tspan>]</text>
+			<text x="863.1" y="605">[<tspan font-weight="bold" fill="#080">2:3</tspan>]</text>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,47 @@
+{
+  "morocco": {
+    "title": "Flag of Morocco",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "1915-11-17"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#C1272D",
+        "cmyk": "0/80/77/24",
+        "note": "Represents the blood of ancestors and national unity",
+        "pantone": "186 C"
+      },
+      {
+        "color": "green",
+        "hex": "#006233",
+        "cmyk": "100/0/48/62",
+        "note": "Represents the five pillars of Islam and hope",
+        "pantone": "348 C"
+      }
+    ],
+    "desc": [
+      "- A red field with a green pentagram (five-pointed star) at the centre\n",
+      "- The star was added by Sultan Yusef in 1915 to distinguish it from other plain red flags\n",
+      "- **Construction:** a red field with a green pentagram (five-pointed linear star, the Seal of Solomon) centred\n",
+      "- The star's outer vertices touch a circle of diameter equal to half the hoist"
+    ],
+    "article": "morocco/flag.md",
+    "of": {
+      "country": "morocco"
+    },
+    "countryData": {
+      "name": "Morocco",
+      "officialName": "Kingdom of Morocco",
+      "un": "member"
+    },
+    "cs": "morocco/flag.cs.svg",
+    "trivia": [
+      "- The five-pointed star represents the five pillars of Islam and the nation's unity\n",
+      "- The green is the colour of Islam; the red represents the bloodshed for independence\n",
+      "- Morocco adopted this flag in 1956 upon independence from France"
+    ]
+  }
+}

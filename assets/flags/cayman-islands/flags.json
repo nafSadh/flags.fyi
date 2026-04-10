@@ -1,0 +1,55 @@
+{
+  "cayman-islands": {
+    "title": "Flag of the Cayman Islands",
+    "ratio": "1:2",
+    "use": {
+      "as": "civil flag",
+      "since": "1958"
+    },
+    "of": {
+      "country": "cayman-islands"
+    },
+    "countryData": {
+      "name": "Cayman Islands",
+      "officialName": "Cayman Islands (British Overseas Territory)",
+      "un": "none"
+    },
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#012169",
+        "pantone": "280 C",
+        "cmyk": "99/69/0/59",
+        "note": "British Blue Ensign tradition; the Caribbean Sea."
+      },
+      {
+        "color": "red",
+        "hex": "#C8102E",
+        "cmyk": "0/92/77/22"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0"
+      },
+      {
+        "color": "green",
+        "hex": "#009A44",
+        "cmyk": "100/0/56/40",
+        "note": "The turtle and pineapple in the coat of arms."
+      }
+    ],
+    "desc": [
+      "- A Blue Ensign with the coat of arms of the Cayman Islands featuring a pineapple, turtle, and three stars\n",
+      "- The three stars represent the three islands: Grand Cayman, Cayman Brac, and Little Cayman\n",
+      "- **Construction:** a Blue Ensign (1:2) with the Union Flag in the upper-hoist canton\n",
+      "- The coat of arms (shield with wavy bands, turtle, pineapple) appears in the fly half"
+    ],
+    "cs": "cayman-islands/flag.cs.svg",
+    "trivia": [
+      "- The Cayman Islands are a British Overseas Territory in the Caribbean\n",
+      "- The flag features the Union Jack and the territory's coat of arms\n",
+      "- Known for being a major international financial center"
+    ]
+  }
+}

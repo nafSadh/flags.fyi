@@ -1,0 +1,43 @@
+{
+  "ke-colonial": {
+    "title": "Flag of the Kenya Colony",
+    "ratio": "1:2",
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#00247d",
+        "cmyk": "100/71/0/51",
+        "note": "British Blue Ensign."
+      },
+      {
+        "color": "red",
+        "hex": "#cf142b",
+        "cmyk": "0/90/79/19"
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0"
+      }
+    ],
+    "desc": [
+      "- The Kenya Colony (1921–1963) used a British Blue Ensign defaced with a red lion — the colonial flag before independence\n",
+      "- **Construction:** a Blue Ensign with the colonial badge of Kenya in the fly half"
+    ],
+    "flag": "kenya-hist/ke-colonial.svg",
+    "of": {
+      "country": "kenya"
+    },
+    "countryData": {
+      "name": "Kenya",
+      "officialName": "Colony and Protectorate of Kenya",
+      "un": "none"
+    },
+    "cs": "kenya-hist/ke-colonial.cs.svg",
+    "trivia": [
+      "- Kenya was a British colony from 1895 to 1963\n",
+      "- The Union Jack represented British colonial rule\n",
+      "- Kenya gained independence in 1963"
+    ]
+  }
+}

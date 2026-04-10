@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="890" height="890" viewBox="-37380 -37380 74760 74760" fill="none" font-family="Calibri,Arial,'Liberation Sans',sans-serif">
+	<title>Flag of Switzerland — construction sheet</title>
+	<!-- DIMENSIONS
+		SVG:
+			S_RAW:     74760.00 × 74760.00
+			S_DISPLAY:   890.00 × 890.00
+		FLAG:
+			F_RAW:     67200.00 × 67200.00
+			F_DISPLAY:   800.00 × 800.00
+			F_LABEL:      32.00 × 32.00
+			F_RATIO:       1.00 × 1.00
+	-->
+	<defs>
+		<marker id="left-arrow" viewBox="-4 -4 10 8" orient="auto" markerWidth="10" markerHeight="8">
+			<path fill="blue" d="m2 0 4 4-10-4L6-4z"/>
+		</marker>
+	</defs>
+	<path fill="#fafafa" d="m-37380-37380h74760v74760h-74760z"/>
+	<path fill="#fff" d="m-33600-33600h67200v67200h-67200z"/>
+	<g opacity=".5" transform="scale(2100)">
+		<path fill="#da291c" d="m-16-16h32v32h-32z"/>
+		<path fill="#fff" d="m-3-10h6v20h-6zm-7 7h20v6h-20z"/>
+	</g>
+	<g stroke="#000" stroke-width="140" stroke-linejoin="round" stroke-linecap="round">
+		<g opacity=".2" stroke-width="100">
+			<path stroke-dashoffset="368" stroke-dasharray="735,315,105,315" d="m0 0v-33600M0 0v33600"/>
+			<path stroke-dashoffset="368" stroke-dasharray="735,315,105,315" d="m0 0h-33600M0 0h33600"/>
+		</g>
+		<path stroke="#444" stroke-width="250" d="m-33600-33600h67200v67200h-67200z"/>
+		<path d="m-6300-21000H6300v14700h14700V6300H6300v14700H-6300V6300h-14700V-6300h14700z"/>
+		<path stroke="#222" stroke-width="75" stroke-dasharray="210,210" d="m-33600-36120V0m0 36120V0m12600-36120v29820m14700-29820v15120M6300-36120v15120m14700-15120v29820m12600-29820V0m0 36120V0m-69720-33600H0m36120 0H0m-36120 12600h29820M-36120-6300h15120M-36120 6300h15120m-15120 14700h29820m-29820 12600H0m36120 0H0M-6300-6300H6300V6300H-6300z"/>
+	</g>
+	<g fill="#008" opacity=".8">
+		<circle r="200" cx="-6300" cy="-21000"/>
+		<circle r="200" cx="6300" cy="-21000"/>
+		<circle r="200" cx="-21000" cy="-6300"/>
+		<circle r="200" cx="-6300" cy="-6300"/>
+		<circle r="200" cx="6300" cy="-6300"/>
+		<circle r="200" cx="21000" cy="-6300"/>
+		<circle r="200" cx="-21000" cy="6300"/>
+		<circle r="200" cx="-6300" cy="6300"/>
+		<circle r="200" cx="6300" cy="6300"/>
+		<circle r="200" cx="21000" cy="6300"/>
+		<circle r="200" cx="-6300" cy="21000"/>
+		<circle r="200" cx="6300" cy="21000"/>
+	</g>
+	<g stroke="#00f" stroke-width="75" marker-start="url(#left-arrow)">
+		<path d="m-33300-35175h4900"/>
+		<path d="m-21300-35175h-4900"/>
+		<path d="m-20700-35175h5950"/>
+		<path d="m-6600-35175h-5950"/>
+		<path d="m-6000-35175h4900"/>
+		<path d="m6000-35175H1100"/>
+		<path d="m6600-35175h5950"/>
+		<path d="m20700-35175h-5950"/>
+		<path d="m21300-35175h4900"/>
+		<path d="m33300-35175h-4900"/>
+		<path d="m-33300 35175h31500"/>
+		<path d="m33300 35175H1800"/>
+		<path d="m-35175 33300v-4900"/>
+		<path d="m-35175 21300v4900"/>
+		<path d="m-35175 20700v-5950"/>
+		<path d="m-35175 6600v5950"/>
+		<path d="m-35175 6000V1100"/>
+		<path d="m-35175-6000v4900"/>
+		<path d="m-35175-6600v-5950"/>
+		<path d="m-35175-20700v5950"/>
+		<path d="m-35175-21300v-4900"/>
+		<path d="m-35175-33300v4900"/>
+		<path d="m35175 33300V1800"/>
+		<path d="m35175-33300v31500"/>
+	</g>
+	<g fill="#000" text-anchor="middle" font-size="50" transform="scale(50)">
+		<g>
+			<text x="-546" y="-688">6</text>
+			<text x="-273" y="-688">7</text>
+			<text y="-688">6</text>
+			<text x="273" y="-688">7</text>
+			<text x="546" y="-688">6</text>
+			<text y="718">32</text>
+		</g>
+		<g transform="rotate(270)">
+			<text x="-546" y="-688" text-decoration="underline">6</text>
+			<text x="-273" y="-688">7</text>
+			<text y="-688" text-decoration="underline">6</text>
+			<text x="273" y="-688">7</text>
+			<text x="546" y="-688" text-decoration="underline">6</text>
+			<text y="718">32</text>
+		</g>
+		<g font-size="27">
+			<text x="-709" y="722">[<tspan font-weight="bold" fill="#080">CH</tspan>]</text>
+			<text x="709" y="722">[<tspan font-weight="bold" fill="#080">1:1</tspan>]</text>
+		</g>
+	</g>
+</svg>

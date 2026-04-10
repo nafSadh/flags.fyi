@@ -1,0 +1,51 @@
+{
+  "netherlands": {
+    "title": "Flag of the Netherlands",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag and ensign",
+      "since": "1937-02-19"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#AE1C28",
+        "cmyk": "10/100/74/2",
+        "note": "Represents courage and valor",
+        "pantone": "485 C"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Represents peace and honesty"
+      },
+      {
+        "color": "blue",
+        "hex": "#21468B",
+        "cmyk": "99/83/0/0",
+        "note": "Represents vigilance, truth, and loyalty",
+        "pantone": "286 C"
+      }
+    ],
+    "desc": [
+      "- Three horizontal stripes of red, white, and blue, one of the oldest tricolour flags in the world\n",
+      "- The original orange stripe was changed to red in the 17th century"
+    ],
+    "article": "netherlands/flag.md",
+    "of": {
+      "country": "netherlands"
+    },
+    "countryData": {
+      "name": "Netherlands",
+      "officialName": "Kingdom of the Netherlands",
+      "un": "member"
+    },
+    "cs": "netherlands/flag.cs.svg",
+    "trivia": [
+      "- The tricolour represents courage (red), faith (white), and hope (blue)\n",
+      "- The order of colours was officially standardized in 1937\n",
+      "- The Dutch flag was one of the oldest tricolours and influenced many other European flags"
+    ]
+  }
+}

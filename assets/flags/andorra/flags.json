@@ -1,11 +1,53 @@
 {
   "andorra": {
+    "title": "Flag of the Principality of Andorra",
+    "ratio": "7:10",
+    "use": {
+      "as": "national flag",
+      "since": "1866"
+    },
     "colors": [
-      { "color": "blue", "hex": "#0018a8", "pantone": "Blue 072 C", "cmyk": "100-88-0-5" },
-      { "color": "yellow", "hex": "#fedf00", "pantone": "Yellow C", "cmyk": "0-1-100-0" },
-      { "color": "red", "hex": "#d0103a", "pantone": "199 C", "cmyk": "0-100-62-0" }
+      {
+        "color": "blue",
+        "hex": "#0018a8",
+        "pantone": "Blue 072 C",
+        "cmyk": "100-88-0-5",
+        "note": "Represents tradition and governance."
+      },
+      {
+        "color": "yellow",
+        "hex": "#fedf00",
+        "pantone": "Yellow C",
+        "cmyk": "0-1-100-0",
+        "note": "Central stripe (slightly wider), representing sunshine and prosperity."
+      },
+      {
+        "color": "red",
+        "hex": "#d0103a",
+        "pantone": "199 C",
+        "cmyk": "0-100-62-0",
+        "note": "Represents courage and vitality."
+      }
     ],
     "cs": "andorra/flag.cs.svg",
-    "article": "andorra/flag.md"
+    "article": "andorra/flag.md",
+    "desc": [
+      "- The flag of Andorra is a vertical tricolour of blue, yellow, and red. The centre yellow stripe is slightly wider\n",
+      "- (8:9:8 ratio). The version with the coat of arms is the state flag; without it, it closely resembles the flags of\n",
+      "- Chad, Romania, and Moldova. The design reflects Andorra's co-principality between France and Spain"
+    ],
+    "of": {
+      "country": "andorra"
+    },
+    "countryData": {
+      "name": "Andorra",
+      "officialName": "Principality of Andorra",
+      "un": "member"
+    },
+    "trivia": [
+      "- One of Europe's oldest surviving territories, with a co-prince system dating back to 1278\n",
+      "- The colours represent Spain (red-yellow) and France (blue-white) — Andorra's historical co-sovereigns\n",
+      "- The coat of arms includes a bishopric mitre, episcopal staff, and secular symbols representing both authorities"
+    ]
   }
 }

@@ -1,0 +1,47 @@
+{
+  "saudi-arabia": {
+    "title": "Flag of Saudi Arabia",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "1973-03-15"
+    },
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#005430",
+        "cmyk": "89/15/97/56",
+        "note": "Represents Islam, believed to be the Prophet's favourite colour",
+        "pantone": "349 C"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Represents the sword of justice and the shahada inscription"
+      }
+    ],
+    "desc": [
+      "- A green field bearing the shahada (Islamic creed) in white Arabic script with a horizontal sword below\n",
+      "- Because it bears the shahada, the flag is never flown at half-mast\n",
+      "- **Construction:** a green field bearing the Shahada (Islamic creed) in white Thuluth calligraphy above a white horizontal sword (pointing left)\n",
+      "- The text and sword are centred\n",
+      "- Because of the sacred inscription, the flag is never flown at half-mast and is manufactured with identical obverse and reverse"
+    ],
+    "article": "saudi-arabia/flag.md",
+    "of": {
+      "country": "saudi-arabia"
+    },
+    "countryData": {
+      "name": "Saudi Arabia",
+      "officialName": "Kingdom of Saudi Arabia",
+      "un": "member"
+    },
+    "cs": "saudi-arabia/flag.cs.svg",
+    "trivia": [
+      "- The Shahada (Islamic declaration of faith) is written in white above the sword\n",
+      "- The sword represents the strength and sovereignty of the nation\n",
+      "- The green colour represents Islam; the flag has never been lowered to half-mast out of respect"
+    ]
+  }
+}

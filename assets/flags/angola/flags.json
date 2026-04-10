@@ -1,19 +1,55 @@
 {
   "angola": {
+    "title": "Flag of the Republic of Angola",
     "ratio": "2:3",
     "colors": [
-      { "color": "red", "hex": "#c8102e", "pantone": "186 C", "cmyk": "20/100/90/0" },
-      { "color": "yellow", "hex": "#ffcd00", "pantone": "116 C", "cmyk": "0/15/100/0" },
-      { "color": "black", "hex": "#000", "pantone": "Process Black C", "cmyk": "10/10/10/100" }
+      {
+        "color": "red",
+        "hex": "#c8102e",
+        "pantone": "186 C",
+        "cmyk": "20/100/90/0",
+        "note": "Represents the blood shed during the anti-colonial struggle for independence."
+      },
+      {
+        "color": "yellow",
+        "hex": "#ffcd00",
+        "pantone": "116 C",
+        "cmyk": "0/15/100/0",
+        "note": "The emblem: machete (peasants), half gear (industry), and star (international solidarity)."
+      },
+      {
+        "color": "black",
+        "hex": "#000",
+        "pantone": "Process Black C",
+        "cmyk": "10/10/10/100",
+        "note": "Represents the African continent and heritage."
+      }
     ],
-    "desc": "Two horizontal bands of red and black with the Machete and Gear Emblem in the center.",
-    "use": { "as": "national flag", "since": "1975-11-11" },
-    "of": { "country": "angola" },
+    "desc": [
+      "- Two horizontal bands of red and black with the Machete and Gear Emblem in gold at the center\n",
+      "- The machete represents peasants and agriculture, the gear represents industrial workers,\n",
+      "- and the five-pointed star symbolises international solidarity. Adopted on 11 November 1975 at independence from Portugal"
+    ],
+    "article": "angola/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1975-11-11"
+    },
+    "of": {
+      "country": "angola"
+    },
     "countryData": {
+      "name": "Angola",
       "officialName": "Republic of Angola",
       "continent": "africa",
-      "location": "west coast of Southern Africa"
+      "location": "west coast of Southern Africa",
+      "un": "member"
     },
-    "related": ["mpla"]
+    "cs": "angola/flag.cs.svg",
+    "trivia": [
+      "- The machete, cogwheel, and corn star are symbols of labour, industry, and revolution\n",
+      "- The yellow stripe represents wealth; red represents bloodshed in the independence struggle\n",
+      "- One of Africa's flags most explicitly referencing socialist ideology in its heraldic design"
+    ]
   }
 }

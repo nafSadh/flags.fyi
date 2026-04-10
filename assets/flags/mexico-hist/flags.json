@@ -1,0 +1,136 @@
+{
+  "mx-three-guarantees": {
+    "title": "Flag of the Three Guarantees",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "Religion (Roman Catholicism)."
+      },
+      {
+        "color": "green",
+        "hex": "#006847",
+        "cmyk": "100/0/32/59",
+        "note": "Independence (from Spain)."
+      },
+      {
+        "color": "red",
+        "hex": "#ce1126",
+        "cmyk": "0/92/82/19",
+        "note": "Union (between Europeans and Americans)."
+      }
+    ],
+    "desc": [
+      "- The Flag of the Three Guarantees (1821) was Mexico's first national flag, featuring diagonal stripes of green, white, and red with a crowned eagle on a cactus in the centre and three stars\n",
+      "- The three guarantees were: independence from Spain, Roman Catholic religion, and union of all inhabitants\n",
+      "- These were the principles of the Plan of Iguala that secured Mexican independence\n",
+      "- **Construction:** three diagonal stripes of white (top-left to bottom-right), green (behind), and red (front)\n",
+      "- Three six-pointed stars in each stripe\n",
+      "- A crowned eagle on a cactus centred\n",
+      "- Ratio approximately 4:7"
+    ],
+    "flag": "mexico-hist/mx-three-guarantees.svg",
+    "of": {
+      "country": "mexico"
+    },
+    "countryData": {
+      "name": "Mexico",
+      "officialName": "Army of the Three Guarantees",
+      "un": "none"
+    },
+    "cs": "mexico-hist/mx-three-guarantees.cs.svg",
+    "trivia": [
+      "- The flag of the Army of Three Guarantees represented Mexico's independence movement\n",
+      "- The three guarantees were religion, independence, and union\n",
+      "- Led to Mexico's independence from Spain in 1821"
+    ]
+  },
+  "mx-empire": {
+    "title": "Flag of the First Mexican Empire",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#006847",
+        "cmyk": "100/0/32/59",
+        "note": "Independence."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "Religion."
+      },
+      {
+        "color": "red",
+        "hex": "#ce1126",
+        "cmyk": "0/92/82/19",
+        "note": "Union."
+      }
+    ],
+    "desc": [
+      "- The flag of the Mexican Empire (1821–1823 and 1864–1867) used the green-white-red vertical tricolour with the imperial coat of arms — an eagle with an imperial crown\n",
+      "- The First Mexican Empire under Agustín de Iturbide and the Second under Emperor Maximilian I both used variations of this imperial flag before their respective collapses\n",
+      "- **Construction:** three equal vertical bands of green (hoist), white, and red\n",
+      "- The imperial eagle with crown is centred on the white band\n",
+      "- Ratio approximately 4:7"
+    ],
+    "flag": "mexico-hist/mx-empire.svg",
+    "of": {
+      "country": "mexico"
+    },
+    "countryData": {
+      "name": "Mexico",
+      "officialName": "Mexican Empire",
+      "un": "none"
+    },
+    "cs": "mexico-hist/mx-empire.cs.svg",
+    "trivia": [
+      "- The Mexican Empire (1821–1823) was a brief empire after independence\n",
+      "- The emperor was Agustín de Iturbide\n",
+      "- Replaced by the Mexican Republic"
+    ]
+  },
+  "mx-federal-republic": {
+    "title": "Flag of the Mexican Federal Republic",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#006847",
+        "cmyk": "100/0/32/59"
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0"
+      },
+      {
+        "color": "red",
+        "hex": "#ce1126",
+        "cmyk": "0/92/82/19"
+      }
+    ],
+    "desc": [
+      "- The Mexican Federal Republic (1823–1864) replaced the crown with a republican eagle and serpent on the tricolour — establishing the design used to this day\n",
+      "- **Construction:** three equal vertical bands of green, white, and red with an eagle-on-cactus emblem (without the later additions of laurel and oak branches)"
+    ],
+    "flag": "mexico-hist/mx-federal-republic.svg",
+    "of": {
+      "country": "mexico"
+    },
+    "countryData": {
+      "name": "Mexico",
+      "officialName": "Federal Republic of Mexico",
+      "un": "none"
+    },
+    "cs": "mexico-hist/mx-federal-republic.cs.svg",
+    "trivia": [
+      "- The First Mexican Federal Republic (1824–1835) represented early Mexican democracy\n",
+      "- Adopted a federal system inspired by the United States\n",
+      "- Later replaced by centralist governments"
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "fiji": {
+    "title": "Flag of Fiji",
+    "ratio": "1:2",
+    "use": {
+      "as": "national flag",
+      "since": "1970-10-10"
+    },
+    "colors": [
+      {
+        "color": "light blue",
+        "hex": "#68BFE5",
+        "cmyk": "75/0/0/0",
+        "note": "Represents the Pacific Ocean",
+        "pantone": "298 C"
+      },
+      {
+        "color": "dark blue",
+        "hex": "#002868",
+        "cmyk": "100/60/0/5",
+        "note": "Represents the Commonwealth connection"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Represents peace"
+      },
+      {
+        "color": "red",
+        "hex": "#CE1126",
+        "cmyk": "0/90/80/5",
+        "note": "Represents sacrifice",
+        "pantone": "186 C"
+      }
+    ],
+    "desc": [
+      "- A light blue ensign with the Union Jack in the canton and a shield from Fiji's coat of arms on the fly side\n",
+      "- The light blue field represents the Pacific Ocean surrounding the islands"
+    ],
+    "article": "fiji/flag.md",
+    "of": {
+      "country": "fiji"
+    },
+    "countryData": {
+      "name": "Fiji",
+      "officialName": "Republic of Fiji",
+      "un": "member"
+    },
+    "cs": "fiji/flag.cs.svg",
+    "trivia": [
+      "- The Union Jack reflects Fiji's colonial history with Britain until 1970\n",
+      "- The shield shows the arms of Fiji with sugar cane, coconuts, and a lion\n",
+      "- The light blue represents the Pacific Ocean surrounding the island nation"
+    ]
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "gr-independence": {
+    "title": "Flag of the Greek War of Independence",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#004c98",
+        "cmyk": "100/50/0/40",
+        "note": "Freedom and the Greek sky."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "The purity of the revolutionary cause."
+      }
+    ],
+    "desc": [
+      "- The Greek War of Independence (1821) flag was a blue field with a white cross, the revolutionary banner that rallied Greeks against Ottoman rule\n",
+      "- **Construction:** a blue field with a white cross — the land version of the Greek flag during the War of Independence"
+    ],
+    "flag": "greece-hist/gr-independence.svg",
+    "of": {
+      "country": "greece"
+    },
+    "countryData": {
+      "name": "Greece",
+      "officialName": "First Hellenic Republic",
+      "un": "none"
+    },
+    "cs": "greece-hist/gr-independence.cs.svg",
+    "trivia": [
+      "- Greece's independence flag (1821–1829) represented the War of Independence from Ottoman rule\n",
+      "- The cross and stripes reflected Greek Orthodox Christianity\n",
+      "- This flag inspired many other national symbols"
+    ]
+  },
+  "gr-kingdom": {
+    "title": "Flag of the Kingdom of Greece",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#004c98",
+        "cmyk": "100/50/0/40",
+        "note": "The Greek nation and sea."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "Purity and the cross of Christianity."
+      }
+    ],
+    "desc": [
+      "- The flag of the Kingdom of Greece featured nine horizontal stripes of blue and white with a blue canton bearing a white cross\n",
+      "- Alternatively, a plain blue field with a white cross was used as the state flag\n",
+      "- The nine stripes are popularly said to represent the nine syllables of the Greek motto 'Ελευθερία ή Θάνατος' (Freedom or Death)\n",
+      "- The cross represented the Greek Orthodox faith\n",
+      "- **Construction:** nine alternating blue and white horizontal stripes with a blue canton containing a white cross. Ratio 2:3"
+    ],
+    "flag": "greece-hist/gr-kingdom.svg",
+    "of": {
+      "country": "greece"
+    },
+    "countryData": {
+      "name": "Greece",
+      "officialName": "Kingdom of Greece",
+      "un": "none"
+    },
+    "cs": "greece-hist/gr-kingdom.cs.svg",
+    "trivia": [
+      "- The Kingdom of Greece flag represented the Greek monarchy\n",
+      "- Used from 1832 onwards with various heraldic modifications\n",
+      "- Greece became a republic in 1974"
+    ]
+  },
+  "gr-junta": {
+    "title": "Flag of the Greek Military Junta",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#00247d",
+        "cmyk": "100/71/0/51",
+        "note": "Military authority."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "The nation."
+      }
+    ],
+    "desc": [
+      "- During the Greek military junta (1967–1974), the regime used a dark blue flag with a white cross as the sole national flag, dropping the striped version\n",
+      "- The junta simplified the flag to the plain cross design, associating the striped version with democratic governance\n",
+      "- After the fall of the junta, the nine-stripe version was reinstated\n",
+      "- **Construction:** a dark blue field with a white cross centred, its arms extending to the edges. Ratio 2:3"
+    ],
+    "flag": "greece-hist/gr-junta.svg",
+    "of": {
+      "country": "greece"
+    },
+    "countryData": {
+      "name": "Greece",
+      "officialName": "Greek military junta (1967–1974)",
+      "un": "none"
+    },
+    "cs": "greece-hist/gr-junta.cs.svg",
+    "trivia": [
+      "- The Greek junta flag (1967–1974) represented military dictatorship in Greece\n",
+      "- The cross was simplified to reflect authoritarian rule\n",
+      "- Democracy was restored after the fall of the junta"
+    ]
+  }
+}

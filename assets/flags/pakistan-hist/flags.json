@@ -1,0 +1,75 @@
+{
+  "pk-muslim-league": {
+    "title": "Flag of the All-India Muslim League",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#006233",
+        "cmyk": "100/0/48/62",
+        "note": "Islam and the All-India Muslim League."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0"
+      }
+    ],
+    "desc": [
+      "- The All-India Muslim League flag (1937–1947) was a green field with white crescent and star — the direct precursor to the flag of Pakistan\n",
+      "- **Construction:** a dark green field with a white crescent and star — the flag of the All-India Muslim League, which became the basis for the Pakistan national flag"
+    ],
+    "flag": "pakistan-hist/pk-muslim-league.svg",
+    "of": {
+      "country": "pakistan"
+    },
+    "countryData": {
+      "name": "Muslim League",
+      "officialName": "All-India Muslim League",
+      "un": "none"
+    },
+    "cs": "pakistan-hist/pk-muslim-league.cs.svg",
+    "trivia": [
+      "- The All-India Muslim League flag represented Muslim political aspirations in British India\n",
+      "- Led the movement for Pakistan's creation\n",
+      "- Muhammad Ali Jinnah was the league's most prominent leader"
+    ]
+  },
+  "east-pakistan": {
+    "title": "Flag of East Pakistan",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#006233",
+        "cmyk": "100/0/48/62",
+        "note": "Islam and the Muslim majority."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "Religious minorities."
+      }
+    ],
+    "desc": [
+      "- East Pakistan (1947–1971) used the same flag as Pakistan. After the Liberation War of 1971, it became the independent nation of Bangladesh\n",
+      "- **Construction:** a dark green field with a white crescent and star (the Pakistan flag), sometimes with a gold map of East Bengal added in the centre during the autonomy movement"
+    ],
+    "flag": "pakistan-hist/east-pakistan.svg",
+    "of": {
+      "country": "pakistan"
+    },
+    "countryData": {
+      "name": "East Pakistan",
+      "officialName": "East Pakistan (1947–1971)",
+      "un": "none"
+    },
+    "cs": "pakistan-hist/east-pakistan.cs.svg",
+    "trivia": [
+      "- East Pakistan (1947–1971) became Bangladesh after the Bangladesh Liberation War\n",
+      "- The flag represented the eastern portion of the partition of India\n",
+      "- East and West Pakistan shared the same national flag despite geographic separation"
+    ]
+  }
+}

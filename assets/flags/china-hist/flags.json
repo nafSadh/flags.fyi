@@ -1,0 +1,147 @@
+{
+  "cn-qing-dragon": {
+    "title": "Dragon Flag of the Qing Dynasty",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "yellow",
+        "hex": "#ffde00",
+        "cmyk": "0/13/100/0",
+        "note": "Imperial yellow, exclusive to the Qing emperor."
+      },
+      {
+        "color": "blue",
+        "hex": "#0000cd",
+        "cmyk": "100/100/0/20",
+        "note": "The azure dragon, symbol of the Emperor's power."
+      }
+    ],
+    "desc": [
+      "- A yellow field with an azure dragon facing a red flaming pearl, a red disc in the upper left corner\n",
+      "- Used by the Qing dynasty (1889–1912), it was China's first national flag\n",
+      "- The yellow represents the Manchu imperial house and the Chinese earth element\n",
+      "- The dragon symbolises imperial authority, power, and the Emperor himself\n",
+      "- The triangular version was used before 1889; the rectangular form was adopted for international diplomatic use\n",
+      "- **Construction:** a yellow field with a blue dragon in the centre facing a red pearl at the fly side\n",
+      "- The dragon occupies roughly two-thirds of the flag width\n",
+      "- Ratio approximately 2:3"
+    ],
+    "flag": "china-hist/cn-qing-dragon.svg",
+    "of": {
+      "country": "china"
+    },
+    "countryData": {
+      "name": "Qing Dynasty",
+      "officialName": "Qing Dynasty",
+      "un": "none"
+    },
+    "cs": "china-hist/cn-qing-dragon.cs.svg",
+    "trivia": [
+      "- The Qing dragon flag was China's first 'national flag' in the Western sense, adopted reluctantly for diplomatic purposes\n",
+      "- The dragon represented imperial power and authority in traditional Chinese symbolism\n",
+      "- The flag was officially adopted in 1889 and used until 1912"
+    ]
+  },
+  "cn-five-coloured": {
+    "title": "Five-Coloured Flag of the Republic of China",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#de2910",
+        "cmyk": "0/82/93/13",
+        "note": "Represents the Han majority."
+      },
+      {
+        "color": "yellow",
+        "hex": "#ffde00",
+        "cmyk": "0/13/100/0",
+        "note": "Represents the Manchu people."
+      },
+      {
+        "color": "blue",
+        "hex": "#0000cd",
+        "cmyk": "100/100/0/20",
+        "note": "Represents the Mongol people."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "Represents the Hui (Muslim) people."
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "Represents the Tibetan people."
+      }
+    ],
+    "desc": [
+      "- The Five-Coloured Flag (1912–1928) represented the five ethnic groups of the Republic of China: Han (red), Manchu (yellow), Mongol (blue), Hui (white), and Tibetan (black)\n",
+      "- **Construction:** five equal horizontal bands — red (top), yellow, blue, white, and black (bottom) — representing the Han, Manchu, Mongol, Hui, and Tibetan peoples\n",
+      "- Used by the Republic of China (1912–1928)"
+    ],
+    "flag": "china-hist/cn-five-coloured.svg",
+    "of": {
+      "country": "china"
+    },
+    "countryData": {
+      "name": "Republic of China",
+      "officialName": "Republic of China (Beiyang)",
+      "un": "none"
+    },
+    "cs": "china-hist/cn-five-coloured.cs.svg",
+    "trivia": [
+      "- The Five-Coloured flag represented the early Chinese Republic (1912–1928)\n",
+      "- Each colour represented a major Han ethnic group or region\n",
+      "- Replaced by the KMT flag as the Party consolidated power"
+    ]
+  },
+  "cn-blue-sky-white-sun": {
+    "title": "Blue Sky with a White Sun Flag",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#000095",
+        "cmyk": "100/100/0/42",
+        "note": "Represents liberty and nationalism."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "The twelve-pointed sun represents democracy and the twelve months."
+      },
+      {
+        "color": "red",
+        "hex": "#fe0000",
+        "cmyk": "0/100/100/0",
+        "note": "The blood of revolutionaries; fraternity and sacrifice."
+      }
+    ],
+    "desc": [
+      "- The Blue Sky with a White Sun on a wholly red earth (1928–1949) was the national flag of the Republic of China adopted after the Northern Expedition\n",
+      "- It remains the flag of Taiwan (ROC)\n",
+      "- **Construction:** a red field with a blue canton in the upper hoist bearing a white sun with twelve rays\n",
+      "- The canton occupies one-quarter of the flag\n",
+      "- The twelve rays of the sun represent the twelve months and the twelve traditional Chinese hours"
+    ],
+    "flag": "china-hist/cn-blue-sky-white-sun.svg",
+    "of": {
+      "country": "china"
+    },
+    "countryData": {
+      "name": "Republic of China",
+      "officialName": "Republic of China",
+      "un": "none"
+    },
+    "cs": "china-hist/cn-blue-sky-white-sun.cs.svg",
+    "trivia": [
+      "- The Kuomintang flag features the white sun on a blue field\n",
+      "- Represents the former Republic of China flag used on Taiwan\n",
+      "- Symbolises the Three Principles of the People ideology"
+    ]
+  }
+}

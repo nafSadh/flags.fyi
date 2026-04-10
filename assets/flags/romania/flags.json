@@ -1,0 +1,52 @@
+{
+  "romania": {
+    "title": "Flag of Romania",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "1989-12-27"
+    },
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#002B7F",
+        "cmyk": "100/89/27/8",
+        "note": "Represents truth, stability, and fidelity",
+        "pantone": "280 C"
+      },
+      {
+        "color": "yellow",
+        "hex": "#FCD116",
+        "cmyk": "7/3/72/0",
+        "note": "Represents generosity and justice",
+        "pantone": "116 C"
+      },
+      {
+        "color": "red",
+        "hex": "#CE1126",
+        "cmyk": "10/100/74/2",
+        "note": "Represents bravery and sacrifice",
+        "pantone": "186 C"
+      }
+    ],
+    "desc": [
+      "- Three equal vertical stripes of blue, yellow, and red, adopted after the 1989 Romanian Revolution\n",
+      "- The tricolour design represents truth, generosity, and bravery"
+    ],
+    "article": "romania/flag.md",
+    "of": {
+      "country": "romania"
+    },
+    "countryData": {
+      "name": "Romania",
+      "officialName": "Romania",
+      "un": "member"
+    },
+    "cs": "romania/flag.cs.svg",
+    "trivia": [
+      "- The colours are identical to Chad's flag, occasionally causing diplomatic confusion\n",
+      "- The coat of arms features the eagle with a cross, representing sovereignty and Christian faith\n",
+      "- Romania adopted this tricolour in 1848 during the Revolutions of 1848"
+    ]
+  }
+}

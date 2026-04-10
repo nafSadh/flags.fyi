@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="800" viewBox="-4000 -3500 58000 43000" fill="none" font-family="Calibri,Arial,'Liberation Sans',sans-serif">
+  <title>Flag of the Provisional Republic of Brazil — construction sheet</title>
+<defs>
+    <marker id="left-arrow" viewBox="-4 -4 10 8" orient="auto" markerWidth="10" markerHeight="8">
+        <path fill="blue" d="m2 0 4 4-10-4L6-4z"/>
+    </marker>
+</defs>
+<path fill="#fafafa" d="m-4000 -3500h58000v43000H-4000z"/>
+<path fill="#fff" d="m0 0h50000v35000H0z"/>
+<g opacity=".5">
+  <path fill="#009c3b" d="m0 0h50000v35000H0z"/>
+</g>
+<g stroke="#000" stroke-width="140" stroke-linejoin="round" stroke-linecap="round">
+  <path stroke="#444" stroke-width="250" d="m0 0h50000v35000H0z"/>
+  <path stroke-dasharray="200,200" stroke-width="75" d="m20000.0 0v19250.0H0"/>
+</g>
+<g stroke="#00f" stroke-width="75" marker-start="url(#left-arrow)">
+  <path d="m750 37000h23500.0"/>
+  <path d="m49250 37000H25750.0"/>
+  <path d="m52000 34250V18250.0"/>
+  <path d="m52000 750v16000.0"/>
+</g>
+<g fill="#000" text-anchor="middle" font-size="50" transform="scale(50)">
+  <text x="500" y="765">10</text>
+  <g transform="rotate(270)"><text y="1070">7</text></g>
+  <g font-size="27">
+    <text x="-2" y="772">[<tspan font-weight="bold" fill="#080">BR</tspan>]</text>
+    <text x="1002" y="772">[<tspan font-weight="bold" fill="#080">7:10</tspan>]</text>
+  </g>
+</g>
+</svg>

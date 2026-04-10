@@ -1,0 +1,44 @@
+{
+  "cu-lone-star": {
+    "title": "Flag of Cuba (Lone Star Flag)",
+    "ratio": "1:2",
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#002a8f",
+        "cmyk": "100/71/0/44",
+        "note": "The three departments of Cuba at the time of independence."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "Purity of the revolutionary ideal."
+      },
+      {
+        "color": "red",
+        "hex": "#cf142b",
+        "cmyk": "0/90/79/19",
+        "note": "The triangle; the blood shed for independence."
+      }
+    ],
+    "desc": [
+      "- The Cuban flag (designed 1850 by Teurbe Tolón) features five blue-white alternating stripes and a red triangle with a white star — used in the independence movement and kept as the national flag"
+    ],
+    "flag": "cuba-hist/cu-lone-star.svg",
+    "of": {
+      "country": "cuba"
+    },
+    "countryData": {
+      "name": "Cuba",
+      "officialName": "Republic of Cuba",
+      "un": "none"
+    },
+    "cs": "cuba-hist/cu-lone-star.cs.svg",
+    "trivia": [
+      "- The Lone Star flag was used during Cuba's independence wars\n",
+      "- Represented the hope for Cuban sovereignty\n",
+      "- Later adopted as the national symbol of the republic"
+    ]
+  }
+}

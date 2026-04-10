@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="608" viewBox="-4000 -3500 103000 58000" fill="none" font-family="Calibri,Arial,'Liberation Sans',sans-serif">
+  <title>Betsy Ross Flag (13 Stars) — construction sheet</title>
+<defs>
+    <marker id="left-arrow" viewBox="-4 -4 10 8" orient="auto" markerWidth="10" markerHeight="8">
+        <path fill="blue" d="m2 0 4 4-10-4L6-4z"/>
+    </marker>
+</defs>
+<path fill="#fafafa" d="m-4000 -3500h103000v58000H-4000z"/>
+<path fill="#fff" d="m0 0h95000v50000H0z"/>
+<g opacity=".5">
+  <path fill="#b22234" d="m0 0h95000v50000H0z"/>
+</g>
+<g stroke="#000" stroke-width="140" stroke-linejoin="round" stroke-linecap="round">
+  <path stroke="#444" stroke-width="250" d="m0 0h95000v50000H0z"/>
+  <path stroke-dasharray="200,200" stroke-width="75" d="m38000.0 0v27500.000000000004H0"/>
+</g>
+<g stroke="#00f" stroke-width="75" marker-start="url(#left-arrow)">
+  <path d="m750 52000h46000.0"/>
+  <path d="m94250 52000H48250.0"/>
+  <path d="m97000 49250V25750.0"/>
+  <path d="m97000 750v23500.0"/>
+</g>
+<g fill="#000" text-anchor="middle" font-size="50" transform="scale(50)">
+  <text x="950" y="1065">19</text>
+  <g transform="rotate(270)"><text y="1970">10</text></g>
+  <g font-size="27">
+    <text x="-2" y="1072">[<tspan font-weight="bold" fill="#080">US</tspan>]</text>
+    <text x="1902" y="1072">[<tspan font-weight="bold" fill="#080">10:19</tspan>]</text>
+  </g>
+</g>
+</svg>

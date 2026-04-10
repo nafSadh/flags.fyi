@@ -1,0 +1,62 @@
+{
+  "pitcairn": {
+    "title": "Flag of the Pitcairn Islands",
+    "ratio": "1:2",
+    "use": {
+      "as": "civil flag",
+      "since": "1984-04-02"
+    },
+    "of": {
+      "country": "pitcairn"
+    },
+    "countryData": {
+      "name": "Pitcairn Islands",
+      "officialName": "Pitcairn, Henderson, Ducie and Oeno Islands",
+      "un": "none"
+    },
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#012169",
+        "cmyk": "99/69/0/59",
+        "note": "British Blue Ensign; the Pacific Ocean."
+      },
+      {
+        "color": "red",
+        "hex": "#C8102E",
+        "cmyk": "0/92/77/22"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0"
+      },
+      {
+        "color": "green",
+        "hex": "#009A44",
+        "cmyk": "100/0/56/40",
+        "note": "The Pitcairn coat of arms."
+      },
+      {
+        "color": "yellow",
+        "hex": "#FFD100",
+        "cmyk": "0/18/100/0",
+        "note": "The anchor and Bible on the coat of arms."
+      }
+    ],
+    "desc": [
+      "- The flag of the Pitcairn Islands is a Blue Ensign with the Union Jack in the canton and the Pitcairn coat of arms in the fly — a shield showing the Bible and anchor from HMS Bounty on a green triangle\n",
+      "- Adopted on 2 April 1984, the coat of arms represents the islands' unique history: the Bounty mutineers and their Tahitian companions who founded the settlement in 1790\n",
+      "- The Bible was brought by Fletcher Christian\n",
+      "- **Construction:** British Blue Ensign format with the coat of arms in the fly half\n",
+      "- The shield features a green triangle with an anchor and Bible\n",
+      "- Ratio 1:2"
+    ],
+    "cs": "pitcairn/flag.cs.svg",
+    "trivia": [
+      "- Pitcairn Islands use the Union Jack as they are a British Overseas Territory\n",
+      "- One of the least populated territories in the world\n",
+      "- The inhabitants are primarily descendants of HMS Bounty mutineers"
+    ]
+  }
+}

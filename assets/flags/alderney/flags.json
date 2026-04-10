@@ -1,0 +1,56 @@
+{
+  "alderney": {
+    "title": "Flag of Alderney",
+    "ratio": "3:5",
+    "use": {
+      "as": "civil flag",
+      "since": "1993"
+    },
+    "of": {
+      "country": "alderney"
+    },
+    "countryData": {
+      "name": "Alderney",
+      "officialName": "Bailiwick of Guernsey — Alderney",
+      "un": "none"
+    },
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "The field."
+      },
+      {
+        "color": "red",
+        "hex": "#CF142B",
+        "note": "St George's Cross",
+        "cmyk": "0/90/79/19"
+      },
+      {
+        "color": "green",
+        "hex": "#009A44",
+        "note": "Field within the cross bearing the coat of arms",
+        "cmyk": "100/0/56/40"
+      },
+      {
+        "color": "yellow",
+        "hex": "#FFD100",
+        "note": "Lion in the coat of arms",
+        "cmyk": "0/18/100/0"
+      }
+    ],
+    "desc": [
+      "- A white field with a red St George's Cross bearing the coat of arms of Alderney at its centre\n",
+      "- The arms feature a golden lion on a green field. Adopted in 1993\n",
+      "- **Construction:** a white field bearing a red St George's Cross of standard proportions (one-fifth of the flag's width)\n",
+      "- The coat of arms is placed at the intersection of the cross"
+    ],
+    "cs": "alderney/flag.cs.svg",
+    "trivia": [
+      "- Alderney is one of the Channel Islands with its own distinct flag and governance\n",
+      "- The island has a population of around 2,000 people\n",
+      "- Alderney maintains its own culture and traditions distinct from mainland Britain"
+    ]
+  }
+}

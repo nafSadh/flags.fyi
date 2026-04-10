@@ -1,0 +1,84 @@
+{
+  "br-empire": {
+    "title": "Flag of the Empire of Brazil",
+    "ratio": "7:10",
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#009c3b",
+        "cmyk": "100/0/62/39",
+        "note": "The House of Braganza (imperial dynasty)."
+      },
+      {
+        "color": "yellow",
+        "hex": "#ffdf00",
+        "cmyk": "0/13/100/0",
+        "note": "The House of Habsburg (Empress Leopoldina)."
+      }
+    ],
+    "desc": [
+      "- The Empire of Brazil (1822–1889) used a green field with a golden yellow rhombus and the imperial coat of arms — the green-and-gold design carried into the republic\n",
+      "- **Construction:** a green field with a gold diamond centred (similar to the modern flag)\n",
+      "- Inside the diamond, the Imperial arms with the coffee and tobacco branches and the imperial crown"
+    ],
+    "flag": "brazil-hist/br-empire.svg",
+    "of": {
+      "country": "brazil"
+    },
+    "countryData": {
+      "name": "Brazil",
+      "officialName": "Empire of Brazil",
+      "un": "none"
+    },
+    "cs": "brazil-hist/br-empire.cs.svg",
+    "trivia": [
+      "- The Brazilian Empire flag (1822–1889) featured the imperial coat of arms\n",
+      "- The yellow diamond represented the House of Braganza (the imperial dynasty)\n",
+      "- The empire lasted 67 years before the republican revolution"
+    ]
+  },
+  "br-provisional": {
+    "title": "Flag of the Provisional Republic of Brazil",
+    "ratio": "7:10",
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#009c3b",
+        "cmyk": "100/0/62/39",
+        "note": "Continuity with the imperial tradition."
+      },
+      {
+        "color": "yellow",
+        "hex": "#ffdf00",
+        "cmyk": "0/13/100/0",
+        "note": "The mineral wealth of Brazil."
+      },
+      {
+        "color": "blue",
+        "hex": "#002776",
+        "cmyk": "100/67/0/54"
+      }
+    ],
+    "desc": [
+      "- The Provisional Flag of the Republic of Brazil (15–19 November 1889) was used for four days after the overthrow of the Empire\n",
+      "- It was inspired by the United States flag, with 13 green and yellow horizontal stripes and a blue canton with white stars\n",
+      "- Quickly replaced by the iconic green-and-yellow diamond design, this flag was never popular and was seen as too imitative\n",
+      "- **Construction:** 13 alternating green and yellow horizontal stripes with a dark blue canton containing 21 white stars. Ratio approximately 7:10"
+    ],
+    "flag": "brazil-hist/br-provisional.svg",
+    "of": {
+      "country": "brazil"
+    },
+    "countryData": {
+      "name": "Brazil",
+      "officialName": "Republic of the United States of Brazil",
+      "un": "none"
+    },
+    "cs": "brazil-hist/br-provisional.cs.svg",
+    "trivia": [
+      "- Brazil's provisional flag was used during the transition from empire to republic\n",
+      "- Represents the period of political transformation in the 1890s\n",
+      "- Shows the evolution of Brazilian national symbols"
+    ]
+  }
+}

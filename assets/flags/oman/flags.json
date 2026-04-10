@@ -1,0 +1,55 @@
+{
+  "oman": {
+    "title": "Flag of the Sultanate of Oman",
+    "ratio": "1:2",
+    "use": {
+      "as": "national flag",
+      "since": "1995-04-25"
+    },
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Top horizontal stripe; represents the Imam, peace, and prosperity."
+      },
+      {
+        "color": "red",
+        "hex": "#C8102E",
+        "cmyk": "0/100/80/5",
+        "pantone": "186 C",
+        "note": "Vertical hoist stripe and middle horizontal stripe; the traditional colour of Oman, representing historic battles against invaders."
+      },
+      {
+        "color": "green",
+        "hex": "#009A44",
+        "cmyk": "92/0/97/0",
+        "pantone": "347 C",
+        "note": "Bottom horizontal stripe; represents the Green Mountains (Al Hajar) and fertility."
+      }
+    ],
+    "desc": [
+      "- Three horizontal stripes of white, red, and green with a broader red vertical stripe at the hoist bearing the national emblem (khanjar dagger and crossed swords) in white\n",
+      "- The emblem — two crossed swords surmounted by a khanjar (curved dagger) — has been the symbol of the Al Said dynasty since the 18th century\n",
+      "- The current flag was adopted on 17 December 1970 when Sultan Qaboos came to power and modernised the country. Before 1970, Oman used a plain red flag\n",
+      "- **Construction:** the hoist stripe is roughly one-third of the flag's width\n",
+      "- Three horizontal stripes of equal height fill the remaining two-thirds\n",
+      "- The national emblem is centred in the red hoist stripe\n",
+      "- Ratio 1:2"
+    ],
+    "of": {
+      "country": "oman"
+    },
+    "countryData": {
+      "name": "Oman",
+      "officialName": "Sultanate of Oman",
+      "un": "member"
+    },
+    "cs": "oman/flag.cs.svg",
+    "trivia": [
+      "- The emblem represents Oman's sovereignty and the Imamate tradition\n",
+      "- The white represents peace; red represents the bloodshed for independence; green represents agriculture\n",
+      "- Oman adopted this flag in 1970 when the modernizing Sultan Qaboos took power"
+    ]
+  }
+}

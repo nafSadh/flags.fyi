@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="750" viewBox="-45360 -31500 90720 63000" fill="none" font-family="Calibri,Arial,'Liberation Sans',sans-serif">
+	<title>Flag of Tunisia — construction sheet</title>
+	<!-- DIMENSIONS
+		SVG:
+			S_RAW:     90720.00 × 63000.00
+			S_DISPLAY:  1080.00 × 750.00
+		FLAG:
+			F_RAW:     83160.00 × 55440.00
+			F_DISPLAY:   990.00 × 660.00
+			F_LABEL:      60.00 × 40.00
+			F_RATIO:       3.00 × 2.00
+	-->
+	<defs>
+		<marker id="left-arrow" viewBox="-4 -4 10 8" orient="auto" markerWidth="10" markerHeight="8">
+			<path fill="blue" d="m2 0 4 4-10-4L6-4z"/>
+		</marker>
+	</defs>
+	<path fill="#f8f8f8" d="m-45360-31500h90720v63000h-90720z"/>
+	<path fill="#fff" d="m-41580-27720h83160v55440h-83160z"/>
+	<g opacity=".5">
+		<g transform="scale(693)">
+			<path fill="#e70013" d="m-60-40H60v80H-60z"/>
+			<circle fill="#fff" r="20"/>
+		</g>
+		<path fill="#e70013" d="m8403-6120a8316 8316 0 1 0 0 12240 10395 10395 0 1 1 0-12240z"/>
+		<path fill="#e70013" d="m-3465 0L7818-3666 845 5932V-5932l6973 9598z"/>
+	</g>
+	<g stroke="#000" stroke-width="140" stroke-linejoin="round" stroke-linecap="round">
+		<g opacity=".4" stroke-width="100">
+			<path stroke-dashoffset="388" stroke-dasharray="775,315,105,315" d="m0-13860v-13860m0 41580v13860"/>
+			<path stroke-dashoffset="386" stroke-dasharray="771,315,105,315" d="m0 0h-15960m-5880 0h-19740M0 0h15960m5880 0h19740"/>
+			<path stroke-dasharray="735,315,105,315" stroke-dashoffset="840" d="m0-30240v2520M-44100 0h2520"/>
+		</g>
+		<g stroke="#01c" opacity=".8">
+			<path stroke-dasharray="420,423" stroke-dashoffset="420" d="m8403-6120a10395 10395 0 0 1 0 12240"/>
+			<path stroke-dasharray="735,315,105,315" stroke-dashoffset="368" d="m0 0v-13860M0 0v13860"/>
+		</g>
+		<g stroke="#070" opacity=".8">
+			<path stroke-dasharray="420,413" stroke-dashoffset="420" d="m8403-6120a8316 8316 0 0 1 0 12240"/>
+			<path stroke-dasharray="815,315,105,315" stroke-dashoffset="448" d="m2772 0v-8316m0 8316v8316"/>
+			<path stroke-dasharray="420,450" stroke-dashoffset="210" d="m-3465 0A1 1 0 0 0 9009 0M-3465 0A1 1 0 0 1 9009 0"/>
+		</g>
+		<path stroke="#444" stroke-width="250" d="m-41580-27720h83160v55440h-83160z"/>
+		<circle stroke="#01c" r="13860"/>
+		<path d="m-3465 0L845-1400v-4532l2663 3666 4310-1400L5154 0l2664 3666-4310-1400L845 5932V1400z"/>
+		<path stroke="#01c" d="m8403-6120a10395 10395 0 1 0 0 12240"/>
+		<path stroke="#070" d="m8403-6120a8316 8316 0 1 0 0 12240"/>
+		<path stroke="#222" stroke-width="75" stroke-dasharray="210,210" d="m-41580-30240V0m0 30240V0M2772 17850V8316m38808-38556V0m0 30240V0m-85680-27720H0m44100 0H0m-21525 13860H0m21525 3465H0m18165 2079H2772m-20937 2079H2772M-18165 6237H2772m15393 2079H2772m18753 2079H0m-21525 3465H0m-44100 13860H0m44100 0H0"/>
+		<path stroke-width="135" d="m-375 0h750M0-375v750M2397 0h750m-375-375v750"/>
+	</g>
+	<g fill="#008" opacity=".8">
+		<circle r="200" cx="0" cy="-13860"/>
+		<circle r="200" cx="-0" cy="13860"/>
+		<circle r="200" cx="0" cy="-10395"/>
+		<circle r="200" cx="-0" cy="10395"/>
+		<circle r="200" cx="2772" cy="-8316"/>
+		<circle r="200" cx="2772" cy="8316"/>
+		<circle r="200" cx="2772" cy="-6237"/>
+		<circle r="200" cx="2772" cy="6237"/>
+	</g>
+	<g fill="#e00">
+		<circle r="100" cx="8403" cy="-6120"/>
+		<circle r="100" cx="8403" cy="6120"/>
+	</g>
+	<g stroke="#00f" stroke-width="75" marker-start="url(#left-arrow)">
+		<path d="m-41280-29295h18690"/>
+		<path d="m-300-29295h-18690"/>
+		<path d="m300-29295h18690"/>
+		<path d="m41280-29295H22590"/>
+		<path d="m-41280 29295h39480"/>
+		<path d="m41280 29295H1800"/>
+		<path d="m-300 16905h-2200"/>
+		<path d="m3072 16905h2200"/>
+		<path d="m-43155-300v-11760"/>
+		<path d="m-43155-27420v11760"/>
+		<path d="m-43155 27420V15660"/>
+		<path d="m-43155 300v11760"/>
+		<path d="m43155 27420V1800"/>
+		<path d="m43155-27420v25620"/>
+		<path d="m-20580 13560V1800"/>
+		<path d="m-20580-13560v11760"/>
+		<path d="m20580 10095V1800"/>
+		<path d="m20580-10095v8295"/>
+		<path d="m17220 8016V1800"/>
+		<path d="m17220-8016v6216"/>
+		<path d="m-17220 5937V1100"/>
+		<path d="m-17220-5937v4837"/>
+	</g>
+	<g fill="#000" text-anchor="middle" font-size="50" transform="scale(50)">
+		<g>
+			<text x="-416" y="-571">30</text>
+			<text x="416" y="-571">30</text>
+			<text x="28" y="353">2</text>
+			<text y="601">60</text>
+		</g>
+		<g transform="rotate(270)">
+			<text x="-277" y="-848">20</text>
+			<text x="277" y="-848">20</text>
+			<text y="-397">20</text>
+			<text y="-329" text-decoration="underline">9</text>
+			<text y="359">12</text>
+			<text y="427">15</text>
+			<text y="878">40</text>
+		</g>
+		<g font-size="27">
+			<text x="-869" y="605">[<tspan font-weight="bold" fill="#080">TN</tspan>]</text>
+			<text x="869" y="605">[<tspan font-weight="bold" fill="#080">2:3</tspan>]</text>
+		</g>
+	</g>
+</svg>

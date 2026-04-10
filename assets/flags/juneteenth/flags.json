@@ -1,0 +1,49 @@
+{
+  "juneteenth": {
+    "title": "Juneteenth Flag",
+    "ratio": "2:3",
+    "use": {
+      "as": "commemorative flag",
+      "since": "1997"
+    },
+    "countryData": {
+      "name": "Juneteenth",
+      "officialName": "Juneteenth Commemorative Flag",
+      "un": "none"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#C8102E",
+        "cmyk": "0/92/77/22",
+        "note": "The resilience and struggle."
+      },
+      {
+        "color": "blue",
+        "hex": "#002868",
+        "cmyk": "100/62/0/59",
+        "note": "The new horizon of freedom."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "The star representing a new beginning."
+      }
+    ],
+    "desc": [
+      "- A flag commemorating the emancipation of enslaved African Americans, featuring a bursting star on a curved horizon\n",
+      "- Designed by Lisa Jeanne Graf in 1997. The star represents a new beginning and the burst symbolises new freedoms\n",
+      "- The red, white, and blue represent that enslaved people and their descendants were Americans\n",
+      "- **Construction:** a red-blue gradient field (red at top and bottom, blue in the centre), divided by a curved horizon line\n",
+      "- A white bursting star is centred on the horizon\n",
+      "- A white outer arc frames the composition"
+    ],
+    "cs": "juneteenth/flag.cs.svg",
+    "trivia": [
+      "- Juneteenth commemorates the announcement of enslaved people's freedom in Galveston, Texas (1865)\n",
+      "- The flag represents African American freedom and liberation\n",
+      "- Became a federal holiday in the United States in 2021"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#002868"/><circle cx="250" cy="250" r="25" fill="#ffb612"/>
+       <circle cx="450" cy="280" r="25" fill="#ffb612"/>
+       <circle cx="600" cy="350" r="25" fill="#ffb612"/>
+       <circle cx="650" cy="280" r="25" fill="#ffb612"/>
+       <circle cx="700" cy="200" r="25" fill="#ffb612"/>
+       <circle cx="750" cy="150" r="25" fill="#ffb612"/>
+       <circle cx="800" cy="180" r="25" fill="#ffb612"/>
+       <!-- North Star (larger, brighter) -->
+       <circle cx="950" cy="150" r="35" fill="#ffb612"/></svg>

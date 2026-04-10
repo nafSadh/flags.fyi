@@ -1,0 +1,145 @@
+{
+  "anguilla": {
+    "title": "Flag of Anguilla",
+    "ratio": "1:2",
+    "use": {
+      "as": "civil flag",
+      "since": "1990-05-30"
+    },
+    "of": {
+      "country": "anguilla"
+    },
+    "countryData": {
+      "name": "Anguilla",
+      "officialName": "Anguilla (British Overseas Territory)",
+      "un": "none"
+    },
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#012169",
+        "pantone": "280 C",
+        "note": "Blue Ensign field",
+        "cmyk": "99/69/0/59"
+      },
+      {
+        "color": "red",
+        "hex": "#C8102E",
+        "pantone": "186 C",
+        "cmyk": "0/92/77/22",
+        "note": "The Union Jack in the canton."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "The three dolphins in the coat of arms."
+      },
+      {
+        "color": "orange",
+        "hex": "#FF8C00",
+        "note": "Three dolphins on the badge",
+        "cmyk": "0/45/100/0"
+      }
+    ],
+    "desc": [
+      "- A Blue Ensign defaced with the coat of arms of Anguilla, featuring three orange dolphins\n",
+      "- The dolphins symbolise endurance, unity, and strength\n",
+      "- **Construction:** a standard Blue Ensign (1:2 ratio) with the Union Flag in the canton occupying one-quarter of the field\n",
+      "- The badge of Anguilla (three dolphins) is centred in the fly half"
+    ],
+    "cs": "anguilla/flag.cs.svg",
+    "trivia": [
+      "- The dolphins represent grace and swiftness; the orange, blue, green, and white show Caribbean colours\n",
+      "- Adopted in 1990 after Anguilla separated from St. Kitts and Nevis\n",
+      "- The dolphins are stylized versions of spotted dolphins found in Caribbean waters around Anguilla"
+    ]
+  },
+  "anguilla-dolphin": {
+    "title": "Dolphin Flag of Anguilla",
+    "ratio": "1:2",
+    "use": {
+      "as": "unofficial national flag"
+    },
+    "of": {
+      "country": "anguilla"
+    },
+    "countryData": {
+      "name": "Anguilla",
+      "officialName": "Anguilla",
+      "un": "none"
+    },
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Field colour; represents peace."
+      },
+      {
+        "color": "blue",
+        "hex": "#00247D",
+        "cmyk": "100/72/0/18",
+        "note": "Turquoise-to-navy sea at the bottom; represents the surrounding Caribbean Sea."
+      },
+      {
+        "color": "orange",
+        "hex": "#FF8C00",
+        "cmyk": "0/45/100/0",
+        "note": "Three dolphins; represent friendship, wisdom, and strength."
+      }
+    ],
+    "desc": [
+      "- An unofficial local flag of Anguilla featuring three orange dolphins arranged in a circle on a white field above a turquoise sea\n",
+      "- The three dolphins symbolise friendship, wisdom, and strength — the three core values of the Anguillan people\n",
+      "- This flag is used locally alongside the official British Blue Ensign variant\n",
+      "- **Construction:** a white field with the lower portion rendered as a turquoise sea. Three orange dolphins are centred, leaping in a circle. Ratio 1:2"
+    ],
+    "cs": "anguilla/anguilla-dolphin.cs.svg",
+    "trivia": [
+      "- Alternative Anguilla flag design emphasizing the dolphin symbolism\n",
+      "- Dolphins are central to Anguillian maritime culture and identity\n",
+      "- This flag variant celebrates the island's marine biodiversity"
+    ]
+  },
+  "anguilla-governor": {
+    "title": "Flag of the Governor of Anguilla",
+    "ratio": "1:2",
+    "use": {
+      "as": "governor's flag"
+    },
+    "of": {
+      "country": "anguilla"
+    },
+    "countryData": {
+      "name": "Anguilla",
+      "officialName": "Anguilla",
+      "un": "none"
+    },
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#012169",
+        "cmyk": "99/69/0/59",
+        "note": "Union Jack blue."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0"
+      }
+    ],
+    "desc": [
+      "- The Governor's flag of Anguilla is a Union Flag (Union Jack) defaced with the Anguillan coat of arms on a white disc in the centre\n",
+      "- It represents the Governor as the representative of the British Crown in Anguilla, a British Overseas Territory\n",
+      "- The coat of arms features three orange dolphins in a circle\n",
+      "- **Construction:** the Union Flag at full size, with a white disc bearing the coat of arms superimposed at the centre. Ratio 1:2"
+    ],
+    "cs": "anguilla/anguilla-governor.cs.svg",
+    "trivia": [
+      "- Official flag used by the Governor of Anguilla\n",
+      "- Represents executive authority and British colonial ties\n",
+      "- Uses heraldic symbols reflecting Anguilla's governance structure"
+    ]
+  }
+}

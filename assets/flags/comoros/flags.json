@@ -1,20 +1,182 @@
 {
   "comoros": {
+    "title": "Flag of the Union of the Comoros",
     "ratio": "3:5",
     "colors": [
-      { "color": "green", "hex": "#3d8e33", "pantone": "363", "cmyk": "57–0–54–44" },
-      { "color": "yellow", "hex": "#ffc61e", "pantone": "127", "cmyk": "0–22–88–0" },
-      { "color": "white", "hex": "#fff", "pantone": "Safe", "cmyk": "0–0–0–0" },
-      { "color": "red", "hex": "#ce1126", "pantone": "363", "186": "0–92–82–15" },
-      { "color": "blue", "hex": "#3a75c4", "pantone": "285", "cmyk": "70–40–0–23" }
+      {
+        "color": "green",
+        "hex": "#3d8e33",
+        "pantone": "363",
+        "cmyk": "57-0-54-44",
+        "note": "The chevron represents Islam."
+      },
+      {
+        "color": "yellow",
+        "hex": "#ffc61e",
+        "pantone": "127",
+        "cmyk": "0-22-88-0",
+        "note": "Represents the island of Mohéli."
+      },
+      {
+        "color": "white",
+        "hex": "#fff",
+        "pantone": "Safe",
+        "cmyk": "0-0-0-0",
+        "note": "Represents the island of Mayotte (claimed)."
+      },
+      {
+        "color": "red",
+        "hex": "#ce1126",
+        "pantone": "186",
+        "cmyk": "0-92-82-15",
+        "note": "Represents the island of Anjouan."
+      },
+      {
+        "color": "blue",
+        "hex": "#3a75c4",
+        "pantone": "285",
+        "cmyk": "70-40-0-23",
+        "note": "Represents the island of Grande Comore."
+      }
     ],
     "article": "comoros/flag.md",
-    "use": { "as": "national flag", "since": "2001-12-23" },
-    "of": { "country": "comoros" },
+    "use": {
+      "as": "national flag",
+      "since": "2001-12-23"
+    },
+    "of": {
+      "country": "comoros"
+    },
     "countryData": {
       "name": "Comoros",
       "officialName": "Union of the Comoros",
       "un": "member"
-    }
+    },
+    "desc": [
+      "- Four equal horizontal bands of yellow, white, red, and blue, with a green isosceles triangle at the hoist\n",
+      "- Inside the triangle is a white crescent with four white five-pointed stars. Each stripe represents one of the\n",
+      "- four main islands, and the four stars echo this. Adopted 23 December 2001 following constitutional reforms"
+    ],
+    "cs": "comoros/flag.cs.svg",
+    "trivia": [
+      "- The four stripes represent the four islands: Mayotte, Anjouan, Mohéli, and Grande Comore\n",
+      "- The colours cycle through the Pan-African scheme with a green chevron adding Islamic symbolism\n",
+      "- The crescent and star represent Islam as a unifying faith across the islands"
+    ]
+  },
+  "anjouan": {
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#CE1126",
+        "cmyk": "0/92/82/19"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0"
+      }
+    ],
+    "desc": [
+      "- The flag of Anjouan, one of the Comoros islands, features a red field with a white crescent and a right hand — a traditional Islamic emblem recalling the island's historic sultanate\n",
+      "- Anjouan has periodically sought independence or autonomy from the Union of the Comoros, and the flag has served as a symbol of local identity\n",
+      "- **Construction:** a red field with a white crescent opening to the right and a white hand in the centre. Ratio approximately 2:3"
+    ],
+    "of": {
+      "country": "comoros"
+    },
+    "countryData": {
+      "name": "Anjouan",
+      "officialName": "Autonomous Island of Anjouan",
+      "un": "none"
+    },
+    "cs": "comoros/anjouan.cs.svg",
+    "trivia": [
+      "- Anjouan unilaterally declared independence from Comoros in 1997, leading to a brief political crisis\n",
+      "- The island is sometimes called \"Ndzuwani\" in the Comorian language"
+    ]
+  },
+  "grande-comore": {
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#0051A5",
+        "cmyk": "100/51/0/35"
+      }
+    ],
+    "desc": [
+      "- Flag of Grande Comore, the largest island of the Comoros\n",
+      "- **Construction:** a field with varying colours by period; the autonomous island flag uses a blue field with a crescent and four stars"
+    ],
+    "of": {
+      "country": "comoros"
+    },
+    "countryData": {
+      "name": "Grande Comore",
+      "officialName": "Autonomous Island of Grande Comore",
+      "un": "none"
+    },
+    "cs": "comoros/grande-comore.cs.svg",
+    "trivia": [
+      "- Grande Comore (Ngazidja) is home to Mount Karthala, one of the most active volcanoes in the world\n",
+      "- It is the largest and most populous island in the Comoros archipelago"
+    ]
+  },
+  "moheli": {
+    "colors": [
+      {
+        "color": "yellow",
+        "hex": "#FFD700",
+        "cmyk": "0/16/100/0"
+      },
+      {
+        "color": "red",
+        "hex": "#CE1126",
+        "cmyk": "0/92/82/19"
+      }
+    ],
+    "desc": [
+      "- The flag of Mohéli, the smallest of the main Comoros islands, has varied over the years but typically features the island's distinct identity within the Comoros union\n",
+      "- Mohéli has historically been the quietest of the four Comoros islands, with less secessionist activity than Anjouan\n",
+      "- Its autonomous government uses various emblems reflecting local culture\n",
+      "- **Construction:** a field design with variations; typically includes elements representing the island's tropical character. Ratio approximately 2:3"
+    ],
+    "of": {
+      "country": "comoros"
+    },
+    "countryData": {
+      "name": "Mohéli",
+      "officialName": "Autonomous Island of Mohéli",
+      "un": "none"
+    },
+    "cs": "comoros/moheli.cs.svg",
+    "trivia": [
+      "- Mohéli is the smallest of the four main Comoros islands and has the country's only marine national park\n",
+      "- The island is known as a major nesting site for green sea turtles"
+    ]
+  },
+  "comoros-mayotte": {
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "The French departmental emblem."
+      }
+    ],
+    "desc": [
+      "- Flag or representation for Mayotte, a territory claimed by Comoros\n",
+      "- **Construction:** a white field with the departmental emblem of Mayotte, including the French Tricolore"
+    ],
+    "countryData": {
+      "name": "Mayotte",
+      "officialName": "Department of Mayotte (France)",
+      "un": "none"
+    },
+    "cs": "comoros/comoros-mayotte.cs.svg",
+    "trivia": [
+      "- Mayotte voted to remain French in a 1974 referendum while the other three Comoros islands chose independence\n",
+      "- Comoros still claims Mayotte as part of its territory; the UN General Assembly has repeatedly supported this claim"
+    ]
   }
 }

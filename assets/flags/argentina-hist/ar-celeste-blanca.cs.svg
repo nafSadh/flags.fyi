@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="742" viewBox="-4000 -3500 48000 33000" fill="none" font-family="Calibri,Arial,'Liberation Sans',sans-serif">
+  <title>First Flag of Argentina (Celeste y Blanca) — construction sheet</title>
+<defs>
+    <marker id="left-arrow" viewBox="-4 -4 10 8" orient="auto" markerWidth="10" markerHeight="8">
+        <path fill="blue" d="m2 0 4 4-10-4L6-4z"/>
+    </marker>
+</defs>
+<path fill="#fafafa" d="m-4000 -3500h48000v33000H-4000z"/>
+<path fill="#fff" d="m0 0h40000v25000H0z"/>
+<g opacity=".5">
+  <path fill="#74acdf" d="m0 0h40000v25000H0z"/>
+</g>
+<g stroke="#000" stroke-width="140" stroke-linejoin="round" stroke-linecap="round">
+  <path stroke="#444" stroke-width="250" d="m0 0h40000v25000H0z"/>
+  <path d="m0 8333.333333333334h40000m-40000 8333.333333333334h40000"/>
+  <path stroke="#222" stroke-width="75" stroke-dasharray="200,200" d="m20000.0 -2500.0v30000m-22500.0 -12500.0h45000"/>
+</g>
+<g stroke="#00f" stroke-width="75" marker-start="url(#left-arrow)">
+  <path d="m42000 7583.333333333334V4916.666666666667"/>
+  <path d="m42000 750.0v2666.666666666667"/>
+  <path d="m42000 15916.666666666668V13250.0"/>
+  <path d="m42000 9083.333333333334v2666.666666666666"/>
+  <path d="m42000 24250.0V21583.333333333336"/>
+  <path d="m42000 17416.666666666668v2666.666666666668"/>
+  <path d="m750 27000h18500.0"/>
+  <path d="m39250 27000H20750.0"/>
+  <path d="m-2000 24250V13250.0"/>
+  <path d="m-2000 750v11000.0"/>
+</g>
+<g fill="#000" text-anchor="middle" font-size="50" transform="scale(50)">
+  <text x="850" y="88">1</text>
+  <text x="850" y="255">1</text>
+  <text x="850" y="422">1</text>
+  <text x="400" y="565">8</text>
+  <g transform="rotate(270)"><text y="-70">5</text></g>
+  <g font-size="27">
+    <text x="-2" y="572">[<tspan font-weight="bold" fill="#080">AR</tspan>]</text>
+    <text x="802" y="572">[<tspan font-weight="bold" fill="#080">5:8</tspan>]</text>
+  </g>
+</g>
+</svg>

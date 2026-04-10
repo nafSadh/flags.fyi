@@ -1,0 +1,45 @@
+{
+  "spain": {
+    "title": "Flag of Spain",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "1981-12-19"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#AA151B",
+        "cmyk": "0/88/84/33",
+        "note": "Represents strength and bravery",
+        "pantone": "186 C"
+      },
+      {
+        "color": "yellow",
+        "hex": "#F1BF00",
+        "cmyk": "0/21/100/5",
+        "note": "Represents generosity; the central band is twice the width of each red stripe",
+        "pantone": "116 C"
+      }
+    ],
+    "desc": [
+      "- Three horizontal stripes — red, yellow (double width), and red — known as 'La Rojigualda'\n",
+      "- The state flag bears the national coat of arms on the yellow stripe"
+    ],
+    "article": "spain/flag.md",
+    "of": {
+      "country": "spain"
+    },
+    "countryData": {
+      "name": "Spain",
+      "officialName": "Kingdom of Spain",
+      "un": "member"
+    },
+    "cs": "spain/flag.cs.svg",
+    "trivia": [
+      "- The coat of arms shows the heraldic lions of Castile and the crowns of Aragon and Granada\n",
+      "- The red and gold are the historic colours of Spain dating to medieval times\n",
+      "- Spain's flag remains relatively unchanged since 1785"
+    ]
+  }
+}

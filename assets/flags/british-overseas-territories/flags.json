@@ -1,0 +1,47 @@
+{
+  "british-overseas-territories": {
+    "title": "Flag of the British Overseas Territories",
+    "ratio": "1:2",
+    "use": {
+      "as": "collective flag"
+    },
+    "of": {
+      "country": "british-overseas-territories"
+    },
+    "countryData": {
+      "name": "British Overseas Territories",
+      "officialName": "British Overseas Territories",
+      "un": "none"
+    },
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#012169",
+        "cmyk": "99/69/0/59",
+        "note": "British Blue Ensign for overseas territories."
+      },
+      {
+        "color": "red",
+        "hex": "#C8102E",
+        "cmyk": "0/92/77/22",
+        "note": "The Union Jack."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0"
+      }
+    ],
+    "desc": [
+      "- A Blue Ensign defaced with the British Overseas Territories crest\n",
+      "- Used collectively to represent all 14 British Overseas Territories\n",
+      "- **Construction:** a Blue Ensign (1:2) with the Union Flag in the upper-hoist canton. The collective BOT crest appears in the fly half"
+    ],
+    "cs": "british-overseas-territories/flag.cs.svg",
+    "trivia": [
+      "- Fourteen British Overseas Territories maintain Union Jack flags\n",
+      "- These territories represent remnants of the British Empire scattered across the globe\n",
+      "- Each has varying degrees of autonomy and representation"
+    ]
+  }
+}

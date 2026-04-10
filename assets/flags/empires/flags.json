@@ -1,0 +1,235 @@
+{
+  "roman-empire": {
+    "title": "Vexillum of the Roman Empire",
+    "ratio": "3:4",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#8b0000",
+        "cmyk": "0/100/100/45",
+        "note": "The imperial purple-red (purpura) of Rome."
+      },
+      {
+        "color": "gold",
+        "hex": "#ffd700",
+        "cmyk": "0/16/100/0"
+      }
+    ],
+    "desc": [
+      "- The Roman vexillum was a banner hung from a crossbar, typically red or purple with SPQR and an eagle. It was the precursor to modern flags\n",
+      "- **Construction:** a vexillum (military standard) — a square or vertical banner hung from a crossbar on a pole, typically red or purple with gold embroidered letters 'SPQR' and an eagle motif"
+    ],
+    "flag": "empires/roman-empire.svg",
+    "countryData": {
+      "name": "Roman Empire",
+      "officialName": "Roman Empire",
+      "un": "none"
+    },
+    "cs": "empires/roman-empire.cs.svg",
+    "trivia": [
+      "- Rome had no single national flag — legions used the eagle standard (aquila) but individual units had their own signa\n",
+      "- The aquila (eagle) became the most sacred symbol of Rome, carried into battle\n",
+      "- Loss of the aquila was considered catastrophic dishonour, and recovering lost eagles was a military priority"
+    ]
+  },
+  "byzantine": {
+    "title": "Flag of the Byzantine Empire",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "gold",
+        "hex": "#ffd700",
+        "cmyk": "0/16/100/0"
+      },
+      {
+        "color": "purple",
+        "hex": "#6a0dad",
+        "cmyk": "39/92/0/32",
+        "note": "Imperial purple of the Byzantine court."
+      }
+    ],
+    "desc": [
+      "- The Byzantine (Eastern Roman) Empire used a gold or purple field with a double-headed eagle, symbolising the empire spanning Europe and Asia\n",
+      "- **Construction:** a red or purple field bearing a gold double-headed eagle. The eagle symbolised the empire's dominion over East and West"
+    ],
+    "flag": "empires/byzantine.svg",
+    "countryData": {
+      "name": "Byzantine Empire",
+      "officialName": "Byzantine Empire (Eastern Roman Empire)",
+      "un": "none"
+    },
+    "cs": "empires/byzantine.cs.svg",
+    "trivia": [
+      "- The Byzantine Empire (330–1453) was the continuation of the Roman Empire in the East\n",
+      "- The purple colour represented imperial authority and divinity\n",
+      "- The double-headed eagle became the most recognisable Byzantine symbol"
+    ]
+  },
+  "holy-roman-empire": {
+    "title": "Banner of the Holy Roman Empire",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "gold",
+        "hex": "#ffd700",
+        "cmyk": "0/16/100/0"
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "The double-headed eagle of the Emperor."
+      }
+    ],
+    "desc": [
+      "- The Holy Roman Empire (800–1806) used a gold banner with a black double-headed eagle, representing universal sovereignty over Christendom\n",
+      "- **Construction:** a gold field with a black double-headed eagle bearing a halo around each head. The eagle holds an orb and sceptre"
+    ],
+    "flag": "empires/holy-roman-empire.svg",
+    "countryData": {
+      "name": "Holy Roman Empire",
+      "officialName": "Holy Roman Empire",
+      "un": "none"
+    },
+    "cs": "empires/holy-roman-empire.cs.svg",
+    "trivia": [
+      "- The Holy Roman Empire (800–1806) was a complex political entity in Europe\n",
+      "- The imperial eagle represented imperial authority and religious significance\n",
+      "- Dissolved during the Napoleonic Wars"
+    ]
+  },
+  "mongol": {
+    "title": "Banner of the Mongol Empire",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0"
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100"
+      }
+    ],
+    "desc": [
+      "- The Mongol Empire (1206–1368) used the white sulde (spirit banner) with nine horse-hair tails, a sacred symbol representing the spirit of Genghis Khan\n",
+      "- **Construction:** a white field (or sometimes blue) bearing a golden or blue falcon (saker falcon or gerfalcon)\n",
+      "- Mongol standards were often mounted on a pole with horsehair tassels (tugs)"
+    ],
+    "flag": "empires/mongol.svg",
+    "countryData": {
+      "name": "Mongol Empire",
+      "officialName": "Mongol Empire",
+      "un": "none"
+    },
+    "cs": "empires/mongol.cs.svg",
+    "trivia": [
+      "- The Mongol Empire (1206–1368) was one of history's largest empires\n",
+      "- The flag represented the vast territorial extent of Mongol rule\n",
+      "- Conquered territories from Europe to the Pacific"
+    ]
+  },
+  "achaemenid": {
+    "title": "Standard of the Achaemenid Empire",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "gold",
+        "hex": "#ffd700",
+        "cmyk": "0/16/100/0"
+      },
+      {
+        "color": "purple",
+        "hex": "#702963",
+        "cmyk": "0/63/12/56"
+      }
+    ],
+    "desc": [
+      "- The Achaemenid (Persian) Empire (550–330 BC) used the Derafsh Kaviani, a jewelled royal standard. It was the precursor to the Sassanid standard\n",
+      "- **Construction:** a standard or banner, typically depicting a golden eagle or falcon on a field of purple or crimson\n",
+      "- Achaemenid standards were military vexilloids rather than rectangular flags"
+    ],
+    "flag": "empires/achaemenid.svg",
+    "countryData": {
+      "name": "Achaemenid Empire",
+      "officialName": "Achaemenid Empire (First Persian Empire)",
+      "un": "none"
+    },
+    "cs": "empires/achaemenid.cs.svg",
+    "trivia": [
+      "- The Achaemenid Empire (550–330 BCE) was one of history's largest empires\n",
+      "- Created by Cyrus the Great and conquered territories from Egypt to India\n",
+      "- Known for advanced administration and the Royal Road trade network"
+    ]
+  },
+  "kingdom-of-jerusalem": {
+    "title": "Flag of the Kingdom of Jerusalem",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "The silver field representing the Holy City."
+      },
+      {
+        "color": "gold",
+        "hex": "#ffd700",
+        "cmyk": "0/16/100/0"
+      }
+    ],
+    "desc": [
+      "- The Crusader Kingdom of Jerusalem (1099–1291) used a white or silver field with a gold Jerusalem cross — unique as it broke the heraldic rule of tincture\n",
+      "- **Construction:** a white (silver) field bearing a gold Jerusalem Cross — a large cross potent surrounded by four smaller Greek crosses\n",
+      "- This is notable as an exception to the heraldic rule against metal-on-metal"
+    ],
+    "flag": "empires/kingdom-of-jerusalem.svg",
+    "countryData": {
+      "name": "Kingdom of Jerusalem",
+      "officialName": "Kingdom of Jerusalem",
+      "un": "none"
+    },
+    "cs": "empires/kingdom-of-jerusalem.cs.svg",
+    "trivia": [
+      "- The Kingdom of Jerusalem (1099–1291) was a Crusader state in the Levant\n",
+      "- Represented the height of Crusader power in the Holy Land\n",
+      "- Fell to Muslim forces at the end of the Crusades"
+    ]
+  },
+  "venice": {
+    "title": "Flag of the Republic of Venice",
+    "ratio": "1:2",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#cc0000",
+        "cmyk": "0/100/100/20",
+        "note": "The Lion of St Mark; Venetian maritime power."
+      },
+      {
+        "color": "gold",
+        "hex": "#ffd700",
+        "cmyk": "0/16/100/0"
+      }
+    ],
+    "desc": [
+      "- The Most Serene Republic of Venice (697–1797) flew the Lion of Saint Mark on a red field, one of the most recognisable maritime flags in history\n",
+      "- **Construction:** a red field with the Winged Lion of St Mark holding an open book, typically with a gold border\n",
+      "- The lion is in passant position with its front paw resting on the book"
+    ],
+    "flag": "empires/venice.svg",
+    "countryData": {
+      "name": "Republic of Venice",
+      "officialName": "Most Serene Republic of Venice",
+      "un": "none"
+    },
+    "cs": "empires/venice.cs.svg",
+    "trivia": [
+      "- Venice was a powerful medieval and Renaissance city-state and republic\n",
+      "- The winged lion represented Venetian power and maritime dominance\n",
+      "- One of history's greatest trading powers"
+    ]
+  }
+}

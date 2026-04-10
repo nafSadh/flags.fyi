@@ -1,11 +1,270 @@
 {
   "afghanistan": {
+    "title": "Flag of Afghanistan",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "2021-08-15"
+    },
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Field of the current (post-2021) flag; bears the black Shahada inscription."
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "pantone": "Black",
+        "note": "Shahada text; in the pre-2021 tricolour represented the dark past of foreign occupation."
+      },
+      {
+        "color": "red",
+        "hex": "#D32011",
+        "cmyk": "0/85/92/17",
+        "pantone": "485 C",
+        "note": "In the pre-2021 tricolour, represents the blood shed for independence."
+      },
+      {
+        "color": "green",
+        "hex": "#007A36",
+        "cmyk": "100/0/56/52",
+        "pantone": "348 C",
+        "note": "In the pre-2021 tricolour, symbolises Islam, hope, and prosperity."
+      }
+    ],
+    "desc": [
+      "- The current flag of the Islamic Emirate of Afghanistan is a plain white field bearing the Shahada (Islamic declaration of faith) in black Arabic script\n",
+      "- It was adopted upon the Taliban's return to power on 15 August 2021\n",
+      "- The previous flag (2004–2021) of the Islamic Republic was a vertical tricolour of black, red, and green with the national emblem — a mosque, Shahada, and wheat sheaves — in white at the centre\n",
+      "- Afghanistan has had more flag changes than almost any other country — over 20 designs since 1901, reflecting its turbulent political history\n",
+      "- Construction (pre-2021 tricolour): three equal vertical bands of black (hoist), red, and green\n",
+      "- The national emblem is centred, spanning roughly half the flag's height\n",
+      "- Ratio 2:3"
+    ],
+    "note": "The tricolor of black-red-green (with national emblem) was used from 2004 to 2021 under the Islamic Republic.",
+    "article": "afghanistan/flag.md",
+    "of": {
+      "country": "afghanistan"
+    },
+    "countryData": {
+      "name": "Afghanistan",
+      "officialName": "Islamic Emirate of Afghanistan",
+      "un": "member"
+    },
+    "cs": "afghanistan/flag.cs.svg",
+    "trivia": [
+      "- Only country to have changed its flag more than 20 times since 1900, reflecting decades of political upheaval\n",
+      "- The Taliban's plain white flag is one of the simplest national flags ever used\n",
+      "- The black-red-green tricolour's colours represent the dark past (black), blood shed for independence (red), and hope/Islam (green)"
+    ]
+  },
+  "af-kingdom": {
+    "title": "Flag of the Kingdom of Afghanistan",
     "ratio": "2:3",
     "colors": [
-      { "color": "black", "hex": "#000", "cmyk": "0-0-0-100" },
-      { "color": "red", "hex": "#d32011", "cmyk": "0-85-92-17" },
-      { "color": "green", "hex": "#007a36", "cmyk": "100-0-56-52" },
-      { "color": "white", "hex": "#fff", "cmyk": "0-0-0-0" }
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "Represents the dark past of colonial rule under the Kingdom."
+      },
+      {
+        "color": "red",
+        "hex": "#d32011",
+        "cmyk": "0/85/92/17",
+        "note": "Blood of those who fought for sovereignty."
+      },
+      {
+        "color": "green",
+        "hex": "#007a36",
+        "cmyk": "100/0/56/52",
+        "note": "Islam, prosperity, and the Afghan agricultural heartland."
+      }
+    ],
+    "desc": [
+      "- The flag of the Kingdom of Afghanistan (1929–1973) was a black, red, and green vertical tricolour with a white national emblem centred\n",
+      "- This design continued the tradition of the Afghan tricolour but with royal emblems reflecting the monarchy under King Mohammed Zahir Shah\n",
+      "- The kingdom was overthrown in a coup in 1973\n",
+      "- **Construction:** three equal vertical bands of black (hoist), red, and green, with the royal emblem centred on the red stripe. Ratio 2:3"
+    ],
+    "flag": "afghanistan/af-kingdom.svg",
+    "of": {
+      "country": "afghanistan"
+    },
+    "countryData": {
+      "name": "Afghanistan",
+      "officialName": "Kingdom of Afghanistan",
+      "un": "none"
+    },
+    "cs": "afghanistan/af-kingdom.cs.svg",
+    "trivia": [
+      "- Afghanistan's royal emblem on this flag reflected King Mohammed Zahir Shah's modernization efforts\n",
+      "- The kingdom lasted from 1929–1973, during Afghanistan's most stable modern period\n",
+      "- This design bridged traditional Afghan symbols with Western heraldic conventions"
+    ]
+  },
+  "af-republic": {
+    "title": "Flag of the Republic of Afghanistan",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "Heritage from the traditional Afghan tricolour."
+      },
+      {
+        "color": "red",
+        "hex": "#d32011",
+        "cmyk": "0/85/92/17",
+        "note": "Blood shed for independence and revolution."
+      },
+      {
+        "color": "green",
+        "hex": "#007a36",
+        "cmyk": "100/0/56/52",
+        "note": "Islam and hope for the future."
+      }
+    ],
+    "desc": [
+      "- The flag of the Republic of Afghanistan (1973–1978) used the same black-red-green vertical tricolour with a modified emblem omitting the royal crown\n",
+      "- After Mohammed Daoud Khan's republican coup in 1973, the monarchy was abolished and the flag's emblem was updated to reflect the new republic\n",
+      "- This flag was short-lived, replaced after the Saur Revolution in 1978\n",
+      "- **Construction:** three equal vertical bands of black (hoist), red, and green. The eagle-based republican emblem sits centred. Ratio 2:3"
+    ],
+    "flag": "afghanistan/af-republic.svg",
+    "of": {
+      "country": "afghanistan"
+    },
+    "countryData": {
+      "name": "Afghanistan",
+      "officialName": "Republic of Afghanistan",
+      "un": "none"
+    },
+    "cs": "afghanistan/af-republic.cs.svg",
+    "trivia": [
+      "- Adopted after Mohammed Daoud Khan's 1973 coup that abolished the 240-year monarchy\n",
+      "- Lasted only five years before the communist Saur Revolution replaced it in 1978\n",
+      "- The republican emblem omitted the royal crown, symbolising the end of monarchy"
+    ]
+  },
+  "af-soviet": {
+    "title": "Flag of the Democratic Republic of Afghanistan",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#d32011",
+        "cmyk": "0/85/92/17",
+        "note": "Communist revolution and solidarity with the USSR."
+      }
+    ],
+    "desc": [
+      "- The flag of Soviet-era Afghanistan (1978–1992) evolved through several versions, most featuring a red field or red element reflecting the country's alignment with the Soviet Union during the Saur Revolution and subsequent communist rule\n",
+      "- Early versions were predominantly red; later versions reintroduced the tricolour with modified socialist emblems\n",
+      "- The final version (1987) returned to the traditional black-red-green but with a new state seal\n",
+      "- **Construction:** various designs; the most recognisable was a red field with the state seal in the canton. Ratio 2:3"
+    ],
+    "flag": "afghanistan/af-soviet.svg",
+    "of": {
+      "country": "afghanistan"
+    },
+    "countryData": {
+      "name": "Afghanistan",
+      "officialName": "Democratic Republic of Afghanistan",
+      "un": "none"
+    },
+    "cs": "afghanistan/af-soviet.cs.svg",
+    "trivia": [
+      "- Afghanistan was the Soviet Union's only direct invasion of a Muslim-majority country\n",
+      "- The flag evolved through 14 years of conflict, reflecting shifting communist leadership\n",
+      "- The final version reintroduced the traditional tricolour with a socialist seal, attempting to reconcile tradition and ideology"
+    ]
+  },
+  "af-taliban-1996": {
+    "title": "Flag of the Islamic Emirate of Afghanistan (1996)",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "Purity and the Taliban's interpretation of Islamic governance."
+      }
+    ],
+    "desc": [
+      "- The flag used by the Taliban during their first rule (1996–2001) was a plain white field bearing the Shahada (Islamic declaration of faith) in black Arabic script\n",
+      "- This stark, minimalist design signalled the Taliban's austere interpretation of Islamic governance\n",
+      "- It was also used by the Islamic Emirate after 2021, making it the de facto national flag again\n",
+      "- **Construction:** a plain white field with the Shahada inscribed centrally in black Nastaliq script. Ratio 2:3"
+    ],
+    "flag": "afghanistan/af-taliban-1996.svg",
+    "of": {
+      "country": "afghanistan"
+    },
+    "countryData": {
+      "name": "Afghanistan",
+      "officialName": "Islamic Emirate of Afghanistan (1996–2001)",
+      "un": "none"
+    },
+    "cs": "afghanistan/af-taliban-1996.cs.svg",
+    "trivia": [
+      "- One of only two flags in the world that is a plain colour with only text (the other being Libya's old green flag)\n",
+      "- The Shahada (Islamic declaration of faith) is the world's most common phrase on national flags\n",
+      "- Used by the Taliban in both their 1996–2001 and 2021–present periods of rule"
+    ]
+  },
+  "af-islamic-republic": {
+    "title": "Flag of the Islamic Republic of Afghanistan",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "The dark past overcome by the nation."
+      },
+      {
+        "color": "red",
+        "hex": "#d32011",
+        "cmyk": "0/85/92/17",
+        "note": "Sacrifice in the struggle for independence."
+      },
+      {
+        "color": "green",
+        "hex": "#007a36",
+        "cmyk": "100/0/56/52",
+        "note": "Islam, prosperity, and the natural beauty of Afghanistan."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0"
+      }
+    ],
+    "desc": [
+      "- The flag of the Islamic Republic of Afghanistan (2004–2021) was a black, red, and green vertical tricolour bearing a white national emblem — a mosque with mihrab, Shahada, and wheat sheaves — at the centre\n",
+      "- Adopted in January 2004 under the new constitution, it replaced the various mujahedin and Taliban-era flags\n",
+      "- The emblem included the year 1298 (1919 CE, when Afghanistan gained independence from British influence)\n",
+      "- **Construction:** three equal vertical bands of black (hoist), red, and green. The white emblem is centred on the red band. Ratio 2:3"
+    ],
+    "flag": "afghanistan/af-islamic-republic.svg",
+    "of": {
+      "country": "afghanistan"
+    },
+    "countryData": {
+      "name": "Afghanistan",
+      "officialName": "Islamic Republic of Afghanistan",
+      "un": "none"
+    },
+    "cs": "afghanistan/af-islamic-republic.cs.svg",
+    "trivia": [
+      "- The national emblem includes the year 1298 (Islamic calendar), corresponding to 1919 CE when Afghanistan gained independence from Britain\n",
+      "- This 17-year flag (2004–2021) represented Afghanistan's longest democratic period\n",
+      "- The wheat sheaves symbolized Afghanistan's agricultural heritage and rural identity"
     ]
   }
 }

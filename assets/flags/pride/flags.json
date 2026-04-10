@@ -1,0 +1,167 @@
+{
+  "pride-rainbow": {
+    "title": "Rainbow Pride Flag",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#e40303",
+        "cmyk": "0/99/99/11",
+        "note": "Life."
+      },
+      {
+        "color": "orange",
+        "hex": "#ff8c00",
+        "cmyk": "0/45/100/0",
+        "note": "Healing."
+      },
+      {
+        "color": "yellow",
+        "hex": "#ffed00",
+        "cmyk": "0/7/100/0",
+        "note": "Sunlight."
+      },
+      {
+        "color": "green",
+        "hex": "#008026",
+        "cmyk": "100/0/70/50",
+        "note": "Nature."
+      },
+      {
+        "color": "blue",
+        "hex": "#004dff",
+        "cmyk": "100/70/0/0",
+        "note": "Serenity."
+      },
+      {
+        "color": "violet",
+        "hex": "#750787",
+        "cmyk": "13/95/0/47",
+        "note": "Spirit."
+      }
+    ],
+    "desc": [
+      "- Six horizontal stripes of red, orange, yellow, green, blue, and violet\n",
+      "- Designed by Gilbert Baker in 1978 for San Francisco's Gay Freedom Day Parade\n",
+      "- The original eight-stripe version included hot pink (sexuality) and turquoise (art/magic); these were dropped for manufacturing reasons\n",
+      "- Each colour carries symbolic meaning: life (red), healing (orange), sunlight (yellow), nature (green), serenity (blue), and spirit (violet)\n",
+      "- The rainbow flag has become the universal symbol of LGBTQ+ pride and diversity worldwide\n",
+      "- **Construction:** six equal horizontal stripes. Ratio typically 2:3 or 3:5"
+    ],
+    "flag": "pride/rainbow.svg",
+    "countryData": {
+      "name": "Rainbow Pride",
+      "officialName": "Rainbow Pride Flag",
+      "un": "none"
+    },
+    "cs": "pride/pride-rainbow.cs.svg",
+    "trivia": [
+      "- Gilbert Baker's original 1978 version had 8 stripes including hot pink (sex) and turquoise (art)\n",
+      "- The hot pink and turquoise were dropped because fabric wasn't available in those colours\n",
+      "- The flag has become a global symbol of LGBTQ+ pride and visibility"
+    ]
+  },
+  "pride-progress": {
+    "title": "Progress Pride Flag",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#e40303",
+        "cmyk": "0/99/99/11",
+        "note": "Life (from the rainbow flag)."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "Trans and non-binary communities."
+      },
+      {
+        "color": "pink",
+        "hex": "#ffafc8",
+        "cmyk": "0/31/22/0"
+      },
+      {
+        "color": "light blue",
+        "hex": "#74d7ee",
+        "cmyk": "51/10/0/7"
+      },
+      {
+        "color": "brown",
+        "hex": "#613915",
+        "cmyk": "0/41/78/62",
+        "note": "People of colour in the LGBTQ+ community."
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "Those living with or lost to AIDS."
+      }
+    ],
+    "desc": [
+      "- The six-stripe rainbow flag with an added chevron of five arrow-shaped stripes (white, pink, light blue, brown, and black) extending from the hoist\n",
+      "- Designed by Daniel Quasar in 2018 to incorporate the trans flag colours and stripes representing people of colour and those living with or lost to AIDS\n",
+      "- The arrow shape indicates forward movement and progress yet to be made\n",
+      "- **Construction:** the six rainbow stripes fill the fly\n",
+      "- The chevron occupies roughly one-third of the flag at the hoist, with its point at the centre\n",
+      "- Ratio 3:5"
+    ],
+    "flag": "pride/progress.svg",
+    "countryData": {
+      "name": "Progress Pride",
+      "officialName": "Progress Pride Flag",
+      "un": "none"
+    },
+    "cs": "pride/pride-progress.cs.svg",
+    "trivia": [
+      "- The chevron pointing right represents forward progress and was designed by Daniel Quasar in 2018\n",
+      "- The design incorporates the trans pride flag colours and adds emphasis on marginalized communities\n",
+      "- The flag emphasizes that the LGBTQ+ movement continues to progress toward equality"
+    ]
+  },
+  "pride-trans": {
+    "title": "Transgender Pride Flag",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "light blue",
+        "hex": "#5bcefa",
+        "cmyk": "64/18/0/2",
+        "note": "The traditional colour for baby boys."
+      },
+      {
+        "color": "pink",
+        "hex": "#f5a9b8",
+        "cmyk": "0/31/25/4",
+        "note": "The traditional colour for baby girls."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "Those who are transitioning, intersex, or identify as non-binary."
+      }
+    ],
+    "desc": [
+      "- Five horizontal stripes of light blue, pink, white, pink, and light blue\n",
+      "- Created by American trans woman Monica Helms in 1999, first flown at a Pride march in Phoenix, Arizona in 2000\n",
+      "- The light blue represents baby boys, the pink represents baby girls, and the white stripe is for those who are transitioning, intersex, or consider themselves non-binary\n",
+      "- The flag is deliberately symmetrical so that it appears correct regardless of which direction it flies — symbolising finding correctness in one's life\n",
+      "- **Construction:** five equal horizontal stripes arranged symmetrically. Ratio 3:5"
+    ],
+    "flag": "pride/trans.svg",
+    "countryData": {
+      "name": "Transgender Pride",
+      "officialName": "Transgender Pride Flag",
+      "un": "none"
+    },
+    "cs": "pride/pride-trans.cs.svg",
+    "trivia": [
+      "- The flag is intentionally symmetrical so it's correct no matter which direction it flies — symbolising 'finding correctness in one's life'\n",
+      "- The light blue and pink represent traditional colours assigned to boys and girls respectively\n",
+      "- The white stripe represents transition and the spectrum of gender identity"
+    ]
+  }
+}

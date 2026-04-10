@@ -1,0 +1,156 @@
+{
+  "yemen": {
+    "title": "Flag of the Republic of Yemen",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "1990-05-22"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#CE1126",
+        "cmyk": "0/92/89/0",
+        "pantone": "186 C",
+        "note": "Top stripe; represents the blood of martyrs and the revolution."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Middle stripe; represents hope for a bright future."
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "pantone": "Black",
+        "note": "Bottom stripe; represents the dark past under colonial and feudal rule."
+      }
+    ],
+    "desc": [
+      "- Three equal horizontal stripes of red (top), white, and black (bottom) — the Arab Liberation flag colours\n",
+      "- Yemen adopted this tricolour upon the unification of North Yemen and South Yemen on 22 May 1990\n",
+      "- The design removes the star (North) and triangle (South) from the two predecessor flags, symbolising unity\n",
+      "- The colours are shared with Egypt, Iraq, and Syria and derive from the flag poem of Safi al-Din al-Hili describing the four Pan-Arab colours\n",
+      "- **Construction:** three equal horizontal bands of red, white, and black. No charges or emblems. Ratio 2:3"
+    ],
+    "of": {
+      "country": "yemen"
+    },
+    "countryData": {
+      "name": "Yemen",
+      "officialName": "Republic of Yemen",
+      "un": "member"
+    },
+    "cs": "yemen/flag.cs.svg",
+    "trivia": [
+      "- The red-white-black tricolour are Pan-Arab colours\n",
+      "- The flag was unified in 1990 after the merger of North and South Yemen\n",
+      "- Yemen's flag emphasizes the nation's Arab identity"
+    ]
+  },
+  "north-yemen": {
+    "title": "Flag of the Yemen Arab Republic",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#ce1126",
+        "cmyk": "0/92/82/19",
+        "note": "Revolution."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "Peace."
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "The dark past."
+      },
+      {
+        "color": "green",
+        "hex": "#007a3d",
+        "cmyk": "100/0/50/52",
+        "note": "The star of Arab unity."
+      }
+    ],
+    "desc": [
+      "- The flag of the Yemen Arab Republic (North Yemen, 1962–1990) was a red-white-black horizontal tricolour with a green five-pointed star on the white stripe\n",
+      "- Adopted after the revolution that overthrew the Mutawakkilite monarchy in 1962, the flag used Pan-Arab colours\n",
+      "- It was replaced at unification in 1990 by the simpler three-stripe design without the star\n",
+      "- **Construction:** three equal horizontal bands of red (top), white (with a green star), and black. Ratio 2:3"
+    ],
+    "flag": "yemen/north-.svg",
+    "of": {
+      "country": "yemen"
+    },
+    "countryData": {
+      "name": "North Yemen",
+      "officialName": "Yemen Arab Republic",
+      "un": "none"
+    },
+    "cs": "yemen/north-yemen.cs.svg",
+    "trivia": [
+      "- North Yemen was an independent state from 1918 to 1990\n",
+      "- Unified with South Yemen in 1990 to form the modern Republic of Yemen\n",
+      "- The flag represented the northern part of the peninsula"
+    ]
+  },
+  "south-yemen": {
+    "title": "Flag of the People's Democratic Republic of Yemen",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#ce1126",
+        "cmyk": "0/92/82/19",
+        "note": "Revolution and Arab nationalism."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "A bright future."
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "The colonial past."
+      },
+      {
+        "color": "blue",
+        "hex": "#0035ad",
+        "cmyk": "100/69/0/32",
+        "note": "The triangle representing the people's liberation."
+      }
+    ],
+    "desc": [
+      "- The flag of the People's Democratic Republic of Yemen (South Yemen, 1967–1990) was a red-white-black horizontal tricolour with a light blue triangle at the hoist bearing a red star\n",
+      "- Adopted upon independence from Britain in 1967, the flag reflected the Marxist-Leninist orientation of the state\n",
+      "- The blue triangle and red star symbolised the people's liberation\n",
+      "- **Construction:** three equal horizontal bands of red (top), white, and black, with a light blue isosceles triangle at the hoist containing a red five-pointed star\n",
+      "- Ratio 2:3"
+    ],
+    "flag": "yemen/south-.svg",
+    "of": {
+      "country": "yemen"
+    },
+    "countryData": {
+      "name": "South Yemen",
+      "officialName": "People's Democratic Republic of Yemen",
+      "un": "none"
+    },
+    "cs": "yemen/south-yemen.cs.svg",
+    "trivia": [
+      "- South Yemen was an independent state from 1967 to 1990\n",
+      "- Unified with North Yemen in 1990 to form the modern Republic of Yemen\n",
+      "- The flag represented the southern part of the peninsula"
+    ]
+  }
+}

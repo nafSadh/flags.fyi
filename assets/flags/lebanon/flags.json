@@ -1,12 +1,59 @@
 {
   "lebanon": {
+    "title": "Flag of the Lebanese Republic",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag and ensign",
+      "since": "1943-12-07"
+    },
     "colors": [
-      { "color": "red", "hex": "#ed1c24" },
-      { "color": "white", "hex": "#fff" },
-      { "color": "green", "hex": "#00a651" }
+      {
+        "color": "red",
+        "hex": "#E4312B",
+        "cmyk": "4/95/94/1",
+        "pantone": "032 C",
+        "note": "Top and bottom stripes; represents the blood shed for liberation."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Central double-width stripe; symbolises peace, purity, and the snow of Mount Lebanon."
+      },
+      {
+        "color": "green",
+        "hex": "#008B45",
+        "cmyk": "87/21/99/7",
+        "pantone": "355 C",
+        "note": "The cedar tree; represents immortality and steadfastness, a biblical symbol of Lebanon since antiquity."
+      }
     ],
-    "colorNote": "Color estimaed from Wikipedia SVG.",
-    "cs": "lebanon/flag.cs.gif",
-    "article": "lebanon/flag.md"
+    "colorNote": "Color estimated from Wikipedia SVG.",
+    "cs": "lebanon/flag.cs.svg",
+    "article": "lebanon/flag.md",
+    "desc": [
+      "- Two horizontal red stripes separated by a white stripe of double width, with a green Cedar of Lebanon centred on the white band\n",
+      "- The cedar has been a symbol of Lebanon for millennia, appearing in the Epic of Gilgamesh and the Bible\n",
+      "- It represents immortality, steadfastness, and resilience\n",
+      "- The current design was adopted on 7 December 1943, shortly after independence from the French Mandate\n",
+      "- The red symbolises sacrifice, the white peace and purity\n",
+      "- **Construction:** three horizontal stripes in ratio 1:2:1 (red–white–red)\n",
+      "- The cedar tree is centred on the white stripe, its height touching both red stripes\n",
+      "- The trunk is brown; the foliage is green\n",
+      "- Ratio 2:3"
+    ],
+    "of": {
+      "country": "lebanon"
+    },
+    "countryData": {
+      "name": "Lebanon",
+      "officialName": "Republic of Lebanon",
+      "un": "member"
+    },
+    "trivia": [
+      "- The cedar of Lebanon is one of the oldest national symbols still in use — mentioned in the Epic of Gilgamesh\n",
+      "- The green represents the beauty of the land; the white represents peace and purity\n",
+      "- The cedar is found on Lebanon's mountains and is the most recognisable symbol of the nation"
+    ]
   }
 }

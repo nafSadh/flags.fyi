@@ -1,0 +1,51 @@
+{
+  "italy": {
+    "title": "Flag of Italy",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "1948-01-01"
+    },
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#008C45",
+        "cmyk": "100/0/51/45",
+        "note": "Represents the Italian landscape and hope",
+        "pantone": "355 C"
+      },
+      {
+        "color": "white",
+        "hex": "#F4F5F0",
+        "cmyk": "0/0/2/4",
+        "note": "Symbolizes the snow-capped Alps and peace"
+      },
+      {
+        "color": "red",
+        "hex": "#CD212A",
+        "cmyk": "0/100/100/0",
+        "note": "Represents the blood shed for Italian unification",
+        "pantone": "186 C"
+      }
+    ],
+    "desc": [
+      "- Three equal vertical stripes of green, white, and red, enshrined in Article 12 of the Italian Constitution\n",
+      "- The colours represent the natural landscape, the Alps, and the sacrifice of the Risorgimento"
+    ],
+    "article": "italy/flag.md",
+    "of": {
+      "country": "italy"
+    },
+    "countryData": {
+      "name": "Italy",
+      "officialName": "Italian Republic",
+      "un": "member"
+    },
+    "cs": "italy/flag.cs.svg",
+    "trivia": [
+      "- The Italian tricolour was inspired by the French Tricolore. Napoleon introduced it to Northern Italy in 1797\n",
+      "- The green represents the hills and plains; white represents the snow-capped Alps; red represents blood of independence\n",
+      "- Italy's flag was adopted during the Revolutions of 1848 and formalized in 1861 upon unification"
+    ]
+  }
+}

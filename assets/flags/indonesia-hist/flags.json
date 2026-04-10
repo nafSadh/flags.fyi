@@ -1,0 +1,47 @@
+{
+  "id-dutch-east-indies": {
+    "title": "Flag of the Dutch East Indies",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#ae1c28",
+        "cmyk": "0/84/77/32",
+        "note": "Dutch tricolour heritage."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "Dutch tricolour heritage."
+      },
+      {
+        "color": "blue",
+        "hex": "#21468b",
+        "cmyk": "76/50/0/45",
+        "note": "Dutch tricolour heritage."
+      }
+    ],
+    "desc": [
+      "- The flag of the Dutch East Indies used the Dutch tricolour (red, white, and blue horizontal stripes), representing the colonial administration of the Netherlands over the Indonesian archipelago from 1800 to 1942\n",
+      "- The Dutch tricolour flew over the East Indies for nearly 350 years if including the VOC period\n",
+      "- Indonesia's own red-and-white flag was banned during colonial rule but emerged as the national flag at independence in 1945\n",
+      "- **Construction:** the standard Dutch tricolour — three equal horizontal stripes of red (top), white, and blue. Ratio 2:3"
+    ],
+    "flag": "indonesia-hist/id-dutch-east-indies.svg",
+    "of": {
+      "country": "indonesia"
+    },
+    "countryData": {
+      "name": "Dutch East Indies",
+      "officialName": "Dutch East Indies",
+      "un": "none"
+    },
+    "cs": "indonesia-hist/id-dutch-east-indies.cs.svg",
+    "trivia": [
+      "- The Dutch East Indies was the Dutch colonial possessions in Southeast Asia (1602–1942)\n",
+      "- The Union Jack represented Dutch colonial rule\n",
+      "- Became Indonesia after Japanese occupation and Dutch withdrawal"
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "ethiopia": {
+    "title": "Flag of Ethiopia",
+    "ratio": "1:2",
+    "use": {
+      "as": "national flag and ensign",
+      "since": "1996-10-31"
+    },
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#078930",
+        "cmyk": "92/0/97/0",
+        "note": "Represents hope and the land's fertility",
+        "pantone": "348 C"
+      },
+      {
+        "color": "yellow",
+        "hex": "#FCDD09",
+        "cmyk": "0/1/100/0",
+        "note": "Represents peace and harmony",
+        "pantone": "116 C"
+      },
+      {
+        "color": "red",
+        "hex": "#DA121A",
+        "cmyk": "0/90/76/0",
+        "note": "Represents the blood spilled in defence of Ethiopia",
+        "pantone": "186 C"
+      },
+      {
+        "color": "blue",
+        "hex": "#0F47AF",
+        "cmyk": "99/76/0/0",
+        "note": "Background of the national emblem disc",
+        "pantone": "286 C"
+      }
+    ],
+    "desc": [
+      "- A green, yellow, and red horizontal tricolour with a golden pentagram on a blue disc at the centre\n",
+      "- The green-yellow-red combination has become a symbol of Pan-Africanism, adopted by many African nations"
+    ],
+    "article": "ethiopia/flag.md",
+    "of": {
+      "country": "ethiopia"
+    },
+    "countryData": {
+      "name": "Ethiopia",
+      "officialName": "Federal Democratic Republic of Ethiopia",
+      "un": "member"
+    },
+    "cs": "ethiopia/flag.cs.svg",
+    "trivia": [
+      "- The colours are Pan-African and originated in Ethiopia's ancient flag (green, gold, red)\n",
+      "- The Star of David in the centre represents the unity of the diverse ethnic groups\n",
+      "- Ethiopia was never colonized, and its flag is one of the oldest continuously used in Africa"
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "argentina": {
+    "title": "Flag of Argentina",
+    "ratio": "5:8",
+    "use": {
+      "as": "national flag",
+      "since": "1812-02-12"
+    },
+    "of": {
+      "country": "argentina"
+    },
+    "countryData": {
+      "name": "Argentina",
+      "officialName": "Argentine Republic",
+      "un": "member"
+    },
+    "colors": [
+      {
+        "color": "light blue",
+        "hex": "#75AADB",
+        "cmyk": "47/22/0/14",
+        "pantone": "284",
+        "note": "Represents the sky, freedom, and commerce"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Represents peace and unity"
+      },
+      {
+        "color": "yellow",
+        "hex": "#FCBF49",
+        "cmyk": "0/22/70/1",
+        "pantone": "1235",
+        "note": "Sun of May, representing the Inca sun god"
+      },
+      {
+        "color": "brown",
+        "hex": "#843511",
+        "pantone": "725",
+        "note": "Sun of May facial features",
+        "cmyk": "0/60/87/48"
+      }
+    ],
+    "desc": [
+      "- A horizontal triband of light blue and white with the Sun of May centred on the white stripe\n",
+      "- The sun was added in 1818 to commemorate the May Revolution of 1810\n",
+      "- Official proportions were standardized as 5:8 by IRAM-DEF D 7674:2004, ratified by Decree 1650/2010"
+    ],
+    "article": "argentina/flag.md",
+    "cs": "argentina/flag.cs.svg",
+    "trivia": [
+      "- The ratio was changed from 9:14 to 5:8 by an IRAM standard in 1997\n",
+      "- The Sun of May (Inti in Quechua) has a face with human features and alternating straight and wavy rays\n",
+      "- The first flag flown in Buenos Aires was hoisted by Manuel Belgrano in 1812, predating most Latin American nations"
+    ]
+  }
+}

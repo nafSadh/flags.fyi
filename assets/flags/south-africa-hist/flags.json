@@ -1,0 +1,47 @@
+{
+  "za-prinsevlag": {
+    "title": "Flag of South Africa (1928–1994)",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "orange",
+        "hex": "#e8712b",
+        "cmyk": "0/51/81/9",
+        "note": "The Prince's Flag (Prinsenvlag) of the Netherlands."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "Peace."
+      },
+      {
+        "color": "blue",
+        "hex": "#002395",
+        "cmyk": "100/77/0/42",
+        "note": "The sea and loyalty."
+      }
+    ],
+    "desc": [
+      "- The Prinsevlag (Prince's Flag) of South Africa was an orange, white, and blue horizontal tricolour — derived from the Dutch Prince's Flag — flown as part of the apartheid-era national flag (1928–1994)\n",
+      "- The South African flag of 1928 incorporated a central panel showing the Prinsevlag alongside the Union Jack and the flags of the two Boer republics\n",
+      "- The Prinsevlag itself represented the Afrikaner heritage\n",
+      "- **Construction:** three horizontal stripes of orange (top), white, and blue. Ratio 2:3"
+    ],
+    "flag": "south-africa-hist/za-prinsevlag.svg",
+    "of": {
+      "country": "south-africa"
+    },
+    "countryData": {
+      "name": "South Africa",
+      "officialName": "Prinsevlag (former South African flag element)",
+      "un": "none"
+    },
+    "cs": "south-africa-hist/za-prinsevlag.cs.svg",
+    "trivia": [
+      "- The Prinsevlag (Prince's Flag) is an alternative South African flag design\n",
+      "- Represents historical Dutch/Afrikaner heritage\n",
+      "- Used by some cultural and historical societies"
+    ]
+  }
+}

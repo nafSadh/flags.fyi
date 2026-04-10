@@ -1,0 +1,63 @@
+{
+  "syria": {
+    "title": "Flag of the Syrian Arab Republic",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "1980-03-29"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#CE1126",
+        "cmyk": "12/100/98/3",
+        "pantone": "186 C",
+        "note": "Top stripe; represents the blood of martyrs and the Hashemite dynasty."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Middle stripe; represents the Umayyad dynasty and a peaceful future."
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "pantone": "Black",
+        "note": "Bottom stripe; represents the Abbasid dynasty and the oppressive past."
+      },
+      {
+        "color": "green",
+        "hex": "#007A3D",
+        "cmyk": "89/27/100/15",
+        "pantone": "349 C",
+        "note": "Two stars on the white stripe; represent the Fatimid dynasty. The stars originally symbolised Egypt and Syria during the United Arab Republic."
+      }
+    ],
+    "desc": [
+      "- Three horizontal stripes of red, white, and black with two green five-pointed stars centred on the white stripe\n",
+      "- The flag uses the Pan-Arab colours representing four Arab dynasties: Hashemites (red), Umayyads (white), Abbasids (black), and Fatimids (green)\n",
+      "- This design was used during the United Arab Republic (1958–1961) when the two stars represented Egypt and Syria\n",
+      "- Syria readopted it in 1980\n",
+      "- The flag's history is intertwined with Syria's many political changes since independence in 1946\n",
+      "- **Construction:** three equal horizontal stripes\n",
+      "- The two green stars are five-pointed, evenly spaced on the white stripe along the horizontal centre line\n",
+      "- Ratio 2:3"
+    ],
+    "of": {
+      "country": "syria"
+    },
+    "countryData": {
+      "name": "Syria",
+      "officialName": "Syrian Arab Republic",
+      "un": "member"
+    },
+    "cs": "syria/flag.cs.svg",
+    "trivia": [
+      "- The stars represent the Syrian, Egyptian, and Palestinian struggles for unity\n",
+      "- The colours are Pan-Arab, representing the Arab world\n",
+      "- Syria's flag was part of the brief Syrian-Egyptian union (1958–1961) and reflects Pan-Arab aspirations"
+    ]
+  }
+}

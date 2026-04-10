@@ -1,0 +1,44 @@
+{
+  "vietnam": {
+    "title": "Flag of Vietnam",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "1955-11-30"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#DA251D",
+        "cmyk": "0/100/80/5",
+        "note": "Represents revolution and the blood shed for independence",
+        "pantone": "485 C"
+      },
+      {
+        "color": "yellow",
+        "hex": "#FFCD00",
+        "cmyk": "0/10/98/0",
+        "note": "Represents the soul and spirit of the nation",
+        "pantone": "116 C"
+      }
+    ],
+    "desc": [
+      "- A large yellow five-pointed star centred on a red field. The five points represent intellectuals, farmers, workers, entrepreneurs, and soldiers"
+    ],
+    "article": "vietnam/flag.md",
+    "of": {
+      "country": "vietnam"
+    },
+    "countryData": {
+      "name": "Vietnam",
+      "officialName": "Socialist Republic of Vietnam",
+      "un": "member"
+    },
+    "cs": "vietnam/flag.cs.svg",
+    "trivia": [
+      "- The single gold star represents the unity of Vietnam under communist leadership\n",
+      "- The red represents the struggle for independence and communism\n",
+      "- Vietnam adopted this flag in 1955 for North Vietnam; it became the flag of united Vietnam in 1975"
+    ]
+  }
+}

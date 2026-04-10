@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1190" height="750" viewBox="-49980 -31500 99960 63000" fill="none" font-family="Calibri,Arial,'Liberation Sans',sans-serif">
+	<title>Flag of the United Kingdom 3:5 — construction sheet</title>
+	<!-- DIMENSIONS
+		SVG:
+			S_RAW:     99960.00 × 63000.00
+			S_DISPLAY:  1190.00 × 750.00
+		FLAG:
+			F_RAW:     92400.00 × 55440.00
+			F_DISPLAY:  1100.00 × 660.00
+			F_LABEL:      50.00 × 30.00
+			F_RATIO:       5.00 × 3.00
+	-->
+	<defs>
+		<clipPath id="f">
+			<path d="m-25-15h50v30h-50z"/>
+		</clipPath>
+		<clipPath id="s">
+			<path d="m-25-15V0h50v15zm0 30H0v-30h25z"/>
+		</clipPath>
+		<marker id="left-arrow" viewBox="-4 -4 10 8" orient="auto" markerWidth="10" markerHeight="8">
+			<path fill="blue" d="m2 0 4 4-10-4L6-4z"/>
+		</marker>
+	</defs>
+	<path fill="#fafafa" d="m-49980-31500h99960v63000h-99960z"/>
+	<path fill="#fff" d="m-46200-27720h92400v55440h-92400z"/>
+	<g opacity=".5" transform="scale(1848)" clip-path="url(#f)">
+		<path fill="#012169" d="m-25-15h50v30h-50z"/>
+		<path stroke="#fff" stroke-width="6" d="m-25-15 50 30m-50 0 50-30"/>
+		<path stroke="#c8102e" stroke-width="4" clip-path="url(#s)" d="m-25-15 50 30m-50 0 50-30"/>
+		<path stroke="#fff" stroke-width="10" d="m0-15v30M-25 0h50"/>
+		<path stroke="#c8102e" stroke-width="6" d="m0-15v30M-25 0h50"/>
+	</g>
+	<g stroke="#000" stroke-width="140" stroke-linejoin="round" stroke-linecap="round">
+		<g stroke="#888">
+			<path stroke-dasharray="1490,630,210,630" stroke-dashoffset="745" d="m0 0 15400-9240M0 0-15400 9240M0 0-15400-9240M0 0l15400 9240"/>
+		</g>
+		<g stroke="#d55">
+			<path stroke-dasharray="1554,630,210,630" stroke-dashoffset="777" d="m0 0v-27720M0 0v27720"/>
+			<path stroke-dasharray="1450,630,210,630" stroke-dashoffset="725" d="m0 0h-46200M0 0h46200"/>
+		</g>
+		<path stroke="#444" stroke-width="250" d="m-46200-27720h92400v55440h-92400z"/>
+		<path d="m-5544-27720v22176h-40656m36960-22176v15711l-26184-15711M-46200-9240h20024l-20024-12015m0-6465 30800 18480h-7184l-23616-14170m51744-4310v22176h40656M9240-27720v15711l26184-15711M46200-9240H26176l20024-12015m0-6465L15400-9240H9240v-614l29776-17866M-5544 27720V5544h-40656m36960 22176V12009l-26184 15711M-46200 9240h20024l-20024 12015m0 6465 30800-18480h6160v614l-29776 17866m44560 0V5544h40656M9240 27720V12009l26184 15711M46200 9240H26176l20024 12015m0 6465L15400 9240h7184l23616 14170"/>
+		<path stroke="#222" stroke-width="75" stroke-dasharray="210,210" d="m-46200-30240V0m0 30240V0m36960-30240v57960m3696-57960v57960M5544-30240v57960m3696-57960v57960m36960-57960V0m0 30240V0m-94920-27720H0m48720 0H0M-48720-9240h94920m-94920 3696h94920M-48720 5544h94920m-94920 3696h94920m-94920 18480H0m48720 0H0m9240-39729-35416 21249m16936 2769L26176-9240m-35416-2769L26176 9240M9240 12009-26176-9240"/>
+	</g>
+	<g fill="#008" opacity=".8">
+		<circle r="200" cx="0" cy="0"/>
+		<circle r="200" cx="-46200" cy="-27720"/>
+		<circle r="200" cx="46200" cy="-27720"/>
+		<circle r="200" cx="-46200" cy="27720"/>
+		<circle r="200" cx="46200" cy="27720"/>
+		<circle r="200" cx="-5544" cy="-5544"/>
+		<circle r="200" cx="5544" cy="-5544"/>
+		<circle r="200" cx="5544" cy="5544"/>
+		<circle r="200" cx="-5544" cy="5544"/>
+		<circle r="200" cx="-9240" cy="-12009"/>
+		<circle r="200" cx="-26176" cy="-9240"/>
+		<circle r="200" cx="-15400" cy="-9240"/>
+		<circle r="200" cx="-22584" cy="-9240"/>
+		<circle r="200" cx="9240" cy="-12009"/>
+		<circle r="200" cx="26176" cy="-9240"/>
+		<circle r="200" cx="15400" cy="-9240"/>
+		<circle r="200" cx="9240" cy="-9240"/>
+		<circle r="200" cx="9240" cy="-9854"/>
+		<circle r="200" cx="-9240" cy="12009"/>
+		<circle r="200" cx="-26176" cy="9240"/>
+		<circle r="200" cx="-15400" cy="9240"/>
+		<circle r="200" cx="-9240" cy="9854"/>
+		<circle r="200" cx="-9240" cy="9240"/>
+		<circle r="200" cx="9240" cy="12009"/>
+		<circle r="200" cx="26176" cy="9240"/>
+		<circle r="200" cx="15400" cy="9240"/>
+		<circle r="200" cx="22584" cy="9240"/>
+	</g>
+	<g stroke="#00f" stroke-width="75" marker-start="url(#left-arrow)">
+		<path d="m-45900-29295h16380"/>
+		<path d="m-9540-29295h-16380"/>
+		<path d="m-5244-29295h4044"/>
+		<path d="m5244-29295H1200"/>
+		<path d="m9540-29295h16380"/>
+		<path d="m45900-29295H29520"/>
+		<path d="m-45900 29295h44100"/>
+		<path d="m45900 29295H1800"/>
+		<path d="m-47775 27420v-7140"/>
+		<path d="m-47775 9540v7140"/>
+		<path d="m-47775 5244V1200"/>
+		<path d="m-47775-5244v4044"/>
+		<path d="m-47775-9540v-7140"/>
+		<path d="m-47775-27420v7140"/>
+		<path d="m47775 27420V1800"/>
+		<path d="m47775-27420v25620"/>
+		<path d="m-33807-13469-874 1458"/>
+		<path d="m-32547-15568 539-899"/>
+		<path d="m-30954-18223-540 899"/>
+		<path d="m-30646-18737 809-1348"/>
+		<path d="m-28102-22977-809 1348"/>
+		<path d="m27793-23491-874-1458"/>
+		<path d="m29053-21392 539 899"/>
+		<path d="m30646-18737-540-899"/>
+		<path d="m30954-18223 809 1348"/>
+		<path d="m33498-13983-809-1348"/>
+		<path d="m-33498 13983 809 1348"/>
+		<path d="m-30954 18223-809-1348"/>
+		<path d="m-30646 18737 540 899"/>
+		<path d="m-29053 21392-539-899"/>
+		<path d="m-27793 23491 874 1458"/>
+		<path d="m28102 22977 809-1348"/>
+		<path d="m30646 18737-809 1348"/>
+		<path d="m30954 18223 540-899"/>
+		<path d="m32547 15568-539 899"/>
+		<path d="m33807 13469 874-1458"/>
+	</g>
+	<g fill="#000" text-anchor="middle" font-size="50" transform="scale(50)">
+		<g>
+			<text x="-554" y="-571">20</text>
+			<text x="-148" y="-571">2</text>
+			<text y="-571">6</text>
+			<text x="148" y="-571">2</text>
+			<text x="554" y="-571">20</text>
+			<text y="601">50</text>
+		</g>
+		<g transform="rotate(59)">
+			<text x="-92" y="-703">1</text>
+			<text x="-37" y="-703">2</text>
+			<text x="55" y="-703">3</text>
+			<text x="-55" y="733">3</text>
+			<text x="37" y="733">2</text>
+			<text x="92" y="733">1</text>
+		</g>
+		<g transform="rotate(270)">
+			<text x="-370" y="-941">10</text>
+			<text x="-148" y="-941">2</text>
+			<text y="-941" text-decoration="underline">6</text>
+			<text x="148" y="-941">2</text>
+			<text x="370" y="-941">10</text>
+			<text y="971">30</text>
+		</g>
+		<g transform="rotate(301)">
+			<text x="-92" y="-703">1</text>
+			<text x="-37" y="-703">2</text>
+			<text x="55" y="-703">3</text>
+			<text x="-55" y="733">3</text>
+			<text x="37" y="733">2</text>
+			<text x="92" y="733">1</text>
+		</g>
+		<g font-size="27">
+			<text x="-961" y="605">[<tspan font-weight="bold" fill="#080">GB</tspan>]</text>
+			<text x="961" y="605">[<tspan font-weight="bold" fill="#080">3:5</tspan>]</text>
+		</g>
+	</g>
+</svg>

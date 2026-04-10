@@ -1,14 +1,71 @@
 {
   "antigua-and-barbuda": {
+    "title": "Flag of Antigua and Barbuda",
     "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "1967-02-27"
+    },
     "colors": [
-      { "color": "black", "hex": "#000" },
-      { "color": "yellow", "hex": "#fcd116" },
-      { "color": "blue", "hex": "#0072c6" },
-      { "color": "white", "hex": "#fff" },
-      { "color": "red", "hex": "#ce1126" }
+      {
+        "color": "red",
+        "hex": "#CE1126",
+        "cmyk": "0/92/82/19",
+        "pantone": "186 C",
+        "note": "Background field; represents the dynamism and energy of the people."
+      },
+      {
+        "color": "blue",
+        "hex": "#0072C6",
+        "cmyk": "100/42/0/22",
+        "pantone": "300 C",
+        "note": "Horizontal band in the upper triangle; represents hope and the Caribbean Sea."
+      },
+      {
+        "color": "yellow",
+        "hex": "#FCD116",
+        "cmyk": "0/17/91/1",
+        "pantone": "116 C",
+        "note": "The half-sun with rays; represents a new dawn of nationhood and the sandy beaches."
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "pantone": "Black",
+        "note": "Band at the base of the triangle; represents the African heritage of the people."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Band representing the sand and beaches of the islands."
+      }
     ],
     "colorNote": "RGB hex values are based on Wikipedia SVG.",
-    "article": "antigua-and-barbuda/flag.md"
+    "article": "antigua-and-barbuda/flag.md",
+    "desc": [
+      "- A red field bisected by an inverted isosceles triangle in black, blue, and white, with a golden half-sun rising from the base of the triangle\n",
+      "- Designed by Sir Reginald Samuel, a nationally celebrated artist and teacher, the flag was adopted on 27 February 1967 upon achieving Associated Statehood and retained at independence on 1 November 1981\n",
+      "- The rising sun symbolises the dawn of a new era; together the colours represent the sun (gold), sea (blue), African heritage (black), and energy of the people (red)\n",
+      "- The V-shape formed by the triangle represents victory\n",
+      "- **Construction:** on a red field, an inverted isosceles triangle with vertex at the bottom edge and base at the top edge\n",
+      "- Inside the triangle from top to bottom: a black band, a blue band, a white band, then a golden half-sun with rays\n",
+      "- Ratio 2:3"
+    ],
+    "of": {
+      "country": "antigua-and-barbuda"
+    },
+    "countryData": {
+      "name": "Antigua and Barbuda",
+      "officialName": "Antigua and Barbuda",
+      "un": "member"
+    },
+    "cs": "antigua-and-barbuda/flag.cs.svg",
+    "trivia": [
+      "- The sun represents new dawn and a vibrant future; the V-shape represents victory\n",
+      "- The colours represent the sun (gold), African heritage (black), and Caribbean waters (blue)\n",
+      "- Adopted in 1967 upon independence from Britain; one of the most modern flag designs among Commonwealth nations"
+    ]
   }
 }

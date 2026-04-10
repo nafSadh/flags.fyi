@@ -1,0 +1,83 @@
+{
+  "es-basque": {
+    "title": "Ikurriña — Flag of the Basque Country",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#d52b1e",
+        "cmyk": "0/80/86/16",
+        "note": "The Basque people and their blood."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "The cross of Christianity (Lauburu influence)."
+      },
+      {
+        "color": "green",
+        "hex": "#009b3a",
+        "cmyk": "100/0/63/39",
+        "note": "The oak of Guernica, symbol of Basque liberties."
+      }
+    ],
+    "desc": [
+      "- The Ikurriña (1894) features a green saltire and white cross on red, designed by the founders of Basque nationalism\n",
+      "- Now the official flag of the Basque Autonomous Community\n",
+      "- **Construction:** a red field with a green saltire overlaid by a white cross (the Ikurriña). The cross and saltire extend to all edges"
+    ],
+    "flag": "spain-sub/es-basque.svg",
+    "of": {
+      "country": "spain"
+    },
+    "countryData": {
+      "name": "Basque Country",
+      "officialName": "Basque Autonomous Community",
+      "un": "none"
+    },
+    "cs": "spain-sub/es-basque.cs.svg",
+    "trivia": [
+      "- The Basque Country has a distinct language, culture, and identity separate from Spain\n",
+      "- The flag (Ikurriña) represents Basque nationalism and independence aspirations\n",
+      "- The cross symbolises Christianity; red and white are regional colours"
+    ]
+  },
+  "es-andalusia": {
+    "title": "Flag of Andalusia",
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#009150",
+        "cmyk": "100/0/45/43",
+        "note": "Hope and the open fields of Andalusia."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "Peace and the Andalusian towns (pueblos blancos)."
+      }
+    ],
+    "desc": [
+      "- The flag of Andalusia features two equal horizontal stripes of green (top) and white\n",
+      "- The green represents hope and the open fields; the white represents the whitewashed towns (pueblos blancos) and peace\n",
+      "- Designed by Blas Infante, the 'father of Andalusian nationalism', in 1918, it draws on the colours of the Umayyad Caliphate and the Almohad dynasty — reflecting the Islamic heritage of Al-Andalus\n",
+      "- **Construction:** two equal horizontal bands of green (top) and white. The coat of arms (Hercules between two columns) is sometimes centred. Ratio 2:3"
+    ],
+    "flag": "spain-sub/es-andalusia.svg",
+    "of": {
+      "country": "spain"
+    },
+    "countryData": {
+      "name": "Andalusia",
+      "officialName": "Autonomous Community of Andalusia",
+      "un": "none"
+    },
+    "cs": "spain-sub/es-andalusia.cs.svg",
+    "trivia": [
+      "- Andalusia is a region in southern Spain with Moorish heritage\n",
+      "- The flag represents Andalusian identity and autonomy within Spain\n",
+      "- The green represents Islamic heritage; white represents purity"
+    ]
+  }
+}

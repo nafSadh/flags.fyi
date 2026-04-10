@@ -1,0 +1,54 @@
+{
+  "british-virgin-islands": {
+    "title": "Flag of the British Virgin Islands",
+    "ratio": "1:2",
+    "use": {
+      "as": "civil flag",
+      "since": "1960-11-15"
+    },
+    "of": {
+      "country": "british-virgin-islands"
+    },
+    "countryData": {
+      "name": "British Virgin Islands",
+      "officialName": "Virgin Islands (British Overseas Territory)",
+      "un": "none"
+    },
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#012169",
+        "cmyk": "99/69/0/59",
+        "note": "British Blue Ensign."
+      },
+      {
+        "color": "red",
+        "hex": "#C8102E",
+        "cmyk": "0/92/77/22"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0"
+      },
+      {
+        "color": "green",
+        "hex": "#009A44",
+        "cmyk": "100/0/56/40",
+        "note": "The twelve lamps of the wise virgins."
+      }
+    ],
+    "desc": [
+      "- A Blue Ensign with the coat of arms featuring Saint Ursula holding a lamp, surrounded by eleven smaller lamps\n",
+      "- The arms refer to the territory's namesake, the legend of Saint Ursula and the 11,000 Virgins\n",
+      "- **Construction:** a Blue Ensign (1:2) with the Union Flag in the upper-hoist canton\n",
+      "- The territorial arms (Saint Ursula with lamps) appear in the fly half"
+    ],
+    "cs": "british-virgin-islands/flag.cs.svg",
+    "trivia": [
+      "- The Virgin Islands are British Overseas Territories in the Caribbean\n",
+      "- The flag features the Union Jack and the territory's coat of arms\n",
+      "- Known for financial services and tourism industries"
+    ]
+  }
+}

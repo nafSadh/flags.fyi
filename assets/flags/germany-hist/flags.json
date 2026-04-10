@@ -1,0 +1,217 @@
+{
+  "de-imperial": {
+    "title": "Flag of the German Empire",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "Prussia and the North German Confederation."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "Hanseatic cities and Brandenburg."
+      },
+      {
+        "color": "red",
+        "hex": "#dd0000",
+        "cmyk": "0/100/100/13",
+        "note": "Hanseatic tradition and the Free Cities."
+      }
+    ],
+    "desc": [
+      "- The German Empire (1871–1919) used a black-white-red horizontal tricolour, combining the colours of Prussia (black-white) and the Hanseatic League (red-white)\n",
+      "- **Construction:** three equal horizontal bands of black (top), white (middle), and red (bottom)"
+    ],
+    "flag": "germany-hist/de-imperial.svg",
+    "of": {
+      "country": "germany"
+    },
+    "countryData": {
+      "name": "Germany",
+      "officialName": "German Empire",
+      "un": "none"
+    },
+    "cs": "germany-hist/de-imperial.cs.svg",
+    "trivia": [
+      "- The Imperial German flag (1871–1918) featured the black-white-red tricolour\n",
+      "- Represented the unified German Empire under Prussian leadership\n",
+      "- Was replaced after Germany's defeat in World War I"
+    ]
+  },
+  "de-weimar": {
+    "title": "Flag of the Weimar Republic",
+    "ratio": "3:5",
+    "colors": [
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "From the revolutionary flag of 1848."
+      },
+      {
+        "color": "red",
+        "hex": "#dd0000",
+        "cmyk": "0/100/100/13",
+        "note": "Democratic aspirations."
+      },
+      {
+        "color": "gold",
+        "hex": "#ffcc00",
+        "cmyk": "0/20/100/0"
+      }
+    ],
+    "desc": [
+      "- The Weimar Republic (1919–1933) adopted the black-red-gold tricolour, the colours of German democratic tradition dating back to the 1848 revolutions\n",
+      "- **Construction:** three equal horizontal bands of black (top), red (middle), and gold (bottom) — the same tricolour used by modern Germany"
+    ],
+    "flag": "germany-hist/de-weimar.svg",
+    "of": {
+      "country": "germany"
+    },
+    "countryData": {
+      "name": "Germany",
+      "officialName": "Weimar Republic",
+      "un": "none"
+    },
+    "cs": "germany-hist/de-weimar.cs.svg",
+    "trivia": [
+      "- The Weimar Republic's flag (1919–1933) used black-red-gold tricolours\n",
+      "- Represented a democratic Germany between the empires\n",
+      "- Replaced by Nazi Germany in 1933 and later restored after WWII"
+    ]
+  },
+  "de-nazi": {
+    "title": "Flag of Nazi Germany",
+    "ratio": "3:5",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#dd0000",
+        "cmyk": "0/100/100/13",
+        "note": "Social revolution; appropriated from socialist symbolism."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "The disc bearing the swastika; national purity."
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "The swastika (Hakenkreuz); twisted symbol of Aryan ideology."
+      }
+    ],
+    "desc": [
+      "- A red field with a white disc at the centre containing a black swastika (Hakenkreuz)\n",
+      "- Adopted on 15 September 1935 by the Reich Flag Law, replacing the previous black-white-red triband as the sole national flag\n",
+      "- The red represented the 'social' aspect of National Socialism, the white disc the 'national' idea, and the swastika was twisted into a symbol of Aryan racial ideology\n",
+      "- The flag was banned in Germany after 1945 under denazification laws and remains prohibited in many countries\n",
+      "- **Construction:** a red field with a white disc centred; a black swastika rotated 45° fills the disc. Ratio 3:5"
+    ],
+    "flag": "germany-hist/de-nazi.svg",
+    "of": {
+      "country": "germany"
+    },
+    "countryData": {
+      "name": "Germany",
+      "officialName": "Nazi Germany",
+      "un": "none"
+    },
+    "cs": "germany-hist/de-nazi.cs.svg",
+    "trivia": [
+      "- The flag was designed by Hitler himself during the early 1930s\n",
+      "- Its display is illegal in modern Germany under §86a StGB (Strafgesetzbuch — German Criminal Code)\n",
+      "- The swastika predates Nazi use by thousands of years, appearing in many cultures, but its Nazi association makes it taboo"
+    ]
+  },
+  "de-east-germany": {
+    "title": "Flag of the German Democratic Republic",
+    "ratio": "3:5",
+    "colors": [
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "From the German national colours (Schwarz-Rot-Gold)."
+      },
+      {
+        "color": "red",
+        "hex": "#dd0000",
+        "cmyk": "0/100/100/13",
+        "note": "Unity and social progress."
+      },
+      {
+        "color": "gold",
+        "hex": "#ffcc00",
+        "cmyk": "0/20/100/0"
+      }
+    ],
+    "desc": [
+      "- East Germany (1959–1990) used the black-red-gold tricolour with a state emblem of hammer, compass, and wreath of rye — distinguishing it from the West German flag\n",
+      "- **Construction:** three equal horizontal bands of black (top), red (middle), and gold (bottom) — identical to the West German flag but defaced with the DDR emblem (hammer, compass, and wheat wreath) centred"
+    ],
+    "flag": "germany-hist/de-east-germany.svg",
+    "of": {
+      "country": "germany"
+    },
+    "countryData": {
+      "name": "East Germany",
+      "officialName": "German Democratic Republic",
+      "un": "none"
+    },
+    "cs": "germany-hist/de-east-germany.cs.svg",
+    "trivia": [
+      "- East Germany used a flag with the hammer and compass (communist symbols) from 1959 to 1990\n",
+      "- The flag represented the German Democratic Republic under Soviet influence\n",
+      "- East and West Germany reunified in 1990, returning to the black-red-gold tricolour"
+    ]
+  },
+  "de-west-germany": {
+    "title": "Flag of the Federal Republic of Germany (West)",
+    "ratio": "3:5",
+    "colors": [
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "Out of darkness (suffering and oppression)."
+      },
+      {
+        "color": "red",
+        "hex": "#dd0000",
+        "cmyk": "0/100/100/13",
+        "note": "Through bloody battle."
+      },
+      {
+        "color": "gold",
+        "hex": "#ffcc00",
+        "cmyk": "0/20/100/0"
+      }
+    ],
+    "desc": [
+      "- West Germany (1949–1990) restored the plain black-red-gold tricolour of the Weimar Republic. It became the flag of reunified Germany in 1990\n",
+      "- **Construction:** three equal horizontal bands of black (top), red (middle), and gold (bottom)"
+    ],
+    "flag": "germany-hist/de-west-germany.svg",
+    "of": {
+      "country": "germany"
+    },
+    "countryData": {
+      "name": "West Germany",
+      "officialName": "Federal Republic of Germany (1949–1990)",
+      "un": "none"
+    },
+    "cs": "germany-hist/de-west-germany.cs.svg",
+    "trivia": [
+      "- West Germany (1949–1990) used the black-red-gold flag\n",
+      "- Represented the democratic, Western-aligned portion of divided Germany\n",
+      "- Reunified with East Germany in 1990"
+    ]
+  }
+}

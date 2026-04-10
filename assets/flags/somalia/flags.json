@@ -1,0 +1,48 @@
+{
+  "somalia": {
+    "title": "Flag of the Federal Republic of Somalia",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "1954-10-12"
+    },
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#4189DD",
+        "cmyk": "65/30/0/0",
+        "pantone": "279 C",
+        "note": "Field colour; represents the sky and the Indian Ocean. Chosen to match the UN flag colour in gratitude for UN support of Somali independence."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Five-pointed star (Star of Unity); each point represents one of the five regions where Somali people live."
+      }
+    ],
+    "desc": [
+      "- A light blue field with a white five-pointed star (the Star of Unity) centred\n",
+      "- The five points of the star represent the five territories historically inhabited by Somalis: former British Somaliland, former Italian Somaliland, Djibouti, the Ogaden (Ethiopia), and the North Eastern Province (Kenya)\n",
+      "- Designed by Mohammed Awale Liban, the flag was adopted on 12 October 1954 for the trust territory and retained upon independence on 1 July 1960\n",
+      "- The blue was originally chosen to honour the United Nations\n",
+      "- **Construction:** a uniform blue field with a white five-pointed star centred\n",
+      "- The star's radius is approximately one-quarter of the hoist height\n",
+      "- Ratio 2:3"
+    ],
+    "of": {
+      "country": "somalia"
+    },
+    "countryData": {
+      "name": "Somalia",
+      "officialName": "Federal Republic of Somalia",
+      "un": "member"
+    },
+    "cs": "somalia/flag.cs.svg",
+    "trivia": [
+      "- The light blue was chosen to match the UN flag colour, in gratitude for UN support of independence\n",
+      "- The white star represents unity and equality of the Somali people\n",
+      "- Somalia adopted this flag in 1960 upon independence from Italy and Britain"
+    ]
+  }
+}

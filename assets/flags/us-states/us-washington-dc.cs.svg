@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="608" viewBox="-4000 -3500 103000 58000" fill="none" font-family="Calibri,Arial,'Liberation Sans',sans-serif">
+  <title>Flag of the District of Columbia — construction sheet</title>
+<defs>
+    <marker id="left-arrow" viewBox="-4 -4 10 8" orient="auto" markerWidth="10" markerHeight="8">
+        <path fill="blue" d="m2 0 4 4-10-4L6-4z"/>
+    </marker>
+</defs>
+<path fill="#fafafa" d="m-4000 -3500h103000v58000H-4000z"/>
+<path fill="#fff" d="m0 0h95000v50000H0z"/>
+<g opacity=".5">
+  <path fill="#ffffff" d="m0 0h95000v50000H0z"/>
+</g>
+<g stroke="#000" stroke-width="140" stroke-linejoin="round" stroke-linecap="round">
+  <path stroke="#444" stroke-width="250" d="m0 0h95000v50000H0z"/>
+  <path d="m0 16666.666666666668h95000m-95000 16666.666666666668h95000"/>
+  <path stroke="#222" stroke-width="75" stroke-dasharray="200,200" d="m47500.0 -2500.0v55000m-50000.0 -25000.0h100000"/>
+</g>
+<g stroke="#00f" stroke-width="75" marker-start="url(#left-arrow)">
+  <path d="m97000 15916.666666666668V9083.333333333334"/>
+  <path d="m97000 750.0v6833.333333333334"/>
+  <path d="m97000 32583.333333333336V25750.0"/>
+  <path d="m97000 17416.666666666668v6833.333333333332"/>
+  <path d="m97000 49250.0V42416.66666666667"/>
+  <path d="m97000 34083.333333333336v6833.333333333336"/>
+  <path d="m750 52000h46000.0"/>
+  <path d="m94250 52000H48250.0"/>
+  <path d="m-2000 49250V25750.0"/>
+  <path d="m-2000 750v23500.0"/>
+</g>
+<g fill="#000" text-anchor="middle" font-size="50" transform="scale(50)">
+  <text x="1950" y="172">1</text>
+  <text x="1950" y="505">1</text>
+  <text x="1950" y="838">1</text>
+  <text x="950" y="1065">19</text>
+  <g transform="rotate(270)"><text y="-70">10</text></g>
+  <g font-size="27">
+    <text x="-2" y="1072">[<tspan font-weight="bold" fill="#080">US</tspan>]</text>
+    <text x="1902" y="1072">[<tspan font-weight="bold" fill="#080">10:19</tspan>]</text>
+  </g>
+</g>
+</svg>

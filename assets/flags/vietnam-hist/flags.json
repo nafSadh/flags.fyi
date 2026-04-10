@@ -1,0 +1,81 @@
+{
+  "vn-south": {
+    "title": "Flag of the Republic of Vietnam (South Vietnam)",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "yellow",
+        "hex": "#ffff00",
+        "cmyk": "0/0/100/0",
+        "note": "The South Vietnamese Republic; heritage from the imperial colour."
+      },
+      {
+        "color": "red",
+        "hex": "#da251d",
+        "cmyk": "0/83/87/15",
+        "note": "The three stripes represent the three regions of Vietnam (or blood and revolution)."
+      }
+    ],
+    "desc": [
+      "- The flag of South Vietnam featured a yellow field with three horizontal red stripes across the centre, continuing the imperial yellow of Vietnam's monarchical tradition\n",
+      "- Used by the Republic of Vietnam (1955–1975), this flag dates back to the Nguyễn dynasty and Emperor Thành Thái's 1890 decree\n",
+      "- The three stripes are variously interpreted as the three regions of Vietnam (Cochinchina, Annam, Tonkin) or the tearing of blood through the nation\n",
+      "- After the fall of Saigon in 1975, the flag was banned in Vietnam but remains a powerful symbol for the Vietnamese diaspora\n",
+      "- **Construction:** a yellow field with three thin red horizontal stripes equally spaced across the centre. Ratio 2:3"
+    ],
+    "flag": "vietnam-hist/vn-south.svg",
+    "of": {
+      "country": "vietnam"
+    },
+    "countryData": {
+      "name": "South Vietnam",
+      "officialName": "Republic of Vietnam",
+      "un": "none"
+    },
+    "cs": "vietnam-hist/vn-south.cs.svg",
+    "trivia": [
+      "- South Vietnam (1955–1975) used a different flag than the North\n",
+      "- The yellow field represented the southern state's identity\n",
+      "- Replaced by the unified Vietnam flag after the 1975 reunification"
+    ]
+  },
+  "vn-empire": {
+    "title": "Flag of the Empire of Vietnam",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "yellow",
+        "hex": "#ffff00",
+        "cmyk": "0/0/100/0",
+        "note": "The imperial colour of the Nguyễn dynasty."
+      },
+      {
+        "color": "red",
+        "hex": "#da251d",
+        "cmyk": "0/83/87/15"
+      }
+    ],
+    "desc": [
+      "- The flag of the Vietnamese Empire (Nguyễn dynasty) was a plain yellow field, the imperial colour exclusive to the emperor\n",
+      "- Some versions included emblems or dragons\n",
+      "- Yellow was considered the colour of royalty in Vietnamese and broader East Asian tradition, representing the earth element and the emperor's mandate\n",
+      "- The Nguyễn dynasty ruled from 1802 to 1945\n",
+      "- **Construction:** a plain yellow field, sometimes with an imperial dragon or other emblems. Ratio approximately 2:3"
+    ],
+    "flag": "vietnam-hist/vn-empire.svg",
+    "of": {
+      "country": "vietnam"
+    },
+    "countryData": {
+      "name": "Vietnam",
+      "officialName": "Empire of Vietnam",
+      "un": "none"
+    },
+    "cs": "vietnam-hist/vn-empire.cs.svg",
+    "trivia": [
+      "- Vietnam's imperial flags represented various dynasties\n",
+      "- Used traditional Chinese influences and local symbols\n",
+      "- Evolved through periods of French colonialism and war"
+    ]
+  }
+}

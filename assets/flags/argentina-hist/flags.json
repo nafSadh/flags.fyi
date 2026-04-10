@@ -1,0 +1,81 @@
+{
+  "ar-celeste-blanca": {
+    "title": "First Flag of Argentina (Celeste y Blanca)",
+    "ratio": "5:8",
+    "colors": [
+      {
+        "color": "celeste",
+        "hex": "#74acdf",
+        "cmyk": "48/23/0/13"
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "Purity and the silver of the Río de la Plata."
+      }
+    ],
+    "desc": [
+      "- The 'Celeste y Blanca' was the original Argentine flag designed by Manuel Belgrano in 1812 during the Argentine War of Independence — two light blue (celeste) stripes flanking a white centre\n",
+      "- Belgrano chose the celeste and white from the colours of the Buenos Aires cockade\n",
+      "- The flag was first raised on 27 February 1812 on the banks of the Paraná River\n",
+      "- The Sun of May was added later\n",
+      "- **Construction:** three horizontal bands of celeste (top), white, and celeste. No sun emblem. Ratio approximately 5:8"
+    ],
+    "flag": "argentina-hist/ar-celeste-blanca.svg",
+    "of": {
+      "country": "argentina"
+    },
+    "countryData": {
+      "name": "Argentina",
+      "officialName": "Argentine Republic",
+      "un": "none"
+    },
+    "cs": "argentina-hist/ar-celeste-blanca.cs.svg",
+    "trivia": [
+      "- The 'Celeste y Blanca' (sky blue and white) flag is used for official state purposes\n",
+      "- Argentina has slight variations for civilian and state use\n",
+      "- This variant emphasizes Argentine national identity and tradition"
+    ]
+  },
+  "ar-sun-of-may": {
+    "title": "Flag of Argentina with Sun of May",
+    "ratio": "5:8",
+    "colors": [
+      {
+        "color": "celeste",
+        "hex": "#74acdf",
+        "cmyk": "48/23/0/13"
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0"
+      },
+      {
+        "color": "gold",
+        "hex": "#fcbf49",
+        "cmyk": "0/24/71/1"
+      }
+    ],
+    "desc": [
+      "- The Sun of May (Sol de Mayo) was added to the Argentine flag in 1818, symbolising the May Revolution of 1810 and the Inca sun god Inti\n",
+      "- **Construction:** the Sun of May emblem alone — a 32-ray alternating straight-and-wavy sun with a human face, rendered in gold/yellow"
+    ],
+    "flag": "argentina-hist/ar-sun-of-may.svg",
+    "of": {
+      "country": "argentina"
+    },
+    "countryData": {
+      "name": "Argentina",
+      "officialName": "Argentine Republic",
+      "un": "none"
+    },
+    "cs": "argentina-hist/ar-sun-of-may.cs.svg",
+    "trivia": [
+      "- The Sun of May (Inti in Quechua) features prominently in Argentina's heraldry\n",
+      "- The sun has a human face with alternating straight and wavy rays\n",
+      "- The symbol comes from Incan sun worship traditions"
+    ]
+  }
+}

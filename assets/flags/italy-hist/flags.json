@@ -1,0 +1,92 @@
+{
+  "it-kingdom": {
+    "title": "Flag of the Kingdom of Italy",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#008c45",
+        "cmyk": "100/0/51/45",
+        "note": "The Italian landscape and hope."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "Faith and the snow of the Alps."
+      },
+      {
+        "color": "red",
+        "hex": "#cd212a",
+        "cmyk": "0/84/80/20",
+        "note": "Charity and the blood of Italian wars of independence."
+      }
+    ],
+    "desc": [
+      "- The flag of the Kingdom of Italy (1861–1946) was the Italian green-white-red vertical tricolour with the royal coat of arms of the House of Savoy (a white cross on a red shield) centred on the white stripe\n",
+      "- This flag flew during Italy's unification, through both World Wars, and was replaced by the plain tricolour when Italy became a republic after the 1946 referendum\n",
+      "- **Construction:** three equal vertical bands of green (hoist), white, and red\n",
+      "- The Savoy coat of arms is centred on the white stripe, surrounded by a blue border\n",
+      "- Ratio 2:3"
+    ],
+    "flag": "italy-hist/it-kingdom.svg",
+    "of": {
+      "country": "italy"
+    },
+    "countryData": {
+      "name": "Italy",
+      "officialName": "Kingdom of Italy",
+      "un": "none"
+    },
+    "cs": "italy-hist/it-kingdom.cs.svg",
+    "trivia": [
+      "- The Kingdom of Italy (1861–1946) represented unified Italy under the House of Savoy\n",
+      "- The flag used the Italian tricolour with royal heraldic symbols\n",
+      "- Became a republic after World War II"
+    ]
+  },
+  "it-social-republic": {
+    "title": "Flag of the Italian Social Republic (Salò)",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#008c45",
+        "cmyk": "100/0/51/45",
+        "note": "From the Italian Tricolore."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "From the Italian Tricolore."
+      },
+      {
+        "color": "red",
+        "hex": "#cd212a",
+        "cmyk": "0/84/80/20",
+        "note": "From the Italian Tricolore."
+      }
+    ],
+    "desc": [
+      "- The Italian Social Republic (1943–1945) was a German-backed fascist puppet state in northern Italy\n",
+      "- It used the plain Italian tricolour without the Savoy arms\n",
+      "- **Construction:** the Italian tricolour, often used without arms or with a Roman eagle device during the RSI period"
+    ],
+    "flag": "italy-hist/it-social-republic.svg",
+    "of": {
+      "country": "italy"
+    },
+    "countryData": {
+      "name": "Italy",
+      "officialName": "Italian Social Republic",
+      "un": "none"
+    },
+    "cs": "italy-hist/it-social-republic.cs.svg",
+    "trivia": [
+      "- The Italian Social Republic (1943–1945) was a Nazi puppet state in northern Italy\n",
+      "- Represented Mussolini's final regime under German control\n",
+      "- Fell with the Allied liberation of Italy"
+    ]
+  }
+}

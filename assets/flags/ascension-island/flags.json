@@ -1,0 +1,54 @@
+{
+  "ascension-island": {
+    "title": "Flag of Ascension Island",
+    "ratio": "1:2",
+    "use": {
+      "as": "unofficial flag"
+    },
+    "of": {
+      "country": "ascension-island"
+    },
+    "countryData": {
+      "name": "Ascension Island",
+      "officialName": "Ascension Island (British Overseas Territory)",
+      "un": "none"
+    },
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#012169",
+        "note": "Blue Ensign field",
+        "cmyk": "99/69/0/59"
+      },
+      {
+        "color": "red",
+        "hex": "#C8102E",
+        "cmyk": "0/92/77/22"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0"
+      },
+      {
+        "color": "green",
+        "hex": "#009A44",
+        "note": "Coat of arms turtle",
+        "cmyk": "100/0/56/40"
+      }
+    ],
+    "desc": [
+      "- The unofficial flag of Ascension Island is a Blue Ensign with the territory's coat of arms in the fly\n",
+      "- The arms feature two turtles and a mountain representing Green Mountain\n",
+      "- Ascension Island, a volcanic island in the South Atlantic, is a dependency of Saint Helena\n",
+      "- As it has no official flag, the Blue Ensign version is used for ceremonial purposes\n",
+      "- **Construction:** British Blue Ensign with coat of arms badge in the fly half. Ratio 1:2"
+    ],
+    "cs": "ascension-island/flag.cs.svg",
+    "trivia": [
+      "- Ascension Island is a remote British territory in the Atlantic Ocean\n",
+      "- The island has a tiny population of around 800 people\n",
+      "- Home to an important military base and BBC relay station"
+    ]
+  }
+}

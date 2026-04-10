@@ -1,0 +1,44 @@
+{
+  "poland": {
+    "title": "Flag of Poland",
+    "ratio": "5:8",
+    "use": {
+      "as": "national flag",
+      "since": "1919-08-01"
+    },
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#E9E8E7",
+        "cmyk": "0/0/0/0",
+        "note": "Represents purity, peace, and freedom"
+      },
+      {
+        "color": "red",
+        "hex": "#D4213D",
+        "cmyk": "0/91/73/14",
+        "note": "Represents courage and blood shed for independence",
+        "pantone": "186 C"
+      }
+    ],
+    "desc": [
+      "- Two equal horizontal stripes of white above red, adopted on 1 August 1919 following independence\n",
+      "- One of the simplest flag designs among sovereign nations"
+    ],
+    "article": "poland/flag.md",
+    "of": {
+      "country": "poland"
+    },
+    "countryData": {
+      "name": "Poland",
+      "officialName": "Republic of Poland",
+      "un": "member"
+    },
+    "cs": "poland/flag.cs.svg",
+    "trivia": [
+      "- The white represents peace; the red represents independence and blood of struggle\n",
+      "- Poland's flag is nearly identical to Indonesia's, differing only in the exact shade and proportions\n",
+      "- The Polish flag dates back to heraldic traditions from medieval Poland"
+    ]
+  }
+}

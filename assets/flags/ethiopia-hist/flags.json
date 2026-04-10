@@ -1,0 +1,89 @@
+{
+  "et-imperial-lion": {
+    "title": "Flag of Imperial Ethiopia (Lion of Judah)",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#078930",
+        "cmyk": "95/0/65/46",
+        "note": "The land and hope."
+      },
+      {
+        "color": "yellow",
+        "hex": "#fcdd09",
+        "cmyk": "0/12/96/1",
+        "note": "The church, peace, and natural resources."
+      },
+      {
+        "color": "red",
+        "hex": "#da121a",
+        "cmyk": "0/92/88/15",
+        "note": "Power and courage."
+      }
+    ],
+    "desc": [
+      "- Imperial Ethiopia (1913–1974) used the green-yellow-red tricolour with the crowned Lion of Judah, symbolising the Solomonic dynasty's descent from King Solomon\n",
+      "- **Construction:** three equal horizontal bands of green, yellow, and red with the Lion of Judah (carrying a cross-topped staff) centred"
+    ],
+    "flag": "ethiopia-hist/et-imperial-lion.svg",
+    "of": {
+      "country": "ethiopia"
+    },
+    "countryData": {
+      "name": "Ethiopia",
+      "officialName": "Ethiopian Empire",
+      "un": "none"
+    },
+    "cs": "ethiopia-hist/et-imperial-lion.cs.svg",
+    "trivia": [
+      "- Ethiopia's Imperial Lion flag represented the Lion of Judah — Ethiopia's traditional symbol\n",
+      "- Emperor Haile Selassie I was called the Lion of Judah\n",
+      "- The flag represented Ethiopia's ancient Christian monarchy"
+    ]
+  },
+  "et-derg": {
+    "title": "Flag of Ethiopia (Derg Period)",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#078930",
+        "cmyk": "95/0/65/46",
+        "note": "The land and the future."
+      },
+      {
+        "color": "yellow",
+        "hex": "#fcdd09",
+        "cmyk": "0/12/96/1",
+        "note": "Peace and the equality of peoples."
+      },
+      {
+        "color": "red",
+        "hex": "#da121a",
+        "cmyk": "0/92/88/15",
+        "note": "Sacrifice and the socialist revolution."
+      }
+    ],
+    "desc": [
+      "- The Derg (1974–1987) initially used the tricolour with an uncrowned lion, then removed it entirely\n",
+      "- The plain green-yellow-red tricolour represented the revolutionary period\n",
+      "- **Construction:** three equal horizontal bands of green (top), yellow (middle), and red (bottom), without the blue disc emblem used in the current flag"
+    ],
+    "flag": "ethiopia-hist/et-derg.svg",
+    "of": {
+      "country": "ethiopia"
+    },
+    "countryData": {
+      "name": "Ethiopia",
+      "officialName": "People's Democratic Republic of Ethiopia",
+      "un": "none"
+    },
+    "cs": "ethiopia-hist/et-derg.cs.svg",
+    "trivia": [
+      "- The Derg (1974–1987) was Ethiopia's communist military regime\n",
+      "- The flag represented communist Ethiopia during Soviet alignment\n",
+      "- Responsible for the Red Terror and mass famine"
+    ]
+  }
+}

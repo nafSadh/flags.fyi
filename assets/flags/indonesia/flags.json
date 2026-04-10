@@ -1,0 +1,44 @@
+{
+  "indonesia": {
+    "title": "Flag of Indonesia",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "1945-08-17"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#CE1126",
+        "cmyk": "0/91/81/19",
+        "note": "Represents courage and the blood of independence heroes",
+        "pantone": "186 C"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Symbolizes purity and the spiritual life of the nation"
+      }
+    ],
+    "desc": [
+      "- Two equal horizontal bands, red above white, derived from the 13th-century Majapahit Empire flag\n",
+      "- The simplest design among sovereign flags, representing the duality of body and spirit"
+    ],
+    "article": "indonesia/flag.md",
+    "of": {
+      "country": "indonesia"
+    },
+    "countryData": {
+      "name": "Indonesia",
+      "officialName": "Republic of Indonesia",
+      "un": "member"
+    },
+    "cs": "indonesia/flag.cs.svg",
+    "trivia": [
+      "- The red and white colours come from the Majapahit Empire (1293–1527), one of the largest maritime empires\n",
+      "- The simplicity of Indonesia's flag makes it distinctive — just two horizontal stripes\n",
+      "- Indonesia's flag is nearly identical to Monaco's and the Polish flag, differing only in proportions"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "new-zealand": {
+    "title": "Flag of New Zealand",
+    "ratio": "1:2",
+    "use": {
+      "as": "national flag",
+      "since": "1902-03-24"
+    },
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#00247D",
+        "cmyk": "100/85/0/39",
+        "note": "Represents the Southern Ocean and Commonwealth",
+        "pantone": "280 C"
+      },
+      {
+        "color": "red",
+        "hex": "#C8102E",
+        "cmyk": "0/100/80/5",
+        "note": "Represents the Southern Cross stars",
+        "pantone": "186 C"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Represents peace and equality"
+      }
+    ],
+    "desc": [
+      "- A royal blue field with the Union Jack in the canton and four red stars with white borders representing the Southern Cross. Formally adopted in 1902"
+    ],
+    "article": "new-zealand/flag.md",
+    "of": {
+      "country": "new-zealand"
+    },
+    "countryData": {
+      "name": "New Zealand",
+      "officialName": "New Zealand",
+      "un": "member"
+    },
+    "cs": "new-zealand/flag.cs.svg",
+    "trivia": [
+      "- The Union Jack reflects New Zealand's historical ties to Britain\n",
+      "- The four red stars represent the Southern Cross constellation\n",
+      "- New Zealand adopted this flag in 1902; it remains one of the last Commonwealth nations using the Union Jack"
+    ]
+  }
+}

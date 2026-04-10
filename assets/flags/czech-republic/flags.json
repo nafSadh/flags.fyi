@@ -1,0 +1,51 @@
+{
+  "czech-republic": {
+    "title": "Flag of the Czech Republic",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "1993-01-01"
+    },
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Symbolizes purity and peace"
+      },
+      {
+        "color": "red",
+        "hex": "#D7141A",
+        "cmyk": "0/90/87/15",
+        "note": "Represents courage and valor",
+        "pantone": "186 C"
+      },
+      {
+        "color": "blue",
+        "hex": "#11457E",
+        "cmyk": "86/45/0/50",
+        "note": "Symbolizes loyalty and the historical Czech lands",
+        "pantone": "286 C"
+      }
+    ],
+    "desc": [
+      "- Two horizontal stripes of white and red with a blue isosceles triangle at the hoist extending to the midpoint\n",
+      "- Retained from the former Czechoslovak flag upon independence in 1993"
+    ],
+    "article": "czech-republic/flag.md",
+    "of": {
+      "country": "czech-republic"
+    },
+    "countryData": {
+      "name": "Czech Republic",
+      "officialName": "Czech Republic",
+      "un": "member"
+    },
+    "cs": "czech-republic/flag.cs.svg",
+    "trivia": [
+      "- The white and red were historically from the Bohemian kingdom; the blue was added from Moravia\n",
+      "- The wedge (triquetra) on the left creates a unique geometric profile\n",
+      "- Adopted in 1990 after the Velvet Revolution separated Czechoslovakia"
+    ]
+  }
+}

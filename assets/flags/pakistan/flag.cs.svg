@@ -1,0 +1,234 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1105" height="750" viewBox="-3780 -3780 92820 63000" fill="none" font-family="Calibri,Arial,'Liberation Sans',sans-serif">
+	<title>Flag of Pakistan — construction sheet</title>
+	<!-- DIMENSIONS
+		SVG:
+			S_RAW:     92820.00 × 63000.00
+			S_DISPLAY:  1105.00 × 750.00
+		FLAG:
+			F_RAW:     83160.00 × 55440.00
+			F_DISPLAY:   990.00 × 660.00
+			F_LABEL:      30.00 × 20.00
+			F_RATIO:       3.00 × 2.00
+	-->
+	<defs>
+		<marker id="left-arrow" viewBox="-4 -4 10 8" orient="auto" markerWidth="10" markerHeight="8">
+			<path fill="blue" d="m2 0 4 4-10-4L6-4z"/>
+		</marker>
+		<path id="MJX-1-TEX-N-3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"/>
+		<path id="MJX-1-TEX-SO-221A" d="M263 249Q264 249 315 130T417 -108T470 -228L725 302Q981 837 982 839Q989 850 1001 850Q1008 850 1013 844T1020 832V826L741 243Q645 43 540 -176Q479 -303 469 -324T453 -348Q449 -350 436 -350L424 -349L315 -96Q206 156 205 156L171 130Q138 104 137 104L111 130L263 249Z"/>
+		<path id="MJX-1-TEX-SS-1D5A0" d="M183 181Q183 179 152 91T118 0H28L154 346L280 693Q281 694 333 694H385L511 349Q636 4 638 2Q638 0 584 0H530L464 183H184L183 181ZM324 606Q319 578 292 492T238 332T210 256Q210 254 324 254T438 255L429 281L419 308Q409 336 395 378T365 465T339 551T324 611V606Z"/>
+		<path id="MJX-1-TEX-SS-1D5A1" d="M425 363Q438 363 465 353T526 324T585 270T610 192Q610 132 561 78T426 7Q404 2 387 2T240 0H90V694H227Q373 693 396 689Q484 673 533 623T583 517Q583 494 574 473T551 437T520 409T487 388T456 374T433 366L425 363ZM490 516Q490 527 485 539T467 568T423 599T347 621Q340 622 262 623H188V399H261H286Q432 399 478 475Q490 496 490 516ZM514 190Q514 245 462 280T343 322Q336 323 259 323H188V71H274Q365 72 388 77Q445 88 479 121T514 190Z"/>
+		<path id="MJX-1-TEX-SS-1D7E2" d="M117 621Q174 678 247 678Q305 678 351 647Q396 617 424 557Q460 472 460 328Q460 271 455 224Q448 154 427 104T376 27T314 -10T249 -22Q201 -22 160 1T91 67Q39 154 39 316Q39 541 117 621ZM250 55Q274 55 293 66T324 93T344 136T357 185T364 240T366 291T367 340Q367 373 367 393T363 449T352 507T332 553T299 589T250 601Q217 601 194 584T159 542T141 479T133 411T132 340V331Q132 299 133 277T137 219T147 157T167 107T201 68T250 55Z"/>
+		<path id="MJX-1-TEX-SS-1D7E3" d="M94 612Q172 616 211 632T284 678H307V73H430V0H88V73H213V317Q213 560 212 560Q210 558 197 554T155 546T96 540L83 539V612H94Z"/>
+		<path id="MJX-1-TEX-SS-1D7E4" d="M222 599Q190 599 166 585T128 550T108 509T97 474T93 459L67 492L42 526L47 539Q72 608 120 642T225 677Q304 677 355 644Q449 579 449 454Q449 373 361 290Q351 280 315 250T199 144Q156 103 137 85L293 86H449V0H50V79L216 242Q284 302 317 349T351 456Q351 517 315 558T222 599Z"/>
+		<path id="MJX-1-TEX-SS-1D7E5" d="M333 521Q333 554 313 579T243 604Q154 604 99 514L78 546Q56 577 56 579Q56 580 62 589T82 611T114 637T162 662T222 677Q224 677 231 677T242 678H245Q318 678 374 634T430 520Q430 483 417 452T382 398T351 369T329 354L328 353Q369 333 373 330Q408 306 432 268T457 184Q457 103 397 41T242 -22Q131 -22 51 58L42 68L49 105L55 142L58 138Q62 134 66 130T77 120T91 108T108 96T129 83T152 72T179 63T209 57T242 54Q285 54 319 86T353 184Q353 231 331 267T260 315L213 316H166V354Q166 392 167 392Q233 395 257 405Q290 418 311 450T333 521Z"/>
+		<path id="MJX-1-TEX-SS-1D7E6" d="M271 654L272 656H380V235H471V159H380V0H286V159H28V235L149 443Q269 652 271 654ZM292 235V607Q292 604 290 591T286 571T280 548T269 517T252 476T226 422T189 354T140 267Q136 260 132 253T126 240L123 236Q123 235 207 235H292Z"/>
+		<path id="MJX-1-TEX-SS-1D7E7" d="M257 350Q236 350 218 342T189 323T171 301T160 281L157 273Q157 272 116 272H75V656H416V577H162V486Q162 396 163 396T174 403T207 418T258 426Q339 426 394 360T449 203Q449 113 386 46T226 -21H223Q188 -21 156 -11T102 13T64 42T41 66T33 77Q34 78 44 95T64 128L73 144Q93 112 117 93Q165 54 223 54Q270 54 306 86T345 197Q345 350 257 350Z"/>
+		<path id="MJX-1-TEX-SS-1D7E8" d="M42 318Q42 396 61 460T109 564T173 629T237 666T289 677H301H317Q359 677 408 658V621Q408 585 407 585H406Q359 605 308 605Q246 605 203 556T146 421Q143 403 144 403Q145 402 152 409Q216 469 299 469Q333 469 357 457T407 405Q457 330 457 226Q457 126 402 57Q340 -22 251 -22Q216 -22 183 -7T116 43T63 149T42 318ZM260 393Q216 393 188 365T150 306T141 243Q141 153 172 104Q192 68 230 56Q238 54 251 54Q311 54 342 116Q360 152 360 226Q360 297 344 332Q320 382 277 392Q275 392 270 392T260 393Z"/>
+		<path id="MJX-1-TEX-SS-1D7E9" d="M42 570V656H457V577L447 564Q345 439 295 289T244 0V-11H145V12Q160 330 356 550Q360 556 365 561T374 571L208 570H42Z"/>
+		<path id="MJX-1-TEX-SS-1D7EA" d="M55 500Q55 568 109 623T250 678Q327 678 385 627T444 501Q444 445 410 410T336 357L329 353H330Q378 335 417 293T456 184Q456 93 393 36T249 -22T106 35T43 184Q43 251 82 293T169 353Q171 354 166 356Q165 356 163 357Q113 378 84 416T55 500ZM358 496Q358 557 325 581T250 605Q206 605 174 580T141 496Q141 446 171 420T250 393Q298 393 328 419T358 496ZM245 316Q205 316 172 285T139 185V179Q139 79 222 57Q231 55 250 55H254Q295 55 327 84Q360 120 360 188Q360 254 326 285Q295 316 245 316Z"/>
+		<path id="MJX-1-TEX-SS-1D7EB" d="M44 476Q57 561 116 619T245 677H255Q308 677 349 647Q392 619 424 545T457 334Q457 178 382 78T205 -22Q168 -22 135 -10T86 14L72 25Q73 25 91 58L110 91Q127 78 136 72T163 60T203 54Q238 54 265 71T308 110T335 164T350 214T357 253V257L347 248Q284 187 200 187Q165 187 140 201T87 258Q42 332 42 430Q42 458 44 476ZM269 604Q265 605 254 605Q222 605 199 591T164 554T148 517T141 487Q140 478 140 430T141 373Q146 335 164 307T207 269Q223 263 247 263Q299 266 328 308T358 417Q358 435 356 456T346 511T318 570T269 604Z"/>
+		<path id="MJX-1-TEX-SS-2212" d="M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z"/>
+		<path id="MJX-1-TEX-SS-2248" d="M55 319Q55 360 72 393T114 444T163 472T205 482Q207 482 213 482T223 483Q262 483 296 468T393 413L443 381Q502 346 553 346Q609 346 649 375T694 454Q694 465 698 474T708 483Q722 483 722 452Q722 386 675 338T555 289Q514 289 468 310T388 357T308 404T224 426Q164 426 125 393T83 318Q81 289 69 289Q55 289 55 319ZM55 85Q55 126 72 159T114 210T163 238T205 248Q207 248 213 248T223 249Q262 249 296 234T393 179L443 147Q502 112 553 112Q609 112 649 141T694 220Q694 249 708 249T722 217Q722 153 675 104T555 55Q514 55 468 76T388 123T308 170T224 192Q164 192 125 159T83 84Q80 55 69 55Q55 55 55 85Z"/>
+		<path id="MJX-1-TEX-SS-2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"/>
+		<path id="MJX-1-TEX-SS-2E" d="M90 0V98H188V0H90Z"/>
+	</defs>
+	<path fill="#fafafa" d="m-3780-3780h92820v63000H-3780z"/>
+	<path fill="#fff" d="m0 0h83160v55440H0z"/>
+	<g opacity=".5">
+		<g transform="scale(6930)">
+			<path d="m0 0h12v8H0z"/>
+			<path fill="#01411c" d="m3 0h9v8H3z"/>
+		</g>
+		<path fill="#fff" d="m67109 34619a16632 16632 0 1 1-20211-22737 15246 15246 0 1 0 20211 22737zm-2703-17949-5331 9099-1035-10494 7006 7881-10301-2258z"/>
+	</g>
+	<g stroke="#000" stroke-width="140" stroke-linejoin="round" stroke-linecap="round">
+		<g opacity=".4" stroke-width="100">
+			<path stroke-dasharray="743,315,105,315" stroke-dashoffset="372" d="m51975 27720H0m51975 0h31185"/>
+			<path opacity=".25" stroke-dasharray="725,315,105,315" stroke-dashoffset="362" d="m41580 27720V0m0 27720v27720"/>
+			<path stroke-dasharray="735,315,105,315" stroke-dashoffset="840" d="m85680 27720h-2520"/>
+			<path stroke-dasharray="630,315" stroke-dashoffset="315" d="m51975 27720V15807m0-1967V4032m0 23688v27720m0-27720-12666 11259m12666-11259 15882-14117"/>
+			<path stroke-dasharray="635,315" stroke-dashoffset="0" d="m51975-2520v4032M35542 42327 20790 55440m48950-43511L83160 0"/>
+		</g>
+		<g stroke="#d00" opacity=".5">
+			<path stroke-dasharray="420,424" stroke-dashoffset="420" d="m67109 34619a16632 16632 0 0 0-20211-22737"/>
+			<path stroke-dasharray="865,315,105,315" stroke-dashoffset="498" d="m51975 27720 11050 12431M51975 27720 40925 15289"/>
+		</g>
+		<g stroke="#26e" opacity=".8">
+			<path stroke-dasharray="420,420" stroke-dashoffset="420" d="m67109 34619a15246 15246 0 0 0-20211-22737"/>
+			<path stroke-dasharray="735,315,105,315" stroke-dashoffset="368" d="m56226 23941 10129 11395M56226 23941 46097 12546"/>
+		</g>
+		<g stroke="#f0f" opacity=".5">
+			<path stroke-dasharray="420,430" stroke-dashoffset="210" d="m64406 16670a1 1 0 0 0-8287 7367m8287-7367a1 1 0 0 1-8287 7367"/>
+			<path stroke-dasharray="975,315,105,315" stroke-dashoffset="608" d="m60262 20354 3684 4143m-3684-4143-3683-4144"/>
+		</g>
+		<path stroke="#444" stroke-width="250" d="m0 0h83160v55440H0z"/>
+		<path d="m20790 0v55440"/>
+		<path stroke="#d00" d="m67109 34619a16632 16632 0 1 1-20211-22737"/>
+		<path stroke="#26e" d="m67109 34619a15246 15246 0 1 1-20211-22737"/>
+		<path d="m64406 16670-2036 3476 2676 3010-3935-862-2036 3475-395-4009-3935-862 3690-1615-395-4008 2676 3010z"/>
+		<path stroke="#222" stroke-width="75" stroke-dasharray="210,210" d="m0-2520v30240m0 30240V27720M20790-2520V0m62370-2520v30240m0 30240V27720M-2520 0h44100m41580 0H41580M-2520 55440h44100m44100 0H41580M24727 29687l16198-14398m5902 39260 16198-14398M27532 29049l18565-16503m1693 39293 18565-16503m-533-27342-9243 8216m16609 72-9242 8215M88517 6027 83160 0M53231 12443l3348 3767"/>
+		<path stroke-width="135" d="m51726 27440 498 560m31-529-560 498m4282-4308 498 560m32-529-561 498m4067-4117 498 561m32-530-561 499"/>
+	</g>
+	<g fill="#008" opacity=".8">
+		<circle r="200" cx="83160" cy="0"/>
+		<circle r="200" cx="40925" cy="15289"/>
+		<circle r="200" cx="63025" cy="40151"/>
+		<circle r="200" cx="46097" cy="12546"/>
+		<circle r="200" cx="66355" cy="35336"/>
+		<circle r="200" cx="56579" cy="16210"/>
+		<circle r="200" cx="63946" cy="24497"/>
+		<circle r="200" cx="20790" cy="55440"/>
+	</g>
+	<g fill="#ff0">
+		<circle r="100" cx="64406" cy="16670"/>
+		<circle r="100" cx="67109" cy="34619"/>
+		<circle r="100" cx="46898" cy="11882"/>
+		<circle r="100" cx="57061" cy="24880"/>
+		<circle r="100" cx="55392" cy="23002"/>
+	</g>
+	<g stroke="#00f" stroke-width="75" marker-start="url(#left-arrow)">
+		<path d="m300-1575h8295"/>
+		<path d="m20490-1575h-8295"/>
+		<path d="m21090-1575h12892"/>
+		<path d="m51675-1575H38782"/>
+		<path d="m52275-1575h12893"/>
+		<path d="m82860-1575H69968"/>
+		<path d="m300 57015h39480"/>
+		<path d="m82860 57015H43380"/>
+		<path d="m-1575 55140V29520"/>
+		<path d="m-1575 300v25620"/>
+		<path d="m84735 55140V43380"/>
+		<path d="m84735 28020v11760"/>
+		<path d="m28437 28645 8801 9900"/>
+		<path d="m48297 50987-8801-9900"/>
+		<path d="m25633 29284 9721 10936"/>
+		<path d="m47334 53697-9721-10936"/>
+		<path d="m65315 8846 2819 3172"/>
+		<path d="m72282 16685-2819-3172"/>
+		<path d="m61459 29376 11972-10641"/>
+		<path d="m87944 5834-11972 10642"/>
+		<path d="m45795 20316 1154-1025"/>
+		<path d="m49598 16936-1154 1026"/>
+		<path d="m50047 16537 1046-930"/>
+		<path d="m53634 13349-1046 930"/>
+	</g>
+	<g fill="#000" text-anchor="middle" font-size="50" transform="scale(50)">
+		<g>
+			<text x="208" y="-16">7½</text>
+			<text x="728" y="-16">11¼</text>
+			<text x="1351" y="-16">11¼</text>
+			<text x="832" y="1155">30</text>
+		</g>
+		<g transform="rotate(48.4)">
+			<text x="1105" y="-29">11</text>
+			<text x="1105" y="21">12</text>
+			<text x="1105" y="-844">4</text>
+		</g>
+		<g transform="rotate(270)">
+			<text x="-554" y="-17">20</text>
+			<text x="-832" y="1710">10</text>
+		</g>
+		<g transform="rotate(318.4)">
+			<text x="883" y="1271">13</text>
+			<text x="465" y="927">A</text>
+			<text x="576" y="927">B</text>
+		</g>
+		<g font-size="27">
+			<text x="-37" y="1159">[<tspan font-weight="bold" fill="#080">PK</tspan>]</text>
+			<text x="1700" y="1159">[<tspan font-weight="bold" fill="#080">2:3</tspan>]</text>
+		</g>
+	</g>
+	<g fill="#000" transform="matrix(2,0,0,-2,21500,4900)">
+		<g transform="translate(0,686.9)">
+			<use xlink:href="#MJX-1-TEX-SS-1D5A0"/>
+			<g transform="translate(667,0)">
+				<g transform="translate(277.8,0)">
+					<use xlink:href="#MJX-1-TEX-N-3D"/>
+				</g>
+				<g transform="translate(1333.6,0)">
+					<g transform="translate(1020,0)">
+						<use xlink:href="#MJX-1-TEX-SS-1D7E3"/>
+						<use x="500" xlink:href="#MJX-1-TEX-SS-1D7E3"/>
+						<use x="1000" xlink:href="#MJX-1-TEX-SS-2E"/>
+						<use x="1278" xlink:href="#MJX-1-TEX-SS-1D7E4"/>
+						<use x="1778" xlink:href="#MJX-1-TEX-SS-1D7E7"/>
+						<g transform="translate(2311,405.1) scale(0.707)">
+							<use xlink:href="#MJX-1-TEX-SS-1D7E4"/>
+						</g>
+						<g transform="translate(2936.8,0)">
+							<use xlink:href="#MJX-1-TEX-SS-2B"/>
+						</g>
+						<g transform="translate(3937,0)">
+							<use xlink:href="#MJX-1-TEX-SS-1D7E3"/>
+							<use x="500" xlink:href="#MJX-1-TEX-SS-1D7E2"/>
+							<g transform="translate(1033,405.1) scale(0.707)">
+								<use xlink:href="#MJX-1-TEX-SS-1D7E4"/>
+							</g>
+						</g>
+					</g>
+					<g transform="translate(0,266.1)">
+						<use xlink:href="#MJX-1-TEX-SO-221A"/>
+					</g>
+					<rect width="5373.6" height="60" x="1020" y="1056.1"/>
+					<g transform="translate(6615.8,0)">
+						<use xlink:href="#MJX-1-TEX-SS-2212"/>
+					</g>
+					<g transform="translate(7616,0)">
+						<use xlink:href="#MJX-1-TEX-SS-1D7E3"/>
+						<use x="500" xlink:href="#MJX-1-TEX-SS-1D7E5"/>
+					</g>
+					<g transform="translate(8893.8,0)">
+						<use xlink:href="#MJX-1-TEX-SS-2248"/>
+					</g>
+					<g transform="translate(9949.6,0)">
+						<use xlink:href="#MJX-1-TEX-SS-1D7E4"/>
+						<use x="500" xlink:href="#MJX-1-TEX-SS-2E"/>
+						<use x="778" xlink:href="#MJX-1-TEX-SS-1D7E2"/>
+						<use x="1278" xlink:href="#MJX-1-TEX-SS-1D7E7"/>
+						<use x="1778" xlink:href="#MJX-1-TEX-SS-1D7E3"/>
+						<use x="2278" xlink:href="#MJX-1-TEX-SS-1D7EB"/>
+						<use x="2778" xlink:href="#MJX-1-TEX-SS-1D7EB"/>
+						<use x="3278" xlink:href="#MJX-1-TEX-SS-1D7E5"/>
+						<use x="3778" xlink:href="#MJX-1-TEX-SS-1D7E4"/>
+						<use x="4278" xlink:href="#MJX-1-TEX-SS-1D7E4"/>
+						<use x="4778" xlink:href="#MJX-1-TEX-SS-1D7E5"/>
+					</g>
+				</g>
+			</g>
+		</g>
+		<g transform="translate(0,-1113.1)">
+			<use xlink:href="#MJX-1-TEX-SS-1D5A1"/>
+			<g transform="translate(667,0)">
+				<g transform="translate(277.8,0)">
+					<use xlink:href="#MJX-1-TEX-N-3D"/>
+				</g>
+				<g transform="translate(1333.6,0)">
+					<use xlink:href="#MJX-1-TEX-SS-1D7E6"/>
+					<g transform="translate(722.2,0)">
+						<use xlink:href="#MJX-1-TEX-SS-2212"/>
+					</g>
+					<g transform="translate(1722.4,0)">
+						<use xlink:href="#MJX-1-TEX-SS-1D5A0"/>
+					</g>
+					<g transform="translate(2667.2,0)">
+						<use xlink:href="#MJX-1-TEX-SS-2248"/>
+					</g>
+					<g transform="translate(3723,0)">
+						<use xlink:href="#MJX-1-TEX-SS-1D7E3"/>
+						<use x="500" xlink:href="#MJX-1-TEX-SS-2E"/>
+						<use x="778" xlink:href="#MJX-1-TEX-SS-1D7EB"/>
+						<use x="1278" xlink:href="#MJX-1-TEX-SS-1D7E6"/>
+						<use x="1778" xlink:href="#MJX-1-TEX-SS-1D7EA"/>
+						<use x="2278" xlink:href="#MJX-1-TEX-SS-1D7E2"/>
+						<use x="2778" xlink:href="#MJX-1-TEX-SS-1D7E2"/>
+						<use x="3278" xlink:href="#MJX-1-TEX-SS-1D7E8"/>
+						<use x="3778" xlink:href="#MJX-1-TEX-SS-1D7E9"/>
+						<use x="4278" xlink:href="#MJX-1-TEX-SS-1D7E9"/>
+						<use x="4778" xlink:href="#MJX-1-TEX-SS-1D7E9"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

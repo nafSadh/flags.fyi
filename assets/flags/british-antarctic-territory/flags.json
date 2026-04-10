@@ -1,0 +1,50 @@
+{
+  "british-antarctic-territory": {
+    "title": "Flag of the British Antarctic Territory",
+    "ratio": "1:2",
+    "use": {
+      "as": "territorial flag",
+      "since": "1963-03-21"
+    },
+    "of": {
+      "country": "british-antarctic-territory"
+    },
+    "countryData": {
+      "name": "British Antarctic Territory",
+      "officialName": "British Antarctic Territory",
+      "un": "none"
+    },
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "The Antarctic ice."
+      },
+      {
+        "color": "blue",
+        "hex": "#012169",
+        "cmyk": "99/69/0/59",
+        "note": "British ensign tradition and the Southern Ocean."
+      },
+      {
+        "color": "red",
+        "hex": "#C8102E",
+        "cmyk": "0/92/77/22",
+        "note": "The Union Jack."
+      }
+    ],
+    "desc": [
+      "- A British White Ensign (later Blue Ensign) defaced with the territory's coat of arms, which features a flaming torch on a shield supported by the ship HMS Endurance and a lion\n",
+      "- Adopted on 21 March 1963 when the territory was separated from the Falkland Islands Dependencies\n",
+      "- The territory covers the Antarctic Peninsula and surrounding islands claimed by Britain\n",
+      "- **Construction:** British Blue Ensign with the coat of arms on a white disc in the fly half. Ratio 1:2"
+    ],
+    "cs": "british-antarctic-territory/flag.cs.svg",
+    "trivia": [
+      "- This Antarctic territory includes several islands used primarily for scientific research\n",
+      "- The Union Jack reflects British sovereignty over the region\n",
+      "- Few permanent residents; used mainly for scientific bases"
+    ]
+  }
+}

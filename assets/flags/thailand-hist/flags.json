@@ -1,0 +1,38 @@
+{
+  "th-siam-elephant": {
+    "title": "Flag of Siam (White Elephant)",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#a51931",
+        "cmyk": "0/85/70/35"
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0"
+      }
+    ],
+    "desc": [
+      "- The Kingdom of Siam (1855–1916) used a red field with a white elephant in the centre — one of the most distinctive historical flags of Southeast Asia\n",
+      "- **Construction:** a red field bearing a white elephant in profile, facing the hoist\n",
+      "- Used as the national flag of Siam before the adoption of the current tricolour in 1917"
+    ],
+    "flag": "thailand-hist/th-siam-elephant.svg",
+    "of": {
+      "country": "thailand"
+    },
+    "countryData": {
+      "name": "Thailand",
+      "officialName": "Kingdom of Siam",
+      "un": "none"
+    },
+    "cs": "thailand-hist/th-siam-elephant.cs.svg",
+    "trivia": [
+      "- Thailand (formerly Siam) used the white elephant symbol historically\n",
+      "- The elephant represented royal power and Buddhist sacred traditions\n",
+      "- Still used in Thai royal symbolism and heraldry"
+    ]
+  }
+}

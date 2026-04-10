@@ -1,0 +1,61 @@
+{
+  "palestine": {
+    "title": "Flag of Palestine",
+    "ratio": "1:2",
+    "use": {
+      "as": "national flag",
+      "since": "1964"
+    },
+    "colors": [
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "pantone": "Black",
+        "note": "Top stripe; represents the Abbasid dynasty and the dark past of oppression."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Middle stripe; represents the Umayyad dynasty and hope for a peaceful future."
+      },
+      {
+        "color": "green",
+        "hex": "#009736",
+        "cmyk": "100/0/64/40",
+        "pantone": "349 C",
+        "note": "Bottom stripe; represents the Fatimid dynasty and the fertile land of Palestine."
+      },
+      {
+        "color": "red",
+        "hex": "#EE2A35",
+        "cmyk": "0/82/77/6",
+        "pantone": "186 C",
+        "note": "Hoist triangle; represents the Hashemite dynasty and the blood shed for liberation."
+      }
+    ],
+    "desc": [
+      "- Three horizontal stripes of black, white, and green with a red triangle at the hoist — based on the Pan-Arab colours first used during the 1916 Arab Revolt\n",
+      "- The four colours represent four great Arab dynasties: the Abbasids (black), Umayyads (white), Fatimids (green), and Hashemites (red)\n",
+      "- This design was adopted by the Palestine Liberation Organisation in 1964 and recognised as the flag of the State of Palestine\n",
+      "- It is similar to the flags of Jordan, Sudan, and the Western Sahara\n",
+      "- **Construction:** three equal horizontal stripes of black (top), white, and green (bottom), with a red isosceles triangle extending from the hoist to approximately one-third of the flag's length\n",
+      "- Ratio 1:2"
+    ],
+    "of": {
+      "country": "palestine"
+    },
+    "countryData": {
+      "name": "Palestine",
+      "officialName": "State of Palestine",
+      "un": "observer"
+    },
+    "cs": "palestine/flag.cs.svg",
+    "trivia": [
+      "- The flag is nearly identical to the Jordanian flag but without the Hashemite star\n",
+      "- The colours are Pan-Arab colours representing Arab solidarity and Palestinian identity\n",
+      "- The flag represents the Palestinian national authority and independence aspirations"
+    ]
+  }
+}

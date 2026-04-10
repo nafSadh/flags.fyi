@@ -1,0 +1,51 @@
+{
+  "qatar": {
+    "title": "Flag of the State of Qatar",
+    "ratio": "11:28",
+    "use": {
+      "as": "national flag and ensign",
+      "since": "1971-07-09"
+    },
+    "colors": [
+      {
+        "color": "maroon",
+        "hex": "#8A1538",
+        "cmyk": "0/85/59/46",
+        "pantone": "1955 C",
+        "officialSpec": "Pantone 1955 C per Law No. 14 of 2012",
+        "note": "The main field; Qatar's national colour, created by sun-bleaching of traditional red dyes. Called 'Al Adam'."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "The hoist band; represents peace and is separated from the maroon by a nine-pointed serrated line."
+      }
+    ],
+    "desc": [
+      "- A white band at the hoist separated from a maroon field by a nine-pointed serrated (zigzag) line\n",
+      "- The nine white points represent Qatar's inclusion as the ninth member of the 'reconciled Emirates' of the Persian Gulf after the Qatari–British treaty of 1916\n",
+      "- The maroon colour is unique among national flags and is said to result from the sun-bleaching effect on red dye, which became the traditional Qatari shade\n",
+      "- Official colour specifications were codified in Law No\n",
+      "- 14 of 2012\n",
+      "- **Construction:** the white band occupies roughly one-third of the flag at the hoist\n",
+      "- The serrated line consists of nine white triangles pointing toward the fly\n",
+      "- Qatar's flag is the only national flag whose width is more than twice its height, with a ratio of approximately 11:28"
+    ],
+    "of": {
+      "country": "qatar"
+    },
+    "countryData": {
+      "name": "Qatar",
+      "officialName": "State of Qatar",
+      "un": "member"
+    },
+    "cs": "qatar/flag.cs.svg",
+    "trivia": [
+      "- Qatar's flag is the only national flag whose width is more than twice its height (ratio approximately 11:28)\n",
+      "- The maroon colour resulted from sun-bleaching red dye, becoming its distinctive hue\n",
+      "- The serrated edge has exactly nine points\n",
+      "- Qatar adopted this flag in 1949"
+    ]
+  }
+}

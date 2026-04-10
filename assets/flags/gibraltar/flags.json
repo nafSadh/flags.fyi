@@ -1,0 +1,50 @@
+{
+  "gibraltar": {
+    "title": "Flag of Gibraltar",
+    "ratio": "1:2",
+    "use": {
+      "as": "civil flag",
+      "since": "1502"
+    },
+    "of": {
+      "country": "gibraltar"
+    },
+    "countryData": {
+      "name": "Gibraltar",
+      "officialName": "Gibraltar (British Overseas Territory)",
+      "un": "none"
+    },
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "The upper field representing the white walls of the fortress."
+      },
+      {
+        "color": "red",
+        "hex": "#DA291C",
+        "pantone": "485",
+        "cmyk": "0/81/87/15",
+        "note": "The lower field representing the bloodshed in defence of the Rock."
+      },
+      {
+        "color": "yellow",
+        "hex": "#FFD100",
+        "cmyk": "0/18/100/0"
+      }
+    ],
+    "desc": [
+      "- A white field over a red field in a 2:1 ratio, with a three-towered red castle and a golden key hanging from the gate\n",
+      "- One of the oldest flags in the world, granted by Royal Warrant of Queen Isabella I of Castile in 1502\n",
+      "- **Construction:** the flag is divided horizontally in a 2:1 ratio — white (top two-thirds) over red (bottom one-third)\n",
+      "- A red three-towered castle is centred on the white band, with a gold key hanging from the castle gate into the red band"
+    ],
+    "cs": "gibraltar/flag.cs.svg",
+    "trivia": [
+      "- Gibraltar's flag reflects the contested status between Britain and Spain\n",
+      "- The white and red castle (fortress) represents the Rock of Gibraltar\n",
+      "- Gibraltar uses the Union Jack as its official flag but has a unique local flag for unofficial use"
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "croatia": {
+    "title": "Flag of Croatia",
+    "ratio": "1:2",
+    "use": {
+      "as": "national flag",
+      "since": "1990-12-21"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#DC002E",
+        "cmyk": "7/100/90/1",
+        "pantone": "186 C",
+        "note": "Top stripe; one of three Pan-Slavic colours, historically linked to the medieval Kingdom of Croatia."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Middle stripe; represents peace and the white checks of the šahovnica coat of arms."
+      },
+      {
+        "color": "blue",
+        "hex": "#004489",
+        "cmyk": "100/83/18/4",
+        "pantone": "280 C",
+        "note": "Bottom stripe; derives from the Kingdom of Slavonia and represents loyalty."
+      },
+      {
+        "color": "light blue",
+        "hex": "#87D0F0",
+        "cmyk": "43/2/2/0",
+        "pantone": "297 C",
+        "note": "Appears in the crown above the coat of arms, representing the historical shield of Dalmatia."
+      },
+      {
+        "color": "yellow",
+        "hex": "#FFD300",
+        "cmyk": "1/15/99/0",
+        "pantone": "116 C",
+        "note": "Star and border elements in the crown; represents Istria."
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "pantone": "Black",
+        "note": "Goat silhouette in the Istrian shield and eagle outlines in the crown."
+      }
+    ],
+    "desc": [
+      "- Three horizontal stripes of red, white, and blue — the traditional Pan-Slavic colours — topped by the national coat of arms centred on the white-blue boundary\n",
+      "- The coat of arms consists of the famous šahovnica, a red-and-white checkerboard shield that has represented Croatia since at least the 15th century\n",
+      "- Above the shield sits a crown of five smaller historical shields representing Croatia, Dubrovnik, Dalmatia, Istria, and Slavonia\n",
+      "- The modern flag was first hoisted on 21 December 1990 after the adoption of the Croatian constitution\n",
+      "- The tricolour without the coat of arms dates to 1848 and the Croatian national movement\n",
+      "- **Construction:** three equal horizontal stripes (red, white, blue) in ratio 1:2\n",
+      "- The coat of arms is centred on the white-blue boundary and its height spans two-thirds of the flag's hoist\n",
+      "- The šahovnica has 5 rows and 5 columns of alternating red and white fields, beginning with red in the top-left corner"
+    ],
+    "article": "croatia/flag.md",
+    "of": {
+      "country": "croatia"
+    },
+    "countryData": {
+      "name": "Croatia",
+      "officialName": "Republic of Croatia",
+      "un": "member"
+    },
+    "cs": "croatia/flag.cs.svg",
+    "trivia": [
+      "- The šahovnica (checkerboard) shield predates its WWII association by centuries — used since medieval times\n",
+      "- The checkerboard always starts with a red square in the top-left corner (symbolic rule)\n",
+      "- The five smaller shields represent Croatia's historical regions: Croatia, Dubrovnik, Dalmatia, Istria, and Slavonia"
+    ]
+  }
+}

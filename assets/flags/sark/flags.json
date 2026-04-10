@@ -1,0 +1,51 @@
+{
+  "sark": {
+    "title": "Flag of Sark",
+    "ratio": "3:5",
+    "use": {
+      "as": "civil flag",
+      "since": "1938-11-16"
+    },
+    "of": {
+      "country": "sark"
+    },
+    "countryData": {
+      "name": "Sark",
+      "officialName": "Sark (Crown Dependency under Bailiwick of Guernsey)",
+      "un": "none"
+    },
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Peace."
+      },
+      {
+        "color": "red",
+        "hex": "#E8112D",
+        "cmyk": "0/93/81/9",
+        "note": "The Cross of St George with the Norman lions."
+      },
+      {
+        "color": "yellow",
+        "hex": "#FFD100",
+        "cmyk": "0/18/100/0"
+      }
+    ],
+    "desc": [
+      "- The flag of Sark features a white field with a red Cross of St George (the English cross), defaced by two golden Norman lions passant in the upper-hoist canton\n",
+      "- Adopted on 16 November 1938, the flag reflects Sark's status as a Crown dependency within the Bailiwick of Guernsey\n",
+      "- The Norman lions recall the Channel Islands' historical ties to the Duchy of Normandy\n",
+      "- **Construction:** a white field with a red cross extending to all edges (Cross of St George)\n",
+      "- Two golden lions passant in the upper-hoist quarter\n",
+      "- Ratio 3:5"
+    ],
+    "cs": "sark/flag.cs.svg",
+    "trivia": [
+      "- Sark is a British Crown dependency in the Channel Islands\n",
+      "- Has its own distinct flag and feudal governance system\n",
+      "- One of the last feudal territories in Europe"
+    ]
+  }
+}

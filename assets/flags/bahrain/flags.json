@@ -1,18 +1,50 @@
 {
   "bahrain": {
+    "title": "Flag of the Kingdom of Bahrain",
     "ratio": "3:5",
+    "use": {
+      "as": "national flag and ensign",
+      "since": "2002-02-14"
+    },
     "colors": [
-      { "color": "red", "hex": "#ce1126", "pantone": "186 c", "cmyk": "0-90-0-5" },
-      { "color": "white", "hex": "#fff", "pantone": "white", "cmyk": "0-0-0-0" }
+      {
+        "color": "red",
+        "hex": "#ce1126",
+        "pantone": "186 c",
+        "cmyk": "0-90-0-5",
+        "note": "Represents courage and valour."
+      },
+      {
+        "color": "white",
+        "hex": "#fff",
+        "pantone": "white",
+        "cmyk": "0-0-0-0",
+        "note": "Represents peace and honesty."
+      }
     ],
     "cs": "bahrain/flag.cs.svg",
     "desc": [
-      "The national flag of Bahrain (Arabic: علم البحرين‎) consists of a white band on the left, ",
-      "separated from a red area on the right by five triangles that serve as a serrated line. ",
-      "The five white triangles symbolize the five pillars of Islam.",
-      "<br/><br/><small>Tip: ",
-      "It is sometimes mistaken for the flag of Qatar, but that flag is maroon, not red, ",
-      "has more points (9) and normally has a much greater length-to-width ratio.</small>"
+      "- The national flag of Bahrain (Arabic: علم البحرين‎) consists of a white band on the left,\n",
+      "- separated from a red area on the right by five triangles that serve as a serrated line\n",
+      "- The five white triangles symbolize the five pillars of Islam\n",
+      "- Originally with 28 points, reduced to 8 in 1972, and to 5 in 2002\n",
+      "- <br/><br/><small>Tip:\n",
+      "- It is sometimes mistaken for the flag of Qatar, but that flag is maroon, not red,\n",
+      "- has more points (9) and normally has a much greater length-to-width ratio.</small>"
+    ],
+    "article": "bahrain/flag.md",
+    "of": {
+      "country": "bahrain"
+    },
+    "countryData": {
+      "name": "Bahrain",
+      "officialName": "Kingdom of Bahrain",
+      "un": "member"
+    },
+    "trivia": [
+      "- The wavy line has exactly 5 points, representing the five pillars of Islam\n",
+      "- The flag's ratio of 3:5 is less common than typical 2:3 or 3:5 ratios\n",
+      "- The serrated edge is said to symbolise the connection between Bahrain and Qatar historically"
     ]
   }
 }

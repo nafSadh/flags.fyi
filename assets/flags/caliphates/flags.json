@@ -1,0 +1,367 @@
+{
+  "rashidun": {
+    "title": "Flag of the Rashidun Caliphate",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0"
+      }
+    ],
+    "desc": [
+      "- The Rashidun Caliphate (632–661) was the first of the four major Islamic caliphates\n",
+      "- Its banner was plain white, symbolising purity and the legacy of the Prophet\n",
+      "- **Construction:** a plain black or white field (sources vary), with no emblem. The earliest Islamic caliphate used simple monochrome banners"
+    ],
+    "flag": "caliphates/rashidun.svg",
+    "countryData": {
+      "name": "Rashidun Caliphate",
+      "officialName": "Rashidun Caliphate",
+      "un": "none"
+    },
+    "cs": "caliphates/rashidun.cs.svg",
+    "trivia": [
+      "- The Rashidun Caliphate (632–661) was the first Islamic state and empire\n",
+      "- Represented the beginning of Islamic expansionist period\n",
+      "- Established the foundation for Islamic civilisation"
+    ]
+  },
+  "umayyad": {
+    "title": "Flag of the Umayyad Caliphate",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "The official colour of the Umayyad Caliphate (661–750 CE)."
+      }
+    ],
+    "desc": [
+      "- The Umayyad Caliphate (661–750) continued the white banner tradition, representing the conquest of Mecca. Damascus served as its capital\n",
+      "- **Construction:** a plain white field. The Umayyad dynasty used white as their dynastic colour, in contrast to the Abbasid black"
+    ],
+    "flag": "caliphates/umayyad.svg",
+    "countryData": {
+      "name": "Umayyad Caliphate",
+      "officialName": "Umayyad Caliphate",
+      "un": "none"
+    },
+    "cs": "caliphates/umayyad.cs.svg",
+    "trivia": [
+      "- The Umayyad Caliphate (661–750) was the second Islamic caliphate\n",
+      "- Represented the peak of early Islamic expansion and power\n",
+      "- Conquered territories from Spain to Central Asia"
+    ]
+  },
+  "abbasid": {
+    "title": "Flag of the Abbasid Caliphate (Black Standard)",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "The official colour of the Abbasid Caliphate (750–1517 CE)."
+      }
+    ],
+    "desc": [
+      "- The Abbasid Caliphate (750–1258) adopted the Black Standard (al-Raya), referencing the turban of the Prophet. Baghdad was its great capital\n",
+      "- **Construction:** a plain black field. Black was the dynastic colour of the Abbasids, in opposition to the Umayyad white"
+    ],
+    "flag": "caliphates/abbasid.svg",
+    "countryData": {
+      "name": "Abbasid Caliphate",
+      "officialName": "Abbasid Caliphate",
+      "un": "none"
+    },
+    "cs": "caliphates/abbasid.cs.svg",
+    "trivia": [
+      "- The Abbasid Caliphate (750–1258) was the longest-lasting Islamic caliphate\n",
+      "- Ruled from Baghdad, which became one of the world's greatest cities\n",
+      "- Known for patronage of science, medicine, mathematics, and philosophy"
+    ]
+  },
+  "fatimid": {
+    "title": "Flag of the Fatimid Caliphate",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#006233",
+        "cmyk": "100/0/48/62",
+        "note": "The official colour of the Fatimid Caliphate (909–1171 CE); associated with the Prophet's descendants."
+      }
+    ],
+    "desc": [
+      "- The Fatimid Caliphate (909–1171) used a green banner, representing the house of Ali and the Prophet's cloak. Cairo was founded as its capital\n",
+      "- **Construction:** a plain green field. Green was adopted as the Fatimid dynastic colour, later broadly associated with Islam"
+    ],
+    "flag": "caliphates/fatimid.svg",
+    "countryData": {
+      "name": "Fatimid Caliphate",
+      "officialName": "Fatimid Caliphate",
+      "un": "none"
+    },
+    "cs": "caliphates/fatimid.cs.svg",
+    "trivia": [
+      "- The Fatimid Caliphate (909–1171) ruled Egypt, North Africa, and the Levant\n",
+      "- Represented one of the great Islamic dynasties and centres of learning\n",
+      "- The green colour represented Islamic faith"
+    ]
+  },
+  "ayyubid": {
+    "title": "Banner of the Ayyubid Dynasty",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "yellow",
+        "hex": "#fcd116",
+        "cmyk": "0/17/91/1"
+      }
+    ],
+    "desc": [
+      "- The Ayyubid Dynasty (1171–1260), founded by Saladin, carried a yellow banner adorned with an eagle — the origin of the Eagle of Saladin heraldic emblem\n",
+      "- **Construction:** a yellow field, sometimes with the Eagle of Saladin. The yellow colour was the dynastic standard of the Ayyubids"
+    ],
+    "flag": "caliphates/ayyubid.svg",
+    "countryData": {
+      "name": "Ayyubid Dynasty",
+      "officialName": "Ayyubid Sultanate",
+      "un": "none"
+    },
+    "cs": "caliphates/ayyubid.cs.svg",
+    "trivia": [
+      "- The Ayyubid dynasty (1169–1250) was founded by Saladin and ruled Egypt, Syria, and the Levant\n",
+      "- The plain yellow/gold flag represented the dynasty's power and Islamic faith\n",
+      "- The Ayyubids were famous for their military victories during the Crusades"
+    ]
+  },
+  "ottoman": {
+    "title": "Flag of the Ottoman Empire",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#e30a17",
+        "cmyk": "0/96/90/11",
+        "note": "Imperial Ottoman colour; represents sovereignty and military might."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "The crescent and star, symbols adopted from Byzantine Constantinople."
+      }
+    ],
+    "desc": [
+      "- A red field with a white crescent and five-pointed star\n",
+      "- One of history's most influential flag designs, the Ottoman flag evolved over centuries\n",
+      "- The red field became standard by the 18th century; the crescent was associated with the Ottomans from at least the fall of Constantinople in 1453\n",
+      "- The Ottoman flag directly inspired the modern flags of Turkey, Tunisia, Algeria, Libya, and several other former Ottoman territories\n",
+      "- **Construction:** a red field with a white crescent (opening towards the fly) and a white five-pointed star between the cusps\n",
+      "- Various ratios were used historically"
+    ],
+    "flag": "caliphates/ottoman.svg",
+    "countryData": {
+      "name": "Ottoman Empire",
+      "officialName": "Ottoman Empire",
+      "un": "none"
+    },
+    "cs": "caliphates/ottoman.cs.svg",
+    "trivia": [
+      "- The Ottoman crescent and star inspired more than 15 modern national flags\n",
+      "- The design originated in the 14th century and became iconic for the Ottoman Empire\n",
+      "- The crescent and star remain the most common Islamic symbols on national flags today"
+    ]
+  },
+  "ottoman-early": {
+    "title": "Early Ottoman Banner",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#e30a17",
+        "cmyk": "0/96/90/11",
+        "note": "Imperial colour of the early Ottoman state."
+      },
+      {
+        "color": "green",
+        "hex": "#006233",
+        "cmyk": "100/0/48/62"
+      }
+    ],
+    "desc": [
+      "- Early Ottoman banners varied; a common form was red with a green circle and crescents, used before the standardisation of the late Ottoman flag\n",
+      "- **Construction:** early Ottoman banners varied but typically featured a red or green field, sometimes with calligraphic inscriptions"
+    ],
+    "flag": "caliphates/ottoman-early.svg",
+    "countryData": {
+      "name": "Ottoman Empire",
+      "officialName": "Ottoman Empire (Early)",
+      "un": "none"
+    },
+    "cs": "caliphates/ottoman-early.cs.svg",
+    "trivia": [
+      "- Early Ottoman flags represented the dynasty in its founding period\n",
+      "- Evolution of Ottoman heraldry and symbolism\n",
+      "- Developed into the recognisable crescent and star design"
+    ]
+  },
+  "mughal": {
+    "title": "Flag of the Mughal Empire",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#006233",
+        "cmyk": "100/0/48/62"
+      },
+      {
+        "color": "gold",
+        "hex": "#ffd700",
+        "cmyk": "0/16/100/0"
+      }
+    ],
+    "desc": [
+      "- The Mughal Empire (1526–1857) used green banners with gold lion-and-sun motifs. The empire ruled most of the Indian subcontinent\n",
+      "- **Construction:** a green field, sometimes with a lion-and-sun motif or other dynastic emblems. The Mughals used elaborate standards varying by emperor"
+    ],
+    "flag": "caliphates/mughal.svg",
+    "countryData": {
+      "name": "Mughal Empire",
+      "officialName": "Mughal Empire",
+      "un": "none"
+    },
+    "cs": "caliphates/mughal.cs.svg",
+    "trivia": [
+      "- The Mughal Empire (1526–1857) ruled most of the Indian subcontinent\n",
+      "- Represented one of history's greatest empires and centres of culture\n",
+      "- Known for monumental architecture including the Taj Mahal"
+    ]
+  },
+  "almohad": {
+    "title": "Flag of the Almohad Caliphate",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#c1272d",
+        "cmyk": "0/80/77/24"
+      },
+      {
+        "color": "gold",
+        "hex": "#ffd700",
+        "cmyk": "0/16/100/0"
+      }
+    ],
+    "desc": [
+      "- The Almohad Caliphate (1121–1269) ruled the Maghreb and Iberia. Its red banner featured a gold checkered square motif\n",
+      "- **Construction:** typically a plain red field, sometimes bearing a chequered pattern. The Almohads used red as their primary colour"
+    ],
+    "flag": "caliphates/almohad.svg",
+    "countryData": {
+      "name": "Almohad Caliphate",
+      "officialName": "Almohad Caliphate",
+      "un": "none"
+    },
+    "cs": "caliphates/almohad.cs.svg",
+    "trivia": [
+      "- The Almohad Caliphate (1121–1269) controlled North Africa and Al-Andalus (Islamic Spain)\n",
+      "- The plain crimson flag represented the dynasty's uncompromising Islamic stance\n",
+      "- The Almohads were famous for their military campaigns and architectural achievements"
+    ]
+  },
+  "almoravid": {
+    "title": "Flag of the Almoravid Dynasty",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0"
+      }
+    ],
+    "desc": [
+      "- The Almoravid Dynasty (1040–1147) originated in present-day Mauritania and Morocco. They used white banners in the tradition of the Umayyads\n",
+      "- **Construction:** a plain white field, consistent with the Almoravid preference for austere religious symbolism"
+    ],
+    "flag": "caliphates/almoravid.svg",
+    "countryData": {
+      "name": "Almoravid Dynasty",
+      "officialName": "Almoravid Dynasty",
+      "un": "none"
+    },
+    "cs": "caliphates/almoravid.cs.svg",
+    "trivia": [
+      "- The Almoravid dynasty (1040–1147) ruled North Africa and Spain during the early Crusades\n",
+      "- The flag represented Berber military power in medieval North Africa\n",
+      "- The Almoravids were instrumental in resisting Crusader expansion"
+    ]
+  },
+  "idrisid": {
+    "title": "Flag of the Idrisid Dynasty",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0"
+      },
+      {
+        "color": "green",
+        "hex": "#006233",
+        "cmyk": "100/0/48/62"
+      }
+    ],
+    "desc": [
+      "- The Idrisid Dynasty (788–974) was the first Moroccan state and first Shia dynasty in the western Maghreb. They used white and green banners\n",
+      "- **Construction:** a plain white field with green elements. The Idrisids were among the first Moroccan dynasties"
+    ],
+    "flag": "caliphates/idrisid.svg",
+    "countryData": {
+      "name": "Idrisid Dynasty",
+      "officialName": "Idrisid Dynasty",
+      "un": "none"
+    },
+    "cs": "caliphates/idrisid.cs.svg",
+    "trivia": [
+      "- The Idrisid dynasty (788–974) founded the first Arab-Islamic state in the Maghreb\n",
+      "- The green flag represented Islamic faith\n",
+      "- Founded the city of Fes, a major centre of Islamic learning"
+    ]
+  },
+  "samanid": {
+    "title": "Flag of the Samanid Empire",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100"
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0"
+      }
+    ],
+    "desc": [
+      "- The Samanid Empire (819–999) was a Sunni Iranian dynasty in Central Asia. Their banners echoed the Abbasid black standard tradition\n",
+      "- **Construction:** a black field, following the Abbasid convention as the Samanids were Abbasid governors"
+    ],
+    "flag": "caliphates/samanid.svg",
+    "countryData": {
+      "name": "Samanid Empire",
+      "officialName": "Samanid Empire",
+      "un": "none"
+    },
+    "cs": "caliphates/samanid.cs.svg",
+    "trivia": [
+      "- The Samanid Empire (819–999) ruled Central Asia and parts of Iran\n",
+      "- Represented a golden age of Persian culture and science\n",
+      "- Known for patronage of scholars and poets"
+    ]
+  }
+}

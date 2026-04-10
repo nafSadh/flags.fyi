@@ -2,11 +2,152 @@
   "sassanid": {
     "title": "Derafsh Kaviani",
     "subtitle": "Legendary royal standard of Persia (Sassanid Empire)",
-    "desc": "Artist's rendition of the banner."
+    "use": {
+      "as": "imperial standard",
+      "since": "~224",
+      "until": "636"
+    },
+    "colors": [
+      {
+        "color": "purple/crimson",
+        "note": "The standard was said to be made of leather adorned with jewels and precious metals."
+      }
+    ],
+    "desc": [
+      "- The Derafsh Kaviani (درفش کاویانی) was the legendary royal standard of the Sassanid Empire\n",
+      "- According to the Shahnameh, Kaveh the Blacksmith raised his leather apron on a spear to rally\n",
+      "- the people against the tyrant Zahhak. The banner was captured by Arab forces at the\n",
+      "- Battle of al-Qadisiyyah in 636 CE\n",
+      "- **Construction:** a leather or cloth banner (drafsh) featuring the Derafsh Kaviani — a legendary royal standard often depicted as a rectangular jewelled leather apron on a pole"
+    ],
+    "article": "persia/flag.md",
+    "countryData": {
+      "name": "Sassanid Empire",
+      "officialName": "Sassanid Empire",
+      "un": "none"
+    },
+    "cs": "persia/sassanid.cs.svg",
+    "trivia": [
+      "- The Sassanid Empire (224–651) was the last Persian Empire before Islamic conquest\n",
+      "- Represented one of history's great empires alongside Rome\n",
+      "- Known for advanced administrative and military systems"
+    ]
   },
   "sassanid-alt": {
-    "title": "Derafsh Kaviani",
+    "title": "Derafsh Kaviani (alternate)",
     "subtitle": "Legendary royal standard of Persia (Sassanid Empire)",
-    "desc": "Artist's alternative rendition of the banner."
+    "desc": [
+      "- An alternative representation of the Sassanid Empire's banner, typically featuring the Derafsh Kaviani — a legendary royal standard with streamers and precious stones\n",
+      "- The Sassanid Empire (224–651 CE) was the last pre-Islamic Persian empire\n",
+      "- Their royal banners were elaborate, jewelled standards rather than simple cloth flags\n",
+      "- **Construction:** varies; the Derafsh Kaviani was a leather apron mounted on a lance, adorned with jewels. No standard ratio"
+    ],
+    "colors": [
+      {
+        "color": "purple",
+        "hex": "#4B0082",
+        "cmyk": "42/100/0/49"
+      },
+      {
+        "color": "gold",
+        "hex": "#FFD700",
+        "cmyk": "0/16/100/0"
+      }
+    ],
+    "countryData": {
+      "name": "Sassanid Empire",
+      "officialName": "Sassanid Empire (alternative)",
+      "un": "none"
+    },
+    "cs": "persia/sassanid-alt.cs.svg",
+    "trivia": [
+      "- Alternative Sassanid flag design with different symbolism\n",
+      "- Represents variations in royal banners and regalia\n",
+      "- Shows the evolution of Sassanid heraldic traditions"
+    ]
+  },
+  "qajar": {
+    "title": "Flag of the Qajar Dynasty",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0"
+      },
+      {
+        "color": "green",
+        "hex": "#009b3a",
+        "cmyk": "100/0/63/39",
+        "note": "Islam and the Qajar dynasty."
+      },
+      {
+        "color": "gold",
+        "hex": "#ffd700",
+        "cmyk": "0/16/100/0"
+      }
+    ],
+    "desc": [
+      "- The Qajar Dynasty (1789–1925) used a tricolour-style flag featuring a lion holding a sword with the rising sun behind it — the Shir-o-Khorshid\n",
+      "- **Construction:** a white or green field bearing the Lion and Sun motif, with variations by specific Qajar rulers"
+    ],
+    "flag": "persia/qajar.svg",
+    "of": {
+      "country": "iran"
+    },
+    "countryData": {
+      "name": "Iran",
+      "officialName": "Qajar Dynasty",
+      "un": "none"
+    },
+    "cs": "persia/qajar.cs.svg",
+    "trivia": [
+      "- The Qajar dynasty (1785–1925) ruled Persia and modernised Iran\n",
+      "- The lion and sun represented Persian power and mythology\n",
+      "- Preceded the Pahlavi dynasty"
+    ]
+  },
+  "pahlavi": {
+    "title": "Flag of the Pahlavi Dynasty (Imperial Iran)",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#239f40",
+        "cmyk": "78/0/60/38",
+        "note": "Islam."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "Peace."
+      },
+      {
+        "color": "red",
+        "hex": "#da0000",
+        "cmyk": "0/100/100/15",
+        "note": "Courage."
+      }
+    ],
+    "desc": [
+      "- The Pahlavi Dynasty (1925–1979) used the green-white-red tricolour with the lion-and-sun emblem. This was replaced after the 1979 Islamic Revolution\n",
+      "- **Construction:** three equal horizontal bands of green, white, and red with the Lion and Sun emblem (a lion passant carrying a sword, backed by a rising sun) centred on the white band"
+    ],
+    "flag": "persia/pahlavi.svg",
+    "of": {
+      "country": "iran"
+    },
+    "countryData": {
+      "name": "Iran",
+      "officialName": "Imperial State of Iran (Pahlavi)",
+      "un": "none"
+    },
+    "cs": "persia/pahlavi.cs.svg",
+    "trivia": [
+      "- The Pahlavi dynasty (1925–1979) ruled Iran under Reza Shah and Mohammad Reza Shah\n",
+      "- The lion and sun symbolised Persian power and mythology\n",
+      "- Overthrown in the Iranian Revolution of 1979"
+    ]
   }
 }

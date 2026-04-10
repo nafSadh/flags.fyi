@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1290" height="690" viewBox="-3780 -28980 108360 57960" fill="none" font-family="Calibri,Arial,'Liberation Sans',sans-serif">
+	<title>Flag of Kuwait — construction sheet</title>
+	<!-- DIMENSIONS
+		SVG:
+			S_RAW:     108360.00 × 57960.00
+			S_DISPLAY:  1290.00 × 690.00
+		FLAG:
+			F_RAW:     100800.00 × 50400.00
+			F_DISPLAY:  1200.00 × 600.00
+			F_LABEL:      12.00 × 6.00
+			F_RATIO:       2.00 × 1.00
+	-->
+	<defs>
+		<marker id="left-arrow" viewBox="-4 -4 10 8" orient="auto" markerWidth="10" markerHeight="8">
+			<path fill="blue" d="m2 0 4 4-10-4L6-4z"/>
+		</marker>
+	</defs>
+	<g opacity=".5">
+		<g transform="scale(4200)">
+			<path fill="#fff" d="m0-6h24V6H0z"/>
+			<path fill="#00965e" d="m0-6h24v4H0z"/>
+			<path fill="#ce1126" d="m0 2h24v4H0z"/>
+		</g>
+		<path fill="#000" d="m25200-8400V8400L0 25200v-50400z"/>
+	</g>
+	<g stroke="#000" stroke-width="140" stroke-linejoin="round" stroke-linecap="round">
+		<g opacity=".4" stroke-width="100">
+			<path stroke-dasharray="747,327,105,327" stroke-dashoffset="368" d="m50400 0v-25200m0 25200v25200"/>
+			<path stroke-dasharray="743,323,105,323" stroke-dashoffset="368" d="m50400 0H0m50400 0h50400"/>
+		</g>
+		<path stroke="#444" stroke-width="250" d="m0-25200h100800v50400H0z"/>
+		<path d="m25200-8400h75600M25200 8400h75600M0-25200 25200-8400V8400L0 25200"/>
+		<path stroke="#222" stroke-width="75" stroke-dasharray="210,210" d="m0-27720V0m0 27720V0m25200-27720V0m75600-27720V0m0 27720V0M-2520-25200h52920m52920 0H50400m52920 16800h-2520m2520 16800h-2520M-2520 25200h52920m52920 0H50400"/>
+	</g>
+	<g fill="#008" opacity=".8">
+		<circle r="200" cx="0" cy="-25200"/>
+		<circle r="200" cx="-0" cy="25200"/>
+		<circle r="200" cx="25200" cy="-8400"/>
+	</g>
+	<g stroke="#00f" stroke-width="75" marker-start="url(#left-arrow)">
+		<path d="m300-26775h11200"/>
+		<path d="m24900-26775H13700"/>
+		<path d="m25500-26775h36400"/>
+		<path d="m100500-26775H64100"/>
+		<path d="m300 26775h48300"/>
+		<path d="m100500 26775H52200"/>
+		<path d="m-1575 24900V1100"/>
+		<path d="m-1575-24900v23800"/>
+		<path d="m102375-8700v-7000"/>
+		<path d="m102375-24900v7000"/>
+		<path d="m102375 8100V1100"/>
+		<path d="m102375-8100v7000"/>
+		<path d="m102375 24900v-7000"/>
+		<path d="m102375 8700v7000"/>
+	</g>
+	<g fill="#000" text-anchor="middle" font-size="50" transform="scale(50)">
+		<g>
+			<text x="252" y="-520">3</text>
+			<text x="1260" y="-520">9</text>
+			<text x="1008" y="550">12</text>
+		</g>
+		<g transform="rotate(270)">
+			<text y="-17" text-decoration="underline">6</text>
+			<text x="336" y="2062">2</text>
+			<text y="2062">2</text>
+			<text x="-336" y="2062">2</text>
+		</g>
+		<g font-size="27">
+			<text x="-37" y="554">[<tspan font-weight="bold" fill="#080">KW</tspan>]</text>
+			<text x="2053" y="554">[<tspan font-weight="bold" fill="#080">1:2</tspan>]</text>
+		</g>
+	</g>
+</svg>

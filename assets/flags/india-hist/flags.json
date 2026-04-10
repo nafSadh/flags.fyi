@@ -1,0 +1,171 @@
+{
+  "in-calcutta-flag": {
+    "title": "The Calcutta Flag (1906)",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#ff0000",
+        "cmyk": "0/100/100/0",
+        "note": "Hinduism and Buddhism."
+      },
+      {
+        "color": "green",
+        "hex": "#138808",
+        "cmyk": "86/0/94/47",
+        "note": "Islam."
+      },
+      {
+        "color": "yellow",
+        "hex": "#ffd700",
+        "cmyk": "0/16/100/0",
+        "note": "Hinduism and Buddhism."
+      }
+    ],
+    "desc": [
+      "- The Calcutta Flag (1906) was one of the earliest Indian nationalist flags, featuring three horizontal stripes of green, yellow, and red, with various emblems including the sun, crescent, and lotus\n",
+      "- Unfurled on 7 August 1906 at Parsee Bagan Square in Calcutta, it was designed to unify Hindus, Muslims, and Buddhists in the independence movement\n",
+      "- **Construction:** three horizontal bands — green (top, Islam), yellow (middle, Hinduism and Buddhism), and red (bottom)\n",
+      "- Eight lotus flowers on the top, sun and crescent on the middle band\n",
+      "- Ratio approximately 2:3"
+    ],
+    "flag": "india-hist/in-calcutta-flag.svg",
+    "of": {
+      "country": "india"
+    },
+    "countryData": {
+      "name": "India",
+      "officialName": "Calcutta Flag (1906)",
+      "un": "none"
+    },
+    "cs": "india-hist/in-calcutta-flag.cs.svg",
+    "trivia": [
+      "- Early Indian independence flag used during the independence movement\n",
+      "- Represented the aspirations of Indian nationalists\n",
+      "- Evolved into the modern flag after independence"
+    ]
+  },
+  "in-independence": {
+    "title": "Flag of the Indian Independence Movement",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "saffron",
+        "hex": "#ff9933",
+        "cmyk": "0/40/80/0",
+        "note": "Courage and sacrifice."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "Truth and peace."
+      },
+      {
+        "color": "green",
+        "hex": "#138808",
+        "cmyk": "86/0/94/47",
+        "note": "Faith and chivalry."
+      }
+    ],
+    "desc": [
+      "- The Indian independence movement flag (1931 version) featured saffron, white, and green horizontal stripes with a spinning wheel (charkha) centred — Mahatma Gandhi's symbol of self-reliance\n",
+      "- Adopted by the Indian National Congress in 1931, this flag evolved from earlier versions\n",
+      "- At independence in 1947, the charkha was replaced by the Ashoka Chakra to create the current national flag\n",
+      "- **Construction:** three equal horizontal bands of saffron (top), white, and green. A blue spinning wheel (charkha) centred on the white stripe. Ratio 2:3"
+    ],
+    "flag": "india-hist/in-independence.svg",
+    "of": {
+      "country": "india"
+    },
+    "countryData": {
+      "name": "India",
+      "officialName": "Swaraj Flag (Indian independence movement)",
+      "un": "none"
+    },
+    "cs": "india-hist/in-independence.cs.svg",
+    "trivia": [
+      "- India's independence flag (1947) represented freedom from British rule\n",
+      "- Designed by Pingali Venkayya\n",
+      "- The modern Indian flag is based on this independence flag"
+    ]
+  },
+  "sikh-empire": {
+    "title": "Flag of the Sikh Empire",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#003580",
+        "cmyk": "100/59/0/50",
+        "note": "The Sikh martial tradition (Nishan Sahib)."
+      },
+      {
+        "color": "yellow",
+        "hex": "#ffd700",
+        "cmyk": "0/16/100/0"
+      }
+    ],
+    "desc": [
+      "- The Sikh Empire (1799–1849) used a triangular blue flag with a gold Khanda symbol, representing the martial and spiritual aspects of Sikh faith\n",
+      "- **Construction:** a triangular saffron or blue pennant bearing the Sikh Khanda emblem (double-edged sword, chakkar, and two kirpans)"
+    ],
+    "flag": "india-hist/sikh-empire.svg",
+    "of": {
+      "country": "india"
+    },
+    "countryData": {
+      "name": "Sikh Empire",
+      "officialName": "Sikh Empire",
+      "un": "none"
+    },
+    "cs": "india-hist/sikh-empire.cs.svg",
+    "trivia": [
+      "- The Sikh Empire (1799–1849) was founded by Maharaja Ranjit Singh\n",
+      "- Represented the height of Sikh military and political power\n",
+      "- Conquered significant territories in Punjab and beyond"
+    ]
+  },
+  "british-raj": {
+    "title": "Flag of British India (Star of India)",
+    "ratio": "1:2",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#cf142b",
+        "cmyk": "0/90/79/19",
+        "note": "The Union Jack canton."
+      },
+      {
+        "color": "blue",
+        "hex": "#00247d",
+        "cmyk": "100/71/0/51",
+        "note": "British Blue Ensign background."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0"
+      }
+    ],
+    "desc": [
+      "- The British Raj (1858–1947) used a blue ensign defaced with the Star of India emblem. It represented British rule over the Indian subcontinent\n",
+      "- **Construction:** a Blue Ensign or Red Ensign with the Star of India badge. Used as the flag of British India"
+    ],
+    "flag": "india-hist/british-raj.svg",
+    "of": {
+      "country": "india"
+    },
+    "countryData": {
+      "name": "British India",
+      "officialName": "British Raj",
+      "un": "none"
+    },
+    "cs": "india-hist/british-raj.cs.svg",
+    "trivia": [
+      "- The British Raj (1858–1947) was the period of direct British rule over India\n",
+      "- The Union Jack represented colonial authority over the Indian subcontinent\n",
+      "- Ended with Indian independence and the partition in 1947"
+    ]
+  }
+}

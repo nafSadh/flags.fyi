@@ -1,0 +1,47 @@
+{
+  "tristan": {
+    "title": "Flag of Tristan da Cunha",
+    "ratio": "1:2",
+    "use": {
+      "as": "civil flag",
+      "since": "2002-10-20"
+    },
+    "of": {
+      "country": "tristan"
+    },
+    "countryData": {
+      "name": "Tristan da Cunha",
+      "officialName": "Tristan da Cunha (British Overseas Territory)",
+      "un": "none"
+    },
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#012169",
+        "cmyk": "99/69/0/59",
+        "note": "British Blue Ensign; the South Atlantic."
+      },
+      {
+        "color": "red",
+        "hex": "#C8102E",
+        "cmyk": "0/92/77/22"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0"
+      }
+    ],
+    "desc": [
+      "- A Blue Ensign with the coat of arms of Tristan da Cunha\n",
+      "- The arms feature Tristan longboats, a Tristan rock lobster, and a naval crown, with the motto 'Our faith is our strength'\n",
+      "- **Construction:** a Blue Ensign (1:2) with the Union Flag in the upper-hoist canton. The territorial arms appear in the fly half"
+    ],
+    "cs": "tristan/flag.cs.svg",
+    "trivia": [
+      "- Tristan da Cunha uses the Union Jack as a British Overseas Territory\n",
+      "- One of the most remote inhabited places in the world\n",
+      "- Smallest population of any British territory"
+    ]
+  }
+}

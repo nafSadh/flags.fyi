@@ -1,0 +1,47 @@
+{
+  "switzerland": {
+    "title": "Flag of Switzerland",
+    "ratio": "1:1",
+    "use": {
+      "as": "national flag and ensign",
+      "since": "1841"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#DA291C",
+        "cmyk": "0/100/100/0",
+        "pantone": "485 C",
+        "note": "Represents courage and determination"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Represents peace; forms the Swiss cross with equilateral arms"
+      }
+    ],
+    "desc": [
+      "- A white cross on a red square field — one of only two square sovereign flags\n",
+      "- The design dates to the Old Swiss Confederacy and was formally standardised in 1841\n",
+      "- **Construction:** a square red field (1:1 ratio, unique among national flags along with Vatican City)\n",
+      "- A white equilateral Greek cross is centred, each arm one-sixth longer than it is wide\n",
+      "- The cross extends to within 1/6 of each edge"
+    ],
+    "article": "switzerland/flag.md",
+    "of": {
+      "country": "switzerland"
+    },
+    "countryData": {
+      "name": "Switzerland",
+      "officialName": "Swiss Confederation",
+      "un": "member"
+    },
+    "cs": "switzerland/flag.cs.svg",
+    "trivia": [
+      "- The Swiss flag and the Vatican flag are the only two square sovereign-state flags\n",
+      "- The white cross represents neutrality and independence\n",
+      "- Switzerland's flag has remained unchanged since 1841"
+    ]
+  }
+}

@@ -1,0 +1,2276 @@
+{
+  "abkhazia": {
+    "g": "nf,asia",
+    "l": "",
+    "id": "abkhazia",
+    "index": "c/abkhazia"
+  },
+  "afghanistan": {
+    "g": "nf,asia",
+    "id": "afghanistan",
+    "index": "c/afghanistan"
+  },
+  "albania": {
+    "g": "nf,europe",
+    "id": "albania",
+    "index": "c/albania"
+  },
+  "alderney": {
+    "ns": "british.cd",
+    "g": "bot",
+    "id": "alderney",
+    "index": "c/uk/alderney"
+  },
+  "algeria": {
+    "g": "nf,arab,maghreb",
+    "id": "algeria",
+    "index": "c/algeria"
+  },
+  "andorra": {
+    "g": "nf,europe",
+    "id": "andorra",
+    "index": "c/andorra"
+  },
+  "angola": {
+    "g": "nf,africa",
+    "id": "angola",
+    "index": "c/angola"
+  },
+  "anguilla": {
+    "ns": "british",
+    "g": "bot",
+    "id": "anguilla",
+    "index": "c/uk/anguilla"
+  },
+  "anguilla-dolphin": {
+    "ns": "british",
+    "name": "Dolphin Flag",
+    "g": "bot",
+    "id": "anguilla-dolphin",
+    "index": "c/uk/dolphin"
+  },
+  "anguilla-governor": {
+    "ns": "british",
+    "g": "bot",
+    "id": "anguilla-governor",
+    "index": "c/uk/governor"
+  },
+  "anjouan": {
+    "g": "africa",
+    "ns": "comoros",
+    "name": "Anjouan",
+    "title": "Flag of Anjouan — Comoros Island",
+    "id": "anjouan",
+    "index": "o/anjouan"
+  },
+  "antigua-and-barbuda": {
+    "ns": "antigua-and-barbuda",
+    "flag": "antigua-and-barbuda/flag.svg",
+    "g": "caribbean",
+    "id": "antigua-and-barbuda",
+    "index": "c/antigua-and-barbuda"
+  },
+  "arab-federation": {
+    "g": "h",
+    "l": "",
+    "now": [
+      "iraq",
+      "jordan"
+    ],
+    "years": "1958",
+    "ns": "arab-hist",
+    "id": "arab-federation",
+    "index": "c/iraq:1958"
+  },
+  "argentina": {
+    "g": "south-america",
+    "ns": "argentina",
+    "name": "Argentina",
+    "id": "argentina",
+    "index": "c/argentina"
+  },
+  "ascension-island": {
+    "ns": "british",
+    "g": "bot",
+    "id": "ascension-island",
+    "index": "c/uk/island"
+  },
+  "australia": {
+    "g": "oceania",
+    "ns": "australia",
+    "name": "Australia",
+    "id": "australia",
+    "index": "c/australia"
+  },
+  "austria": {
+    "g": "europe",
+    "ns": "austria",
+    "name": "Austria",
+    "id": "austria",
+    "index": "c/austria"
+  },
+  "bahrain": {
+    "g": "nf,arab,gulf",
+    "id": "bahrain",
+    "index": "c/bahrain"
+  },
+  "bangladesh": {
+    "g": "nf,south-asia",
+    "id": "bangladesh",
+    "index": "c/bangladesh"
+  },
+  "bangladesh-navy": {
+    "g": "south-asia",
+    "ns": "bangladesh",
+    "id": "bangladesh-navy",
+    "index": "c/bangladesh-navy"
+  },
+  "belgium": {
+    "g": "europe",
+    "ns": "belgium",
+    "name": "Belgium",
+    "id": "belgium",
+    "index": "c/belgium"
+  },
+  "bermuda": {
+    "ns": "british",
+    "g": "bot",
+    "id": "bermuda",
+    "index": "c/uk/bermuda"
+  },
+  "brazil": {
+    "g": "south-america",
+    "ns": "brazil",
+    "name": "Brazil",
+    "id": "brazil",
+    "index": "c/brazil"
+  },
+  "british-antarctic-territory": {
+    "g": "bot",
+    "ns": "british",
+    "id": "british-antarctic-territory",
+    "index": "c/uk/antarctic-territory"
+  },
+  "british-falkland-islands": {
+    "g": "bot",
+    "ns": "british",
+    "id": "british-falkland-islands",
+    "index": "c/uk/falkland-islands"
+  },
+  "british-indian-ocean-territory": {
+    "g": "bot",
+    "ns": "british",
+    "id": "british-indian-ocean-territory",
+    "index": "c/uk/indian-ocean-territory"
+  },
+  "british-overseas-territories": {
+    "g": "bot",
+    "ns": "british",
+    "id": "british-overseas-territories",
+    "index": "c/uk/overseas-territories"
+  },
+  "british-virgin-islands": {
+    "g": "bot",
+    "ns": "british",
+    "id": "british-virgin-islands",
+    "index": "c/uk/virgin-islands"
+  },
+  "canada": {
+    "g": "north-america",
+    "ns": "canada",
+    "name": "Canada",
+    "id": "canada",
+    "index": "c/canada"
+  },
+  "cayman-islands": {
+    "ns": "british",
+    "g": "bot",
+    "id": "cayman-islands",
+    "index": "c/uk/islands"
+  },
+  "chad": {
+    "g": "nf,af,arab,africa",
+    "id": "chad",
+    "index": "c/chad"
+  },
+  "chile": {
+    "g": "south-america",
+    "ns": "chile",
+    "name": "Chile",
+    "id": "chile",
+    "index": "c/chile"
+  },
+  "china": {
+    "g": "asia,east-asia",
+    "ns": "china",
+    "name": "China",
+    "id": "china",
+    "index": "c/china"
+  },
+  "colombia": {
+    "g": "south-america",
+    "ns": "colombia",
+    "name": "Colombia",
+    "id": "colombia",
+    "index": "c/colombia"
+  },
+  "comoros": {
+    "g": "nf,af,arab,africa",
+    "l": "",
+    "id": "comoros",
+    "index": "c/comoros"
+  },
+  "comoros-mayotte": {
+    "g": "africa",
+    "ns": "comoros",
+    "name": "Mayotte",
+    "title": "Flag of Mayotte — Disputed Comoros Territory",
+    "id": "comoros-mayotte",
+    "index": "o/comoros-mayotte"
+  },
+  "croatia": {
+    "g": "europe",
+    "ns": "croatia",
+    "name": "Croatia",
+    "id": "croatia",
+    "index": "c/croatia"
+  },
+  "cuba": {
+    "g": "caribbean",
+    "ns": "cuba",
+    "name": "Cuba",
+    "id": "cuba",
+    "index": "c/cuba"
+  },
+  "czech-republic": {
+    "g": "europe",
+    "ns": "czech-republic",
+    "name": "Czech Republic",
+    "id": "czech-republic",
+    "index": "c/czech-republic"
+  },
+  "denmark": {
+    "g": "europe,nordic",
+    "ns": "denmark",
+    "name": "Denmark",
+    "id": "denmark",
+    "index": "c/denmark"
+  },
+  "djibouti": {
+    "g": "nf,af,arab,horn-of-africa",
+    "l": "",
+    "id": "djibouti",
+    "index": "c/djibouti"
+  },
+  "eagle-of-saladin": {
+    "g": "arab,h",
+    "ns": "egypt",
+    "flag": "egypt/saladin.svg",
+    "title": "Eagle of Saladin — Pan-Arab Heraldic Symbol",
+    "name": "Eagle of Saladin",
+    "id": "eagle-of-saladin",
+    "index": "o/eagle-of-saladin"
+  },
+  "egypt": {
+    "g": "nf,af,arab",
+    "id": "egypt",
+    "index": "c/egypt"
+  },
+  "egypt-eyalet": {
+    "g": "h",
+    "now": "egypt",
+    "years": "1517–1867",
+    "ns": "egypt",
+    "id": "egypt-eyalet",
+    "index": "c/egypt:1517"
+  },
+  "egypt-khedivate": {
+    "g": "h",
+    "name": "Khedivate of Egypt",
+    "now": "egypt",
+    "years": "1867–1914",
+    "ns": "egypt",
+    "id": "egypt-khedivate",
+    "index": "c/egypt:1867"
+  },
+  "egypt-kingdom": {
+    "g": "h",
+    "name": "Kingdom of Egypt",
+    "now": "egypt",
+    "years": "1922–1953",
+    "ns": "egypt",
+    "id": "egypt-kingdom",
+    "index": "c/egypt:1922"
+  },
+  "egypt-mamluk": {
+    "g": "h",
+    "name": "Mamluk Sultanate",
+    "l": "",
+    "now": "egypt",
+    "years": "1250–1517",
+    "ns": "egypt",
+    "id": "egypt-mamluk",
+    "index": "c/egypt:1250"
+  },
+  "egypt-revolution": {
+    "g": "h,fn",
+    "name": "Egyptian Revolution",
+    "now": "egypt",
+    "years": "1952–1958",
+    "ns": "egypt",
+    "id": "egypt-revolution",
+    "index": "c/egypt:1952"
+  },
+  "egypt-sultanate": {
+    "g": "h",
+    "name": "Sultanate of Egypt",
+    "l": "",
+    "now": "egypt",
+    "years": "1914–1922",
+    "ns": "egypt",
+    "id": "egypt-sultanate",
+    "index": "c/egypt:1914"
+  },
+  "egypt-uar": {
+    "g": "h,fn",
+    "name": "United Arab Republic",
+    "now": "egypt",
+    "years": "1958–1971",
+    "ns": "egypt",
+    "id": "egypt-uar",
+    "index": "c/egypt:1958"
+  },
+  "ethiopia": {
+    "g": "africa,horn-of-africa",
+    "ns": "ethiopia",
+    "name": "Ethiopia",
+    "id": "ethiopia",
+    "index": "c/ethiopia"
+  },
+  "fiji": {
+    "g": "oceania",
+    "ns": "fiji",
+    "name": "Fiji",
+    "id": "fiji",
+    "index": "c/fiji"
+  },
+  "finland": {
+    "g": "europe,nordic",
+    "ns": "finland",
+    "name": "Finland",
+    "id": "finland",
+    "index": "c/finland"
+  },
+  "france": {
+    "g": "europe",
+    "ns": "france",
+    "name": "France",
+    "id": "france",
+    "index": "c/france"
+  },
+  "germany": {
+    "g": "europe",
+    "ns": "germany",
+    "name": "Germany",
+    "id": "germany",
+    "index": "c/germany"
+  },
+  "ghana": {
+    "g": "africa",
+    "ns": "ghana",
+    "name": "Ghana",
+    "id": "ghana",
+    "index": "c/ghana"
+  },
+  "gibraltar": {
+    "ns": "british",
+    "g": "bot",
+    "id": "gibraltar",
+    "index": "c/uk/gibraltar"
+  },
+  "grande-comore": {
+    "g": "africa",
+    "ns": "comoros",
+    "name": "Grande Comore",
+    "title": "Flag of Grande Comore — Comoros Island",
+    "id": "grande-comore",
+    "index": "o/grande-comore"
+  },
+  "greece": {
+    "g": "europe",
+    "ns": "greece",
+    "name": "Greece",
+    "id": "greece",
+    "index": "c/greece"
+  },
+  "guernsey": {
+    "ns": "british.cd",
+    "g": "bot",
+    "id": "guernsey",
+    "index": "c/uk/guernsey"
+  },
+  "hungary": {
+    "g": "europe",
+    "ns": "hungary",
+    "name": "Hungary",
+    "id": "hungary",
+    "index": "c/hungary"
+  },
+  "india": {
+    "g": "asia,south-asia",
+    "ns": "india",
+    "name": "India",
+    "id": "india",
+    "index": "c/india"
+  },
+  "indonesia": {
+    "g": "asia,southeast-asia",
+    "ns": "indonesia",
+    "name": "Indonesia",
+    "id": "indonesia",
+    "index": "c/indonesia"
+  },
+  "iran": {
+    "g": "asia",
+    "ns": "iran",
+    "name": "Iran",
+    "id": "iran",
+    "index": "c/iran"
+  },
+  "iraq": {
+    "g": "nf,as,arab,gulf,levant",
+    "id": "iraq",
+    "index": "c/iraq"
+  },
+  "iraq-baath": {
+    "g": "h",
+    "name": "Iraqi Republic (Ba'athist)",
+    "now": "iraq",
+    "years": "1968–2008",
+    "ns": "iraq",
+    "id": "iraq-baath",
+    "index": "c/iraq:1968"
+  },
+  "iraq-hashemite": {
+    "g": "h",
+    "name": "Hashemite Iraq",
+    "l": "",
+    "now": "iraq",
+    "years": "1921–1958",
+    "ns": "iraq",
+    "id": "iraq-hashemite",
+    "index": "c/iraq:1921"
+  },
+  "iraq-mandatory": {
+    "g": "h",
+    "name": "Mandatory Iraq",
+    "l": "",
+    "now": "iraq",
+    "years": "1920–1932",
+    "ns": "iraq",
+    "id": "iraq-mandatory",
+    "index": "c/iraq:1920"
+  },
+  "iraq-republic": {
+    "g": "h",
+    "name": "Iraqi Republic",
+    "now": "iraq",
+    "years": "1958–1968",
+    "ns": "iraq",
+    "id": "iraq-republic",
+    "index": "c/iraq:1958"
+  },
+  "ireland": {
+    "g": "europe",
+    "ns": "ireland",
+    "name": "Ireland",
+    "id": "ireland",
+    "index": "c/ireland"
+  },
+  "israel": {
+    "g": "asia,levant",
+    "ns": "israel",
+    "name": "Israel",
+    "id": "israel",
+    "index": "c/israel"
+  },
+  "italy": {
+    "g": "europe",
+    "ns": "italy",
+    "name": "Italy",
+    "id": "italy",
+    "index": "c/italy"
+  },
+  "japan": {
+    "g": "asia,east-asia",
+    "ns": "japan",
+    "name": "Japan",
+    "id": "japan",
+    "index": "c/japan"
+  },
+  "jersey": {
+    "ns": "british.cd",
+    "g": "bot",
+    "id": "jersey",
+    "index": "c/uk/jersey"
+  },
+  "jordan": {
+    "g": "nf,as,arab,levant",
+    "l": "",
+    "id": "jordan",
+    "index": "c/jordan"
+  },
+  "juneteenth": {
+    "g": "pan,north-america",
+    "ns": "juneteenth",
+    "name": "Juneteenth",
+    "title": "Juneteenth Flag — Emancipation Commemorative Flag",
+    "id": "juneteenth",
+    "index": "o/juneteenth"
+  },
+  "kenya": {
+    "g": "africa,horn-of-africa",
+    "ns": "kenya",
+    "name": "Kenya",
+    "id": "kenya",
+    "index": "c/kenya"
+  },
+  "korea": {
+    "g": "nf,east-asia",
+    "flag": "korea/flag.svg",
+    "title": "Flag of the Republic of Korea (South Korea)",
+    "id": "korea",
+    "index": "c/korea"
+  },
+  "korea-dprk": {
+    "g": "nf,east-asia",
+    "flag": "korea/dprk.svg",
+    "name": "N. Korea (DPRK)",
+    "title": "Flag of the Democratic People's Republic of Korea (North Korea)",
+    "id": "korea-dprk",
+    "index": "c/n.-korea-(dprk)"
+  },
+  "kuwait": {
+    "g": "nf,as,arab,gulf",
+    "l": "",
+    "id": "kuwait",
+    "index": "c/kuwait"
+  },
+  "lebanon": {
+    "g": "nf,as,arab,levant",
+    "id": "lebanon",
+    "index": "c/lebanon"
+  },
+  "libya": {
+    "g": "nf,af,arab,maghreb",
+    "id": "libya",
+    "index": "c/libya"
+  },
+  "libya-ar": {
+    "g": "h",
+    "name": "Libyan Arab Republic",
+    "now": "libya",
+    "years": "1969–1977",
+    "ns": "libya",
+    "id": "libya-ar",
+    "index": "c/libya:1969"
+  },
+  "libya-civil": {
+    "g": "nf,af,arab,maghreb",
+    "name": "Libya (civil)",
+    "ns": "libya",
+    "id": "libya-civil",
+    "index": "c/libya-(civil)"
+  },
+  "libya-cyrenaica": {
+    "g": "h",
+    "name": "Emirate of Cyrenaica",
+    "now": "libya",
+    "years": "1949–1951",
+    "ns": "libya",
+    "id": "libya-cyrenaica",
+    "index": "c/libya:1949"
+  },
+  "libya-italian": {
+    "g": "h",
+    "name": "Italian Libya",
+    "now": "libya",
+    "years": "1911–1943",
+    "ns": "libya",
+    "id": "libya-italian",
+    "index": "c/libya:1911"
+  },
+  "libya-jamahiriya": {
+    "g": "h",
+    "name": "Libyan Jamahiriya",
+    "now": "libya",
+    "years": "1977–2011",
+    "ns": "libya",
+    "id": "libya-jamahiriya",
+    "index": "c/libya:1977"
+  },
+  "libya-kingdom": {
+    "g": "h",
+    "flag": "libya/flag.svg",
+    "name": "Kingdom of Libya",
+    "now": "libya",
+    "years": "1951–1969",
+    "ns": "libya",
+    "id": "libya-kingdom",
+    "index": "c/libya:1951"
+  },
+  "libya-ottoman": {
+    "g": "h",
+    "name": "Ottoman Tripolitania",
+    "flag": "libya/ottoman-tripoli.svg",
+    "now": "libya",
+    "years": "1551–1911",
+    "ns": "libya",
+    "id": "libya-ottoman",
+    "index": "c/libya:1551"
+  },
+  "libya-tripolitanian-republic": {
+    "g": "h",
+    "name": "Tripolitanian Republic",
+    "now": "libya",
+    "years": "1918–1923",
+    "ns": "libya",
+    "id": "libya-tripolitanian-republic",
+    "index": "c/libya:1918"
+  },
+  "malaysia": {
+    "g": "asia,southeast-asia",
+    "ns": "malaysia",
+    "name": "Malaysia",
+    "id": "malaysia",
+    "index": "c/malaysia"
+  },
+  "mann": {
+    "ns": "british.cd",
+    "name": "Mann (Isle of Man)",
+    "g": "bot",
+    "id": "mann",
+    "index": "c/uk/mann"
+  },
+  "mauritania": {
+    "g": "nf,af,arab,maghreb",
+    "id": "mauritania",
+    "index": "c/mauritania"
+  },
+  "mauritania-1959": {
+    "g": "fn,af,arab,maghreb",
+    "name": "Mauritania (1959–2017)",
+    "now": "mauritania",
+    "years": "1959–2017",
+    "ns": "mauritania",
+    "id": "mauritania-1959",
+    "index": "c/mauritania:1959"
+  },
+  "mexico": {
+    "g": "north-america",
+    "ns": "mexico",
+    "name": "Mexico",
+    "id": "mexico",
+    "index": "c/mexico"
+  },
+  "moheli": {
+    "g": "africa",
+    "ns": "comoros",
+    "name": "Mohéli",
+    "title": "Flag of Mohéli — Comoros Island",
+    "id": "moheli",
+    "index": "o/mohéli"
+  },
+  "montserrat": {
+    "ns": "british",
+    "g": "bot",
+    "id": "montserrat",
+    "index": "c/uk/montserrat"
+  },
+  "morocco": {
+    "g": "nf,af,arab,maghreb",
+    "ns": "morocco",
+    "name": "Morocco",
+    "id": "morocco",
+    "index": "c/morocco"
+  },
+  "netherlands": {
+    "g": "europe",
+    "ns": "netherlands",
+    "name": "Netherlands",
+    "id": "netherlands",
+    "index": "c/netherlands"
+  },
+  "new-zealand": {
+    "g": "oceania",
+    "ns": "new-zealand",
+    "name": "New Zealand",
+    "id": "new-zealand",
+    "index": "c/new-zealand"
+  },
+  "nigeria": {
+    "g": "africa",
+    "ns": "nigeria",
+    "name": "Nigeria",
+    "id": "nigeria",
+    "index": "c/nigeria"
+  },
+  "norway": {
+    "g": "europe,nordic",
+    "ns": "norway",
+    "name": "Norway",
+    "id": "norway",
+    "index": "c/norway"
+  },
+  "oman": {
+    "g": "nf,as,arab,gulf",
+    "ns": "oman",
+    "name": "Oman",
+    "id": "oman",
+    "index": "c/oman"
+  },
+  "pakistan": {
+    "g": "asia,south-asia",
+    "ns": "pakistan",
+    "name": "Pakistan",
+    "id": "pakistan",
+    "index": "c/pakistan"
+  },
+  "palestine": {
+    "g": "nf,as,arab,levant",
+    "ns": "palestine",
+    "name": "Palestine",
+    "id": "palestine",
+    "index": "c/palestine"
+  },
+  "peru": {
+    "g": "south-america",
+    "ns": "peru",
+    "name": "Peru",
+    "id": "peru",
+    "index": "c/peru"
+  },
+  "philippines": {
+    "g": "asia,southeast-asia",
+    "ns": "philippines",
+    "name": "Philippines",
+    "id": "philippines",
+    "index": "c/philippines"
+  },
+  "pitcairn": {
+    "ns": "british",
+    "name": "Pitcairn Islands",
+    "g": "bot",
+    "id": "pitcairn",
+    "index": "c/uk/pitcairn"
+  },
+  "poland": {
+    "g": "europe",
+    "ns": "poland",
+    "name": "Poland",
+    "id": "poland",
+    "index": "c/poland"
+  },
+  "portugal": {
+    "g": "europe",
+    "ns": "portugal",
+    "name": "Portugal",
+    "id": "portugal",
+    "index": "c/portugal"
+  },
+  "qatar": {
+    "g": "nf,as,arab,gulf",
+    "ns": "qatar",
+    "name": "Qatar",
+    "id": "qatar",
+    "index": "c/qatar"
+  },
+  "romania": {
+    "g": "europe",
+    "ns": "romania",
+    "name": "Romania",
+    "id": "romania",
+    "index": "c/romania"
+  },
+  "russia": {
+    "g": "europe",
+    "ns": "russia",
+    "name": "Russia",
+    "id": "russia",
+    "index": "c/russia"
+  },
+  "saint-helena": {
+    "ns": "british",
+    "g": "bot",
+    "id": "saint-helena",
+    "index": "c/uk/helena"
+  },
+  "sark": {
+    "ns": "british.cd",
+    "g": "bot",
+    "id": "sark",
+    "index": "c/uk/sark"
+  },
+  "sassanid": {
+    "ns": "persia",
+    "flag": "persia/derafsh-kaviani.svg",
+    "g": "h",
+    "name": "Sassanid Empire (Derafsh Kaviani)",
+    "now": "iran",
+    "years": "224–651",
+    "id": "sassanid",
+    "index": "c/iran:224"
+  },
+  "sassanid-alt": {
+    "ns": "persia",
+    "flag": "persia/derafsh-kaviani.png",
+    "g": "h",
+    "name": "Sassanid Empire (Derafsh Kaviani, alt)",
+    "now": "iran",
+    "years": "224–651",
+    "id": "sassanid-alt",
+    "index": "c/iran:224"
+  },
+  "saudi-arabia": {
+    "g": "nf,as,arab,gulf",
+    "ns": "saudi-arabia",
+    "name": "Saudi Arabia",
+    "id": "saudi-arabia",
+    "index": "c/saudi-arabia"
+  },
+  "sgssi": {
+    "ns": "british",
+    "name": "South Georgia & South Sandwich Islands",
+    "g": "bot",
+    "id": "sgssi",
+    "index": "c/uk/sgssi"
+  },
+  "singapore": {
+    "g": "asia,southeast-asia",
+    "ns": "singapore",
+    "name": "Singapore",
+    "id": "singapore",
+    "index": "c/singapore"
+  },
+  "somalia": {
+    "g": "nf,af,arab,horn-of-africa",
+    "ns": "somalia",
+    "name": "Somalia",
+    "id": "somalia",
+    "index": "c/somalia"
+  },
+  "south-africa": {
+    "g": "africa",
+    "ns": "south-africa",
+    "name": "South Africa",
+    "id": "south-africa",
+    "index": "c/south-africa"
+  },
+  "spain": {
+    "g": "europe",
+    "ns": "spain",
+    "name": "Spain",
+    "id": "spain",
+    "index": "c/spain"
+  },
+  "sudan": {
+    "g": "nf,af,arab",
+    "ns": "sudan",
+    "name": "Sudan",
+    "id": "sudan",
+    "index": "c/sudan"
+  },
+  "sweden": {
+    "g": "europe,nordic",
+    "ns": "sweden",
+    "name": "Sweden",
+    "id": "sweden",
+    "index": "c/sweden"
+  },
+  "switzerland": {
+    "g": "europe",
+    "ns": "switzerland",
+    "name": "Switzerland",
+    "id": "switzerland",
+    "index": "c/switzerland"
+  },
+  "syria": {
+    "g": "nf,as,arab,levant",
+    "ns": "syria",
+    "name": "Syria",
+    "id": "syria",
+    "index": "c/syria"
+  },
+  "tanzania": {
+    "g": "africa,horn-of-africa",
+    "ns": "tanzania",
+    "name": "Tanzania",
+    "id": "tanzania",
+    "index": "c/tanzania"
+  },
+  "tci": {
+    "ns": "british",
+    "name": "Turks and Caicos Islands",
+    "g": "bot",
+    "id": "tci",
+    "index": "c/uk/tci"
+  },
+  "thailand": {
+    "g": "asia,southeast-asia",
+    "ns": "thailand",
+    "name": "Thailand",
+    "id": "thailand",
+    "index": "c/thailand"
+  },
+  "tristan": {
+    "ns": "british",
+    "name": "Tristan da Cunha",
+    "g": "bot",
+    "id": "tristan",
+    "index": "c/uk/tristan"
+  },
+  "tunisia": {
+    "g": "nf,af,arab,maghreb",
+    "ns": "tunisia",
+    "name": "Tunisia",
+    "id": "tunisia",
+    "index": "c/tunisia"
+  },
+  "turkey": {
+    "g": "asia,europe",
+    "ns": "turkey",
+    "name": "Turkey",
+    "id": "turkey",
+    "index": "c/turkey"
+  },
+  "uae": {
+    "g": "nf,as,arab,gulf",
+    "ns": "uae",
+    "name": "United Arab Emirates",
+    "id": "uae",
+    "index": "c/united-arab-emirates"
+  },
+  "ukraine": {
+    "g": "europe",
+    "ns": "ukraine",
+    "name": "Ukraine",
+    "id": "ukraine",
+    "index": "c/ukraine"
+  },
+  "us": {
+    "g": "nf,north-america",
+    "flag": "us/flag.svg",
+    "name": "United States",
+    "l": "",
+    "id": "us",
+    "index": "c/united-states"
+  },
+  "vietnam": {
+    "g": "asia,southeast-asia",
+    "ns": "vietnam",
+    "name": "Vietnam",
+    "id": "vietnam",
+    "index": "c/vietnam"
+  },
+  "yemen": {
+    "g": "nf,as,arab",
+    "ns": "yemen",
+    "name": "Yemen",
+    "id": "yemen",
+    "index": "c/yemen"
+  },
+  "rashidun": {
+    "g": "h,caliphate",
+    "ns": "caliphates",
+    "name": "Rashidun Caliphate",
+    "now": "saudi-arabia",
+    "years": "632–661",
+    "id": "rashidun",
+    "index": "c/saudi-arabia:632"
+  },
+  "umayyad": {
+    "g": "h,caliphate",
+    "ns": "caliphates",
+    "name": "Umayyad Caliphate",
+    "now": "syria",
+    "years": "661–750",
+    "id": "umayyad",
+    "index": "c/syria:661"
+  },
+  "abbasid": {
+    "g": "h,caliphate",
+    "ns": "caliphates",
+    "name": "Abbasid Caliphate",
+    "now": "iraq",
+    "years": "750–1258",
+    "id": "abbasid",
+    "index": "c/iraq:750"
+  },
+  "fatimid": {
+    "g": "h,caliphate",
+    "ns": "caliphates",
+    "name": "Fatimid Caliphate",
+    "now": "egypt",
+    "years": "909–1171",
+    "id": "fatimid",
+    "index": "c/egypt:909"
+  },
+  "ayyubid": {
+    "g": "h,caliphate",
+    "ns": "caliphates",
+    "name": "Ayyubid Dynasty",
+    "now": "egypt",
+    "years": "1171–1260",
+    "id": "ayyubid",
+    "index": "c/egypt:1171"
+  },
+  "ottoman": {
+    "g": "h,caliphate,europe,asia",
+    "ns": "caliphates",
+    "name": "Ottoman Empire",
+    "now": "turkey",
+    "years": "1299–1922",
+    "id": "ottoman",
+    "index": "c/turkey:1299"
+  },
+  "ottoman-early": {
+    "g": "h,caliphate",
+    "ns": "caliphates",
+    "name": "Ottoman Empire (Early)",
+    "now": "turkey",
+    "years": "~1300s",
+    "id": "ottoman-early",
+    "index": "c/turkey:1300"
+  },
+  "mughal": {
+    "g": "h,caliphate,south-asia",
+    "ns": "caliphates",
+    "name": "Mughal Empire",
+    "now": "india",
+    "years": "1526–1857",
+    "id": "mughal",
+    "index": "c/india:1526"
+  },
+  "almohad": {
+    "g": "h,caliphate,maghreb",
+    "ns": "caliphates",
+    "name": "Almohad Caliphate",
+    "now": "morocco",
+    "years": "1121–1269",
+    "id": "almohad",
+    "index": "c/morocco:1121"
+  },
+  "almoravid": {
+    "g": "h,caliphate,maghreb",
+    "ns": "caliphates",
+    "name": "Almoravid Dynasty",
+    "now": "morocco",
+    "years": "1040–1147",
+    "id": "almoravid",
+    "index": "c/morocco:1040"
+  },
+  "idrisid": {
+    "g": "h,caliphate,maghreb",
+    "ns": "caliphates",
+    "name": "Idrisid Dynasty",
+    "now": "morocco",
+    "years": "788–974",
+    "id": "idrisid",
+    "index": "c/morocco:788"
+  },
+  "samanid": {
+    "g": "h,caliphate,asia",
+    "ns": "caliphates",
+    "name": "Samanid Empire",
+    "now": "iran",
+    "years": "819–999",
+    "id": "samanid",
+    "index": "c/iran:819"
+  },
+  "roman-empire": {
+    "g": "h,empire,europe",
+    "ns": "empires",
+    "name": "Roman Empire",
+    "now": "italy",
+    "years": "27 BC–476 AD",
+    "id": "roman-empire",
+    "index": "c/italy:476"
+  },
+  "byzantine": {
+    "g": "h,empire,europe",
+    "ns": "empires",
+    "name": "Byzantine Empire",
+    "now": "turkey",
+    "years": "330–1453",
+    "id": "byzantine",
+    "index": "c/turkey:330"
+  },
+  "holy-roman-empire": {
+    "g": "h,empire,europe",
+    "ns": "empires",
+    "name": "Holy Roman Empire",
+    "now": "germany",
+    "years": "800–1806",
+    "id": "holy-roman-empire",
+    "index": "c/germany:800"
+  },
+  "mongol": {
+    "g": "h,empire,asia",
+    "ns": "empires",
+    "name": "Mongol Empire",
+    "now": "china",
+    "years": "1206–1368",
+    "id": "mongol",
+    "index": "c/china:1206"
+  },
+  "achaemenid": {
+    "g": "h,empire,asia",
+    "ns": "empires",
+    "name": "Achaemenid Empire",
+    "now": "iran",
+    "years": "550–330 BC",
+    "id": "achaemenid",
+    "index": "c/iran:550"
+  },
+  "kingdom-of-jerusalem": {
+    "g": "h,empire,levant",
+    "ns": "empires",
+    "name": "Kingdom of Jerusalem",
+    "now": "israel",
+    "years": "1099–1291",
+    "id": "kingdom-of-jerusalem",
+    "index": "c/israel:1099"
+  },
+  "venice": {
+    "g": "h,empire,europe",
+    "ns": "empires",
+    "name": "Republic of Venice",
+    "now": "italy",
+    "years": "697–1797",
+    "id": "venice",
+    "index": "c/italy:697"
+  },
+  "qajar": {
+    "g": "h,asia",
+    "ns": "persia",
+    "name": "Qajar Dynasty",
+    "now": "iran",
+    "years": "1789–1925",
+    "id": "qajar",
+    "index": "c/iran:1789"
+  },
+  "pahlavi": {
+    "g": "h,fn,asia",
+    "ns": "persia",
+    "name": "Pahlavi Dynasty",
+    "now": "iran",
+    "years": "1925–1979",
+    "id": "pahlavi",
+    "index": "c/iran:1925"
+  },
+  "north-yemen": {
+    "g": "h,fn,arab",
+    "ns": "yemen",
+    "name": "North Yemen (YAR)",
+    "now": "yemen",
+    "years": "1918–1990",
+    "id": "north-yemen",
+    "index": "c/yemen:1918"
+  },
+  "south-yemen": {
+    "g": "h,fn,arab",
+    "ns": "yemen",
+    "name": "South Yemen (PDRY)",
+    "now": "yemen",
+    "years": "1967–1990",
+    "id": "south-yemen",
+    "index": "c/yemen:1967"
+  },
+  "hejaz": {
+    "g": "h,arab",
+    "ns": "arab-hist",
+    "name": "Kingdom of Hejaz",
+    "now": "saudi-arabia",
+    "years": "1916–1925",
+    "id": "hejaz",
+    "index": "c/saudi-arabia:1916"
+  },
+  "hatay": {
+    "g": "h",
+    "ns": "arab-hist",
+    "name": "Republic of Hatay",
+    "now": "turkey",
+    "years": "1938–1939",
+    "id": "hatay",
+    "index": "c/turkey:1938"
+  },
+  "libya-united": {
+    "g": "h",
+    "ns": "libya",
+    "name": "United Kingdom of Libya",
+    "now": "libya",
+    "years": "1951–1963",
+    "id": "libya-united",
+    "index": "c/libya:1951"
+  },
+  "in-calcutta-flag": {
+    "g": "h,south-asia",
+    "ns": "india-hist",
+    "name": "Calcutta Flag",
+    "now": "india",
+    "years": "1906",
+    "id": "in-calcutta-flag",
+    "index": "c/india:1906"
+  },
+  "in-independence": {
+    "g": "h,fn,south-asia",
+    "ns": "india-hist",
+    "name": "Indian Independence Movement Flag",
+    "now": "india",
+    "years": "1921–1947",
+    "id": "in-independence",
+    "index": "c/india:1921"
+  },
+  "sikh-empire": {
+    "g": "h,empire,south-asia",
+    "ns": "india-hist",
+    "name": "Sikh Empire",
+    "now": "india",
+    "years": "1799–1849",
+    "id": "sikh-empire",
+    "index": "c/india:1799"
+  },
+  "british-raj": {
+    "g": "h,colonial,south-asia",
+    "ns": "india-hist",
+    "name": "British Raj",
+    "now": [
+      "india",
+      "pakistan",
+      "bangladesh"
+    ],
+    "years": "1858–1947",
+    "id": "british-raj",
+    "index": "c/india:1858"
+  },
+  "pk-muslim-league": {
+    "g": "h,south-asia",
+    "ns": "pakistan-hist",
+    "name": "Muslim League Flag",
+    "now": "pakistan",
+    "years": "1906–1947",
+    "id": "pk-muslim-league",
+    "index": "c/pakistan:1906"
+  },
+  "east-pakistan": {
+    "g": "h,fn,south-asia",
+    "ns": "pakistan-hist",
+    "name": "East Pakistan",
+    "now": "bangladesh",
+    "years": "1947–1971",
+    "id": "east-pakistan",
+    "index": "c/bangladesh:1947"
+  },
+  "bd-1971-map": {
+    "g": "h,fn,south-asia",
+    "ns": "bangladesh-hist",
+    "name": "Bangladesh 1971 (Map Version)",
+    "now": "bangladesh",
+    "years": "1971",
+    "title": "Bangladesh Liberation Flag (1971, Map Version)",
+    "id": "bd-1971-map",
+    "index": "c/bangladesh:1971"
+  },
+  "af-kingdom": {
+    "g": "h,fn,asia",
+    "ns": "afghanistan",
+    "name": "Afghanistan Kingdom",
+    "now": "afghanistan",
+    "years": "1926–1973",
+    "title": "Flag of the Kingdom of Afghanistan",
+    "id": "af-kingdom",
+    "index": "c/afghanistan:1926"
+  },
+  "af-republic": {
+    "g": "h,fn,asia",
+    "ns": "afghanistan",
+    "name": "Afghanistan Republic",
+    "now": "afghanistan",
+    "years": "1973–1978",
+    "title": "Flag of the Republic of Afghanistan",
+    "id": "af-republic",
+    "index": "c/afghanistan:1973"
+  },
+  "af-soviet": {
+    "g": "h,fn,asia",
+    "ns": "afghanistan",
+    "name": "Afghanistan (Soviet era)",
+    "now": "afghanistan",
+    "years": "1978–1992",
+    "title": "Flag of Afghanistan (Soviet Era)",
+    "id": "af-soviet",
+    "index": "c/afghanistan:1978"
+  },
+  "af-taliban-1996": {
+    "g": "h,fn,asia",
+    "ns": "afghanistan",
+    "name": "Taliban (1996)",
+    "now": "afghanistan",
+    "years": "1996–2001",
+    "id": "af-taliban-1996",
+    "index": "c/afghanistan:1996"
+  },
+  "af-islamic-republic": {
+    "g": "h,fn,asia",
+    "ns": "afghanistan",
+    "name": "Afghanistan Islamic Republic",
+    "now": "afghanistan",
+    "years": "2001–2021",
+    "title": "Flag of the Islamic Republic of Afghanistan",
+    "id": "af-islamic-republic",
+    "index": "c/afghanistan:2001"
+  },
+  "cn-qing-dragon": {
+    "g": "h,east-asia",
+    "ns": "china-hist",
+    "name": "Qing Dynasty (Dragon Flag)",
+    "now": "china",
+    "years": "1889–1912",
+    "title": "Yellow Dragon Flag — Qing Dynasty China",
+    "id": "cn-qing-dragon",
+    "index": "c/china:1889"
+  },
+  "cn-five-coloured": {
+    "g": "h,fn,east-asia",
+    "ns": "china-hist",
+    "name": "Five-Coloured Flag (ROC)",
+    "now": "china",
+    "years": "1912–1928",
+    "title": "Five-Coloured Flag — Republic of China (1912–1928)",
+    "id": "cn-five-coloured",
+    "index": "c/china:1912"
+  },
+  "cn-blue-sky-white-sun": {
+    "g": "h,fn,east-asia",
+    "ns": "china-hist",
+    "name": "Blue Sky White Sun (ROC/Taiwan)",
+    "now": "china",
+    "years": "1928",
+    "title": "Blue Sky White Sun — Flag of ROC (Taiwan)",
+    "id": "cn-blue-sky-white-sun",
+    "index": "c/china:1928"
+  },
+  "jp-tokugawa": {
+    "g": "h,east-asia",
+    "ns": "japan-hist",
+    "name": "Tokugawa Shogunate",
+    "now": "japan",
+    "years": "1603–1868",
+    "id": "jp-tokugawa",
+    "index": "c/japan:1603"
+  },
+  "jp-rising-sun-army": {
+    "g": "h,east-asia",
+    "ns": "japan-hist",
+    "name": "Imperial Rising Sun (Army)",
+    "now": "japan",
+    "years": "1870–1945",
+    "id": "jp-rising-sun-army",
+    "index": "c/japan:1870"
+  },
+  "jp-rising-sun-navy": {
+    "g": "h,east-asia",
+    "ns": "japan-hist",
+    "name": "Imperial Rising Sun (Navy)",
+    "now": "japan",
+    "years": "1889–1945",
+    "id": "jp-rising-sun-navy",
+    "index": "c/japan:1889"
+  },
+  "kr-joseon": {
+    "g": "h,east-asia",
+    "ns": "korea-hist",
+    "name": "Joseon Dynasty",
+    "now": "korea",
+    "years": "1392–1897",
+    "id": "kr-joseon",
+    "index": "c/korea:1392"
+  },
+  "kr-taegeukgi-1883": {
+    "g": "h,fn,east-asia",
+    "ns": "korea-hist",
+    "name": "Original Taegeukgi",
+    "now": "korea",
+    "years": "1883",
+    "id": "kr-taegeukgi-1883",
+    "index": "c/korea:1883"
+  },
+  "vn-south": {
+    "g": "h,fn,southeast-asia",
+    "ns": "vietnam-hist",
+    "name": "South Vietnam",
+    "now": "vietnam",
+    "years": "1955–1975",
+    "id": "vn-south",
+    "index": "c/vietnam:1955"
+  },
+  "vn-empire": {
+    "g": "h,southeast-asia",
+    "ns": "vietnam-hist",
+    "name": "Empire of Vietnam",
+    "now": "vietnam",
+    "years": "1945",
+    "id": "vn-empire",
+    "index": "c/vietnam:1945"
+  },
+  "id-dutch-east-indies": {
+    "g": "h,colonial,southeast-asia",
+    "ns": "indonesia-hist",
+    "name": "Dutch East Indies",
+    "now": "indonesia",
+    "years": "1800–1949",
+    "id": "id-dutch-east-indies",
+    "index": "c/indonesia:1800"
+  },
+  "ph-katipunan": {
+    "g": "h,southeast-asia",
+    "ns": "philippines-hist",
+    "name": "Katipunan Flag",
+    "now": "philippines",
+    "years": "1892–1897",
+    "id": "ph-katipunan",
+    "index": "c/philippines:1892"
+  },
+  "ph-revolutionary": {
+    "g": "h,fn,southeast-asia",
+    "ns": "philippines-hist",
+    "name": "Philippine Revolutionary Flag",
+    "now": "philippines",
+    "years": "1897–1901",
+    "id": "ph-revolutionary",
+    "index": "c/philippines:1897"
+  },
+  "th-siam-elephant": {
+    "g": "h,fn,southeast-asia",
+    "ns": "thailand-hist",
+    "name": "Siam White Elephant",
+    "now": "thailand",
+    "years": "1855–1916",
+    "id": "th-siam-elephant",
+    "index": "c/thailand:1855"
+  },
+  "fr-bourbon": {
+    "g": "h,fn,europe",
+    "ns": "france-hist",
+    "name": "Bourbon France",
+    "now": "france",
+    "years": "1589–1792",
+    "id": "fr-bourbon",
+    "index": "c/france:1589"
+  },
+  "fr-free-france": {
+    "g": "h,europe",
+    "ns": "france-hist",
+    "name": "Free France",
+    "now": "france",
+    "years": "1940–1944",
+    "id": "fr-free-france",
+    "index": "c/france:1940"
+  },
+  "de-imperial": {
+    "g": "h,fn,europe",
+    "ns": "germany-hist",
+    "name": "Imperial Germany",
+    "now": "germany",
+    "years": "1871–1918",
+    "id": "de-imperial",
+    "index": "c/germany:1871"
+  },
+  "de-weimar": {
+    "g": "h,fn,europe",
+    "ns": "germany-hist",
+    "name": "Weimar Republic",
+    "now": "germany",
+    "years": "1918–1933",
+    "id": "de-weimar",
+    "index": "c/germany:1918"
+  },
+  "de-nazi": {
+    "g": "h,fn,europe",
+    "ns": "germany-hist",
+    "name": "Nazi Germany",
+    "now": "germany",
+    "years": "1933–1945",
+    "id": "de-nazi",
+    "index": "c/germany:1933"
+  },
+  "de-east-germany": {
+    "g": "h,fn,europe",
+    "ns": "germany-hist",
+    "name": "East Germany (GDR)",
+    "now": "germany",
+    "years": "1949–1990",
+    "id": "de-east-germany",
+    "index": "c/germany:1949"
+  },
+  "de-west-germany": {
+    "g": "h,fn,europe",
+    "ns": "germany-hist",
+    "name": "West Germany",
+    "now": "germany",
+    "years": "1949–1990",
+    "id": "de-west-germany",
+    "index": "c/germany:1949"
+  },
+  "ru-imperial": {
+    "g": "h,fn,europe",
+    "ns": "russia-hist",
+    "name": "Imperial Russia",
+    "now": "russia",
+    "years": "1858–1917",
+    "id": "ru-imperial",
+    "index": "c/russia:1858"
+  },
+  "ru-sfsr": {
+    "g": "h,fn,europe",
+    "ns": "russia-hist",
+    "name": "Russian SFSR",
+    "now": "russia",
+    "years": "1918–1991",
+    "id": "ru-sfsr",
+    "index": "c/russia:1918"
+  },
+  "soviet-union": {
+    "g": "h,fn,europe",
+    "ns": "russia-hist",
+    "name": "Soviet Union",
+    "now": "russia",
+    "years": "1922–1991",
+    "id": "soviet-union",
+    "index": "c/russia:1922"
+  },
+  "es-republic": {
+    "g": "h,fn,europe",
+    "ns": "spain-hist",
+    "name": "Second Spanish Republic",
+    "now": "spain",
+    "years": "1931–1939",
+    "id": "es-republic",
+    "index": "c/spain:1931"
+  },
+  "es-francoist": {
+    "g": "h,fn,europe",
+    "ns": "spain-hist",
+    "name": "Francoist Spain",
+    "now": "spain",
+    "years": "1939–1975",
+    "id": "es-francoist",
+    "index": "c/spain:1939"
+  },
+  "es-empire": {
+    "g": "h,empire,europe",
+    "ns": "spain-hist",
+    "name": "Spanish Empire",
+    "now": "spain",
+    "years": "1506–1785",
+    "id": "es-empire",
+    "index": "c/spain:1506"
+  },
+  "it-kingdom": {
+    "g": "h,fn,europe",
+    "ns": "italy-hist",
+    "name": "Kingdom of Italy",
+    "now": "italy",
+    "years": "1861–1946",
+    "id": "it-kingdom",
+    "index": "c/italy:1861"
+  },
+  "it-social-republic": {
+    "g": "h,fn,europe",
+    "ns": "italy-hist",
+    "name": "Italian Social Republic",
+    "now": "italy",
+    "years": "1943–1945",
+    "id": "it-social-republic",
+    "index": "c/italy:1943"
+  },
+  "pl-duchy-warsaw": {
+    "g": "h,europe",
+    "ns": "poland-hist",
+    "name": "Duchy of Warsaw",
+    "now": "poland",
+    "years": "1807–1815",
+    "id": "pl-duchy-warsaw",
+    "index": "c/poland:1807"
+  },
+  "pl-november-uprising": {
+    "g": "h,europe",
+    "ns": "poland-hist",
+    "name": "Polish November Uprising",
+    "now": "poland",
+    "years": "1830–1831",
+    "id": "pl-november-uprising",
+    "index": "c/poland:1830"
+  },
+  "gr-independence": {
+    "g": "h,europe",
+    "ns": "greece-hist",
+    "name": "Greek Independence Flag",
+    "now": "greece",
+    "years": "1821",
+    "id": "gr-independence",
+    "index": "c/greece:1821"
+  },
+  "gr-kingdom": {
+    "g": "h,fn,europe",
+    "ns": "greece-hist",
+    "name": "Greek Kingdom",
+    "now": "greece",
+    "years": "1832–1924",
+    "id": "gr-kingdom",
+    "index": "c/greece:1832"
+  },
+  "gr-junta": {
+    "g": "h,fn,europe",
+    "ns": "greece-hist",
+    "name": "Greek Military Junta",
+    "now": "greece",
+    "years": "1967–1974",
+    "id": "gr-junta",
+    "index": "c/greece:1967"
+  },
+  "scotland-kingdom": {
+    "g": "h,europe",
+    "ns": "uk-hist",
+    "name": "Kingdom of Scotland",
+    "now": "uk-scotland",
+    "years": "~1542",
+    "id": "scotland-kingdom",
+    "index": "c/scotland-(saltire):1542"
+  },
+  "us-betsy-ross": {
+    "g": "h,fn,north-america",
+    "ns": "us-hist",
+    "name": "Betsy Ross Flag",
+    "now": "us",
+    "years": "1777–1795",
+    "id": "us-betsy-ross",
+    "index": "c/united-states:1777"
+  },
+  "us-confederate-stars-bars": {
+    "g": "h,north-america",
+    "ns": "us-hist",
+    "name": "Confederate Stars and Bars",
+    "now": "us",
+    "years": "1861–1863",
+    "id": "us-confederate-stars-bars",
+    "index": "c/united-states:1861"
+  },
+  "us-confederate-stainless": {
+    "g": "h,north-america",
+    "ns": "us-hist",
+    "name": "Confederate Stainless Banner",
+    "now": "us",
+    "years": "1863–1865",
+    "id": "us-confederate-stainless",
+    "index": "c/united-states:1863"
+  },
+  "mx-three-guarantees": {
+    "g": "h,fn,north-america",
+    "ns": "mexico-hist",
+    "name": "Flag of Three Guarantees",
+    "now": "mexico",
+    "years": "1821",
+    "id": "mx-three-guarantees",
+    "index": "c/mexico:1821"
+  },
+  "mx-empire": {
+    "g": "h,fn,north-america",
+    "ns": "mexico-hist",
+    "name": "Mexican Empire",
+    "now": "mexico",
+    "years": "1821–1823",
+    "id": "mx-empire",
+    "index": "c/mexico:1821"
+  },
+  "mx-federal-republic": {
+    "g": "h,fn,north-america",
+    "ns": "mexico-hist",
+    "name": "Mexican Federal Republic",
+    "now": "mexico",
+    "years": "1823–1864",
+    "id": "mx-federal-republic",
+    "index": "c/mexico:1823"
+  },
+  "br-empire": {
+    "g": "h,fn,south-america",
+    "ns": "brazil-hist",
+    "name": "Empire of Brazil",
+    "now": "brazil",
+    "years": "1822–1889",
+    "id": "br-empire",
+    "index": "c/brazil:1822"
+  },
+  "br-provisional": {
+    "g": "h,fn,south-america",
+    "ns": "brazil-hist",
+    "name": "Brazilian Provisional Republic",
+    "now": "brazil",
+    "years": "1889",
+    "id": "br-provisional",
+    "index": "c/brazil:1889"
+  },
+  "ar-celeste-blanca": {
+    "g": "h,fn,south-america",
+    "ns": "argentina-hist",
+    "name": "Argentine Celeste y Blanca",
+    "now": "argentina",
+    "years": "1812",
+    "id": "ar-celeste-blanca",
+    "index": "c/argentina:1812"
+  },
+  "ar-sun-of-may": {
+    "g": "h,fn,south-america",
+    "ns": "argentina-hist",
+    "name": "Argentine Sun of May",
+    "now": "argentina",
+    "years": "1818",
+    "id": "ar-sun-of-may",
+    "index": "c/argentina:1818"
+  },
+  "cu-lone-star": {
+    "g": "h,fn,caribbean",
+    "ns": "cuba-hist",
+    "name": "Cuban Lone Star",
+    "now": "cuba",
+    "years": "1849",
+    "id": "cu-lone-star",
+    "index": "c/cuba:1849"
+  },
+  "et-imperial-lion": {
+    "g": "h,fn,africa,horn-of-africa",
+    "ns": "ethiopia-hist",
+    "name": "Ethiopian Imperial",
+    "now": "ethiopia",
+    "years": "1897–1974",
+    "id": "et-imperial-lion",
+    "index": "c/ethiopia:1897"
+  },
+  "et-derg": {
+    "g": "h,fn,africa,horn-of-africa",
+    "ns": "ethiopia-hist",
+    "name": "Ethiopian Derg",
+    "now": "ethiopia",
+    "years": "1974–1991",
+    "id": "et-derg",
+    "index": "c/ethiopia:1974"
+  },
+  "za-prinsevlag": {
+    "g": "h,fn,africa",
+    "ns": "south-africa-hist",
+    "name": "South Africa Prinsevlag",
+    "now": "south-africa",
+    "years": "1928–1994",
+    "id": "za-prinsevlag",
+    "index": "c/south-africa:1928"
+  },
+  "gh-gold-coast": {
+    "g": "h,colonial,africa",
+    "ns": "ghana-hist",
+    "name": "Gold Coast Colony",
+    "now": "ghana",
+    "years": "1877–1957",
+    "id": "gh-gold-coast",
+    "index": "c/ghana:1877"
+  },
+  "ke-colonial": {
+    "g": "h,colonial,africa,horn-of-africa",
+    "ns": "kenya-hist",
+    "name": "Kenya Colony",
+    "now": "kenya",
+    "years": "1920–1963",
+    "id": "ke-colonial",
+    "index": "c/kenya:1920"
+  },
+  "french-algeria": {
+    "g": "h,colonial,maghreb",
+    "ns": "colonial",
+    "name": "French Algeria",
+    "now": "algeria",
+    "years": "1830–1962",
+    "id": "french-algeria",
+    "index": "c/algeria:1830"
+  },
+  "british-palestine": {
+    "g": "h,colonial,levant",
+    "ns": "colonial",
+    "name": "British Palestine Mandate",
+    "now": [
+      "israel",
+      "palestine"
+    ],
+    "years": "1920–1948",
+    "id": "british-palestine",
+    "index": "c/israel:1920"
+  },
+  "french-syria": {
+    "g": "h,colonial,levant",
+    "ns": "colonial",
+    "name": "French Mandate Syria",
+    "now": "syria",
+    "years": "1920–1946",
+    "id": "french-syria",
+    "index": "c/syria:1920"
+  },
+  "french-lebanon": {
+    "g": "h,colonial,levant",
+    "ns": "colonial",
+    "name": "French Mandate Lebanon",
+    "now": "lebanon",
+    "years": "1920–1943",
+    "id": "french-lebanon",
+    "index": "c/lebanon:1920"
+  },
+  "anglo-egyptian-sudan": {
+    "g": "h,colonial,africa",
+    "ns": "colonial",
+    "name": "Anglo-Egyptian Sudan",
+    "now": "sudan",
+    "years": "1899–1956",
+    "id": "anglo-egyptian-sudan",
+    "index": "c/sudan:1899"
+  },
+  "italian-somaliland": {
+    "g": "h,colonial,africa,horn-of-africa",
+    "ns": "colonial",
+    "name": "Italian Somaliland",
+    "now": "somalia",
+    "years": "1889–1960",
+    "id": "italian-somaliland",
+    "index": "c/somalia:1889"
+  },
+  "british-somaliland": {
+    "g": "h,colonial,africa,horn-of-africa",
+    "ns": "colonial",
+    "name": "British Somaliland",
+    "now": "somalia",
+    "years": "1884–1960",
+    "id": "british-somaliland",
+    "index": "c/somalia:1884"
+  },
+  "united-nations": {
+    "g": "intl",
+    "ns": "intl",
+    "name": "United Nations",
+    "id": "united-nations",
+    "index": "i/united-nations"
+  },
+  "european-union": {
+    "g": "intl,europe",
+    "ns": "intl",
+    "name": "European Union",
+    "id": "european-union",
+    "index": "i/european-union"
+  },
+  "african-union": {
+    "g": "intl,africa",
+    "ns": "intl",
+    "name": "African Union",
+    "id": "african-union",
+    "index": "i/african-union"
+  },
+  "arab-league": {
+    "g": "intl,arab",
+    "ns": "intl",
+    "name": "Arab League",
+    "id": "arab-league",
+    "index": "i/arab-league"
+  },
+  "nato": {
+    "g": "intl",
+    "ns": "intl",
+    "name": "NATO",
+    "id": "nato",
+    "index": "i/nato"
+  },
+  "olympic": {
+    "g": "intl",
+    "ns": "intl",
+    "name": "Olympic Flag",
+    "title": "Olympic Flag",
+    "id": "olympic",
+    "index": "i/olympic-flag"
+  },
+  "red-cross": {
+    "g": "intl",
+    "ns": "intl",
+    "name": "Red Cross / Red Crescent",
+    "id": "red-cross",
+    "index": "i/red-cross-/-red-crescent"
+  },
+  "asean": {
+    "g": "intl,southeast-asia",
+    "ns": "intl",
+    "name": "ASEAN",
+    "id": "asean",
+    "index": "i/asean"
+  },
+  "commonwealth": {
+    "g": "intl",
+    "ns": "intl",
+    "name": "Commonwealth of Nations",
+    "id": "commonwealth",
+    "index": "i/commonwealth-of-nations"
+  },
+  "oic": {
+    "g": "intl,arab",
+    "ns": "intl",
+    "name": "Organisation of Islamic Cooperation",
+    "id": "oic",
+    "index": "i/organisation-of-islamic-cooperation"
+  },
+  "gcc": {
+    "g": "intl,gulf",
+    "ns": "intl",
+    "name": "Gulf Cooperation Council",
+    "id": "gcc",
+    "index": "i/gulf-cooperation-council"
+  },
+  "pan-african": {
+    "g": "pan,africa",
+    "ns": "movements",
+    "name": "Pan-African Flag",
+    "id": "pan-african",
+    "index": "p/pan-african-flag"
+  },
+  "pan-slavic": {
+    "g": "pan,europe",
+    "ns": "movements",
+    "name": "Pan-Slavic Flag",
+    "id": "pan-slavic",
+    "index": "p/pan-slavic-flag"
+  },
+  "amazigh": {
+    "g": "pan,maghreb",
+    "ns": "movements",
+    "name": "Amazigh (Berber) Flag",
+    "id": "amazigh",
+    "index": "p/amazigh-(berber)-flag"
+  },
+  "kurdish": {
+    "g": "pan,levant",
+    "ns": "movements",
+    "name": "Kurdish Flag",
+    "id": "kurdish",
+    "index": "p/kurdish-flag"
+  },
+  "romani": {
+    "g": "pan",
+    "ns": "movements",
+    "name": "Romani Flag",
+    "id": "romani",
+    "index": "p/romani-flag"
+  },
+  "tibetan": {
+    "g": "pan,asia",
+    "ns": "movements",
+    "name": "Tibetan Flag",
+    "id": "tibetan",
+    "index": "p/tibetan-flag"
+  },
+  "catalan": {
+    "g": "pan,europe",
+    "ns": "movements",
+    "name": "Catalan Senyera",
+    "id": "catalan",
+    "index": "p/catalan-senyera"
+  },
+  "pride-rainbow": {
+    "g": "pride",
+    "ns": "pride",
+    "name": "Rainbow Pride Flag",
+    "id": "pride-rainbow",
+    "index": "r/rainbow-pride-flag"
+  },
+  "pride-progress": {
+    "g": "pride",
+    "ns": "pride",
+    "name": "Progress Pride Flag",
+    "id": "pride-progress",
+    "index": "r/progress-pride-flag"
+  },
+  "pride-trans": {
+    "g": "pride",
+    "ns": "pride",
+    "name": "Transgender Pride Flag",
+    "id": "pride-trans",
+    "index": "r/transgender-pride-flag"
+  },
+  "jolly-roger": {
+    "g": "maritime,h",
+    "ns": "maritime",
+    "name": "Jolly Roger",
+    "id": "jolly-roger",
+    "index": "e/jolly-roger"
+  },
+  "white-ensign": {
+    "g": "maritime",
+    "ns": "maritime",
+    "name": "White Ensign",
+    "id": "white-ensign",
+    "index": "m/white-ensign"
+  },
+  "red-ensign": {
+    "g": "maritime",
+    "ns": "maritime",
+    "name": "Red Ensign",
+    "id": "red-ensign",
+    "index": "m/red-ensign"
+  },
+  "signal-flags": {
+    "g": "maritime",
+    "ns": "maritime",
+    "name": "International Signal Flags",
+    "title": "International Maritime Signal Flags",
+    "id": "signal-flags",
+    "index": "m/international-signal-flags"
+  },
+  "us-california": {
+    "ns": "us",
+    "name": "California",
+    "id": "us-california",
+    "index": "c/us/california",
+    "g": "sub,north-america"
+  },
+  "us-texas": {
+    "g": "sub,north-america",
+    "ns": "us-states",
+    "name": "Texas",
+    "id": "us-texas",
+    "index": "c/us/texas"
+  },
+  "us-hawaii": {
+    "g": "sub,north-america,oceania",
+    "ns": "us-states",
+    "name": "Hawaii",
+    "id": "us-hawaii",
+    "index": "c/us/hawaii"
+  },
+  "us-puerto-rico": {
+    "g": "sub,caribbean",
+    "ns": "us-states",
+    "name": "Puerto Rico",
+    "id": "us-puerto-rico",
+    "index": "c/us/puerto-rico"
+  },
+  "us-washington-dc": {
+    "g": "sub,north-america",
+    "ns": "us-states",
+    "name": "Washington D.C.",
+    "id": "us-washington-dc",
+    "index": "c/us/washington-dc"
+  },
+  "ca-quebec": {
+    "g": "sub,north-america",
+    "ns": "canada-sub",
+    "name": "Quebec",
+    "id": "ca-quebec",
+    "index": "c/ca/quebec"
+  },
+  "uk-scotland": {
+    "g": "sub,europe",
+    "ns": "uk-sub",
+    "name": "Scotland (Saltire)",
+    "id": "uk-scotland",
+    "index": "c/uk/scotland"
+  },
+  "uk-wales": {
+    "g": "sub,europe",
+    "ns": "uk-sub",
+    "name": "Wales",
+    "id": "uk-wales",
+    "index": "c/uk/wales"
+  },
+  "uk-england": {
+    "g": "sub,europe",
+    "ns": "uk-sub",
+    "name": "England",
+    "id": "uk-england",
+    "index": "c/uk/england"
+  },
+  "us-new-york": {
+    "ns": "us-states",
+    "name": "New York",
+    "g": "sub,north-america",
+    "id": "us-new-york",
+    "index": "c/us/new-york"
+  },
+  "us-alaska": {
+    "ns": "us-states",
+    "name": "Alaska",
+    "g": "sub,north-america",
+    "id": "us-alaska",
+    "index": "c/us/alaska"
+  },
+  "us-maryland": {
+    "ns": "us-states",
+    "name": "Maryland",
+    "g": "sub,north-america",
+    "id": "us-maryland",
+    "index": "c/us/maryland"
+  },
+  "us-new-mexico": {
+    "ns": "us-states",
+    "name": "New Mexico",
+    "g": "sub,north-america",
+    "id": "us-new-mexico",
+    "index": "c/us/new-mexico"
+  },
+  "us-arizona": {
+    "ns": "us-states",
+    "name": "Arizona",
+    "g": "sub,north-america",
+    "id": "us-arizona",
+    "index": "c/us/arizona"
+  },
+  "us-colorado": {
+    "ns": "us-states",
+    "name": "Colorado",
+    "g": "sub,north-america",
+    "id": "us-colorado",
+    "index": "c/us/colorado"
+  },
+  "us-south-carolina": {
+    "ns": "us-states",
+    "name": "South Carolina",
+    "g": "sub,north-america",
+    "id": "us-south-carolina",
+    "index": "c/us/south-carolina"
+  },
+  "us-ohio": {
+    "ns": "us-states",
+    "name": "Ohio",
+    "g": "sub,north-america",
+    "id": "us-ohio",
+    "index": "c/us/ohio"
+  },
+  "us-mississippi": {
+    "ns": "us-states",
+    "name": "Mississippi",
+    "g": "sub,north-america",
+    "id": "us-mississippi",
+    "index": "c/us/mississippi"
+  },
+  "us-georgia": {
+    "ns": "us-states",
+    "name": "Georgia (US state)",
+    "g": "sub,north-america",
+    "id": "us-georgia",
+    "index": "c/us/georgia"
+  },
+  "ca-ontario": {
+    "ns": "canada-sub",
+    "name": "Ontario",
+    "g": "sub,north-america",
+    "id": "ca-ontario",
+    "index": "c/ca/ontario"
+  },
+  "ca-british-columbia": {
+    "ns": "canada-sub",
+    "name": "British Columbia",
+    "g": "sub,north-america",
+    "id": "ca-british-columbia",
+    "index": "c/ca/british-columbia"
+  },
+  "ca-alberta": {
+    "ns": "canada-sub",
+    "name": "Alberta",
+    "g": "sub,north-america",
+    "id": "ca-alberta",
+    "index": "c/ca/alberta"
+  },
+  "uk-northern-ireland": {
+    "name": "Northern Ireland (Ulster Banner)",
+    "ns": "uk-sub",
+    "g": "sub,europe",
+    "id": "uk-northern-ireland",
+    "index": "c/uk/northern-ireland"
+  },
+  "uk-cornwall": {
+    "name": "Cornwall (St Piran)",
+    "ns": "uk-sub",
+    "g": "sub,europe",
+    "id": "uk-cornwall",
+    "index": "c/uk/cornwall"
+  },
+  "in-jammu-kashmir": {
+    "name": "Jammu & Kashmir",
+    "ns": "india-sub",
+    "g": "sub,south-asia",
+    "id": "in-jammu-kashmir",
+    "index": "c/in/jammu-kashmir"
+  },
+  "in-tamil-nadu": {
+    "name": "Tamil Nadu",
+    "ns": "india-sub",
+    "g": "sub,south-asia",
+    "id": "in-tamil-nadu",
+    "index": "c/in/tamil-nadu"
+  },
+  "in-sikkim": {
+    "name": "Sikkim",
+    "ns": "india-sub",
+    "g": "sub,south-asia",
+    "id": "in-sikkim",
+    "index": "c/in/sikkim"
+  },
+  "de-bavaria": {
+    "name": "Bavaria",
+    "ns": "germany-sub",
+    "g": "sub,europe",
+    "id": "de-bavaria",
+    "index": "c/de/bavaria"
+  },
+  "de-prussia": {
+    "name": "Prussia",
+    "ns": "germany-sub",
+    "g": "sub,europe,h",
+    "id": "de-prussia",
+    "index": "c/de/prussia"
+  },
+  "es-basque": {
+    "name": "Basque Country (Ikurriña)",
+    "ns": "spain-sub",
+    "g": "sub,europe",
+    "id": "es-basque",
+    "index": "c/es/basque"
+  },
+  "es-andalusia": {
+    "name": "Andalusia",
+    "ns": "spain-sub",
+    "g": "sub,europe",
+    "id": "es-andalusia",
+    "index": "c/es/andalusia"
+  },
+  "au-aboriginal": {
+    "name": "Aboriginal Flag",
+    "ns": "australia-sub",
+    "g": "sub,oceania",
+    "id": "au-aboriginal",
+    "index": "c/au/aboriginal"
+  },
+  "au-new-south-wales": {
+    "name": "New South Wales",
+    "ns": "australia-sub",
+    "g": "sub,oceania",
+    "id": "au-new-south-wales",
+    "index": "c/au/new-south-wales"
+  },
+  "au-torres-strait": {
+    "name": "Torres Strait Islander Flag",
+    "ns": "australia-sub",
+    "g": "sub,oceania",
+    "id": "au-torres-strait",
+    "index": "c/au/torres-strait"
+  }
+}

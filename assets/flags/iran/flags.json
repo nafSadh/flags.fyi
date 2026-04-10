@@ -1,0 +1,51 @@
+{
+  "iran": {
+    "title": "Flag of the Islamic Republic of Iran",
+    "ratio": "4:7",
+    "use": {
+      "as": "national flag",
+      "since": "1980-07-29"
+    },
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#239F40",
+        "cmyk": "78/0/60/38",
+        "note": "Represents Islam and renewal",
+        "pantone": "355 C"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Symbolizes freedom, peace, and purity"
+      },
+      {
+        "color": "red",
+        "hex": "#DA0000",
+        "cmyk": "0/100/100/15",
+        "note": "Represents martyrdom and bravery",
+        "pantone": "186 C"
+      }
+    ],
+    "desc": [
+      "- Three horizontal stripes of green, white, and red with a red national emblem and Kufic script 'Allahu Akbar' along the colour borders\n",
+      "- Adopted after the 1979 Islamic Revolution"
+    ],
+    "article": "iran/flag.md",
+    "of": {
+      "country": "iran"
+    },
+    "countryData": {
+      "name": "Iran",
+      "officialName": "Islamic Republic of Iran",
+      "un": "member"
+    },
+    "cs": "iran/flag.cs.svg",
+    "trivia": [
+      "- The words 'Allahu Akbar' (God is Great) are written 22 times along the green and red stripes (11 times each)\n",
+      "- The 22 represents 22 Bahman (11 February), the anniversary of the Islamic Revolution\n",
+      "- The green represents Islam; white represents peace; red represents courage and bloodshed"
+    ]
+  }
+}

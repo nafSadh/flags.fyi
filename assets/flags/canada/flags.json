@@ -1,0 +1,47 @@
+{
+  "canada": {
+    "title": "Flag of Canada",
+    "ratio": "1:2",
+    "use": {
+      "as": "national flag",
+      "since": "1965-02-15"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#FF0000",
+        "cmyk": "0/100/100/0",
+        "pantone": "032 C",
+        "note": "Represents bravery and sacrifice"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Represents peace and honesty"
+      }
+    ],
+    "desc": [
+      "- A red field with a white square in the centre containing a red eleven-pointed maple leaf\n",
+      "- Adopted in 1965, replacing the Red Ensign after considerable national debate\n",
+      "- **Construction:** a red-white-red vertical triband in the ratio 1:2:1\n",
+      "- The central white band is twice the width of each red band\n",
+      "- A red 11-pointed maple leaf is centred on the white band, fitting within a square whose side equals the flag's hoist"
+    ],
+    "article": "canada/flag.md",
+    "of": {
+      "country": "canada"
+    },
+    "countryData": {
+      "name": "Canada",
+      "officialName": "Canada",
+      "un": "member"
+    },
+    "cs": "canada/flag.cs.svg",
+    "trivia": [
+      "- The maple leaf has 11 points — arrived at through wind tunnel testing for maximum visibility\n",
+      "- The red and white colours have been Canadian symbols since the 1920s\n",
+      "- Adopted in 1965, Canada's flag was the result of a national design contest and public debate"
+    ]
+  }
+}

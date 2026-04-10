@@ -1,0 +1,44 @@
+{
+  "singapore": {
+    "title": "Flag of Singapore",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "1959-12-03"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#EE2536",
+        "cmyk": "0/84/77/6",
+        "note": "Symbolizes universal brotherhood and equality",
+        "pantone": "032 C"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Represents purity and virtue"
+      }
+    ],
+    "desc": [
+      "- Red and white horizontal halves with a white crescent moon and five stars in the upper hoist\n",
+      "- The five stars represent democracy, peace, progress, justice, and equality"
+    ],
+    "article": "singapore/flag.md",
+    "of": {
+      "country": "singapore"
+    },
+    "countryData": {
+      "name": "Singapore",
+      "officialName": "Republic of Singapore",
+      "un": "member"
+    },
+    "cs": "singapore/flag.cs.svg",
+    "trivia": [
+      "- The crescent moon represents a young nation on the rise; the stars represent ideals of democracy and unity\n",
+      "- The red represents universal brotherhood and equality; the white represents purity and virtue\n",
+      "- Singapore adopted this flag in 1959 when it gained self-governance from Britain"
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1181" height="756" viewBox="-36813 -31752 99204 63504" fill="none" font-family="Calibri,Arial,'Liberation Sans',sans-serif">
+	<title>Flag of Finland — construction sheet</title>
+	<!-- DIMENSIONS
+		SVG:
+			S_RAW:     99204.00 × 63504.00
+			S_DISPLAY:  1181.00 × 756.00
+		FLAG:
+			F_RAW:     91476.00 × 55902.00
+			F_DISPLAY:  1089.00 × 665.50
+			F_LABEL:      18.00 × 11.00
+			F_RATIO:      18.00 × 11.00
+	-->
+	<defs>
+		<marker id="left-arrow" viewBox="-4 -4 10 8" orient="auto" markerWidth="10" markerHeight="8">
+			<path fill="blue" d="m2 0 4 4-10-4L6-4z"/>
+		</marker>
+	</defs>
+	<path fill="#f8f8f8" d="m-36813-31752h99204v63504h-99204z"/>
+	<path fill="#fff" d="m-33033-27951h91476v55902h-91476z"/>
+	<g opacity=".5" transform="scale(2541)">
+		<path fill="#fff" d="m-13-11h36v22h-36z"/>
+		<path fill="#003580" d="m-3-11h6v22h-6zm-10 8h36v6h-36z"/>
+	</g>
+	<g stroke="#000" stroke-width="140" stroke-linejoin="round" stroke-linecap="round">
+		<g opacity=".4" stroke-width="100">
+			<path opacity=".5" stroke-dashoffset="362" stroke-dasharray="725,315,105,315" d="m12705 0v-27951m0 27951v27951"/>
+			<path stroke-dashoffset="368" stroke-dasharray="735,315,105,315" d="m12705 0h-45738m45738 0h45738"/>
+		</g>
+		<path stroke="#444" stroke-width="250" d="m-33033-27951h91476v55902h-91476z"/>
+		<path d="m-33033-7623h25410v-20328M58443-7623H7623v-20328M-33033 7623h25410v20328M58443 7623H7623v20328"/>
+		<path stroke="#222" stroke-width="75" stroke-dasharray="210,210" d="m-33033-30471V0m0 30471V0m25410-30471v2520m15246-2520v2520m50820-2520V0m0 30471V0m-93996-27951h48258m48258 0H12705M-35553-7623h2520m25410 0H7623V7623H-7623zM-35553 7623h2520m-2520 20328h48258m48258 0H12705"/>
+	</g>
+	<g fill="#008" opacity=".8">
+		<circle r="200" cx="-7623" cy="-7623"/>
+		<circle r="200" cx="7623" cy="-7623"/>
+		<circle r="200" cx="7623" cy="7623"/>
+		<circle r="200" cx="-7623" cy="7623"/>
+	</g>
+	<g stroke="#00f" stroke-width="75" marker-start="url(#left-arrow)">
+		<path d="m-32733-29526h11305"/>
+		<path d="m-7923-29526h-11305"/>
+		<path d="m-7323-29526h6223"/>
+		<path d="m7323-29526H1100"/>
+		<path d="m7923-29526h23410"/>
+		<path d="m58143-29526H34733"/>
+		<path d="m-32733 29526h43738"/>
+		<path d="m58143 29526H14405"/>
+		<path d="m-34608-7923v-8764"/>
+		<path d="m-34608-27651v8764"/>
+		<path d="m-34608 7323V1100"/>
+		<path d="m-34608-7323v6223"/>
+		<path d="m-34608 27651v-8764"/>
+		<path d="m-34608 7923v8764"/>
+		<path d="m60018 27651V1700"/>
+		<path d="m60018-27651v25951"/>
+	</g>
+	<g fill="#000" text-anchor="middle" font-size="50" transform="scale(50)">
+		<g>
+			<text x="-407" y="-576">5</text>
+			<text y="-576">3</text>
+			<text x="661" y="-576">10</text>
+			<text x="254" y="606">18</text>
+		</g>
+		<g transform="rotate(270)">
+			<text x="-356" y="-677">4</text>
+			<text y="-677">3</text>
+			<text x="356" y="-677">4</text>
+			<text y="1215">11</text>
+		</g>
+		<g font-size="27">
+			<text x="-698" y="609">[<tspan font-weight="bold" fill="#080">FI</tspan>]</text>
+			<text x="1208" y="609">[<tspan font-weight="bold" fill="#080">11:18</tspan>]</text>
+		</g>
+	</g>
+</svg>

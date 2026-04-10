@@ -1,61 +1,454 @@
 {
   "libya": {
+    "title": "Flag of the State of Libya",
     "ratio": "1:2",
-    "use": { "since": "2011-08-03" },
+    "use": {
+      "as": "national flag",
+      "since": "2011-08-03"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#E32119",
+        "cmyk": "5/99/100/1",
+        "pantone": "485 C",
+        "note": "Top stripe; represents the blood of those who fought for liberty and the Fezzan region."
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "pantone": "Black",
+        "note": "Middle stripe with crescent and star; represents the dark era of Italian colonisation."
+      },
+      {
+        "color": "green",
+        "hex": "#007A45",
+        "cmyk": "89/27/93/15",
+        "pantone": "348 C",
+        "note": "Bottom stripe; represents Islam, prosperity, and the Tripolitania region."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Crescent and star on the black stripe; symbols of Islam."
+      }
+    ],
     "cs": "libya/flag.cs.svg",
     "desc": [
-      "A horizontal triband of red, black (double width) and green; ",
-      "charged with a white crescent and five-pointed star centred on the black stripe."
+      "- Three horizontal stripes of red (top), black (middle, double-width), and green (bottom), with a white crescent and five-pointed star centred on the black stripe\n",
+      "- This flag was originally the flag of the Kingdom of Libya (1951–1969) and was readopted in 2011 during the civil war that overthrew the Gaddafi regime\n",
+      "- Under Gaddafi, from 1977 to 2011, Libya used a plain green flag — the only national flag in the world with a single colour and no design\n",
+      "- The three stripes represent the three historic regions of Libya: Tripolitania (green), Fezzan (red), and Cyrenaica (black)\n",
+      "- **Construction:** three horizontal stripes in ratio 1:2:1\n",
+      "- The crescent opens to the right (fly side)\n",
+      "- The five-pointed star sits between the cusps of the crescent\n",
+      "- Both are centred on the black band\n",
+      "- Ratio 1:2"
+    ],
+    "article": "libya/flag.md",
+    "of": {
+      "country": "libya"
+    },
+    "countryData": {
+      "name": "Libya",
+      "officialName": "State of Libya",
+      "un": "member"
+    },
+    "trivia": [
+      "- From 1977 to 2011, Libya's flag was the only national flag in the world with just one colour and no design (plain green)\n",
+      "- Green represents Islam; the current flag returned to the tricolour after the 2011 revolution\n",
+      "- Libya has had more flag changes (5) in recent decades than most nations"
     ]
   },
   "libya-civil": {
-    "use": { "since": "2011" },
-    "desc": ["During the Libyan Civil War, design without the star and crescent was common on homemade flags"]
+    "ratio": "1:2",
+    "use": {
+      "since": "2011"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#E70013",
+        "cmyk": "0/100/92/9",
+        "note": "Revolution and national struggle."
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "Colonial past."
+      },
+      {
+        "color": "green",
+        "hex": "#239E46",
+        "cmyk": "78/0/56/38",
+        "note": "Hope and Islamic heritage."
+      }
+    ],
+    "desc": [
+      "- During the Libyan Civil War, design without the star and crescent was common on homemade flags\n",
+      "- **Construction:** the Kingdom of Libya flag (red, black, green horizontal bands with crescent and star), revived during the 2011 civil war"
+    ],
+    "of": {
+      "country": "libya"
+    },
+    "countryData": {
+      "name": "Libya",
+      "officialName": "Libyan Civil War Flag",
+      "un": "none"
+    },
+    "cs": "libya/libya-civil.cs.svg",
+    "trivia": [
+      "- During the 2011 Libyan civil war, rebel forces readopted the pre-Gaddafi flag of the Kingdom of Libya\n",
+      "- The old tricolour became a symbol of opposition and was flown across Benghazi months before Tripoli fell"
+    ]
   },
   "libya-jamahiriya": {
     "title": "Great Socialist People's Libyan Arab Jamahiriya",
     "subtitle": "Gaddafi regime",
-    "use": { "since": "1969", "until": "1977" }
+    "ratio": "1:2",
+    "use": {
+      "since": "1977",
+      "until": "2011"
+    },
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#006633",
+        "cmyk": "100/0/50/60",
+        "note": "Islam and the 'Green Revolution' ideology of Gaddafi."
+      }
+    ],
+    "desc": [
+      "- Under Gaddafi's Jamahiriya (1977–2011), the flag was a plain green rectangle — the only national flag\n",
+      "- in the world with just one colour and no design, insignia, or other detail\n",
+      "- **Construction:** a plain green field with no emblem — the only national flag in the world that was a single colour. Used from 1977 to 2011"
+    ],
+    "of": {
+      "country": "libya"
+    },
+    "countryData": {
+      "name": "Libya",
+      "officialName": "Great Socialist People's Libyan Arab Jamahiriya",
+      "un": "none"
+    },
+    "cs": "libya/libya-jamahiriya.cs.svg",
+    "trivia": [
+      "- The Libyan Jamahiriya flag (1977–2011) represented Gaddafi's unique political system\n",
+      "- The plain green colour represented Islamic socialism\n",
+      "- Replaced after Gaddafi's overthrow in 2011"
+    ]
   },
   "libya-ar": {
+    "title": "Libyan Arab Republic",
     "subtitle": "Gaddafi era",
-    "use": { "since": "1969", "until": "1977" }
+    "ratio": "2:3",
+    "use": {
+      "since": "1969",
+      "until": "1977"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#ce1126",
+        "cmyk": "0/92/82/19"
+      },
+      {
+        "color": "white",
+        "hex": "#fff",
+        "cmyk": "0/0/0/0"
+      },
+      {
+        "color": "black",
+        "hex": "#000",
+        "cmyk": "0/0/0/100"
+      }
+    ],
+    "desc": [
+      "- After Gaddafi's coup in 1969, Libya adopted the Arab Liberation Flag — a horizontal tricolour of\n",
+      "- red, white, and black — as part of the Federation of Arab Republics with Egypt and Syria\n",
+      "- **Construction:** three equal horizontal bands of red, white, and black with a hawk or eagle emblem centred on the white band"
+    ],
+    "of": {
+      "country": "libya"
+    },
+    "countryData": {
+      "name": "Libya",
+      "officialName": "Libyan Arab Republic",
+      "un": "none"
+    },
+    "cs": "libya/libya-ar.cs.svg",
+    "trivia": [
+      "- The Arab Republic of Libya flag was used during the Pan-Arab union period\n",
+      "- Represented Libya's role in Arab nationalism\n",
+      "- Changed during Libya's political transitions"
+    ]
   },
   "libya-kingdom": {
+    "title": "Kingdom of Libya",
     "subtitle": "United Kingdom of Libya",
-    "use": { "since": "1951", "until": "1969" }
+    "ratio": "1:2",
+    "use": {
+      "since": "1951",
+      "until": "1969"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#E70013",
+        "cmyk": "0/100/92/9",
+        "note": "Fezzan region and the blood of the struggle."
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "Cyrenaica region; the dark era of colonialism."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Islamic crescent and star."
+      },
+      {
+        "color": "green",
+        "hex": "#239E46",
+        "cmyk": "78/0/56/38",
+        "note": "Tripolitania region; Islam and prosperity."
+      }
+    ],
+    "desc": [
+      "- The flag of the Kingdom of Libya (1951–1969) featured three horizontal stripes of red, black (double width), and green, with a white crescent and star centred on the black stripe\n",
+      "- This flag represented the united kingdom formed from the three provinces of Cyrenaica (black), Fezzan (red), and Tripolitania (green)\n",
+      "- It was replaced by a plain green flag after Gaddafi's 1969 coup but was readopted by the rebel forces in 2011\n",
+      "- **Construction:** three horizontal bands in ratio 1:2:1 (red, black, green). A white crescent and five-pointed star centred on the black band. Ratio 1:2"
+    ],
+    "of": {
+      "country": "libya"
+    },
+    "countryData": {
+      "name": "Libya",
+      "officialName": "Kingdom of Libya",
+      "un": "none"
+    },
+    "cs": "libya/libya-kingdom.cs.svg",
+    "trivia": [
+      "- The Kingdom of Libya (1951–1969) was an independent monarchy\n",
+      "- Overthrown in the 1969 revolution that brought Gaddafi to power\n",
+      "- The tricolour flag represented the short-lived kingdom"
+    ]
   },
   "libya-cyrenaica": {
-    "use": { "since": "1949", "until": "1951" },
+    "ratio": "1:2",
+    "use": {
+      "since": "1949",
+      "until": "1951"
+    },
+    "colors": [
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "The Senussi dynasty of Cyrenaica."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "The crescent and star of Islam."
+      }
+    ],
     "desc": [
-      "The Emirate of Cyrenaica (Arabic: إمارة برقة‎) came into existence when Sayyid Idris ",
-      "unilaterally proclaimed Cyrenaica an independent Senussi emirate on 1 March 1949, ",
-      "backed by the United Kingdom. Sayyid Idris proclaimed himself Emir of Cyrenaica at a ",
-      "'national conference' in Benghazi."
+      "- The Emirate of Cyrenaica (Arabic: إمارة برقة‎) came into existence when Sayyid Idris\n",
+      "- unilaterally proclaimed Cyrenaica an independent Senussi emirate on 1 March 1949,\n",
+      "- backed by the United Kingdom. Sayyid Idris proclaimed himself Emir of Cyrenaica at a\n",
+      "- 'national conference' in Benghazi\n",
+      "- **Construction:** a black field with a white crescent and star centred, representing the Senussi emirate"
+    ],
+    "of": {
+      "country": "libya"
+    },
+    "countryData": {
+      "name": "Cyrenaica",
+      "officialName": "Emirate of Cyrenaica",
+      "un": "none"
+    },
+    "cs": "libya/libya-cyrenaica.cs.svg",
+    "trivia": [
+      "- Cyrenaica was home to the Senussi religious order, whose leader King Idris became Libya's first and only king\n",
+      "- The region's black flag with crescent and star became the basis for the Kingdom of Libya's flag"
     ]
   },
   "libya-italian": {
-    "use": { "since": "1911", "until": "1947" },
+    "use": {
+      "since": "1911",
+      "until": "1947"
+    },
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#008c45",
+        "cmyk": "100/0/51/45"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0"
+      },
+      {
+        "color": "red",
+        "hex": "#cd212a",
+        "cmyk": "0/84/80/20"
+      }
+    ],
     "desc": [
-      "After the Italo-Turkish War (1911-1912), Italy established the two colonies of ",
-      "**Italian Tripolitania** and **Cyrenaica**, which merged into **Italian Libya** in 1934. ",
-      "They all used the flag of Italy."
+      "- After the Italo-Turkish War (1911–1912), Italy established the two colonies of\n",
+      "- **Italian Tripolitania** and **Cyrenaica**, which merged into **Italian Libya** in 1934\n",
+      "- They all used the flag of Italy\n",
+      "- **Construction:** the Italian tricolour used as the colonial flag for Italian Libya"
+    ],
+    "of": {
+      "country": "libya"
+    },
+    "countryData": {
+      "name": "Libya",
+      "officialName": "Italian Libya",
+      "un": "none"
+    },
+    "cs": "libya/libya-italian.cs.svg",
+    "trivia": [
+      "- Italian colonisation of Libya (1911–1943) was one of the most brutal in African colonial history\n",
+      "- Italy's flag flew over Libya for 32 years, longer than many of Libya's own national flags have lasted"
     ]
   },
   "libya-tripolitanian-republic": {
-    "use": { "since": "1918", "until": "1923" },
+    "use": {
+      "since": "1918",
+      "until": "1923"
+    },
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#003580",
+        "cmyk": "100/59/0/50",
+        "note": "The Mediterranean Sea."
+      },
+      {
+        "color": "green",
+        "hex": "#239E46",
+        "cmyk": "78/0/56/38",
+        "note": "The palm tree, representing agricultural prosperity."
+      }
+    ],
     "desc": [
-      "Tripolitanian Republic (Arabic: الجمهورية الطرابلسية‎, al-Jumhuriyat at-Trabulsiya), was an ",
-      "Arab republic that declared the independence of Tripolitania from Italian Libya after World War I."
+      "- Tripolitanian Republic (Arabic: الجمهورية الطرابلسية‎, al-Jumhuriyat at-Trabulsiya), was an\n",
+      "- Arab republic that declared the independence of Tripolitania from Italian Libya after World War I\n",
+      "- **Construction:** a light blue field with a green palm tree and white star centred"
+    ],
+    "of": {
+      "country": "libya"
+    },
+    "countryData": {
+      "name": "Tripolitania",
+      "officialName": "Tripolitanian Republic",
+      "un": "none"
+    },
+    "cs": "libya/libya-tripolitanian-republic.cs.svg",
+    "trivia": [
+      "- The Tripolitanian Republic (1918–1922) was one of the first attempts at self-governance in North Africa\n",
+      "- It was eventually defeated by Italian reconquest under Mussolini"
     ]
   },
   "libya-ottoman": {
     "subtitle": "Tripoli",
-    "desc": [
-      "The coastal region of what is today **Libya** was ruled by the Ottoman Empire \n",
-      "- from 1551 to 1864, as the Eyalet of Tripolitania (Ottoman Turkish: ایالت طرابلس غرب‎ Eyālet-i Trâblus Gârb)\n",
-      "- from 1864 to 1912, as the Vilayet of Tripolitania (Ottoman Turkish: ولايت طرابلس غرب‎ Vilâyet-i Trâblus Gârb)\n"
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#E30A17",
+        "cmyk": "0/96/90/11"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0"
+      }
     ],
-    "use": { "since": "1551", "until": "1912" }
+    "desc": [
+      "- The coastal region of what is today **Libya** was ruled by the Ottoman Empire\n",
+      "- - from 1551 to 1864, as the Eyalet of Tripolitania (Ottoman Turkish: ایالت طرابلس غرب‎ Eyālet-i Trâblus Gârb)\n",
+      "- - from 1864 to 1912, as the Vilayet of Tripolitania (Ottoman Turkish: ولايت طرابلس غرب‎ Vilâyet-i Trâblus Gârb)\n",
+      "- **Construction:** a red field with a white crescent and star, following Ottoman flag conventions"
+    ],
+    "use": {
+      "since": "1551",
+      "until": "1912"
+    },
+    "of": {
+      "country": "libya"
+    },
+    "countryData": {
+      "name": "Libya",
+      "officialName": "Ottoman Libya",
+      "un": "none"
+    },
+    "cs": "libya/libya-ottoman.cs.svg",
+    "trivia": [
+      "- Ottoman Libya used the standard Ottoman red flag with crescent and star\n",
+      "- The Ottomans controlled Libya for nearly 400 years (1551–1911) before losing it to Italy"
+    ]
+  },
+  "libya-united": {
+    "title": "Flag of the United Kingdom of Libya",
+    "ratio": "1:2",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#e70013",
+        "cmyk": "0/100/92/9",
+        "note": "Fezzan."
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "Cyrenaica."
+      },
+      {
+        "color": "green",
+        "hex": "#009639",
+        "cmyk": "100/0/62/41",
+        "note": "Tripolitania."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "Islamic symbols."
+      }
+    ],
+    "desc": [
+      "- The flag of the United Kingdom of Libya was identical to the later Kingdom of Libya flag — red, black, and green horizontal stripes with the Islamic crescent and star\n",
+      "- Used from independence in 1951, it symbolised the unification of Libya's three historic provinces under King Idris al-Senussi\n",
+      "- The wider black band honoured Cyrenaica, the king's home province\n",
+      "- **Construction:** three bands in ratio 1:2:1. White crescent and star on the central black band. Ratio 1:2"
+    ],
+    "flag": "libya/united.svg",
+    "of": {
+      "country": "libya"
+    },
+    "countryData": {
+      "name": "Libya",
+      "officialName": "United Kingdom of Libya",
+      "un": "none"
+    },
+    "cs": "libya/libya-united.cs.svg",
+    "trivia": [
+      "- Libya briefly united with Egypt and Syria in various Pan-Arab unions\n",
+      "- The flags reflected Pan-Arab unity aspirations\n",
+      "- Unions were short-lived due to political differences"
+    ]
   }
 }

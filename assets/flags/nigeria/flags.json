@@ -1,0 +1,43 @@
+{
+  "nigeria": {
+    "title": "Flag of Nigeria",
+    "ratio": "1:2",
+    "use": {
+      "as": "national flag",
+      "since": "1960-10-01"
+    },
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#008751",
+        "cmyk": "93/0/100/0",
+        "note": "Represents agriculture and natural resources",
+        "pantone": "349 C"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Represents peace and unity"
+      }
+    ],
+    "desc": [
+      "- Three vertical stripes of green, white, and green, designed by Michael Taiwo Akinkunmi. Selected from 2,870 entries in a 1959 national competition"
+    ],
+    "article": "nigeria/flag.md",
+    "of": {
+      "country": "nigeria"
+    },
+    "countryData": {
+      "name": "Nigeria",
+      "officialName": "Federal Republic of Nigeria",
+      "un": "member"
+    },
+    "cs": "nigeria/flag.cs.svg",
+    "trivia": [
+      "- The green represents the forests and agriculture; white represents peace and unity\n",
+      "- The colours were chosen to represent national identity beyond tribal or ethnic divisions\n",
+      "- Nigeria adopted this flag in 1960 upon independence; it has influenced many other African nations' flag designs"
+    ]
+  }
+}

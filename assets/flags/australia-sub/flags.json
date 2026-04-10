@@ -1,0 +1,137 @@
+{
+  "au-aboriginal": {
+    "title": "Australian Aboriginal Flag",
+    "colors": [
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "Represents the Aboriginal peoples of Australia."
+      },
+      {
+        "color": "red",
+        "hex": "#ce1126",
+        "cmyk": "0/92/82/19",
+        "note": "The red earth and ochre used in Aboriginal ceremonies."
+      },
+      {
+        "color": "yellow",
+        "hex": "#febd11",
+        "cmyk": "0/26/93/0",
+        "note": "The sun, giver of life and protector."
+      }
+    ],
+    "desc": [
+      "- Two equal horizontal bands of black (top) and red (bottom) with a yellow disc centred\n",
+      "- Designed by Aboriginal artist Harold Thomas in 1971, the flag became an official Flag of Australia in 1995\n",
+      "- The black represents the Aboriginal peoples, the red the earth and ochre used in ceremonies, and the yellow the sun, the giver of life\n",
+      "- **Construction:** two equal horizontal bands with a plain circle centred at the intersection\n",
+      "- The disc diameter is roughly three-fifths of the hoist\n",
+      "- Ratio 2:3"
+    ],
+    "flag": "australia-sub/au-aboriginal.svg",
+    "of": {
+      "country": "australia"
+    },
+    "countryData": {
+      "name": "Australia",
+      "officialName": "Aboriginal Australians",
+      "un": "none"
+    },
+    "cs": "australia-sub/au-aboriginal.cs.svg",
+    "trivia": [
+      "- Harold Thomas, who designed the flag in 1971, retained copyright until the Australian government purchased it in 2022 for A$20 million\n",
+      "- The black represents Aboriginal people; yellow represents the sun; red represents the earth\n",
+      "- Originally created for an Aboriginal rights rally in Canberra, it became official in 1995 for use within Australia"
+    ]
+  },
+  "au-new-south-wales": {
+    "title": "Flag of New South Wales",
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#00247d",
+        "cmyk": "100/71/0/51",
+        "note": "Blue ensign field representing naval heritage."
+      },
+      {
+        "color": "red",
+        "hex": "#c8102e",
+        "cmyk": "0/92/77/22"
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0"
+      }
+    ],
+    "desc": [
+      "- The flag of New South Wales is a Blue Ensign with the state badge: a St George's Cross with a golden lion and four gold stars\n",
+      "- **Construction:** a Blue Ensign with the New South Wales badge (red St George's Cross with golden lion and stars) in the fly half"
+    ],
+    "flag": "australia-sub/au-new-south-wales.svg",
+    "of": {
+      "country": "australia"
+    },
+    "countryData": {
+      "name": "New South Wales",
+      "officialName": "State of New South Wales",
+      "un": "none"
+    },
+    "cs": "australia-sub/au-new-south-wales.cs.svg",
+    "trivia": [
+      "- The lion and crown represent British heraldic traditions\n",
+      "- New South Wales is Australia's most populous state\n",
+      "- The flag includes the Southern Cross constellation"
+    ]
+  },
+  "au-torres-strait": {
+    "title": "Torres Strait Islander Flag",
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#009e49",
+        "cmyk": "100/0/54/38",
+        "note": "The land and its vegetation."
+      },
+      {
+        "color": "blue",
+        "hex": "#00247d",
+        "cmyk": "100/71/0/51",
+        "note": "The sea that surrounds the Torres Strait Islands."
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "The Torres Strait Islander people."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "The dhari headdress and five-pointed star, symbols of the Islander people."
+      }
+    ],
+    "desc": [
+      "- The Torres Strait Islander flag features green borders at the top and bottom, a central blue stripe, a thin black border separating them, and a white dhari (traditional headdress) over a five-pointed star at the centre\n",
+      "- Designed by the late Bernard Namok in 1992 as an entry in a flag design competition, it became an official Flag of Australia on 14 July 1995\n",
+      "- **Construction:** green–black–blue–black–green horizontal bands. The white dhari and star are centred on the blue stripe. Ratio 2:3"
+    ],
+    "flag": "australia-sub/au-torres-strait.svg",
+    "of": {
+      "country": "australia"
+    },
+    "countryData": {
+      "name": "Australia",
+      "officialName": "Torres Strait Islanders",
+      "un": "none"
+    },
+    "cs": "australia-sub/au-torres-strait.cs.svg",
+    "trivia": [
+      "- The Torres Strait Islander flag represents the indigenous peoples between Australia and Papua New Guinea\n",
+      "- The pearls represent the region's pearling industry\n",
+      "- Adopted in 1992 to represent Torres Strait Islander identity"
+    ]
+  }
+}

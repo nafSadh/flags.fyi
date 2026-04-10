@@ -1,0 +1,44 @@
+{
+  "israel": {
+    "title": "Flag of Israel",
+    "ratio": "8:11",
+    "use": {
+      "as": "national flag",
+      "since": "1948-10-28"
+    },
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Inspired by the tallit prayer shawl"
+      },
+      {
+        "color": "blue",
+        "hex": "#0038B8",
+        "cmyk": "100/70/0/28",
+        "note": "Represents Jewish identity and tradition",
+        "pantone": "286 C"
+      }
+    ],
+    "desc": [
+      "- A white field with two horizontal blue stripes near the edges and a blue Star of David at the centre\n",
+      "- The design was inspired by the tallit prayer shawl worn in Jewish religious ceremonies"
+    ],
+    "article": "israel/flag.md",
+    "of": {
+      "country": "israel"
+    },
+    "countryData": {
+      "name": "Israel",
+      "officialName": "State of Israel",
+      "un": "member"
+    },
+    "cs": "israel/flag.cs.svg",
+    "trivia": [
+      "- The blue stripes are said to represent the stripes of a tallith (Jewish prayer shawl)\n",
+      "- The Star of David (Magen David) has six points and represents Jewish identity and the Jewish people\n",
+      "- The flag was designed by David Wolfsohn in 1891, decades before Israel's statehood in 1948"
+    ]
+  }
+}

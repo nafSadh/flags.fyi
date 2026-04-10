@@ -1,0 +1,62 @@
+{
+  "uae": {
+    "title": "Flag of the United Arab Emirates",
+    "ratio": "1:2",
+    "use": {
+      "as": "national flag",
+      "since": "1971-12-02"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#E8102C",
+        "cmyk": "0/100/80/5",
+        "pantone": "186 C",
+        "note": "Vertical stripe at the hoist; represents the Kharijite sect historically significant in the region and national unity."
+      },
+      {
+        "color": "green",
+        "hex": "#00843D",
+        "cmyk": "90/0/70/20",
+        "pantone": "348 C",
+        "note": "Top horizontal stripe; represents fertility, prosperity, and the Fatimid dynasty."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Middle horizontal stripe; represents the Umayyad dynasty and peace."
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "pantone": "Black",
+        "note": "Bottom horizontal stripe; represents the Abbasid dynasty and the defeat of enemies."
+      }
+    ],
+    "desc": [
+      "- A vertical red stripe at the hoist with three equal horizontal stripes of green (top), white, and black (bottom)\n",
+      "- The four colours are the Pan-Arab colours, each representing a different Arab dynasty: green for the Fatimids, white for the Umayyads, black for the Abbasids, and red for the Hashemites\n",
+      "- Designed by Abdullah Mohammed Al Maainah, the flag was adopted on 2 December 1971 — the date of the UAE's formation from seven Trucial States\n",
+      "- It replaced the individual flags of the constituent emirates\n",
+      "- **Construction:** the red vertical stripe occupies one-quarter of the flag's length at the hoist\n",
+      "- The remaining three-quarters are divided into three equal horizontal stripes\n",
+      "- Ratio 1:2"
+    ],
+    "of": {
+      "country": "uae"
+    },
+    "countryData": {
+      "name": "United Arab Emirates",
+      "officialName": "United Arab Emirates",
+      "un": "member"
+    },
+    "cs": "uae/flag.cs.svg",
+    "trivia": [
+      "- The red band represents courage and sacrifice; the green represents hope and prosperity\n",
+      "- The black represents the power and determination of the people\n",
+      "- The UAE adopted this flag in 1971 upon its formation from seven emirates"
+    ]
+  }
+}

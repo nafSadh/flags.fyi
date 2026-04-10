@@ -1,0 +1,121 @@
+{
+  "es-republic": {
+    "title": "Flag of the Second Spanish Republic",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#aa151b",
+        "cmyk": "0/88/84/33",
+        "note": "From the Spanish national colours."
+      },
+      {
+        "color": "yellow",
+        "hex": "#f1bf00",
+        "cmyk": "0/21/100/5",
+        "note": "From the Arms of Castile."
+      },
+      {
+        "color": "purple",
+        "hex": "#662d91",
+        "cmyk": "30/69/0/43",
+        "note": "Represents the people of Castile (pendón morado)."
+      }
+    ],
+    "desc": [
+      "- The flag of the Spanish Republic (1931–1939) was a red, yellow, and purple horizontal tricolour, replacing the traditional red-yellow-red of the monarchy with a purple band at the bottom\n",
+      "- The purple stripe (morado) was believed to represent the people of Castile and the Comuneros revolt\n",
+      "- The Second Republic's flag is still used today by Spanish republicans and left-wing movements\n",
+      "- **Construction:** three equal horizontal bands of red (top), yellow, and purple (Tyrian purple)\n",
+      "- The coat of arms with a mural crown sits centred\n",
+      "- Ratio 2:3"
+    ],
+    "flag": "spain-hist/es-republic.svg",
+    "of": {
+      "country": "spain"
+    },
+    "countryData": {
+      "name": "Spain",
+      "officialName": "Second Spanish Republic",
+      "un": "none"
+    },
+    "cs": "spain-hist/es-republic.cs.svg",
+    "trivia": [
+      "- The Spanish Republic flag (1931–1939) represented democratic Spain\n",
+      "- Overthrown by Franco during the Spanish Civil War\n",
+      "- The purple stripe (rarely used) represented historical Castile"
+    ]
+  },
+  "es-francoist": {
+    "title": "Flag of Francoist Spain",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#aa151b",
+        "cmyk": "0/88/84/33"
+      },
+      {
+        "color": "yellow",
+        "hex": "#f1bf00",
+        "cmyk": "0/21/100/5"
+      }
+    ],
+    "desc": [
+      "- The flag of Francoist Spain (1945–1977) was the red-yellow-red bicolour with the Francoist coat of arms — the eagle of St John holding the yoke and arrows of the Catholic Monarchs\n",
+      "- Used during Francisco Franco's dictatorship, this flag combined traditional Spanish colours with symbols of the authoritarian regime\n",
+      "- The eagle was removed after the transition to democracy\n",
+      "- **Construction:** three horizontal stripes in ratio 1:2:1 (red-yellow-red). The Francoist coat of arms centred on the yellow stripe. Ratio 2:3"
+    ],
+    "flag": "spain-hist/es-francoist.svg",
+    "of": {
+      "country": "spain"
+    },
+    "countryData": {
+      "name": "Spain",
+      "officialName": "Francoist Spain",
+      "un": "none"
+    },
+    "cs": "spain-hist/es-francoist.cs.svg",
+    "trivia": [
+      "- The Francoist flag (1936–1975) represented Spain under Franco's authoritarian rule\n",
+      "- The eagle represented Francoist ideology and fascism\n",
+      "- Spain transitioned to democracy after Franco's death"
+    ]
+  },
+  "es-empire": {
+    "title": "Flag of the Spanish Empire (Cross of Burgundy)",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0"
+      },
+      {
+        "color": "red",
+        "hex": "#aa151b",
+        "cmyk": "0/88/84/33"
+      }
+    ],
+    "desc": [
+      "- The Spanish Empire used the Cross of Burgundy (Cruz de Borgoña) — a red ragged saltire on white — from the 16th to 18th centuries across its global territories\n",
+      "- **Construction:** a red field (often burgundy cross or the Cross of Burgundy, a red ragged saltire on white)"
+    ],
+    "flag": "spain-hist/es-empire.svg",
+    "of": {
+      "country": "spain"
+    },
+    "countryData": {
+      "name": "Spain",
+      "officialName": "Spanish Empire",
+      "un": "none"
+    },
+    "cs": "spain-hist/es-empire.cs.svg",
+    "trivia": [
+      "- The Spanish Empire flag represented one of history's largest global empires\n",
+      "- Spain controlled vast territories across the Americas, Africa, and Asia\n",
+      "- The empire lasted from 1492 (Columbus) to the 20th century"
+    ]
+  }
+}

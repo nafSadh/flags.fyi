@@ -1,0 +1,58 @@
+{
+  "brazil": {
+    "title": "Flag of Brazil",
+    "ratio": "7:10",
+    "use": {
+      "as": "national flag",
+      "since": "1889-11-19"
+    },
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#009C3B",
+        "cmyk": "100/0/100/0",
+        "note": "Represents the forests and natural resources",
+        "pantone": "355 C"
+      },
+      {
+        "color": "yellow",
+        "hex": "#FFDF00",
+        "cmyk": "0/13/100/0",
+        "note": "Represents mineral wealth and prosperity",
+        "pantone": "116 C"
+      },
+      {
+        "color": "blue",
+        "hex": "#002776",
+        "cmyk": "100/67/0/54",
+        "note": "Represents the sky over Rio de Janeiro",
+        "pantone": "281 C"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Contains the national motto 'Ordem e Progresso'"
+      }
+    ],
+    "desc": [
+      "- A green field with a yellow diamond containing a blue sphere with a white band inscribed 'Ordem e Progresso'\n",
+      "- Adopted four days after the Proclamation of the Republic in 1889"
+    ],
+    "article": "brazil/flag.md",
+    "of": {
+      "country": "brazil"
+    },
+    "countryData": {
+      "name": "Brazil",
+      "officialName": "Federative Republic of Brazil",
+      "un": "member"
+    },
+    "cs": "brazil/flag.cs.svg",
+    "trivia": [
+      "- Each of the 27 stars represents a specific Brazilian state or federal district\n",
+      "- The arrangement matches the night sky over Rio de Janeiro at 8:30 AM on 15 November 1889 (the date of the republic)\n",
+      "- The yellow represents mining wealth; green represents the forests; blue represents the sky and sea"
+    ]
+  }
+}

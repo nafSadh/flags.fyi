@@ -1,0 +1,49 @@
+{
+  "denmark": {
+    "title": "Flag of Denmark (Dannebrog)",
+    "ratio": "28:37",
+    "use": {
+      "as": "national flag",
+      "since": "1219"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#C8102E",
+        "cmyk": "0/100/100/0",
+        "note": "Represents battle and the blood of the Danish people",
+        "pantone": "186 C"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Represents the cross of Christianity, peace, and unity"
+      }
+    ],
+    "desc": [
+      "- A white Nordic cross on a red field, the oldest continuously used national flag in the world\n",
+      "- Legend holds it fell from the sky during the Battle of Lindanise in 1219\n",
+      "- **Construction:** a red field with a white Scandinavian cross\n",
+      "- The vertical arm of the cross is offset toward the hoist\n",
+      "- The cross arms are 1/7 of the flag's height in width\n",
+      "- Official ratio is 28:37"
+    ],
+    "article": "denmark/flag.md",
+    "subtitle": "Dannebrog — oldest national flag in continuous use (since 1219)",
+    "of": {
+      "country": "denmark"
+    },
+    "countryData": {
+      "name": "Denmark",
+      "officialName": "Kingdom of Denmark",
+      "un": "member"
+    },
+    "cs": "denmark/flag.cs.svg",
+    "trivia": [
+      "- The Dannebrog, dating to 1219, is considered the oldest continuously used national flag in the world\n",
+      "- The white cross represents Christianity; the red represents Danish courage\n",
+      "- Legend says it fell from the sky during the Battle of Lyndanisse in Estonia, a religious miracle"
+    ]
+  }
+}

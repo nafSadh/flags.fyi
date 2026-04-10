@@ -1,0 +1,77 @@
+{
+  "pl-duchy-warsaw": {
+    "title": "Flag of the Duchy of Warsaw",
+    "ratio": "5:8",
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "The White Eagle of Poland."
+      },
+      {
+        "color": "red",
+        "hex": "#dc143c",
+        "cmyk": "0/91/73/14",
+        "note": "Traditionally associated with the Polish coat of arms."
+      }
+    ],
+    "desc": [
+      "- The Duchy of Warsaw (1807–1815) was a Napoleonic client state. Its flag was a white-and-crimson bicolour, establishing the Polish national colours\n",
+      "- **Construction:** two horizontal bands of white (top) and crimson/pink (bottom), the traditional Polish colours"
+    ],
+    "flag": "poland-hist/pl-duchy-warsaw.svg",
+    "of": {
+      "country": "poland"
+    },
+    "countryData": {
+      "name": "Poland",
+      "officialName": "Duchy of Warsaw",
+      "un": "none"
+    },
+    "cs": "poland-hist/pl-duchy-warsaw.cs.svg",
+    "trivia": [
+      "- The Duchy of Warsaw (1807–1815) was a French-aligned state\n",
+      "- Represented a brief period of Polish sovereignty during Napoleonic wars\n",
+      "- Partitioned after Napoleon's defeat"
+    ]
+  },
+  "pl-november-uprising": {
+    "title": "Flag of the Polish November Uprising",
+    "ratio": "5:8",
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "The White Eagle, national symbol since the 13th century."
+      },
+      {
+        "color": "red",
+        "hex": "#dc143c",
+        "cmyk": "0/91/73/14",
+        "note": "The blood shed in the uprising against Russian rule."
+      }
+    ],
+    "desc": [
+      "- The 1831 November Uprising flag solidified white and red as the Polish national colours\n",
+      "- The white represented the White Eagle, red the setting sun of freedom\n",
+      "- **Construction:** three horizontal bands of white, blue or red, and white — variant tricolours used during the 1830–1831 uprising"
+    ],
+    "flag": "poland-hist/pl-november-uprising.svg",
+    "of": {
+      "country": "poland"
+    },
+    "countryData": {
+      "name": "Poland",
+      "officialName": "November Uprising (1830–1831)",
+      "un": "none"
+    },
+    "cs": "poland-hist/pl-november-uprising.cs.svg",
+    "trivia": [
+      "- The November Uprising (1830–1831) was a Polish revolt against Russian rule\n",
+      "- Represented Polish nationalism and independence aspirations\n",
+      "- Crushed by Russian forces but strengthened Polish identity"
+    ]
+  }
+}

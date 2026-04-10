@@ -1,0 +1,52 @@
+{
+  "germany": {
+    "title": "Flag of Germany",
+    "ratio": "3:5",
+    "use": {
+      "as": "national flag",
+      "since": "1949-05-23"
+    },
+    "colors": [
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "Represents determination and the struggle for freedom",
+        "pantone": "Black"
+      },
+      {
+        "color": "red",
+        "hex": "#DD0000",
+        "cmyk": "0/100/100/0",
+        "note": "Symbolizes courage and the blood shed for unity",
+        "pantone": "485 C"
+      },
+      {
+        "color": "gold",
+        "hex": "#FFCE00",
+        "cmyk": "0/20/100/0",
+        "note": "Represents unity, brotherhood, and prosperity",
+        "pantone": "7405 C"
+      }
+    ],
+    "desc": [
+      "- Three equal horizontal stripes of black, red, and gold, tracing back to the Lützow Free Corps during the Napoleonic Wars\n",
+      "- Adopted for the Federal Republic in 1949 and retained after reunification in 1990"
+    ],
+    "article": "germany/flag.md",
+    "of": {
+      "country": "germany"
+    },
+    "countryData": {
+      "name": "Germany",
+      "officialName": "Federal Republic of Germany",
+      "un": "member"
+    },
+    "cs": "germany/flag.cs.svg",
+    "trivia": [
+      "- The black-red-gold tricolour was chosen in 1848 by revolutionaries during the Revolutions of 1848\n",
+      "- Legend says the colours come from the uniforms of the Lützow Free Corps, a volunteer unit fighting Napoleon\n",
+      "- Germany's flag was used by the Weimar Republic, Nazi Germany, and reunified Germany — giving it complex historical meaning"
+    ]
+  }
+}

@@ -1,64 +1,11 @@
 {
   "name": "flags-fyi",
-  "version": "1.0.0",
-  "description": "Flags FYI, by Flagstaff 🚩",
+  "version": "2.0.0",
+  "description": "Flags FYI, by Flagstaff — static site, no build framework needed",
   "author": "nafSadh",
   "private": true,
   "scripts": {
-    "dev": "nuxt --port 61495",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "generate": "nuxt generate",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
-    "deploy-gh-pages-experimental": "gh-pages -d dist -m 'deploy changes'"
-  },
-  "lint-staged": {
-    "*.{js,vue}": "npm run lint",
-    "*.{css,vue}": "stylelint"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.36",
-    "@fortawesome/free-regular-svg-icons": "^5.15.4",
-    "@fortawesome/free-solid-svg-icons": "^5.15.4",
-    "@fortawesome/vue-fontawesome": "^0.1.10",
-    "@nuxtjs/axios": "^5.13.6",
-    "@nuxtjs/bulma": "https://gitpkg.now.sh/nafSadh/nuxt-modules/packages/bulma?master",
-    "@nuxtjs/dotenv": "^1.4.0",
-    "@nuxtjs/pwa": "^3.3.5",
-    "babel-runtime": "^6.26.0",
-    "lodash": "^4.17.21",
-    "markdown-it-vue": "^1.1.7",
-    "nuxt": "^2.15.8",
-    "nuxt-buefy": "^0.3.2",
-    "nuxt-fontawesome": "^0.4.0",
-    "vue-json-component": "^0.4.1",
-    "vue-markdown": "^2.2.4",
-    "vue-shortkey": "^3.1.7"
-  },
-  "devDependencies": {
-    "@nuxtjs/eslint-config": "^2.0.0",
-    "@nuxtjs/eslint-module": "^1.0.0",
-    "@nuxtjs/stylelint-module": "^3.1.0",
-    "babel-eslint": "^10.0.1",
-    "copy-dir": "^1.3.0",
-    "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.15.0",
-    "eslint-plugin-nuxt": "^2.0.0",
-    "eslint-plugin-prettier": "^3.4.1",
-    "husky": "^4.3.8",
-    "lint-staged": "^10.5.4",
-    "ncp": "^2.0.0",
-    "node-sass": "^4.14.1",
-    "prettier": "^1.19.1",
-    "push-dir": "^0.4.1",
-    "raw-loader": "^4.0.2",
-    "sass-loader": "^8.0.2",
-    "stylelint": "^10.1.0"
+    "build": "node build.js",
+    "serve": "npx serve . -l 3000"
   }
 }

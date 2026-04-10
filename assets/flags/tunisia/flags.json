@@ -1,0 +1,49 @@
+{
+  "tunisia": {
+    "title": "Flag of the Republic of Tunisia",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag and ensign",
+      "since": "1999-07-03"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#E70013",
+        "cmyk": "0/100/92/9",
+        "pantone": "186 C",
+        "note": "Field colour; represents the blood of martyrs who died fighting Ottoman and colonial rule."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Central disc and crescent/star; symbolises peace."
+      }
+    ],
+    "desc": [
+      "- A red field with a white disc centred, containing a red crescent encircling a red five-pointed star\n",
+      "- The flag is one of the oldest in the modern Arab world, dating to 1831 under the Husainid Bey Al-Husayn II ibn Mahmud\n",
+      "- It was officially adopted in its current form upon independence on 1 June 1959\n",
+      "- The crescent and star are traditional symbols of Islam; the red field recalls Tunisia's Ottoman heritage\n",
+      "- The design has influenced several other national flags in the region, particularly Turkey's\n",
+      "- **Construction:** a red field with a white circle of diameter approximately one-third the flag height, centred\n",
+      "- A red crescent (opening to the right) and a small red five-pointed star sit within the white disc\n",
+      "- Ratio 2:3"
+    ],
+    "of": {
+      "country": "tunisia"
+    },
+    "countryData": {
+      "name": "Tunisia",
+      "officialName": "Republic of Tunisia",
+      "un": "member"
+    },
+    "cs": "tunisia/flag.cs.svg",
+    "trivia": [
+      "- The crescent and star represent Islam; the red represents bloodshed for independence\n",
+      "- The white disc emphasizes Islamic symbolism and purity\n",
+      "- Tunisia adopted this flag in 1956 upon independence from France"
+    ]
+  }
+}

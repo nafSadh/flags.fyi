@@ -1,0 +1,53 @@
+{
+  "sgssi": {
+    "title": "Flag of South Georgia and the South Sandwich Islands",
+    "ratio": "1:2",
+    "use": {
+      "as": "civil flag",
+      "since": "1999-02-03"
+    },
+    "of": {
+      "country": "sgssi"
+    },
+    "countryData": {
+      "name": "South Georgia and the South Sandwich Islands",
+      "officialName": "South Georgia and the South Sandwich Islands (British Overseas Territory)",
+      "un": "none"
+    },
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#012169",
+        "cmyk": "99/69/0/59",
+        "note": "British Blue Ensign; the Southern Ocean."
+      },
+      {
+        "color": "red",
+        "hex": "#C8102E",
+        "cmyk": "0/92/77/22"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "The ice and snow of South Georgia."
+      },
+      {
+        "color": "green",
+        "hex": "#009A44",
+        "cmyk": "100/0/56/40"
+      }
+    ],
+    "desc": [
+      "- A Blue Ensign with the coat of arms featuring a reindeer, macaroni penguin, fur seal, and the motto 'Leo Terram Propriam Protegat'\n",
+      "- Adopted 3 February 1999\n",
+      "- **Construction:** a Blue Ensign (1:2) with the Union Flag in the upper-hoist canton. The coat of arms appears in the fly half"
+    ],
+    "cs": "sgssi/flag.cs.svg",
+    "trivia": [
+      "- South Georgia and the South Sandwich Islands use the Union Jack\n",
+      "- Extremely remote British territory with minimal population\n",
+      "- Used primarily for scientific research and wildlife protection"
+    ]
+  }
+}

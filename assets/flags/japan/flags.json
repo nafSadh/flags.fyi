@@ -1,0 +1,46 @@
+{
+  "japan": {
+    "title": "Flag of Japan (Nisshōki / Hinomaru)",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "1870-02-27"
+    },
+    "of": {
+      "country": "japan"
+    },
+    "countryData": {
+      "name": "Japan",
+      "officialName": "Japan",
+      "un": "member"
+    },
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "officialSpec": "Munsell N9",
+        "note": "Symbolizes purity, honesty, and integrity"
+      },
+      {
+        "color": "red",
+        "hex": "#BC002D",
+        "cmyk": "0/100/76/26",
+        "officialSpec": "Munsell 5R 4/12",
+        "note": "Represents the sun goddess Amaterasu and the Land of the Rising Sun"
+      }
+    ],
+    "desc": [
+      "- A red circle centred on a white field, officially called the Nisshōki (flag of the sun), commonly known as Hinomaru (circle of the sun)\n",
+      "- First adopted in 1870 and given formal legal recognition in 1999 under the Act on National Flag and Anthem\n",
+      "- The disc diameter is three-fifths of the hoist length, centred on the field"
+    ],
+    "article": "japan/flag.md",
+    "cs": "japan/flag.cs.svg",
+    "trivia": [
+      "- The flag's official name 'Nisshōki' means 'sun-mark flag'. Its design was legally defined only in 1999, despite centuries of use\n",
+      "- The red disc represents the sun; Japan's name literally means 'origin of the sun'\n",
+      "- The simplicity of Japan's flag makes it one of the most recognisable flags worldwide"
+    ]
+  }
+}

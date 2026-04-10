@@ -1,0 +1,60 @@
+{
+  "sudan": {
+    "title": "Flag of the Republic of the Sudan",
+    "ratio": "1:2",
+    "use": {
+      "as": "national flag",
+      "since": "1970-05-20"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#D21034",
+        "cmyk": "0/92/75/18",
+        "pantone": "032 C",
+        "note": "Top stripe; symbolises the struggle and the blood of Sudanese martyrs."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Middle stripe; represents peace, light, and optimism."
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "pantone": "Black",
+        "note": "Bottom stripe; represents Sudan itself (the Arabic word 'Sūdān' derives from 'bilād as-sūdān', land of the blacks)."
+      },
+      {
+        "color": "green",
+        "hex": "#007229",
+        "cmyk": "100/0/64/55",
+        "pantone": "355 C",
+        "note": "Hoist triangle; represents Islam, agriculture, and the prosperity of the land."
+      }
+    ],
+    "desc": [
+      "- Three horizontal stripes of red (top), white, and black (bottom), with a green triangle at the hoist — using the Pan-Arab colours\n",
+      "- The flag was adopted on 20 May 1970 following the 1969 military coup. It replaced the blue-yellow-green tricolour of the earlier parliamentary era\n",
+      "- The design resembles several other Pan-Arab flags; the green triangle distinguishes it as Sudanese\n",
+      "- **Construction:** three equal horizontal stripes with a green isosceles triangle at the hoist, its base spanning the full hoist height and its apex reaching one-third of the fly length\n",
+      "- Ratio 1:2"
+    ],
+    "of": {
+      "country": "sudan"
+    },
+    "countryData": {
+      "name": "Sudan",
+      "officialName": "Republic of the Sudan",
+      "un": "member"
+    },
+    "cs": "sudan/flag.cs.svg",
+    "trivia": [
+      "- The black represents the Mahdist War and struggle for independence\n",
+      "- The colours are Pan-Arab and Islamic, representing the nation's Arab and Muslim identity\n",
+      "- Sudan adopted this flag in 1970"
+    ]
+  }
+}

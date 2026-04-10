@@ -1,0 +1,52 @@
+{
+  "portugal": {
+    "title": "Flag of Portugal",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "1911-06-30"
+    },
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#006600",
+        "cmyk": "100/0/100/0",
+        "note": "Represents hope; occupies 2/5 of the hoist side",
+        "pantone": "348 C"
+      },
+      {
+        "color": "red",
+        "hex": "#FF0000",
+        "cmyk": "0/100/100/0",
+        "note": "Represents the revolution; occupies 3/5 of the fly side",
+        "pantone": "485 C"
+      },
+      {
+        "color": "yellow",
+        "hex": "#FFFF00",
+        "cmyk": "0/0/100/0",
+        "note": "Armillary sphere and shield elements",
+        "pantone": "116 C"
+      }
+    ],
+    "desc": [
+      "- A vertical division with green at the hoist and red at the fly, overlaid with the national coat of arms including an armillary sphere\n",
+      "- Adopted following the 1910 revolution that established the Portuguese Republic"
+    ],
+    "article": "portugal/flag.md",
+    "of": {
+      "country": "portugal"
+    },
+    "countryData": {
+      "name": "Portugal",
+      "officialName": "Portuguese Republic",
+      "un": "member"
+    },
+    "cs": "portugal/flag.cs.svg",
+    "trivia": [
+      "- The shield shows the five lesser shields representing five victories and the cross (Christianity)\n",
+      "- The red stripe represents the cost in blood of Portuguese discoveries and independence\n",
+      "- Portugal's flag was adopted in 1910 during the Portuguese Republic revolution"
+    ]
+  }
+}

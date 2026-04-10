@@ -1,0 +1,51 @@
+{
+  "finland": {
+    "title": "Flag of Finland",
+    "ratio": "11:18",
+    "use": {
+      "as": "national flag",
+      "since": "1918-05-29"
+    },
+    "of": {
+      "country": "finland"
+    },
+    "countryData": {
+      "name": "Finland",
+      "officialName": "Republic of Finland",
+      "un": "member"
+    },
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#002F6C",
+        "cmyk": "100/55/0/15",
+        "pantone": "294 C",
+        "officialSpec": "NCS 4060-R90B",
+        "note": "Called 'sea blue'; represents Finland's lakes and northern sky"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Symbolizes the winter snow"
+      }
+    ],
+    "desc": [
+      "- A blue Nordic cross on a white field, adopted shortly after Finnish independence\n",
+      "- The colours reflect the contrast between blue lakes and white winter landscapes\n",
+      "- Official colour standards were defined in 1995 in CIE 1931 and CIE 1976 systems\n",
+      "- **Construction:** a blue Nordic cross on a white field\n",
+      "- The cross is offset toward the hoist\n",
+      "- The vertical arm divides the flag in the ratio 5:3 horizontally\n",
+      "- The cross arm width is 3/11 of the flag's height\n",
+      "- Official ratio 11:18"
+    ],
+    "article": "finland/flag.md",
+    "cs": "finland/flag.cs.svg",
+    "trivia": [
+      "- The cross follows the Nordic tradition but the shade of blue has no official Pantone — it's defined by law as 'sea blue'\n",
+      "- The blue represents the thousands of lakes and seas of Finland\n",
+      "- Adopted in 1918 upon independence from Russia; Finland was the last Nordic nation to adopt a national flag"
+    ]
+  }
+}

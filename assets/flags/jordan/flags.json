@@ -1,12 +1,63 @@
 {
   "jordan": {
-    "title": "Flag of Hashemite Kingdom of Jordan",
+    "title": "Flag of the Hashemite Kingdom of Jordan",
+    "ratio": "1:2",
+    "use": {
+      "as": "national flag and ensign",
+      "since": "1928-04-16"
+    },
     "colors": [
-      { "color": "red", "hex": "#ce1126", "rgb": "206/17/38", "cmyk": "0/92/82/19" },
-      { "color": "white", "hex": "#fff", "rgb": "255/255/255", "cmyk": "0/0/0/0" },
-      { "color": "green", "hex": "#007a3d", "rgb": "0/122/61", "cmyk": "100/0/50/52" },
-      { "color": "black", "hex": "#000", "rgb": "0/0/0", "cmyk": "0/0/0/100" }
+      {
+        "color": "black",
+        "hex": "#000",
+        "rgb": "0/0/0",
+        "cmyk": "0/0/0/100",
+        "note": "Represents the Abbasid dynasty.",
+        "pantone": "Black"
+      },
+      {
+        "color": "white",
+        "hex": "#fff",
+        "rgb": "255/255/255",
+        "cmyk": "0/0/0/0",
+        "note": "Represents the Umayyad dynasty."
+      },
+      {
+        "color": "green",
+        "hex": "#007a3d",
+        "rgb": "0/122/61",
+        "cmyk": "100/0/50/52",
+        "note": "Represents the Fatimid dynasty.",
+        "pantone": "340 C"
+      },
+      {
+        "color": "red",
+        "hex": "#ce1126",
+        "rgb": "206/17/38",
+        "cmyk": "0/92/82/19",
+        "note": "The chevron represents the Hashemite dynasty and the Arab Revolt.",
+        "pantone": "186 C"
+      }
     ],
-    "article": "jordan/flag.md"
+    "article": "jordan/flag.md",
+    "desc": [
+      "- The Jordanian flag features horizontal black, white, and green stripes with a red chevron at the hoist\n",
+      "- bearing a seven-pointed white star. Based on the 1916 Arab Revolt flag against Ottoman rule,\n",
+      "- the seven-pointed star represents the seven verses of Al-Fatiha. Adopted on 16 April 1928"
+    ],
+    "of": {
+      "country": "jordan"
+    },
+    "countryData": {
+      "name": "Jordan",
+      "officialName": "Hashemite Kingdom of Jordan",
+      "un": "member"
+    },
+    "cs": "jordan/flag.cs.svg",
+    "trivia": [
+      "- The black star represents Arab unity; the colours represent Pan-Arab symbolism\n",
+      "- The white horizontal stripe commemorates the Hashemite dynasty\n",
+      "- Jordan adopted this flag in 1928 as a Pan-Arab symbol with local Hashemite royal references"
+    ]
   }
 }

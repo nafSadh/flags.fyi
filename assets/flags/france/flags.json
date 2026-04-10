@@ -1,0 +1,53 @@
+{
+  "france": {
+    "title": "Flag of France",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "1794-02-15"
+    },
+    "of": {
+      "country": "france"
+    },
+    "countryData": {
+      "name": "France",
+      "officialName": "French Republic",
+      "un": "member"
+    },
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#000091",
+        "cmyk": "100/90/20/7",
+        "pantone": "072 C",
+        "officialSpec": "Navy blue restored by President Macron in 2020",
+        "note": "Represents liberty and the colours of Paris"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Symbolizes equality; represents the monarchy and peace"
+      },
+      {
+        "color": "red",
+        "hex": "#E1000F",
+        "cmyk": "0/100/100/0",
+        "pantone": "485 C",
+        "note": "Represents fraternity and the sacrifice of the Revolution"
+      }
+    ],
+    "desc": [
+      "- Three equal vertical stripes of blue, white, and red — the iconic Tricolore born of the French Revolution\n",
+      "- The design unites the blue and red of Paris with the white of the Bourbon monarchy\n",
+      "- In 2020, President Macron restored the darker navy blue, replacing the lighter blue introduced by Giscard d'Estaing in 1976"
+    ],
+    "article": "france/flag.md",
+    "cs": "france/flag.cs.svg",
+    "trivia": [
+      "- President Macron quietly changed the blue from a lighter shade to a darker navy blue in 2020. Few noticed for over a year\n",
+      "- The tricolour was inspired by the Dutch flag and adopted during the French Revolution in 1789\n",
+      "- The blue and red are from the Paris coat of arms; white is the royal colour of the Bourbons"
+    ]
+  }
+}

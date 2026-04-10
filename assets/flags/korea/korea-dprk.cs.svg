@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1290" height="690" viewBox="-37380 -28980 108360 57960" fill="none" font-family="Calibri,Arial,'Liberation Sans',sans-serif">
+	<title>Flag of North Korea — construction sheet</title>
+	<!-- DIMENSIONS
+		SVG:
+			S_RAW:     108360.00 × 57960.00
+			S_DISPLAY:  1290.00 × 690.00
+		FLAG:
+			F_RAW:     100800.00 × 50400.00
+			F_DISPLAY:  1200.00 × 600.00
+			F_LABEL:      72.00 × 36.00
+			F_RATIO:       2.00 × 1.00
+	-->
+	<defs>
+		<marker id="left-arrow" viewBox="-4 -4 10 8" orient="auto" markerWidth="10" markerHeight="8">
+			<path fill="blue" d="m2 0 4 4-10-4L6-4z"/>
+		</marker>
+	</defs>
+	<g transform="scale(2800)">
+		<path fill="#80a6d0" d="m-12-9h36V9h-36z"/>
+		<path fill="#fff" d="m-12-6h36V6h-36z"/>
+		<path fill="#f68d92" d="m-12-5.5h36v11h-36z"/>
+		<circle fill="#fff" r="4"/>
+	</g>
+	<path fill="#f68d92" d="m0-10850L6377 8778-10319-3353h20638L-6377 8778z"/>
+	<g stroke="#000" stroke-width="140" stroke-linejoin="round" stroke-linecap="round">
+		<g opacity=".4" stroke-width="100">
+			<path stroke-dashoffset="362" stroke-dasharray="725,315,105,315" d="m16800 0v-25200m0 25200v25200"/>
+			<path stroke-dashoffset="376" stroke-dasharray="751,315,105,315" d="m16800 0h-50400m50400 0h50400"/>
+			<path stroke-dasharray="735,315,105,315" stroke-dashoffset="840" d="m-36120 0h2520"/>
+		</g>
+		<path stroke="#808" stroke-dasharray="420,432" stroke-dashoffset="210" d="m0-10850a1 1 0 0 0 0 21700m0-21700a1 1 0 0 1 0 21700"/>
+		<path stroke="#444" stroke-width="250" d="m-33600-25200H67200v50400H-33600z"/>
+		<path d="m-33600-16800H67200m-100800 1400H67200M-33600 15400H67200m-100800 1400H67200M0-10850l2436 7497h7883L3941 1281l2436 7497L0 4144-6377 8778l2436-7497-6378-4634h7883z"/>
+		<circle r="11200"/>
+		<path stroke="#222" stroke-width="75" stroke-dasharray="210,210" d="m-33600-27720V0m0 27720V0m22400 14140V0M0-27720V0m11200 14140V0m56000-27720V0m0 27720V0M-36120-25200h52920m52920 0H16800m-52920 8400h2520m-2520 1400h2520m-2520 30800h2520m-2520 1400h2520m-2520 8400h52920m52920 0H16800"/>
+		<path stroke-width="135" d="m-375 0h750M0-375v750"/>
+	</g>
+	<g fill="#008" opacity=".8">
+		<circle r="200" cx="-11200" cy="0"/>
+		<circle r="200" cx="11200" cy="0"/>
+	</g>
+	<g stroke="#00f" stroke-width="75" marker-start="url(#left-arrow)">
+		<path d="m-33300-26775h14700"/>
+		<path d="m-300-26775h-14700"/>
+		<path d="m300-26775h31500"/>
+		<path d="m66900-26775H35400"/>
+		<path d="m-33300 26775h47700"/>
+		<path d="m66900 26775H19200"/>
+		<path d="m-10900 13195h9100"/>
+		<path d="m10900 13195H1800"/>
+		<path d="m-35175 24900v-2800"/>
+		<path d="m-35175 17100v2800"/>
+		<path d="m-35175 15100V9500"/>
+		<path d="m-35175 300v5600"/>
+		<path d="m-35175-300v-5600"/>
+		<path d="m-35175-15100v5600"/>
+		<path d="m-35175-17100v-2800"/>
+		<path d="m-35175-24900v2800"/>
+		<path d="m68775 24900V1800"/>
+		<path d="m68775-24900v23100"/>
+		<path d="m-29400 17100v2200"/>
+		<path d="m-29400 15100v-2200"/>
+		<path d="m-29400-15100v2200"/>
+		<path d="m-29400-17100v-2200"/>
+		<path d="m7460-7460-1556 1556"/>
+		<path d="m8132-8132 1555-1555"/>
+	</g>
+	<g fill="#000" text-anchor="middle" font-size="50" transform="scale(50)">
+		<g>
+			<text x="-336" y="-520">24</text>
+			<text x="672" y="-520">48</text>
+			<text x="102" y="-96">¼</text>
+			<text y="279">16</text>
+			<text x="336" y="550">72</text>
+		</g>
+		<g transform="rotate(270)">
+			<text x="-420" y="-688" text-decoration="underline">6</text>
+			<text x="-154" y="-688">11</text>
+			<text x="154" y="-688">11</text>
+			<text x="420" y="-688" text-decoration="underline">6</text>
+			<text x="-244" y="-573">1</text>
+			<text x="244" y="-573">1</text>
+			<text y="1390">36</text>
+		</g>
+		<g font-size="27">
+			<text x="-703.5" y="554">[<tspan font-weight="bold" fill="#080">KP</tspan>]</text>
+			<text x="1375.5" y="554">[<tspan font-weight="bold" fill="#080">1:2</tspan>]</text>
+		</g>
+	</g>
+</svg>

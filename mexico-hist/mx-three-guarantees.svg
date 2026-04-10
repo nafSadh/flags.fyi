@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.0"
+   id="svg2422"
+   height="800"
+   width="1400">
+  <rect
+     style="fill:#fff"
+     height="800"
+     width="1400"
+     id="rect3073" />
+  <use
+     x="0"
+     y="0"
+     xlink:href="#polygon588"
+     id="use3388"
+     transform="translate(-1088.0887,-516.65856)"
+     width="100%"
+     height="100%" />
+  <path
+     style="fill:#076d4a"
+     d="M 1400,0 896.37069,0 0,510.8987 0,800 471.11739,800 1400,246.40743 Z"
+     id="path1574" />
+  <path
+     id="path3341"
+     d="m 469.877,800 930.123,0 0,-553.59257 z"
+     style="fill:#d32927;fill-opacity:1" />
+<path style="fill:#eabc00" d="M 1244.3125 571.7168 L 1228.2402 625.73047 L 1177.1641 597.63281 L 1206.7891 646.41602 L 1149.3496 660.19922 L 1207.3184 675.17383 L 1177.1641 722.76367 L 1229.5195 695.16016 L 1244.3125 748.68164 L 1260.3867 694.66797 L 1311.4629 722.76367 L 1281.8379 673.98242 L 1339.2812 660.19922 L 1281.3086 645.22266 L 1311.4629 597.63281 L 1259.1074 625.23633 L 1244.3125 571.7168 z " id="polygon588" />
+  <use
+     x="0"
+     y="0"
+     xlink:href="#polygon588"
+     id="use3386"
+     transform="translate(-544.3154,-260.19923)"
+     width="100%"
+     height="100%" />
+</svg>

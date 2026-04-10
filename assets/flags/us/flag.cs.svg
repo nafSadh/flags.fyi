@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1256" height="711" viewBox="-5217 -5226 105504 59724" fill="none" font-family="Calibri,Arial,'Liberation Sans',sans-serif">
+	<title>Flag of the United States — construction sheet</title>
+	<!-- DIMENSIONS
+		SVG:
+			S_RAW:     105504.00 × 59724.00
+			S_DISPLAY:  1256.00 × 711.00
+		FLAG:
+			F_RAW:     96330.00 × 50700.00
+			F_DISPLAY:  1146.79 × 603.57
+			F_LABEL:    7410.00 × 3900.00
+			F_RATIO:      19.00 × 10.00
+	-->
+	<defs>
+		<marker id="left-arrow" viewBox="-4 -4 10 8" orient="auto" markerWidth="10" markerHeight="8">
+			<path fill="blue" d="m2 0 4 4-10-4L6-4z"/>
+		</marker>
+		<pattern patternUnits="userSpaceOnUse" width="6422" height="5460" id="s">
+			<path fill="#fff" d="m3211 1170 917 2822-2401-1744h2968L2294 3992z"/>
+		</pattern>
+		<pattern patternUnits="userSpaceOnUse" width="6422" height="5460" id="t">
+			<g fill="none" stroke="#000" stroke-width="120" stroke-linejoin="round" stroke-linecap="round">
+				<path d="m3211 1170 350 1078h1134l-917 666 350 1078-917-666-917 666 350-1078-917-666h1134z"/>
+				<path stroke="#008" opacity=".4" stroke-dasharray="326,326" stroke-dashoffset="163" d="m3211 1170a1 1 0 0 0 0 3120m0-3120a1 1 0 0 1 0 3120"/>
+				<path d="m2961 2730h500m-250-250v500"/>
+			</g>
+		</pattern>
+	</defs>
+	<path fill="#f8f8f8" d="m-5217-5226h105504v59724H-5217z"/>
+	<path fill="#fff" d="m0 0h96330v50700H0z"/>
+	<g opacity=".5">
+		<g transform="scale(13)">
+			<path fill="#fff" d="m0 0h7410v3900H0z"/>
+			<path stroke="#b22234" stroke-width="7410" stroke-dasharray="300" d="m3705 0v3900"/>
+			<path fill="#3c3b6e" d="m0 0h2964v2100H0z"/>
+		</g>
+		<g fill="url(#s)">
+			<path d="m0 0h38532v27300H0z"/>
+			<path transform="translate(3211,2730)" d="m0 0h32110v21840H0z"/>
+		</g>
+	</g>
+	<g stroke="#000" stroke-width="140" stroke-linejoin="round" stroke-linecap="round">
+		<g opacity=".3" stroke-width="100">
+			<path stroke-width="5" transform="scale(13)" d="m247 0v2100m494 0V0m494 0v2100m494 0V0m494 0v2100m494 0V0M0 210h2964m0 420H0m0 420h2964m0 420H0m0 420h2964"/>
+			<path stroke-width="8" transform="scale(13)" d="m494 0v2100m494 0V0m494 0v2100m494 0V0m494 0v2100M0 420h2964m0 420H0m0 420h2964m0 420H0"/>
+			<path stroke-dashoffset="362" stroke-dasharray="725,315,105,315" d="m48165 25350V0m0 25350v25350"/>
+		</g>
+		<path stroke="#444" stroke-width="250" d="m0 0h96330v50700H0z"/>
+		<path d="m38532 3900h57798M38532 7800h57798m-57798 3900h57798m-57798 3900h57798m-57798 3900h57798m-57798 3900h57798M0 27300h96330M0 31200h96330M0 35100h96330M0 39000h96330M0 42900h96330M0 46800h96330M38532 0v27300"/>
+		<g fill="url(#t)" stroke="none">
+			<path d="m0 0h38532v27300H0z"/>
+			<path transform="translate(3211,2730)" d="m0 0h32110v21840H0z"/>
+		</g>
+		<path stroke="#222" stroke-width="75" stroke-dasharray="210,210" d="m0-4620v29970m0 27870V25350M3211-2520V0m3211-2520V0m3211-2520V0m3211-2520V0m1651 30195v-5625m3120 5625v-5625M16055-2520V0m3211-2520V0m3211-2520V0m3211-2520V0m3211-2520V0m3211-2520V0m3211-2520V0m3211-4620V0m57798 0v25350m0 27870V25350M-4620 0h52785m50685 0H48165M-2520 2730H0m-2520 2730H0m-2520 2730H0m-2520 2730H0m-2520 2730H0m-2520 2730H0m-2520 2730H0m-2520 2730H0m-2520 2730H0m-4620 2730H0m-2520 11700H0m-2520 3900H0m-2520 7800h50685m50685 0H48165"/>
+	</g>
+	<g fill="#008" opacity=".8">
+		<circle r="200" cx="14495" cy="24570"/>
+		<circle r="200" cx="17615" cy="24570"/>
+	</g>
+	<g stroke="#00f" stroke-width="75" marker-start="url(#left-arrow)">
+		<path d="m300-3675h17866"/>
+		<path d="m38232-3675H20366"/>
+		<path d="m300 52275h46765"/>
+		<path d="m96030 52275H49265"/>
+		<path d="m-300-1575h-1100"/>
+		<path d="m38832-1575h1100"/>
+		<path d="m14195 29250h-2200"/>
+		<path d="m17915 29250h2200"/>
+		<path d="m-1575 43200v2200"/>
+		<path d="m-1575 38700v-2200"/>
+		<path d="m-1575 27600v1100"/>
+		<path d="m-1575-300v-1100"/>
+		<path d="m-3675 27000V14950"/>
+		<path d="m-3675 300v12050"/>
+		<path d="m97905 50400V26650"/>
+		<path d="m97905 300v23750"/>
+	</g>
+	<g fill="#000" text-anchor="middle" font-size="50" transform="scale(50)">
+		<g>
+			<text x="385" y="-58">D</text>
+			<text x="32" y="-16">G</text>
+			<text x="96" y="-16">H</text>
+			<text x="161" y="-16">H</text>
+			<text x="225" y="-16">H</text>
+			<text x="289" y="-16">H</text>
+			<text x="353" y="-16">H</text>
+			<text x="417" y="-16">H</text>
+			<text x="482" y="-16">H</text>
+			<text x="546" y="-16">H</text>
+			<text x="610" y="-16">H</text>
+			<text x="674" y="-16">H</text>
+			<text x="738" y="-16">G</text>
+			<text x="-32" y="42">E</text>
+			<text x="-32" y="97">F</text>
+			<text x="-32" y="152">F</text>
+			<text x="-32" y="206">F</text>
+			<text x="-32" y="261">F</text>
+			<text x="-74" y="288">C</text>
+			<text x="-32" y="315">F</text>
+			<text x="-32" y="370">F</text>
+			<text x="-32" y="424">F</text>
+			<text x="-32" y="479">F</text>
+			<text x="1958" y="522">A</text>
+			<text x="-32" y="534">E</text>
+			<text x="321" y="600">K</text>
+			<text x="-32" y="834">L</text>
+			<text x="963" y="1060">B</text>
+		</g>
+		<g font-size="27">
+			<text x="-37" y="1064">[<tspan font-weight="bold" fill="#080">US</tspan>]</text>
+			<text x="1966" y="1064">[<tspan font-weight="bold" fill="#080">10:19</tspan>]</text>
+		</g>
+		<g text-anchor="start">
+			<text y="752">
+				<tspan x="150">A = 3900</tspan>
+				<tspan x="150" dy="156">B = 1.90 × A = 7410</tspan>
+			</text>
+		</g>
+		<g text-anchor="start">
+			<text y="128">
+				<tspan x="1113">C = 7 × A ÷ 13 = 2100</tspan>
+				<tspan x="1113" dy="156">D = 0.76  × A = 2964</tspan>
+				<tspan x="1113" dy="156">E = F = C ÷ 10 = 210</tspan>
+				<tspan x="1113" dy="156">G = H = D ÷ 12 = 247</tspan>
+				<tspan x="1113" dy="156">L = A ÷ 13 = 300</tspan>
+				<tspan x="1113" dy="156">K = 4 × L ÷ 5 = 240</tspan>
+			</text>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect y="0" width="1200" height="400" fill="#000000"/><rect y="400" width="1200" height="400" fill="#ffffff"/><ellipse cx="600" cy="200" rx="80" ry="100" fill="#000000"/>
+       <circle cx="600" cy="120" r="50" fill="#000000"/>
+       <polygon points="520,180 480,200 500,220" fill="#000000"/>
+       <polygon points="680,180 720,200 700,220" fill="#000000"/>
+       <!-- Wings -->
+       <polygon points="500,220 400,180 420,240" fill="#000000"/>
+       <polygon points="700,220 800,180 780,240" fill="#000000"/>
+       <!-- Tail -->
+       <path d="M 600 300 Q 550 350 500 380 Q 600 370 700 380 Q 650 350 600 300" fill="#000000"/></svg>

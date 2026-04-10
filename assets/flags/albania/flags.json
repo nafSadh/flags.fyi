@@ -1,9 +1,51 @@
 {
   "albania": {
+    "title": "Flag of the Republic of Albania",
     "ratio": "5:7",
+    "use": {
+      "as": "national flag and civil ensign",
+      "since": "1992-04-07"
+    },
+    "of": {
+      "country": "albania"
+    },
+    "countryData": {
+      "name": "Albania",
+      "officialName": "Republic of Albania",
+      "un": "member"
+    },
     "colors": [
-      { "color": "red", "hex": "#ff0000", "cmyk": "0/100/100/0" },
-      { "color": "black", "hex": "#000", "cmyk": "0/0/0/100" }
+      {
+        "color": "red",
+        "hex": "#DA291C",
+        "cmyk": "0/95/100/0",
+        "pantone": "485",
+        "note": "Represents bravery, strength, valour, and bloodshed."
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "pantone": "Black",
+        "note": "The double-headed eagle symbolises sovereignty, dating back to Skanderbeg's revolt against the Ottomans."
+      }
+    ],
+    "desc": [
+      "- The Albanian flag features a silhouetted black double-headed eagle on a red field\n",
+      "- The design traces its roots to the seal of Gjergj Kastrioti Skanderbeg, the 15th-century Albanian hero\n",
+      "- The two eagle heads are said to represent vigilance against threats from both East and West\n",
+      "- Albania's flag was first raised in 1912 upon independence; the current version was adopted on 7 April 1992\n",
+      "- The flag was standardized by Law Nr. 8926, dated 22 July 2002\n",
+      "- **Construction:** the flag has a ratio of 5:7\n",
+      "- The double-headed eagle is centred on the red field, with its wingspan approximately three-fifths of the hoist height\n",
+      "- The eagle silhouette is solid black with no internal detailing"
+    ],
+    "article": "albania/flag.md",
+    "cs": "albania/flag.cs.svg",
+    "trivia": [
+      "- The double-headed eagle motif dates to the 15th-century Kastrioti dynasty and medieval Scanderbeg\n",
+      "- Albania's flag has one of the most complex single-colour emblems of any national flag\n",
+      "- The eagle is the same symbol used by emperors and medieval warriors — one of Europe's oldest heraldic symbols"
     ]
   }
 }

@@ -1,0 +1,51 @@
+{
+  "chile": {
+    "title": "Flag of Chile",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "1817-10-18"
+    },
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#0032A0",
+        "cmyk": "100/80/0/12",
+        "note": "Represents the sky and the Pacific Ocean",
+        "pantone": "286 C"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Represents the snow-covered Andes"
+      },
+      {
+        "color": "red",
+        "hex": "#DA291C",
+        "cmyk": "0/95/100/0",
+        "note": "Represents blood spilled for independence",
+        "pantone": "485 C"
+      }
+    ],
+    "desc": [
+      "- A blue square canton with a white star, above a white stripe and below a red stripe occupying the lower half\n",
+      "- Known as 'La Estrella Solitaria' (The Lone Star)"
+    ],
+    "article": "chile/flag.md",
+    "of": {
+      "country": "chile"
+    },
+    "countryData": {
+      "name": "Chile",
+      "officialName": "Republic of Chile",
+      "un": "member"
+    },
+    "cs": "chile/flag.cs.svg",
+    "trivia": [
+      "- The blue canton represents the sky; white represents the Andes snow; red represents blood of independence\n",
+      "- The star represents progress guiding the nation\n",
+      "- Chile's flag has been in use since 1812, one of the longest continuously used flag designs in the Americas"
+    ]
+  }
+}

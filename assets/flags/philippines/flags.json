@@ -1,0 +1,58 @@
+{
+  "philippines": {
+    "title": "Flag of the Philippines",
+    "ratio": "1:2",
+    "use": {
+      "as": "national flag",
+      "since": "1898-06-12"
+    },
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#0038A8",
+        "cmyk": "100/67/0/34",
+        "note": "Represents peace, truth, and justice",
+        "pantone": "286 C"
+      },
+      {
+        "color": "red",
+        "hex": "#CE1126",
+        "cmyk": "0/92/82/19",
+        "note": "Symbolizes bravery and sacrifice",
+        "pantone": "186 C"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Represents equality among nations"
+      },
+      {
+        "color": "yellow",
+        "hex": "#FCD116",
+        "cmyk": "0/17/91/1",
+        "note": "Represents the sun and the first eight provinces that rebelled",
+        "pantone": "116 C"
+      }
+    ],
+    "desc": [
+      "- A white triangle at the hoist with a sun and three stars, flanked by a blue upper stripe and a red lower stripe\n",
+      "- Designed by General Emilio Aguinaldo in 1898; the flag is flown with red on top in wartime"
+    ],
+    "article": "philippines/flag.md",
+    "of": {
+      "country": "philippines"
+    },
+    "countryData": {
+      "name": "Philippines",
+      "officialName": "Republic of the Philippines",
+      "un": "member"
+    },
+    "cs": "philippines/flag.cs.svg",
+    "trivia": [
+      "- The sun represents the 12 rays representing the 12 provinces that revolted against Spain\n",
+      "- The three stars represent the three regions of the Philippines\n",
+      "- The colours represent equality (white), courage (blue), and sacrifice (red)"
+    ]
+  }
+}

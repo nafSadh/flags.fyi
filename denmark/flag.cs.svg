@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1034" height="804" viewBox="-33789 -33768 86856 67536" fill="none" font-family="Calibri,Arial,'Liberation Sans',sans-serif">
+	<title>Flag of Denmark — construction sheet</title>
+	<!-- DIMENSIONS
+		SVG:
+			S_RAW:     86856.00 × 67536.00
+			S_DISPLAY:  1034.00 × 804.00
+		FLAG:
+			F_RAW:     79254.00 × 59976.00
+			F_DISPLAY:   943.50 × 714.00
+			F_LABEL:      37.00 × 28.00
+			F_RATIO:      37.00 × 28.00
+	-->
+	<defs>
+		<marker id="left-arrow" viewBox="-4 -4 10 8" orient="auto" markerWidth="10" markerHeight="8">
+			<path fill="blue" d="m2 0 4 4-10-4L6-4z"/>
+		</marker>
+	</defs>
+	<path fill="#fafafa" d="m-33789-33768h86856v67536h-86856z"/>
+	<path fill="#fff" d="m-29988-29988h79254v59976h-79254z"/>
+	<g opacity=".5" transform="scale(2142)">
+		<path fill="#c60c30" d="m-14-14h37v28h-37z"/>
+		<path fill="#fff" d="m-2-14h4v28h-4zM-14-2h37v4h-37z"/>
+	</g>
+	<g stroke="#000" stroke-width="140" stroke-linejoin="round" stroke-linecap="round">
+		<g opacity=".4" stroke-width="100">
+			<path opacity=".5" stroke-dashoffset="368" stroke-dasharray="735,315,105,315" d="m9639 0v-29988M9639 0v29988"/>
+			<path stroke-dashoffset="368" stroke-dasharray="735,315,105,315" d="m9639 0h-39627M9639 0h39627"/>
+		</g>
+		<path stroke="#444" stroke-width="250" d="m-29988-29988h79254v59976h-79254z"/>
+		<path d="m-29988-4284h25704v-25704M49266-4284H4284v-25704M-29988 4284h25704v25704M49266 4284H4284v25704"/>
+		<path stroke="#222" stroke-width="75" stroke-dasharray="210,210" d="m-29988-32508V0m0 32508V0m25704-32508v2520m8568-2520v2520m44982-2520V0m0 32508V0m-81774-29988H9639m42147 0H9639M-32508-4284h2520m25704 0h8568v8568h-8568zm-28224 8568h2520m-2520 25704H9639m42147 0H9639"/>
+	</g>
+	<g fill="#008" opacity=".8">
+		<circle r="200" cx="-4284" cy="-4284"/>
+		<circle r="200" cx="4284" cy="-4284"/>
+		<circle r="200" cx="4284" cy="4284"/>
+		<circle r="200" cx="-4284" cy="4284"/>
+	</g>
+	<g stroke="#00f" stroke-width="75" marker-start="url(#left-arrow)">
+		<path d="m-29688-31563h10852"/>
+		<path d="m-4584-31563h-10852"/>
+		<path d="m-3984-31563h2984"/>
+		<path d="m3984-31563H1000"/>
+		<path d="m4584-31563h20491"/>
+		<path d="m48966-31563H28475"/>
+		<path d="m-29688 31563H7939"/>
+		<path d="m48966 31563H11339"/>
+		<path d="m-31563-4584v-10852"/>
+		<path d="m-31563-29688v10852"/>
+		<path d="m-31563 3984V1000"/>
+		<path d="m-31563-3984v2984"/>
+		<path d="m-31563 29688V18836"/>
+		<path d="m-31563 4584v10852"/>
+		<path d="m50841 29688V1700"/>
+		<path d="m50841-29688v27988"/>
+	</g>
+	<g fill="#000" text-anchor="middle" font-size="50" transform="scale(50)">
+		<g>
+			<text x="-343" y="-616">12</text>
+			<text y="-616">4</text>
+			<text x="536" y="-616">21</text>
+			<text x="193" y="646">37</text>
+		</g>
+		<g transform="rotate(270)">
+			<text x="343" y="-616">12</text>
+			<text y="-616">4</text>
+			<text x="-343" y="-616">12</text>
+			<text y="1032">28</text>
+		</g>
+		<g font-size="27">
+			<text x="-637" y="650">[<tspan font-weight="bold" fill="#080">DK</tspan>]</text>
+			<text x="1022" y="650">[<tspan font-weight="bold" fill="#080">28:37</tspan>]</text>
+		</g>
+	</g>
+</svg>

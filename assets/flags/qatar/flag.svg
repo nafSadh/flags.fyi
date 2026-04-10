@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 800">
+  <!-- White section on hoist side -->
+  <rect width="400" height="800" fill="#FFFFFF"/>
+  <!-- Maroon section -->
+  <rect x="400" width="1000" height="800" fill="#8B1538"/>
+  <!-- Serrated line dividing white and maroon -->
+  <defs>
+    <pattern id="serrated" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <polygon points="0,0 40,0 40,20 20,20 20,40 0,40" fill="#8B1538"/>
+    </pattern>
+  </defs>
+  <rect x="400" y="0" width="1000" height="800" fill="#FFFFFF"/>
+  <path d="M 400 0 L 380 40 L 400 80 L 380 120 L 400 160 L 380 200 L 400 240 L 380 280 L 400 320 L 380 360 L 400 400 L 380 440 L 400 480 L 380 520 L 400 560 L 380 600 L 400 640 L 380 680 L 400 720 L 380 760 L 400 800 L 1400 800 L 1400 0 Z" fill="#8B1538"/>
+</svg>

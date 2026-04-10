@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="810" viewBox="-34020 -34020 90720 68040" fill="none" font-family="Calibri,Arial,'Liberation Sans',sans-serif">
+	<title>Flag of Norway — construction sheet</title>
+	<!-- DIMENSIONS
+		SVG:
+			S_RAW:     90720.00 × 68040.00
+			S_DISPLAY:  1080.00 × 810.00
+		FLAG:
+			F_RAW:     83160.00 × 60480.00
+			F_DISPLAY:   990.00 × 720.00
+			F_LABEL:      22.00 × 16.00
+			F_RATIO:      11.00 × 8.00
+	-->
+	<defs>
+		<marker id="left-arrow" viewBox="-4 -4 10 8" orient="auto" markerWidth="10" markerHeight="8">
+			<path fill="blue" d="m2 0 4 4-10-4L6-4z"/>
+		</marker>
+	</defs>
+	<path fill="#f8f8f8" d="m-34020-34020h90720v68040h-90720z"/>
+	<path fill="#fff" d="m-30240-30240h83160v60480h-83160z"/>
+	<g opacity=".5" transform="scale(3780)">
+		<path fill="#fff" d="m-8-8h22V8H-8z"/>
+		<path fill="#ba0c2f" d="m-8-8h6v6h-6zM2-8h12v6H2zM2 2h12v6H2zM-8 2h6v6h-6z"/>
+		<path fill="#00205b" d="m-1-8h2V8h-2zm-7 7h22v2H-8"/>
+	</g>
+	<g stroke="#000" stroke-width="140" stroke-linejoin="round" stroke-linecap="round">
+		<g opacity=".2" stroke-width="100">
+			<path stroke-dashoffset="378" stroke-dasharray="755,315,105,315" d="m11340 0v-30240m0 30240v30240"/>
+		</g>
+		<g stroke="#569">
+			<path stroke-dasharray="1470,630,210,630" stroke-dashoffset="735" d="m0 0v-30240M0 0v30240M0 0h-30240M0 0h52920"/>
+		</g>
+		<path stroke="#444" stroke-width="250" d="m-30240-30240h83160v60480h-83160z"/>
+		<path d="m-30240-7560h22680v-22680M-30240-3780h26460v-26460M52920-7560H7560v-22680M52920-3780H3780v-26460M-30240 7560h22680v22680M-30240 3780h26460v26460M52920 7560H7560v22680M52920 3780H3780v26460"/>
+		<path stroke="#222" stroke-width="75" stroke-dasharray="210,210" d="m-30240-32760V0m0 32760V0m22680-32760v2520m3780-2520v2520m7560-2520v2520m3780-2520v2520m45360-2520V0m0 32760V0m-85680-30240h44100m44100 0H11340M-32760-7560h2520m-2520 3780h2520m-2520 7560h2520m-2520 3780h2520M-7560-7560H7560V7560H-7560zm3780 3780h7560v7560h-7560zm-28980 34020h44100m44100 0H11340"/>
+	</g>
+	<g fill="#008" opacity=".8">
+		<circle r="200" cx="-7560" cy="-7560"/>
+		<circle r="200" cx="-3780" cy="-3780"/>
+		<circle r="200" cx="7560" cy="-7560"/>
+		<circle r="200" cx="3780" cy="-3780"/>
+		<circle r="200" cx="7560" cy="7560"/>
+		<circle r="200" cx="3780" cy="3780"/>
+		<circle r="200" cx="-7560" cy="7560"/>
+		<circle r="200" cx="-3780" cy="3780"/>
+	</g>
+	<g stroke="#00f" stroke-width="75" marker-start="url(#left-arrow)">
+		<path d="m-29940-31815h10140"/>
+		<path d="m-7860-31815h-10140"/>
+		<path d="m-7260-31815h1090"/>
+		<path d="m-4080-31815h-1090"/>
+		<path d="m-3480-31815h2580"/>
+		<path d="m3480-31815H900"/>
+		<path d="m4080-31815h1090"/>
+		<path d="m7260-31815H6170"/>
+		<path d="m7860-31815h20880"/>
+		<path d="m52620-31815H31740"/>
+		<path d="m-29940 31815H9840"/>
+		<path d="m52620 31815H12840"/>
+		<path d="m-31815 29940V19800"/>
+		<path d="m-31815 7860v10140"/>
+		<path d="m-31815 7260V6170"/>
+		<path d="m-31815 4080v1090"/>
+		<path d="m-31815 3480V900"/>
+		<path d="m-31815-3480v2580"/>
+		<path d="m-31815-4080v-1090"/>
+		<path d="m-31815-7260v1090"/>
+		<path d="m-31815-7860v-10140"/>
+		<path d="m-31815-29940v10140"/>
+		<path d="m54495 29940V1500"/>
+		<path d="m54495-29940v28440"/>
+	</g>
+	<g fill="#000" text-anchor="middle" font-size="50" transform="scale(50)">
+		<g>
+			<text x="-378" y="-621">6</text>
+			<text x="-113" y="-621">1</text>
+			<text y="-621">2</text>
+			<text x="113" y="-621">1</text>
+			<text x="605" y="-621">12</text>
+			<text x="227" y="651">22</text>
+		</g>
+		<g transform="rotate(270)">
+			<text x="-378" y="-621" text-decoration="underline">6</text>
+			<text x="-113" y="-621">1</text>
+			<text y="-621">2</text>
+			<text x="113" y="-621">1</text>
+			<text x="378" y="-621" text-decoration="underline">6</text>
+			<text y="1105">16</text>
+		</g>
+		<g font-size="27">
+			<text x="-642" y="655">[<tspan font-weight="bold" fill="#080">NO</tspan>]</text>
+			<text x="1095" y="655">[<tspan font-weight="bold" fill="#080">8:11</tspan>]</text>
+		</g>
+	</g>
+</svg>

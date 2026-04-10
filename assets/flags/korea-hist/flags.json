@@ -1,0 +1,83 @@
+{
+  "kr-joseon": {
+    "title": "Royal Standard of the Joseon Dynasty",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#cd2e3a",
+        "cmyk": "0/78/72/20"
+      },
+      {
+        "color": "blue",
+        "hex": "#0047a0",
+        "cmyk": "100/56/0/37"
+      }
+    ],
+    "desc": [
+      "- The Joseon Dynasty (1392–1897) royal standard featured a red field with the taegeuk (yin-yang) symbol and trigrams\n",
+      "- **Construction:** a white field, sometimes with dynastic emblems. The Joseon dynasty used plain white standards reflecting Confucian austerity"
+    ],
+    "flag": "korea-hist/kr-joseon.svg",
+    "of": {
+      "country": "korea"
+    },
+    "countryData": {
+      "name": "Korea",
+      "officialName": "Joseon Dynasty",
+      "un": "none"
+    },
+    "cs": "korea-hist/kr-joseon.cs.svg",
+    "trivia": [
+      "- The Joseon Dynasty (1392–1910) ruled Korea for over 500 years\n",
+      "- Represented one of the world's longest-lasting dynasties\n",
+      "- Ended with Japanese colonization in 1910"
+    ]
+  },
+  "kr-taegeukgi-1883": {
+    "title": "Original Taegeukgi (1883)",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0"
+      },
+      {
+        "color": "red",
+        "hex": "#cd2e3a",
+        "cmyk": "0/78/72/20"
+      },
+      {
+        "color": "blue",
+        "hex": "#0047a0",
+        "cmyk": "100/56/0/37"
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100"
+      }
+    ],
+    "desc": [
+      "- The earliest known version of the Korean taegeukgi, used from 1883, featured the red-and-blue taegeuk (yin-yang) at the centre on a white field with four trigrams — similar to the modern South Korean flag but with different trigram arrangements\n",
+      "- Designed by Bak Yeong-hyo and first flown during his diplomatic mission to Japan in 1882, it was officially adopted on 6 March 1883 by the Joseon court\n",
+      "- **Construction:** a white field with a bicoloured taegeuk centred and four I Ching trigrams in the corners. Ratio approximately 2:3"
+    ],
+    "flag": "korea-hist/kr-taegeukgi-1883.svg",
+    "of": {
+      "country": "korea"
+    },
+    "countryData": {
+      "name": "Korea",
+      "officialName": "Korean Empire (Taegeukgi, 1883)",
+      "un": "none"
+    },
+    "cs": "korea-hist/kr-taegeukgi-1883.cs.svg",
+    "trivia": [
+      "- The original Taegeuk flag from 1883 represented early modern Korea\n",
+      "- First used during Korea's diplomatic engagement with the West\n",
+      "- Evolved into the modern South Korean flag"
+    ]
+  }
+}

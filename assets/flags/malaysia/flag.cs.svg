@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1290" height="690" viewBox="-3780 -3780 108360 57960" fill="none" font-family="Calibri,Arial,'Liberation Sans',sans-serif">
+	<title>Flag of Malaysia — construction sheet</title>
+	<!-- DIMENSIONS
+		SVG:
+			S_RAW:     108360.00 × 57960.00
+			S_DISPLAY:  1290.00 × 690.00
+		FLAG:
+			F_RAW:     100800.00 × 50400.00
+			F_DISPLAY:  1200.00 × 600.00
+			F_LABEL:      28.00 × 14.00
+			F_RATIO:       2.00 × 1.00
+	-->
+	<defs>
+		<marker id="left-arrow" viewBox="-4 -4 10 8" orient="auto" markerWidth="10" markerHeight="8">
+			<path fill="blue" d="m2 0 4 4-10-4L6-4z"/>
+		</marker>
+	</defs>
+	<path fill="#f8f8f8" d="m-3780-3780h108360v57960H-3780z"/>
+	<path fill="#fff" d="m0 0h100800v50400H0z"/>
+	<g opacity=".5">
+		<g transform="scale(3600)">
+			<path fill="#fff" d="m0 0h28v14H0z"/>
+			<path stroke="#c00" stroke-width="28" stroke-dasharray="1" d="m14 0v14"/>
+			<path fill="#006" d="m0 0h14v8H0z"/>
+		</g>
+		<path fill="#fc0" d="m31500 5400 801 5490 3104-4599-1660 5294 4791-2796-3793 4049 5531-441-5174 2003 5174 2003-5531-441 3793 4049-4791-2796 1660 5294-3104-4599-801 5490-801-5490-3104 4599 1660-5294-4791 2796 3793-4049-5531 441 5174-2003-5174-2003 5531 441-3793-4049 4791 2796-1660-5294 3104 4599zm-4500 17772a10800 10800 0 1 1 0-17544 9600 9600 0 1 0 0 17544z"/>
+	</g>
+	<g stroke="#000" stroke-width="140" stroke-linejoin="round" stroke-linecap="round">
+		<g opacity=".4" stroke-width="100">
+			<path stroke-dasharray="630,315" stroke-dashoffset="315" d="m20700 14400H9585m11115 0h20115m5460 0h4125M0 14400h4125"/>
+		</g>
+		<g stroke="#080" opacity=".5">
+			<path stroke-dasharray="420,416" stroke-dashoffset="420" d="m27000 23172a10800 10800 0 0 0 0-17544"/>
+			<path stroke-dasharray="1307,315,105,315" stroke-dashoffset="940" d="m20700 14400V3600m0 10800v10800"/>
+		</g>
+		<g stroke="#b00" opacity=".5">
+			<path stroke-dasharray="420,416" stroke-dashoffset="420" d="m27000 23172a9600 9600 0 0 0 0-17544"/>
+			<path stroke-dasharray="1067,315,105,315" stroke-dashoffset="700" d="m23100 14400V4800m0 9600v9600"/>
+		</g>
+		<g stroke="#03f" opacity=".6">
+			<path stroke-dasharray="420,388" stroke-dashoffset="210" d="m31500 5400a1 1 0 0 0 0 18000m0-18000a1 1 0 0 1 0 18000"/>
+			<path stroke-dasharray="420,387" stroke-dashoffset="210" d="m31500 10800a1 1 0 0 0 0 7200m0-7200a1 1 0 0 1 0 7200"/>
+		</g>
+		<g opacity=".4" stroke-width="100">
+			<path stroke-dashoffset="388" stroke-dasharray="775,315,105,315" d="m50400 28800v21600"/>
+			<path stroke-dasharray="735,315,105,315" stroke-dashoffset="840" d="m50400-2520V0"/>
+		</g>
+		<path stroke="#444" stroke-width="250" d="m0 0h100800v50400H0z"/>
+		<path d="m50400 3600h50400M50400 7200h50400m-50400 3600h50400m-50400 3600h50400m-50400 3600h50400m-50400 3600h50400m-50400 3600h50400M0 28800h100800M0 32400h100800M0 36000h100800M0 39600h100800M0 43200h100800M0 46800h100800M50400 0v28800"/>
+		<path stroke="#080" d="m27000 23172a10800 10800 0 1 1 0-17544"/>
+		<path stroke="#b00" d="m27000 23172a9600 9600 0 1 1 0-17544"/>
+		<path stroke-width="80" d="m31500 5400 801 5490 3104-4599-1660 5294 4791-2796-3793 4049 5531-441-5174 2003 5174 2003-5531-441 3793 4049-4791-2796 1660 5294-3104-4599-801 5490-801-5490-3104 4599 1660-5294-4791 2796 3793-4049-5531 441 5174-2003-5174-2003 5531 441-3793-4049 4791 2796-1660-5294 3104 4599z"/>
+		<path stroke="#222" stroke-width="75" stroke-dasharray="210,210" d="m0-2520v31320m0 24120V28800m9900-1080V14400m3600 13320V14400m7200-16920v6120m2400-2340v3540m8400-7320v25920m69300-25920v31320m0 24120V28800M-2520 0h52920m52920 0H50400M4440 3600h45960M7380 4800h15720m22860 600H31500m11520 5400H31500m-34020 3600H0m43020 3600H31500m14460 5400H31500m-24120 600h15720M4440 25200h45960m-52920 3600H0m-2520 21600h52920m52920 0H50400"/>
+		<path stroke-width="135" d="m20325 14400h750m-375-375v750m2025-375h750m-375-375v750m8025-375h750m-375-375v750"/>
+	</g>
+	<g fill="#008" opacity=".8">
+		<circle r="200" cx="20700" cy="3600"/>
+		<circle r="200" cx="9900" cy="14400"/>
+		<circle r="200" cx="20700" cy="25200"/>
+		<circle r="200" cx="23100" cy="4800"/>
+		<circle r="200" cx="13500" cy="14400"/>
+		<circle r="200" cx="23100" cy="24000"/>
+		<circle r="200" cx="31500" cy="5400"/>
+		<circle r="200" cx="31500" cy="23400"/>
+		<circle r="200" cx="31500" cy="10800"/>
+		<circle r="200" cx="31500" cy="18000"/>
+		<circle r="200" cx="50400" cy="3600"/>
+		<circle r="200" cx="50400" cy="14400"/>
+		<circle r="200" cx="50400" cy="25200"/>
+		<circle r="200" cx="50400" cy="28800"/>
+	</g>
+	<g fill="#ff0">
+		<circle r="100" cx="27000" cy="23172"/>
+		<circle r="100" cx="27000" cy="5628"/>
+	</g>
+	<g stroke="#00f" stroke-width="75" marker-start="url(#left-arrow)">
+		<path d="m300-1575h8250"/>
+		<path d="m20400-1575h-8250"/>
+		<path d="m21000-1575h4000"/>
+		<path d="m31200-1575h-4000"/>
+		<path d="m31800-1575h7350"/>
+		<path d="m50100-1575h-7350"/>
+		<path d="m50700-1575h23100"/>
+		<path d="m100500-1575H77400"/>
+		<path d="m20400 2205h-2700"/>
+		<path d="m23400 2205h2700"/>
+		<path d="m9600 26775H6900"/>
+		<path d="m13800 26775h2700"/>
+		<path d="m300 30375h23100"/>
+		<path d="m50100 30375H27000"/>
+		<path d="m300 51975h48300"/>
+		<path d="m100500 51975H52200"/>
+		<path d="m-1575 14100V8300"/>
+		<path d="m-1575 300v5800"/>
+		<path d="m-1575 28500v-5800"/>
+		<path d="m-1575 14700v5800"/>
+		<path d="m-1575 50100v-9400"/>
+		<path d="m-1575 29100v9400"/>
+		<path d="m5385 24900v-9400"/>
+		<path d="m5385 3900v9400"/>
+		<path d="m8325 23700v-7500"/>
+		<path d="m8325 5100v7500"/>
+		<path d="m42075 17700v-2300"/>
+		<path d="m42075 11100v2300"/>
+		<path d="m45015 23100v-7600"/>
+		<path d="m45015 5700v7600"/>
+		<path d="m102375 50100V27000"/>
+		<path d="m102375 300v23100"/>
+		<path d="m75600 11100v2700"/>
+		<path d="m75600 6900V4200"/>
+		<path d="m75600 43500v2700"/>
+		<path d="m75600 39300v-2700"/>
+	</g>
+	<g fill="#000" text-anchor="middle" font-size="50" transform="scale(50)">
+		<g>
+			<text x="207" y="-16">5¾</text>
+			<text x="522" y="-16">3</text>
+			<text x="819" y="-16">5¼</text>
+			<text x="1512" y="-16">14</text>
+			<text x="438" y="59">⅔</text>
+			<text x="234" y="550">1</text>
+			<text x="504" y="622">14</text>
+			<text x="1008" y="1054">28</text>
+		</g>
+		<g transform="rotate(270)">
+			<text x="-792" y="-16" text-decoration="underline">6</text>
+			<text x="-432" y="-16">4</text>
+			<text x="-144" y="-16">4</text>
+			<text x="-288" y="123" text-decoration="underline">6</text>
+			<text x="-288" y="182">5⅓</text>
+			<text x="-288" y="856">2</text>
+			<text x="-288" y="915">5</text>
+			<text x="-828" y="1527">1</text>
+			<text x="-180" y="1527">1</text>
+			<text x="-504" y="2062">14</text>
+		</g>
+		<g font-size="27">
+			<text x="-37" y="1058">[<tspan font-weight="bold" fill="#080">MY</tspan>]</text>
+			<text x="2053" y="1058">[<tspan font-weight="bold" fill="#080">1:2</tspan>]</text>
+		</g>
+	</g>
+</svg>

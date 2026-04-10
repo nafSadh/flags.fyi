@@ -1,0 +1,50 @@
+{
+  "australia": {
+    "title": "Flag of Australia",
+    "ratio": "1:2",
+    "use": {
+      "as": "national flag",
+      "since": "1954-02-14"
+    },
+    "colors": [
+      {
+        "color": "dark blue",
+        "hex": "#00008B",
+        "cmyk": "100/80/0/0",
+        "note": "Represents the Commonwealth and the Southern Cross"
+      },
+      {
+        "color": "red",
+        "hex": "#FF0000",
+        "cmyk": "0/100/100/0",
+        "note": "Represents the Commonwealth Star and British heritage",
+        "pantone": "185 C"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Represents peace and purity"
+      }
+    ],
+    "desc": [
+      "- A dark blue field with the Union Jack in the upper hoist corner, the Commonwealth Star below, and the Southern Cross constellation on the fly side\n",
+      "- Formally proclaimed on 14 February 1954"
+    ],
+    "article": "australia/flag.md",
+    "of": {
+      "country": "australia"
+    },
+    "countryData": {
+      "name": "Australia",
+      "officialName": "Commonwealth of Australia",
+      "un": "member"
+    },
+    "cs": "australia/flag.cs.svg",
+    "trivia": [
+      "- The Union Jack occupies a quarter of the flag, reflecting Australia's historical British ties\n",
+      "- The Commonwealth Star (seven points) represents the six states and one territory\n",
+      "- The Southern Cross constellation has only four stars on the flag despite having five major stars in reality"
+    ]
+  }
+}

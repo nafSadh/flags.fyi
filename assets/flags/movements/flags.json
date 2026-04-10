@@ -1,0 +1,309 @@
+{
+  "pan-african": {
+    "title": "Pan-African Flag (UNIA Flag)",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#e40010",
+        "cmyk": "0/100/93/11",
+        "note": "The blood shed in liberation struggles."
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "The African people."
+      },
+      {
+        "color": "green",
+        "hex": "#00853f",
+        "cmyk": "100/0/53/48",
+        "note": "The natural wealth of Africa."
+      }
+    ],
+    "desc": [
+      "- The Pan-African flag (1920) was designed by Marcus Garvey with red (blood), black (people), and green (land). It inspired many African national flags\n",
+      "- **Construction:** three equal horizontal bands of red (or green), gold (or yellow), and green (or red), in varying orders\n",
+      "- The Marcus Garvey version uses red, black, and green\n",
+      "- The Ethiopian-inspired version uses green, yellow, and red"
+    ],
+    "flag": "movements/pan-african.svg",
+    "countryData": {
+      "name": "Pan-African",
+      "officialName": "Pan-African Movement",
+      "un": "none"
+    },
+    "cs": "movements/pan-african.cs.svg",
+    "trivia": [
+      "- Pan-African colours (green, gold/yellow, red) appear on many African national flags\n",
+      "- These colours originated from Ghana's flag and the Pan-African movement\n",
+      "- Represent African liberation and continental unity"
+    ]
+  },
+  "pan-slavic": {
+    "title": "Pan-Slavic Flag",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#0051a5",
+        "cmyk": "100/51/0/35",
+        "note": "Freedom and Slavic skies."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "Honesty and peace."
+      },
+      {
+        "color": "red",
+        "hex": "#ce1126",
+        "cmyk": "0/92/82/19",
+        "note": "Courage and love."
+      }
+    ],
+    "desc": [
+      "- The Pan-Slavic flag (1848) uses blue, white, and red — the colours of the Pan-Slavic movement. It influenced the flags of many Slavic nations\n",
+      "- **Construction:** three equal horizontal bands of blue (top), white (middle), and red (bottom), the tricolour adopted at the 1848 Pan-Slav Congress in Prague"
+    ],
+    "flag": "movements/pan-slavic.svg",
+    "countryData": {
+      "name": "Pan-Slavic",
+      "officialName": "Pan-Slavic Movement",
+      "un": "none"
+    },
+    "cs": "movements/pan-slavic.cs.svg",
+    "trivia": [
+      "- Pan-Slavic colours (white, blue, red) appear on many Slavic national flags\n",
+      "- These colours originated from Russian heraldic traditions\n",
+      "- Represent Slavic cultural and historical connections"
+    ]
+  },
+  "amazigh": {
+    "title": "Flag of the Amazigh (Berber) People",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#0067b0",
+        "cmyk": "100/41/0/31",
+        "note": "The Mediterranean Sea and Atlantic Ocean."
+      },
+      {
+        "color": "green",
+        "hex": "#007e3a",
+        "cmyk": "100/0/54/51",
+        "note": "The forests and mountains of the Amazigh homeland."
+      },
+      {
+        "color": "yellow",
+        "hex": "#ffc200",
+        "cmyk": "0/24/100/0",
+        "note": "The Sahara Desert."
+      },
+      {
+        "color": "red",
+        "hex": "#ed1c24",
+        "cmyk": "0/88/85/7",
+        "note": "The yaz symbol (ⵣ), a letter from the Tifinagh alphabet representing the 'free man'."
+      }
+    ],
+    "desc": [
+      "- The Amazigh (Berber) flag features three horizontal stripes of blue (top), green, and yellow (bottom) with a red Tifinagh letter yaz (ⵣ) centred\n",
+      "- Created in the 1970s by the Amazigh Cultural Movement, the flag represents the Berber peoples of North Africa\n",
+      "- The blue represents the Mediterranean and Atlantic, the green the forests and mountains, and the yellow the Sahara Desert\n",
+      "- The yaz means 'free man'\n",
+      "- The flag has become a prominent symbol at protests and cultural events across Morocco, Algeria, Tunisia, and Libya\n",
+      "- **Construction:** three equal horizontal bands of blue, green, and yellow. A red yaz character centred. Ratio 2:3"
+    ],
+    "flag": "movements/amazigh.svg",
+    "countryData": {
+      "name": "Amazigh",
+      "officialName": "Berber/Amazigh People",
+      "un": "none"
+    },
+    "cs": "movements/amazigh.cs.svg",
+    "trivia": [
+      "- The yaz (ⵣ) is a letter from the ancient Tifinagh alphabet, which has been in continuous use for over 3,000 years\n",
+      "- The colour blue represents the Mediterranean and Atlantic; the colour red represents courage\n",
+      "- The flag represents the indigenous Berber peoples of North Africa"
+    ]
+  },
+  "kurdish": {
+    "title": "Flag of Kurdistan",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#ed1c24",
+        "cmyk": "0/88/85/7",
+        "note": "The blood of Kurdish martyrs."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "Peace and equality."
+      },
+      {
+        "color": "green",
+        "hex": "#009639",
+        "cmyk": "100/0/62/41",
+        "note": "The beauty of Kurdish landscapes."
+      },
+      {
+        "color": "yellow",
+        "hex": "#ffc200",
+        "cmyk": "0/24/100/0",
+        "note": "The source of life and the sun."
+      }
+    ],
+    "desc": [
+      "- The Kurdish flag features a red, white, and green horizontal triband with a golden sun disc of 21 rays centred\n",
+      "- The sun is a symbol with deep roots in Kurdish mythology (related to Zoroastrian and Mithraic traditions)\n",
+      "- The 21 rays represent the number 21 in Kurdish numerology, associated with rebirth (Newroz, 21 March)\n",
+      "- Though not the flag of a recognised sovereign state, it is used by the Kurdistan Regional Government in Iraq and by Kurdish communities worldwide\n",
+      "- **Construction:** three equal horizontal bands of red (top), white, and green, with a golden 21-rayed sun centred on the white band. Ratio 2:3"
+    ],
+    "flag": "movements/kurdish.svg",
+    "countryData": {
+      "name": "Kurdistan",
+      "officialName": "Kurdish People",
+      "un": "none"
+    },
+    "cs": "movements/kurdish.cs.svg",
+    "trivia": [
+      "- The 21-rayed sun relates to Newroz (Kurdish New Year), celebrated on 21 March\n",
+      "- The star represents Kurdish unity and hope\n",
+      "- The flag represents the Kurdish independence movement across Turkey, Iran, Iraq, and Syria"
+    ]
+  },
+  "romani": {
+    "title": "Flag of the Romani People",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#0033a0",
+        "cmyk": "100/68/0/37",
+        "note": "The sky and spiritual values."
+      },
+      {
+        "color": "green",
+        "hex": "#009739",
+        "cmyk": "100/0/62/41",
+        "note": "Organic nature, fertility, and life."
+      },
+      {
+        "color": "red",
+        "hex": "#ce1126",
+        "cmyk": "0/92/82/19",
+        "note": "The wheel (chakra) representing the Romani journey and Indian heritage."
+      }
+    ],
+    "desc": [
+      "- The Romani flag (adopted 1971) features blue (sky/heaven) and green (earth/nature) halves with a red chakra wheel in the centre\n",
+      "- **Construction:** two equal horizontal bands of blue (top) and green (bottom), with a red sixteen-spoke chakra (wheel) centred on the dividing line\n",
+      "- The wheel represents the Romani travelling tradition"
+    ],
+    "flag": "movements/romani.svg",
+    "countryData": {
+      "name": "Romani",
+      "officialName": "Romani People",
+      "un": "none"
+    },
+    "cs": "movements/romani.cs.svg",
+    "trivia": [
+      "- The Romani people flag represents the Romani ethnic group across Europe\n",
+      "- The colours represent the sun (yellow) and homeland (blue)\n",
+      "- The wheel represents Romani culture and nomadic heritage"
+    ]
+  },
+  "tibetan": {
+    "title": "Flag of Tibet (Snow Lion Flag)",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "The snow-capped mountains."
+      },
+      {
+        "color": "blue",
+        "hex": "#00247d",
+        "cmyk": "100/71/0/51",
+        "note": "The sky."
+      },
+      {
+        "color": "red",
+        "hex": "#ce1126",
+        "cmyk": "0/92/82/19",
+        "note": "The guardian deities."
+      },
+      {
+        "color": "yellow",
+        "hex": "#ffd700",
+        "cmyk": "0/16/100/0",
+        "note": "The spreading light of the Buddha's teachings."
+      }
+    ],
+    "desc": [
+      "- The Tibetan flag features a snow mountain with two snow lions, a sun, and alternating red and blue rays\n",
+      "- Banned in China, it represents Tibetan independence\n",
+      "- **Construction:** a white triangle from the base with a snow lion emblem, flanked by blue and red alternating rays extending outward\n",
+      "- A yellow sun crests the top of the snow-mountain triangle, with the Tibetan national emblem above"
+    ],
+    "flag": "movements/tibetan.svg",
+    "countryData": {
+      "name": "Tibet",
+      "officialName": "Central Tibetan Administration",
+      "un": "none"
+    },
+    "cs": "movements/tibetan.cs.svg",
+    "trivia": [
+      "- The yellow represents Buddhism and the Dalai Lama's authority\n",
+      "- The snow mountains represent the Tibetan plateau\n",
+      "- The flag is associated with Tibetan independence movements and cultural identity"
+    ]
+  },
+  "catalan": {
+    "title": "The Senyera (Flag of Catalonia)",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "yellow",
+        "hex": "#fcdd09",
+        "cmyk": "0/12/96/1",
+        "note": "The golden field of the Senyera, the oldest flag in Europe still in use."
+      },
+      {
+        "color": "red",
+        "hex": "#da121a",
+        "cmyk": "0/92/88/15",
+        "note": "The four bars (legendary blood stripes of Count Wilfred the Hairy)."
+      }
+    ],
+    "desc": [
+      "- The Senyera consists of four red stripes on a yellow (gold) field — one of the oldest heraldic emblems in Europe, dating to at least the 12th century\n",
+      "- Legend attributes the design to Frankish Emperor Louis the Pious, who dipped his fingers in the blood of the wounded Count Wilfred the Hairy and drew four red stripes down his golden shield\n",
+      "- Historical evidence points to the Arms of the Crown of Aragon\n",
+      "- The Senyera is the official flag of Catalonia, the Balearic Islands, Valencia (with modifications), and Aragon\n",
+      "- **Construction:** four red stripes on a yellow field; nine alternating stripes total (5 yellow, 4 red). Ratio 2:3"
+    ],
+    "flag": "movements/catalan.svg",
+    "countryData": {
+      "name": "Catalonia",
+      "officialName": "Catalan Independence Movement",
+      "un": "none"
+    },
+    "cs": "movements/catalan.cs.svg",
+    "trivia": [
+      "- The Senyera is considered one of the oldest heraldic symbols in continuous use in Europe — dating to at least the 12th century\n",
+      "- The four red stripes represent blood and loyalty\n",
+      "- Catalonia maintains a strong distinct identity within Spain"
+    ]
+  }
+}

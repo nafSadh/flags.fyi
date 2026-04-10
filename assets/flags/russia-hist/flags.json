@@ -1,0 +1,123 @@
+{
+  "ru-imperial": {
+    "title": "Flag of the Russian Empire",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "The double-headed eagle of the Romanov dynasty."
+      },
+      {
+        "color": "yellow",
+        "hex": "#ffcc00",
+        "cmyk": "0/20/100/0",
+        "note": "The golden field of the imperial arms."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0",
+        "note": "Purity and the Russian Orthodox tradition."
+      }
+    ],
+    "desc": [
+      "- The Russian Empire's official flag (1858–1917) was a black-yellow-white tricolour\n",
+      "- The more familiar white-blue-red merchant flag was also widely used\n",
+      "- **Construction:** three equal horizontal bands of black (top), yellow (middle), and white (bottom)\n",
+      "- Used as the national flag of the Russian Empire from 1858 to 1896, then replaced by the white-blue-red tricolour"
+    ],
+    "flag": "russia-hist/ru-imperial.svg",
+    "of": {
+      "country": "russia"
+    },
+    "countryData": {
+      "name": "Russia",
+      "officialName": "Russian Empire",
+      "un": "none"
+    },
+    "cs": "russia-hist/ru-imperial.cs.svg",
+    "trivia": [
+      "- The Imperial Russian flag represented the Russian Empire until the 1917 revolution\n",
+      "- The white-blue-red colours became the basis for modern Russian flag\n",
+      "- Established by Peter the Great"
+    ]
+  },
+  "ru-sfsr": {
+    "title": "Flag of the Russian Soviet Federative Socialist Republic",
+    "ratio": "1:2",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#cc0000",
+        "cmyk": "0/100/100/20",
+        "note": "Communist revolution and the workers' struggle."
+      },
+      {
+        "color": "blue",
+        "hex": "#0039a6",
+        "cmyk": "100/66/0/35"
+      }
+    ],
+    "desc": [
+      "- The flag of the Russian Soviet Federative Socialist Republic was a red field bearing the Cyrillic letters 'РСФСР' (or, in later versions, the hammer and sickle with a blue vertical stripe at the hoist)\n",
+      "- The RSFSR was the largest and most populous republic of the USSR (1917–1991)\n",
+      "- Its flag went through several redesigns; the final 1954 version featured a red field with a light blue vertical stripe at the hoist and the hammer-sickle-star in the upper corner\n",
+      "- **Construction:** a red field with a light blue vertical stripe occupying one-eighth of the flag at the hoist\n",
+      "- The hammer, sickle, and star in the upper-hoist corner\n",
+      "- Ratio 1:2"
+    ],
+    "flag": "russia-hist/ru-sfsr.svg",
+    "of": {
+      "country": "russia"
+    },
+    "countryData": {
+      "name": "Russia",
+      "officialName": "Russian Soviet Federative Socialist Republic",
+      "un": "none"
+    },
+    "cs": "russia-hist/ru-sfsr.cs.svg",
+    "trivia": [
+      "- The Russian Soviet Federative Socialist Republic (RSFSR) was the largest Soviet republic\n",
+      "- The hammer and sickle represented communist ideology\n",
+      "- Became the Russian Federation after the Soviet Union collapsed"
+    ]
+  },
+  "soviet-union": {
+    "title": "Flag of the Union of Soviet Socialist Republics",
+    "ratio": "1:2",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#cc0000",
+        "cmyk": "0/100/100/20",
+        "note": "The blood of workers and the communist revolution."
+      },
+      {
+        "color": "gold",
+        "hex": "#ffcc00",
+        "cmyk": "0/20/100/0"
+      }
+    ],
+    "desc": [
+      "- A red field with a golden hammer and sickle beneath a gold-bordered red star in the upper hoist corner\n",
+      "- Adopted on 12 November 1923, the flag symbolised the unity of industrial workers (hammer) and peasant farmers (sickle) under communist leadership (the star)\n",
+      "- It flew over the USSR for nearly seven decades until 25 December 1991\n",
+      "- The red represented the blood of workers' struggle; the gold symbolised a bright communist future. One of the 20th century's most recognisable flags\n",
+      "- **Construction:** a red field with the hammer and sickle centred in the upper-hoist quarter. The red star is above the emblem. Ratio 1:2"
+    ],
+    "flag": "russia-hist/soviet-union.svg",
+    "countryData": {
+      "name": "Soviet Union",
+      "officialName": "Union of Soviet Socialist Republics",
+      "un": "none"
+    },
+    "cs": "russia-hist/soviet-union.cs.svg",
+    "trivia": [
+      "- The hammer and sickle was originally designed by artist Yevgeny Kamzolkin as a logo for a May Day parade in 1918\n",
+      "- The hammer represents industrial workers; the sickle represents farmers\n",
+      "- The Soviet flag inspired communist flags worldwide and was iconic for an entire political ideology"
+    ]
+  }
+}

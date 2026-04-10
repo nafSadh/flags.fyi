@@ -1,0 +1,403 @@
+{
+  "united-nations": {
+    "title": "Flag of the United Nations",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#4b92db",
+        "pantone": "279 C",
+        "cmyk": "66/33/0/14"
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0"
+      }
+    ],
+    "desc": [
+      "- The United Nations flag (adopted 1947) features a white world map in azimuthal equidistant projection within olive branches on a light blue field\n",
+      "- **Construction:** a light blue field bearing the UN emblem in white at the centre — a polar azimuthal equidistant projection of the world map centred on the North Pole, surrounded by two olive branches"
+    ],
+    "flag": "intl/united-nations.svg",
+    "countryData": {
+      "name": "United Nations",
+      "officialName": "United Nations",
+      "un": "none"
+    },
+    "cs": "intl/united-nations.cs.svg",
+    "trivia": [
+      "- The United Nations flag represents the international organisation established in 1945\n",
+      "- The olive branches represent peace; the globe represents universality\n",
+      "- Adopted in 1945 as the symbol of international cooperation"
+    ]
+  },
+  "european-union": {
+    "title": "Flag of Europe / European Union",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#003399",
+        "pantone": "Reflex Blue C",
+        "cmyk": "100/67/0/40"
+      },
+      {
+        "color": "gold",
+        "hex": "#ffcc00",
+        "cmyk": "0/20/100/0"
+      }
+    ],
+    "desc": [
+      "- The European flag (adopted 1955 by Council of Europe, 1985 by the EU) features twelve gold stars in a circle on a blue field, symbolising unity and perfection\n",
+      "- **Construction:** a blue field (2:3 ratio) bearing a circle of twelve five-pointed gold stars centred\n",
+      "- The stars are upright (one point up) and evenly spaced like the hours on a clock face\n",
+      "- The circle diameter is one-third of the flag's hoist\n",
+      "- The twelve stars represent unity, not member states"
+    ],
+    "flag": "intl/european-union.svg",
+    "countryData": {
+      "name": "European Union",
+      "officialName": "European Union",
+      "un": "none"
+    },
+    "cs": "intl/european-union.cs.svg",
+    "trivia": [
+      "- The 12 stars represent perfection and completeness, not the number of member states\n",
+      "- The circle represents unity and solidarity\n",
+      "- Adopted in 1986 and represents European integration and cooperation"
+    ]
+  },
+  "african-union": {
+    "title": "Flag of the African Union",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#009543",
+        "cmyk": "100/0/55/42"
+      },
+      {
+        "color": "gold",
+        "hex": "#ffcc00",
+        "cmyk": "0/20/100/0"
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0"
+      }
+    ],
+    "desc": [
+      "- The African Union flag features a green field with a gold outline of Africa surrounded by white stars and a green olive wreath border, adopted in 2010\n",
+      "- **Construction:** a dark green field with the AU emblem centred — a gold circle of 55 gold stars (representing member states) surrounding a gold map of Africa, with gold palm branches below"
+    ],
+    "flag": "intl/african-union.svg",
+    "countryData": {
+      "name": "African Union",
+      "officialName": "African Union",
+      "un": "none"
+    },
+    "cs": "intl/african-union.cs.svg",
+    "trivia": [
+      "- The African Union (founded 2002) represents 55 African member states\n",
+      "- Replaced the Organization of African Unity in 2002\n",
+      "- Promotes regional integration, peace, and economic cooperation across Africa"
+    ]
+  },
+  "arab-league": {
+    "title": "Flag of the League of Arab States",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#006233",
+        "cmyk": "100/0/48/62"
+      },
+      {
+        "color": "gold",
+        "hex": "#ffd700",
+        "cmyk": "0/16/100/0"
+      }
+    ],
+    "desc": [
+      "- The Arab League flag features a green field with a gold crescent, chain link, Arabic script for the League's name, and a wreath of laurels\n",
+      "- **Construction:** a green field bearing the emblem of the Arab League in gold/white at the centre — a crescent enclosing a stylised name in Arabic, within a chain-link wreath\n",
+      "- Twenty-two links represent the member states"
+    ],
+    "flag": "intl/arab-league.svg",
+    "countryData": {
+      "name": "Arab League",
+      "officialName": "League of Arab States",
+      "un": "none"
+    },
+    "cs": "intl/arab-league.cs.svg",
+    "trivia": [
+      "- The Arab League flag represents the unified Arab nations\n",
+      "- The interlocking rings represent the unity and brotherhood of Arab states\n",
+      "- Established in 1945, the League coordinates policies across 22 member states"
+    ]
+  },
+  "nato": {
+    "title": "Flag of the North Atlantic Treaty Organization",
+    "ratio": "3:4",
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#004990",
+        "cmyk": "100/49/0/44"
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0"
+      }
+    ],
+    "desc": [
+      "- The NATO flag features a dark blue field with a white compass rose symbolising the direction of peace. Adopted in 1953\n",
+      "- **Construction:** a dark blue field bearing the NATO compass rose emblem in white at the centre — a four-pointed star within a circle, with lines extending from each point to the edge of the circle"
+    ],
+    "flag": "intl/nato.svg",
+    "countryData": {
+      "name": "NATO",
+      "officialName": "North Atlantic Treaty Organization",
+      "un": "none"
+    },
+    "cs": "intl/nato.cs.svg",
+    "trivia": [
+      "- NATO (North Atlantic Treaty Organization) is a military and political alliance\n",
+      "- The flag represents the unity of 32 member states\n",
+      "- Established in 1949 during the Cold War"
+    ]
+  },
+  "olympic": {
+    "title": "The Olympic Flag",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0"
+      },
+      {
+        "color": "blue",
+        "hex": "#0081c8",
+        "cmyk": "100/36/0/22"
+      },
+      {
+        "color": "yellow",
+        "hex": "#fcb131",
+        "cmyk": "0/30/81/1"
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100"
+      },
+      {
+        "color": "green",
+        "hex": "#00a651",
+        "cmyk": "100/0/51/35"
+      },
+      {
+        "color": "red",
+        "hex": "#ee334e",
+        "cmyk": "0/79/67/7"
+      }
+    ],
+    "desc": [
+      "- The Olympic flag (designed 1913 by Pierre de Coubertin) features five interlocking rings on white, representing the five participating continents\n",
+      "- **Construction:** a white field bearing five interlocking rings (the Olympic rings) centred — blue, yellow, black, green, and red (left to right, top then bottom)\n",
+      "- The rings interlock in a specific pattern"
+    ],
+    "flag": "intl/olympic.svg",
+    "countryData": {
+      "name": "Olympic Games",
+      "officialName": "International Olympic Committee",
+      "un": "none"
+    },
+    "cs": "intl/olympic.cs.svg",
+    "trivia": [
+      "- The Olympic flag features five interlocking rings representing continental unity\n",
+      "- The rings represent the five inhabited continents and their integration\n",
+      "- Adopted in 1913 and used during Olympic Games"
+    ]
+  },
+  "red-cross": {
+    "title": "Emblems of the International Red Cross and Red Crescent Movement",
+    "ratio": "1:1",
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0"
+      },
+      {
+        "color": "red",
+        "hex": "#ff0000",
+        "cmyk": "0/100/100/0"
+      }
+    ],
+    "desc": [
+      "- The Red Cross (1863) and Red Crescent (1876) emblems are protected symbols of humanitarian neutrality. The crystal (2005) serves as a third emblem\n",
+      "- **Construction:** a white field bearing a red cross (the reverse of the Swiss flag)\n",
+      "- The cross arms are of equal length and width\n",
+      "- The Red Crescent variant uses a red crescent on white"
+    ],
+    "flag": "intl/red-cross.svg",
+    "countryData": {
+      "name": "Red Cross",
+      "officialName": "International Committee of the Red Cross",
+      "un": "none"
+    },
+    "cs": "intl/red-cross.cs.svg",
+    "trivia": [
+      "- The Red Cross (International Committee of the Red Cross) is a humanitarian organisation\n",
+      "- The flag represents neutrality, impartiality, and humanitarian protection\n",
+      "- Founded in 1863 to provide relief during conflicts"
+    ]
+  },
+  "asean": {
+    "title": "Flag of ASEAN",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#003f87",
+        "cmyk": "100/53/0/47"
+      },
+      {
+        "color": "red",
+        "hex": "#ed1c24",
+        "cmyk": "0/88/85/7"
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0"
+      },
+      {
+        "color": "yellow",
+        "hex": "#f5cf00",
+        "cmyk": "0/16/100/4"
+      }
+    ],
+    "desc": [
+      "- The ASEAN flag features a blue field with a red circle containing a stylised rice plant motif, representing the ten member states of Southeast Asia\n",
+      "- **Construction:** a blue field with the ASEAN emblem centred — ten yellow rice stalks bound together in a red circle on a white background, all within a blue border"
+    ],
+    "flag": "intl/asean.svg",
+    "countryData": {
+      "name": "ASEAN",
+      "officialName": "Association of Southeast Asian Nations",
+      "un": "none"
+    },
+    "cs": "intl/asean.cs.svg",
+    "trivia": [
+      "- ASEAN (Association of Southeast Asian Nations) represents 10 member states\n",
+      "- The flag represents regional cooperation and unity in Southeast Asia\n",
+      "- Established in 1967 to promote peace and economic cooperation"
+    ]
+  },
+  "commonwealth": {
+    "title": "Flag of the Commonwealth of Nations",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#00247d",
+        "cmyk": "100/71/0/51"
+      },
+      {
+        "color": "gold",
+        "hex": "#ffd700",
+        "cmyk": "0/16/100/0"
+      }
+    ],
+    "desc": [
+      "- The Commonwealth of Nations flag features a gold globe surrounded by radiating spearhead shapes on a blue field, symbolising global cooperation\n",
+      "- **Construction:** a blue field bearing the Commonwealth symbol in gold at the centre — a globe surrounded by radiating lines forming the letter 'C'"
+    ],
+    "flag": "intl/commonwealth.svg",
+    "countryData": {
+      "name": "Commonwealth",
+      "officialName": "Commonwealth of Nations",
+      "un": "none"
+    },
+    "cs": "intl/commonwealth.cs.svg",
+    "trivia": [
+      "- The Commonwealth flag represents the Commonwealth of Nations\n",
+      "- Includes 56 member states, mostly former British colonies\n",
+      "- Emphasises cooperation and shared democratic values"
+    ]
+  },
+  "oic": {
+    "title": "Flag of the Organisation of Islamic Cooperation",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#006233",
+        "cmyk": "100/0/48/62"
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0"
+      },
+      {
+        "color": "red",
+        "hex": "#ce1126",
+        "cmyk": "0/92/82/19"
+      }
+    ],
+    "desc": [
+      "- The OIC flag features a green field with a red crescent and the Kaaba silhouette, representing the 57 member states of the Organisation of Islamic Cooperation\n",
+      "- **Construction:** a green field bearing the OIC emblem in white — a crescent, a globe, and the text of the organisation name"
+    ],
+    "flag": "intl/oic.svg",
+    "countryData": {
+      "name": "OIC",
+      "officialName": "Organisation of Islamic Cooperation",
+      "un": "none"
+    },
+    "cs": "intl/oic.cs.svg",
+    "trivia": [
+      "- The Organisation of Islamic Cooperation represents 57 member states\n",
+      "- The flag represents Islamic unity and cooperation\n",
+      "- Established in 1969 after the Al-Aqsa Mosque fire"
+    ]
+  },
+  "gcc": {
+    "title": "Flag of the Gulf Cooperation Council",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#004990",
+        "cmyk": "100/49/0/44"
+      },
+      {
+        "color": "gold",
+        "hex": "#ffd700",
+        "cmyk": "0/16/100/0"
+      }
+    ],
+    "desc": [
+      "- The GCC flag features a gold emblem on dark blue, representing the six Gulf states: Saudi Arabia, Kuwait, UAE, Qatar, Bahrain, and Oman\n",
+      "- **Construction:** a field bearing the GCC emblem — a stylised map of the Arabian Peninsula surrounded by a hexagonal border representing the six member states"
+    ],
+    "flag": "intl/gcc.svg",
+    "countryData": {
+      "name": "GCC",
+      "officialName": "Cooperation Council for the Arab States of the Gulf",
+      "un": "none"
+    },
+    "cs": "intl/gcc.cs.svg",
+    "trivia": [
+      "- The Gulf Cooperation Council includes six Arab Gulf states\n",
+      "- The flag represents regional cooperation and economic integration\n",
+      "- Founded in 1981 during the Iran-Iraq War"
+    ]
+  }
+}

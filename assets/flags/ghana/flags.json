@@ -1,0 +1,58 @@
+{
+  "ghana": {
+    "title": "Flag of Ghana",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "1957-03-06"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#CF0921",
+        "cmyk": "0/92/82/19",
+        "note": "Represents the blood of forefathers who fought for independence",
+        "pantone": "186 C"
+      },
+      {
+        "color": "yellow",
+        "hex": "#FCD20F",
+        "cmyk": "0/17/91/1",
+        "note": "Represents mineral wealth"
+      },
+      {
+        "color": "green",
+        "hex": "#006B3D",
+        "cmyk": "100/0/41/58",
+        "note": "Represents forests and natural wealth",
+        "pantone": "349 C"
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "Represents African emancipation and unity",
+        "pantone": "Black"
+      }
+    ],
+    "desc": [
+      "- Horizontal stripes of red, yellow, and green with a black five-pointed star in the centre, designed by Theodosia Okoh\n",
+      "- Adopted at independence in 1957, it became a symbol of Pan-Africanism"
+    ],
+    "article": "ghana/flag.md",
+    "of": {
+      "country": "ghana"
+    },
+    "countryData": {
+      "name": "Ghana",
+      "officialName": "Republic of Ghana",
+      "un": "member"
+    },
+    "cs": "ghana/flag.cs.svg",
+    "trivia": [
+      "- The black star represents African freedom and represents the star on Marcus Garvey's Black Star Line\n",
+      "- The gold represents Ghana's mineral wealth; green represents agriculture; red represents bloodshed\n",
+      "- Ghana's flag inspired the Pan-African colours adopted by many African nations"
+    ]
+  }
+}

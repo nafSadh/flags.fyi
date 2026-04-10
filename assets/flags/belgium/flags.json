@@ -1,0 +1,52 @@
+{
+  "belgium": {
+    "title": "Flag of Belgium",
+    "ratio": "13:15",
+    "use": {
+      "as": "national flag",
+      "since": "1831-01-23"
+    },
+    "colors": [
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "Represents strength and determination",
+        "pantone": "Black"
+      },
+      {
+        "color": "yellow",
+        "hex": "#FDDA24",
+        "cmyk": "0/8/79/0",
+        "note": "Symbolizes prosperity and historical heritage",
+        "pantone": "116 C"
+      },
+      {
+        "color": "red",
+        "hex": "#EF3340",
+        "cmyk": "0/94/87/0",
+        "note": "Reflects bravery in the fight for independence",
+        "pantone": "186 C"
+      }
+    ],
+    "desc": [
+      "- Three vertical stripes of black, yellow, and red, adopted following Belgian independence from the Netherlands\n",
+      "- The colors derive from the arms of the Duchy of Brabant"
+    ],
+    "article": "belgium/flag.md",
+    "of": {
+      "country": "belgium"
+    },
+    "countryData": {
+      "name": "Belgium",
+      "officialName": "Kingdom of Belgium",
+      "un": "member"
+    },
+    "cs": "belgium/flag.cs.svg",
+    "trivia": [
+      "- The colours represent the Flemish lion (black), the Walloon cock (red), and the Brunswick heraldry (gold)\n",
+      "- The flag ratio changed from 13:15 to 2:3 in 1971 for simplification\n",
+      "- Belgium's flag influenced many other European flags after the 1830 independence"
+    ]
+  }
+}

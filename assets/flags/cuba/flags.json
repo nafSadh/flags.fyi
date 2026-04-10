@@ -1,0 +1,51 @@
+{
+  "cuba": {
+    "title": "Flag of Cuba",
+    "ratio": "1:2",
+    "use": {
+      "as": "national flag",
+      "since": "1902-05-20"
+    },
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#002A8F",
+        "cmyk": "100/71/0/44",
+        "note": "Represents the three departments of Cuba",
+        "pantone": "286 C"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Represents independence and purity"
+      },
+      {
+        "color": "red",
+        "hex": "#CB1515",
+        "cmyk": "0/90/79/19",
+        "note": "Represents the blood shed for independence",
+        "pantone": "186 C"
+      }
+    ],
+    "desc": [
+      "- Five horizontal stripes alternating blue and white, with a red equilateral triangle at the hoist bearing a white five-pointed star\n",
+      "- Designed by Narciso López in 1849"
+    ],
+    "article": "cuba/flag.md",
+    "of": {
+      "country": "cuba"
+    },
+    "countryData": {
+      "name": "Cuba",
+      "officialName": "Republic of Cuba",
+      "un": "member"
+    },
+    "cs": "cuba/flag.cs.svg",
+    "trivia": [
+      "- The red triangle represents independence and bloodshed; it is called a 'solstice triangle'\n",
+      "- The five stripes represent the original five provinces of Cuba\n",
+      "- The flag was designed by Narciso López in 1849, making it one of the oldest flags in the Americas"
+    ]
+  }
+}

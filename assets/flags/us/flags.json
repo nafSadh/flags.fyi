@@ -1,14 +1,129 @@
 {
-  "california": {
-    "ratio": "2:3",
+  "us": {
+    "title": "Flag of the United States of America",
+    "ratio": "10:19",
+    "use": {
+      "as": "national flag and ensign",
+      "since": "1960-07-04"
+    },
     "colors": [
-      { "color": "white", "hex": "#fff", "pantone": "Safe", "cableNo": "75001", "label": "White" },
-      { "color": "red", "hex": "#B71234", "pantone": "200", "cableNo": "70180", "label": "Old Glory Red" },
-      { "color": "maple", "hex": "#BD8A5E", "pantone": "729C", "cableNo": "70129", "label": "Maple Sugar" },
-      { "color": "seal", "hex": "#584528", "pantone": "462C", "cableNo": "70108", "label": "Seal" },
-      { "color": "green", "hex": "#008542", "pantone": "348", "cableNo": "70168", "label": "Irish Green" }
+      {
+        "color": "red (Old Glory Red)",
+        "hex": "#B22234",
+        "cmyk": "0/100/66/13",
+        "pantone": "193 C",
+        "cableNo": "70180",
+        "note": "Seven of the thirteen stripes; represents hardiness and valour."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "pantone": "Safe",
+        "cableNo": "70001",
+        "note": "Six of the thirteen stripes and the 50 stars; represents purity and innocence."
+      },
+      {
+        "color": "blue (Old Glory Blue)",
+        "hex": "#3C3B6E",
+        "cmyk": "100/68/0/54",
+        "pantone": "281 C",
+        "cableNo": "70075",
+        "note": "The canton (union); represents vigilance, perseverance, and justice."
+      }
     ],
-    "cs": "us/california.cs.svg",
-    "article": "us/california.md"
+    "desc": [
+      "- The Stars and Stripes features 13 alternating red and white horizontal stripes (representing the original colonies)\n",
+      "- and a blue canton with 50 white five-pointed stars (representing the 50 states). The current 50-star version\n",
+      "- was adopted on 4 July 1960 after Hawaii's admission to the Union"
+    ],
+    "article": "us/flag.md",
+    "of": {
+      "country": "us"
+    },
+    "countryData": {
+      "name": "United States",
+      "officialName": "United States of America",
+      "un": "member"
+    },
+    "cs": "us/flag.cs.svg",
+    "trivia": [
+      "- The current 50-star design was created by 17-year-old Robert G. Heft for a school project. He received a B- on it\n",
+      "- The 13 stripes represent the original 13 states; the stars represent the 50 current states\n",
+      "- The flag has changed 27 times as states were added; each addition required a presidential order"
+    ]
+  },
+  "us-california": {
+    "title": "Flag of the State of California (Bear Flag)",
+    "ratio": "2:3",
+    "use": {
+      "as": "state flag",
+      "since": "1911-02-03"
+    },
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#fff",
+        "pantone": "Safe",
+        "cableNo": "75001",
+        "label": "White",
+        "cmyk": "0/0/0/0",
+        "note": "The field."
+      },
+      {
+        "color": "red",
+        "hex": "#B71234",
+        "pantone": "200",
+        "cableNo": "70180",
+        "label": "Old Glory Red",
+        "cmyk": "0/90/72/28",
+        "note": "The stripe and the star; represents courage."
+      },
+      {
+        "color": "maple",
+        "hex": "#BD8A5E",
+        "pantone": "729C",
+        "cableNo": "70129",
+        "label": "Maple Sugar",
+        "cmyk": "0/27/50/26"
+      },
+      {
+        "color": "seal",
+        "hex": "#584528",
+        "pantone": "462C",
+        "cableNo": "70108",
+        "label": "Seal",
+        "cmyk": "0/22/55/65"
+      },
+      {
+        "color": "green",
+        "hex": "#008542",
+        "pantone": "348",
+        "cableNo": "70168",
+        "label": "Irish Green",
+        "cmyk": "100/0/50/48"
+      }
+    ],
+    "cs": "us/us-california.cs.svg",
+    "article": "us/california.md",
+    "desc": [
+      "- The California Bear Flag features a white field with a California grizzly bear walking left on green grass,\n",
+      "- a red five-pointed star in the upper-left corner, and a red horizontal stripe along the bottom with the text\n",
+      "- 'CALIFORNIA REPUBLIC'. Based on the historic Bear Flag Revolt of 1846 during the Mexican–American War\n",
+      "- Officially adopted by the State Legislature on 3 February 1911"
+    ],
+    "of": {
+      "country": "us"
+    },
+    "countryData": {
+      "name": "California",
+      "officialName": "State of California",
+      "un": "none"
+    },
+    "trivia": [
+      "- The California grizzly bear represents the strength and wild nature of the state\n",
+      "- The bear became extinct in California by 1924, making the flag a symbol of a lost animal\n",
+      "- The flag dates to 1846 during the California Republic period"
+    ]
   }
 }

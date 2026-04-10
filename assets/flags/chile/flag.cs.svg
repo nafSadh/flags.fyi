@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="750" viewBox="-3780 -3780 90720 63000" fill="none" font-family="Calibri,Arial,'Liberation Sans',sans-serif">
+	<title>Flag of Chile — construction sheet</title>
+	<!-- DIMENSIONS
+		SVG:
+			S_RAW:     90720.00 × 63000.00
+			S_DISPLAY:  1080.00 × 750.00
+		FLAG:
+			F_RAW:     83160.00 × 55440.00
+			F_DISPLAY:   990.00 × 660.00
+			F_LABEL:       6.00 × 4.00
+			F_RATIO:       3.00 × 2.00
+	-->
+	<defs>
+		<marker id="left-arrow" viewBox="-4 -4 10 8" orient="auto" markerWidth="10" markerHeight="8">
+			<path fill="blue" d="m2 0 4 4-10-4L6-4z"/>
+		</marker>
+	</defs>
+	<path fill="#f8f8f8" d="m-3780-3780h90720v63000H-3780z"/>
+	<path fill="#fff" d="m0 0h83160v55440H0z"/>
+	<g opacity=".5">
+		<g transform="scale(13860)">
+			<path fill="#fff" d="m0 0h6v4H0z"/>
+			<path fill="#0039a6" d="m0 2V0h2v3z"/>
+			<path fill="#d72b1f" d="m0 2h6v2H0z"/>
+		</g>
+		<path fill="#fff" d="m13860 6930 4073 12536-10664-7747h13182L9787 19466z"/>
+	</g>
+	<g stroke="#000" stroke-width="140" stroke-linejoin="round" stroke-linecap="round">
+		<path stroke="#846" stroke-dasharray="450,420" stroke-dashoffset="210" d="m13860 6930a1 1 0 0 0 0 13860m0-13860a1 1 0 0 1 0 13860"/>
+		<path stroke="#444" stroke-width="250" d="m0 0h83160v55440H0z"/>
+		<path d="m0 27720h83160M27720 0v27720M13860 6930l1556 4789h5035l-4074 2959 1556 4788-4073-2959-4073 2959 1556-4788-4074-2959h5035z"/>
+		<path stroke="#222" stroke-width="75" stroke-dasharray="210,210" d="m0-2520v30240m0 30240V27720m6930-4410v-9450m6930-16380v16380m6930 9450v-9450m6930-16380V0m55440-2520v30240m0 30240V27720M-2520 0h44100m44100 0H41580M-2520 13860h23310M-2520 27720H0m-2520 27720h44100m44100 0H41580"/>
+		<path stroke-width="135" d="m13485 13860h750m-375-375v750"/>
+	</g>
+	<g fill="#008" opacity=".8">
+		<circle r="200" cx="20790" cy="13860"/>
+		<circle r="200" cx="6930" cy="13860"/>
+	</g>
+	<g stroke="#00f" stroke-width="75" marker-start="url(#left-arrow)">
+		<path d="m300-1575h5630"/>
+		<path d="m13560-1575H7930"/>
+		<path d="m14160-1575h5630"/>
+		<path d="m27420-1575h-5630"/>
+		<path d="m28020-1575h26420"/>
+		<path d="m82860-1575H56440"/>
+		<path d="m300 57015h40280"/>
+		<path d="m82860 57015H42580"/>
+		<path d="m7230 22365h5630"/>
+		<path d="m20490 22365h-5630"/>
+		<path d="m-1575 55140V42580"/>
+		<path d="m-1575 28020v12560"/>
+		<path d="m-1575 27420v-5630"/>
+		<path d="m-1575 14160v5630"/>
+		<path d="m-1575 13560V7930"/>
+		<path d="m-1575 300v5630"/>
+		<path d="m84735 55140V28720"/>
+		<path d="m84735 300v26420"/>
+	</g>
+	<g fill="#000" text-anchor="middle" font-size="50" transform="scale(50)">
+		<g>
+			<text x="139" y="-16">1</text>
+			<text x="416" y="-16">1</text>
+			<text x="1109" y="-16">4</text>
+			<text x="277" y="462">1</text>
+			<text x="832" y="1155">6</text>
+		</g>
+		<g transform="rotate(270)">
+			<text x="-832" y="-16">2</text>
+			<text x="-416" y="-16">1</text>
+			<text x="-139" y="-16">1</text>
+			<text x="-554" y="1710">4</text>
+		</g>
+		<g font-size="27">
+			<text x="-37" y="1159">[<tspan font-weight="bold" fill="#080">CL</tspan>]</text>
+			<text x="1700" y="1159">[<tspan font-weight="bold" fill="#080">2:3</tspan>]</text>
+		</g>
+	</g>
+</svg>

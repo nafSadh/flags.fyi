@@ -1,0 +1,48 @@
+{
+  "jersey": {
+    "title": "Flag of Jersey",
+    "ratio": "3:5",
+    "use": {
+      "as": "civil flag",
+      "since": "1981-06-12"
+    },
+    "of": {
+      "country": "jersey"
+    },
+    "countryData": {
+      "name": "Jersey",
+      "officialName": "Bailiwick of Jersey",
+      "un": "none"
+    },
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "The field."
+      },
+      {
+        "color": "red",
+        "hex": "#E8112D",
+        "pantone": "186 C",
+        "cmyk": "0/93/81/9",
+        "note": "The saltire (Cross of St Patrick); the Plantagenet cross."
+      },
+      {
+        "color": "yellow",
+        "hex": "#FFD700",
+        "cmyk": "0/16/100/0"
+      }
+    ],
+    "desc": [
+      "- A white field with a red diagonal cross (saltire) and the badge of Jersey in the upper triangle\n",
+      "- The badge features the Plantagenet crown above a red shield with three golden leopards"
+    ],
+    "cs": "jersey/flag.cs.svg",
+    "trivia": [
+      "- Jersey uses a modified Union Jack with a cross representing St. George\n",
+      "- Jersey is a Crown dependency with its own government, separate from UK Parliament\n",
+      "- The island has its own local flag separate from the official Union Jack"
+    ]
+  }
+}

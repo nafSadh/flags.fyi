@@ -1,7 +1,55 @@
 {
   "uk": {
-    "g": "nf",
-    "flag": "uk/flag.svg",
-    "name": "United Kingdom"
+    "title": "Flag of the United Kingdom (Union Jack)",
+    "ratio": "1:2",
+    "use": {
+      "as": "national flag",
+      "since": "1801-01-01"
+    },
+    "colors": [
+      {
+        "color": "blue (Royal Blue)",
+        "hex": "#00247D",
+        "cmyk": "100/72/0/18",
+        "pantone": "280 C",
+        "note": "The field; represents the sea and naval tradition. Also the blue of St Andrew's Saltire for Scotland."
+      },
+      {
+        "color": "red",
+        "hex": "#CF142B",
+        "cmyk": "0/91/76/6",
+        "pantone": "186 C",
+        "note": "The crosses of St George (England) and St Patrick (Ireland); represents military strength and valour."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Fimbriations and the Cross of St Andrew (Scotland); represents peace and honesty."
+      }
+    ],
+    "desc": [
+      "- The Union Jack combines the red cross of St. George (England), the white saltire of St. Andrew (Scotland),\n",
+      "- and the red saltire of St. Patrick (Ireland) on a blue field. The current design was adopted on 1 January 1801\n",
+      "- following the Acts of Union with Ireland. It is one of the world's most recognizable flags\n",
+      "- **Construction:** the Union Flag combines the crosses of St George (red on white, England), St Andrew (white saltire on blue, Scotland), and St Patrick (red saltire on white, Ireland)\n",
+      "- The red saltire is offset (counterchanged) so it does not overlap the white saltire, preserving symmetry\n",
+      "- The flag has no official standard; convention uses 1:2 or 3:5"
+    ],
+    "article": "uk/flag.md",
+    "of": {
+      "country": "uk"
+    },
+    "countryData": {
+      "name": "United Kingdom",
+      "officialName": "United Kingdom of Great Britain and Northern Ireland",
+      "un": "member"
+    },
+    "cs": "uk/flag.cs.svg",
+    "trivia": [
+      "- The Union Jack is asymmetric — the red diagonal stripes are offset (counterchanged) so as not to overlap the white Scottish saltire\n",
+      "- The flag combines the crosses of St. George (England), St. Andrew (Scotland), and St. Patrick (Ireland)\n",
+      "- The Union Jack dates to 1801 and represents the unity of the United Kingdom"
+    ]
   }
 }

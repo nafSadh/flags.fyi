@@ -1,0 +1,58 @@
+{
+  "india": {
+    "title": "Flag of India",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "1947-07-22"
+    },
+    "colors": [
+      {
+        "color": "saffron",
+        "hex": "#FF671F",
+        "cmyk": "0/60/88/0",
+        "note": "Represents courage and sacrifice",
+        "pantone": "1495 C"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Symbolizes peace and truth"
+      },
+      {
+        "color": "green",
+        "hex": "#046A38",
+        "cmyk": "96/0/47/58",
+        "note": "Represents fertility and growth",
+        "pantone": "2258 C"
+      },
+      {
+        "color": "navy blue",
+        "hex": "#06038D",
+        "cmyk": "96/98/0/45",
+        "note": "Ashoka Chakra with 24 spokes representing eternal motion",
+        "pantone": "289 C"
+      }
+    ],
+    "desc": [
+      "- Three horizontal bands of saffron, white, and green with the navy blue Ashoka Chakra of 24 spokes at the centre\n",
+      "- Adopted on 22 July 1947, days before independence"
+    ],
+    "article": "india/flag.md",
+    "of": {
+      "country": "india"
+    },
+    "countryData": {
+      "name": "India",
+      "officialName": "Republic of India",
+      "un": "member"
+    },
+    "cs": "india/flag.cs.svg",
+    "trivia": [
+      "- The Ashoka Chakra has exactly 24 spokes, representing the 24 hours of the day and the cycle of dharma\n",
+      "- The colours represent courage (saffron), truth and peace (white), and prosperity (green)\n",
+      "- The flag was designed by Pingali Venkayya and adopted in 1947 upon Indian independence"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "thailand": {
+    "title": "Flag of Thailand (Thong Trairong)",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "1917-09-28"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#A51931",
+        "cmyk": "24/100/83/18",
+        "note": "Represents the nation and the blood shed for independence",
+        "pantone": "186 C"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Symbolizes Buddhism and purity of faith"
+      },
+      {
+        "color": "dark blue",
+        "hex": "#2D2A4A",
+        "cmyk": "87/85/42/43",
+        "note": "Represents the monarchy; chosen to show solidarity with Allied powers in WWI"
+      }
+    ],
+    "desc": [
+      "- Five horizontal stripes in the pattern red–white–blue–white–red, with the blue centre stripe twice as wide\n",
+      "- The colours embody the national motto 'Nation–Religion–King'"
+    ],
+    "article": "thailand/flag.md",
+    "of": {
+      "country": "thailand"
+    },
+    "countryData": {
+      "name": "Thailand",
+      "officialName": "Kingdom of Thailand",
+      "un": "member"
+    },
+    "cs": "thailand/flag.cs.svg",
+    "trivia": [
+      "- The red represents the nation and blood of the Thai people\n",
+      "- The white represents Buddhism and the purity of the Thai people\n",
+      "- The blue represents the monarchy, which is deeply revered in Thai culture"
+    ]
+  }
+}

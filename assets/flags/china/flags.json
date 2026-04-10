@@ -1,0 +1,45 @@
+{
+  "china": {
+    "title": "Flag of the People's Republic of China",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "1949-09-27"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#FF0000",
+        "cmyk": "0/100/100/0",
+        "note": "Represents the Communist Revolution and Chinese tradition",
+        "pantone": "485 C"
+      },
+      {
+        "color": "yellow",
+        "hex": "#FFFF00",
+        "cmyk": "0/0/100/0",
+        "note": "Represents the Chinese people and golden future",
+        "pantone": "116 C"
+      }
+    ],
+    "desc": [
+      "- A red field with five golden stars in the upper hoist corner — one large star surrounded by four smaller ones\n",
+      "- The large star represents the Communist Party leading the four social classes of Chinese society"
+    ],
+    "article": "china/flag.md",
+    "of": {
+      "country": "china"
+    },
+    "countryData": {
+      "name": "China",
+      "officialName": "People's Republic of China",
+      "un": "member"
+    },
+    "cs": "china/flag.cs.svg",
+    "trivia": [
+      "- The large star represents the Communist Party; the four smaller stars represent the four social classes\n",
+      "- The five stars together represent unity of the people under party leadership\n",
+      "- Designed by Zeng Liansong in 1949; the star arrangement was carefully calculated for symbolic balance"
+    ]
+  }
+}

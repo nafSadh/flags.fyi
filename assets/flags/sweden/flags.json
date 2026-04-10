@@ -1,0 +1,48 @@
+{
+  "sweden": {
+    "title": "Flag of Sweden",
+    "ratio": "5:8",
+    "use": {
+      "as": "national flag",
+      "since": "1906-06-22"
+    },
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#006AA7",
+        "cmyk": "100/60/0/34",
+        "note": "Represents truth and loyalty",
+        "pantone": "301 C"
+      },
+      {
+        "color": "yellow",
+        "hex": "#FECC00",
+        "cmyk": "0/15/100/0",
+        "note": "Represents generosity and the sun",
+        "pantone": "116 C"
+      }
+    ],
+    "desc": [
+      "- A yellow Nordic cross on a blue field, with origins tracing to the early 16th century\n",
+      "- The cross design represents Sweden's Christian heritage and Nordic identity\n",
+      "- **Construction:** a blue field with a golden-yellow Scandinavian cross, offset toward the hoist\n",
+      "- The cross arms are 2/16 of the flag's height in width\n",
+      "- Ratio 5:8"
+    ],
+    "article": "sweden/flag.md",
+    "of": {
+      "country": "sweden"
+    },
+    "countryData": {
+      "name": "Sweden",
+      "officialName": "Kingdom of Sweden",
+      "un": "member"
+    },
+    "cs": "sweden/flag.cs.svg",
+    "trivia": [
+      "- The Nordic cross represents Christianity; the colours represent the historical royal colours\n",
+      "- The blue is called 'Swedish blue', a distinctive shade used since the 13th century\n",
+      "- Sweden's flag is one of the oldest continuously used national symbols in Europe"
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "tci": {
+    "title": "Flag of the Turks and Caicos Islands",
+    "ratio": "1:2",
+    "use": {
+      "as": "civil flag",
+      "since": "1968"
+    },
+    "of": {
+      "country": "tci"
+    },
+    "countryData": {
+      "name": "Turks and Caicos Islands",
+      "officialName": "Turks and Caicos Islands (British Overseas Territory)",
+      "un": "none"
+    },
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#012169",
+        "cmyk": "99/69/0/59",
+        "note": "British Blue Ensign; the Caribbean Sea."
+      },
+      {
+        "color": "red",
+        "hex": "#C8102E",
+        "cmyk": "0/92/77/22"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0"
+      },
+      {
+        "color": "yellow",
+        "hex": "#FFD100",
+        "cmyk": "0/18/100/0",
+        "note": "The conch shell and lobster in the coat of arms."
+      }
+    ],
+    "desc": [
+      "- A Blue Ensign with the coat of arms of the Turks and Caicos Islands featuring a conch shell, spiny lobster, and Turk's-head cactus\n",
+      "- These elements represent the islands' marine life and distinctive flora\n",
+      "- **Construction:** a Blue Ensign (1:2) with the Union Flag in the upper-hoist canton. The shield (conch, lobster, cactus) appears in the fly half"
+    ],
+    "cs": "tci/flag.cs.svg",
+    "trivia": [
+      "- The Turks and Caicos Islands use the Union Jack\n",
+      "- Reflecting their status as a British Overseas Territory\n",
+      "- The islands are known for beaches and tourism"
+    ]
+  }
+}

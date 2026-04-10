@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1130" height="740" viewBox="-3780 -31080 94920 62160" fill="none" font-family="Calibri,Arial,'Liberation Sans',sans-serif">
+	<title>Flag of Poland — construction sheet</title>
+	<!-- DIMENSIONS
+		SVG:
+			S_RAW:     94920.00 × 62160.00
+			S_DISPLAY:  1130.00 × 740.00
+		FLAG:
+			F_RAW:     87360.00 × 54600.00
+			F_DISPLAY:  1040.00 × 650.00
+			F_LABEL:      16.00 × 10.00
+			F_RATIO:       8.00 × 5.00
+	-->
+	<defs>
+		<marker id="left-arrow" viewBox="-4 -4 10 8" orient="auto" markerWidth="10" markerHeight="8">
+			<path fill="blue" d="m2 0 4 4-10-4L6-4z"/>
+		</marker>
+	</defs>
+	<path fill="#fafafa" d="m-3780-31080h94920v62160H-3780z"/>
+	<path fill="#fff" d="m0-27300h87360v54600H0z"/>
+	<g opacity=".5" transform="scale(5460)">
+		<path fill="#fff" d="m0-5h16V5H0z"/>
+		<path fill="#dc143c" d="m0 0h16v5H0z"/>
+	</g>
+	<g stroke="#000" stroke-width="140" stroke-linejoin="round" stroke-linecap="round">
+		<g opacity=".4" stroke-width="100">
+			<path stroke-dashoffset="374" stroke-dasharray="749,315,105,315" d="m43680 0v-27300m0 27300v27300"/>
+			<path stroke-dashoffset="376" stroke-dasharray="751,315,105,315" d="m43680 0H0m43680 0h43680"/>
+			<path stroke-dasharray="735,315,105,315" stroke-dashoffset="840" d="m-2520 0H0"/>
+		</g>
+		<path stroke="#444" stroke-width="250" d="m0-27300h87360v54600H0z"/>
+		<path d="m0 0h87360"/>
+		<path stroke="#222" stroke-width="75" stroke-dasharray="210,210" d="m0-27300V0m0 29820V0m87360-27300V0m0 29820V0M-2520-27300h46200m46200 0H43680M-2520 27300h46200m46200 0H43680"/>
+	</g>
+	<g stroke="#00f" stroke-width="75" marker-start="url(#left-arrow)">
+		<path d="m300 28875h41580"/>
+		<path d="m87060 28875H45480"/>
+		<path d="m-1575 27000V14750"/>
+		<path d="m-1575 300v12250"/>
+		<path d="m-1575-300v-12250"/>
+		<path d="m-1575-27000v12250"/>
+		<path d="m88935 27000V1800"/>
+		<path d="m88935-27000v25200"/>
+	</g>
+	<g fill="#000" text-anchor="middle" font-size="50" transform="scale(50)">
+		<g>
+			<text x="874" y="592">16</text>
+		</g>
+		<g transform="rotate(270)">
+			<text x="273" y="-16">5</text>
+			<text y="1794">10</text>
+			<text x="-273" y="-16">5</text>
+		</g>
+		<g font-size="27">
+			<text x="-37" y="596">[<tspan font-weight="bold" fill="#080">PL</tspan>]</text>
+			<text x="1784" y="596">[<tspan font-weight="bold" fill="#080">5:8</tspan>]</text>
+		</g>
+	</g>
+</svg>

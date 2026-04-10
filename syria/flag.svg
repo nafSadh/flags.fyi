@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <!-- Red stripe -->
+  <rect width="1200" height="267" fill="#CE1126"/>
+  <!-- White stripe -->
+  <rect y="267" width="1200" height="266" fill="#FFFFFF"/>
+  <!-- Black stripe -->
+  <rect y="533" width="1200" height="267" fill="#000000"/>
+  <!-- Two green stars in white stripe -->
+  <g transform="translate(350, 400)">
+    <polygon points="0,-40 12,-12 42,-12 18,8 30,36 0,16 -30,36 -18,8 -42,-12 -12,-12" fill="#007A5E"/>
+  </g>
+  <g transform="translate(850, 400)">
+    <polygon points="0,-40 12,-12 42,-12 18,8 30,36 0,16 -30,36 -18,8 -42,-12 -12,-12" fill="#007A5E"/>
+  </g>
+</svg>

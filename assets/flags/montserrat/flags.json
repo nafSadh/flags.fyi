@@ -1,0 +1,51 @@
+{
+  "montserrat": {
+    "title": "Flag of Montserrat",
+    "ratio": "1:2",
+    "use": {
+      "as": "civil flag",
+      "since": "1960"
+    },
+    "of": {
+      "country": "montserrat"
+    },
+    "countryData": {
+      "name": "Montserrat",
+      "officialName": "Montserrat (British Overseas Territory)",
+      "un": "none"
+    },
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#012169",
+        "cmyk": "99/69/0/59",
+        "note": "British Blue Ensign."
+      },
+      {
+        "color": "red",
+        "hex": "#C8102E",
+        "cmyk": "0/92/77/22"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0"
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100"
+      }
+    ],
+    "desc": [
+      "- A Blue Ensign with the coat of arms of Montserrat in the fly\n",
+      "- The arms depict a woman in green, Erin, embracing a black cross and golden harp, reflecting the island's Irish heritage"
+    ],
+    "cs": "montserrat/flag.cs.svg",
+    "trivia": [
+      "- Montserrat uses the Union Jack as it is a British Overseas Territory\n",
+      "- The island's flag includes the harp (Ireland's symbol) and cross-symbols\n",
+      "- Montserrat is partially uninhabitable due to volcanic activity from the Soufrière Hills volcano"
+    ]
+  }
+}

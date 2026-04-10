@@ -1,0 +1,49 @@
+{
+  "bd-1971-map": {
+    "title": "First Flag of Bangladesh (1971)",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#006a4e",
+        "cmyk": "100/0/26/58",
+        "note": "The lush land of Bangladesh."
+      },
+      {
+        "color": "red",
+        "hex": "#f42a41",
+        "cmyk": "0/83/73/4",
+        "note": "The blood of independence martyrs."
+      },
+      {
+        "color": "yellow",
+        "hex": "#ffd700",
+        "cmyk": "0/16/100/0",
+        "note": "The map of Bangladesh representing territorial integrity."
+      }
+    ],
+    "desc": [
+      "- The flag used during the Bangladesh Liberation War of 1971 was a green field with a red disc, inside which was a golden map of what was then East Pakistan\n",
+      "- Designed by student leader Quamrul Hasan, this version was first hoisted on 2 March 1971 at Dhaka University\n",
+      "- The map was later removed for simplicity, resulting in the current flag\n",
+      "- **Construction:** a green field (representing lush land) with a red disc offset slightly toward the hoist\n",
+      "- A golden map of East Pakistan sits inside the disc\n",
+      "- Ratio 3:5"
+    ],
+    "flag": "bangladesh-hist/bd-1971-map.svg",
+    "of": {
+      "country": "bangladesh"
+    },
+    "countryData": {
+      "name": "Bangladesh",
+      "officialName": "People's Republic of Bangladesh",
+      "un": "none"
+    },
+    "cs": "bangladesh-hist/bd-1971-map.cs.svg",
+    "trivia": [
+      "- During the 1971 independence war, the flag included a map of Bangladesh\n",
+      "- This variant symbolised the geographic identity of the emerging nation\n",
+      "- The map variant was used briefly during the war of independence"
+    ]
+  }
+}

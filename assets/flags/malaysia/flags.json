@@ -1,0 +1,58 @@
+{
+  "malaysia": {
+    "title": "Flag of Malaysia (Jalur Gemilang)",
+    "ratio": "1:2",
+    "use": {
+      "as": "national flag",
+      "since": "1963-09-16"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#CC0001",
+        "cmyk": "0/100/100/20",
+        "note": "Represents bravery and courage",
+        "pantone": "032 C"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Symbolizes purity and virtue"
+      },
+      {
+        "color": "blue",
+        "hex": "#010066",
+        "cmyk": "99/100/0/60",
+        "note": "Symbolizes unity and the Commonwealth",
+        "pantone": "281 C"
+      },
+      {
+        "color": "yellow",
+        "hex": "#FFCC00",
+        "cmyk": "0/20/100/0",
+        "note": "Represents the colour of the Malay rulers",
+        "pantone": "116 C"
+      }
+    ],
+    "desc": [
+      "- Fourteen alternating red and white horizontal stripes with a blue canton bearing a yellow crescent and 14-point Federal Star\n",
+      "- Known as the Jalur Gemilang (Stripes of Glory)"
+    ],
+    "article": "malaysia/flag.md",
+    "of": {
+      "country": "malaysia"
+    },
+    "countryData": {
+      "name": "Malaysia",
+      "officialName": "Malaysia",
+      "un": "member"
+    },
+    "cs": "malaysia/flag.cs.svg",
+    "trivia": [
+      "- The 14 stripes represent the 13 states and the federal territories (14 equal entities)\n",
+      "- The yellow crescent and star represent Islam and the monarchy\n",
+      "- Malaysia's flag emphasizes both Islamic faith and democratic federalism"
+    ]
+  }
+}

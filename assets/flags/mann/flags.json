@@ -1,0 +1,51 @@
+{
+  "mann": {
+    "title": "Flag of the Isle of Man",
+    "ratio": "1:2",
+    "use": {
+      "as": "civil flag",
+      "since": "1931-07-01"
+    },
+    "of": {
+      "country": "mann"
+    },
+    "countryData": {
+      "name": "Isle of Man",
+      "officialName": "Isle of Man (British Crown Dependency)",
+      "un": "none"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#CF142B",
+        "pantone": "186 C",
+        "cmyk": "0/90/79/19",
+        "note": "The traditional colour of the Isle of Man."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "The three-legged triskelion (Three Legs of Man)."
+      },
+      {
+        "color": "yellow",
+        "hex": "#FFD100",
+        "cmyk": "0/18/100/0"
+      }
+    ],
+    "desc": [
+      "- A red field with the triskelion (three armoured legs) at the centre\n",
+      "- The triskelion has been a symbol of the Isle of Man for centuries\n",
+      "- The motto 'Quocunque Jeceris Stabit' (Whichever way you throw me, I will stand) accompanies the emblem\n",
+      "- **Construction:** a red field with the triskelion (three armoured legs in armour) centred\n",
+      "- The legs are arranged at 120° intervals, running clockwise (dexter)"
+    ],
+    "cs": "mann/flag.cs.svg",
+    "trivia": [
+      "- The Isle of Man is a British Crown dependency with its own distinct flag\n",
+      "- The three-legged symbol (triskele) represents endurance and resilience\n",
+      "- The legs rotate clockwise and appear to be in motion"
+    ]
+  }
+}

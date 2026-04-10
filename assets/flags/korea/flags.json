@@ -1,0 +1,115 @@
+{
+  "korea": {
+    "title": "Flag of the Republic of Korea (Taegeukgi)",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "1949-10-15"
+    },
+    "of": {
+      "country": "korea"
+    },
+    "countryData": {
+      "name": "South Korea",
+      "officialName": "Republic of Korea",
+      "un": "member"
+    },
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Background; represents peace, purity, and the Korean people's traditional love of white (baekui minjok, 'white-clad folk')."
+      },
+      {
+        "color": "red",
+        "hex": "#CD2E3A",
+        "cmyk": "0/77/73/20",
+        "pantone": "186 C",
+        "note": "Upper half of the taegeuk; represents positive cosmic forces (yang), the sun, and warmth."
+      },
+      {
+        "color": "blue",
+        "hex": "#0047A0",
+        "cmyk": "100/56/0/37",
+        "pantone": "294 C",
+        "note": "Lower half of the taegeuk; represents negative cosmic forces (yin), the moon, and coolness."
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "Four trigrams (geon, gon, gam, ri); represent the four classical elements — heaven, earth, water, and fire."
+      }
+    ],
+    "desc": [
+      "- A white field with a red-and-blue taegeuk (yin-yang symbol) at the centre, surrounded by four black trigrams from the I Ching\n",
+      "- The taegeuk represents the balance of cosmic forces\n",
+      "- The four trigrams — geon (heaven), gon (earth), gam (water), and ri (fire) — symbolise the principles of movement and harmony\n",
+      "- Colour specifications were standardized by Presidential ordinance on 25 October 1997 and codified in the National Flag Law of July 2007\n",
+      "- **Construction:** a white field with the taegeuk centred\n",
+      "- The taegeuk circle's diameter is half the hoist\n",
+      "- Four black trigrams are placed in the four corners, each at a distance from the centre equal to the flag's quarter-width\n",
+      "- The red (upper) and blue (lower) halves of the taegeuk are S-curved"
+    ],
+    "cs": "korea/flag.cs.svg",
+    "trivia": [
+      "- The trigrams are from the I Ching (Book of Changes); the taegeuk (circle) represents balance between cosmic forces\n",
+      "- The red and blue are complementary colours representing the harmony of Yin and Yang\n",
+      "- South Korea adopted this flag in 1945; the design is based on ancient Korean symbolism"
+    ]
+  },
+  "korea-dprk": {
+    "title": "Flag of the Democratic People's Republic of Korea",
+    "ratio": "1:2",
+    "use": {
+      "as": "national flag",
+      "since": "1948-09-08"
+    },
+    "of": {
+      "country": "korea-dprk"
+    },
+    "countryData": {
+      "name": "North Korea",
+      "officialName": "Democratic People's Republic of Korea",
+      "un": "member"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#ED1C27",
+        "cmyk": "0/89/80/7",
+        "pantone": "186 C",
+        "note": "Broad central stripe; represents the revolutionary spirit and the blood shed in the struggle for independence."
+      },
+      {
+        "color": "blue",
+        "hex": "#024FA2",
+        "cmyk": "98/57/0/36",
+        "pantone": "286 C",
+        "note": "Top and bottom stripes; represent sovereignty, peace, and friendship."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Narrow stripes and the disc; represent purity and the cultural heritage of the Korean people."
+      }
+    ],
+    "desc": [
+      "- A broad red central stripe bordered by thin white and then blue stripes, with a white disc containing a red five-pointed star on the hoist side\n",
+      "- The red star on the white disc symbolises the revolutionary traditions and the guiding ideology of Juche, established by Kim Il-sung\n",
+      "- The blue stripes stand for sovereignty, peace, and friendship\n",
+      "- Adopted on 8 September 1948 when the Democratic People's Republic of Korea was proclaimed, replacing the traditional taegeukgi\n",
+      "- **Construction:** five horizontal bands — blue, white, red (central, wider), white, blue — in ratio 1:0.5:3:0.5:1\n",
+      "- A white disc on the hoist half of the red stripe contains a red five-pointed star\n",
+      "- Ratio 1:2"
+    ],
+    "cs": "korea/korea-dprk.cs.svg",
+    "trivia": [
+      "- North Korea's flag was designed to deliberately reject the traditional Korean taegeuk symbol\n",
+      "- The white circle represents purity; the red represents revolution and socialism\n",
+      "- North Korea adopted this flag in 1948 to emphasize its communist ideology separate from the South"
+    ]
+  }
+}

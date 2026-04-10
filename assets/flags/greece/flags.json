@@ -1,0 +1,44 @@
+{
+  "greece": {
+    "title": "Flag of Greece",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "1978-12-22"
+    },
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#0D5EAF",
+        "cmyk": "100/83/2/0",
+        "note": "Represents the sea, sky, and liberty",
+        "pantone": "286 C"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Symbolizes purity and the waves of the sea"
+      }
+    ],
+    "desc": [
+      "- Nine horizontal stripes alternating blue and white with a blue canton bearing a white cross\n",
+      "- The nine stripes traditionally represent the syllables of the national motto 'Eleftheria i Thanatos' (Freedom or Death)"
+    ],
+    "article": "greece/flag.md",
+    "of": {
+      "country": "greece"
+    },
+    "countryData": {
+      "name": "Greece",
+      "officialName": "Hellenic Republic",
+      "un": "member"
+    },
+    "cs": "greece/flag.cs.svg",
+    "trivia": [
+      "- The nine horizontal stripes represent the nine syllables of the Greek motto 'Eleftheria i thanatos' (Freedom or Death)\n",
+      "- The blue and white have been Greek colours since the War of Independence from Ottoman rule\n",
+      "- The cross represents the Orthodox Christian faith central to Greek identity"
+    ]
+  }
+}

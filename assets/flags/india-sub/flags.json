@@ -1,0 +1,112 @@
+{
+  "in-jammu-kashmir": {
+    "title": "Flag of Jammu & Kashmir",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#ce1126",
+        "cmyk": "0/92/82/19",
+        "note": "The people's sacrifice for rights."
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0"
+      }
+    ],
+    "desc": [
+      "- The former flag of the Indian-administered state of Jammu & Kashmir featured a red field with a plough symbol\n",
+      "- **Construction:** a red field with three vertical white stripes near the hoist and a plough emblem in white"
+    ],
+    "flag": "india-sub/in-jammu-kashmir.svg",
+    "of": {
+      "country": "india"
+    },
+    "countryData": {
+      "name": "Jammu and Kashmir",
+      "officialName": "Jammu and Kashmir",
+      "un": "none"
+    },
+    "cs": "india-sub/in-jammu-kashmir.cs.svg",
+    "trivia": [
+      "- Jammu and Kashmir is a disputed territory between India and Pakistan\n",
+      "- The flag represents the Indian-administered region\n",
+      "- Pakistan claims the territory, and some areas are administered by Pakistan"
+    ]
+  },
+  "in-tamil-nadu": {
+    "title": "Flag of Tamil Nadu",
+    "colors": [
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "Dravidian identity and self-respect."
+      },
+      {
+        "color": "red",
+        "hex": "#ce1126",
+        "cmyk": "0/92/82/19",
+        "note": "Social equality and justice."
+      }
+    ],
+    "desc": [
+      "- The unofficial flag of Tamil Nadu uses the DMK party colours — black and red — widely used as a state identity\n",
+      "- **Construction:** three equal vertical bands of black, red, and yellow (or gold). Sometimes a white disc or two leaves emblem appears on the red band"
+    ],
+    "flag": "india-sub/in-tamil-nadu.svg",
+    "of": {
+      "country": "india"
+    },
+    "countryData": {
+      "name": "Tamil Nadu",
+      "officialName": "State of Tamil Nadu",
+      "un": "none"
+    },
+    "cs": "india-sub/in-tamil-nadu.cs.svg",
+    "trivia": [
+      "- Tamil Nadu is a state in southern India\n",
+      "- The flag represents Tamil cultural identity and heritage\n",
+      "- Tamil is one of the world's oldest living languages"
+    ]
+  },
+  "in-sikkim": {
+    "title": "Flag of Sikkim",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#ce1126",
+        "cmyk": "0/92/82/19"
+      },
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0"
+      },
+      {
+        "color": "blue",
+        "hex": "#003da5",
+        "cmyk": "100/63/0/35"
+      }
+    ],
+    "desc": [
+      "- The flag of the former Kingdom of Sikkim featured a Buddhist khorlo (dharma wheel) on a white field bordered by red and blue\n",
+      "- **Construction:** a white field with a red border and a Dharma wheel (khorlo) centred in red"
+    ],
+    "flag": "india-sub/in-sikkim.svg",
+    "of": {
+      "country": "india"
+    },
+    "countryData": {
+      "name": "Sikkim",
+      "officialName": "State of Sikkim",
+      "un": "none"
+    },
+    "cs": "india-sub/in-sikkim.cs.svg",
+    "trivia": [
+      "- Sikkim is a state of India in the eastern Himalayas\n",
+      "- Has its own distinct flag representing local identity\n",
+      "- Became a state of India in 1975"
+    ]
+  }
+}
