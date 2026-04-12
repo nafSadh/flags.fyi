@@ -10,9 +10,9 @@
 | # | Area | Status | Summary |
 |---|------|--------|---------|
 | 0 | Analytics | DONE | GoatCounter wired into all pages via `analyticsSnippet()` in build.js |
-| 1 | Performance | PENDING | SVGO on SVGs, deduplicate inline SVG icons, lazy-load thumbnails |
-| 2 | SEO | PENDING | Meta descriptions, OG tags, JSON-LD, sitemap.xml, robots.txt, canonical URLs |
-| 3 | Search | PENDING | Client-side vanilla JS filter on build-time JSON index |
+| 1 | Performance | DONE | SVG sprite dedup, lazy loading, fetchpriority, table scroll wrapper |
+| 2 | SEO | DONE | Meta descriptions, OG/Twitter tags, JSON-LD, sitemap, robots.txt, canonical URLs, alt text fixes |
+| 3 | Search | DONE | Build-time JSON index, vanilla JS filter, search bar on index pages, `/` shortcut, `?q=` URLs |
 | 4 | Mobile | PENDING | Hamburger menu, touch targets, font floor, swipe gestures |
 | 5 | Articles | PENDING | Fix 12 broken refs, generate ~220 missing articles |
 

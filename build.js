@@ -820,7 +820,12 @@ function generateFlagIndex() {
 <body>
   ${navbar()}
   <div class="hero-banner">
-    <div class="container"><h1>Index of Flags</h1><p class="hero-sub">${totalFlags} flags across ${orderedCats.length} categories</p></div>
+    <div class="container"><h1>Index of Flags</h1><p class="hero-sub">${totalFlags} flags across ${orderedCats.length} categories</p>
+    <div class="search-box">
+      <input type="text" id="flagSearch" class="search-input" placeholder="Search flags by name, color, or category..." autocomplete="off">
+      <span class="search-count" id="searchCount"></span>
+    </div>
+    </div>
   </div>
   <main class="container hub-container">
     <div class="hub-top-links">
@@ -862,6 +867,10 @@ function generateFlagIndex() {
   </div>
   <main class="container">
     <p style="margin:1rem 0"><a href="/flag-index/">&larr; Categories</a></p>
+    <div class="search-box">
+      <input type="text" id="flagSearch" class="search-input" placeholder="Search flags by name, color, or category..." autocomplete="off">
+      <span class="search-count" id="searchCount"></span>
+    </div>
     <div class="flag-grid">${allItems}
     </div>
   </main>
@@ -1561,8 +1570,20 @@ function generateFlagPage(flagId) {
   <nav class="site-nav">
     <ul><li><a href="/" class="site-logo"><img src="/logo.svg" alt="">Flags.fyi</a></li></ul>
     <div class="nav-title">${escHtml(fd.title)}</div>
-    <ul><li></li></ul>
+    <ul><li><button class="burger-btn" id="burgerBtn" aria-label="Menu" aria-expanded="false"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button></li></ul>
   </nav>
+  <div class="mobile-drawer-overlay" id="mobileDrawerOverlay"></div>
+  <div class="mobile-drawer" id="mobileDrawer" role="dialog" aria-label="Navigation menu">
+    <div class="mobile-drawer-header">
+      <span class="mobile-drawer-title">Navigation</span>
+      <button class="mobile-drawer-close" id="mobileDrawerClose" aria-label="Close menu"><svg width="20" height="20" viewBox="0 0 16 16"><use href="#icon-close"/></svg></button>
+    </div>
+    <nav class="mobile-drawer-nav" aria-label="Mobile navigation">
+      <a href="/flag-index/" class="mobile-drawer-link"><svg width="20" height="20" viewBox="0 0 16 16"><use href="#icon-index"/></svg>Index of Flags</a>
+      ${categories.map(cat => '<a href="/flag-index/' + cat.id + '/" class="mobile-drawer-link">' + cat.icon + ' ' + escHtml(cat.title) + '</a>').join('\n      ')}
+      <a href="${escHtml(wikiUrl)}" class="mobile-drawer-link" target="_blank" rel="noopener"><svg width="20" height="20" viewBox="0 0 128 128"><use href="#icon-wiki"/></svg>Wikipedia</a>
+    </nav>
+  </div>
 
   <!-- Thin left sidebar -->
   <div class="left-rail">
@@ -1623,6 +1644,11 @@ function generateFlagPage(flagId) {
     </div>
   </div>
 
+  <div class="mobile-bottom-nav" id="mobileBottomNav">
+    ${meta && meta.prev ? '<a href="/' + meta.prev + '/" class="mobile-bottom-btn" aria-label="Previous flag: ' + escHtml(getFullFlagData(meta.prev)._name) + '"><svg width="20" height="20" viewBox="0 0 16 16"><use href="#icon-prev"/></svg><span>Prev</span></a>' : '<span class="mobile-bottom-btn disabled" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 16 16"><use href="#icon-prev"/></svg><span>Prev</span></span>'}
+    <a href="/flag-index/" class="mobile-bottom-btn" aria-label="Index of Flags"><svg width="20" height="20" viewBox="0 0 16 16"><use href="#icon-index"/></svg><span>Index</span></a>
+    ${meta && meta.next ? '<a href="/' + meta.next + '/" class="mobile-bottom-btn" aria-label="Next flag: ' + escHtml(getFullFlagData(meta.next)._name) + '"><svg width="20" height="20" viewBox="0 0 16 16"><use href="#icon-next"/></svg><span>Next</span></a>' : '<span class="mobile-bottom-btn disabled" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 16 16"><use href="#icon-next"/></svg><span>Next</span></span>'}
+  </div>
   <script src="/app.js"><\/script>
   ${analyticsSnippet()}
 </body>
@@ -1780,7 +1806,62 @@ function main() {
   generateSitemap();
   generateRobotsTxt();
 
+  // ─── Search index ───
+  generateSearchIndex();
+
   console.log(`\nDone! Generated ${flagIds.length} flag pages + index + landing + 404 + FLAGS.md + sitemap.xml + robots.txt`);
+}
+
+// ─── search-index.json — client-side search data ────────────────────────────
+function generateSearchIndex() {
+  const allIds = getAllFlagIds();
+  const index = [];
+
+  // Build a map from group codes to expanded display names
+  // For aliases (string values like "nf" -> "national-flag"), use the value
+  // For objects with a "title" field, use the key itself
+  function expandGroupCode(code) {
+    const info = groupInfoJson[code];
+    if (typeof info === 'string') return info;       // alias → resolved name
+    if (info && info.title) return code;             // already a full name
+    return code;                                     // fallback: use as-is
+  }
+
+  for (const flagId of allIds) {
+    const fd = getFullFlagData(flagId);
+    const name = fd._name || titleCase(flagId);
+    const title = fd.title || '';
+
+    // Expand group codes to display names
+    const rawGroups = (fd.g || '').split(',').map(s => s.trim()).filter(Boolean);
+    const groups = rawGroups.map(expandGroupCode);
+
+    // Collect color names
+    const colors = (fd.colors || []).map(c => c.color).filter(Boolean);
+
+    // Resolve flag path
+    const flag = fd.flag && fd.flag !== 'none' ? '/' + fd.flag : '';
+
+    // Build keywords: lowercase concatenation of name, title, groups, colors
+    const keywordParts = [name, title, ...groups, ...colors];
+    const keywords = keywordParts.join(' ').toLowerCase();
+
+    index.push({
+      id: flagId,
+      name: name,
+      title: title,
+      groups: groups,
+      colors: colors,
+      flag: flag,
+      keywords: keywords
+    });
+  }
+
+  // Sort alphabetically by name for consistency
+  index.sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
+
+  fs.writeFileSync(path.join(ROOT, 'search-index.json'), JSON.stringify(index, null, 2) + '\n');
+  console.log('  search-index.json');
 }
 
 // ─── FLAGS.md — master list of all flags ──────────────────────────────────────

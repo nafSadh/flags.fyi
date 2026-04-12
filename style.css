@@ -132,6 +132,60 @@ nav.site-nav a:hover { color: #fff; text-decoration: none; }
 .hero-banner h1 { color: #fff; }
 
 /* ═══════════════════════════════════════════════════════════════════
+   SEARCH
+   ═══════════════════════════════════════════════════════════════════ */
+.search-box {
+  max-width: 500px; margin: 1rem auto 0; position: relative; text-align: center;
+}
+.hero-banner .search-box { margin-top: 0.75rem; }
+main > .search-box { margin: 1rem auto; }
+.search-input {
+  width: 100%; padding: 0.5rem 1rem; border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.3); background: rgba(255,255,255,0.15);
+  color: #fff; font-size: 0.9rem; font-family: var(--font);
+  outline: none; transition: border-color 0.15s, box-shadow 0.15s, background 0.15s;
+}
+.search-input::placeholder { color: rgba(255,255,255,0.6); }
+.search-input:focus {
+  border-color: rgba(255,255,255,0.7);
+  box-shadow: 0 0 0 3px rgba(255,255,255,0.15);
+  background: rgba(255,255,255,0.2);
+}
+/* Search input in main content (not hero) */
+main .search-input {
+  background: #fff; color: var(--text);
+  border: 1px solid var(--border);
+}
+main .search-input::placeholder { color: var(--text-light); }
+main .search-input:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(143,0,255,0.1);
+}
+.search-count {
+  display: block; font-size: 0.75rem; margin-top: 0.35rem;
+  color: rgba(255,255,255,0.7); min-height: 1.1em;
+}
+main .search-count { color: var(--text-light); }
+
+/* Search results overlay (hub page) */
+.search-results {
+  position: absolute; top: 100%; left: 0; right: 0;
+  margin-top: 0.5rem; padding: 0.75rem;
+  background: #fff; border: 1px solid var(--border); border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  z-index: 200; display: none; text-align: left;
+  max-height: 400px; overflow-y: auto;
+}
+.search-results.visible { display: block; }
+.search-results .flag-grid { padding: 0; }
+.search-results .search-results-empty {
+  font-size: 0.85rem; color: var(--text-light); padding: 0.5rem 0; text-align: center;
+}
+
+/* Hide filtered items on the all-flags page */
+.flag-grid a.search-hidden { display: none; }
+
+/* ═══════════════════════════════════════════════════════════════════
    FLAG INDEX GRID
    ═══════════════════════════════════════════════════════════════════ */
 .flag-grid { display: flex; flex-wrap: wrap; gap: 0.5rem; padding: 1.25rem 0; }
@@ -523,13 +577,98 @@ body.flag-page.dive-open .flag-column > .sidebar-info h1 { font-size: 1.1rem; }
 .btn:hover { background: var(--primary-hover); color: #fff; text-decoration: none; }
 
 /* ═══════════════════════════════════════════════════════════════════
+   HAMBURGER MENU + MOBILE DRAWER (hidden on desktop)
+   ═══════════════════════════════════════════════════════════════════ */
+.burger-btn {
+  display: none; /* shown on mobile via media query */
+  width: 44px; height: 44px;
+  border: none; background: none; color: #fff;
+  cursor: pointer; padding: 0;
+  align-items: center; justify-content: center;
+  -webkit-tap-highlight-color: transparent;
+}
+.mobile-drawer-overlay {
+  display: none; /* shown when drawer is open */
+  position: fixed; top: var(--navbar-h); left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.4); z-index: 199;
+}
+.mobile-drawer-overlay.open { display: block; }
+.mobile-drawer {
+  position: fixed; top: var(--navbar-h); bottom: 0;
+  right: -280px; width: 280px;
+  background: #fff; z-index: 200;
+  transition: right 0.3s ease;
+  box-shadow: none;
+  display: flex; flex-direction: column;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.mobile-drawer.open {
+  right: 0;
+  box-shadow: -4px 0 16px rgba(0,0,0,0.15);
+}
+.mobile-drawer-header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+.mobile-drawer-title {
+  font-size: 0.85rem; font-weight: 600; color: var(--text);
+}
+.mobile-drawer-close {
+  display: flex; align-items: center; justify-content: center;
+  width: 44px; height: 44px;
+  border: none; background: none; color: var(--text-light);
+  cursor: pointer; border-radius: var(--radius);
+  -webkit-tap-highlight-color: transparent;
+}
+.mobile-drawer-close:hover { background: var(--primary-light); color: var(--primary); }
+.mobile-drawer-nav {
+  display: flex; flex-direction: column; padding: 0.5rem 0;
+}
+.mobile-drawer-link {
+  display: flex; align-items: center; gap: 0.75rem;
+  padding: 0 1rem;
+  min-height: 44px;
+  font-size: 0.9rem; color: var(--text); text-decoration: none;
+  transition: background 0.15s;
+}
+.mobile-drawer-link:hover {
+  background: var(--primary-light); color: var(--primary);
+  text-decoration: none;
+}
+.mobile-drawer-link svg { width: 20px; height: 20px; flex-shrink: 0; color: var(--text-light); }
+.mobile-drawer-link:hover svg { color: var(--primary); }
+
+/* ═══════════════════════════════════════════════════════════════════
+   MOBILE BOTTOM NAV (hidden on desktop)
+   ═══════════════════════════════════════════════════════════════════ */
+.mobile-bottom-nav {
+  display: none; /* shown on mobile via media query */
+}
+.mobile-bottom-btn {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 0.15rem;
+  min-width: 44px; min-height: 44px;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.65rem; font-weight: 600; color: var(--text);
+  text-decoration: none; border: none; background: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: color 0.15s;
+}
+.mobile-bottom-btn:hover { color: var(--primary); text-decoration: none; }
+.mobile-bottom-btn.disabled { color: #ccc; pointer-events: none; }
+.mobile-bottom-btn svg { width: 20px; height: 20px; }
+
+/* ═══════════════════════════════════════════════════════════════════
    RESPONSIVE
    ═══════════════════════════════════════════════════════════════════ */
 @media (max-width: 860px) {
   body.flag-page { overflow: auto; height: auto; }
   .left-rail { display: none; }
   .flag-layout { position: relative; top: 0; left: 0; flex-direction: column; }
-  .flag-viewport { min-height: 55vh; }
+  .flag-viewport { min-height: 40vh; }
   .sidebar {
     width: 100%; border-left: none; border-top: 1px solid var(--border);
   }
@@ -538,6 +677,35 @@ body.flag-page.dive-open .flag-column > .sidebar-info h1 { font-size: 1.1rem; }
   .deep-dive-header, .deep-dive-body { min-width: 0; }
   body.flag-page.dive-open .sidebar { display: none; }
   .nav-title { font-size: 0.9rem; }
+
+  /* ── Hamburger button visible on mobile ── */
+  .burger-btn { display: flex; }
+
+  /* ── Mobile bottom nav ── */
+  .mobile-bottom-nav {
+    display: flex; justify-content: space-around; align-items: center;
+    position: fixed; bottom: 0; left: 0; right: 0;
+    height: 52px; background: #fff;
+    border-top: 1px solid var(--border);
+    z-index: 150;
+  }
+  body.flag-page { padding-bottom: 56px; }
+
+  /* ── Touch target improvements ── */
+  .sidebar-nav-btn { min-width: 44px; min-height: 44px; width: 44px; height: 44px; }
+  .deep-dive-close { width: 44px; height: 44px; min-width: 44px; min-height: 44px; }
+  .cat-tag { padding: 0.6rem 0.65rem; min-height: 44px; display: inline-flex; align-items: center; }
+  .flag-grid a { padding: 0.4rem 0.85rem 0.4rem 0.35rem; min-height: 44px; }
+  .related-list a { min-height: 44px; min-width: 44px; display: inline-flex; align-items: center; justify-content: center; padding: 0.3rem; }
+  .ref-badge { padding: 0.35rem 0.6rem; min-height: 44px; display: inline-flex; align-items: center; }
+  .wiki-link { padding: 0.5rem 0; min-height: 44px; }
+
+  /* ── Font size floors ── */
+  .yr-label { font-size: 0.65rem; }
+  .ref-badge { font-size: 0.7rem; }
+  .ordered-num { font-size: 0.7rem; }
+  .index-tag { font-size: 0.65rem; }
+  .related-header { font-size: 0.7rem; }
 }
 
 /* ─── Ordered page ─────────────────────────────────────────────── */
