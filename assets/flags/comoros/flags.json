@@ -94,7 +94,8 @@
     "trivia": [
       "- Anjouan unilaterally declared independence from Comoros in 1997, leading to a brief political crisis\n",
       "- The island is sometimes called \"Ndzuwani\" in the Comorian language"
-    ]
+    ],
+    "article": "comoros/anjouan.md"
   },
   "grande-comore": {
     "colors": [
@@ -120,7 +121,8 @@
     "trivia": [
       "- Grande Comore (Ngazidja) is home to Mount Karthala, one of the most active volcanoes in the world\n",
       "- It is the largest and most populous island in the Comoros archipelago"
-    ]
+    ],
+    "article": "comoros/grande-comore.md"
   },
   "moheli": {
     "colors": [
@@ -153,7 +155,8 @@
     "trivia": [
       "- Mohéli is the smallest of the four main Comoros islands and has the country's only marine national park\n",
       "- The island is known as a major nesting site for green sea turtles"
-    ]
+    ],
+    "article": "comoros/moheli.md"
   },
   "comoros-mayotte": {
     "colors": [
@@ -177,6 +180,7 @@
     "trivia": [
       "- Mayotte voted to remain French in a 1974 referendum while the other three Comoros islands chose independence\n",
       "- Comoros still claims Mayotte as part of its territory; the UN General Assembly has repeatedly supported this claim"
-    ]
+    ],
+    "article": "comoros/comoros-mayotte.md"
   }
 }

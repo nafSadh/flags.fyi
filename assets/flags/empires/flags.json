@@ -30,7 +30,8 @@
       "- Rome had no single national flag — legions used the eagle standard (aquila) but individual units had their own signa\n",
       "- The aquila (eagle) became the most sacred symbol of Rome, carried into battle\n",
       "- Loss of the aquila was considered catastrophic dishonour, and recovering lost eagles was a military priority"
-    ]
+    ],
+    "article": "empires/roman-empire.md"
   },
   "byzantine": {
     "title": "Flag of the Byzantine Empire",
@@ -63,7 +64,8 @@
       "- The Byzantine Empire (330–1453) was the continuation of the Roman Empire in the East\n",
       "- The purple colour represented imperial authority and divinity\n",
       "- The double-headed eagle became the most recognisable Byzantine symbol"
-    ]
+    ],
+    "article": "empires/byzantine.md"
   },
   "holy-roman-empire": {
     "title": "Banner of the Holy Roman Empire",
@@ -96,7 +98,8 @@
       "- The Holy Roman Empire (800–1806) was a complex political entity in Europe\n",
       "- The imperial eagle represented imperial authority and religious significance\n",
       "- Dissolved during the Napoleonic Wars"
-    ]
+    ],
+    "article": "empires/holy-roman-empire.md"
   },
   "mongol": {
     "title": "Banner of the Mongol Empire",
@@ -129,7 +132,8 @@
       "- The Mongol Empire (1206–1368) was one of history's largest empires\n",
       "- The flag represented the vast territorial extent of Mongol rule\n",
       "- Conquered territories from Europe to the Pacific"
-    ]
+    ],
+    "article": "empires/mongol.md"
   },
   "achaemenid": {
     "title": "Standard of the Achaemenid Empire",
@@ -162,7 +166,8 @@
       "- The Achaemenid Empire (550–330 BCE) was one of history's largest empires\n",
       "- Created by Cyrus the Great and conquered territories from Egypt to India\n",
       "- Known for advanced administration and the Royal Road trade network"
-    ]
+    ],
+    "article": "empires/achaemenid.md"
   },
   "kingdom-of-jerusalem": {
     "title": "Flag of the Kingdom of Jerusalem",
@@ -196,7 +201,8 @@
       "- The Kingdom of Jerusalem (1099–1291) was a Crusader state in the Levant\n",
       "- Represented the height of Crusader power in the Holy Land\n",
       "- Fell to Muslim forces at the end of the Crusades"
-    ]
+    ],
+    "article": "empires/kingdom-of-jerusalem.md"
   },
   "venice": {
     "title": "Flag of the Republic of Venice",
@@ -230,6 +236,7 @@
       "- Venice was a powerful medieval and Renaissance city-state and republic\n",
       "- The winged lion represented Venetian power and maritime dominance\n",
       "- One of history's greatest trading powers"
-    ]
+    ],
+    "article": "empires/venice.md"
   }
 }

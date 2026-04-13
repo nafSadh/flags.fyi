@@ -16,7 +16,8 @@
         "color": "white",
         "hex": "#FFFFFF"
       }
-    ]
+    ],
+    "article": "british/anguilla.md"
   },
   "anguilla-dolphin": {
     "title": "Dolphin Flag of Anguilla",
@@ -62,7 +63,8 @@
     ],
     "desc": [
       "Blue Ensign variant used by the governor."
-    ]
+    ],
+    "article": "british/anguilla-governor.md"
   },
   "bermuda": {
     "ratio": "1:2",
@@ -85,7 +87,8 @@
         "color": "white",
         "hex": "#FFFFFF"
       }
-    ]
+    ],
+    "article": "british/bermuda.md"
   },
   "british-overseas-territories": {
     "title": "British Overseas Territories (Unofficial flag)",
@@ -105,7 +108,8 @@
         "color": "white",
         "hex": "#FFFFFF"
       }
-    ]
+    ],
+    "article": "british/british-overseas-territories.md"
   },
   "pitcairn": {
     "title": "Flag of Pitcairn, Henderson, Ducie and Oeno Islands",
@@ -125,7 +129,8 @@
     ],
     "desc": [
       "Blue Ensign derivative flag of Pitcairn Islands."
-    ]
+    ],
+    "article": "british/pitcairn.md"
   },
   "sgssi": {
     "title": "South Georgia and the South Sandwich Islands",
@@ -145,7 +150,8 @@
     ],
     "desc": [
       "Blue Ensign derivative flag of South Georgia and the South Sandwich Islands."
-    ]
+    ],
+    "article": "british/sgssi.md"
   },
   "ascension-island": {
     "colors": [
@@ -164,7 +170,8 @@
     ],
     "desc": [
       "Blue Ensign derivative with Union Jack canton and local badge."
-    ]
+    ],
+    "article": "british/ascension-island.md"
   },
   "british-virgin-islands": {
     "colors": [
@@ -183,7 +190,8 @@
     ],
     "desc": [
       "Blue Ensign derivative with Union Jack canton and local badge."
-    ]
+    ],
+    "article": "british/british-virgin-islands.md"
   },
   "cayman-islands": {
     "colors": [
@@ -202,7 +210,8 @@
     ],
     "desc": [
       "Blue Ensign derivative with Union Jack canton and local badge."
-    ]
+    ],
+    "article": "british/cayman-islands.md"
   },
   "gibraltar": {
     "colors": [
@@ -221,7 +230,8 @@
     ],
     "desc": [
       "Blue Ensign derivative with Union Jack canton and local badge."
-    ]
+    ],
+    "article": "british/gibraltar.md"
   },
   "montserrat": {
     "colors": [
@@ -240,7 +250,8 @@
     ],
     "desc": [
       "Blue Ensign derivative with Union Jack canton and local badge."
-    ]
+    ],
+    "article": "british/montserrat.md"
   },
   "saint-helena": {
     "colors": [
@@ -259,7 +270,8 @@
     ],
     "desc": [
       "Blue Ensign derivative with Union Jack canton and local badge."
-    ]
+    ],
+    "article": "british/saint-helena.md"
   },
   "tci": {
     "colors": [
@@ -278,7 +290,8 @@
     ],
     "desc": [
       "Blue Ensign derivative with Union Jack canton and local badge."
-    ]
+    ],
+    "article": "british/tci.md"
   },
   "tristan": {
     "colors": [
@@ -297,6 +310,7 @@
     ],
     "desc": [
       "Blue Ensign derivative with Union Jack canton and local badge."
-    ]
+    ],
+    "article": "british/tristan.md"
   }
 }

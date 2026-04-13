@@ -40,7 +40,8 @@
       "- The Imperial German flag (1871–1918) featured the black-white-red tricolour\n",
       "- Represented the unified German Empire under Prussian leadership\n",
       "- Was replaced after Germany's defeat in World War I"
-    ]
+    ],
+    "article": "germany-hist/de-imperial.md"
   },
   "de-weimar": {
     "title": "Flag of the Weimar Republic",
@@ -82,7 +83,8 @@
       "- The Weimar Republic's flag (1919–1933) used black-red-gold tricolours\n",
       "- Represented a democratic Germany between the empires\n",
       "- Replaced by Nazi Germany in 1933 and later restored after WWII"
-    ]
+    ],
+    "article": "germany-hist/de-weimar.md"
   },
   "de-nazi": {
     "title": "Flag of Nazi Germany",
@@ -128,7 +130,8 @@
       "- The flag was designed by Hitler himself during the early 1930s\n",
       "- Its display is illegal in modern Germany under §86a StGB (Strafgesetzbuch — German Criminal Code)\n",
       "- The swastika predates Nazi use by thousands of years, appearing in many cultures, but its Nazi association makes it taboo"
-    ]
+    ],
+    "article": "germany-hist/de-nazi.md"
   },
   "de-east-germany": {
     "title": "Flag of the German Democratic Republic",
@@ -170,7 +173,8 @@
       "- East Germany used a flag with the hammer and compass (communist symbols) from 1959 to 1990\n",
       "- The flag represented the German Democratic Republic under Soviet influence\n",
       "- East and West Germany reunified in 1990, returning to the black-red-gold tricolour"
-    ]
+    ],
+    "article": "germany-hist/de-east-germany.md"
   },
   "de-west-germany": {
     "title": "Flag of the Federal Republic of Germany (West)",
@@ -212,6 +216,7 @@
       "- West Germany (1949–1990) used the black-red-gold flag\n",
       "- Represented the democratic, Western-aligned portion of divided Germany\n",
       "- Reunified with East Germany in 1990"
-    ]
+    ],
+    "article": "germany-hist/de-west-germany.md"
   }
 }

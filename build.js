@@ -596,9 +596,22 @@ function navbar() {
     <li><a href="/" class="site-logo"><img src="/logo.svg" alt="">Flags.fyi</a></li>
   </ul>
   <ul>
-    <li><a href="/flag-index/">Index of Flags</a></li>
+    <li class="desktop-only"><a href="/flag-index/">Index of Flags</a></li>
+    <li><button class="burger-btn" id="burgerBtn" aria-label="Menu" aria-expanded="false"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button></li>
   </ul>
-</nav>`;
+</nav>
+<div class="mobile-drawer-overlay" id="mobileDrawerOverlay"></div>
+<div class="mobile-drawer" id="mobileDrawer" role="dialog" aria-label="Navigation menu">
+  <div class="mobile-drawer-header">
+    <span class="mobile-drawer-title">Navigation</span>
+    <button class="mobile-drawer-close" id="mobileDrawerClose" aria-label="Close menu"><svg width="20" height="20" viewBox="0 0 16 16"><path d="M4 4l8 8M12 4l-8 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg></button>
+  </div>
+  <nav class="mobile-drawer-nav" aria-label="Mobile navigation">
+    <a href="/" class="mobile-drawer-link"><svg width="20" height="20" viewBox="0 0 16 16"><path d="M8 1L1 7h2v6h4V9h2v4h4V7h2L8 1z" fill="currentColor"/></svg>Home</a>
+    <a href="/flag-index/" class="mobile-drawer-link"><svg width="20" height="20" viewBox="0 0 16 16"><path d="M2 3h12M2 6.5h8M2 10h10M2 13.5h6" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/></svg>Index of Flags</a>
+    <a href="/flag-index/all/" class="mobile-drawer-link"><svg width="20" height="20" viewBox="0 0 16 16"><path d="M1 3h4v4H1zM6 3h4v4H6zM11 3h4v4h-4zM1 9h4v4H1zM6 9h4v4H6zM11 9h4v4h-4z" fill="currentColor" opacity="0.6"/></svg>All Flags</a>
+  </nav>
+</div>`;
 }
 
 // ─── colors table ────────────────────────────────────────────────────────────
@@ -1419,6 +1432,7 @@ function svgSprite() {
   <symbol id="icon-verified" viewBox="0 0 16 16"><path d="M8 1a7 7 0 100 14A7 7 0 008 1zm3.3 5.7l-4 4a1 1 0 01-1.4 0l-2-2a1 1 0 111.4-1.4L6.6 8.6l3.3-3.3a1 1 0 011.4 1.4z" fill="currentColor"/></symbol>
   <symbol id="icon-unverified" viewBox="0 0 16 16"><circle cx="8" cy="8" r="7" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 4.5v4M8 10.5v1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></symbol>
 </svg>`;
+}
 
 // ─── generate individual flag pages ──────────────────────────────────────────
 function generateFlagPage(flagId) {

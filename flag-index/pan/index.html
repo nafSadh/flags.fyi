@@ -6,7 +6,19 @@
   <title>Pan-Movement &amp; Identity — Flags — Flags.fyi</title>
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
   <link rel="stylesheet" href="/style.css">
-  
+  <meta name="description" content="Browse Pan-Movement &amp; Identity flags on Flags.fyi.">
+  <meta property="og:title" content="Pan-Movement &amp; Identity — Flags">
+  <meta property="og:description" content="Browse Pan-Movement &amp; Identity flags on Flags.fyi.">
+  <meta property="og:image" content="https://flags.fyi/logo.svg">
+  <meta property="og:url" content="https://flags.fyi/flag-index/pan/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Flags.fyi">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Pan-Movement &amp; Identity — Flags">
+  <meta name="twitter:description" content="Browse Pan-Movement &amp; Identity flags on Flags.fyi.">
+  <meta name="twitter:image" content="https://flags.fyi/logo.svg">
+  <link rel="canonical" href="https://flags.fyi/flag-index/pan/">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Pan-Movement & Identity — Flags","description":"Browse Pan-Movement & Identity flags on Flags.fyi.","url":"https://flags.fyi/flag-index/pan/","isPartOf":{"@type":"WebSite","name":"Flags.fyi","url":"https://flags.fyi/"}}</script>
 </head>
 <body>
   <nav class="site-nav">
@@ -14,17 +26,31 @@
     <li><a href="/" class="site-logo"><img src="/logo.svg" alt="">Flags.fyi</a></li>
   </ul>
   <ul>
-    <li><a href="/flag-index/">Index of Flags</a></li>
+    <li class="desktop-only"><a href="/flag-index/">Index of Flags</a></li>
+    <li><button class="burger-btn" id="burgerBtn" aria-label="Menu" aria-expanded="false"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button></li>
   </ul>
 </nav>
+<div class="mobile-drawer-overlay" id="mobileDrawerOverlay"></div>
+<div class="mobile-drawer" id="mobileDrawer" role="dialog" aria-label="Navigation menu">
+  <div class="mobile-drawer-header">
+    <span class="mobile-drawer-title">Navigation</span>
+    <button class="mobile-drawer-close" id="mobileDrawerClose" aria-label="Close menu"><svg width="20" height="20" viewBox="0 0 16 16"><path d="M4 4l8 8M12 4l-8 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg></button>
+  </div>
+  <nav class="mobile-drawer-nav" aria-label="Mobile navigation">
+    <a href="/" class="mobile-drawer-link"><svg width="20" height="20" viewBox="0 0 16 16"><path d="M8 1L1 7h2v6h4V9h2v4h4V7h2L8 1z" fill="currentColor"/></svg>Home</a>
+    <a href="/flag-index/" class="mobile-drawer-link"><svg width="20" height="20" viewBox="0 0 16 16"><path d="M2 3h12M2 6.5h8M2 10h10M2 13.5h6" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/></svg>Index of Flags</a>
+    <a href="/flag-index/all/" class="mobile-drawer-link"><svg width="20" height="20" viewBox="0 0 16 16"><path d="M1 3h4v4H1zM6 3h4v4H6zM11 3h4v4h-4zM1 9h4v4H1zM6 9h4v4H6zM11 9h4v4h-4z" fill="currentColor" opacity="0.6"/></svg>All Flags</a>
+  </nav>
+</div>
   <div class="hero-banner">
     <div class="container"><h1><svg viewBox="0 0 20 20" width="20" height="20"><rect x="3" y="4" width="14" height="4" rx="0.5" fill="currentColor" opacity="0.3"/><rect x="3" y="8" width="14" height="4" rx="0" fill="currentColor" opacity="0.55"/><rect x="3" y="12" width="14" height="4" rx="0.5" fill="currentColor" opacity="0.85"/></svg> Pan-Movement &amp; Identity</h1></div>
   </div>
   <main class="container">
     <p style="margin:1rem 0"><a href="/flag-index/">&larr; Categories</a></p>
-    <div class="flag-grid"><a href="/pan-african/"><img src="/movements/pan-african.svg" alt="" class="thumb" loading="lazy">Pan-African Flag</a><a href="/pan-slavic/"><img src="/movements/pan-slavic.svg" alt="" class="thumb" loading="lazy">Pan-Slavic Flag</a><a href="/amazigh/"><img src="/movements/amazigh.svg" alt="" class="thumb" loading="lazy">Amazigh (Berber) Flag</a><a href="/kurdish/"><img src="/movements/kurdish.svg" alt="" class="thumb" loading="lazy">Kurdish Flag</a><a href="/romani/"><img src="/movements/romani.svg" alt="" class="thumb" loading="lazy">Romani Flag</a><a href="/tibetan/"><img src="/movements/tibetan.svg" alt="" class="thumb" loading="lazy">Tibetan Flag</a><a href="/catalan/"><img src="/movements/catalan.svg" alt="" class="thumb" loading="lazy">Catalan Senyera</a>
+    <div class="flag-grid"><a href="/juneteenth/"><img src="/juneteenth/flag.svg" alt="Juneteenth" class="thumb" loading="lazy">Juneteenth</a><a href="/pan-african/"><img src="/movements/pan-african.svg" alt="Pan-African Flag" class="thumb" loading="lazy">Pan-African Flag</a><a href="/pan-slavic/"><img src="/movements/pan-slavic.svg" alt="Pan-Slavic Flag" class="thumb" loading="lazy">Pan-Slavic Flag</a><a href="/amazigh/"><img src="/movements/amazigh.svg" alt="Amazigh (Berber) Flag" class="thumb" loading="lazy">Amazigh (Berber) Flag</a><a href="/kurdish/"><img src="/movements/kurdish.svg" alt="Kurdish Flag" class="thumb" loading="lazy">Kurdish Flag</a><a href="/romani/"><img src="/movements/romani.svg" alt="Romani Flag" class="thumb" loading="lazy">Romani Flag</a><a href="/tibetan/"><img src="/movements/tibetan.svg" alt="Tibetan Flag" class="thumb" loading="lazy">Tibetan Flag</a><a href="/catalan/"><img src="/movements/catalan.svg" alt="Catalan Senyera" class="thumb" loading="lazy">Catalan Senyera</a>
     </div>
   </main>
   <script src="/app.js"></script>
+  <script data-goatcounter="https://flags-fyi.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>

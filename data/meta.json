@@ -56,11 +56,16 @@
   },
   "angola": {
     "prev": "andorra",
+    "next": "anjouan",
+    "cat": "countries"
+  },
+  "anjouan": {
+    "prev": "angola",
     "next": "antigua-and-barbuda",
     "cat": "countries"
   },
   "antigua-and-barbuda": {
-    "prev": "angola",
+    "prev": "anjouan",
     "next": "argentina",
     "cat": "countries"
   },
@@ -211,11 +216,16 @@
   },
   "djibouti": {
     "prev": "denmark",
+    "next": "eagle-of-saladin",
+    "cat": "countries"
+  },
+  "eagle-of-saladin": {
+    "prev": "djibouti",
     "next": "egypt",
     "cat": "countries"
   },
   "egypt": {
-    "prev": "djibouti",
+    "prev": "eagle-of-saladin",
     "next": "egypt-uar",
     "cat": "countries"
   },
@@ -346,11 +356,16 @@
   },
   "gh-gold-coast": {
     "prev": "ghana",
+    "next": "grande-comore",
+    "cat": "countries"
+  },
+  "grande-comore": {
+    "prev": "gh-gold-coast",
     "next": "greece",
     "cat": "countries"
   },
   "greece": {
-    "prev": "gh-gold-coast",
+    "prev": "grande-comore",
     "next": "gr-junta",
     "cat": "countries"
   },
@@ -661,11 +676,16 @@
   },
   "mauritania-1959": {
     "prev": "mauritania",
+    "next": "comoros-mayotte",
+    "cat": "countries"
+  },
+  "comoros-mayotte": {
+    "prev": "mauritania-1959",
     "next": "mexico",
     "cat": "countries"
   },
   "mexico": {
-    "prev": "mauritania-1959",
+    "prev": "comoros-mayotte",
     "next": "mx-federal-republic",
     "cat": "countries"
   },
@@ -681,11 +701,16 @@
   },
   "mx-empire": {
     "prev": "mx-three-guarantees",
+    "next": "moheli",
+    "cat": "countries"
+  },
+  "moheli": {
+    "prev": "mx-empire",
     "next": "morocco",
     "cat": "countries"
   },
   "morocco": {
-    "prev": "mx-empire",
+    "prev": "moheli",
     "next": "almohad",
     "cat": "countries"
   },
@@ -1371,36 +1396,16 @@
   },
   "amazigh": {
     "prev": "white-ensign",
-    "next": "anjouan",
-    "cat": "other"
-  },
-  "anjouan": {
-    "prev": "amazigh",
     "next": "catalan",
     "cat": "other"
   },
   "catalan": {
-    "prev": "anjouan",
-    "next": "comoros-mayotte",
-    "cat": "other"
-  },
-  "comoros-mayotte": {
-    "prev": "catalan",
-    "next": "eagle-of-saladin",
-    "cat": "other"
-  },
-  "eagle-of-saladin": {
-    "prev": "comoros-mayotte",
-    "next": "grande-comore",
-    "cat": "other"
-  },
-  "grande-comore": {
-    "prev": "eagle-of-saladin",
+    "prev": "amazigh",
     "next": "signal-flags",
     "cat": "other"
   },
   "signal-flags": {
-    "prev": "grande-comore",
+    "prev": "catalan",
     "next": "juneteenth",
     "cat": "other"
   },
@@ -1411,16 +1416,11 @@
   },
   "kurdish": {
     "prev": "juneteenth",
-    "next": "moheli",
-    "cat": "other"
-  },
-  "moheli": {
-    "prev": "kurdish",
     "next": "pan-african",
     "cat": "other"
   },
   "pan-african": {
-    "prev": "moheli",
+    "prev": "kurdish",
     "next": "pan-slavic",
     "cat": "other"
   },

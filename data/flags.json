@@ -61,7 +61,7 @@
     "name": "Anjouan",
     "title": "Flag of Anjouan — Comoros Island",
     "id": "anjouan",
-    "index": "o/anjouan"
+    "index": "c/anjouan"
   },
   "antigua-and-barbuda": {
     "ns": "antigua-and-barbuda",
@@ -226,7 +226,7 @@
     "name": "Mayotte",
     "title": "Flag of Mayotte — Disputed Comoros Territory",
     "id": "comoros-mayotte",
-    "index": "o/comoros-mayotte"
+    "index": "c/mayotte"
   },
   "croatia": {
     "g": "europe",
@@ -269,7 +269,7 @@
     "title": "Eagle of Saladin — Pan-Arab Heraldic Symbol",
     "name": "Eagle of Saladin",
     "id": "eagle-of-saladin",
-    "index": "o/eagle-of-saladin"
+    "index": "c/eagle-of-saladin"
   },
   "egypt": {
     "g": "nf,af,arab",
@@ -394,7 +394,7 @@
     "name": "Grande Comore",
     "title": "Flag of Grande Comore — Comoros Island",
     "id": "grande-comore",
-    "index": "o/grande-comore"
+    "index": "c/grande-comore"
   },
   "greece": {
     "g": "europe",
@@ -526,7 +526,7 @@
     "name": "Juneteenth",
     "title": "Juneteenth Flag — Emancipation Commemorative Flag",
     "id": "juneteenth",
-    "index": "o/juneteenth"
+    "index": "p/juneteenth"
   },
   "kenya": {
     "g": "africa,horn-of-africa",
@@ -679,7 +679,7 @@
     "name": "Mohéli",
     "title": "Flag of Mohéli — Comoros Island",
     "id": "moheli",
-    "index": "o/mohéli"
+    "index": "c/mohéli"
   },
   "montserrat": {
     "ns": "british",

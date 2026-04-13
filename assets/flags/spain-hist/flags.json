@@ -44,7 +44,8 @@
       "- The Spanish Republic flag (1931–1939) represented democratic Spain\n",
       "- Overthrown by Franco during the Spanish Civil War\n",
       "- The purple stripe (rarely used) represented historical Castile"
-    ]
+    ],
+    "article": "spain-hist/es-republic.md"
   },
   "es-francoist": {
     "title": "Flag of Francoist Spain",
@@ -81,7 +82,8 @@
       "- The Francoist flag (1936–1975) represented Spain under Franco's authoritarian rule\n",
       "- The eagle represented Francoist ideology and fascism\n",
       "- Spain transitioned to democracy after Franco's death"
-    ]
+    ],
+    "article": "spain-hist/es-francoist.md"
   },
   "es-empire": {
     "title": "Flag of the Spanish Empire (Cross of Burgundy)",
@@ -116,6 +118,7 @@
       "- The Spanish Empire flag represented one of history's largest global empires\n",
       "- Spain controlled vast territories across the Americas, Africa, and Asia\n",
       "- The empire lasted from 1492 (Columbus) to the 20th century"
-    ]
+    ],
+    "article": "spain-hist/es-empire.md"
   }
 }

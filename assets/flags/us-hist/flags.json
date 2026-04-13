@@ -44,7 +44,8 @@
       "- The Betsy Ross flag is a popular symbol of early American independence\n",
       "- Allegedly sewn by Betsy Ross, though historical evidence is unclear\n",
       "- Featured 13 stars in a circle representing the 13 original states"
-    ]
+    ],
+    "article": "us-hist/us-betsy-ross.md"
   },
   "us-confederate-stars-bars": {
     "title": "First Flag of the Confederate States",
@@ -87,7 +88,8 @@
       "- The original Confederate flag featured stars and bars\n",
       "- Used by the Confederate States of America (1861–1865)\n",
       "- Later appropriated by segregationists and hate groups"
-    ]
+    ],
+    "article": "us-hist/us-confederate-stars-bars.md"
   },
   "us-confederate-stainless": {
     "title": "Stainless Banner of the Confederate States",
@@ -128,6 +130,7 @@
       "- The Confederate flag was redesigned after the Civil War\n",
       "- The 'Stainless Banner' variant was used from 1863–1865\n",
       "- Highly controversial due to its association with slavery and racism"
-    ]
+    ],
+    "article": "us-hist/us-confederate-stainless.md"
   }
 }

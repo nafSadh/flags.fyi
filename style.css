@@ -678,8 +678,9 @@ body.flag-page.dive-open .flag-column > .sidebar-info h1 { font-size: 1.1rem; }
   body.flag-page.dive-open .sidebar { display: none; }
   .nav-title { font-size: 0.9rem; }
 
-  /* ── Hamburger button visible on mobile ── */
+  /* ── Hamburger button visible on mobile; hide desktop-only links ── */
   .burger-btn { display: flex; }
+  .desktop-only { display: none; }
 
   /* ── Mobile bottom nav ── */
   .mobile-bottom-nav {

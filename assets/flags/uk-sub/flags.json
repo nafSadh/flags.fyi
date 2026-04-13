@@ -35,7 +35,8 @@
       "- Scotland uses St. Andrew's Cross (the saltire) as its national flag\n",
       "- The white cross on blue represents St. Andrew, patron saint of Scotland\n",
       "- One of the oldest national flags still in use"
-    ]
+    ],
+    "article": "uk-sub/uk-scotland.md"
   },
   "uk-wales": {
     "title": "Flag of Wales (Y Ddraig Goch)",
@@ -78,7 +79,8 @@
       "- The red dragon on the Welsh flag does not appear in the Union Jack because Wales was already annexed to England when the Union Flag was created\n",
       "- The dragon (Y Ddraig Goch) has been a Welsh symbol since medieval times\n",
       "- The green and white represent the colours of Wales's traditional heraldry"
-    ]
+    ],
+    "article": "uk-sub/uk-wales.md"
   },
   "uk-england": {
     "title": "Flag of England (St George's Cross)",
@@ -116,7 +118,8 @@
       "- England uses St. George's Cross as its national flag\n",
       "- The red cross on white represents St. George, the patron saint of England\n",
       "- One of the oldest national symbols in the world"
-    ]
+    ],
+    "article": "uk-sub/uk-england.md"
   },
   "uk-northern-ireland": {
     "title": "Ulster Banner",
@@ -159,7 +162,8 @@
       "- Northern Ireland uses a specific flag representing the region's identity\n",
       "- Reflects the complex political status and cultural divisions\n",
       "- Official flag status remains contested between different communities"
-    ]
+    ],
+    "article": "uk-sub/uk-northern-ireland.md"
   },
   "uk-cornwall": {
     "title": "Flag of Cornwall (St Piran)",
@@ -196,6 +200,7 @@
       "- Cornwall has its own distinct flag representing the Cornish people\n",
       "- The black and white represent traditional Cornish identity\n",
       "- Cornwall maintains a distinct cultural and linguistic heritage"
-    ]
+    ],
+    "article": "uk-sub/uk-cornwall.md"
   }
 }

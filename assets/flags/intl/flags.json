@@ -30,7 +30,8 @@
       "- The United Nations flag represents the international organisation established in 1945\n",
       "- The olive branches represent peace; the globe represents universality\n",
       "- Adopted in 1945 as the symbol of international cooperation"
-    ]
+    ],
+    "article": "intl/united-nations.md"
   },
   "european-union": {
     "title": "Flag of Europe / European Union",
@@ -66,7 +67,8 @@
       "- The 12 stars represent perfection and completeness, not the number of member states\n",
       "- The circle represents unity and solidarity\n",
       "- Adopted in 1986 and represents European integration and cooperation"
-    ]
+    ],
+    "article": "intl/european-union.md"
   },
   "african-union": {
     "title": "Flag of the African Union",
@@ -103,7 +105,8 @@
       "- The African Union (founded 2002) represents 55 African member states\n",
       "- Replaced the Organization of African Unity in 2002\n",
       "- Promotes regional integration, peace, and economic cooperation across Africa"
-    ]
+    ],
+    "article": "intl/african-union.md"
   },
   "arab-league": {
     "title": "Flag of the League of Arab States",
@@ -136,7 +139,8 @@
       "- The Arab League flag represents the unified Arab nations\n",
       "- The interlocking rings represent the unity and brotherhood of Arab states\n",
       "- Established in 1945, the League coordinates policies across 22 member states"
-    ]
+    ],
+    "article": "intl/arab-league.md"
   },
   "nato": {
     "title": "Flag of the North Atlantic Treaty Organization",
@@ -168,7 +172,8 @@
       "- NATO (North Atlantic Treaty Organization) is a military and political alliance\n",
       "- The flag represents the unity of 32 member states\n",
       "- Established in 1949 during the Cold War"
-    ]
+    ],
+    "article": "intl/nato.md"
   },
   "olympic": {
     "title": "The Olympic Flag",
@@ -221,7 +226,8 @@
       "- The Olympic flag features five interlocking rings representing continental unity\n",
       "- The rings represent the five inhabited continents and their integration\n",
       "- Adopted in 1913 and used during Olympic Games"
-    ]
+    ],
+    "article": "intl/olympic.md"
   },
   "red-cross": {
     "title": "Emblems of the International Red Cross and Red Crescent Movement",
@@ -255,7 +261,8 @@
       "- The Red Cross (International Committee of the Red Cross) is a humanitarian organisation\n",
       "- The flag represents neutrality, impartiality, and humanitarian protection\n",
       "- Founded in 1863 to provide relief during conflicts"
-    ]
+    ],
+    "article": "intl/red-cross.md"
   },
   "asean": {
     "title": "Flag of ASEAN",
@@ -297,7 +304,8 @@
       "- ASEAN (Association of Southeast Asian Nations) represents 10 member states\n",
       "- The flag represents regional cooperation and unity in Southeast Asia\n",
       "- Established in 1967 to promote peace and economic cooperation"
-    ]
+    ],
+    "article": "intl/asean.md"
   },
   "commonwealth": {
     "title": "Flag of the Commonwealth of Nations",
@@ -329,7 +337,8 @@
       "- The Commonwealth flag represents the Commonwealth of Nations\n",
       "- Includes 56 member states, mostly former British colonies\n",
       "- Emphasises cooperation and shared democratic values"
-    ]
+    ],
+    "article": "intl/commonwealth.md"
   },
   "oic": {
     "title": "Flag of the Organisation of Islamic Cooperation",
@@ -366,7 +375,8 @@
       "- The Organisation of Islamic Cooperation represents 57 member states\n",
       "- The flag represents Islamic unity and cooperation\n",
       "- Established in 1969 after the Al-Aqsa Mosque fire"
-    ]
+    ],
+    "article": "intl/oic.md"
   },
   "gcc": {
     "title": "Flag of the Gulf Cooperation Council",
@@ -398,6 +408,7 @@
       "- The Gulf Cooperation Council includes six Arab Gulf states\n",
       "- The flag represents regional cooperation and economic integration\n",
       "- Founded in 1981 during the Iran-Iraq War"
-    ]
+    ],
+    "article": "intl/gcc.md"
   }
 }

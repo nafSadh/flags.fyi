@@ -6,7 +6,19 @@
   <title>East Asia — Flags — Flags.fyi</title>
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
   <link rel="stylesheet" href="/style.css">
-  
+  <meta name="description" content="Browse East Asia flags on Flags.fyi.">
+  <meta property="og:title" content="East Asia — Flags">
+  <meta property="og:description" content="Browse East Asia flags on Flags.fyi.">
+  <meta property="og:image" content="https://flags.fyi/logo.svg">
+  <meta property="og:url" content="https://flags.fyi/flag-index/east-asia/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Flags.fyi">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="East Asia — Flags">
+  <meta name="twitter:description" content="Browse East Asia flags on Flags.fyi.">
+  <meta name="twitter:image" content="https://flags.fyi/logo.svg">
+  <link rel="canonical" href="https://flags.fyi/flag-index/east-asia/">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"East Asia — Flags","description":"Browse East Asia flags on Flags.fyi.","url":"https://flags.fyi/flag-index/east-asia/","isPartOf":{"@type":"WebSite","name":"Flags.fyi","url":"https://flags.fyi/"}}</script>
 </head>
 <body>
   <nav class="site-nav">
@@ -14,17 +26,31 @@
     <li><a href="/" class="site-logo"><img src="/logo.svg" alt="">Flags.fyi</a></li>
   </ul>
   <ul>
-    <li><a href="/flag-index/">Index of Flags</a></li>
+    <li class="desktop-only"><a href="/flag-index/">Index of Flags</a></li>
+    <li><button class="burger-btn" id="burgerBtn" aria-label="Menu" aria-expanded="false"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button></li>
   </ul>
 </nav>
+<div class="mobile-drawer-overlay" id="mobileDrawerOverlay"></div>
+<div class="mobile-drawer" id="mobileDrawer" role="dialog" aria-label="Navigation menu">
+  <div class="mobile-drawer-header">
+    <span class="mobile-drawer-title">Navigation</span>
+    <button class="mobile-drawer-close" id="mobileDrawerClose" aria-label="Close menu"><svg width="20" height="20" viewBox="0 0 16 16"><path d="M4 4l8 8M12 4l-8 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg></button>
+  </div>
+  <nav class="mobile-drawer-nav" aria-label="Mobile navigation">
+    <a href="/" class="mobile-drawer-link"><svg width="20" height="20" viewBox="0 0 16 16"><path d="M8 1L1 7h2v6h4V9h2v4h4V7h2L8 1z" fill="currentColor"/></svg>Home</a>
+    <a href="/flag-index/" class="mobile-drawer-link"><svg width="20" height="20" viewBox="0 0 16 16"><path d="M2 3h12M2 6.5h8M2 10h10M2 13.5h6" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/></svg>Index of Flags</a>
+    <a href="/flag-index/all/" class="mobile-drawer-link"><svg width="20" height="20" viewBox="0 0 16 16"><path d="M1 3h4v4H1zM6 3h4v4H6zM11 3h4v4h-4zM1 9h4v4H1zM6 9h4v4H6zM11 9h4v4h-4z" fill="currentColor" opacity="0.6"/></svg>All Flags</a>
+  </nav>
+</div>
   <div class="hero-banner">
     <div class="container"><h1><svg viewBox="0 0 20 20" width="20" height="20"><path d="M4 4h4l3 1 3-1 2 2v4l-1 3-3 2-2 2H8l-2-2-2-3V7z" fill="currentColor" stroke="none"/></svg> East Asia</h1></div>
   </div>
   <main class="container">
     <p style="margin:1rem 0"><a href="/flag-index/">&larr; Categories</a></p>
-    <div class="flag-grid"><a href="/china/"><img src="/china/flag.svg" alt="" class="thumb" loading="lazy">China</a><a href="/japan/"><img src="/japan/flag.svg" alt="" class="thumb" loading="lazy">Japan</a><a href="/korea/"><img src="/korea/flag.svg" alt="" class="thumb" loading="lazy">Korea</a><a href="/korea-dprk/"><img src="/korea/dprk.svg" alt="" class="thumb" loading="lazy">N. Korea (DPRK)</a><a href="/cn-qing-dragon/"><img src="/china-hist/cn-qing-dragon.svg" alt="" class="thumb" loading="lazy">Qing Dynasty (Dragon Flag)</a><a href="/cn-five-coloured/"><img src="/china-hist/cn-five-coloured.svg" alt="" class="thumb" loading="lazy">Five-Coloured Flag (ROC)</a><a href="/cn-blue-sky-white-sun/"><img src="/china-hist/cn-blue-sky-white-sun.svg" alt="" class="thumb" loading="lazy">Blue Sky White Sun (ROC/Taiwan)</a><a href="/jp-tokugawa/"><img src="/japan-hist/jp-tokugawa.svg" alt="" class="thumb" loading="lazy">Tokugawa Shogunate</a><a href="/jp-rising-sun-army/"><img src="/japan-hist/jp-rising-sun-army.svg" alt="" class="thumb" loading="lazy">Imperial Rising Sun (Army)</a><a href="/jp-rising-sun-navy/"><img src="/japan-hist/jp-rising-sun-navy.svg" alt="" class="thumb" loading="lazy">Imperial Rising Sun (Navy)</a><a href="/kr-joseon/"><img src="/korea-hist/kr-joseon.svg" alt="" class="thumb" loading="lazy">Joseon Dynasty</a><a href="/kr-taegeukgi-1883/"><img src="/korea-hist/kr-taegeukgi-1883.svg" alt="" class="thumb" loading="lazy">Original Taegeukgi</a>
+    <div class="flag-grid"><a href="/china/"><img src="/china/flag.svg" alt="China" class="thumb" loading="lazy">China</a><a href="/japan/"><img src="/japan/flag.svg" alt="Japan" class="thumb" loading="lazy">Japan</a><a href="/korea/"><img src="/korea/flag.svg" alt="Korea" class="thumb" loading="lazy">Korea</a><a href="/korea-dprk/"><img src="/korea/dprk.svg" alt="N. Korea (DPRK)" class="thumb" loading="lazy">N. Korea (DPRK)</a><a href="/cn-qing-dragon/"><img src="/china-hist/cn-qing-dragon.svg" alt="Qing Dynasty (Dragon Flag)" class="thumb" loading="lazy">Qing Dynasty (Dragon Flag)</a><a href="/cn-five-coloured/"><img src="/china-hist/cn-five-coloured.svg" alt="Five-Coloured Flag (ROC)" class="thumb" loading="lazy">Five-Coloured Flag (ROC)</a><a href="/cn-blue-sky-white-sun/"><img src="/china-hist/cn-blue-sky-white-sun.svg" alt="Blue Sky White Sun (ROC/Taiwan)" class="thumb" loading="lazy">Blue Sky White Sun (ROC/Taiwan)</a><a href="/jp-tokugawa/"><img src="/japan-hist/jp-tokugawa.svg" alt="Tokugawa Shogunate" class="thumb" loading="lazy">Tokugawa Shogunate</a><a href="/jp-rising-sun-army/"><img src="/japan-hist/jp-rising-sun-army.svg" alt="Imperial Rising Sun (Army)" class="thumb" loading="lazy">Imperial Rising Sun (Army)</a><a href="/jp-rising-sun-navy/"><img src="/japan-hist/jp-rising-sun-navy.svg" alt="Imperial Rising Sun (Navy)" class="thumb" loading="lazy">Imperial Rising Sun (Navy)</a><a href="/kr-joseon/"><img src="/korea-hist/kr-joseon.svg" alt="Joseon Dynasty" class="thumb" loading="lazy">Joseon Dynasty</a><a href="/kr-taegeukgi-1883/"><img src="/korea-hist/kr-taegeukgi-1883.svg" alt="Original Taegeukgi" class="thumb" loading="lazy">Original Taegeukgi</a>
     </div>
   </main>
   <script src="/app.js"></script>
+  <script data-goatcounter="https://flags-fyi.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>

@@ -34,7 +34,8 @@
       "- No two pirate captains used the same Jolly Roger — each had a personalised version\n",
       "- The skull and crossbones design conveyed a specific message of danger and death\n",
       "- Most pirate flags actually used variations of red or solid colours; the black 'Jolly Roger' is more legend than historical fact"
-    ]
+    ],
+    "article": "maritime/jolly-roger.md"
   },
   "white-ensign": {
     "title": "White Ensign of the Royal Navy",
@@ -76,7 +77,8 @@
       "- The White Ensign is used by the British Royal Navy\n",
       "- Features the Union Jack and the cross of St. George\n",
       "- One of the oldest naval flags still in use"
-    ]
+    ],
+    "article": "maritime/white-ensign.md"
   },
   "red-ensign": {
     "title": "Red Ensign of the British Merchant Navy",
@@ -115,7 +117,8 @@
       "- The Red Ensign is used by various nations and maritime purposes\n",
       "- Represents British naval and maritime traditions\n",
       "- Used by merchant marine and civilian ships"
-    ]
+    ],
+    "article": "maritime/red-ensign.md"
   },
   "signal-flags": {
     "title": "International Maritime Signal Flags",
@@ -140,6 +143,7 @@
       "- Each International Code signal flag has a single-letter meaning when flown alone\n",
       "- 'B' (Bravo) means 'I am loading, unloading, or carrying dangerous cargo'\n",
       "- All 26 letter flags have distinct meanings used in naval and maritime communication"
-    ]
+    ],
+    "article": "maritime/signal-flags.md"
   }
 }

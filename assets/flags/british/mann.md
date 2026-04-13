@@ -1,0 +1,5 @@
+# Flag of the Isle of Man
+
+The flag of the Isle of Man or flag of Mann (Manx: brattagh Vannin) is a triskelion,. composed of three armoured legs with golden spurs, upon a red background.,. It has been the official flag of Mann since 1 December 1932 and is based on the Manx coat of arms,.
+
+which dates back to the 13th century. The three legs are known in Manx as ny tree cassyn ('the three legs').,. The triskelion is an ancient symbol, used by the Mycenaeans and the Lycians.

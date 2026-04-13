@@ -103,7 +103,8 @@
     "trivia": [
       "- During the 2011 Libyan civil war, rebel forces readopted the pre-Gaddafi flag of the Kingdom of Libya\n",
       "- The old tricolour became a symbol of opposition and was flown across Benghazi months before Tripoli fell"
-    ]
+    ],
+    "article": "libya/libya-civil.md"
   },
   "libya-jamahiriya": {
     "title": "Great Socialist People's Libyan Arab Jamahiriya",
@@ -139,7 +140,8 @@
       "- The Libyan Jamahiriya flag (1977–2011) represented Gaddafi's unique political system\n",
       "- The plain green colour represented Islamic socialism\n",
       "- Replaced after Gaddafi's overthrow in 2011"
-    ]
+    ],
+    "article": "libya/libya-jamahiriya.md"
   },
   "libya-ar": {
     "title": "Libyan Arab Republic",
@@ -184,7 +186,8 @@
       "- The Arab Republic of Libya flag was used during the Pan-Arab union period\n",
       "- Represented Libya's role in Arab nationalism\n",
       "- Changed during Libya's political transitions"
-    ]
+    ],
+    "article": "libya/libya-ar.md"
   },
   "libya-kingdom": {
     "title": "Kingdom of Libya",
@@ -239,7 +242,8 @@
       "- The Kingdom of Libya (1951–1969) was an independent monarchy\n",
       "- Overthrown in the 1969 revolution that brought Gaddafi to power\n",
       "- The tricolour flag represented the short-lived kingdom"
-    ]
+    ],
+    "article": "libya/libya-kingdom.md"
   },
   "libya-cyrenaica": {
     "ratio": "1:2",
@@ -280,7 +284,8 @@
     "trivia": [
       "- Cyrenaica was home to the Senussi religious order, whose leader King Idris became Libya's first and only king\n",
       "- The region's black flag with crescent and star became the basis for the Kingdom of Libya's flag"
-    ]
+    ],
+    "article": "libya/libya-cyrenaica.md"
   },
   "libya-italian": {
     "use": {
@@ -322,7 +327,8 @@
     "trivia": [
       "- Italian colonisation of Libya (1911–1943) was one of the most brutal in African colonial history\n",
       "- Italy's flag flew over Libya for 32 years, longer than many of Libya's own national flags have lasted"
-    ]
+    ],
+    "article": "libya/libya-italian.md"
   },
   "libya-tripolitanian-republic": {
     "use": {
@@ -360,7 +366,8 @@
     "trivia": [
       "- The Tripolitanian Republic (1918–1922) was one of the first attempts at self-governance in North Africa\n",
       "- It was eventually defeated by Italian reconquest under Mussolini"
-    ]
+    ],
+    "article": "libya/libya-tripolitanian-republic.md"
   },
   "libya-ottoman": {
     "subtitle": "Tripoli",
@@ -398,7 +405,8 @@
     "trivia": [
       "- Ottoman Libya used the standard Ottoman red flag with crescent and star\n",
       "- The Ottomans controlled Libya for nearly 400 years (1551–1911) before losing it to Italy"
-    ]
+    ],
+    "article": "libya/libya-ottoman.md"
   },
   "libya-united": {
     "title": "Flag of the United Kingdom of Libya",
@@ -449,6 +457,7 @@
       "- Libya briefly united with Egypt and Syria in various Pan-Arab unions\n",
       "- The flags reflected Pan-Arab unity aspirations\n",
       "- Unions were short-lived due to political differences"
-    ]
+    ],
+    "article": "libya/libya-united.md"
   }
 }

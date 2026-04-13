@@ -13,8 +13,8 @@
 | 1 | Performance | DONE | SVG sprite dedup, lazy loading, fetchpriority, table scroll wrapper |
 | 2 | SEO | DONE | Meta descriptions, OG/Twitter tags, JSON-LD, sitemap, robots.txt, canonical URLs, alt text fixes |
 | 3 | Search | DONE | Build-time JSON index, vanilla JS filter, search bar on index pages, `/` shortcut, `?q=` URLs |
-| 4 | Mobile | PENDING | Hamburger menu, touch targets, font floor, swipe gestures |
-| 5 | Articles | PENDING | Fix 12 broken refs, generate ~220 missing articles |
+| 4 | Mobile | DONE | Hamburger menu (all pages), touch targets 44px+, font floor 12px, swipe gestures, fixed bottom nav |
+| 5 | Articles | DONE | Fixed 12 broken refs, generated 236 new articles — all 311 flags now have articles |
 
 ---
 

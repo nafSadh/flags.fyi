@@ -35,7 +35,8 @@
       "- The fleurdelisé was adopted in 1948, making it older than Canada's maple leaf flag (1965)\n",
       "- The four white fleurs-de-lis represent the French colonization and Catholic heritage\n",
       "- Quebec's flag is one of the most recognizable provincial flags in North America"
-    ]
+    ],
+    "article": "canada-sub/ca-quebec.md"
   },
   "ca-ontario": {
     "title": "Flag of Ontario",
@@ -77,7 +78,8 @@
       "- The Union Jack reflects Ontario's position as Canada's most populous province\n",
       "- The shield represents Ontario's coat of arms\n",
       "- Ontario was originally Upper Canada during British colonial rule"
-    ]
+    ],
+    "article": "canada-sub/ca-ontario.md"
   },
   "ca-british-columbia": {
     "title": "Flag of British Columbia",
@@ -129,7 +131,8 @@
       "- The setting sun represents the province's western location\n",
       "- The wavy blue and white lines represent the Pacific Ocean\n",
       "- British Columbia is Canada's westernmost province"
-    ]
+    ],
+    "article": "canada-sub/ca-british-columbia.md"
   },
   "ca-alberta": {
     "title": "Flag of Alberta",
@@ -165,6 +168,7 @@
       "- The prairie and mountains represent Alberta's diverse landscapes\n",
       "- The colours represent energy and enthusiasm\n",
       "- Alberta is known for the Rocky Mountains and oil resources"
-    ]
+    ],
+    "article": "canada-sub/ca-alberta.md"
   }
 }

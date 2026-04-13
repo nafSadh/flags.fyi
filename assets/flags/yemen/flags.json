@@ -48,7 +48,8 @@
       "- The red-white-black tricolour are Pan-Arab colours\n",
       "- The flag was unified in 1990 after the merger of North and South Yemen\n",
       "- Yemen's flag emphasizes the nation's Arab identity"
-    ]
+    ],
+    "article": "yemen/flag.md"
   },
   "north-yemen": {
     "title": "Flag of the Yemen Arab Republic",
@@ -99,7 +100,8 @@
       "- North Yemen was an independent state from 1918 to 1990\n",
       "- Unified with South Yemen in 1990 to form the modern Republic of Yemen\n",
       "- The flag represented the northern part of the peninsula"
-    ]
+    ],
+    "article": "yemen/north-yemen.md"
   },
   "south-yemen": {
     "title": "Flag of the People's Democratic Republic of Yemen",
@@ -151,6 +153,7 @@
       "- South Yemen was an independent state from 1967 to 1990\n",
       "- Unified with North Yemen in 1990 to form the modern Republic of Yemen\n",
       "- The flag represented the southern part of the peninsula"
-    ]
+    ],
+    "article": "yemen/south-yemen.md"
   }
 }

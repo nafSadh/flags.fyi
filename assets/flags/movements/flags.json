@@ -39,7 +39,8 @@
       "- Pan-African colours (green, gold/yellow, red) appear on many African national flags\n",
       "- These colours originated from Ghana's flag and the Pan-African movement\n",
       "- Represent African liberation and continental unity"
-    ]
+    ],
+    "article": "movements/pan-african.md"
   },
   "pan-slavic": {
     "title": "Pan-Slavic Flag",
@@ -79,7 +80,8 @@
       "- Pan-Slavic colours (white, blue, red) appear on many Slavic national flags\n",
       "- These colours originated from Russian heraldic traditions\n",
       "- Represent Slavic cultural and historical connections"
-    ]
+    ],
+    "article": "movements/pan-slavic.md"
   },
   "amazigh": {
     "title": "Flag of the Amazigh (Berber) People",
@@ -129,7 +131,8 @@
       "- The yaz (ⵣ) is a letter from the ancient Tifinagh alphabet, which has been in continuous use for over 3,000 years\n",
       "- The colour blue represents the Mediterranean and Atlantic; the colour red represents courage\n",
       "- The flag represents the indigenous Berber peoples of North Africa"
-    ]
+    ],
+    "article": "movements/amazigh.md"
   },
   "kurdish": {
     "title": "Flag of Kurdistan",
@@ -178,7 +181,8 @@
       "- The 21-rayed sun relates to Newroz (Kurdish New Year), celebrated on 21 March\n",
       "- The star represents Kurdish unity and hope\n",
       "- The flag represents the Kurdish independence movement across Turkey, Iran, Iraq, and Syria"
-    ]
+    ],
+    "article": "movements/kurdish.md"
   },
   "romani": {
     "title": "Flag of the Romani People",
@@ -219,7 +223,8 @@
       "- The Romani people flag represents the Romani ethnic group across Europe\n",
       "- The colours represent the sun (yellow) and homeland (blue)\n",
       "- The wheel represents Romani culture and nomadic heritage"
-    ]
+    ],
+    "article": "movements/romani.md"
   },
   "tibetan": {
     "title": "Flag of Tibet (Snow Lion Flag)",
@@ -267,7 +272,8 @@
       "- The yellow represents Buddhism and the Dalai Lama's authority\n",
       "- The snow mountains represent the Tibetan plateau\n",
       "- The flag is associated with Tibetan independence movements and cultural identity"
-    ]
+    ],
+    "article": "movements/tibetan.md"
   },
   "catalan": {
     "title": "The Senyera (Flag of Catalonia)",
@@ -304,6 +310,7 @@
       "- The Senyera is considered one of the oldest heraldic symbols in continuous use in Europe — dating to at least the 12th century\n",
       "- The four red stripes represent blood and loyalty\n",
       "- Catalonia maintains a strong distinct identity within Spain"
-    ]
+    ],
+    "article": "movements/catalan.md"
   }
 }

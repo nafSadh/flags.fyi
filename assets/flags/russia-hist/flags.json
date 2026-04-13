@@ -42,7 +42,8 @@
       "- The Imperial Russian flag represented the Russian Empire until the 1917 revolution\n",
       "- The white-blue-red colours became the basis for modern Russian flag\n",
       "- Established by Peter the Great"
-    ]
+    ],
+    "article": "russia-hist/ru-imperial.md"
   },
   "ru-sfsr": {
     "title": "Flag of the Russian Soviet Federative Socialist Republic",
@@ -82,7 +83,8 @@
       "- The Russian Soviet Federative Socialist Republic (RSFSR) was the largest Soviet republic\n",
       "- The hammer and sickle represented communist ideology\n",
       "- Became the Russian Federation after the Soviet Union collapsed"
-    ]
+    ],
+    "article": "russia-hist/ru-sfsr.md"
   },
   "soviet-union": {
     "title": "Flag of the Union of Soviet Socialist Republics",
@@ -118,6 +120,7 @@
       "- The hammer and sickle was originally designed by artist Yevgeny Kamzolkin as a logo for a May Day parade in 1918\n",
       "- The hammer represents industrial workers; the sickle represents farmers\n",
       "- The Soviet flag inspired communist flags worldwide and was iconic for an entire political ideology"
-    ]
+    ],
+    "article": "russia-hist/soviet-union.md"
   }
 }
