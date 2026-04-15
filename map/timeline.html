@@ -7,101 +7,88 @@
 <meta name="description" content="Explore the history of national flags through an interactive timeline spanning 3000 years.">
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
 <style>
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,500;0,9..40,700;1,9..40,300&family=Instrument+Serif:ital@0;1&display=swap');
-*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
-:root{
-  --bg:#08080d;--bg2:#101018;--bg3:#181824;--bg4:#222234;
-  --fg:#ebe9e4;--fg2:#8a8880;--fg3:#5a5850;
-  --acc:#c9a84c;--acc2:#8b6914;--accBg:rgba(201,168,76,0.06);
-  --brd:#282840;
-  --ease:cubic-bezier(.4,0,.2,1);
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --primary: #8f00ff; --primary-hover: #7a00db; --primary-light: #f3e5ff;
+  --primary-muted: #e6ccff; --text: #363636; --text-light: #7a7a7a;
+  --bg: #fff; --border: #e5e5e5; --radius: 4px; --navbar-h: 52px;
+  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
-html,body{height:100%;overflow:hidden}
-body{font-family:'DM Sans',system-ui,sans-serif;background:var(--bg);color:var(--fg)}
+html, body { height: 100%; overflow: hidden; }
+body { font-family: var(--font); color: var(--text); background: var(--bg); }
 
-/* Bar */
-#bar{position:fixed;top:0;left:0;right:0;display:flex;align-items:center;justify-content:space-between;padding:14px 20px;background:rgba(8,8,13,.96);border-bottom:1px solid var(--brd);z-index:20;gap:12px}
-#bar h1{font-family:'Instrument Serif',serif;font-size:21px;font-weight:400;white-space:nowrap}
-#bar h1 a{color:var(--fg);text-decoration:none}
-#bar h1 em{color:var(--acc);font-style:normal}
-.bc{display:flex;gap:6px;align-items:center}
-.b{background:rgba(24,24,36,.85);border:1px solid var(--brd);color:var(--fg2);padding:6px 12px;border-radius:5px;font:13px/1 inherit;cursor:pointer;transition:all .2s;text-decoration:none}
-.b:hover{color:var(--fg);border-color:var(--acc2)}
-.b.on{color:var(--acc);border-color:var(--acc);background:var(--accBg)}
-
-/* Cursor line */
-#cursor{position:fixed;top:52px;bottom:0;width:2px;background:var(--acc);z-index:15;pointer-events:none;box-shadow:0 0 12px rgba(201,168,76,.3)}
-#cursorYear{position:fixed;top:56px;background:var(--acc);color:var(--bg);font-family:'Instrument Serif',serif;font-size:18px;padding:2px 10px;border-radius:0 0 4px 4px;z-index:16;pointer-events:none;transform:translateX(-50%);white-space:nowrap}
-
-/* Timeline container */
-#tl{position:absolute;top:52px;bottom:0;left:0;right:0;overflow:auto}
-#canvas{position:relative;min-height:100%}
-
-/* Era markers */
-.era{position:absolute;top:0;bottom:0;border-left:1px solid rgba(255,255,255,.04);z-index:1}
-.era-label{position:sticky;top:0;padding:4px 8px;font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--fg3);background:var(--bg);z-index:2;white-space:nowrap}
-
-/* Country row */
-.row{display:flex;align-items:center;height:52px;border-bottom:1px solid rgba(255,255,255,.03);position:relative}
-.row:hover{background:rgba(255,255,255,.02)}
-.row-label{position:sticky;left:0;width:140px;min-width:140px;padding:0 12px;font-size:12px;font-weight:500;background:var(--bg);z-index:5;display:flex;align-items:center;gap:8px;height:100%;border-right:1px solid var(--brd)}
-.row-label img{width:24px;height:15px;object-fit:contain;border-radius:1px;flex-shrink:0}
-.row-label span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.row-track{flex:1;position:relative;height:100%}
-
-/* Flag span */
-.fspan{position:absolute;top:8px;height:36px;border-radius:4px;display:flex;align-items:center;gap:6px;padding:0 8px;cursor:pointer;transition:all .15s;overflow:hidden;border:1px solid transparent}
-.fspan:hover{border-color:var(--acc);z-index:10;transform:scaleY(1.08)}
-.fspan img{width:28px;height:18px;object-fit:contain;border-radius:2px;flex-shrink:0}
-.fspan-name{font-size:10px;color:var(--fg);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.fspan-year{font-size:9px;color:var(--fg2);white-space:nowrap}
-
-/* Color palette for flag spans */
-.fspan.c0{background:rgba(200,60,60,.25)}
-.fspan.c1{background:rgba(60,120,200,.25)}
-.fspan.c2{background:rgba(60,180,80,.25)}
-.fspan.c3{background:rgba(200,160,40,.25)}
-.fspan.c4{background:rgba(160,60,200,.25)}
-.fspan.c5{background:rgba(200,120,40,.25)}
-.fspan.c6{background:rgba(40,180,180,.25)}
-.fspan.c7{background:rgba(180,60,120,.25)}
-.fspan.current{background:var(--accBg);border-color:var(--acc2)}
-
-/* Tooltip */
-#ftt{position:fixed;pointer-events:none;background:rgba(16,16,24,.96);border:1px solid var(--brd);border-radius:7px;padding:12px 14px;display:none;z-index:50;backdrop-filter:blur(6px);max-width:280px}
-#ftt.v{display:block}
-#ftt img{width:60px;height:38px;object-fit:contain;border-radius:3px;margin-bottom:8px;background:#fff}
-#ftt h3{font-size:14px;font-weight:500;margin-bottom:2px}
-#ftt .ftm{font-size:11px;color:var(--fg2)}
-#ftt .ftd{font-size:11px;color:var(--fg3);margin-top:6px;line-height:1.4}
-
-/* Loading */
-#ld{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:var(--bg);z-index:100;transition:opacity .4s}
-#ld.off{opacity:0;pointer-events:none}
-.sp{width:32px;height:32px;border:2px solid var(--brd);border-top-color:var(--acc);border-radius:50%;animation:s .7s linear infinite}
-@keyframes s{to{transform:rotate(360deg)}}
-
-/* Stats */
-#stats{position:fixed;bottom:12px;left:12px;font-size:10px;color:var(--fg3);z-index:10}
-
-@media(max-width:768px){
-  .row-label{width:100px;min-width:100px;font-size:11px}
-  .row-label img{display:none}
+nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 20; height: var(--navbar-h);
+  background: linear-gradient(141deg, #5000cc, #8f00ff 71%, #c01aff);
+  display: flex; align-items: center; justify-content: space-between; padding: 0 1.25rem;
 }
-::-webkit-scrollbar{width:6px;height:6px}
-::-webkit-scrollbar-track{background:transparent}
-::-webkit-scrollbar-thumb{background:var(--brd);border-radius:3px}
+.site-logo { display: inline-flex; align-items: center; gap: .4rem; font-weight: 700; color: #fff; font-size: 1rem; text-decoration: none; }
+.site-logo:hover { color: #fff; }
+.nav-mid { color: #fff; font-weight: 600; font-size: 1rem; }
+.nav-r { display: flex; gap: .5rem; align-items: center; }
+.nb { background: rgba(255,255,255,.15); border: 1px solid rgba(255,255,255,.25); color: rgba(255,255,255,.9); padding: 5px 12px; border-radius: 4px; font: 500 .8rem var(--font); cursor: pointer; transition: all .15s; text-decoration: none; }
+.nb:hover { background: rgba(255,255,255,.25); color: #fff; text-decoration: none; }
+.nb.on { background: rgba(255,255,255,.3); color: #fff; border-color: rgba(255,255,255,.5); }
+
+#cursor { position: fixed; top: var(--navbar-h); bottom: 0; width: 2px; background: var(--primary); z-index: 15; pointer-events: none; box-shadow: 0 0 8px rgba(143,0,255,.25); }
+#cursorYear { position: fixed; top: 56px; background: var(--primary); color: #fff; font-size: .85rem; font-weight: 700; padding: 2px 8px; border-radius: 0 0 4px 4px; z-index: 16; pointer-events: none; transform: translateX(-50%); }
+
+#tl { position: absolute; top: var(--navbar-h); bottom: 0; left: 0; right: 0; overflow: auto; }
+#canvas { position: relative; min-height: 100%; }
+
+.era { position: absolute; top: 0; bottom: 0; border-left: 1px solid rgba(0,0,0,.05); }
+.era-label { position: sticky; top: 0; padding: 4px 8px; font-size: .6rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--text-light); background: var(--bg); }
+
+.row { display: flex; align-items: center; height: 50px; border-bottom: 1px solid var(--border); position: relative; }
+.row:hover { background: #faf8ff; }
+.row-label { position: sticky; left: 0; width: 140px; min-width: 140px; padding: 0 12px; font-size: .8rem; font-weight: 500; background: var(--bg); z-index: 5; display: flex; align-items: center; gap: 8px; height: 100%; border-right: 1px solid var(--border); }
+.row:hover .row-label { background: #faf8ff; }
+.row-label img { width: 24px; height: 15px; object-fit: contain; border-radius: 2px; flex-shrink: 0; box-shadow: 0 0 0 1px rgba(0,0,0,.06); }
+.row-label span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.row-track { flex: 1; position: relative; height: 100%; }
+
+.fspan { position: absolute; top: 8px; height: 34px; border-radius: 4px; display: flex; align-items: center; gap: 6px; padding: 0 8px; cursor: pointer; transition: all .12s; overflow: hidden; border: 1px solid transparent; }
+.fspan:hover { border-color: var(--primary); z-index: 10; box-shadow: 0 2px 8px rgba(143,0,255,.15); }
+.fspan img { width: 26px; height: 16px; object-fit: contain; border-radius: 2px; flex-shrink: 0; }
+.fspan-name { font-size: .65rem; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.fspan-year { font-size: .6rem; color: var(--text-light); white-space: nowrap; }
+
+.fspan.c0{background:rgba(200,60,60,.12)}.fspan.c1{background:rgba(60,120,200,.12)}.fspan.c2{background:rgba(60,180,80,.12)}.fspan.c3{background:rgba(200,160,40,.12)}.fspan.c4{background:rgba(160,60,200,.12)}.fspan.c5{background:rgba(200,120,40,.12)}.fspan.c6{background:rgba(40,180,180,.12)}.fspan.c7{background:rgba(180,60,120,.12)}
+.fspan.current { background: var(--primary-light); border-color: var(--primary-muted); }
+
+#ftt { position: fixed; pointer-events: none; background: #fff; border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; display: none; z-index: 50; box-shadow: 0 4px 12px rgba(0,0,0,.1); max-width: 280px; }
+#ftt.v { display: block; }
+#ftt img { width: 56px; height: 36px; object-fit: contain; border-radius: 3px; margin-bottom: 6px; box-shadow: 0 0 0 1px rgba(0,0,0,.06); }
+#ftt h3 { font-size: .85rem; font-weight: 600; margin-bottom: 1px; }
+#ftt .ftm { font-size: .75rem; color: var(--text-light); }
+#ftt .ftd { font-size: .7rem; color: var(--text-light); margin-top: 4px; }
+
+#ld { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; background: var(--bg); z-index: 100; transition: opacity .4s; }
+#ld.off { opacity: 0; pointer-events: none; }
+.sp { width: 28px; height: 28px; border: 3px solid var(--border); border-top-color: var(--primary); border-radius: 50%; animation: sp .7s linear infinite; }
+@keyframes sp { to { transform: rotate(360deg); } }
+#stats { position: fixed; bottom: 10px; left: 10px; font-size: .65rem; color: var(--text-light); z-index: 10; }
+
+@media (max-width: 768px) {
+  .row-label { width: 100px; min-width: 100px; font-size: .7rem; }
+  .row-label img { display: none; }
+  .nav-mid { display: none; }
+}
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
 </style>
 </head>
 <body>
-<div id="bar">
-  <h1><a href="/">flags<em>.fyi</em></a> <span style="color:var(--fg3);font-family:'DM Sans';font-size:13px;margin-left:4px">/ timeline</span></h1>
-  <div class="bc">
-    <a class="b" href="/map/">← Map</a>
-    <button class="b on" id="bAll">All Flags</button>
-    <button class="b" id="bHist">Historical Only</button>
+<nav>
+  <a class="site-logo" href="/">flags.fyi</a>
+  <div class="nav-mid">Flag Timeline</div>
+  <div class="nav-r">
+    <a class="nb" href="/map/">← Map</a>
+    <button class="nb on" id="bAll">All Flags</button>
+    <button class="nb" id="bHist">Historical Only</button>
   </div>
-</div>
+</nav>
 <div id="cursor"></div>
 <div id="cursorYear">2025</div>
 <div id="tl"><div id="canvas"></div></div>
