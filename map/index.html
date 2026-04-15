@@ -136,6 +136,15 @@ nav {
 /* stats */
 #st { position: absolute; bottom: 58px; left: 16px; font-size: 0.65rem; color: var(--text-light); pointer-events: none; z-index: 10; }
 
+/* zoom controls */
+#zc { position: absolute; bottom: 80px; right: 16px; display: flex; flex-direction: column; gap: 2px; z-index: 10; }
+.zb { width: 32px; height: 32px; background: #fff; border: 1px solid var(--border); color: var(--text); font-size: 1.1rem; line-height: 1; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: all .12s; font-family: var(--font); }
+.zb:first-child { border-radius: 4px 4px 0 0; }
+.zb:last-child { border-radius: 0 0 4px 4px; }
+.zb:hover { background: var(--primary-light); color: var(--primary); border-color: var(--primary-muted); }
+.zb:active { background: var(--primary-muted); }
+.zr { font-size: 0.85rem; }
+
 /* loading */
 #ld { position: absolute; inset: 0; top: var(--navbar-h); display: flex; flex-direction: column; align-items: center; justify-content: center; background: #f0f4f8; z-index: 100; transition: opacity .4s; gap: 12px; }
 #ld.off { opacity: 0; pointer-events: none; }
@@ -194,6 +203,11 @@ nav {
 
   <div id="tt"><img id="tf" src="" alt=""><div><div class="tn" id="tn"></div><div class="tm" id="tm"></div></div></div>
   <div id="st"></div>
+  <div id="zc">
+    <button class="zb" id="zIn" title="Zoom in (+)">+</button>
+    <button class="zb" id="zOut" title="Zoom out (−)">−</button>
+    <button class="zb zr" id="zRst" title="Reset zoom (0)">⟲</button>
+  </div>
   <div id="ld"><div class="sp"></div><div style="font-size:.8rem;color:var(--text-light)">Loading world…</div></div>
 </div>
 
@@ -306,8 +320,17 @@ function drawMarkers(){
     const fl=flagAt(c,yr);if(!fl||!fl.flag_svg)continue;
     const pt=proj([c.centroid[1],c.centroid[0]]);if(!pt)continue;
     if(isGlobe&&d3.geoDistance([c.centroid[1],c.centroid[0]],[-proj.rotate()[0],-proj.rotate()[1]])>Math.PI/2)continue;
+
+    // In flat mode, apply zoom transform to position but keep marker size constant
+    let mx=pt[0], my=pt[1], ms=1;
+    if(!isGlobe&&curTx){
+      mx=curTx.applyX(pt[0]);
+      my=curTx.applyY(pt[1]);
+      ms=1; // constant size
+    }
+
     gMarkers.append('image').attr('href',B+fl.flag_svg)
-      .attr('x',pt[0]-16).attr('y',pt[1]-10).attr('width',32).attr('height',20)
+      .attr('x',mx-16).attr('y',my-10).attr('width',32).attr('height',20)
       .attr('preserveAspectRatio','xMidYMid meet')
       .style('cursor','pointer').style('filter','drop-shadow(0 1px 3px rgba(0,0,0,.2))')
       .datum(c)
@@ -326,47 +349,61 @@ function flagAt(c,y){
 }
 
 /* Interaction */
-let baseScale, lastK=1, lastX=0, lastY=0;
+let baseScale, curTx=null;
 
 function applyBehavior(){
-  svg.on('.zoom',null).on('.drag',null).on('wheel.globe',null);
+  svg.on('.zoom',null).on('.drag',null);
 
   if(isGlobe){
     baseScale=proj.scale();
-    lastK=1; lastX=0; lastY=0;
 
+    // Drag → rotate only
+    let r0, v0;
+    svg.call(d3.drag()
+      .on('start',e=>{r0=proj.rotate();v0=[e.x,e.y];svg.style('cursor','grabbing')})
+      .on('drag',e=>{
+        const sens=150/proj.scale();
+        proj.rotate([r0[0]+(e.x-v0[0])*sens, r0[1]-(e.y-v0[1])*sens]);
+        pathFn=d3.geoPath(proj);drawAll();if(selC)hiSel();
+      })
+      .on('end',()=>svg.style('cursor','grab'))
+    );
+
+    // Zoom → scale only (wheel, pinch, dblclick)
     const zm=d3.zoom()
       .scaleExtent([0.5, 8])
-      .on('start',()=>svg.style('cursor','grabbing'))
+      .filter(e=>e.type==='wheel'||e.type==='dblclick'||(e.touches&&e.touches.length>=2))
       .on('zoom',e=>{
-        const t=e.transform;
-        // Zoom: scale the projection
-        proj.scale(baseScale*t.k);
-        // Rotate: use translate deltas
-        const dx=t.x-lastX, dy=t.y-lastY;
-        if(Math.abs(dx)>0.1||Math.abs(dy)>0.1){
-          const r=proj.rotate();
-          const sens=0.25/t.k;
-          proj.rotate([r[0]+dx*sens, r[1]-dy*sens]);
-        }
-        lastK=t.k; lastX=t.x; lastY=t.y;
-        pathFn=d3.geoPath(proj);
-        drawAll();
-        if(selC)hiSel();
-      })
-      .on('end',()=>svg.style('cursor','grab'));
+        proj.scale(baseScale*e.transform.k);
+        pathFn=d3.geoPath(proj);drawAll();if(selC)hiSel();
+      });
     svg.call(zm);svg._zm=zm;svg.style('cursor','grab');
 
   }else{
+    curTx=null;
+    // Zoom+pan → transforms map & bg, redraws markers at constant size
     const zm=d3.zoom()
       .scaleExtent([1,12])
       .on('zoom',e=>{
+        curTx=e.transform;
         gMap.attr('transform',e.transform);
-        gMarkers.attr('transform',e.transform);
         gBg.attr('transform',e.transform);
+        // Redraw markers at constant size
+        drawMarkers();
       });
     svg.call(zm);svg._zm=zm;svg.style('cursor','grab');
   }
+}
+
+function doZoom(dir){
+  // dir: 1=in, -1=out, 0=reset
+  if(!svg._zm)return;
+  if(dir===0){
+    svg.transition().duration(300).call(svg._zm.transform,d3.zoomIdentity);
+    return;
+  }
+  const k=dir>0?1.5:1/1.5;
+  svg.transition().duration(200).call(svg._zm.scaleBy,k);
 }
 
 /* Tooltip */
@@ -444,13 +481,17 @@ function setupControls(){
   $('px').addEventListener('click',closeP);
   $('bF').addEventListener('click',()=>swM(false));
   $('bG').addEventListener('click',()=>swM(true));
-  document.addEventListener('keydown',e=>{if(e.target.tagName==='INPUT')return;if(e.key==='Escape')closeP();if(e.key==='/'){e.preventDefault();$('si').focus()}});
+  $('zIn').addEventListener('click',()=>doZoom(1));
+  $('zOut').addEventListener('click',()=>doZoom(-1));
+  $('zRst').addEventListener('click',()=>doZoom(0));
+  document.addEventListener('keydown',e=>{if(e.target.tagName==='INPUT')return;if(e.key==='Escape')closeP();if(e.key==='/'){e.preventDefault();$('si').focus()}if(e.key==='='||e.key==='+')doZoom(1);if(e.key==='-')doZoom(-1);if(e.key==='0')doZoom(0)});
 }
 function swM(globe){
   isGlobe=globe;$('bF').classList.toggle('on',!globe);$('bG').classList.toggle('on',globe);
   const el=$('mw');
   // Reset zoom state and transforms
   if(svg._zm) svg.call(svg._zm.transform, d3.zoomIdentity);
+  curTx=null;
   gMap.attr('transform',null);gMarkers.attr('transform',null);gBg.attr('transform',null);
   setProj(el.clientWidth,el.clientHeight-52);drawAll();applyBehavior();if(selC)hiSel();
 }
