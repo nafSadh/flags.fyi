@@ -9,68 +9,77 @@
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 :root {
-  --primary: #8f00ff; --primary-hover: #7a00db; --primary-light: #f3e5ff;
-  --primary-muted: #e6ccff; --text: #363636; --text-light: #7a7a7a;
-  --bg: #fff; --border: #e5e5e5; --navbar-h: 52px;
+  --primary: #8f00ff; --primary-light: #f3e5ff; --primary-muted: #e6ccff;
+  --text: #363636; --text-light: #7a7a7a; --bg: #fff; --border: #e5e5e5;
+  --navbar-h: 52px;
   --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 html, body { height: 100%; overflow: hidden; }
 body { font-family: var(--font); color: var(--text); background: var(--bg); }
 
+/* nav */
 nav { position: fixed; top: 0; left: 0; right: 0; z-index: 20; height: var(--navbar-h);
   background: linear-gradient(141deg, #5000cc, #8f00ff 71%, #c01aff);
-  display: flex; align-items: center; justify-content: space-between; padding: 0 1.25rem; }
+  display: flex; align-items: center; justify-content: space-between; padding: 0 1rem; }
 .site-logo { display: inline-flex; align-items: center; gap: .4rem; font-weight: 700; color: #fff; font-size: 1rem; text-decoration: none; }
-.site-logo:hover { color: #fff; }
-.nav-r { display: flex; gap: .5rem; align-items: center; flex-wrap: wrap; }
-.nb { background: rgba(255,255,255,.15); border: 1px solid rgba(255,255,255,.25); color: rgba(255,255,255,.9); padding: 5px 12px; border-radius: 4px; font: 500 .8rem var(--font); cursor: pointer; transition: all .15s; text-decoration: none; white-space: nowrap; }
-.nb:hover { background: rgba(255,255,255,.25); color: #fff; text-decoration: none; }
-.nb.on { background: rgba(255,255,255,.3); color: #fff; border-color: rgba(255,255,255,.5); }
+.nav-r { display: flex; gap: 4px; align-items: center; flex-wrap: wrap; }
+.nb { background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.2); color: rgba(255,255,255,.85); padding: 4px 10px; border-radius: 4px; font: 500 .72rem var(--font); cursor: pointer; transition: all .12s; text-decoration: none; white-space: nowrap; }
+.nb:hover { background: rgba(255,255,255,.22); color: #fff; text-decoration: none; }
+.nb.on { background: rgba(255,255,255,.28); color: #fff; border-color: rgba(255,255,255,.45); }
+.sep { color: rgba(255,255,255,.2); font-size: .7rem; margin: 0 2px; }
 
-#cursor { position: fixed; top: var(--navbar-h); bottom: 0; width: 2px; background: var(--primary); z-index: 15; pointer-events: none; box-shadow: 0 0 8px rgba(143,0,255,.2); display: none; }
-#cursorYear { position: fixed; top: 56px; background: var(--primary); color: #fff; font-size: .8rem; font-weight: 700; padding: 2px 8px; border-radius: 0 0 4px 4px; z-index: 16; pointer-events: none; transform: translateX(-50%); display: none; }
+/* cursor */
+#cur { position: fixed; top: var(--navbar-h); bottom: 0; width: 1.5px; background: var(--primary); z-index: 15; pointer-events: none; opacity: .6; display: none; }
+#curY { position: fixed; top: 54px; background: var(--primary); color: #fff; font-size: .7rem; font-weight: 700; padding: 1px 6px; border-radius: 0 0 3px 3px; z-index: 16; pointer-events: none; transform: translateX(-50%); display: none; }
 
+/* timeline */
 #tl { position: absolute; top: var(--navbar-h); bottom: 0; left: 0; right: 0; overflow: auto; }
-#canvas { position: relative; min-height: 100%; }
+#cv { position: relative; min-height: 100%; }
 
+/* density bands — visual indicator of scale change */
+.density-band { position: absolute; top: 0; bottom: 0; pointer-events: none; }
+.density-band:nth-child(odd) { background: rgba(143,0,255,.01); }
+
+/* era markers */
 .era { position: absolute; top: 0; bottom: 0; border-left: 1px solid rgba(0,0,0,.06); }
-.era-label { position: sticky; top: 0; padding: 3px 6px; font-size: .6rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--text-light); background: var(--bg); }
+.era-label { position: sticky; top: 0; padding: 2px 5px; font-size: .55rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: var(--text-light); background: var(--bg); white-space: nowrap; }
 
-.row { display: flex; align-items: center; height: 46px; border-bottom: 1px solid var(--border); position: relative; }
+/* rows */
+.row { display: flex; align-items: center; height: 44px; border-bottom: 1px solid var(--border); }
 .row:hover { background: #faf8ff; }
-.row-label { position: sticky; left: 0; width: 150px; min-width: 150px; padding: 0 10px; font-size: .75rem; font-weight: 500; background: var(--bg); z-index: 5; display: flex; align-items: center; gap: 6px; height: 100%; border-right: 1px solid var(--border); }
-.row:hover .row-label { background: #faf8ff; }
-.row-label img { width: 22px; height: 14px; object-fit: contain; border-radius: 1px; flex-shrink: 0; box-shadow: 0 0 0 1px rgba(0,0,0,.06); }
-.row-label span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: .7rem; }
-.row-track { flex: 1; position: relative; height: 100%; }
+.rl { position: sticky; left: 0; width: 140px; min-width: 140px; padding: 0 8px; font-size: .7rem; font-weight: 500; background: var(--bg); z-index: 5; display: flex; align-items: center; gap: 5px; height: 100%; border-right: 1px solid var(--border); }
+.row:hover .rl { background: #faf8ff; }
+.rl img { width: 20px; height: 13px; object-fit: contain; border-radius: 1px; flex-shrink: 0; box-shadow: 0 0 0 1px rgba(0,0,0,.06); }
+.rl span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.rt { flex: 1; position: relative; height: 100%; }
 
-.fspan { position: absolute; top: 7px; height: 32px; border-radius: 3px; display: flex; align-items: center; gap: 4px; padding: 0 6px; cursor: pointer; transition: all .12s; overflow: hidden; border: 1px solid transparent; }
-.fspan:hover { border-color: var(--primary); z-index: 10; box-shadow: 0 2px 6px rgba(143,0,255,.12); }
-.fspan img { width: 22px; height: 14px; object-fit: contain; border-radius: 1px; flex-shrink: 0; }
-.fspan-name { font-size: .6rem; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.fspan-year { font-size: .55rem; color: var(--text-light); white-space: nowrap; }
+/* flag spans */
+.fs { position: absolute; top: 6px; height: 32px; border-radius: 3px; display: flex; align-items: center; gap: 4px; padding: 0 5px; cursor: pointer; transition: all .1s; overflow: hidden; border: 1px solid transparent; min-width: 14px; }
+.fs:hover { border-color: var(--primary); z-index: 10; box-shadow: 0 1px 6px rgba(143,0,255,.12); }
+.fs img { width: 20px; height: 13px; object-fit: contain; border-radius: 1px; flex-shrink: 0; }
+.fs-n { font-size: .58rem; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.fs-y { font-size: .5rem; color: var(--text-light); white-space: nowrap; }
 
-.fspan.c0{background:rgba(200,70,70,.1)}.fspan.c1{background:rgba(60,120,200,.1)}.fspan.c2{background:rgba(60,170,80,.1)}.fspan.c3{background:rgba(200,160,40,.1)}.fspan.c4{background:rgba(160,60,200,.1)}.fspan.c5{background:rgba(200,120,40,.1)}.fspan.c6{background:rgba(40,170,170,.1)}.fspan.c7{background:rgba(170,60,120,.1)}
-.fspan.current { background: var(--primary-light); border-color: var(--primary-muted); }
+.fs.c0{background:rgba(200,70,70,.09)}.fs.c1{background:rgba(60,120,200,.09)}.fs.c2{background:rgba(60,170,80,.09)}.fs.c3{background:rgba(200,150,40,.09)}.fs.c4{background:rgba(160,60,200,.09)}.fs.c5{background:rgba(200,120,40,.09)}.fs.c6{background:rgba(40,160,160,.09)}.fs.c7{background:rgba(160,60,120,.09)}
+.fs.now { background: var(--primary-light); border-color: var(--primary-muted); }
 
-#ftt { position: fixed; pointer-events: none; background: #fff; border: 1px solid var(--border); border-radius: 8px; padding: 10px 12px; display: none; z-index: 50; box-shadow: 0 4px 12px rgba(0,0,0,.1); max-width: 260px; }
-#ftt.v { display: block; }
-#ftt img { width: 48px; height: 32px; object-fit: contain; border-radius: 3px; margin-bottom: 6px; box-shadow: 0 0 0 1px rgba(0,0,0,.06); }
-#ftt h3 { font-size: .85rem; font-weight: 600; margin-bottom: 1px; }
-#ftt .ftm { font-size: .7rem; color: var(--text-light); }
-#ftt .ftd { font-size: .65rem; color: var(--text-light); margin-top: 4px; }
+/* tooltip */
+#tt { position: fixed; pointer-events: none; background: #fff; border: 1px solid var(--border); border-radius: 6px; padding: 8px 10px; display: none; z-index: 50; box-shadow: 0 3px 10px rgba(0,0,0,.1); max-width: 240px; }
+#tt.v { display: block; }
+#tt img { width: 44px; height: 28px; object-fit: contain; border-radius: 2px; margin-bottom: 4px; box-shadow: 0 0 0 1px rgba(0,0,0,.06); }
+#tt h3 { font-size: .8rem; font-weight: 600; }
+#tt .tm { font-size: .65rem; color: var(--text-light); }
+#tt .td { font-size: .6rem; color: var(--text-light); margin-top: 3px; }
 
+/* loading */
 #ld { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; background: var(--bg); z-index: 100; transition: opacity .4s; }
 #ld.off { opacity: 0; pointer-events: none; }
-.sp { width: 28px; height: 28px; border: 3px solid var(--border); border-top-color: var(--primary); border-radius: 50%; animation: sp .7s linear infinite; }
-@keyframes sp { to { transform: rotate(360deg); } }
-#stats { position: fixed; bottom: 8px; left: 8px; font-size: .6rem; color: var(--text-light); z-index: 10; }
+.sp { width: 24px; height: 24px; border: 2px solid var(--border); border-top-color: var(--primary); border-radius: 50%; animation: s .7s linear infinite; }
+@keyframes s { to { transform: rotate(360deg); } }
+#st { position: fixed; bottom: 6px; left: 6px; font-size: .55rem; color: var(--text-light); z-index: 10; }
 
-@media (max-width: 768px) {
-  .row-label { width: 90px; min-width: 90px; }
-  .row-label img { display: none; }
-}
-::-webkit-scrollbar { width: 6px; height: 6px; }
+@media (max-width: 768px) { .rl { width: 80px; min-width: 80px; } .rl img { display: none; } }
+::-webkit-scrollbar { width: 5px; height: 5px; }
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
 </style>
@@ -80,179 +89,202 @@ nav { position: fixed; top: 0; left: 0; right: 0; z-index: 20; height: var(--nav
   <a class="site-logo" href="/">flags.fyi</a>
   <div class="nav-r">
     <a class="nb" href="/map/">← Map</a>
-    <button class="nb on" id="bAll">All</button>
-    <button class="nb" id="bHist">Historical only</button>
-    <button class="nb" id="bCur">Current only</button>
-    <span style="color:rgba(255,255,255,.3)">|</span>
-    <button class="nb on" id="sTime">Sort: Time</button>
-    <button class="nb" id="sName">Sort: A–Z</button>
-    <button class="nb" id="sCount">Sort: # Flags</button>
+    <span class="sep">|</span>
+    <button class="nb on" id="fAll">All</button>
+    <button class="nb" id="fHist">Historical</button>
+    <button class="nb" id="fCur">Current</button>
+    <span class="sep">|</span>
+    <button class="nb on" id="sTime">by Time</button>
+    <button class="nb" id="sName">A–Z</button>
+    <button class="nb" id="sCount"># Flags</button>
   </div>
 </nav>
-<div id="cursor"></div>
-<div id="cursorYear"></div>
-<div id="tl"><div id="canvas"></div></div>
-<div id="ftt"><img id="fti" src=""><h3 id="ftn"></h3><div class="ftm" id="ftm"></div><div class="ftd" id="ftd"></div></div>
+<div id="cur"></div><div id="curY"></div>
+<div id="tl"><div id="cv"></div></div>
+<div id="tt"><img id="ti" src=""><h3 id="tn"></h3><div class="tm" id="tm"></div><div class="td" id="td"></div></div>
 <div id="ld"><div class="sp"></div></div>
-<div id="stats"></div>
+<div id="st"></div>
 
 <script>
 (function(){
 'use strict';
-const B='https://flags.fyi';
-const MIN_YR=-600, MAX_YR=2025, PPY=3, LBL_W=150;
-const TOTAL_W=(MAX_YR-MIN_YR)*PPY;
+const B='https://flags.fyi', LW=140;
 
-let MD=null, filter='all', sortBy='time';
+/* ── Non-linear time scale ──
+   Piecewise linear: each segment has its own px/year density.
+   Recent years get dramatically more space. */
+const SEGS=[
+  {from:-600, to:1500, ppy:0.25},   // 2100yr → 525px
+  {from:1500, to:1800, ppy:1.2},    //  300yr → 360px
+  {from:1800, to:1900, ppy:4},      //  100yr → 400px
+  {from:1900, to:1960, ppy:8},      //   60yr → 480px
+  {from:1960, to:2025, ppy:14},     //   65yr → 910px
+];
+// Precompute segment offsets
+let segOffsets=[], totalW=0;
+for(const s of SEGS){
+  segOffsets.push(totalW);
+  totalW+=(s.to-s.from)*s.ppy;
+}
+
+function yrToX(y){
+  for(let i=0;i<SEGS.length;i++){
+    const s=SEGS[i];
+    if(y<=s.to||i===SEGS.length-1){
+      const clamped=Math.max(s.from,Math.min(s.to,y));
+      return segOffsets[i]+(clamped-s.from)*s.ppy;
+    }
+  }
+  return 0;
+}
+function xToYr(x){
+  for(let i=0;i<SEGS.length;i++){
+    const s=SEGS[i], w=(s.to-s.from)*s.ppy;
+    if(x<=segOffsets[i]+w||i===SEGS.length-1){
+      return Math.round(s.from+(x-segOffsets[i])/s.ppy);
+    }
+  }
+  return-600;
+}
+
+let MD, filter='all', sortBy='time';
 const $=id=>document.getElementById(id);
 
 async function init(){
   MD=await(await fetch('/map/data.json')).json();
-  render();setupCursor();setupControls();
+  render();setupCursor();setupCtrl();
   $('ld').classList.add('off');
 }
 
-function yrToX(y){return(y-MIN_YR)*PPY}
-function xToYr(x){return Math.round(x/PPY+MIN_YR)}
-
 function render(){
-  const canvas=$('canvas');
-  canvas.innerHTML='';
-  canvas.style.width=(TOTAL_W+LBL_W)+'px';
+  const cv=$('cv');cv.innerHTML='';
+  cv.style.width=(totalW+LW)+'px';
 
-  // Era markers
+  // Density bands (subtle alternating bg to show scale changes)
+  for(let i=0;i<SEGS.length;i++){
+    const d=document.createElement('div');d.className='density-band';
+    d.style.left=(LW+segOffsets[i])+'px';
+    d.style.width=((SEGS[i].to-SEGS[i].from)*SEGS[i].ppy)+'px';
+    cv.appendChild(d);
+  }
+
+  // Era markers — positioned non-linearly
   const eras=[
-    [-500,'500 BC'],[0,'0 CE'],[500,'500'],[1000,'1000'],[1200,'1200'],[1400,'1400'],
-    [1500,'1500'],[1600,'1600'],[1700,'1700'],[1800,'1800'],[1850,'1850'],
-    [1900,'1900'],[1920,'1920'],[1940,'1940'],[1950,'1950'],[1960,'1960'],
-    [1970,'1970'],[1980,'1980'],[1990,'1990'],[2000,'2000'],[2010,'2010'],[2020,'2020']
+    [-500,'500 BC'],[0,'0 CE'],[500,'500'],[1000,'1000'],
+    [1500,'1500'],[1600,'1600'],[1700,'1700'],
+    [1750,'1750'],[1800,'1800'],[1850,'1850'],
+    [1900,'1900'],[1910,'1910'],[1920,'1920'],[1930,'1930'],
+    [1940,'1940'],[1950,'1950'],[1960,'1960'],
+    [1970,'1970'],[1975,'1975'],[1980,'1980'],[1985,'1985'],
+    [1990,'1990'],[1995,'1995'],[2000,'2000'],[2005,'2005'],
+    [2010,'2010'],[2015,'2015'],[2020,'2020'],
   ];
   for(const[y,l]of eras){
     const el=document.createElement('div');el.className='era';
-    el.style.left=(LBL_W+yrToX(y))+'px';
+    el.style.left=(LW+yrToX(y))+'px';
     el.innerHTML='<div class="era-label">'+l+'</div>';
-    canvas.appendChild(el);
+    cv.appendChild(el);
   }
 
   // Build country list
   let countries=Object.values(MD).map(c=>{
     const hist=c.flags.filter(f=>!f.is_sub&&f.year_start);
     const earliest=hist.length?Math.min(...hist.map(f=>f.year_start)):9999;
-    return{...c, histCount:hist.length, earliest};
+    return{...c,histCount:hist.length,earliest};
   });
 
-  // Filter
-  if(filter==='hist') countries=countries.filter(c=>c.histCount>0);
-  if(filter==='cur') countries=countries.filter(c=>c.flags.some(f=>f.is_current));
+  if(filter==='hist')countries=countries.filter(c=>c.histCount>0);
+  if(filter==='cur')countries=countries.filter(c=>c.flags.some(f=>f.is_current));
 
-  // Sort
-  if(sortBy==='time') countries.sort((a,b)=>a.earliest-b.earliest||b.histCount-a.histCount);
-  else if(sortBy==='name') countries.sort((a,b)=>(a.name||'').localeCompare(b.name||''));
-  else if(sortBy==='count') countries.sort((a,b)=>b.flags.length-a.flags.length);
+  if(sortBy==='time')countries.sort((a,b)=>a.earliest-b.earliest||b.histCount-a.histCount);
+  else if(sortBy==='name')countries.sort((a,b)=>(a.name||'').localeCompare(b.name||''));
+  else if(sortBy==='count')countries.sort((a,b)=>b.flags.length-a.flags.length);
 
-  let totalSpans=0;
+  let n=0;
   for(let i=0;i<countries.length;i++){
     const c=countries[i];
     const row=document.createElement('div');row.className='row';
 
-    const label=document.createElement('div');label.className='row-label';
-    label.innerHTML='<img src="'+B+(c.current_flag||'')+'" alt="" onerror="this.style.display=\'none\'"><span>'+c.name+'</span>';
+    const label=document.createElement('div');label.className='rl';
+    label.innerHTML='<img src="'+B+(c.current_flag||'')+'" alt="" onerror="this.style.display=\'none\'"><span>'+(c.name||'')+'</span>';
     row.appendChild(label);
 
-    const track=document.createElement('div');track.className='row-track';track.style.width=TOTAL_W+'px';
+    const track=document.createElement('div');track.className='rt';
+    track.style.width=totalW+'px';
 
     let flags=c.flags.filter(f=>!f.is_sub);
-    if(filter==='hist') flags=flags.filter(f=>f.year_start&&!f.is_current);
-    if(filter==='cur') flags=flags.filter(f=>f.is_current);
+    if(filter==='hist')flags=flags.filter(f=>f.year_start&&!f.is_current);
+    if(filter==='cur')flags=flags.filter(f=>f.is_current);
 
     const ci=i%8;
     for(const f of flags){
-      if(!f.year_start&&!f.is_current)continue; // skip flags with no date info
-      const start=f.year_start||MAX_YR-10;
-      const end=f.year_end||(f.is_current?MAX_YR:(start+40));
-      const x1=yrToX(Math.max(start,MIN_YR));
-      const x2=yrToX(Math.min(end,MAX_YR));
-      const w=Math.max(x2-x1,20);
+      if(!f.year_start&&!f.is_current)continue;
+      const start=f.year_start||(2025-10);
+      const end=f.year_end||(f.is_current?2025:(start+40));
+      const x1=yrToX(Math.max(start,-600));
+      const x2=yrToX(Math.min(end,2025));
+      const w=Math.max(x2-x1,14);
 
       const span=document.createElement('div');
-      span.className='fspan '+(f.is_current?'current':'c'+ci);
+      span.className='fs '+(f.is_current?'now':'c'+ci);
       span.style.left=x1+'px';span.style.width=w+'px';
 
-      const startLabel=start<0?Math.abs(start)+' BC':start;
-      const endLabel=end>=MAX_YR?'now':end;
-
+      const sL=start<0?Math.abs(start)+' BC':start;
       span.innerHTML='<img src="'+B+f.flag_svg+'" alt="" onerror="this.style.display=\'none\'">'
-        +(w>100?'<span class="fspan-name">'+f.name+'</span>':'')
-        +(w>180?'<span class="fspan-year">'+startLabel+(end<MAX_YR?' – '+endLabel:'')+'</span>':'');
+        +(w>80?'<span class="fs-n">'+f.name+'</span>':'')
+        +(w>150?'<span class="fs-y">'+sL+(end<2025?' – '+end:'')+'</span>':'');
 
-      span.addEventListener('mouseover',e=>showTT(e,f,c));
-      span.addEventListener('mousemove',e=>moveTT(e));
-      span.addEventListener('mouseout',()=>hideTT());
-      span.addEventListener('click',()=>window.open(B+'/'+f.slug+'/','_blank'));
-      track.appendChild(span);
-      totalSpans++;
+      span.onmouseover=e=>showTT(e,f,c);
+      span.onmousemove=e=>moveTT(e);
+      span.onmouseout=hideTT;
+      span.onclick=()=>window.open(B+'/'+f.slug+'/','_blank');
+      track.appendChild(span);n++;
     }
-    row.appendChild(track);
-    canvas.appendChild(row);
+    row.appendChild(track);cv.appendChild(row);
   }
-  $('stats').textContent=countries.length+' countries · '+totalSpans+' flags shown';
+  $('st').textContent=countries.length+' countries · '+n+' flags';
 
-  // Scroll to a sensible default
+  // Scroll: for current filter, show modern era; for historical, show 1500s
   const tl=$('tl');
-  if(filter==='cur') tl.scrollLeft=yrToX(1940);
-  else if(sortBy==='time'&&filter!=='cur') tl.scrollLeft=yrToX(1600);
-  else tl.scrollLeft=yrToX(1800);
+  if(filter==='cur')tl.scrollLeft=yrToX(1940)-200;
+  else tl.scrollLeft=yrToX(1700)-100;
 }
 
 function setupCursor(){
-  const tl=$('tl'),cur=$('cursor'),cy=$('cursorYear');
-  tl.addEventListener('mousemove',e=>{
-    const rect=tl.getBoundingClientRect();
-    const x=e.clientX;cur.style.left=x+'px';cy.style.left=x+'px';
-    const trackX=x-rect.left-LBL_W+tl.scrollLeft;
-    const year=xToYr(trackX);
-    if(year>=MIN_YR&&year<=MAX_YR){
-      cy.textContent=year<0?Math.abs(year)+' BC':year;
-      cur.style.display='block';cy.style.display='block';
-    }else{cur.style.display='none';cy.style.display='none'}
-  });
-  tl.addEventListener('mouseleave',()=>{cur.style.display='none';cy.style.display='none'});
+  const tl=$('tl'),c=$('cur'),cy=$('curY');
+  tl.onmousemove=e=>{
+    const r=tl.getBoundingClientRect(),x=e.clientX;
+    c.style.left=x+'px';cy.style.left=x+'px';
+    const tx=x-r.left-LW+tl.scrollLeft;
+    const y=xToYr(tx);
+    if(y>=-600&&y<=2025){cy.textContent=y<0?Math.abs(y)+' BC':y;c.style.display=cy.style.display='block'}
+    else c.style.display=cy.style.display='none';
+  };
+  tl.onmouseleave=()=>c.style.display=cy.style.display='none';
 }
 
 function showTT(e,f,c){
-  const tt=$('ftt');$('fti').src=B+f.flag_svg;$('ftn').textContent=f.name;
-  let meta='';
-  if(f.year_start){const s=f.year_start<0?Math.abs(f.year_start)+' BC':f.year_start;meta=f.year_end?s+' – '+f.year_end:'From '+s}
-  if(f.is_current)meta+=(meta?' · ':'')+'Current flag';
-  $('ftm').textContent=meta;
-  $('ftd').textContent=c.name+' · Click to view on flags.fyi';
-  tt.classList.add('v');moveTT(e);
+  $('ti').src=B+f.flag_svg;$('tn').textContent=f.name;
+  let m='';if(f.year_start){const s=f.year_start<0?Math.abs(f.year_start)+' BC':f.year_start;m=f.year_end?s+' – '+f.year_end:'From '+s}
+  if(f.is_current)m+=(m?' · ':'')+'Current';
+  $('tm').textContent=m;$('td').textContent=(c.name||'')+' · Click to open';
+  $('tt').classList.add('v');moveTT(e);
 }
-function moveTT(e){
-  const tt=$('ftt');let x=e.clientX+14,y=e.clientY-10;
-  if(x+260>window.innerWidth)x=e.clientX-270;
-  if(y+100>window.innerHeight)y=e.clientY-110;
-  tt.style.left=x+'px';tt.style.top=y+'px';
-}
-function hideTT(){$('ftt').classList.remove('v')}
+function moveTT(e){const t=$('tt');let x=e.clientX+12,y=e.clientY-8;if(x+240>innerWidth)x=e.clientX-250;if(y+90>innerHeight)y=e.clientY-100;t.style.left=x+'px';t.style.top=y+'px'}
+function hideTT(){$('tt').classList.remove('v')}
 
-function setupControls(){
-  const setFilter=(f,btn)=>{filter=f;
-    ['bAll','bHist','bCur'].forEach(id=>$(id).classList.remove('on'));
-    btn.classList.add('on');render()};
-  const setSort=(s,btn)=>{sortBy=s;
-    ['sTime','sName','sCount'].forEach(id=>$(id).classList.remove('on'));
-    btn.classList.add('on');render()};
-
-  $('bAll').addEventListener('click',function(){setFilter('all',this)});
-  $('bHist').addEventListener('click',function(){setFilter('hist',this)});
-  $('bCur').addEventListener('click',function(){setFilter('cur',this)});
-  $('sTime').addEventListener('click',function(){setSort('time',this)});
-  $('sName').addEventListener('click',function(){setSort('name',this)});
-  $('sCount').addEventListener('click',function(){setSort('count',this)});
+function setupCtrl(){
+  const setF=(f,btn)=>{filter=f;['fAll','fHist','fCur'].forEach(id=>$(id).classList.remove('on'));btn.classList.add('on');render()};
+  const setS=(s,btn)=>{sortBy=s;['sTime','sName','sCount'].forEach(id=>$(id).classList.remove('on'));btn.classList.add('on');render()};
+  $('fAll').onclick=function(){setF('all',this)};
+  $('fHist').onclick=function(){setF('hist',this)};
+  $('fCur').onclick=function(){setF('cur',this)};
+  $('sTime').onclick=function(){setS('time',this)};
+  $('sName').onclick=function(){setS('name',this)};
+  $('sCount').onclick=function(){setS('count',this)};
 }
 
-init().catch(err=>{console.error(err);$('ld').innerHTML='<div style="color:var(--text-light)">'+err.message+'</div>'});
+init().catch(e=>{console.error(e);$('ld').innerHTML='<div style="color:var(--text-light)">'+e.message+'</div>'});
 })();
 </script>
 </body>
