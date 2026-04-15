@@ -8,7 +8,7 @@
 <path fill="#fafafa" d="m-4000 -3500h18000v13000H-4000z"/>
 <path fill="#fff" d="m0 0h10000v5000H0z"/>
 <g opacity=".5">
-  <path fill="#68BFE5" d="m0 0h10000v5000H0z"/>
+  <path fill="#62B5E5" d="m0 0h10000v5000H0z"/>
 </g>
 <g stroke="#000" stroke-width="140" stroke-linejoin="round" stroke-linecap="round">
   <path stroke="#444" stroke-width="250" d="m0 0h10000v5000H0z"/>

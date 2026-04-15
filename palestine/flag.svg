@@ -4,7 +4,7 @@
   <!-- White stripe -->
   <rect y="267" width="1200" height="266" fill="#FFFFFF"/>
   <!-- Green stripe -->
-  <rect y="533" width="1200" height="267" fill="#007A5E"/>
+  <rect y="533" width="1200" height="267" fill="#009736"/>
   <!-- Red triangle on hoist side -->
   <polygon points="0,0 0,800 400,400" fill="#CE1126"/>
 </svg>

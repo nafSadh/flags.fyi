@@ -18,7 +18,7 @@
 	<g opacity=".5">
 		<g transform="scale(4200)">
 			<path fill="#fff" d="m0-6h24V6H0z"/>
-			<path fill="#00965e" d="m0-6h24v4H0z"/>
+			<path fill="#007A3D" d="m0-6h24v4H0z"/>
 			<path fill="#ce1126" d="m0 2h24v4H0z"/>
 		</g>
 		<path fill="#000" d="m25200-8400V8400L0 25200v-50400z"/>

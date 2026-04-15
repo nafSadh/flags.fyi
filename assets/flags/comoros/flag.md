@@ -21,5 +21,5 @@ orientation and there are variants in which the stars point outwards and not up.
 
 ## Trivia
 
-- The name **Comoros** derives from derives from the Arabic word قمر /qamar/
+- The name **Comoros** derives from the Arabic word قمر /qamar/
   which means "moon", hence the crescent.

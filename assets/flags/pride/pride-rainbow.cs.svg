@@ -8,7 +8,12 @@
 <path fill="#fafafa" d="m-4000 -3500h23000v18000H-4000z"/>
 <path fill="#fff" d="m0 0h15000v10000H0z"/>
 <g opacity=".5">
-  <path fill="#e40303" d="m0 0h15000v10000H0z"/>
+  <path fill="#e40303" d="m0 0h15000v1666.7H0z"/>
+  <path fill="#ff8c00" d="m0 1666.7h15000v1666.7H0z"/>
+  <path fill="#ffed00" d="m0 3333.4h15000v1666.7H0z"/>
+  <path fill="#008026" d="m0 5000.1h15000v1666.7H0z"/>
+  <path fill="#004dff" d="m0 6666.8h15000v1666.7H0z"/>
+  <path fill="#750787" d="m0 8333.5h15000v1666.5H0z"/>
 </g>
 <g stroke="#000" stroke-width="140" stroke-linejoin="round" stroke-linecap="round">
   <path stroke="#444" stroke-width="250" d="m0 0h15000v10000H0z"/>

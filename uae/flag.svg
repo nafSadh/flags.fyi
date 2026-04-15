@@ -2,7 +2,7 @@
   <!-- Vertical red bar on hoist side -->
   <rect width="200" height="800" fill="#CE1126"/>
   <!-- Green stripe -->
-  <rect x="200" width="1000" height="267" fill="#007A5E"/>
+  <rect x="200" width="1000" height="267" fill="#00732F"/>
   <!-- White stripe -->
   <rect x="200" y="267" width="1000" height="266" fill="#FFFFFF"/>
   <!-- Black stripe -->
