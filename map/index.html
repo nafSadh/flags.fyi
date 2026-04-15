@@ -214,10 +214,10 @@ nav {
 const B='https://flags.fyi';
 const N2A={'004':'AFG','008':'ALB','012':'DZA','020':'AND','024':'AGO','028':'ATG','032':'ARG','036':'AUS','040':'AUT','048':'BHR','050':'BGD','056':'BEL','076':'BRA','124':'CAN','148':'TCD','152':'CHL','156':'CHN','170':'COL','174':'COM','191':'HRV','192':'CUB','203':'CZE','208':'DNK','262':'DJI','818':'EGY','231':'ETH','242':'FJI','246':'FIN','250':'FRA','276':'DEU','288':'GHA','300':'GRC','348':'HUN','356':'IND','360':'IDN','364':'IRN','368':'IRQ','372':'IRL','376':'ISR','380':'ITA','392':'JPN','400':'JOR','404':'KEN','410':'KOR','414':'KWT','422':'LBN','434':'LBY','458':'MYS','478':'MRT','484':'MEX','504':'MAR','528':'NLD','554':'NZL','566':'NGA','578':'NOR','512':'OMN','586':'PAK','275':'PSE','604':'PER','608':'PHL','616':'POL','620':'PRT','634':'QAT','642':'ROU','643':'RUS','682':'SAU','702':'SGP','706':'SOM','710':'ZAF','724':'ESP','729':'SDN','752':'SWE','756':'CHE','760':'SYR','834':'TZA','764':'THA','788':'TUN','792':'TUR','826':'GBR','804':'UKR','784':'ARE','840':'USA','704':'VNM','887':'YEM','408':'PRK'};
 const A2N={};for(const[n,a]of Object.entries(N2A))A2N[a]=n;
-const CLR={'red':'#dd4444','green':'#44aa66','blue':'#4466aa','white':'#ccccdd','black':'#555566','yellow':'#ddaa44','orange':'#dd8844','maroon':'#995555','gold':'#ccaa44','sky-blue':'#7799cc','crimson':'#cc3333','navy-blue':'#444488','dark-green':'#449966','saffron':'#dd9944'};
+/* no static color map — hex_colors come from flag data */
 
 let MD,W,I2C={};
-let proj,pathFn,svg,gBg,gMap,gMarkers;
+let proj,pathFn,svg,gBg,gMap,gMarkers,gDefs;
 let isGlobe=false,yr=2025,selC=null;
 const $=id=>document.getElementById(id);
 
@@ -237,6 +237,7 @@ function build(){
   // Offset everything below navbar
   const root=svg.append('g').attr('transform','translate(0,52)');
   gBg=root.append('g');gMap=root.append('g');gMarkers=root.append('g');
+  gDefs=svg.append('defs');
   setProj(w,h);drawAll();applyBehavior();
   setupSearch();setupTimeline();setupControls();updStats();
 }
@@ -261,6 +262,29 @@ function drawBg(){
 
 function drawCountries(){
   gMap.selectAll('*').remove();
+  gDefs.selectAll('*').remove();
+
+  // Create gradient defs from flag hex colors
+  for(const c of Object.values(MD)){
+    if(!c.iso) continue;
+    const fl=flagAt(c,yr);
+    if(!fl) continue;
+    const hx=fl.hex_colors;
+    if(!hx||!hx.length) continue;
+    // Filter: skip pure white/near-white, keep at least one color
+    let cols=hx.filter(h=>{const n=h.replace('#','').toLowerCase();return n!=='fff'&&n!=='ffffff'&&n!=='fefefe'});
+    if(!cols.length) cols=hx.slice(0,1); // fallback to first even if white
+    // Create horizontal gradient
+    const grad=gDefs.append('linearGradient').attr('id','gf-'+c.iso).attr('x1','0%').attr('y1','0%').attr('x2','100%').attr('y2','0%');
+    cols.forEach((col,i)=>{
+      grad.append('stop').attr('offset',(i/(cols.length-1||1)*100)+'%').attr('stop-color',col).attr('stop-opacity',0.45);
+    });
+    if(cols.length===1){
+      // Single color: just a solid with alpha
+      grad.append('stop').attr('offset','100%').attr('stop-color',cols[0]).attr('stop-opacity',0.45);
+    }
+  }
+
   const feats=topojson.feature(W,W.objects.countries);
   gMap.selectAll('.co').data(feats.features).enter().append('path')
     .attr('class',d=>'co'+(lk(d)?' has':''))
@@ -271,8 +295,7 @@ function drawCountries(){
 function cFill(d){
   const c=lk(d);if(!c)return'var(--land)';
   const fl=flagAt(c,yr);if(!fl)return'var(--landH)';
-  const col=fl.colors&&fl.colors[0];
-  if(col&&CLR[col])return CLR[col]+'44';
+  if(fl.hex_colors&&fl.hex_colors.length) return'url(#gf-'+c.iso+')';
   return'var(--landH)';
 }
 
