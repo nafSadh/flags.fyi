@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Flag Map — Flags.fyi</title>
+<meta name="description" content="Interactive world map of national, historical, and sub-national flags. Explore 267 flags across 94 countries.">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,500;0,9..40,700;1,9..40,300&family=Instrument+Serif:ital@0;1&display=swap');
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --bg: #0a0a0f;
+  --bg2: #12121a;
+  --bg3: #1a1a26;
+  --fg: #e8e6e3;
+  --fg2: #9a9890;
+  --accent: #c9a84c;
+  --accent2: #8b6914;
+  --ocean: #0d1117;
+  --land: #1e1e2a;
+  --land-has: #2a2a3a;
+  --land-hover: #3a3a4e;
+  --border: #2a2a38;
+  --panel-w: 420px;
+}
+
+html, body { height: 100%; overflow: hidden; }
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--bg);
+  color: var(--fg);
+}
+
+/* ── Layout ── */
+#app { display: flex; height: 100vh; width: 100vw; }
+
+#mapContainer {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  cursor: grab;
+}
+#mapContainer:active { cursor: grabbing; }
+
+#mapSvg {
+  width: 100%;
+  height: 100%;
+}
+
+/* ── Top Bar ── */
+#topBar {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  background: linear-gradient(to bottom, rgba(10,10,15,0.95), transparent);
+  z-index: 10;
+  pointer-events: none;
+}
+#topBar > * { pointer-events: auto; }
+
+#topBar h1 {
+  font-family: 'Instrument Serif', serif;
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: var(--fg);
+}
+#topBar h1 a {
+  color: inherit;
+  text-decoration: none;
+}
+#topBar h1 span { color: var(--accent); }
+
+.bar-controls {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.bar-btn {
+  background: rgba(30,30,42,0.8);
+  border: 1px solid var(--border);
+  color: var(--fg2);
+  padding: 7px 14px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.2s;
+  backdrop-filter: blur(8px);
+}
+.bar-btn:hover { color: var(--fg); border-color: var(--accent2); }
+.bar-btn.active { color: var(--accent); border-color: var(--accent); background: rgba(201,168,76,0.08); }
+
+/* ── Search ── */
+#searchBox {
+  position: relative;
+}
+#searchInput {
+  background: rgba(30,30,42,0.8);
+  border: 1px solid var(--border);
+  color: var(--fg);
+  padding: 7px 14px 7px 32px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-family: inherit;
+  width: 220px;
+  outline: none;
+  backdrop-filter: blur(8px);
+  transition: border-color 0.2s;
+}
+#searchInput::placeholder { color: var(--fg2); }
+#searchInput:focus { border-color: var(--accent); }
+
+#searchIcon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--fg2);
+  font-size: 14px;
+  pointer-events: none;
+}
+#searchResults {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  width: 300px;
+  max-height: 400px;
+  overflow-y: auto;
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  display: none;
+  z-index: 100;
+}
+#searchResults.visible { display: block; }
+.search-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  cursor: pointer;
+  transition: background 0.15s;
+  text-decoration: none;
+  color: var(--fg);
+}
+.search-item:hover { background: var(--bg3); }
+.search-item img {
+  width: 32px;
+  height: 20px;
+  object-fit: contain;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+.search-item-name { font-size: 13px; }
+.search-item-count { font-size: 11px; color: var(--fg2); margin-left: auto; }
+
+/* ── Timeline ── */
+#timeline {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  padding: 12px 24px 20px;
+  background: linear-gradient(to top, rgba(10,10,15,0.95), transparent);
+  z-index: 10;
+  pointer-events: none;
+}
+#timeline > * { pointer-events: auto; }
+
+#timelineInner {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+#yearDisplay {
+  font-family: 'Instrument Serif', serif;
+  font-size: 28px;
+  color: var(--accent);
+  min-width: 80px;
+  text-align: center;
+}
+
+#timeSlider {
+  flex: 1;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 4px;
+  background: var(--border);
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+}
+#timeSlider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
+  background: var(--accent);
+  border-radius: 50%;
+  cursor: grab;
+  box-shadow: 0 0 12px rgba(201,168,76,0.4);
+}
+#timeSlider::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  background: var(--accent);
+  border-radius: 50%;
+  border: none;
+  cursor: grab;
+}
+
+#timeLabel {
+  font-size: 12px;
+  color: var(--fg2);
+  text-align: center;
+  margin-top: 6px;
+}
+
+#resetTimeBtn {
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--fg2);
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+#resetTimeBtn:hover { color: var(--accent); border-color: var(--accent); }
+
+/* ── Country Info (tooltip) ── */
+#tooltip {
+  position: absolute;
+  pointer-events: none;
+  background: rgba(18,18,26,0.95);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 14px;
+  display: none;
+  z-index: 50;
+  backdrop-filter: blur(8px);
+  max-width: 240px;
+}
+#tooltip.visible { display: flex; gap: 10px; align-items: center; }
+#tooltip img {
+  width: 40px;
+  height: 26px;
+  object-fit: contain;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+#tooltipName { font-size: 14px; font-weight: 500; }
+#tooltipMeta { font-size: 11px; color: var(--fg2); margin-top: 2px; }
+
+/* ── Side Panel ── */
+#panel {
+  width: 0;
+  overflow: hidden;
+  background: var(--bg2);
+  border-left: 1px solid var(--border);
+  transition: width 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  flex-shrink: 0;
+}
+#panel.open { width: var(--panel-w); }
+
+#panelInner {
+  width: var(--panel-w);
+  height: 100vh;
+  overflow-y: auto;
+  padding: 0;
+}
+
+#panelHeader {
+  position: sticky;
+  top: 0;
+  background: var(--bg2);
+  padding: 20px 24px 16px;
+  border-bottom: 1px solid var(--border);
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#panelTitle {
+  font-family: 'Instrument Serif', serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+#panelClose {
+  background: none;
+  border: none;
+  color: var(--fg2);
+  font-size: 22px;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: color 0.2s;
+}
+#panelClose:hover { color: var(--fg); }
+
+#panelCurrentFlag {
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  background: var(--bg3);
+}
+#panelCurrentFlag img {
+  max-width: 200px;
+  max-height: 130px;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+}
+
+#panelBody { padding: 0 24px 80px; }
+
+.section-label {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--fg2);
+  margin: 24px 0 12px;
+}
+
+.flag-card {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 12px;
+  margin-bottom: 6px;
+  border-radius: 8px;
+  background: var(--bg);
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-decoration: none;
+  color: var(--fg);
+}
+.flag-card:hover { border-color: var(--accent2); background: var(--bg3); }
+.flag-card.current-flag { border-color: var(--accent); }
+
+.flag-card img {
+  width: 48px;
+  height: 32px;
+  object-fit: contain;
+  border-radius: 2px;
+  flex-shrink: 0;
+  background: #fff;
+}
+
+.flag-card-info { flex: 1; min-width: 0; }
+.flag-card-name {
+  font-size: 13px;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.flag-card-years {
+  font-size: 11px;
+  color: var(--fg2);
+  margin-top: 2px;
+}
+
+.flag-card-arrow {
+  color: var(--fg2);
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+/* ── Stats bar ── */
+#statsBar {
+  position: absolute;
+  bottom: 70px;
+  left: 24px;
+  font-size: 11px;
+  color: var(--fg2);
+  pointer-events: none;
+  z-index: 10;
+}
+
+/* ── Globe graticule ── */
+.graticule {
+  fill: none;
+  stroke: rgba(255,255,255,0.04);
+  stroke-width: 0.5;
+}
+.sphere { fill: var(--ocean); }
+.country {
+  stroke: rgba(255,255,255,0.08);
+  stroke-width: 0.5;
+  transition: fill 0.2s;
+  cursor: default;
+}
+.country.has-flags { cursor: pointer; }
+.country.highlighted {
+  stroke: var(--accent);
+  stroke-width: 1.5;
+}
+
+.flag-marker {
+  cursor: pointer;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5));
+  transition: transform 0.15s;
+  pointer-events: all;
+}
+.flag-marker:hover {
+  filter: drop-shadow(0 2px 8px rgba(201,168,76,0.4));
+}
+
+/* ── Loading ── */
+#loading {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg);
+  z-index: 100;
+  transition: opacity 0.5s;
+}
+#loading.hidden { opacity: 0; pointer-events: none; }
+#loading .spinner {
+  width: 40px; height: 40px;
+  border: 3px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* ── Mobile ── */
+@media (max-width: 768px) {
+  :root { --panel-w: 100vw; }
+  #searchInput { width: 140px; }
+  #topBar h1 { font-size: 18px; }
+  #yearDisplay { font-size: 22px; min-width: 60px; }
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+</style>
+</head>
+<body>
+<div id="app">
+  <div id="mapContainer">
+    <svg id="mapSvg"></svg>
+
+    <div id="topBar">
+      <h1><a href="/">flags<span>.fyi</span></a> / map</h1>
+      <div class="bar-controls">
+        <div id="searchBox">
+          <span id="searchIcon">&#x1F50D;</span>
+          <input id="searchInput" type="text" placeholder="Search countries..." autocomplete="off">
+          <div id="searchResults"></div>
+        </div>
+        <button class="bar-btn active" id="btnFlat">Flat</button>
+        <button class="bar-btn" id="btnGlobe">Globe</button>
+      </div>
+    </div>
+
+    <div id="timeline">
+      <div id="timelineInner">
+        <div id="yearDisplay">Now</div>
+        <input type="range" id="timeSlider" min="-600" max="2025" value="2025" step="1">
+        <button id="resetTimeBtn">Reset</button>
+      </div>
+      <div id="timeLabel">Drag to explore flags through history — 600 BC to present</div>
+    </div>
+
+    <div id="tooltip">
+      <img id="tooltipFlag" src="" alt="">
+      <div>
+        <div id="tooltipName"></div>
+        <div id="tooltipMeta"></div>
+      </div>
+    </div>
+
+    <div id="statsBar"></div>
+    <div id="loading"><div class="spinner"></div></div>
+  </div>
+
+  <div id="panel">
+    <div id="panelInner">
+      <div id="panelHeader">
+        <div id="panelTitle"></div>
+        <button id="panelClose">&times;</button>
+      </div>
+      <div id="panelCurrentFlag"><img id="panelFlagImg" src="" alt=""></div>
+      <div id="panelBody"></div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+<script>
+(function() {
+'use strict';
+
+const BASE = 'https://flags.fyi';
+
+// ── ISO numeric → alpha-3 mapping ──
+const NUM_TO_A3 = {
+  '004':'AFG','008':'ALB','012':'DZA','020':'AND','024':'AGO','028':'ATG','032':'ARG',
+  '036':'AUS','040':'AUT','048':'BHR','050':'BGD','056':'BEL','076':'BRA','124':'CAN',
+  '148':'TCD','152':'CHL','156':'CHN','170':'COL','174':'COM','191':'HRV','192':'CUB',
+  '203':'CZE','208':'DNK','262':'DJI','818':'EGY','231':'ETH','242':'FJI','246':'FIN',
+  '250':'FRA','276':'DEU','288':'GHA','300':'GRC','348':'HUN','356':'IND','360':'IDN',
+  '364':'IRN','368':'IRQ','372':'IRL','376':'ISR','380':'ITA','392':'JPN','400':'JOR',
+  '404':'KEN','410':'KOR','414':'KWT','422':'LBN','434':'LBY','458':'MYS','478':'MRT',
+  '484':'MEX','504':'MAR','528':'NLD','554':'NZL','566':'NGA','578':'NOR','512':'OMN',
+  '586':'PAK','275':'PSE','604':'PER','608':'PHL','616':'POL','620':'PRT','634':'QAT',
+  '642':'ROU','643':'RUS','682':'SAU','702':'SGP','706':'SOM','710':'ZAF','724':'ESP',
+  '729':'SDN','752':'SWE','756':'CHE','760':'SYR','834':'TZA','764':'THA','788':'TUN',
+  '792':'TUR','826':'GBR','804':'UKR','784':'ARE','840':'USA','704':'VNM','887':'YEM',
+  '408':'PRK'
+};
+
+// Reverse: alpha-3 → numeric
+const A3_TO_NUM = {};
+for (const [n, a] of Object.entries(NUM_TO_A3)) A3_TO_NUM[a] = n;
+
+let mapData = null;    // country data from flags.fyi
+let world = null;      // TopoJSON
+let isoToCountry = {}; // alpha-3 → country data
+let projection, path, svg, g;
+let isGlobe = false;
+let currentYear = 2025;
+let selectedCountry = null;
+let flagMarkers;
+
+// ── Load data ──
+async function init() {
+  const [topoRes, flagRes] = await Promise.all([
+    fetch('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json'),
+    fetch('/map/data.json')
+  ]);
+  world = await topoRes.json();
+  mapData = await flagRes.json();
+
+  // Build ISO lookup
+  for (const [id, c] of Object.entries(mapData)) {
+    if (c.iso) isoToCountry[c.iso] = c;
+  }
+
+  setupMap();
+  setupSearch();
+  setupTimeline();
+  setupControls();
+
+  document.getElementById('loading').classList.add('hidden');
+  updateStats();
+}
+
+// ── Map Setup ──
+function setupMap() {
+  const container = document.getElementById('mapContainer');
+  const w = container.clientWidth;
+  const h = container.clientHeight;
+
+  svg = d3.select('#mapSvg');
+  svg.attr('viewBox', `0 0 ${w} ${h}`);
+
+  projection = d3.geoNaturalEarth1()
+    .fitSize([w - 40, h - 120], { type: 'Sphere' })
+    .translate([w / 2, h / 2 - 10]);
+
+  path = d3.geoPath(projection);
+
+  g = svg.append('g');
+
+  // Sphere (ocean)
+  g.append('path')
+    .datum({ type: 'Sphere' })
+    .attr('class', 'sphere')
+    .attr('d', path);
+
+  // Graticule
+  g.append('path')
+    .datum(d3.geoGraticule10())
+    .attr('class', 'graticule')
+    .attr('d', path);
+
+  // Countries
+  const countries = topojson.feature(world, world.objects.countries);
+
+  g.selectAll('.country')
+    .data(countries.features)
+    .enter()
+    .append('path')
+    .attr('class', d => {
+      const a3 = NUM_TO_A3[String(d.id)];
+      return 'country' + (a3 && isoToCountry[a3] ? ' has-flags' : '');
+    })
+    .attr('d', path)
+    .attr('fill', d => {
+      const a3 = NUM_TO_A3[String(d.id)];
+      return (a3 && isoToCountry[a3]) ? 'var(--land-has)' : 'var(--land)';
+    })
+    .attr('data-iso', d => NUM_TO_A3[String(d.id)] || '')
+    .on('mouseover', onCountryHover)
+    .on('mousemove', onCountryMove)
+    .on('mouseout', onCountryOut)
+    .on('click', onCountryClick);
+
+  // Flag markers on centroids
+  renderFlagMarkers();
+
+  // Drag / zoom
+  setupInteraction(w, h);
+}
+
+function renderFlagMarkers() {
+  g.selectAll('.flag-marker').remove();
+
+  const markerData = [];
+  for (const [id, c] of Object.entries(mapData)) {
+    if (!c.centroid || !c.current_flag) continue;
+    const flagAtTime = getFlagAtYear(c, currentYear);
+    if (!flagAtTime) continue;
+
+    const pos = projection([c.centroid[1], c.centroid[0]]);
+    if (!pos) continue;
+
+    markerData.push({
+      id,
+      x: pos[0],
+      y: pos[1],
+      flag: flagAtTime.flag_svg,
+      name: c.name,
+      country: c
+    });
+  }
+
+  g.selectAll('.flag-marker')
+    .data(markerData, d => d.id)
+    .enter()
+    .append('image')
+    .attr('class', 'flag-marker')
+    .attr('href', d => BASE + d.flag)
+    .attr('x', d => d.x - 16)
+    .attr('y', d => d.y - 10)
+    .attr('width', 32)
+    .attr('height', 20)
+    .attr('preserveAspectRatio', 'xMidYMid meet')
+    .on('click', (e, d) => {
+      e.stopPropagation();
+      openPanel(d.country);
+    })
+    .on('mouseover', (e, d) => {
+      showTooltip(e, d.country);
+    })
+    .on('mousemove', (e) => {
+      moveTooltip(e);
+    })
+    .on('mouseout', hideTooltip);
+}
+
+function getFlagAtYear(country, year) {
+  if (year >= 2025) {
+    // Current era — return the current flag or first non-historical
+    const current = country.flags.find(f => f.is_current);
+    if (current) return current;
+    const nonHist = country.flags.find(f => !f.year_start && !f.is_sub);
+    if (nonHist) return nonHist;
+    return country.flags[0];
+  }
+
+  // Find flags active at this year
+  const active = country.flags.filter(f => {
+    if (f.is_sub) return false;
+    if (!f.year_start) return false; // Skip "current" flags for historical view
+    const start = f.year_start;
+    const end = f.year_end || (f.year_start + 50); // Assume ~50yr if no end
+    return year >= start && year <= end;
+  });
+
+  if (active.length > 0) {
+    // Return the most recent one
+    return active[active.length - 1];
+  }
+
+  // If nothing historical matches but year is recent, show current flag
+  if (year >= 1900) {
+    const current = country.flags.find(f => f.is_current);
+    if (current) return current;
+  }
+
+  return null;
+}
+
+// ── Interaction ──
+function setupInteraction(w, h) {
+  const zoom = d3.zoom()
+    .scaleExtent([1, 12])
+    .on('zoom', (e) => {
+      g.attr('transform', e.transform);
+    });
+
+  svg.call(zoom);
+
+  // Globe drag
+  if (isGlobe) {
+    const drag = d3.drag()
+      .on('drag', (e) => {
+        const r = projection.rotate();
+        const sens = 0.4;
+        projection.rotate([r[0] + e.dx * sens, r[1] - e.dy * sens]);
+        redrawPaths();
+      });
+    svg.call(drag);
+  }
+}
+
+function redrawPaths() {
+  path = d3.geoPath(projection);
+  g.selectAll('.country').attr('d', path);
+  g.selectAll('.sphere').attr('d', path);
+  g.selectAll('.graticule').attr('d', path);
+  renderFlagMarkers();
+}
+
+// ── Tooltip ──
+function showTooltip(e, country) {
+  const tt = document.getElementById('tooltip');
+  const flagAtTime = getFlagAtYear(country, currentYear);
+  if (!flagAtTime) return;
+
+  document.getElementById('tooltipFlag').src = BASE + flagAtTime.flag_svg;
+  document.getElementById('tooltipName').textContent = country.name;
+
+  const hist = country.flags.filter(f => !f.is_sub).length;
+  const subs = country.flags.filter(f => f.is_sub).length;
+  let meta = hist + ' flag' + (hist !== 1 ? 's' : '');
+  if (subs) meta += ', ' + subs + ' sub-national';
+  document.getElementById('tooltipMeta').textContent = meta;
+
+  tt.classList.add('visible');
+  moveTooltip(e);
+}
+
+function moveTooltip(e) {
+  const tt = document.getElementById('tooltip');
+  tt.style.left = (e.clientX + 16) + 'px';
+  tt.style.top = (e.clientY - 10) + 'px';
+}
+
+function hideTooltip() {
+  document.getElementById('tooltip').classList.remove('visible');
+}
+
+function onCountryHover(e, d) {
+  const a3 = NUM_TO_A3[String(d.id)];
+  const country = a3 ? isoToCountry[a3] : null;
+  if (!country) return;
+
+  d3.select(this).attr('fill', 'var(--land-hover)');
+  showTooltip(e, country);
+}
+
+function onCountryMove(e) { moveTooltip(e); }
+
+function onCountryOut(e, d) {
+  const a3 = NUM_TO_A3[String(d.id)];
+  const country = a3 ? isoToCountry[a3] : null;
+  const isSelected = selectedCountry && country && selectedCountry.id === country.id;
+
+  d3.select(this).attr('fill', () => {
+    if (isSelected) return 'var(--land-hover)';
+    return country ? 'var(--land-has)' : 'var(--land)';
+  });
+  hideTooltip();
+}
+
+function onCountryClick(e, d) {
+  const a3 = NUM_TO_A3[String(d.id)];
+  const country = a3 ? isoToCountry[a3] : null;
+  if (!country) return;
+  openPanel(country);
+}
+
+// ── Side Panel ──
+function openPanel(country) {
+  selectedCountry = country;
+  const panel = document.getElementById('panel');
+  panel.classList.add('open');
+
+  document.getElementById('panelTitle').textContent = country.name;
+
+  const flagAtTime = getFlagAtYear(country, currentYear);
+  const mainFlag = flagAtTime || country.flags[0];
+  document.getElementById('panelFlagImg').src = BASE + mainFlag.flag_svg;
+
+  // Highlight on map
+  g.selectAll('.country')
+    .classed('highlighted', false)
+    .attr('fill', function() {
+      const a3 = d3.select(this).attr('data-iso');
+      return (a3 && isoToCountry[a3]) ? 'var(--land-has)' : 'var(--land)';
+    });
+
+  if (country.iso) {
+    const numId = A3_TO_NUM[country.iso];
+    g.selectAll('.country')
+      .filter(d => String(d.id) === numId)
+      .classed('highlighted', true)
+      .attr('fill', 'var(--land-hover)');
+  }
+
+  // Build flag list
+  const body = document.getElementById('panelBody');
+  body.innerHTML = '';
+
+  const currentFlags = country.flags.filter(f => f.is_current);
+  const historical = country.flags.filter(f => !f.is_current && !f.is_sub && f.year_start);
+  const subNational = country.flags.filter(f => f.is_sub);
+  const other = country.flags.filter(f => !f.is_current && !f.is_sub && !f.year_start);
+
+  if (currentFlags.length) {
+    body.innerHTML += '<div class="section-label">Current</div>';
+    currentFlags.forEach(f => body.appendChild(makeFlagCard(f, true)));
+  }
+
+  if (other.length) {
+    body.innerHTML += '<div class="section-label">National</div>';
+    other.forEach(f => body.appendChild(makeFlagCard(f, false)));
+  }
+
+  if (historical.length) {
+    body.innerHTML += '<div class="section-label">Historical</div>';
+    historical.sort((a, b) => (b.year_start || 0) - (a.year_start || 0));
+    historical.forEach(f => body.appendChild(makeFlagCard(f, false)));
+  }
+
+  if (subNational.length) {
+    body.innerHTML += '<div class="section-label">Sub-national &amp; Territories</div>';
+    subNational.forEach(f => body.appendChild(makeFlagCard(f, false)));
+  }
+}
+
+function makeFlagCard(flag, isCurrent) {
+  const a = document.createElement('a');
+  a.className = 'flag-card' + (isCurrent ? ' current-flag' : '');
+  a.href = BASE + '/' + flag.slug + '/';
+  a.target = '_blank';
+
+  let years = '';
+  if (flag.year_start) {
+    const start = flag.year_start < 0 ? Math.abs(flag.year_start) + ' BC' : flag.year_start;
+    years = flag.year_end ? `${start} – ${flag.year_end}` : `${start}`;
+  } else if (isCurrent) {
+    years = 'Current';
+  }
+
+  a.innerHTML = `
+    <img src="${BASE}${flag.flag_svg}" alt="${flag.name}" onerror="this.style.display='none'">
+    <div class="flag-card-info">
+      <div class="flag-card-name">${flag.name}</div>
+      ${years ? `<div class="flag-card-years">${years}</div>` : ''}
+    </div>
+    <div class="flag-card-arrow">&#x2197;</div>
+  `;
+  return a;
+}
+
+function closePanel() {
+  document.getElementById('panel').classList.remove('open');
+  selectedCountry = null;
+  g.selectAll('.country')
+    .classed('highlighted', false)
+    .attr('fill', function() {
+      const a3 = d3.select(this).attr('data-iso');
+      return (a3 && isoToCountry[a3]) ? 'var(--land-has)' : 'var(--land)';
+    });
+}
+
+// ── Search ──
+function setupSearch() {
+  const input = document.getElementById('searchInput');
+  const results = document.getElementById('searchResults');
+
+  input.addEventListener('input', () => {
+    const q = input.value.trim().toLowerCase();
+    if (!q) { results.classList.remove('visible'); return; }
+
+    const matches = Object.values(mapData)
+      .filter(c => c.name && c.name.toLowerCase().includes(q))
+      .slice(0, 10);
+
+    if (!matches.length) { results.classList.remove('visible'); return; }
+
+    results.innerHTML = matches.map(c => `
+      <div class="search-item" data-id="${c.id}">
+        <img src="${BASE}${c.current_flag}" alt="" onerror="this.style.display='none'">
+        <span class="search-item-name">${c.name}</span>
+        <span class="search-item-count">${c.flags.length} flags</span>
+      </div>
+    `).join('');
+
+    results.classList.add('visible');
+
+    results.querySelectorAll('.search-item').forEach(el => {
+      el.addEventListener('click', () => {
+        const country = mapData[el.dataset.id];
+        openPanel(country);
+        input.value = '';
+        results.classList.remove('visible');
+
+        // Pan to country
+        if (country.centroid) {
+          const pos = projection([country.centroid[1], country.centroid[0]]);
+          if (pos) {
+            const container = document.getElementById('mapContainer');
+            const w = container.clientWidth;
+            const h = container.clientHeight;
+            const transform = d3.zoomIdentity
+              .translate(w / 2, h / 2)
+              .scale(4)
+              .translate(-pos[0], -pos[1]);
+            svg.transition().duration(750).call(
+              d3.zoom().scaleExtent([1, 12]).on('zoom', e => g.attr('transform', e.transform)).transform,
+              transform
+            );
+          }
+        }
+      });
+    });
+  });
+
+  input.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') { input.value = ''; results.classList.remove('visible'); input.blur(); }
+  });
+
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('#searchBox')) results.classList.remove('visible');
+  });
+}
+
+// ── Timeline ──
+function setupTimeline() {
+  const slider = document.getElementById('timeSlider');
+  const display = document.getElementById('yearDisplay');
+  const reset = document.getElementById('resetTimeBtn');
+
+  slider.addEventListener('input', () => {
+    currentYear = parseInt(slider.value);
+    if (currentYear >= 2025) {
+      display.textContent = 'Now';
+    } else if (currentYear < 0) {
+      display.textContent = Math.abs(currentYear) + ' BC';
+    } else {
+      display.textContent = currentYear;
+    }
+    renderFlagMarkers();
+    updateStats();
+
+    // Update panel if open
+    if (selectedCountry) openPanel(selectedCountry);
+  });
+
+  reset.addEventListener('click', () => {
+    slider.value = 2025;
+    currentYear = 2025;
+    display.textContent = 'Now';
+    renderFlagMarkers();
+    updateStats();
+    if (selectedCountry) openPanel(selectedCountry);
+  });
+}
+
+// ── View Controls ──
+function setupControls() {
+  document.getElementById('panelClose').addEventListener('click', closePanel);
+
+  document.getElementById('btnFlat').addEventListener('click', () => switchProjection(false));
+  document.getElementById('btnGlobe').addEventListener('click', () => switchProjection(true));
+
+  // Keyboard
+  document.addEventListener('keydown', (e) => {
+    if (e.target.tagName === 'INPUT') return;
+    if (e.key === 'Escape') closePanel();
+    if (e.key === '/') { e.preventDefault(); document.getElementById('searchInput').focus(); }
+  });
+}
+
+function switchProjection(globe) {
+  isGlobe = globe;
+  document.getElementById('btnFlat').classList.toggle('active', !globe);
+  document.getElementById('btnGlobe').classList.toggle('active', globe);
+
+  const container = document.getElementById('mapContainer');
+  const w = container.clientWidth;
+  const h = container.clientHeight;
+
+  if (globe) {
+    projection = d3.geoOrthographic()
+      .fitSize([Math.min(w, h) - 80, Math.min(w, h) - 80], { type: 'Sphere' })
+      .translate([w / 2, h / 2])
+      .clipAngle(90);
+  } else {
+    projection = d3.geoNaturalEarth1()
+      .fitSize([w - 40, h - 120], { type: 'Sphere' })
+      .translate([w / 2, h / 2 - 10]);
+  }
+
+  // Reset zoom
+  svg.call(d3.zoom().scaleExtent([1, 12]).on('zoom', e => g.attr('transform', e.transform)).transform, d3.zoomIdentity);
+
+  redrawPaths();
+
+  // Re-setup drag for globe
+  if (globe) {
+    const dragBehavior = d3.drag()
+      .on('drag', (e) => {
+        const r = projection.rotate();
+        projection.rotate([r[0] + e.dx * 0.4, r[1] - e.dy * 0.4]);
+        redrawPaths();
+      });
+    svg.call(dragBehavior);
+  } else {
+    svg.on('.drag', null);
+    const zoom = d3.zoom()
+      .scaleExtent([1, 12])
+      .on('zoom', (e) => g.attr('transform', e.transform));
+    svg.call(zoom);
+  }
+}
+
+function updateStats() {
+  let visible = 0;
+  for (const c of Object.values(mapData)) {
+    if (c.centroid && getFlagAtYear(c, currentYear)) visible++;
+  }
+  document.getElementById('statsBar').textContent =
+    `${visible} countries · ${Object.values(mapData).reduce((s, c) => s + c.flags.length, 0)} flags in database`;
+}
+
+// ── Boot ──
+init().catch(err => {
+  console.error('Failed to load:', err);
+  document.getElementById('loading').innerHTML = '<div style="color:var(--fg2)">Failed to load map data</div>';
+});
+
+})();
+</script>
+</body>
+</html>
