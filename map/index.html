@@ -206,8 +206,32 @@ function buildMap(){
     .on('mouseover',hIn).on('mousemove',hMv).on('mouseout',hOut).on('click',hCl);
 
   mkMarkers();
-  const zm=d3.zoom().scaleExtent([1,14]).on('zoom',e=>g.attr('transform',e.transform));
-  svg.call(zm);svg.__zb=zm;
+  applyInteraction();
+}
+let _scale=1;
+function applyInteraction(){
+  // Clear all existing behaviors
+  svg.on('.zoom',null).on('.drag',null);
+  if(isG){
+    // Globe: drag=rotate, wheel=zoom
+    svg.call(d3.drag()
+      .on('start',()=>svg.style('cursor','grabbing'))
+      .on('drag',e=>{const r=proj.rotate();proj.rotate([r[0]+e.dx*(.3/_scale),r[1]-e.dy*(.3/_scale)]);redraw()})
+      .on('end',()=>svg.style('cursor','grab'))
+    );
+    svg.on('wheel.globe',e=>{
+      e.preventDefault();
+      const dir=e.deltaY>0?0.92:1.08;
+      _scale=Math.max(1,Math.min(14,_scale*dir));
+      g.attr('transform',`scale(${_scale})`);
+      g.attr('transform-origin',`${e.offsetX}px ${e.offsetY}px`);
+    },{passive:false});
+  }else{
+    // Flat: standard zoom+pan
+    _scale=1;
+    const zm=d3.zoom().scaleExtent([1,14]).on('zoom',e=>{_scale=e.transform.k;g.attr('transform',e.transform)});
+    svg.call(zm);svg.__zb=zm;
+  }
 }
 
 function lookup(d){const a=N2A[String(d.id)];return a?I2C[a]:null}
@@ -324,7 +348,7 @@ function setupSearch(){
     res.classList.add('v');
     res.querySelectorAll('.ri').forEach(el=>el.addEventListener('click',()=>{
       const c=MD[el.dataset.id];openP(c);inp.value='';res.classList.remove('v');
-      if(c.centroid){const p=proj([c.centroid[1],c.centroid[0]]);if(p){const el2=$('mw'),t=d3.zoomIdentity.translate(el2.clientWidth/2,el2.clientHeight/2).scale(5).translate(-p[0],-p[1]);svg.transition().duration(700).call(svg.__zb.transform,t)}}
+      if(c.centroid){const p=proj([c.centroid[1],c.centroid[0]]);if(p&&!isG&&svg.__zb){const el2=$('mw'),t=d3.zoomIdentity.translate(el2.clientWidth/2,el2.clientHeight/2).scale(5).translate(-p[0],-p[1]);svg.transition().duration(700).call(svg.__zb.transform,t)}else if(isG&&p){proj.rotate([-c.centroid[1],-c.centroid[0]]);redraw()}}
     }));
   });
   inp.addEventListener('keydown',e=>{if(e.key==='Escape'){inp.value='';res.classList.remove('v');inp.blur()}});
@@ -368,9 +392,8 @@ function swP(globe){
   const el=$('mw'),w=el.clientWidth,h=el.clientHeight;
   if(globe)proj=d3.geoOrthographic().fitSize([Math.min(w,h)-60,Math.min(w,h)-60],{type:'Sphere'}).translate([w/2,h/2]).clipAngle(90);
   else proj=d3.geoNaturalEarth1().fitSize([w-30,h-110],{type:'Sphere'}).translate([w/2,h/2-8]);
-  svg.call(svg.__zb.transform,d3.zoomIdentity);redraw();
-  if(globe){svg.call(d3.drag().on('drag',e=>{const r=proj.rotate();proj.rotate([r[0]+e.dx*.4,r[1]-e.dy*.4]);redraw()}))}
-  else svg.on('.drag',null);
+  _scale=1;g.attr('transform',null);
+  redraw();applyInteraction();
 }
 function updSt(){
   let v=0;for(const c of Object.values(MD))if(c.centroid&&flagAt(c,yr))v++;
