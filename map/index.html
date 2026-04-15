@@ -326,19 +326,45 @@ function flagAt(c,y){
 }
 
 /* Interaction */
+let baseScale, lastK=1, lastX=0, lastY=0;
+
 function applyBehavior(){
   svg.on('.zoom',null).on('.drag',null).on('wheel.globe',null);
+
   if(isGlobe){
-    let v,r0;
-    svg.call(d3.drag()
-      .on('start',e=>{r0=proj.rotate();v=[e.x,e.y];svg.style('cursor','grabbing')})
-      .on('drag',e=>{const k=150/proj.scale();proj.rotate([r0[0]+(e.x-v[0])*k,r0[1]-(e.y-v[1])*k]);pathFn=d3.geoPath(proj);drawAll();if(selC)hiSel()})
-      .on('end',()=>svg.style('cursor','grab'))
-    );
-    svg.style('cursor','grab');
-    svg.on('wheel.globe',e=>{e.preventDefault();const s=proj.scale(),ns=e.deltaY<0?s*1.1:s/1.1;proj.scale(Math.max(100,Math.min(2000,ns)));pathFn=d3.geoPath(proj);drawAll();if(selC)hiSel()},{passive:false});
+    baseScale=proj.scale();
+    lastK=1; lastX=0; lastY=0;
+
+    const zm=d3.zoom()
+      .scaleExtent([0.5, 8])
+      .on('start',()=>svg.style('cursor','grabbing'))
+      .on('zoom',e=>{
+        const t=e.transform;
+        // Zoom: scale the projection
+        proj.scale(baseScale*t.k);
+        // Rotate: use translate deltas
+        const dx=t.x-lastX, dy=t.y-lastY;
+        if(Math.abs(dx)>0.1||Math.abs(dy)>0.1){
+          const r=proj.rotate();
+          const sens=0.25/t.k;
+          proj.rotate([r[0]+dx*sens, r[1]-dy*sens]);
+        }
+        lastK=t.k; lastX=t.x; lastY=t.y;
+        pathFn=d3.geoPath(proj);
+        drawAll();
+        if(selC)hiSel();
+      })
+      .on('end',()=>svg.style('cursor','grab'));
+    svg.call(zm);svg._zm=zm;svg.style('cursor','grab');
+
   }else{
-    const zm=d3.zoom().scaleExtent([1,12]).on('zoom',e=>{gMap.attr('transform',e.transform);gMarkers.attr('transform',e.transform);gBg.attr('transform',e.transform)});
+    const zm=d3.zoom()
+      .scaleExtent([1,12])
+      .on('zoom',e=>{
+        gMap.attr('transform',e.transform);
+        gMarkers.attr('transform',e.transform);
+        gBg.attr('transform',e.transform);
+      });
     svg.call(zm);svg._zm=zm;svg.style('cursor','grab');
   }
 }
@@ -422,7 +448,10 @@ function setupControls(){
 }
 function swM(globe){
   isGlobe=globe;$('bF').classList.toggle('on',!globe);$('bG').classList.toggle('on',globe);
-  const el=$('mw');gMap.attr('transform',null);gMarkers.attr('transform',null);gBg.attr('transform',null);
+  const el=$('mw');
+  // Reset zoom state and transforms
+  if(svg._zm) svg.call(svg._zm.transform, d3.zoomIdentity);
+  gMap.attr('transform',null);gMarkers.attr('transform',null);gBg.attr('transform',null);
   setProj(el.clientWidth,el.clientHeight-52);drawAll();applyBehavior();if(selC)hiSel();
 }
 function updStats(){let v=0;for(const c of Object.values(MD))if(c.centroid&&flagAt(c,yr))v++;$('st').textContent=v+' countries · '+Object.values(MD).reduce((s,c)=>s+c.flags.length,0)+' flags'}
