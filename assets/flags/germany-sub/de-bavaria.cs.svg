@@ -6,15 +6,15 @@
     </marker>
 </defs>
 <path fill="#fafafa" d="m-4000 -3500h23000v18000H-4000z"/>
-<path fill="#fff" d="m0 0h15000v10000H0z"/>
+<path fill="#fff" d="m0 0h15000v9000H0z"/>
 <g opacity=".5">
-  <path fill="#fff" d="m0 0h15000v10000H0z"/>
-  <path fill="#ffffff" d="m0 0.0h15000v5000.0H0z"/>
-  <path fill="#0066b3" d="m0 5000.0h15000v5000.0H0z"/>
+  <path fill="#fff" d="m0 0h15000v9000H0z"/>
+  <path fill="#ffffff" d="m0 0h15000v4500H0z"/>
+  <path fill="#0066b3" d="m0 4500h15000v4500H0z"/>
 </g>
 <g stroke="#000" stroke-width="140" stroke-linejoin="round" stroke-linecap="round">
-  <path stroke="#444" stroke-width="250" d="m0 0h15000v10000H0z"/>
-  <path d="m0 5000.0h15000"/>
+  <path stroke="#444" stroke-width="250" d="m0 0h15000v9000H0z"/>
+  <path d="m0 4500h15000"/>
   <path stroke="#222" stroke-width="75" stroke-dasharray="200,200" d="m7500.0 -2500.0v15000"/>
 </g>
 <g stroke="#00f" stroke-width="75" marker-start="url(#left-arrow)">
