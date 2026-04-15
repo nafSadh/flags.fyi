@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Flag Timeline — Flags.fyi</title>
+<meta name="description" content="Explore the history of national flags through an interactive timeline spanning 3000 years.">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,500;0,9..40,700;1,9..40,300&family=Instrument+Serif:ital@0;1&display=swap');
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#08080d;--bg2:#101018;--bg3:#181824;--bg4:#222234;
+  --fg:#ebe9e4;--fg2:#8a8880;--fg3:#5a5850;
+  --acc:#c9a84c;--acc2:#8b6914;--accBg:rgba(201,168,76,0.06);
+  --brd:#282840;
+  --ease:cubic-bezier(.4,0,.2,1);
+}
+html,body{height:100%;overflow:hidden}
+body{font-family:'DM Sans',system-ui,sans-serif;background:var(--bg);color:var(--fg)}
+
+/* Bar */
+#bar{position:fixed;top:0;left:0;right:0;display:flex;align-items:center;justify-content:space-between;padding:14px 20px;background:rgba(8,8,13,.96);border-bottom:1px solid var(--brd);z-index:20;gap:12px}
+#bar h1{font-family:'Instrument Serif',serif;font-size:21px;font-weight:400;white-space:nowrap}
+#bar h1 a{color:var(--fg);text-decoration:none}
+#bar h1 em{color:var(--acc);font-style:normal}
+.bc{display:flex;gap:6px;align-items:center}
+.b{background:rgba(24,24,36,.85);border:1px solid var(--brd);color:var(--fg2);padding:6px 12px;border-radius:5px;font:13px/1 inherit;cursor:pointer;transition:all .2s;text-decoration:none}
+.b:hover{color:var(--fg);border-color:var(--acc2)}
+.b.on{color:var(--acc);border-color:var(--acc);background:var(--accBg)}
+
+/* Cursor line */
+#cursor{position:fixed;top:52px;bottom:0;width:2px;background:var(--acc);z-index:15;pointer-events:none;box-shadow:0 0 12px rgba(201,168,76,.3)}
+#cursorYear{position:fixed;top:56px;background:var(--acc);color:var(--bg);font-family:'Instrument Serif',serif;font-size:18px;padding:2px 10px;border-radius:0 0 4px 4px;z-index:16;pointer-events:none;transform:translateX(-50%);white-space:nowrap}
+
+/* Timeline container */
+#tl{position:absolute;top:52px;bottom:0;left:0;right:0;overflow:auto}
+#canvas{position:relative;min-height:100%}
+
+/* Era markers */
+.era{position:absolute;top:0;bottom:0;border-left:1px solid rgba(255,255,255,.04);z-index:1}
+.era-label{position:sticky;top:0;padding:4px 8px;font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--fg3);background:var(--bg);z-index:2;white-space:nowrap}
+
+/* Country row */
+.row{display:flex;align-items:center;height:52px;border-bottom:1px solid rgba(255,255,255,.03);position:relative}
+.row:hover{background:rgba(255,255,255,.02)}
+.row-label{position:sticky;left:0;width:140px;min-width:140px;padding:0 12px;font-size:12px;font-weight:500;background:var(--bg);z-index:5;display:flex;align-items:center;gap:8px;height:100%;border-right:1px solid var(--brd)}
+.row-label img{width:24px;height:15px;object-fit:contain;border-radius:1px;flex-shrink:0}
+.row-label span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.row-track{flex:1;position:relative;height:100%}
+
+/* Flag span */
+.fspan{position:absolute;top:8px;height:36px;border-radius:4px;display:flex;align-items:center;gap:6px;padding:0 8px;cursor:pointer;transition:all .15s;overflow:hidden;border:1px solid transparent}
+.fspan:hover{border-color:var(--acc);z-index:10;transform:scaleY(1.08)}
+.fspan img{width:28px;height:18px;object-fit:contain;border-radius:2px;flex-shrink:0}
+.fspan-name{font-size:10px;color:var(--fg);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.fspan-year{font-size:9px;color:var(--fg2);white-space:nowrap}
+
+/* Color palette for flag spans */
+.fspan.c0{background:rgba(200,60,60,.25)}
+.fspan.c1{background:rgba(60,120,200,.25)}
+.fspan.c2{background:rgba(60,180,80,.25)}
+.fspan.c3{background:rgba(200,160,40,.25)}
+.fspan.c4{background:rgba(160,60,200,.25)}
+.fspan.c5{background:rgba(200,120,40,.25)}
+.fspan.c6{background:rgba(40,180,180,.25)}
+.fspan.c7{background:rgba(180,60,120,.25)}
+.fspan.current{background:var(--accBg);border-color:var(--acc2)}
+
+/* Tooltip */
+#ftt{position:fixed;pointer-events:none;background:rgba(16,16,24,.96);border:1px solid var(--brd);border-radius:7px;padding:12px 14px;display:none;z-index:50;backdrop-filter:blur(6px);max-width:280px}
+#ftt.v{display:block}
+#ftt img{width:60px;height:38px;object-fit:contain;border-radius:3px;margin-bottom:8px;background:#fff}
+#ftt h3{font-size:14px;font-weight:500;margin-bottom:2px}
+#ftt .ftm{font-size:11px;color:var(--fg2)}
+#ftt .ftd{font-size:11px;color:var(--fg3);margin-top:6px;line-height:1.4}
+
+/* Loading */
+#ld{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:var(--bg);z-index:100;transition:opacity .4s}
+#ld.off{opacity:0;pointer-events:none}
+.sp{width:32px;height:32px;border:2px solid var(--brd);border-top-color:var(--acc);border-radius:50%;animation:s .7s linear infinite}
+@keyframes s{to{transform:rotate(360deg)}}
+
+/* Stats */
+#stats{position:fixed;bottom:12px;left:12px;font-size:10px;color:var(--fg3);z-index:10}
+
+@media(max-width:768px){
+  .row-label{width:100px;min-width:100px;font-size:11px}
+  .row-label img{display:none}
+}
+::-webkit-scrollbar{width:6px;height:6px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:var(--brd);border-radius:3px}
+</style>
+</head>
+<body>
+<div id="bar">
+  <h1><a href="/">flags<em>.fyi</em></a> <span style="color:var(--fg3);font-family:'DM Sans';font-size:13px;margin-left:4px">/ timeline</span></h1>
+  <div class="bc">
+    <a class="b" href="/map/">← Map</a>
+    <button class="b on" id="bAll">All Flags</button>
+    <button class="b" id="bHist">Historical Only</button>
+  </div>
+</div>
+<div id="cursor"></div>
+<div id="cursorYear">2025</div>
+<div id="tl"><div id="canvas"></div></div>
+<div id="ftt"><img id="fti" src=""><h3 id="ftn"></h3><div class="ftm" id="ftm"></div><div class="ftd" id="ftd"></div></div>
+<div id="ld"><div class="sp"></div></div>
+<div id="stats"></div>
+
+<script>
+(function(){
+'use strict';
+const B='https://flags.fyi';
+
+// Timeline config
+const MIN_YEAR=-600;
+const MAX_YEAR=2025;
+const PX_PER_YEAR=3; // pixels per year
+const TOTAL_W=(MAX_YEAR-MIN_YEAR)*PX_PER_YEAR;
+const LABEL_W=140;
+
+let MD=null;
+let showAll=true;
+
+function $(id){return document.getElementById(id)}
+
+async function init(){
+  const res=await fetch('/map/data.json');
+  MD=await res.json();
+  render();
+  setupCursor();
+  setupControls();
+  $('ld').classList.add('off');
+}
+
+function yearToX(y){return (y-MIN_YEAR)*PX_PER_YEAR}
+function xToYear(x){return Math.round(x/PX_PER_YEAR+MIN_YEAR)}
+
+function render(){
+  const canvas=$('canvas');
+  canvas.innerHTML='';
+  canvas.style.width=(TOTAL_W+LABEL_W)+'px';
+
+  // Era markers
+  const eras=[
+    {year:-500,label:'Antiquity'},{year:0,label:'Common Era'},{year:500,label:'Middle Ages'},
+    {year:1000,label:'1000'},{year:1200,label:'1200'},{year:1400,label:'1400'},
+    {year:1500,label:'1500'},{year:1600,label:'1600'},{year:1700,label:'1700'},
+    {year:1750,label:'1750'},{year:1800,label:'1800'},{year:1850,label:'1850'},
+    {year:1900,label:'1900'},{year:1920,label:'1920'},{year:1940,label:'1940'},
+    {year:1950,label:'1950'},{year:1960,label:'1960'},{year:1970,label:'1970'},
+    {year:1980,label:'1980'},{year:1990,label:'1990'},{year:2000,label:'2000'},
+    {year:2010,label:'2010'},{year:2020,label:'2020'},
+  ];
+
+  for(const era of eras){
+    const el=document.createElement('div');
+    el.className='era';
+    el.style.left=(LABEL_W+yearToX(era.year))+'px';
+    el.innerHTML=`<div class="era-label">${era.label}</div>`;
+    canvas.appendChild(el);
+  }
+
+  // Build sorted country list — countries with more historical flags first
+  const countries=Object.values(MD)
+    .map(c=>{
+      const hist=c.flags.filter(f=>!f.is_sub&&f.year_start);
+      return {...c,histCount:hist.length,earliest:hist.length?Math.min(...hist.map(f=>f.year_start)):9999};
+    })
+    .filter(c=>showAll?true:c.histCount>0)
+    .sort((a,b)=>a.earliest-b.earliest||b.histCount-a.histCount);
+
+  let totalFlags=0;
+
+  for(let i=0;i<countries.length;i++){
+    const c=countries[i];
+    const row=document.createElement('div');
+    row.className='row';
+
+    // Label
+    const label=document.createElement('div');
+    label.className='row-label';
+    label.innerHTML=`<img src="${B}${c.current_flag}" alt="" onerror="this.style.display='none'"><span>${c.name}</span>`;
+    row.appendChild(label);
+
+    // Track
+    const track=document.createElement('div');
+    track.className='row-track';
+    track.style.width=TOTAL_W+'px';
+
+    // Get flags to show
+    let flags=c.flags.filter(f=>!f.is_sub);
+    if(!showAll)flags=flags.filter(f=>f.year_start);
+
+    // Color hash
+    const ci=i%8;
+
+    for(const f of flags){
+      const span=document.createElement('div');
+      const start=f.year_start||1900; // Current flags: show from 1900 if no start
+      const end=f.year_end||(f.is_current?MAX_YEAR:(f.year_start?(f.year_start+50):MAX_YEAR));
+      const x1=yearToX(Math.max(start,MIN_YEAR));
+      const x2=yearToX(Math.min(end,MAX_YEAR));
+      const w=Math.max(x2-x1,30);
+
+      span.className='fspan '+(f.is_current?'current':'c'+ci);
+      span.style.left=x1+'px';
+      span.style.width=w+'px';
+      span.innerHTML=`<img src="${B}${f.flag_svg}" alt="" onerror="this.style.display='none'">${w>120?`<span class="fspan-name">${f.name}</span>`:''}${w>200?`<span class="fspan-year">${start<0?Math.abs(start)+' BC':start}${end<MAX_YEAR?' – '+end:''}</span>`:''}`;
+
+      span.addEventListener('mouseover',e=>showTT(e,f,c));
+      span.addEventListener('mousemove',e=>moveTT(e));
+      span.addEventListener('mouseout',()=>hideTT());
+      span.addEventListener('click',()=>{window.open(B+'/'+f.slug+'/','_blank')});
+
+      track.appendChild(span);
+      totalFlags++;
+    }
+
+    row.appendChild(track);
+    canvas.appendChild(row);
+  }
+
+  $('stats').textContent=`${countries.length} countries · ${totalFlags} flag spans`;
+
+  // Scroll to ~1700 on load
+  $('tl').scrollLeft=yearToX(1700);
+}
+
+function setupCursor(){
+  const tl=$('tl');
+  const cursor=$('cursor');
+  const cursorYear=$('cursorYear');
+
+  tl.addEventListener('mousemove',e=>{
+    const rect=tl.getBoundingClientRect();
+    const x=e.clientX;
+    cursor.style.left=x+'px';
+    cursorYear.style.left=x+'px';
+
+    const scrollX=tl.scrollLeft;
+    const trackX=x-rect.left-LABEL_W+scrollX;
+    const year=xToYear(trackX);
+    if(year>=MIN_YEAR&&year<=MAX_YEAR){
+      cursorYear.textContent=year<0?Math.abs(year)+' BC':year;
+      cursor.style.display='block';
+      cursorYear.style.display='block';
+    }else{
+      cursor.style.display='none';
+      cursorYear.style.display='none';
+    }
+  });
+
+  tl.addEventListener('mouseleave',()=>{
+    cursor.style.display='none';
+    cursorYear.style.display='none';
+  });
+}
+
+function showTT(e,f,c){
+  const tt=$('ftt');
+  $('fti').src=B+f.flag_svg;
+  $('ftn').textContent=f.name;
+  let meta='';
+  if(f.year_start){
+    const s=f.year_start<0?Math.abs(f.year_start)+' BC':f.year_start;
+    meta=f.year_end?`${s} – ${f.year_end}`:`From ${s}`;
+  }
+  if(f.is_current)meta+=' · Current flag';
+  $('ftm').textContent=meta;
+  $('ftd').textContent='Part of '+c.name+' · Click to view on flags.fyi';
+  tt.classList.add('v');
+  moveTT(e);
+}
+function moveTT(e){
+  const tt=$('ftt');
+  let x=e.clientX+16,y=e.clientY-10;
+  if(x+280>window.innerWidth)x=e.clientX-290;
+  if(y+120>window.innerHeight)y=e.clientY-130;
+  tt.style.left=x+'px';tt.style.top=y+'px';
+}
+function hideTT(){$('ftt').classList.remove('v')}
+
+function setupControls(){
+  $('bAll').addEventListener('click',()=>{showAll=true;$('bAll').classList.add('on');$('bHist').classList.remove('on');render()});
+  $('bHist').addEventListener('click',()=>{showAll=false;$('bHist').classList.add('on');$('bAll').classList.remove('on');render()});
+}
+
+init().catch(err=>{console.error(err);$('ld').innerHTML='<div style="color:var(--fg2)">'+err.message+'</div>'});
+})();
+</script>
+</body>
+</html>

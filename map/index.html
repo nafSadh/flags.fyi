@@ -8,1054 +8,376 @@
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
 <style>
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,500;0,9..40,700;1,9..40,300&family=Instrument+Serif:ital@0;1&display=swap');
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#08080d;--bg2:#101018;--bg3:#181824;--bg4:#222234;
+  --fg:#ebe9e4;--fg2:#8a8880;--fg3:#5a5850;
+  --acc:#c9a84c;--acc2:#8b6914;--accBg:rgba(201,168,76,0.06);
+  --ocean:#0b0e14;--land:#1a1a28;--landH:#262638;--landHv:#363650;
+  --brd:#282840;--pw:420px;--ease:cubic-bezier(.4,0,.2,1);
+}
+html,body{height:100%;overflow:hidden}
+body{font-family:'DM Sans',system-ui,sans-serif;background:var(--bg);color:var(--fg)}
 
-*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+#app{display:flex;height:100vh;width:100vw}
+#mw{flex:1;position:relative;overflow:hidden;cursor:grab}
+#mw:active{cursor:grabbing}
+#ms{width:100%;height:100%}
 
-:root {
-  --bg: #0a0a0f;
-  --bg2: #12121a;
-  --bg3: #1a1a26;
-  --fg: #e8e6e3;
-  --fg2: #9a9890;
-  --accent: #c9a84c;
-  --accent2: #8b6914;
-  --ocean: #0d1117;
-  --land: #1e1e2a;
-  --land-has: #2a2a3a;
-  --land-hover: #3a3a4e;
-  --border: #2a2a38;
-  --panel-w: 420px;
-}
+/* Bar */
+#bar{position:absolute;top:0;left:0;right:0;display:flex;align-items:center;justify-content:space-between;padding:14px 20px;background:linear-gradient(to bottom,rgba(8,8,13,.96) 60%,transparent);z-index:10;pointer-events:none;gap:12px}
+#bar>*{pointer-events:auto}
+#bar h1{font-family:'Instrument Serif',serif;font-size:21px;font-weight:400;white-space:nowrap}
+#bar h1 a{color:var(--fg);text-decoration:none}
+#bar h1 em{color:var(--acc);font-style:normal}
+.bc{display:flex;gap:6px;align-items:center}
+.b{background:rgba(24,24,36,.85);border:1px solid var(--brd);color:var(--fg2);padding:6px 12px;border-radius:5px;font:13px/1 inherit;cursor:pointer;transition:all .2s;backdrop-filter:blur(8px);white-space:nowrap}
+.b:hover{color:var(--fg);border-color:var(--acc2)}
+.b.on{color:var(--acc);border-color:var(--acc);background:var(--accBg)}
+.b svg{display:block}
 
-html, body { height: 100%; overflow: hidden; }
+/* Search */
+#sb{position:relative}
+#si{background:rgba(24,24,36,.85);border:1px solid var(--brd);color:var(--fg);padding:6px 12px 6px 30px;border-radius:5px;font:13px/1.4 inherit;width:200px;outline:none;backdrop-filter:blur(8px);transition:all .2s}
+#si::placeholder{color:var(--fg3)}
+#si:focus{border-color:var(--acc);width:260px}
+.sic{position:absolute;left:9px;top:50%;transform:translateY(-50%);color:var(--fg3);font-size:13px;pointer-events:none}
+#sr{position:absolute;top:calc(100% + 4px);left:0;width:300px;max-height:360px;overflow-y:auto;background:var(--bg2);border:1px solid var(--brd);border-radius:6px;display:none;z-index:100}
+#sr.v{display:block}
+.ri{display:flex;align-items:center;gap:10px;padding:9px 12px;cursor:pointer;transition:background .12s;color:var(--fg);text-decoration:none}
+.ri:hover{background:var(--bg3)}
+.ri img{width:30px;height:19px;object-fit:contain;border-radius:2px;flex-shrink:0;background:#222}
+.rn{font-size:13px;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.rc{font-size:11px;color:var(--fg3);flex-shrink:0}
 
-body {
-  font-family: 'DM Sans', sans-serif;
-  background: var(--bg);
-  color: var(--fg);
-}
+/* Mode tag */
+#mt{position:absolute;top:58px;left:20px;z-index:10;pointer-events:none}
+#mt span{display:inline-block;background:var(--accBg);border:1px solid var(--acc2);color:var(--acc);font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:3px 8px;border-radius:3px}
 
-/* ── Layout ── */
-#app { display: flex; height: 100vh; width: 100vw; }
+/* Timeline */
+#tl{position:absolute;bottom:0;left:0;right:0;padding:10px 20px 18px;background:linear-gradient(to top,rgba(8,8,13,.96) 60%,transparent);z-index:10;pointer-events:none}
+#tl>*{pointer-events:auto}
+#tr{display:flex;align-items:center;gap:14px}
+#yr{font-family:'Instrument Serif',serif;font-size:26px;color:var(--acc);min-width:70px;text-align:center}
+#sl{flex:1;-webkit-appearance:none;appearance:none;height:3px;background:var(--brd);border-radius:2px;outline:none;cursor:pointer}
+#sl::-webkit-slider-thumb{-webkit-appearance:none;width:16px;height:16px;background:var(--acc);border-radius:50%;cursor:grab;box-shadow:0 0 10px rgba(201,168,76,.35)}
+#sl::-moz-range-thumb{width:16px;height:16px;background:var(--acc);border-radius:50%;border:none;cursor:grab}
+#th{font-size:11px;color:var(--fg3);text-align:center;margin-top:4px}
+#rb{background:none;border:1px solid var(--brd);color:var(--fg3);padding:3px 8px;border-radius:3px;font:11px inherit;cursor:pointer;transition:all .2s;white-space:nowrap}
+#rb:hover{color:var(--acc);border-color:var(--acc)}
 
-#mapContainer {
-  flex: 1;
-  position: relative;
-  overflow: hidden;
-  cursor: grab;
-}
-#mapContainer:active { cursor: grabbing; }
+/* Tooltip */
+#tt{position:absolute;pointer-events:none;background:rgba(16,16,24,.94);border:1px solid var(--brd);border-radius:7px;padding:8px 12px;display:none;z-index:50;backdrop-filter:blur(6px);max-width:220px}
+#tt.v{display:flex;gap:9px;align-items:center}
+#tt img{width:36px;height:22px;object-fit:contain;border-radius:2px;flex-shrink:0;background:#222}
+.tn{font-size:13px;font-weight:500}
+.tm{font-size:10px;color:var(--fg2);margin-top:2px}
 
-#mapSvg {
-  width: 100%;
-  height: 100%;
-}
+/* Panel */
+#pn{width:0;overflow:hidden;background:var(--bg2);border-left:1px solid var(--brd);transition:width .3s var(--ease);flex-shrink:0}
+#pn.open{width:var(--pw)}
+#pi{width:var(--pw);height:100vh;overflow-y:auto}
+#ph{position:sticky;top:0;background:var(--bg2);padding:18px 20px 14px;border-bottom:1px solid var(--brd);z-index:5;display:flex;align-items:center;justify-content:space-between}
+#pt{font-family:'Instrument Serif',serif;font-size:22px;font-weight:400}
+#px{background:none;border:none;color:var(--fg2);font-size:20px;cursor:pointer;padding:2px 6px;border-radius:3px;transition:color .2s;line-height:1}
+#px:hover{color:var(--fg)}
+#pfl{padding:20px;display:flex;justify-content:center;background:var(--bg3)}
+#pfl img{max-width:180px;max-height:120px;object-fit:contain;border-radius:3px;box-shadow:0 4px 16px rgba(0,0,0,.4)}
+#pb{padding:0 20px 80px}
+.sl{font-size:9px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--fg3);margin:20px 0 10px}
+.fc{display:flex;gap:10px;align-items:center;padding:10px;margin-bottom:4px;border-radius:6px;background:var(--bg);border:1px solid transparent;cursor:pointer;transition:all .15s;text-decoration:none;color:var(--fg)}
+.fc:hover{border-color:var(--acc2);background:var(--bg3)}
+.fc.cu{border-color:var(--acc)}
+.fc img{width:44px;height:28px;object-fit:contain;border-radius:2px;flex-shrink:0;background:#fff}
+.fi{flex:1;min-width:0}
+.fn{font-size:12px;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.fy{font-size:10px;color:var(--fg2);margin-top:1px}
+.fa{color:var(--fg3);font-size:12px;flex-shrink:0}
+.pl{display:block;text-align:center;margin:16px 0 0;padding:10px;border:1px solid var(--brd);border-radius:6px;color:var(--acc);text-decoration:none;font-size:12px;transition:all .2s}
+.pl:hover{background:var(--accBg);border-color:var(--acc)}
 
-/* ── Top Bar ── */
-#topBar {
-  position: absolute;
-  top: 0; left: 0; right: 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 16px 24px;
-  background: linear-gradient(to bottom, rgba(10,10,15,0.95), transparent);
-  z-index: 10;
-  pointer-events: none;
-}
-#topBar > * { pointer-events: auto; }
+/* Stats */
+#st{position:absolute;bottom:64px;left:20px;font-size:10px;color:var(--fg3);pointer-events:none;z-index:10}
 
-#topBar h1 {
-  font-family: 'Instrument Serif', serif;
-  font-size: 22px;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-  color: var(--fg);
-}
-#topBar h1 a {
-  color: inherit;
-  text-decoration: none;
-}
-#topBar h1 span { color: var(--accent); }
+/* Loading */
+#ld{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;background:var(--bg);z-index:100;transition:opacity .4s;gap:16px}
+#ld.off{opacity:0;pointer-events:none}
+.sp{width:32px;height:32px;border:2px solid var(--brd);border-top-color:var(--acc);border-radius:50%;animation:s .7s linear infinite}
+@keyframes s{to{transform:rotate(360deg)}}
+#lt{font-size:12px;color:var(--fg3)}
 
-.bar-controls {
-  display: flex;
-  gap: 8px;
-  align-items: center;
-}
+/* SVG */
+.grat{fill:none;stroke:rgba(255,255,255,.03);stroke-width:.4}
+.sph{fill:var(--ocean)}
+.co{stroke:rgba(255,255,255,.06);stroke-width:.4;transition:opacity .2s}
+.co.has{cursor:pointer}
+.co.hi{stroke:var(--acc);stroke-width:1.5}
+.fm{cursor:pointer;pointer-events:all;transition:opacity .2s}
 
-.bar-btn {
-  background: rgba(30,30,42,0.8);
-  border: 1px solid var(--border);
-  color: var(--fg2);
-  padding: 7px 14px;
-  border-radius: 6px;
-  font-size: 13px;
-  font-family: inherit;
-  cursor: pointer;
-  transition: all 0.2s;
-  backdrop-filter: blur(8px);
+@media(max-width:768px){
+  :root{--pw:100vw}
+  #si{width:120px}#si:focus{width:160px}
+  #bar h1{font-size:17px}
+  #yr{font-size:20px;min-width:50px}
 }
-.bar-btn:hover { color: var(--fg); border-color: var(--accent2); }
-.bar-btn.active { color: var(--accent); border-color: var(--accent); background: rgba(201,168,76,0.08); }
-
-/* ── Search ── */
-#searchBox {
-  position: relative;
-}
-#searchInput {
-  background: rgba(30,30,42,0.8);
-  border: 1px solid var(--border);
-  color: var(--fg);
-  padding: 7px 14px 7px 32px;
-  border-radius: 6px;
-  font-size: 13px;
-  font-family: inherit;
-  width: 220px;
-  outline: none;
-  backdrop-filter: blur(8px);
-  transition: border-color 0.2s;
-}
-#searchInput::placeholder { color: var(--fg2); }
-#searchInput:focus { border-color: var(--accent); }
-
-#searchIcon {
-  position: absolute;
-  left: 10px;
-  top: 50%;
-  transform: translateY(-50%);
-  color: var(--fg2);
-  font-size: 14px;
-  pointer-events: none;
-}
-#searchResults {
-  position: absolute;
-  top: calc(100% + 6px);
-  left: 0;
-  width: 300px;
-  max-height: 400px;
-  overflow-y: auto;
-  background: var(--bg2);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  display: none;
-  z-index: 100;
-}
-#searchResults.visible { display: block; }
-.search-item {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 10px 14px;
-  cursor: pointer;
-  transition: background 0.15s;
-  text-decoration: none;
-  color: var(--fg);
-}
-.search-item:hover { background: var(--bg3); }
-.search-item img {
-  width: 32px;
-  height: 20px;
-  object-fit: contain;
-  border-radius: 2px;
-  flex-shrink: 0;
-}
-.search-item-name { font-size: 13px; }
-.search-item-count { font-size: 11px; color: var(--fg2); margin-left: auto; }
-
-/* ── Timeline ── */
-#timeline {
-  position: absolute;
-  bottom: 0; left: 0; right: 0;
-  padding: 12px 24px 20px;
-  background: linear-gradient(to top, rgba(10,10,15,0.95), transparent);
-  z-index: 10;
-  pointer-events: none;
-}
-#timeline > * { pointer-events: auto; }
-
-#timelineInner {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-}
-
-#yearDisplay {
-  font-family: 'Instrument Serif', serif;
-  font-size: 28px;
-  color: var(--accent);
-  min-width: 80px;
-  text-align: center;
-}
-
-#timeSlider {
-  flex: 1;
-  -webkit-appearance: none;
-  appearance: none;
-  height: 4px;
-  background: var(--border);
-  border-radius: 2px;
-  outline: none;
-  cursor: pointer;
-}
-#timeSlider::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  width: 18px;
-  height: 18px;
-  background: var(--accent);
-  border-radius: 50%;
-  cursor: grab;
-  box-shadow: 0 0 12px rgba(201,168,76,0.4);
-}
-#timeSlider::-moz-range-thumb {
-  width: 18px;
-  height: 18px;
-  background: var(--accent);
-  border-radius: 50%;
-  border: none;
-  cursor: grab;
-}
-
-#timeLabel {
-  font-size: 12px;
-  color: var(--fg2);
-  text-align: center;
-  margin-top: 6px;
-}
-
-#resetTimeBtn {
-  background: none;
-  border: 1px solid var(--border);
-  color: var(--fg2);
-  padding: 4px 10px;
-  border-radius: 4px;
-  font-size: 11px;
-  font-family: inherit;
-  cursor: pointer;
-  transition: all 0.2s;
-  white-space: nowrap;
-}
-#resetTimeBtn:hover { color: var(--accent); border-color: var(--accent); }
-
-/* ── Country Info (tooltip) ── */
-#tooltip {
-  position: absolute;
-  pointer-events: none;
-  background: rgba(18,18,26,0.95);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 10px 14px;
-  display: none;
-  z-index: 50;
-  backdrop-filter: blur(8px);
-  max-width: 240px;
-}
-#tooltip.visible { display: flex; gap: 10px; align-items: center; }
-#tooltip img {
-  width: 40px;
-  height: 26px;
-  object-fit: contain;
-  border-radius: 2px;
-  flex-shrink: 0;
-}
-#tooltipName { font-size: 14px; font-weight: 500; }
-#tooltipMeta { font-size: 11px; color: var(--fg2); margin-top: 2px; }
-
-/* ── Side Panel ── */
-#panel {
-  width: 0;
-  overflow: hidden;
-  background: var(--bg2);
-  border-left: 1px solid var(--border);
-  transition: width 0.35s cubic-bezier(0.4, 0, 0.2, 1);
-  flex-shrink: 0;
-}
-#panel.open { width: var(--panel-w); }
-
-#panelInner {
-  width: var(--panel-w);
-  height: 100vh;
-  overflow-y: auto;
-  padding: 0;
-}
-
-#panelHeader {
-  position: sticky;
-  top: 0;
-  background: var(--bg2);
-  padding: 20px 24px 16px;
-  border-bottom: 1px solid var(--border);
-  z-index: 5;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-#panelTitle {
-  font-family: 'Instrument Serif', serif;
-  font-size: 24px;
-  font-weight: 400;
-}
-
-#panelClose {
-  background: none;
-  border: none;
-  color: var(--fg2);
-  font-size: 22px;
-  cursor: pointer;
-  padding: 4px 8px;
-  border-radius: 4px;
-  transition: color 0.2s;
-}
-#panelClose:hover { color: var(--fg); }
-
-#panelCurrentFlag {
-  padding: 24px;
-  display: flex;
-  justify-content: center;
-  background: var(--bg3);
-}
-#panelCurrentFlag img {
-  max-width: 200px;
-  max-height: 130px;
-  object-fit: contain;
-  border-radius: 4px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
-}
-
-#panelBody { padding: 0 24px 80px; }
-
-.section-label {
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--fg2);
-  margin: 24px 0 12px;
-}
-
-.flag-card {
-  display: flex;
-  gap: 12px;
-  align-items: center;
-  padding: 12px;
-  margin-bottom: 6px;
-  border-radius: 8px;
-  background: var(--bg);
-  border: 1px solid transparent;
-  cursor: pointer;
-  transition: all 0.2s;
-  text-decoration: none;
-  color: var(--fg);
-}
-.flag-card:hover { border-color: var(--accent2); background: var(--bg3); }
-.flag-card.current-flag { border-color: var(--accent); }
-
-.flag-card img {
-  width: 48px;
-  height: 32px;
-  object-fit: contain;
-  border-radius: 2px;
-  flex-shrink: 0;
-  background: #fff;
-}
-
-.flag-card-info { flex: 1; min-width: 0; }
-.flag-card-name {
-  font-size: 13px;
-  font-weight: 500;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-.flag-card-years {
-  font-size: 11px;
-  color: var(--fg2);
-  margin-top: 2px;
-}
-
-.flag-card-arrow {
-  color: var(--fg2);
-  font-size: 14px;
-  flex-shrink: 0;
-}
-
-/* ── Stats bar ── */
-#statsBar {
-  position: absolute;
-  bottom: 70px;
-  left: 24px;
-  font-size: 11px;
-  color: var(--fg2);
-  pointer-events: none;
-  z-index: 10;
-}
-
-/* ── Globe graticule ── */
-.graticule {
-  fill: none;
-  stroke: rgba(255,255,255,0.04);
-  stroke-width: 0.5;
-}
-.sphere { fill: var(--ocean); }
-.country {
-  stroke: rgba(255,255,255,0.08);
-  stroke-width: 0.5;
-  transition: fill 0.2s;
-  cursor: default;
-}
-.country.has-flags { cursor: pointer; }
-.country.highlighted {
-  stroke: var(--accent);
-  stroke-width: 1.5;
-}
-
-.flag-marker {
-  cursor: pointer;
-  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5));
-  transition: transform 0.15s;
-  pointer-events: all;
-}
-.flag-marker:hover {
-  filter: drop-shadow(0 2px 8px rgba(201,168,76,0.4));
-}
-
-/* ── Loading ── */
-#loading {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--bg);
-  z-index: 100;
-  transition: opacity 0.5s;
-}
-#loading.hidden { opacity: 0; pointer-events: none; }
-#loading .spinner {
-  width: 40px; height: 40px;
-  border: 3px solid var(--border);
-  border-top-color: var(--accent);
-  border-radius: 50%;
-  animation: spin 0.8s linear infinite;
-}
-@keyframes spin { to { transform: rotate(360deg); } }
-
-/* ── Mobile ── */
-@media (max-width: 768px) {
-  :root { --panel-w: 100vw; }
-  #searchInput { width: 140px; }
-  #topBar h1 { font-size: 18px; }
-  #yearDisplay { font-size: 22px; min-width: 60px; }
-}
-
-/* ── Scrollbar ── */
-::-webkit-scrollbar { width: 6px; }
-::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+::-webkit-scrollbar{width:5px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:var(--brd);border-radius:3px}
 </style>
 </head>
 <body>
 <div id="app">
-  <div id="mapContainer">
-    <svg id="mapSvg"></svg>
-
-    <div id="topBar">
-      <h1><a href="/">flags<span>.fyi</span></a> / map</h1>
-      <div class="bar-controls">
-        <div id="searchBox">
-          <span id="searchIcon">&#x1F50D;</span>
-          <input id="searchInput" type="text" placeholder="Search countries..." autocomplete="off">
-          <div id="searchResults"></div>
-        </div>
-        <button class="bar-btn active" id="btnFlat">Flat</button>
-        <button class="bar-btn" id="btnGlobe">Globe</button>
-      </div>
-    </div>
-
-    <div id="timeline">
-      <div id="timelineInner">
-        <div id="yearDisplay">Now</div>
-        <input type="range" id="timeSlider" min="-600" max="2025" value="2025" step="1">
-        <button id="resetTimeBtn">Reset</button>
-      </div>
-      <div id="timeLabel">Drag to explore flags through history — 600 BC to present</div>
-    </div>
-
-    <div id="tooltip">
-      <img id="tooltipFlag" src="" alt="">
-      <div>
-        <div id="tooltipName"></div>
-        <div id="tooltipMeta"></div>
-      </div>
-    </div>
-
-    <div id="statsBar"></div>
-    <div id="loading"><div class="spinner"></div></div>
-  </div>
-
-  <div id="panel">
-    <div id="panelInner">
-      <div id="panelHeader">
-        <div id="panelTitle"></div>
-        <button id="panelClose">&times;</button>
-      </div>
-      <div id="panelCurrentFlag"><img id="panelFlagImg" src="" alt=""></div>
-      <div id="panelBody"></div>
+<div id="mw">
+  <svg id="ms"></svg>
+  <div id="bar">
+    <h1><a href="/">flags<em>.fyi</em></a> <span style="color:var(--fg3);font-family:'DM Sans';font-size:13px;margin-left:4px">/ map</span></h1>
+    <div class="bc">
+      <div id="sb"><span class="sic">⌕</span><input id="si" type="text" placeholder="Search countries… /" autocomplete="off"><div id="sr"></div></div>
+      <button class="b on" id="bF">Flat</button>
+      <button class="b" id="bG">Globe</button>
+      <button class="b on" id="bFl" title="Toggle flag fills (F)">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="2" y="3" width="12" height="9" rx="1" stroke="currentColor" stroke-width="1.2"/><line x1="2" y1="7" x2="14" y2="7" stroke="currentColor" stroke-width="1"/><line x1="8" y1="3" x2="8" y2="12" stroke="currentColor" stroke-width="1"/></svg>
+      </button>
     </div>
   </div>
+  <div id="mt"></div>
+  <div id="tl">
+    <div id="tr"><div id="yr">Now</div><input type="range" id="sl" min="-600" max="2025" value="2025" step="1"><button id="rb">Reset</button></div>
+    <div id="th">Drag to explore flags through history · 600 BC → present</div>
+  </div>
+  <div id="tt"><img id="tf" src="" alt=""><div><div class="tn" id="tn"></div><div class="tm" id="tm"></div></div></div>
+  <div id="st"></div>
+  <div id="ld"><div class="sp"></div><div id="lt">Loading world map…</div></div>
+</div>
+<div id="pn">
+  <div id="pi">
+    <div id="ph"><div id="pt"></div><button id="px">&times;</button></div>
+    <div id="pfl"><img id="pfi" src="" alt=""></div>
+    <div id="pb"></div>
+  </div>
+</div>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
 <script>
-(function() {
+(function(){
 'use strict';
+const B='https://flags.fyi';
+const N2A={'004':'AFG','008':'ALB','012':'DZA','020':'AND','024':'AGO','028':'ATG','032':'ARG','036':'AUS','040':'AUT','048':'BHR','050':'BGD','056':'BEL','076':'BRA','124':'CAN','148':'TCD','152':'CHL','156':'CHN','170':'COL','174':'COM','191':'HRV','192':'CUB','203':'CZE','208':'DNK','262':'DJI','818':'EGY','231':'ETH','242':'FJI','246':'FIN','250':'FRA','276':'DEU','288':'GHA','300':'GRC','348':'HUN','356':'IND','360':'IDN','364':'IRN','368':'IRQ','372':'IRL','376':'ISR','380':'ITA','392':'JPN','400':'JOR','404':'KEN','410':'KOR','414':'KWT','422':'LBN','434':'LBY','458':'MYS','478':'MRT','484':'MEX','504':'MAR','528':'NLD','554':'NZL','566':'NGA','578':'NOR','512':'OMN','586':'PAK','275':'PSE','604':'PER','608':'PHL','616':'POL','620':'PRT','634':'QAT','642':'ROU','643':'RUS','682':'SAU','702':'SGP','706':'SOM','710':'ZAF','724':'ESP','729':'SDN','752':'SWE','756':'CHE','760':'SYR','834':'TZA','764':'THA','788':'TUN','792':'TUR','826':'GBR','804':'UKR','784':'ARE','840':'USA','704':'VNM','887':'YEM','408':'PRK'};
+const A2N={};for(const[n,a]of Object.entries(N2A))A2N[a]=n;
 
-const BASE = 'https://flags.fyi';
+let MD,W,I2C={},proj,pth,svg,g,defs;
+let isG=false,showF=true,yr=2025,selC=null;
 
-// ── ISO numeric → alpha-3 mapping ──
-const NUM_TO_A3 = {
-  '004':'AFG','008':'ALB','012':'DZA','020':'AND','024':'AGO','028':'ATG','032':'ARG',
-  '036':'AUS','040':'AUT','048':'BHR','050':'BGD','056':'BEL','076':'BRA','124':'CAN',
-  '148':'TCD','152':'CHL','156':'CHN','170':'COL','174':'COM','191':'HRV','192':'CUB',
-  '203':'CZE','208':'DNK','262':'DJI','818':'EGY','231':'ETH','242':'FJI','246':'FIN',
-  '250':'FRA','276':'DEU','288':'GHA','300':'GRC','348':'HUN','356':'IND','360':'IDN',
-  '364':'IRN','368':'IRQ','372':'IRL','376':'ISR','380':'ITA','392':'JPN','400':'JOR',
-  '404':'KEN','410':'KOR','414':'KWT','422':'LBN','434':'LBY','458':'MYS','478':'MRT',
-  '484':'MEX','504':'MAR','528':'NLD','554':'NZL','566':'NGA','578':'NOR','512':'OMN',
-  '586':'PAK','275':'PSE','604':'PER','608':'PHL','616':'POL','620':'PRT','634':'QAT',
-  '642':'ROU','643':'RUS','682':'SAU','702':'SGP','706':'SOM','710':'ZAF','724':'ESP',
-  '729':'SDN','752':'SWE','756':'CHE','760':'SYR','834':'TZA','764':'THA','788':'TUN',
-  '792':'TUR','826':'GBR','804':'UKR','784':'ARE','840':'USA','704':'VNM','887':'YEM',
-  '408':'PRK'
-};
-
-// Reverse: alpha-3 → numeric
-const A3_TO_NUM = {};
-for (const [n, a] of Object.entries(NUM_TO_A3)) A3_TO_NUM[a] = n;
-
-let mapData = null;    // country data from flags.fyi
-let world = null;      // TopoJSON
-let isoToCountry = {}; // alpha-3 → country data
-let projection, path, svg, g;
-let isGlobe = false;
-let currentYear = 2025;
-let selectedCountry = null;
-let flagMarkers;
-
-// ── Load data ──
-async function init() {
-  const [topoRes, flagRes] = await Promise.all([
+async function init(){
+  $('lt').textContent='Loading topology…';
+  const[tR,fR]=await Promise.all([
     fetch('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json'),
     fetch('/map/data.json')
   ]);
-  world = await topoRes.json();
-  mapData = await flagRes.json();
-
-  // Build ISO lookup
-  for (const [id, c] of Object.entries(mapData)) {
-    if (c.iso) isoToCountry[c.iso] = c;
-  }
-
-  setupMap();
-  setupSearch();
-  setupTimeline();
-  setupControls();
-
-  document.getElementById('loading').classList.add('hidden');
-  updateStats();
+  W=await tR.json();MD=await fR.json();
+  for(const[id,c]of Object.entries(MD))if(c.iso)I2C[c.iso]=c;
+  $('lt').textContent='Rendering…';
+  await new Promise(r=>requestAnimationFrame(r));
+  buildMap();setupSearch();setupTL();setupCtrl();
+  $('ld').classList.add('off');updSt();
 }
 
-// ── Map Setup ──
-function setupMap() {
-  const container = document.getElementById('mapContainer');
-  const w = container.clientWidth;
-  const h = container.clientHeight;
+function $(id){return document.getElementById(id)}
 
-  svg = d3.select('#mapSvg');
-  svg.attr('viewBox', `0 0 ${w} ${h}`);
+function buildMap(){
+  const el=$('mw'),w=el.clientWidth,h=el.clientHeight;
+  svg=d3.select('#ms').attr('viewBox',`0 0 ${w} ${h}`);
+  defs=svg.append('defs');g=svg.append('g');
+  proj=d3.geoNaturalEarth1().fitSize([w-30,h-110],{type:'Sphere'}).translate([w/2,h/2-8]);
+  pth=d3.geoPath(proj);
 
-  projection = d3.geoNaturalEarth1()
-    .fitSize([w - 40, h - 120], { type: 'Sphere' })
-    .translate([w / 2, h / 2 - 10]);
+  g.append('path').datum({type:'Sphere'}).attr('class','sph').attr('d',pth);
+  g.append('path').datum(d3.geoGraticule10()).attr('class','grat').attr('d',pth);
 
-  path = d3.geoPath(projection);
+  const feats=topojson.feature(W,W.objects.countries);
+  mkPatterns(feats);
 
-  g = svg.append('g');
+  g.selectAll('.co').data(feats.features).enter().append('path')
+    .attr('class',d=>'co'+(lookup(d)?' has':''))
+    .attr('d',pth).attr('data-iso',d=>N2A[String(d.id)]||'').attr('data-nid',d=>d.id)
+    .each(function(d){fillC(d3.select(this),d)})
+    .on('mouseover',hIn).on('mousemove',hMv).on('mouseout',hOut).on('click',hCl);
 
-  // Sphere (ocean)
-  g.append('path')
-    .datum({ type: 'Sphere' })
-    .attr('class', 'sphere')
-    .attr('d', path);
-
-  // Graticule
-  g.append('path')
-    .datum(d3.geoGraticule10())
-    .attr('class', 'graticule')
-    .attr('d', path);
-
-  // Countries
-  const countries = topojson.feature(world, world.objects.countries);
-
-  g.selectAll('.country')
-    .data(countries.features)
-    .enter()
-    .append('path')
-    .attr('class', d => {
-      const a3 = NUM_TO_A3[String(d.id)];
-      return 'country' + (a3 && isoToCountry[a3] ? ' has-flags' : '');
-    })
-    .attr('d', path)
-    .attr('fill', d => {
-      const a3 = NUM_TO_A3[String(d.id)];
-      return (a3 && isoToCountry[a3]) ? 'var(--land-has)' : 'var(--land)';
-    })
-    .attr('data-iso', d => NUM_TO_A3[String(d.id)] || '')
-    .on('mouseover', onCountryHover)
-    .on('mousemove', onCountryMove)
-    .on('mouseout', onCountryOut)
-    .on('click', onCountryClick);
-
-  // Flag markers on centroids
-  renderFlagMarkers();
-
-  // Drag / zoom
-  setupInteraction(w, h);
+  mkMarkers();
+  const zm=d3.zoom().scaleExtent([1,14]).on('zoom',e=>g.attr('transform',e.transform));
+  svg.call(zm);svg.__zb=zm;
 }
 
-function renderFlagMarkers() {
-  g.selectAll('.flag-marker').remove();
+function lookup(d){const a=N2A[String(d.id)];return a?I2C[a]:null}
 
-  const markerData = [];
-  for (const [id, c] of Object.entries(mapData)) {
-    if (!c.centroid || !c.current_flag) continue;
-    const flagAtTime = getFlagAtYear(c, currentYear);
-    if (!flagAtTime) continue;
-
-    const pos = projection([c.centroid[1], c.centroid[0]]);
-    if (!pos) continue;
-
-    markerData.push({
-      id,
-      x: pos[0],
-      y: pos[1],
-      flag: flagAtTime.flag_svg,
-      name: c.name,
-      country: c
-    });
+function mkPatterns(feats){
+  defs.selectAll('pattern').remove();
+  for(const f of feats.features){
+    const c=lookup(f);if(!c)continue;
+    const fl=flagAt(c,yr);if(!fl)continue;
+    const bb=pth.bounds(f);
+    const bw=bb[1][0]-bb[0][0],bh=bb[1][1]-bb[0][1];
+    if(bw<1||bh<1)continue;
+    defs.append('pattern').attr('id','fp-'+c.iso)
+      .attr('patternUnits','userSpaceOnUse')
+      .attr('x',bb[0][0]).attr('y',bb[0][1]).attr('width',bw).attr('height',bh)
+      .append('image').attr('href',B+fl.flag_svg)
+      .attr('x',0).attr('y',0).attr('width',bw).attr('height',bh)
+      .attr('preserveAspectRatio','xMidYMid slice');
   }
-
-  g.selectAll('.flag-marker')
-    .data(markerData, d => d.id)
-    .enter()
-    .append('image')
-    .attr('class', 'flag-marker')
-    .attr('href', d => BASE + d.flag)
-    .attr('x', d => d.x - 16)
-    .attr('y', d => d.y - 10)
-    .attr('width', 32)
-    .attr('height', 20)
-    .attr('preserveAspectRatio', 'xMidYMid meet')
-    .on('click', (e, d) => {
-      e.stopPropagation();
-      openPanel(d.country);
-    })
-    .on('mouseover', (e, d) => {
-      showTooltip(e, d.country);
-    })
-    .on('mousemove', (e) => {
-      moveTooltip(e);
-    })
-    .on('mouseout', hideTooltip);
 }
 
-function getFlagAtYear(country, year) {
-  if (year >= 2025) {
-    // Current era — return the current flag or first non-historical
-    const current = country.flags.find(f => f.is_current);
-    if (current) return current;
-    const nonHist = country.flags.find(f => !f.year_start && !f.is_sub);
-    if (nonHist) return nonHist;
-    return country.flags[0];
+function fillC(sel,d){
+  const c=lookup(d);
+  if(!c){sel.attr('fill','var(--land)').attr('opacity',1);return}
+  if(showF){sel.attr('fill',`url(#fp-${c.iso})`).attr('opacity',0.82)}
+  else{sel.attr('fill','var(--landH)').attr('opacity',1)}
+}
+
+function mkMarkers(){
+  g.selectAll('.fm').remove();
+  if(showF)return;
+  const items=[];
+  for(const c of Object.values(MD)){
+    if(!c.centroid)continue;
+    const fl=flagAt(c,yr);if(!fl)continue;
+    const p=proj([c.centroid[1],c.centroid[0]]);if(!p)continue;
+    items.push({id:c.id,x:p[0],y:p[1],flag:fl.flag_svg,c});
   }
+  g.selectAll('.fm').data(items,d=>d.id).enter().append('image')
+    .attr('class','fm').attr('href',d=>B+d.flag)
+    .attr('x',d=>d.x-14).attr('y',d=>d.y-9).attr('width',28).attr('height',18)
+    .attr('preserveAspectRatio','xMidYMid meet')
+    .style('filter','drop-shadow(0 1px 3px rgba(0,0,0,.5))')
+    .on('click',(e,d)=>{e.stopPropagation();openP(d.c)})
+    .on('mouseover',(e,d)=>showTT(e,d.c)).on('mousemove',mvTT).on('mouseout',hideTT);
+}
 
-  // Find flags active at this year
-  const active = country.flags.filter(f => {
-    if (f.is_sub) return false;
-    if (!f.year_start) return false; // Skip "current" flags for historical view
-    const start = f.year_start;
-    const end = f.year_end || (f.year_start + 50); // Assume ~50yr if no end
-    return year >= start && year <= end;
-  });
-
-  if (active.length > 0) {
-    // Return the most recent one
-    return active[active.length - 1];
-  }
-
-  // If nothing historical matches but year is recent, show current flag
-  if (year >= 1900) {
-    const current = country.flags.find(f => f.is_current);
-    if (current) return current;
-  }
-
+function flagAt(c,y){
+  if(y>=2025)return c.flags.find(f=>f.is_current)||c.flags.find(f=>!f.year_start&&!f.is_sub)||c.flags[0];
+  const ac=c.flags.filter(f=>!f.is_sub&&f.year_start&&y>=f.year_start&&y<=(f.year_end||(f.year_start+50)));
+  if(ac.length)return ac[ac.length-1];
+  if(y>=1900)return c.flags.find(f=>f.is_current)||null;
   return null;
 }
 
-// ── Interaction ──
-function setupInteraction(w, h) {
-  const zoom = d3.zoom()
-    .scaleExtent([1, 12])
-    .on('zoom', (e) => {
-      g.attr('transform', e.transform);
-    });
-
-  svg.call(zoom);
-
-  // Globe drag
-  if (isGlobe) {
-    const drag = d3.drag()
-      .on('drag', (e) => {
-        const r = projection.rotate();
-        const sens = 0.4;
-        projection.rotate([r[0] + e.dx * sens, r[1] - e.dy * sens]);
-        redrawPaths();
-      });
-    svg.call(drag);
-  }
+function redraw(){
+  pth=d3.geoPath(proj);
+  g.selectAll('.co').attr('d',pth);g.selectAll('.sph').attr('d',pth);g.selectAll('.grat').attr('d',pth);
+  const feats=topojson.feature(W,W.objects.countries);
+  mkPatterns(feats);g.selectAll('.co').each(function(d){fillC(d3.select(this),d)});
+  mkMarkers();
 }
 
-function redrawPaths() {
-  path = d3.geoPath(projection);
-  g.selectAll('.country').attr('d', path);
-  g.selectAll('.sphere').attr('d', path);
-  g.selectAll('.graticule').attr('d', path);
-  renderFlagMarkers();
+/* Tooltip */
+function showTT(e,c){
+  const fl=flagAt(c,yr);if(!fl)return;
+  $('tf').src=B+fl.flag_svg;$('tn').textContent=c.name;
+  const h=c.flags.filter(f=>!f.is_sub).length,s=c.flags.filter(f=>f.is_sub).length;
+  let m=h+' flag'+(h!==1?'s':'');if(s)m+=', '+s+' sub-national';
+  $('tm').textContent=m;$('tt').classList.add('v');mvTT(e);
 }
+function mvTT(e){const t=$('tt');t.style.left=(e.clientX+14)+'px';t.style.top=(e.clientY-8)+'px'}
+function hideTT(){$('tt').classList.remove('v')}
+function hIn(e,d){const c=lookup(d);if(!c)return;if(!showF)d3.select(this).attr('fill','var(--landHv)');else d3.select(this).attr('opacity',1);showTT(e,c)}
+function hMv(e){mvTT(e)}
+function hOut(e,d){const c=lookup(d),sel=selC&&c&&selC.id===c.id;if(!showF)d3.select(this).attr('fill',sel?'var(--landHv)':c?'var(--landH)':'var(--land)');else d3.select(this).attr('opacity',sel?1:0.82);hideTT()}
+function hCl(e,d){const c=lookup(d);if(c)openP(c)}
 
-// ── Tooltip ──
-function showTooltip(e, country) {
-  const tt = document.getElementById('tooltip');
-  const flagAtTime = getFlagAtYear(country, currentYear);
-  if (!flagAtTime) return;
-
-  document.getElementById('tooltipFlag').src = BASE + flagAtTime.flag_svg;
-  document.getElementById('tooltipName').textContent = country.name;
-
-  const hist = country.flags.filter(f => !f.is_sub).length;
-  const subs = country.flags.filter(f => f.is_sub).length;
-  let meta = hist + ' flag' + (hist !== 1 ? 's' : '');
-  if (subs) meta += ', ' + subs + ' sub-national';
-  document.getElementById('tooltipMeta').textContent = meta;
-
-  tt.classList.add('visible');
-  moveTooltip(e);
+/* Panel */
+function openP(c){
+  selC=c;$('pn').classList.add('open');$('pt').textContent=c.name;
+  const fl=flagAt(c,yr)||c.flags[0];$('pfi').src=B+fl.flag_svg;
+  g.selectAll('.co').classed('hi',false);
+  if(c.iso){const nid=A2N[c.iso];g.selectAll('.co').filter(d=>String(d.id)===nid).classed('hi',true)}
+  const b=$('pb');b.innerHTML='';
+  const cur=c.flags.filter(f=>f.is_current);
+  const hist=c.flags.filter(f=>!f.is_current&&!f.is_sub&&f.year_start).sort((a,b)=>(b.year_start||0)-(a.year_start||0));
+  const sub=c.flags.filter(f=>f.is_sub);
+  const oth=c.flags.filter(f=>!f.is_current&&!f.is_sub&&!f.year_start);
+  if(cur.length){b.insertAdjacentHTML('beforeend','<div class="sl">Current</div>');cur.forEach(f=>b.appendChild(mkFC(f,true)))}
+  if(oth.length){b.insertAdjacentHTML('beforeend','<div class="sl">National</div>');oth.forEach(f=>b.appendChild(mkFC(f,false)))}
+  if(hist.length){b.insertAdjacentHTML('beforeend','<div class="sl">Historical</div>');hist.forEach(f=>b.appendChild(mkFC(f,false)))}
+  if(sub.length){b.insertAdjacentHTML('beforeend','<div class="sl">Sub-national &amp; Territories</div>');sub.forEach(f=>b.appendChild(mkFC(f,false)))}
+  const slug=c.flags.find(f=>f.is_current)?.slug||c.flags[0]?.slug;
+  if(slug)b.insertAdjacentHTML('beforeend',`<a class="pl" href="${B}/${slug}/" target="_blank">View on flags.fyi ↗</a>`);
 }
-
-function moveTooltip(e) {
-  const tt = document.getElementById('tooltip');
-  tt.style.left = (e.clientX + 16) + 'px';
-  tt.style.top = (e.clientY - 10) + 'px';
-}
-
-function hideTooltip() {
-  document.getElementById('tooltip').classList.remove('visible');
-}
-
-function onCountryHover(e, d) {
-  const a3 = NUM_TO_A3[String(d.id)];
-  const country = a3 ? isoToCountry[a3] : null;
-  if (!country) return;
-
-  d3.select(this).attr('fill', 'var(--land-hover)');
-  showTooltip(e, country);
-}
-
-function onCountryMove(e) { moveTooltip(e); }
-
-function onCountryOut(e, d) {
-  const a3 = NUM_TO_A3[String(d.id)];
-  const country = a3 ? isoToCountry[a3] : null;
-  const isSelected = selectedCountry && country && selectedCountry.id === country.id;
-
-  d3.select(this).attr('fill', () => {
-    if (isSelected) return 'var(--land-hover)';
-    return country ? 'var(--land-has)' : 'var(--land)';
-  });
-  hideTooltip();
-}
-
-function onCountryClick(e, d) {
-  const a3 = NUM_TO_A3[String(d.id)];
-  const country = a3 ? isoToCountry[a3] : null;
-  if (!country) return;
-  openPanel(country);
-}
-
-// ── Side Panel ──
-function openPanel(country) {
-  selectedCountry = country;
-  const panel = document.getElementById('panel');
-  panel.classList.add('open');
-
-  document.getElementById('panelTitle').textContent = country.name;
-
-  const flagAtTime = getFlagAtYear(country, currentYear);
-  const mainFlag = flagAtTime || country.flags[0];
-  document.getElementById('panelFlagImg').src = BASE + mainFlag.flag_svg;
-
-  // Highlight on map
-  g.selectAll('.country')
-    .classed('highlighted', false)
-    .attr('fill', function() {
-      const a3 = d3.select(this).attr('data-iso');
-      return (a3 && isoToCountry[a3]) ? 'var(--land-has)' : 'var(--land)';
-    });
-
-  if (country.iso) {
-    const numId = A3_TO_NUM[country.iso];
-    g.selectAll('.country')
-      .filter(d => String(d.id) === numId)
-      .classed('highlighted', true)
-      .attr('fill', 'var(--land-hover)');
-  }
-
-  // Build flag list
-  const body = document.getElementById('panelBody');
-  body.innerHTML = '';
-
-  const currentFlags = country.flags.filter(f => f.is_current);
-  const historical = country.flags.filter(f => !f.is_current && !f.is_sub && f.year_start);
-  const subNational = country.flags.filter(f => f.is_sub);
-  const other = country.flags.filter(f => !f.is_current && !f.is_sub && !f.year_start);
-
-  if (currentFlags.length) {
-    body.innerHTML += '<div class="section-label">Current</div>';
-    currentFlags.forEach(f => body.appendChild(makeFlagCard(f, true)));
-  }
-
-  if (other.length) {
-    body.innerHTML += '<div class="section-label">National</div>';
-    other.forEach(f => body.appendChild(makeFlagCard(f, false)));
-  }
-
-  if (historical.length) {
-    body.innerHTML += '<div class="section-label">Historical</div>';
-    historical.sort((a, b) => (b.year_start || 0) - (a.year_start || 0));
-    historical.forEach(f => body.appendChild(makeFlagCard(f, false)));
-  }
-
-  if (subNational.length) {
-    body.innerHTML += '<div class="section-label">Sub-national &amp; Territories</div>';
-    subNational.forEach(f => body.appendChild(makeFlagCard(f, false)));
-  }
-}
-
-function makeFlagCard(flag, isCurrent) {
-  const a = document.createElement('a');
-  a.className = 'flag-card' + (isCurrent ? ' current-flag' : '');
-  a.href = BASE + '/' + flag.slug + '/';
-  a.target = '_blank';
-
-  let years = '';
-  if (flag.year_start) {
-    const start = flag.year_start < 0 ? Math.abs(flag.year_start) + ' BC' : flag.year_start;
-    years = flag.year_end ? `${start} – ${flag.year_end}` : `${start}`;
-  } else if (isCurrent) {
-    years = 'Current';
-  }
-
-  a.innerHTML = `
-    <img src="${BASE}${flag.flag_svg}" alt="${flag.name}" onerror="this.style.display='none'">
-    <div class="flag-card-info">
-      <div class="flag-card-name">${flag.name}</div>
-      ${years ? `<div class="flag-card-years">${years}</div>` : ''}
-    </div>
-    <div class="flag-card-arrow">&#x2197;</div>
-  `;
+function mkFC(f,cur){
+  const a=document.createElement('a');a.className='fc'+(cur?' cu':'');a.href=B+'/'+f.slug+'/';a.target='_blank';
+  let y='';if(f.year_start){const s=f.year_start<0?Math.abs(f.year_start)+' BC':f.year_start;y=f.year_end?`${s} – ${f.year_end}`:`${s}`}else if(cur)y='Current';
+  a.innerHTML=`<img src="${B}${f.flag_svg}" alt="${f.name}" onerror="this.style.background='var(--bg3)'"><div class="fi"><div class="fn">${f.name}</div>${y?`<div class="fy">${y}</div>`:''}</div><div class="fa">↗</div>`;
   return a;
 }
+function closeP(){$('pn').classList.remove('open');selC=null;g.selectAll('.co').classed('hi',false)}
 
-function closePanel() {
-  document.getElementById('panel').classList.remove('open');
-  selectedCountry = null;
-  g.selectAll('.country')
-    .classed('highlighted', false)
-    .attr('fill', function() {
-      const a3 = d3.select(this).attr('data-iso');
-      return (a3 && isoToCountry[a3]) ? 'var(--land-has)' : 'var(--land)';
-    });
+/* Search */
+function setupSearch(){
+  const inp=$('si'),res=$('sr');
+  inp.addEventListener('input',()=>{
+    const q=inp.value.trim().toLowerCase();
+    if(!q){res.classList.remove('v');return}
+    const m=Object.values(MD).filter(c=>c.name&&c.name.toLowerCase().includes(q)).slice(0,10);
+    if(!m.length){res.classList.remove('v');return}
+    res.innerHTML=m.map(c=>`<div class="ri" data-id="${c.id}"><img src="${B}${c.current_flag}" alt="" onerror="this.style.display='none'"><span class="rn">${c.name}</span><span class="rc">${c.flags.length}</span></div>`).join('');
+    res.classList.add('v');
+    res.querySelectorAll('.ri').forEach(el=>el.addEventListener('click',()=>{
+      const c=MD[el.dataset.id];openP(c);inp.value='';res.classList.remove('v');
+      if(c.centroid){const p=proj([c.centroid[1],c.centroid[0]]);if(p){const el2=$('mw'),t=d3.zoomIdentity.translate(el2.clientWidth/2,el2.clientHeight/2).scale(5).translate(-p[0],-p[1]);svg.transition().duration(700).call(svg.__zb.transform,t)}}
+    }));
+  });
+  inp.addEventListener('keydown',e=>{if(e.key==='Escape'){inp.value='';res.classList.remove('v');inp.blur()}});
+  document.addEventListener('click',e=>{if(!e.target.closest('#sb'))res.classList.remove('v')});
 }
 
-// ── Search ──
-function setupSearch() {
-  const input = document.getElementById('searchInput');
-  const results = document.getElementById('searchResults');
-
-  input.addEventListener('input', () => {
-    const q = input.value.trim().toLowerCase();
-    if (!q) { results.classList.remove('visible'); return; }
-
-    const matches = Object.values(mapData)
-      .filter(c => c.name && c.name.toLowerCase().includes(q))
-      .slice(0, 10);
-
-    if (!matches.length) { results.classList.remove('visible'); return; }
-
-    results.innerHTML = matches.map(c => `
-      <div class="search-item" data-id="${c.id}">
-        <img src="${BASE}${c.current_flag}" alt="" onerror="this.style.display='none'">
-        <span class="search-item-name">${c.name}</span>
-        <span class="search-item-count">${c.flags.length} flags</span>
-      </div>
-    `).join('');
-
-    results.classList.add('visible');
-
-    results.querySelectorAll('.search-item').forEach(el => {
-      el.addEventListener('click', () => {
-        const country = mapData[el.dataset.id];
-        openPanel(country);
-        input.value = '';
-        results.classList.remove('visible');
-
-        // Pan to country
-        if (country.centroid) {
-          const pos = projection([country.centroid[1], country.centroid[0]]);
-          if (pos) {
-            const container = document.getElementById('mapContainer');
-            const w = container.clientWidth;
-            const h = container.clientHeight;
-            const transform = d3.zoomIdentity
-              .translate(w / 2, h / 2)
-              .scale(4)
-              .translate(-pos[0], -pos[1]);
-            svg.transition().duration(750).call(
-              d3.zoom().scaleExtent([1, 12]).on('zoom', e => g.attr('transform', e.transform)).transform,
-              transform
-            );
-          }
-        }
-      });
-    });
-  });
-
-  input.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') { input.value = ''; results.classList.remove('visible'); input.blur(); }
-  });
-
-  document.addEventListener('click', (e) => {
-    if (!e.target.closest('#searchBox')) results.classList.remove('visible');
-  });
+/* Timeline */
+function setupTL(){
+  const sl=$('sl'),d=$('yr'),rb=$('rb');
+  sl.addEventListener('input',()=>{yr=parseInt(sl.value);d.textContent=yr>=2025?'Now':yr<0?Math.abs(yr)+' BC':yr;onYC()});
+  rb.addEventListener('click',()=>{sl.value=2025;yr=2025;d.textContent='Now';onYC()});
+}
+function onYC(){
+  const feats=topojson.feature(W,W.objects.countries);mkPatterns(feats);
+  g.selectAll('.co').each(function(d){fillC(d3.select(this),d)});mkMarkers();updSt();
+  $('mt').innerHTML=yr<2025?`<span>${yr<0?Math.abs(yr)+' BC':yr}</span>`:'';
+  if(selC)openP(selC);
 }
 
-// ── Timeline ──
-function setupTimeline() {
-  const slider = document.getElementById('timeSlider');
-  const display = document.getElementById('yearDisplay');
-  const reset = document.getElementById('resetTimeBtn');
-
-  slider.addEventListener('input', () => {
-    currentYear = parseInt(slider.value);
-    if (currentYear >= 2025) {
-      display.textContent = 'Now';
-    } else if (currentYear < 0) {
-      display.textContent = Math.abs(currentYear) + ' BC';
-    } else {
-      display.textContent = currentYear;
-    }
-    renderFlagMarkers();
-    updateStats();
-
-    // Update panel if open
-    if (selectedCountry) openPanel(selectedCountry);
-  });
-
-  reset.addEventListener('click', () => {
-    slider.value = 2025;
-    currentYear = 2025;
-    display.textContent = 'Now';
-    renderFlagMarkers();
-    updateStats();
-    if (selectedCountry) openPanel(selectedCountry);
+/* Controls */
+function setupCtrl(){
+  $('px').addEventListener('click',closeP);
+  $('bF').addEventListener('click',()=>swP(false));
+  $('bG').addEventListener('click',()=>swP(true));
+  $('bFl').addEventListener('click',togF);
+  document.addEventListener('keydown',e=>{
+    if(e.target.tagName==='INPUT')return;
+    if(e.key==='Escape')closeP();
+    if(e.key==='/'){e.preventDefault();$('si').focus()}
+    if(e.key==='f')togF();
   });
 }
-
-// ── View Controls ──
-function setupControls() {
-  document.getElementById('panelClose').addEventListener('click', closePanel);
-
-  document.getElementById('btnFlat').addEventListener('click', () => switchProjection(false));
-  document.getElementById('btnGlobe').addEventListener('click', () => switchProjection(true));
-
-  // Keyboard
-  document.addEventListener('keydown', (e) => {
-    if (e.target.tagName === 'INPUT') return;
-    if (e.key === 'Escape') closePanel();
-    if (e.key === '/') { e.preventDefault(); document.getElementById('searchInput').focus(); }
-  });
+function togF(){
+  showF=!showF;$('bFl').classList.toggle('on',showF);
+  const feats=topojson.feature(W,W.objects.countries);
+  if(showF)mkPatterns(feats);
+  g.selectAll('.co').each(function(d){fillC(d3.select(this),d)});mkMarkers();
+}
+function swP(globe){
+  isG=globe;$('bF').classList.toggle('on',!globe);$('bG').classList.toggle('on',globe);
+  const el=$('mw'),w=el.clientWidth,h=el.clientHeight;
+  if(globe)proj=d3.geoOrthographic().fitSize([Math.min(w,h)-60,Math.min(w,h)-60],{type:'Sphere'}).translate([w/2,h/2]).clipAngle(90);
+  else proj=d3.geoNaturalEarth1().fitSize([w-30,h-110],{type:'Sphere'}).translate([w/2,h/2-8]);
+  svg.call(svg.__zb.transform,d3.zoomIdentity);redraw();
+  if(globe){svg.call(d3.drag().on('drag',e=>{const r=proj.rotate();proj.rotate([r[0]+e.dx*.4,r[1]-e.dy*.4]);redraw()}))}
+  else svg.on('.drag',null);
+}
+function updSt(){
+  let v=0;for(const c of Object.values(MD))if(c.centroid&&flagAt(c,yr))v++;
+  $('st').textContent=`${v} countries · ${Object.values(MD).reduce((s,c)=>s+c.flags.length,0)} flags`;
 }
 
-function switchProjection(globe) {
-  isGlobe = globe;
-  document.getElementById('btnFlat').classList.toggle('active', !globe);
-  document.getElementById('btnGlobe').classList.toggle('active', globe);
-
-  const container = document.getElementById('mapContainer');
-  const w = container.clientWidth;
-  const h = container.clientHeight;
-
-  if (globe) {
-    projection = d3.geoOrthographic()
-      .fitSize([Math.min(w, h) - 80, Math.min(w, h) - 80], { type: 'Sphere' })
-      .translate([w / 2, h / 2])
-      .clipAngle(90);
-  } else {
-    projection = d3.geoNaturalEarth1()
-      .fitSize([w - 40, h - 120], { type: 'Sphere' })
-      .translate([w / 2, h / 2 - 10]);
-  }
-
-  // Reset zoom
-  svg.call(d3.zoom().scaleExtent([1, 12]).on('zoom', e => g.attr('transform', e.transform)).transform, d3.zoomIdentity);
-
-  redrawPaths();
-
-  // Re-setup drag for globe
-  if (globe) {
-    const dragBehavior = d3.drag()
-      .on('drag', (e) => {
-        const r = projection.rotate();
-        projection.rotate([r[0] + e.dx * 0.4, r[1] - e.dy * 0.4]);
-        redrawPaths();
-      });
-    svg.call(dragBehavior);
-  } else {
-    svg.on('.drag', null);
-    const zoom = d3.zoom()
-      .scaleExtent([1, 12])
-      .on('zoom', (e) => g.attr('transform', e.transform));
-    svg.call(zoom);
-  }
-}
-
-function updateStats() {
-  let visible = 0;
-  for (const c of Object.values(mapData)) {
-    if (c.centroid && getFlagAtYear(c, currentYear)) visible++;
-  }
-  document.getElementById('statsBar').textContent =
-    `${visible} countries · ${Object.values(mapData).reduce((s, c) => s + c.flags.length, 0)} flags in database`;
-}
-
-// ── Boot ──
-init().catch(err => {
-  console.error('Failed to load:', err);
-  document.getElementById('loading').innerHTML = '<div style="color:var(--fg2)">Failed to load map data</div>';
-});
-
+init().catch(err=>{console.error(err);$('ld').innerHTML='<div style="color:var(--fg2)">'+err.message+'</div>'});
 })();
 </script>
 </body>
