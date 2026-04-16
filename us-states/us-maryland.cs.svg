@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="845" viewBox="-4000 -3500 23000 18000" fill="none" font-family="Calibri,Arial,'Liberation Sans',sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="720" viewBox="-4000 -3500 23000 18000" fill="none" font-family="Calibri,Arial,'Liberation Sans',sans-serif">
   <title>Flag of Maryland — construction sheet</title>
 <defs>
     <marker id="left-arrow" viewBox="-4 -4 10 8" orient="auto" markerWidth="10" markerHeight="8">
@@ -8,23 +8,43 @@
 <path fill="#fafafa" d="m-4000 -3500h23000v18000H-4000z"/>
 <path fill="#fff" d="m0 0h15000v10000H0z"/>
 <g opacity=".5">
-  <path fill="#000000" d="m0 0h15000v10000H0z"/>
+  <!-- Top-left quadrant: Calvert (gold/black) -->
+  <path fill="#FFD700" d="m0 0h7500v5000H0z"/>
+  <path fill="#000000" d="m0 0h3750v2500H0z"/>
+  <path fill="#000000" d="m3750 2500h3750v2500H3750z"/>
+  <!-- Top-right quadrant: Crossland (red/white with cross) -->
+  <path fill="#C8102E" d="m7500 0h7500v5000H7500z"/>
+  <path fill="#FFFFFF" d="m7500 0h3750v2500H7500z"/>
+  <path fill="#FFFFFF" d="m11250 2500h3750v2500H11250z"/>
+  <!-- Bottom-left: Crossland -->
+  <path fill="#C8102E" d="m0 5000h7500v5000H0z"/>
+  <path fill="#FFFFFF" d="m0 5000h3750v2500H0z"/>
+  <path fill="#FFFFFF" d="m3750 7500h3750v2500H3750z"/>
+  <!-- Bottom-right: Calvert -->
+  <path fill="#FFD700" d="m7500 5000h7500v5000H7500z"/>
+  <path fill="#000000" d="m7500 5000h3750v2500H7500z"/>
+  <path fill="#000000" d="m11250 7500h3750v2500H11250z"/>
 </g>
 <g stroke="#000" stroke-width="140" stroke-linejoin="round" stroke-linecap="round">
   <path stroke="#444" stroke-width="250" d="m0 0h15000v10000H0z"/>
+  <path d="m7500 0v10000m-7500 5000h15000"/>
+  <path stroke="#222" stroke-width="75" stroke-dasharray="200,200" d="m7500 -2500v15000m-10000 -5000h20000"/>
 </g>
 <g stroke="#00f" stroke-width="75" marker-start="url(#left-arrow)">
-  <path d="m750 12000h6000.0"/>
-  <path d="m14250 12000H8250.0"/>
-  <path d="m17000 9250V5750.0"/>
-  <path d="m17000 750v3500.0"/>
+  <path d="m750 -2000h6000"/>
+  <path d="m14250 -2000H8250"/>
+  <path d="m750 12000h6000"/>
+  <path d="m14250 12000H8250"/>
+  <path d="m17000 9250V5750"/>
+  <path d="m17000 750v3500"/>
 </g>
-<g fill="#000" text-anchor="middle" font-size="50" transform="scale(50)">
-  <text x="150" y="265">3</text>
-  <g transform="rotate(270)"><text y="370">2</text></g>
-  <g font-size="27">
-    <text x="-2" y="272">[<tspan font-weight="bold" fill="#080">US</tspan>]</text>
-    <text x="302" y="272">[<tspan font-weight="bold" fill="#080">2:3</tspan>]</text>
-  </g>
+<g fill="#00f" font-size="700" text-anchor="middle">
+  <text x="3750" y="-1750">15</text>
+  <text x="11250" y="-1750">15</text>
+  <text x="3750" y="12500">15</text>
+  <text x="11250" y="12500">15</text>
+  <text x="17000" y="7650" transform="rotate(-90,17000,7650)">10</text>
+  <text x="17000" y="2550" transform="rotate(-90,17000,2550)">10</text>
 </g>
+<text x="7500" y="-2800" fill="#000" font-size="800" text-anchor="middle">2:3 — quartered: Calvert (gold/black) &amp; Crossland (red/white)</text>
 </svg>
