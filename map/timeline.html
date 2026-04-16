@@ -230,9 +230,16 @@ function render(){
       span.style.left=x1+'px';span.style.width=w+'px';
 
       const sL=start<0?Math.abs(start)+' BC':start;
-      span.innerHTML='<img src="'+B+f.flag_svg+'" alt="" onerror="this.style.display=\'none\'">'
-        +(w>80?'<span class="fs-n">'+f.name+'</span>':'')
-        +(w>150?'<span class="fs-y">'+sL+(end<2025?' – '+end:'')+'</span>':'');
+      // Only show name/year if span is wide enough AND doesn't get overlapped by next
+      // Calculate gap to next span
+      const nextFlag=flags.find(nf=>nf!==f&&(nf.year_start||0)>start);
+      const nextX=nextFlag?yrToX(nextFlag.year_start):Infinity;
+      const availW=Math.min(w, nextX-x1-4); // leave 4px gap
+
+      let content='<img src="'+B+f.flag_svg+'" alt="" onerror="this.style.display=\'none\'">';
+      if(availW>90) content+='<span class="fs-n">'+f.name+'</span>';
+      if(availW>170) content+='<span class="fs-y">'+sL+(end<2025?' – '+end:'')+'</span>';
+      span.innerHTML=content;
 
       span.onmouseover=e=>showTT(e,f,c);
       span.onmousemove=e=>moveTT(e);
