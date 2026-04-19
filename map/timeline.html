@@ -59,8 +59,9 @@ nav { position: fixed; top: 0; left: 0; right: 0; z-index: 20; height: var(--nav
 .rt { flex: 1; position: relative; height: 100%; }
 
 /* flag spans */
-.fs { position: absolute; top: 6px; height: 32px; border-radius: 3px; display: flex; align-items: center; gap: 4px; padding: 0 5px; cursor: pointer; transition: all .1s; overflow: hidden; border: 1px solid transparent; min-width: 14px; z-index: 2; }
-.fs:hover { border-color: var(--primary); z-index: 20; box-shadow: 0 2px 8px rgba(143,0,255,.15); background: #fff; }
+.fs { position: absolute; top: 6px; height: 32px; border-radius: 3px; display: flex; align-items: center; gap: 4px; padding: 0 5px; cursor: pointer; transition: all .1s; overflow: hidden; border: 1px solid transparent; min-width: 14px; z-index: 2; color: inherit; text-decoration: none; }
+.fs:hover { border-color: var(--primary); z-index: 20; box-shadow: 0 2px 8px rgba(143,0,255,.15); background: #fff; color: inherit; text-decoration: none; }
+.fs:focus-visible { outline: 2px solid var(--primary); outline-offset: 1px; }
 .fs img { width: 22px; height: 14px; object-fit: contain; border-radius: 1px; flex-shrink: 0; }
 .fs-n { font-size: .6rem; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .fs-y { font-size: .52rem; color: var(--text-light); white-space: nowrap; }
@@ -123,10 +124,11 @@ nav { position: fixed; top: 0; left: 0; right: 0; z-index: 20; height: var(--nav
 <script>
 (function(){
 'use strict';
-const B='https://flags.fyi', LW=150, RH=44;
+const B='', LW=150, RH=44, NOW=new Date().getFullYear();
 
 let MD, SC, LIN={}, filter='all', sortBy='time', showLineage=true;
 const $=id=>document.getElementById(id);
+const syncRuler=()=>{const r=$('rulerCv');if(r)r.style.transform='translateX('+(-$('tl').scrollLeft)+'px)'};
 
 async function init(){
   const[md,sc,lin]=await Promise.all([
@@ -135,6 +137,8 @@ async function init(){
     fetch('/map/lineage.json').then(r=>r.json()).catch(()=>({}))
   ]);
   MD=md;SC=sc;LIN=lin;
+  // Attach scroll listener BEFORE first render so programmatic scrollLeft is in sync
+  $('tl').addEventListener('scroll',syncRuler);
   render();setupCursor();setupCtrl();
   $('ld').classList.add('off');
 }
@@ -212,7 +216,8 @@ function render(){
     const row=document.createElement('div');row.className='row';
 
     const label=document.createElement('div');label.className='rl';
-    label.innerHTML='<img src="'+B+(c.current_flag||'')+'" alt="" onerror="this.style.display=\'none\'"><span>'+(c.name||'')+'</span>';
+    const flagImg=c.current_flag?'<img src="'+B+c.current_flag+'" alt="" onerror="this.style.display=\'none\'">':'';
+    label.innerHTML=flagImg+'<span>'+(c.name||'')+'</span>';
     row.appendChild(label);
 
     const track=document.createElement('div');track.className='rt';track.style.width=SC.total_w+'px';
@@ -227,9 +232,9 @@ function render(){
     const ci=i%8;
     for(let j=0;j<flags.length;j++){
       const f=flags[j];
-      if(!f.year_start&&!f.is_current)continue;
-      const start=f.year_start||(2025-10);
-      const end=f.year_end||(f.is_current?2025:(start+40));
+      if(f.year_start==null&&!f.is_current)continue;
+      const start=f.year_start!=null?f.year_start:(NOW-10);
+      const end=f.year_end!=null?f.year_end:(f.is_current?NOW:(start+40));
       const x1=yrToX(Math.max(start,SC.min_yr));
       const x2=yrToX(Math.min(end,SC.max_yr));
       const w=Math.max(x2-x1,14);
@@ -239,20 +244,20 @@ function render(){
       const nextX=next?yrToX(next.year_start||9999):Infinity;
       const availW=Math.min(w,nextX-x1-4);
 
-      const span=document.createElement('div');
+      const span=document.createElement('a');
       span.className='fs '+(f.is_current?'now':'c'+ci);
+      span.href='/'+f.slug+'/';
       span.style.left=x1+'px';span.style.width=w+'px';
 
       const sL=start<0?Math.abs(start)+' BC':start;
       let content='<img src="'+B+f.flag_svg+'" alt="" onerror="this.style.display=\'none\'">';
       if(availW>80)content+='<span class="fs-n">'+f.name+'</span>';
-      if(availW>160)content+='<span class="fs-y">'+sL+(end<2025?' – '+end:'')+'</span>';
+      if(availW>160)content+='<span class="fs-y">'+sL+(end<NOW?' – '+end:'')+'</span>';
       span.innerHTML=content;
 
       span.onmouseover=e=>{showTT(e,f,c);hiLin(f.slug)};
       span.onmousemove=e=>moveTT(e);
       span.onmouseout=()=>{hideTT();unHiLin()};
-      span.onclick=()=>window.open(B+'/'+f.slug+'/','_blank');
       track.appendChild(span);
 
       // Record position for lineage
@@ -267,10 +272,11 @@ function render(){
   if(showLineage){drawLineage(spanPos,rowY,countries.length)}
   else{svg.style.display='none'}
 
-  // Scroll
+  // Scroll (and explicitly sync ruler; programmatic scrollLeft fires events async)
   const tl=$('tl');
   if(filter==='cur')tl.scrollLeft=yrToX(1940)-100;
   else tl.scrollLeft=yrToX(1700)-50;
+  syncRuler();
 }
 
 /* ── Lineage ──
@@ -290,7 +296,7 @@ function drawLineage(spanPos,rowY,numRows){
       const tgtIdClean=tgtId.trim();
       if(rowY[tgtIdClean]===undefined)continue;
       // Find target country's first flag that starts at or after src's end
-      const tgtC=Object.values(MD).find(c=>c.id===tgtIdClean);
+      const tgtC=MD[tgtIdClean];
       if(!tgtC)continue;
       const tgtFlag=tgtC.flags
         .filter(f=>!f.is_sub&&f.year_start&&f.year_start>=src.endYr-5)
@@ -346,8 +352,7 @@ function setupCursor(){
     else c.style.display=cy.style.display='none';
   };
   tl.onmouseleave=()=>c.style.display=cy.style.display='none';
-  // Sync ruler scroll
-  tl.addEventListener('scroll',()=>{$('rulerCv').style.transform='translateX('+(-tl.scrollLeft)+'px)'});
+  // Ruler-scroll sync listener is attached in init() before first render
 }
 
 function showTT(e,f,c){
