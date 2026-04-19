@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Flag Map — Flags.fyi</title>
-<meta name="description" content="Interactive world map exploring 267 flags across 94 countries through history.">
+<meta name="description" content="Interactive world map of 268 flags across 85 countries, from 600 BC to today.">
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -114,10 +114,12 @@ nav {
 #pn { width: 0; overflow: hidden; background: #fff; border-left: 1px solid var(--border); transition: width .3s ease; flex-shrink: 0; }
 #pn.open { width: var(--pw); }
 #pi { width: var(--pw); height: 100vh; overflow-y: auto; }
-#ph { position: sticky; top: 0; background: #fff; padding: 16px 20px 12px; border-bottom: 1px solid var(--border); z-index: 5; display: flex; align-items: center; justify-content: space-between; }
-#pt { font-size: 1.25rem; font-weight: 600; }
+#ph { position: sticky; top: 0; background: #fff; padding: 16px 20px 12px; border-bottom: 1px solid var(--border); z-index: 5; display: flex; align-items: center; gap: 6px; }
+#pt { font-size: 1.25rem; font-weight: 600; flex: 1; }
 #px { background: none; border: none; color: var(--text-light); font-size: 1.25rem; cursor: pointer; padding: 2px 6px; border-radius: 4px; line-height: 1; }
 #px:hover { color: var(--text); background: #f5f5f5; }
+#pbk { display: none; background: none; border: none; color: var(--primary); font-size: 1.15rem; cursor: pointer; padding: 6px 8px; border-radius: 4px; line-height: 1; margin-left: -6px; }
+#pbk:hover { background: var(--primary-light); }
 #pfl { padding: 20px; display: flex; justify-content: center; background: #fafafa; border-bottom: 1px solid var(--border); }
 #pfl img { max-width: 180px; max-height: 120px; object-fit: contain; border-radius: 4px; box-shadow: 0 2px 8px rgba(0,0,0,.1); }
 #pb { padding: 0 20px 80px; }
@@ -161,6 +163,7 @@ nav {
   :root { --pw: 100vw; }
   #si { width: 120px; } #si:focus { width: 160px; }
   .nav-mid { display: none; }
+  #pbk { display: inline-block; }
 }
 ::-webkit-scrollbar { width: 5px; }
 ::-webkit-scrollbar-track { background: transparent; }
@@ -195,7 +198,7 @@ nav {
   <div id="tl">
     <div id="tr">
       <div id="yr">Now</div>
-      <input type="range" id="sl" min="-600" max="2025" value="2025" step="1">
+      <input type="range" id="sl" min="-600" max="2025" value="2025" step="1" aria-label="Year">
       <button id="rb">Reset</button>
     </div>
     <div id="th">Drag to explore flags through history · 600 BC → present</div>
@@ -213,7 +216,7 @@ nav {
 
 <div id="pn">
   <div id="pi">
-    <div id="ph"><div id="pt"></div><button id="px">✕</button></div>
+    <div id="ph"><button id="pbk" aria-label="Back to map" title="Back to map">←</button><div id="pt"></div><button id="px" aria-label="Close">✕</button></div>
     <div id="pfl"><img id="pfi" src="" alt=""></div>
     <div id="pb"></div>
   </div>
@@ -225,24 +228,44 @@ nav {
 <script>
 (function(){
 'use strict';
-const B='https://flags.fyi';
+const B='';// same-origin, relative URLs (works locally and in prod)
 const N2A={'004':'AFG','008':'ALB','012':'DZA','020':'AND','024':'AGO','028':'ATG','032':'ARG','036':'AUS','040':'AUT','048':'BHR','050':'BGD','056':'BEL','076':'BRA','124':'CAN','148':'TCD','152':'CHL','156':'CHN','170':'COL','174':'COM','191':'HRV','192':'CUB','203':'CZE','208':'DNK','262':'DJI','818':'EGY','231':'ETH','242':'FJI','246':'FIN','250':'FRA','276':'DEU','288':'GHA','300':'GRC','348':'HUN','356':'IND','360':'IDN','364':'IRN','368':'IRQ','372':'IRL','376':'ISR','380':'ITA','392':'JPN','400':'JOR','404':'KEN','410':'KOR','414':'KWT','422':'LBN','434':'LBY','458':'MYS','478':'MRT','484':'MEX','504':'MAR','528':'NLD','554':'NZL','566':'NGA','578':'NOR','512':'OMN','586':'PAK','275':'PSE','604':'PER','608':'PHL','616':'POL','620':'PRT','634':'QAT','642':'ROU','643':'RUS','682':'SAU','702':'SGP','706':'SOM','710':'ZAF','724':'ESP','729':'SDN','752':'SWE','756':'CHE','760':'SYR','834':'TZA','764':'THA','788':'TUN','792':'TUR','826':'GBR','804':'UKR','784':'ARE','840':'USA','704':'VNM','887':'YEM','408':'PRK'};
 const A2N={};for(const[n,a]of Object.entries(N2A))A2N[a]=n;
 /* no static color map — hex_colors come from flag data */
 
-let MD,W,I2C={};
+let MD,W,SC,I2C={};
 let proj,pathFn,svg,gBg,gMap,gMarkers,gDefs;
 let isGlobe=false,yr=2025,selC=null;
 const $=id=>document.getElementById(id);
 
 async function init(){
-  const[tR,fR]=await Promise.all([
+  const[tR,fR,sR]=await Promise.all([
     fetch('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json'),
-    fetch('/map/data.json')
+    fetch('/map/data.json'),
+    fetch('/map/scale.json').catch(()=>null)
   ]);
   W=await tR.json();MD=await fR.json();
+  if(sR&&sR.ok)SC=await sR.json();
   for(const[id,c]of Object.entries(MD))if(c.iso)I2C[c.iso]=c;
-  build();$('ld').classList.add('off');
+  build();restoreFromURL();$('ld').classList.add('off');
+}
+
+/* ── Event-density scale (shared with timeline.html) ──
+   Each decade is allotted pixel width proportional to log(1+events).
+   Lets the slider spend more travel on flag-dense eras (1910+)
+   and compress near-empty millennia (600 BC – 1500 AD). */
+function yrToX(y){
+  if(!SC) return y; // linear fallback
+  if(y<=SC.min_yr) return 0;
+  if(y>=SC.max_yr) return SC.total_w;
+  const dec=Math.floor(y/10)*10;
+  for(const d of SC.decades)if(d.d===dec) return d.x+(y-d.d)*(d.w/10);
+  return 0;
+}
+function xToYr(x){
+  if(!SC) return Math.round(x);
+  for(const d of SC.decades)if(x<=d.x+d.w) return Math.round(d.d+(x-d.x)*(10/d.w));
+  return SC.max_yr;
 }
 
 function build(){
@@ -261,7 +284,23 @@ function setProj(w,h){
     const s=Math.min(w,h);
     proj=d3.geoOrthographic().translate([w/2,h/2]).scale(s/2-20).clipAngle(90).rotate([0,0]);
   }else{
-    proj=d3.geoNaturalEarth1().fitSize([w-20,h-80],{type:'Sphere'}).translate([w/2,h/2-5]);
+    // Fit that blends between "contain" (no crop) and "cover" (fill) depending
+    // on container aspect. On landscape viewports ≈ contain; on portrait/mobile
+    // scales up toward cover so the map fills vertical space instead of leaving
+    // huge blank strips. The SVG clips the overflow; users can pan to see edges.
+    proj=d3.geoNaturalEarth1();
+    proj.scale(1).translate([0,0]);
+    const[[x0,y0],[x1,y1]]=d3.geoPath(proj).bounds({type:'Sphere'});
+    const mw=x1-x0,mh=y1-y0,cx=(x0+x1)/2,cy=(y0+y1)/2;
+    const padX=10,padY=10;
+    const sContain=Math.min((w-2*padX)/mw,(h-2*padY)/mh);
+    const sCover=Math.max((w-2*padX)/mw,(h-2*padY)/mh);
+    const mapAR=mw/mh,contAR=w/h;
+    // t=0 → contain, t=1 → cover. Bias: only kick in when container is taller
+    // than the map's natural aspect, and grow with the mismatch.
+    const t=contAR>=mapAR ? 0 : Math.min(0.6,(mapAR/contAR-1)*0.35);
+    const s=sContain+(sCover-sContain)*t;
+    proj.scale(s).translate([w/2-cx*s,h/2-cy*s-5]);
   }
   pathFn=d3.geoPath(proj);
 }
@@ -315,28 +354,47 @@ function cFill(d){
 
 function drawMarkers(){
   gMarkers.selectAll('*').remove();
-  for(const c of Object.values(MD)){
-    if(!c.centroid)continue;
-    const fl=flagAt(c,yr);if(!fl||!fl.flag_svg)continue;
+  const mW=32,mH=20,pad=2;// marker footprint (+small gutter)
+  let hidden=0;
+
+  // Sort so higher-priority markers claim space first. Selected country wins;
+  // otherwise prefer countries with more flags (a decent proxy for importance
+  // when we have no area/population data). Collision check below skips any
+  // marker whose bbox overlaps one already placed.
+  const entries=Object.values(MD)
+    .filter(c=>c.centroid && flagAt(c,yr) && flagAt(c,yr).flag_svg)
+    .sort((a,b)=>{
+      const sa=selC&&a.id===selC.id, sb=selC&&b.id===selC.id;
+      if(sa!==sb) return sa?-1:1;
+      return (b.flags?.length||0)-(a.flags?.length||0);
+    });
+
+  const placed=[];
+  for(const c of entries){
+    const fl=flagAt(c,yr);
     const pt=proj([c.centroid[1],c.centroid[0]]);if(!pt)continue;
     if(isGlobe&&d3.geoDistance([c.centroid[1],c.centroid[0]],[-proj.rotate()[0],-proj.rotate()[1]])>Math.PI/2)continue;
 
     // In flat mode, apply zoom transform to position but keep marker size constant
-    let mx=pt[0], my=pt[1], ms=1;
-    if(!isGlobe&&curTx){
-      mx=curTx.applyX(pt[0]);
-      my=curTx.applyY(pt[1]);
-      ms=1; // constant size
-    }
+    let mx=pt[0], my=pt[1];
+    if(!isGlobe&&curTx){mx=curTx.applyX(pt[0]);my=curTx.applyY(pt[1])}
+
+    const x0=mx-mW/2, y0=my-mH/2;
+    // Skip if overlaps any already-placed marker (AABB intersection + pad)
+    const hit=placed.some(p=>!(x0+mW+pad<p.x||x0>p.x+p.w+pad||y0+mH+pad<p.y||y0>p.y+p.h+pad));
+    if(hit){hidden++;continue}
+    placed.push({x:x0,y:y0,w:mW,h:mH});
 
     gMarkers.append('image').attr('href',B+fl.flag_svg)
-      .attr('x',mx-16).attr('y',my-10).attr('width',32).attr('height',20)
+      .attr('x',x0).attr('y',y0).attr('width',mW).attr('height',mH)
       .attr('preserveAspectRatio','xMidYMid meet')
       .style('cursor','pointer').style('filter','drop-shadow(0 1px 3px rgba(0,0,0,.2))')
       .datum(c)
       .on('click',(e,c)=>{e.stopPropagation();openP(c)})
       .on('mouseover',(e,c)=>showTT(e,c)).on('mousemove',e=>mvTT(e)).on('mouseout',()=>hideTT());
   }
+  // stash hidden count for stats
+  gMarkers.node().__hidden=hidden;
 }
 
 function lk(d){const a=N2A[String(d.id)];return a?I2C[a]:null}
@@ -375,7 +433,7 @@ function applyBehavior(){
       .filter(e=>e.type==='wheel'||e.type==='dblclick'||(e.touches&&e.touches.length>=2))
       .on('zoom',e=>{
         proj.scale(baseScale*e.transform.k);
-        pathFn=d3.geoPath(proj);drawAll();if(selC)hiSel();
+        pathFn=d3.geoPath(proj);drawAll();if(selC)hiSel();updStats();
       });
     svg.call(zm);svg._zm=zm;svg.style('cursor','grab');
 
@@ -388,8 +446,8 @@ function applyBehavior(){
         curTx=e.transform;
         gMap.attr('transform',e.transform);
         gBg.attr('transform',e.transform);
-        // Redraw markers at constant size
-        drawMarkers();
+        // Redraw markers at constant size; refresh hidden-marker count
+        drawMarkers();updStats();
       });
     svg.call(zm);svg._zm=zm;svg.style('cursor','grab');
   }
@@ -408,7 +466,14 @@ function doZoom(dir){
 
 /* Tooltip */
 function showTT(e,c){const fl=flagAt(c,yr);if(!fl)return;$('tf').src=B+fl.flag_svg;$('tn').textContent=c.name;const h=c.flags.filter(f=>!f.is_sub).length,s=c.flags.filter(f=>f.is_sub).length;let m=h+' flag'+(h!==1?'s':'');if(s)m+=', '+s+' sub-national';$('tm').textContent=m;$('tt').classList.add('v');mvTT(e)}
-function mvTT(e){const t=$('tt');t.style.left=(e.clientX+14)+'px';t.style.top=(e.clientY-8)+'px'}
+function mvTT(e){
+  const t=$('tt'),W=innerWidth,H=innerHeight,tw=t.offsetWidth||230,th=t.offsetHeight||60;
+  let x=e.clientX+14,y=e.clientY-8;
+  if(x+tw>W-4)x=e.clientX-tw-14;// flip to left of cursor if off-screen right
+  if(y+th>H-4)y=H-th-4;// clamp bottom
+  if(y<56)y=56;// clamp below navbar
+  t.style.left=x+'px';t.style.top=y+'px';
+}
 function hideTT(){$('tt').classList.remove('v')}
 function hIn(e,d){const c=lk(d);if(!c)return;d3.select(this).attr('fill','var(--landHv)');showTT(e,c)}
 function hMv(e){mvTT(e)}
@@ -430,6 +495,7 @@ function openP(c){
   if(sub.length){b.insertAdjacentHTML('beforeend','<div class="sl">Sub-national &amp; Territories</div>');sub.forEach(f=>b.appendChild(mkFC(f,false)))}
   const slug=(cur[0]||oth[0]||c.flags[0])?.slug;
   if(slug)b.insertAdjacentHTML('beforeend',`<a class="pl" href="${B}/${slug}/" target="_blank">View on flags.fyi →</a>`);
+  syncURLCountry(c.id);
 }
 function hiSel(){gMap.selectAll('.co').classed('hi',false);if(!selC||!selC.iso)return;const nid=A2N[selC.iso];gMap.selectAll('.co').filter(function(d){return String(d.id)===nid}).classed('hi',true)}
 function mkFC(f,cur){
@@ -438,7 +504,33 @@ function mkFC(f,cur){
   a.innerHTML=`<img src="${B}${f.flag_svg}" alt="${f.name}" onerror="this.style.background='#f5f5f5'"><div class="fi"><div class="fn">${f.name}</div>${y?`<div class="fy">${y}</div>`:''}</div><div class="fa">↗</div>`;
   return a;
 }
-function closeP(){$('pn').classList.remove('open');selC=null;gMap.selectAll('.co').classed('hi',false)}
+function closeP(){$('pn').classList.remove('open');selC=null;gMap.selectAll('.co').classed('hi',false);syncURLCountry(null);}
+
+/* URL state — shareable /map/?country=india&year=1947 */
+function syncURLCountry(id){
+  const u=new URL(location);
+  if(id)u.searchParams.set('country',id); else u.searchParams.delete('country');
+  history.replaceState(null,'',u);
+}
+function syncURLYear(){
+  const u=new URL(location);
+  if(yr>=2025)u.searchParams.delete('year'); else u.searchParams.set('year',yr);
+  history.replaceState(null,'',u);
+}
+function restoreFromURL(){
+  const p=new URLSearchParams(location.search);
+  const py=p.get('year');
+  if(py){
+    const n=parseInt(py,10);
+    if(!isNaN(n)&&n>=-600&&n<=2025){
+      yr=n;$('yr').textContent=yr<0?Math.abs(yr)+' BC':(yr>=2025?'Now':String(yr));
+      $('sl').value=SC?yrToX(yr):yr;
+      onYC();
+    }
+  }
+  const pc=p.get('country');
+  if(pc&&MD[pc]){openP(MD[pc]);if(MD[pc].centroid)flyTo(MD[pc].centroid)}
+}
 
 /* Search */
 function setupSearch(){
@@ -468,17 +560,28 @@ function flyTo(ct){
   }
 }
 
-/* Timeline */
+/* Timeline — slider values are pixel positions on the density-scaled
+   timeline (see yrToX/xToYr). Even drag distance → more years per
+   pixel in sparse eras (BC) and fewer in dense ones (20th century). */
 function setupTimeline(){
   const sl=$('sl'),d=$('yr'),rb=$('rb');
-  sl.addEventListener('input',()=>{yr=parseInt(sl.value);d.textContent=yr>=2025?'Now':yr<0?Math.abs(yr)+' BC':String(yr);onYC()});
-  rb.addEventListener('click',()=>{sl.value=2025;yr=2025;d.textContent='Now';onYC()});
+  if(SC){sl.min=0;sl.max=SC.total_w;sl.step=1;sl.value=yrToX(2025)}
+  sl.addEventListener('input',()=>{
+    yr=SC?xToYr(parseFloat(sl.value)):parseInt(sl.value);
+    d.textContent=yr>=2025?'Now':yr<0?Math.abs(yr)+' BC':String(yr);
+    syncURLYear();onYC();
+  });
+  rb.addEventListener('click',()=>{
+    sl.value=SC?yrToX(2025):2025;yr=2025;d.textContent='Now';
+    syncURLYear();onYC();
+  });
 }
 function onYC(){drawCountries();drawMarkers();updStats();$('mt').innerHTML=yr<2025?`<span>${yr<0?Math.abs(yr)+' BC':yr}</span>`:'';if(selC){hiSel();openP(selC)}}
 
 /* Controls */
 function setupControls(){
   $('px').addEventListener('click',closeP);
+  $('pbk').addEventListener('click',closeP);
   $('bF').addEventListener('click',()=>swM(false));
   $('bG').addEventListener('click',()=>swM(true));
   $('zIn').addEventListener('click',()=>doZoom(1));
@@ -495,7 +598,12 @@ function swM(globe){
   gMap.attr('transform',null);gMarkers.attr('transform',null);gBg.attr('transform',null);
   setProj(el.clientWidth,el.clientHeight-52);drawAll();applyBehavior();if(selC)hiSel();
 }
-function updStats(){let v=0;for(const c of Object.values(MD))if(c.centroid&&flagAt(c,yr))v++;$('st').textContent=v+' countries · '+Object.values(MD).reduce((s,c)=>s+c.flags.length,0)+' flags'}
+function updStats(){
+  let v=0;for(const c of Object.values(MD))if(c.centroid&&flagAt(c,yr))v++;
+  const tot=Object.values(MD).reduce((s,c)=>s+c.flags.length,0);
+  const hidden=gMarkers&&gMarkers.node()&&gMarkers.node().__hidden||0;
+  $('st').textContent=v+' countries · '+tot+' flags'+(hidden?' · '+hidden+' hidden (zoom in)':'');
+}
 
 init().catch(err=>{console.error(err);$('ld').innerHTML='<div style="color:var(--text-light)">'+err.message+'</div>'});
 })();
