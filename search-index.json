@@ -428,7 +428,6 @@
     "name": "Amazigh (Berber) Flag",
     "title": "Flag of the Amazigh (Berber) People",
     "groups": [
-      "national-flag",
       "pan",
       "maghreb"
     ],
@@ -439,7 +438,7 @@
       "red"
     ],
     "flag": "/movements/amazigh.svg",
-    "keywords": "amazigh (berber) flag flag of the amazigh (berber) people national-flag pan maghreb blue green yellow red"
+    "keywords": "amazigh (berber) flag flag of the amazigh (berber) people pan maghreb blue green yellow red"
   },
   {
     "id": "br/am",
@@ -624,7 +623,7 @@
     "name": "Anjouan",
     "title": "Flag of Anjouan — Comoros Island",
     "groups": [
-      "national-flag",
+      "sub",
       "africa"
     ],
     "colors": [
@@ -632,7 +631,7 @@
       "white"
     ],
     "flag": "/comoros/anjouan.svg",
-    "keywords": "anjouan flag of anjouan — comoros island national-flag africa red white"
+    "keywords": "anjouan flag of anjouan — comoros island sub africa red white"
   },
   {
     "id": "antigua-and-barbuda",
@@ -1334,7 +1333,7 @@
     "name": "Bangladesh Navy",
     "title": "Naval Ensign of Bangladesh",
     "groups": [
-      "national-flag",
+      "historic",
       "south-asia"
     ],
     "colors": [
@@ -1343,7 +1342,7 @@
       "white"
     ],
     "flag": "/bangladesh/navy.svg",
-    "keywords": "bangladesh navy naval ensign of bangladesh national-flag south-asia green red white"
+    "keywords": "bangladesh navy naval ensign of bangladesh historic south-asia green red white"
   },
   {
     "id": "ph/bangsamoro",
@@ -2781,7 +2780,6 @@
     "name": "Catalan Senyera",
     "title": "The Senyera (Flag of Catalonia)",
     "groups": [
-      "national-flag",
       "pan",
       "europe"
     ],
@@ -2790,7 +2788,7 @@
       "red"
     ],
     "flag": "/movements/catalan.svg",
-    "keywords": "catalan senyera the senyera (flag of catalonia) national-flag pan europe yellow red"
+    "keywords": "catalan senyera the senyera (flag of catalonia) pan europe yellow red"
   },
   {
     "id": "es/catalonia",
@@ -5003,14 +5001,14 @@
     "name": "Grande Comore",
     "title": "Flag of Grande Comore — Comoros Island",
     "groups": [
-      "national-flag",
+      "sub",
       "africa"
     ],
     "colors": [
       "blue"
     ],
     "flag": "/comoros/grande-comore.svg",
-    "keywords": "grande comore flag of grande comore — comoros island national-flag africa blue"
+    "keywords": "grande comore flag of grande comore — comoros island sub africa blue"
   },
   {
     "id": "pl/greater-poland",
@@ -6538,13 +6536,12 @@
     "name": "Juneteenth",
     "title": "Juneteenth Flag — Emancipation Commemorative Flag",
     "groups": [
-      "national-flag",
       "pan",
       "north-america"
     ],
     "colors": [],
     "flag": "/juneteenth/flag.svg",
-    "keywords": "juneteenth juneteenth flag — emancipation commemorative flag national-flag pan north-america"
+    "keywords": "juneteenth juneteenth flag — emancipation commemorative flag pan north-america"
   },
   {
     "id": "pe/junin",
@@ -7292,7 +7289,6 @@
     "name": "Kurdish Flag",
     "title": "Flag of Kurdistan",
     "groups": [
-      "national-flag",
       "pan",
       "levant"
     ],
@@ -7303,7 +7299,7 @@
       "yellow"
     ],
     "flag": "/movements/kurdish.svg",
-    "keywords": "kurdish flag flag of kurdistan national-flag pan levant red white green yellow"
+    "keywords": "kurdish flag flag of kurdistan pan levant red white green yellow"
   },
   {
     "id": "ru/kurgan-oblast",
@@ -7693,8 +7689,7 @@
     "name": "Libya (civil)",
     "title": "Flag of Libya (civil)",
     "groups": [
-      "national-flag",
-      "africa",
+      "historic",
       "arab",
       "maghreb"
     ],
@@ -7704,7 +7699,7 @@
       "green"
     ],
     "flag": "/libya/civil.svg",
-    "keywords": "libya (civil) flag of libya (civil) national-flag africa arab maghreb red black green"
+    "keywords": "libya (civil) flag of libya (civil) historic arab maghreb red black green"
   },
   {
     "id": "libya-ar",
@@ -8523,14 +8518,14 @@
     "name": "Mayotte",
     "title": "Flag of Mayotte — Disputed Comoros Territory",
     "groups": [
-      "national-flag",
+      "sub",
       "africa"
     ],
     "colors": [
       "white"
     ],
     "flag": "/comoros/mayotte.svg",
-    "keywords": "mayotte flag of mayotte — disputed comoros territory national-flag africa white"
+    "keywords": "mayotte flag of mayotte — disputed comoros territory sub africa white"
   },
   {
     "id": "fr/mayotte",
@@ -8871,7 +8866,7 @@
     "name": "Mohéli",
     "title": "Flag of Mohéli — Comoros Island",
     "groups": [
-      "national-flag",
+      "sub",
       "africa"
     ],
     "colors": [
@@ -8879,7 +8874,7 @@
       "red"
     ],
     "flag": "/comoros/moheli.svg",
-    "keywords": "mohéli flag of mohéli — comoros island national-flag africa yellow red"
+    "keywords": "mohéli flag of mohéli — comoros island sub africa yellow red"
   },
   {
     "id": "moldova",
@@ -10441,7 +10436,6 @@
     "name": "Pan-African Flag",
     "title": "Pan-African Flag (UNIA Flag)",
     "groups": [
-      "national-flag",
       "pan",
       "africa"
     ],
@@ -10451,14 +10445,13 @@
       "green"
     ],
     "flag": "/movements/pan-african.svg",
-    "keywords": "pan-african flag pan-african flag (unia flag) national-flag pan africa red black green"
+    "keywords": "pan-african flag pan-african flag (unia flag) pan africa red black green"
   },
   {
     "id": "pan-slavic",
     "name": "Pan-Slavic Flag",
     "title": "Pan-Slavic Flag",
     "groups": [
-      "national-flag",
       "pan",
       "europe"
     ],
@@ -10468,7 +10461,7 @@
       "red"
     ],
     "flag": "/movements/pan-slavic.svg",
-    "keywords": "pan-slavic flag pan-slavic flag national-flag pan europe blue white red"
+    "keywords": "pan-slavic flag pan-slavic flag pan europe blue white red"
   },
   {
     "id": "panama",
@@ -13552,7 +13545,6 @@
     "name": "Tibetan Flag",
     "title": "Flag of Tibet (Snow Lion Flag)",
     "groups": [
-      "national-flag",
       "pan",
       "asia"
     ],
@@ -13563,7 +13555,7 @@
       "yellow"
     ],
     "flag": "/movements/tibetan.svg",
-    "keywords": "tibetan flag flag of tibet (snow lion flag) national-flag pan asia white blue red yellow"
+    "keywords": "tibetan flag flag of tibet (snow lion flag) pan asia white blue red yellow"
   },
   {
     "id": "ar/tierra-del-fuego",

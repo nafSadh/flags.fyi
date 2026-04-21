@@ -56,12 +56,13 @@
     "index": "c/uk/governor"
   },
   "anjouan": {
-    "g": "nf,africa",
+    "g": "sub,africa",
     "ns": "comoros",
     "name": "Anjouan",
     "title": "Flag of Anjouan — Comoros Island",
     "id": "anjouan",
-    "index": "c/anjouan"
+    "index": "c/comoros",
+    "now": "comoros"
   },
   "antigua-and-barbuda": {
     "ns": "antigua-and-barbuda",
@@ -324,10 +325,11 @@
     "index": "c/bangladesh"
   },
   "bangladesh-navy": {
-    "g": "nf,south-asia",
+    "g": "h,south-asia",
     "ns": "bangladesh",
     "id": "bangladesh-navy",
-    "index": "c/bangladesh-navy"
+    "index": "c/bangladesh",
+    "now": "bangladesh"
   },
   "belgium": {
     "g": "nf,europe",
@@ -789,12 +791,13 @@
     "index": "c/comoros"
   },
   "comoros-mayotte": {
-    "g": "nf,africa",
+    "g": "sub,africa",
     "ns": "comoros",
     "name": "Mayotte",
     "title": "Flag of Mayotte — Disputed Comoros Territory",
     "id": "comoros-mayotte",
-    "index": "c/mayotte"
+    "index": "c/france",
+    "now": "france"
   },
   "croatia": {
     "g": "nf,europe",
@@ -1132,12 +1135,13 @@
     "index": "c/uk/gibraltar"
   },
   "grande-comore": {
-    "g": "nf,africa",
+    "g": "sub,africa",
     "ns": "comoros",
     "name": "Grande Comore",
     "title": "Flag of Grande Comore — Comoros Island",
     "id": "grande-comore",
-    "index": "c/grande-comore"
+    "index": "c/comoros",
+    "now": "comoros"
   },
   "greece": {
     "g": "nf,europe",
@@ -1697,11 +1701,12 @@
     "index": "c/libya:1969"
   },
   "libya-civil": {
-    "g": "nf,af,arab,maghreb",
+    "g": "h,arab,maghreb",
     "name": "Libya (civil)",
     "ns": "libya",
     "id": "libya-civil",
-    "index": "c/libya-(civil)"
+    "index": "c/libya",
+    "now": "libya"
   },
   "libya-cyrenaica": {
     "g": "h",
@@ -2019,12 +2024,13 @@
     "index": "c/mx/zac"
   },
   "moheli": {
-    "g": "nf,africa",
+    "g": "sub,africa",
     "ns": "comoros",
     "name": "Mohéli",
     "title": "Flag of Mohéli — Comoros Island",
     "id": "moheli",
-    "index": "c/mohéli"
+    "index": "c/comoros",
+    "now": "comoros"
   },
   "montserrat": {
     "ns": "british",

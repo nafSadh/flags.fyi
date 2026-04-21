@@ -47,7 +47,7 @@
 | 39 | Angola | `angola` | `c/angola` |
 | 40 | Anguilla | `anguilla` | `c/uk/anguilla` |
 | 41 | Anguilla Governor | `anguilla-governor` | `c/uk/governor` |
-| 42 | Anjouan | `anjouan` | `c/anjouan` |
+| 42 | Anjouan → comoros | `anjouan` | `c/comoros` |
 | 43 | Antigua and Barbuda | `antigua-and-barbuda` | `c/antigua-and-barbuda` |
 | 44 | Antioquia | `co/antioquia` | `c/co/antioquia` |
 | 45 | Anzoategui | `ve/anzoategui` | `c/ve/anzoategui` |
@@ -95,7 +95,7 @@
 | 87 | Bangkok → thailand | `bangkok` | `c/thailand` |
 | 88 | Bangladesh | `bangladesh` | `c/bangladesh` |
 | 89 | Bangladesh 1971 (Map Version) (1971) → bangladesh | `bd-1971-map` | `c/bangladesh:1971` |
-| 90 | Bangladesh Navy | `bangladesh-navy` | `c/bangladesh-navy` |
+| 90 | Bangladesh Navy → bangladesh | `bangladesh-navy` | `c/bangladesh` |
 | 91 | Bangsamoro (BARMM) | `ph/bangsamoro` | `c/ph/bangsamoro` |
 | 92 | Banten | `id/banten` | `c/id/banten` |
 | 93 | Baranya | `hu/baranya` | `c/hu/baranya` |
@@ -351,7 +351,7 @@
 | 343 | Gran Colombia (1819–1831) → colombia | `gran-colombia` | `c/colombia:1819` |
 | 344 | Grand Duchy of Lithuania (1236–1795) → lithuania | `lithuania-gd` | `c/lithuania:1236` |
 | 345 | Grand Est | `fr/grand-est` | `c/fr/grand-est` |
-| 346 | Grande Comore | `grande-comore` | `c/grande-comore` |
+| 346 | Grande Comore → comoros | `grande-comore` | `c/comoros` |
 | 347 | Greater Poland Voivodeship | `pl/greater-poland` | `c/pl/greater-poland` |
 | 348 | Greece | `greece` | `c/greece` |
 | 349 | Greek Independence Flag (1821) → greece | `gr-independence` | `c/greece:1821` |
@@ -513,7 +513,7 @@
 | 505 | Liberec | `cz/liberec` | `c/cz/liberec` |
 | 506 | Liberia | `liberia` | `c/liberia` |
 | 507 | Libya | `libya` | `c/libya` |
-| 508 | Libya (civil) | `libya-civil` | `c/libya-(civil)` |
+| 508 | Libya (civil) → libya | `libya-civil` | `c/libya` |
 | 509 | Libyan Arab Republic (1969–1977) → libya | `libya-ar` | `c/libya:1969` |
 | 510 | Libyan Jamahiriya (1977–2011) → libya | `libya-jamahiriya` | `c/libya:1977` |
 | 511 | Liechtenstein | `liechtenstein` | `c/liechtenstein` |
@@ -575,7 +575,7 @@
 | 567 | Maule | `cl/maule` | `c/cl/maule` |
 | 568 | Mauritania | `mauritania` | `c/mauritania` |
 | 569 | Mauritania (1959–2017) (1959–2017) → mauritania | `mauritania-1959` | `c/mauritania:1959` |
-| 570 | Mayotte | `comoros-mayotte` | `c/mayotte` |
+| 570 | Mayotte → france | `comoros-mayotte` | `c/france` |
 | 571 | Mayotte | `fr/mayotte` | `c/fr/mayotte` |
 | 572 | Mecklenburg-Vorpommern | `de/mecklenburg-vorpommern` | `c/de/mecklenburg-vorpommern` |
 | 573 | Melbourne → australia | `melbourne` | `c/australia` |
@@ -602,7 +602,7 @@
 | 594 | Missouri | `us/missouri` | `c/us/missouri` |
 | 595 | Miyagi Prefecture | `jp/miyagi` | `c/jp/miyagi` |
 | 596 | Miyazaki Prefecture | `jp/miyazaki` | `c/jp/miyazaki` |
-| 597 | Mohéli | `moheli` | `c/mohéli` |
+| 597 | Mohéli → comoros | `moheli` | `c/comoros` |
 | 598 | Moldova | `moldova` | `c/moldova` |
 | 599 | Molise | `it/molise` | `c/it/molise` |
 | 600 | Monaco | `monaco` | `c/monaco` |

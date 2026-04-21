@@ -61,16 +61,11 @@
   },
   "angola": {
     "prev": "andorra",
-    "next": "anjouan",
-    "cat": "countries"
-  },
-  "anjouan": {
-    "prev": "angola",
     "next": "antigua-and-barbuda",
     "cat": "countries"
   },
   "antigua-and-barbuda": {
-    "prev": "anjouan",
+    "prev": "angola",
     "next": "argentina",
     "cat": "countries"
   },
@@ -141,26 +136,26 @@
   },
   "bangladesh": {
     "prev": "bahrain",
+    "next": "bangladesh-navy",
+    "cat": "countries"
+  },
+  "bangladesh-navy": {
+    "prev": "bangladesh",
     "next": "bd-1971-map",
     "cat": "countries"
   },
   "bd-1971-map": {
-    "prev": "bangladesh",
+    "prev": "bangladesh-navy",
     "next": "east-pakistan",
     "cat": "countries"
   },
   "east-pakistan": {
     "prev": "bd-1971-map",
-    "next": "bangladesh-navy",
-    "cat": "countries"
-  },
-  "bangladesh-navy": {
-    "prev": "east-pakistan",
     "next": "barbados",
     "cat": "countries"
   },
   "barbados": {
-    "prev": "bangladesh-navy",
+    "prev": "east-pakistan",
     "next": "belarus",
     "cat": "countries"
   },
@@ -356,11 +351,26 @@
   },
   "comoros": {
     "prev": "gran-colombia",
+    "next": "anjouan",
+    "cat": "countries"
+  },
+  "anjouan": {
+    "prev": "comoros",
+    "next": "grande-comore",
+    "cat": "countries"
+  },
+  "grande-comore": {
+    "prev": "anjouan",
+    "next": "moheli",
+    "cat": "countries"
+  },
+  "moheli": {
+    "prev": "grande-comore",
     "next": "congo-dr",
     "cat": "countries"
   },
   "congo-dr": {
-    "prev": "comoros",
+    "prev": "moheli",
     "next": "congo-republic",
     "cat": "countries"
   },
@@ -581,11 +591,16 @@
   },
   "france": {
     "prev": "helsinki",
+    "next": "comoros-mayotte",
+    "cat": "countries"
+  },
+  "comoros-mayotte": {
+    "prev": "france",
     "next": "paris",
     "cat": "countries"
   },
   "paris": {
-    "prev": "france",
+    "prev": "comoros-mayotte",
     "next": "fr-free-france",
     "cat": "countries"
   },
@@ -671,16 +686,11 @@
   },
   "gh-gold-coast": {
     "prev": "ghana",
-    "next": "grande-comore",
-    "cat": "countries"
-  },
-  "grande-comore": {
-    "prev": "gh-gold-coast",
     "next": "greece",
     "cat": "countries"
   },
   "greece": {
-    "prev": "grande-comore",
+    "prev": "gh-gold-coast",
     "next": "gr-junta",
     "cat": "countries"
   },
@@ -1146,11 +1156,16 @@
   },
   "libya": {
     "prev": "liberia",
+    "next": "libya-civil",
+    "cat": "countries"
+  },
+  "libya-civil": {
+    "prev": "libya",
     "next": "libya-jamahiriya",
     "cat": "countries"
   },
   "libya-jamahiriya": {
-    "prev": "libya",
+    "prev": "libya-civil",
     "next": "libya-ar",
     "cat": "countries"
   },
@@ -1186,16 +1201,11 @@
   },
   "libya-ottoman": {
     "prev": "libya-italian",
-    "next": "libya-civil",
-    "cat": "countries"
-  },
-  "libya-civil": {
-    "prev": "libya-ottoman",
     "next": "liechtenstein",
     "cat": "countries"
   },
   "liechtenstein": {
-    "prev": "libya-civil",
+    "prev": "libya-ottoman",
     "next": "lithuania",
     "cat": "countries"
   },
@@ -1281,16 +1291,11 @@
   },
   "mauritania-1959": {
     "prev": "mauritania",
-    "next": "comoros-mayotte",
-    "cat": "countries"
-  },
-  "comoros-mayotte": {
-    "prev": "mauritania-1959",
     "next": "mexico",
     "cat": "countries"
   },
   "mexico": {
-    "prev": "comoros-mayotte",
+    "prev": "mauritania-1959",
     "next": "mexico-city-city",
     "cat": "countries"
   },
@@ -1316,16 +1321,11 @@
   },
   "micronesia": {
     "prev": "mx-empire",
-    "next": "moheli",
-    "cat": "countries"
-  },
-  "moheli": {
-    "prev": "micronesia",
     "next": "moldova",
     "cat": "countries"
   },
   "moldova": {
-    "prev": "moheli",
+    "prev": "micronesia",
     "next": "chisinau",
     "cat": "countries"
   },

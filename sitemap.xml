@@ -67,6 +67,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://flags.fyi/flag-index/sub/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://flags.fyi/flag-index/caribbean/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -80,12 +86,6 @@
   </url>
   <url>
     <loc>https://flags.fyi/flag-index/south-america/</loc>
-    <lastmod>2026-04-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://flags.fyi/flag-index/sub/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -256,7 +256,7 @@
     <loc>https://flags.fyi/anjouan/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://flags.fyi/antigua-and-barbuda/</loc>
@@ -484,7 +484,7 @@
     <loc>https://flags.fyi/bangladesh-navy/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://flags.fyi/belgium/</loc>
@@ -892,7 +892,7 @@
     <loc>https://flags.fyi/comoros-mayotte/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://flags.fyi/croatia/</loc>
@@ -1174,7 +1174,7 @@
     <loc>https://flags.fyi/grande-comore/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://flags.fyi/greece/</loc>
@@ -1654,7 +1654,7 @@
     <loc>https://flags.fyi/libya-civil/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://flags.fyi/libya-cyrenaica/</loc>
@@ -1918,7 +1918,7 @@
     <loc>https://flags.fyi/moheli/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://flags.fyi/montserrat/</loc>
