@@ -395,9 +395,9 @@ body.flag-page { overflow: hidden; height: 100vh; }
 /* Ultra-compact colors: "Colors: red (#f01), blue (#abc)" with hover tooltips */
 .colors-compact {
   font-size: 0.82rem; line-height: 1.6;
-  margin: 0.75rem 0 0.75rem;
-  padding-top: 0.75rem;
-  border-top: 1px solid var(--border);
+  margin: 0.9rem 0 0.75rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid #c8c8c8;
   color: var(--text);
 }
 .colors-compact .colors-label {
@@ -431,8 +431,7 @@ body.flag-page { overflow: hidden; height: 100vh; }
 .wiki-link:hover { color: var(--text); }
 .wiki-link svg { width: 16px; height: 16px; flex-shrink: 0; }
 .entity-summary {
-  margin-top: 0.75rem; padding-top: 0.75rem;
-  border-top: 1px solid var(--border);
+  margin-top: 0;
 }
 .entity-summary p {
   font-size: 0.82rem; line-height: 1.5; color: var(--text);
