@@ -1470,6 +1470,96 @@
     "id": "gran-colombia",
     "index": "c/colombia:1819"
   },
+  "wallachia": {
+    "g": "h,empire,europe",
+    "ns": "empires",
+    "name": "Principality of Wallachia",
+    "now": "romania",
+    "years": "1330–1859",
+    "id": "wallachia",
+    "index": "c/romania:1330"
+  },
+  "moldavia": {
+    "g": "h,empire,europe",
+    "ns": "empires",
+    "name": "Principality of Moldavia",
+    "now": "romania",
+    "years": "1346–1859",
+    "id": "moldavia",
+    "index": "c/romania:1346"
+  },
+  "transylvania": {
+    "g": "h,empire,europe",
+    "ns": "empires",
+    "name": "Principality of Transylvania",
+    "now": "romania",
+    "years": "1570–1711",
+    "id": "transylvania",
+    "index": "c/romania:1570"
+  },
+  "ragusa": {
+    "g": "h,empire,europe",
+    "ns": "empires",
+    "name": "Republic of Ragusa",
+    "now": "croatia",
+    "years": "1358–1808",
+    "id": "ragusa",
+    "index": "c/croatia:1358"
+  },
+  "aq-qoyunlu": {
+    "g": "h,empire,asia",
+    "ns": "empires",
+    "name": "Aq Qoyunlu",
+    "now": "iran",
+    "years": "1378–1503",
+    "id": "aq-qoyunlu",
+    "index": "c/iran:1378"
+  },
+  "zand": {
+    "g": "h,empire,asia",
+    "ns": "empires",
+    "name": "Zand Dynasty",
+    "now": "iran",
+    "years": "1751–1794",
+    "id": "zand",
+    "index": "c/iran:1751"
+  },
+  "crimean-khanate": {
+    "g": "h,empire,europe",
+    "ns": "empires",
+    "name": "Crimean Khanate",
+    "now": "ukraine",
+    "years": "1441–1783",
+    "id": "crimean-khanate",
+    "index": "c/ukraine:1441"
+  },
+  "ayutthaya": {
+    "g": "h,empire,asia",
+    "ns": "empires",
+    "name": "Ayutthaya Kingdom",
+    "now": "thailand",
+    "years": "1351–1767",
+    "id": "ayutthaya",
+    "index": "c/thailand:1351"
+  },
+  "konbaung": {
+    "g": "h,empire,asia",
+    "ns": "empires",
+    "name": "Konbaung Dynasty",
+    "now": "myanmar",
+    "years": "1752–1885",
+    "id": "konbaung",
+    "index": "c/myanmar:1752"
+  },
+  "dahomey": {
+    "g": "h,empire,africa",
+    "ns": "empires",
+    "name": "Kingdom of Dahomey",
+    "now": "benin",
+    "years": "1600–1904",
+    "id": "dahomey",
+    "index": "c/benin:1600"
+  },
   "qajar": {
     "g": "h,asia",
     "ns": "persia",

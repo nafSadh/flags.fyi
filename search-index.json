@@ -421,6 +421,22 @@
     "keywords": "antigua and barbuda flag of antigua and barbuda caribbean red blue yellow black white"
   },
   {
+    "id": "aq-qoyunlu",
+    "name": "Aq Qoyunlu",
+    "title": "Banner of Uzun Hasan (Aq Qoyunlu)",
+    "groups": [
+      "historic",
+      "empire",
+      "asia"
+    ],
+    "colors": [
+      "cream",
+      "brown"
+    ],
+    "flag": "/empires/aq-qoyunlu.svg",
+    "keywords": "aq qoyunlu banner of uzun hasan (aq qoyunlu) historic empire asia cream brown"
+  },
+  {
     "id": "arab-federation",
     "name": "Arab Federation",
     "title": "Flag of Arab Federation",
@@ -610,6 +626,21 @@
     ],
     "flag": "/empires/austria-hungary.svg",
     "keywords": "austria-hungary naval ensign of austria-hungary historic empire europe red white gold"
+  },
+  {
+    "id": "ayutthaya",
+    "name": "Ayutthaya Kingdom",
+    "title": "Flag of the Ayutthaya Kingdom",
+    "groups": [
+      "historic",
+      "empire",
+      "asia"
+    ],
+    "colors": [
+      "red"
+    ],
+    "flag": "/empires/ayutthaya.svg",
+    "keywords": "ayutthaya kingdom flag of the ayutthaya kingdom historic empire asia red"
   },
   {
     "id": "ayyubid",
@@ -1573,6 +1604,22 @@
     ],
     "flag": "/cote-divoire/flag.svg",
     "keywords": "cote divoire flag of the republic of côte d'ivoire national-flag africa orange white green"
+  },
+  {
+    "id": "crimean-khanate",
+    "name": "Crimean Khanate",
+    "title": "Banner of the Crimean Khanate",
+    "groups": [
+      "historic",
+      "empire",
+      "europe"
+    ],
+    "colors": [
+      "blue",
+      "cream"
+    ],
+    "flag": "/empires/crimean-khanate.svg",
+    "keywords": "crimean khanate banner of the crimean khanate historic empire europe blue cream"
   },
   {
     "id": "croatia",
@@ -3396,6 +3443,24 @@
     "keywords": "kingdom of castile royal banner of the kingdom of castile historic empire europe red gold"
   },
   {
+    "id": "dahomey",
+    "name": "Kingdom of Dahomey",
+    "title": "Flag of Ghezo of Dahomey",
+    "groups": [
+      "historic",
+      "empire",
+      "africa"
+    ],
+    "colors": [
+      "red",
+      "white",
+      "grey",
+      "gold"
+    ],
+    "flag": "/empires/dahomey.svg",
+    "keywords": "kingdom of dahomey flag of ghezo of dahomey historic empire africa red white grey gold"
+  },
+  {
     "id": "egypt-kingdom",
     "name": "Kingdom of Egypt",
     "title": "Kingdom of Egypt",
@@ -3555,6 +3620,24 @@
     ],
     "flag": "/empires/templar.svg",
     "keywords": "knights templar beauseant of the knights templar historic empire europe black white red"
+  },
+  {
+    "id": "konbaung",
+    "name": "Konbaung Dynasty",
+    "title": "Peacock Standard of the Konbaung Dynasty",
+    "groups": [
+      "historic",
+      "empire",
+      "asia"
+    ],
+    "colors": [
+      "white",
+      "red",
+      "blue",
+      "green"
+    ],
+    "flag": "/empires/konbaung.svg",
+    "keywords": "konbaung dynasty peacock standard of the konbaung dynasty historic empire asia white red blue green"
   },
   {
     "id": "korea",
@@ -5118,6 +5201,57 @@
     "keywords": "portugal flag of portugal europe green red yellow"
   },
   {
+    "id": "moldavia",
+    "name": "Principality of Moldavia",
+    "title": "Banner of the Principality of Moldavia",
+    "groups": [
+      "historic",
+      "empire",
+      "europe"
+    ],
+    "colors": [
+      "red",
+      "gold"
+    ],
+    "flag": "/empires/moldavia.svg",
+    "keywords": "principality of moldavia banner of the principality of moldavia historic empire europe red gold"
+  },
+  {
+    "id": "transylvania",
+    "name": "Principality of Transylvania",
+    "title": "Flag of the Principality of Transylvania",
+    "groups": [
+      "historic",
+      "empire",
+      "europe"
+    ],
+    "colors": [
+      "blue",
+      "red",
+      "gold"
+    ],
+    "flag": "/empires/transylvania.svg",
+    "keywords": "principality of transylvania flag of the principality of transylvania historic empire europe blue red gold"
+  },
+  {
+    "id": "wallachia",
+    "name": "Principality of Wallachia",
+    "title": "Banner of the Principality of Wallachia",
+    "groups": [
+      "historic",
+      "empire",
+      "europe"
+    ],
+    "colors": [
+      "white",
+      "black",
+      "red",
+      "green"
+    ],
+    "flag": "/empires/wallachia.svg",
+    "keywords": "principality of wallachia banner of the principality of wallachia historic empire europe white black red green"
+  },
+  {
     "id": "pride-progress",
     "name": "Progress Pride Flag",
     "title": "Progress Pride Flag",
@@ -5354,6 +5488,22 @@
     ],
     "flag": "/empires/pisa.svg",
     "keywords": "republic of pisa stendardo of the republic of pisa historic empire europe blue black red white"
+  },
+  {
+    "id": "ragusa",
+    "name": "Republic of Ragusa",
+    "title": "Flag of the Republic of Ragusa",
+    "groups": [
+      "historic",
+      "empire",
+      "europe"
+    ],
+    "colors": [
+      "white",
+      "red"
+    ],
+    "flag": "/empires/ragusa.svg",
+    "keywords": "republic of ragusa flag of the republic of ragusa historic empire europe white red"
   },
   {
     "id": "venice",
@@ -6995,6 +7145,23 @@
     ],
     "flag": "/zambia/flag.svg",
     "keywords": "zambia flag of the republic of zambia national-flag africa green red black orange"
+  },
+  {
+    "id": "zand",
+    "name": "Zand Dynasty",
+    "title": "Flag of the Zand Dynasty",
+    "groups": [
+      "historic",
+      "empire",
+      "asia"
+    ],
+    "colors": [
+      "white",
+      "green",
+      "gold"
+    ],
+    "flag": "/empires/zand.svg",
+    "keywords": "zand dynasty flag of the zand dynasty historic empire asia white green gold"
   },
   {
     "id": "zimbabwe",

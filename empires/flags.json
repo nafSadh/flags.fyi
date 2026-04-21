@@ -1012,5 +1012,212 @@
       "- The Cosiata movement (1826) led by General Páez in Venezuela began the breakup\n",
       "- Panama remained part of Colombia until its 1903 US-backed independence during the canal era"
     ]
+  },
+  "wallachia": {
+    "title": "Banner of the Principality of Wallachia",
+    "ratio": "2:3",
+    "colors": [
+      {"color": "white", "hex": "#ffffff", "note": "Field of the royal banner."},
+      {"color": "black", "hex": "#000000", "note": "Royal eagle."},
+      {"color": "red", "hex": "#c8102e", "note": "Orthodox cross."},
+      {"color": "green", "hex": "#236f4f", "note": "Pine tree."}
+    ],
+    "desc": [
+      "- The Principality of Wallachia (1330–1859) was a Romanian Orthodox state south of the Carpathians that for most of its history was an Ottoman vassal\n",
+      "- **Construction:** a white field bearing a black heraldic eagle clutching a red Orthodox cross, perched above a green pine tree — an emblem combining Byzantine imperial and Romanian dynastic symbols\n",
+      "- United with Moldavia in 1859 under Alexandru Ioan Cuza to form the United Principalities, the direct ancestor of modern Romania"
+    ],
+    "flag": "empires/wallachia.svg",
+    "countryData": {"name": "Principality of Wallachia", "officialName": "Țara Românească", "un": "none"},
+    "trivia": [
+      "- Voivode Vlad III Drăculea (\"Dracula\", 1448–1476) fought three wars with Mehmed II to preserve Wallachian autonomy\n",
+      "- The Orthodox cross references Wallachia's allegiance to the Ecumenical Patriarchate in Constantinople\n",
+      "- The name \"Wallachia\" derives from the Germanic **Walach**, the exonym for Romance-speakers in Eastern Europe"
+    ]
+  },
+  "moldavia": {
+    "title": "Banner of the Principality of Moldavia",
+    "ratio": "2:3",
+    "colors": [
+      {"color": "red", "hex": "#c8102e", "note": "Gules field."},
+      {"color": "gold", "hex": "#ffcc00", "note": "Aurochs head, rose, crescent, star."}
+    ],
+    "desc": [
+      "- The Principality of Moldavia (1346–1859) was a Romanian Orthodox state east of the Carpathians, famous for its defiance of the Ottomans under Stephen III (Ștefan cel Mare, 1457–1504)\n",
+      "- **Construction:** a red banner bearing a gold **aurochs head** with a five-pointed star between its horns, flanked by a rose and a crescent moon — the founding legend-emblem of Voivode Dragoș (c. 1346)\n",
+      "- The aurochs is still on the Moldovan coat of arms and appears on Romania's arms beside the Wallachian eagle"
+    ],
+    "flag": "empires/moldavia.svg",
+    "countryData": {"name": "Principality of Moldavia", "officialName": "Țara Moldovei", "un": "none"},
+    "trivia": [
+      "- Stephen the Great fought 36 battles defending Moldavian independence; Pope Sixtus IV called him **Athleta Christi**\n",
+      "- Moldavia united with Wallachia in 1859 to form modern Romania; its eastern half was annexed by Russia in 1812 (today's Republic of Moldova)\n",
+      "- The aurochs (European bison) was a real animal in medieval Carpathian forests — extinct in the wild by the 17th century"
+    ]
+  },
+  "transylvania": {
+    "title": "Flag of the Principality of Transylvania",
+    "ratio": "2:3",
+    "colors": [
+      {"color": "blue", "hex": "#0a66c2", "note": "Hungarian (Magyar) nation."},
+      {"color": "red", "hex": "#c8102e", "note": "Szekler nation."},
+      {"color": "gold", "hex": "#ffcc00", "note": "Saxon nation."}
+    ],
+    "desc": [
+      "- The Principality of Transylvania (1570–1711) was a largely autonomous state straddling the Habsburg and Ottoman spheres — a refuge for Reformed (Calvinist) Protestantism and Unitarianism\n",
+      "- **Construction:** horizontal bands of blue, red, and gold — the colours of Transylvania's **three nations** (Hungarian nobility, Szekler frontier warriors, Saxon townsmen) — with a quartered shield bearing the black Turul eagle over sun-and-moon (Hungarian half) and seven silver towers (Saxon half)\n",
+      "- The three-nation structure excluded the Romanian-speaking majority peasantry from political participation"
+    ],
+    "flag": "empires/transylvania.svg",
+    "countryData": {"name": "Principality of Transylvania", "officialName": "Principatus Transsilvaniae", "un": "none"},
+    "trivia": [
+      "- The Edict of Torda (1568) made Transylvania one of the first European states to legally recognise religious tolerance\n",
+      "- Absorbed into the Habsburg Monarchy after the Treaty of Karlowitz (1699); attached to Hungary under Austria-Hungary\n",
+      "- Ceded to Romania after WWI by the Treaty of Trianon (1920)"
+    ]
+  },
+  "ragusa": {
+    "title": "Flag of the Republic of Ragusa",
+    "ratio": "2:3",
+    "colors": [
+      {"color": "white", "hex": "#ffffff", "note": "Field of the Republic."},
+      {"color": "red", "hex": "#ce1126", "note": "Border and the LIBERTAS motto."}
+    ],
+    "desc": [
+      "- The Republic of Ragusa (1358–1808) was a small but diplomatically adept Adriatic maritime city-state — today's **Dubrovnik** — that preserved autonomy for 450 years between Ottoman, Hungarian, and Venetian power\n",
+      "- **Construction:** a white swallowtail banner with a red border and the motto **\"LIBERTAS\"** in red block capitals — the word carved on every Ragusan public building\n",
+      "- Ragusa was the first European state to recognise American independence (1776) and abolished the slave trade in 1418"
+    ],
+    "flag": "empires/ragusa.svg",
+    "countryData": {"name": "Republic of Ragusa", "officialName": "Respublica Ragusina", "un": "none"},
+    "trivia": [
+      "- Its diplomatic mastery earned it a network of consulates across Europe, the Mediterranean, and the New World\n",
+      "- Napoleon dissolved the Republic in 1808; Ragusa (Dubrovnik) became Austrian, then Yugoslav, then Croatian\n",
+      "- Today's Dubrovnik city flag retains the LIBERTAS legend"
+    ]
+  },
+  "aq-qoyunlu": {
+    "title": "Banner of Uzun Hasan (Aq Qoyunlu)",
+    "ratio": "1:2",
+    "colors": [
+      {"color": "cream", "hex": "#f2ead1", "note": "Silk field."},
+      {"color": "brown", "hex": "#5a2f0c", "note": "Ink of the Qur'anic inscription."}
+    ],
+    "desc": [
+      "- The Aq Qoyunlu (\"White Sheep\") Turkomans (1378–1503) were a tribal confederation that built an empire spanning eastern Anatolia, Azerbaijan, Iraq, and western Iran\n",
+      "- **Construction:** a triangular cream silk banner inscribed with dense Qur'anic calligraphy — attributed to **Uzun Hasan** (r. 1453–1478), whose conquests climaxed with defeat of the rival Qara Qoyunlu at Otluk Beli in 1467\n",
+      "- Overthrown by their Safavid successors under Shah Ismail I in 1503"
+    ],
+    "flag": "empires/aq-qoyunlu.svg",
+    "countryData": {"name": "Aq Qoyunlu", "officialName": "Aq Qoyunlu Confederation", "un": "none"},
+    "trivia": [
+      "- Uzun Hasan's wife Despina Khatun was a Trapezuntine Greek princess, giving the confederation diplomatic ties to Venice and the last Byzantine successor state\n",
+      "- Venice sent emissaries seeking an Aq Qoyunlu alliance against Mehmed II, but the campaign collapsed at Otluk Beli (1473)\n",
+      "- The Safavids were the Aq Qoyunlu's Sufi-order tributaries before eclipsing them"
+    ]
+  },
+  "zand": {
+    "title": "Flag of the Zand Dynasty",
+    "ratio": "1:2",
+    "colors": [
+      {"color": "white", "hex": "#ffffff", "note": "Field of Karim Khan's banner."},
+      {"color": "green", "hex": "#239f40", "note": "Border — Islamic green."},
+      {"color": "gold", "hex": "#ffcc00", "note": "Shir-o-Khorshid emblem."}
+    ],
+    "desc": [
+      "- The Zand dynasty (1751–1794) was a short-lived Iranian ruling house founded by **Karim Khan Zand**, a Lur tribal leader remembered as one of Iran's fairest rulers\n",
+      "- **Construction:** a white triangular banner with a green border and the **Shir-o-Khorshid** (lion and sun) emblem in gold at the hoist — reviving the Safavid heraldic tradition\n",
+      "- Karim Khan refused the title of Shah, preferring **Vakil e-Ra'aya** (\"Deputy of the People\")"
+    ],
+    "flag": "empires/zand.svg",
+    "countryData": {"name": "Zand Dynasty", "officialName": "Zand Iran", "un": "none"},
+    "trivia": [
+      "- Karim Khan chose Shiraz as his capital and adorned it with monumental architecture, most notably the **Arg-e Karim Khan**\n",
+      "- The Lur-speaking Zands' grip on Iran fractured after Karim Khan's death; the Qajars absorbed their domains by 1794\n",
+      "- Zand-era Shiraz saw a golden age of Persian poetry, music, and carpet weaving"
+    ]
+  },
+  "crimean-khanate": {
+    "title": "Banner of the Crimean Khanate",
+    "ratio": "2:3",
+    "colors": [
+      {"color": "blue", "hex": "#2a8dbc", "note": "Sky-blue of Turkic tradition."},
+      {"color": "cream", "hex": "#e3d8ba", "note": "Giray tamga."}
+    ],
+    "desc": [
+      "- The Crimean Khanate (1441–1783) was a Turkic Muslim successor to the Golden Horde, ruled by the **Giray dynasty** — descendants of Genghis Khan — from Bakhchisaray\n",
+      "- **Construction:** a blue banner charged with the distinctive **Giray tamga** (a trident-like clan mark with three vertical bars joined at a crossbar) in cream\n",
+      "- A vassal of the Ottomans from 1475, the Khanate was annexed by Catherine the Great of Russia in 1783 — the first Muslim state taken by a Christian European empire"
+    ],
+    "flag": "empires/crimean-khanate.svg",
+    "countryData": {"name": "Crimean Khanate", "officialName": "Qırım Hanlığı", "un": "none"},
+    "trivia": [
+      "- At its height the Khanate's slave raids into Polish and Ukrainian lands captured over a million people, feeding the Ottoman slave markets\n",
+      "- The Giray dynasty's claim to Mongol imperial descent gave it precedence over the Ottomans in Muslim heraldry\n",
+      "- Modern Crimean Tatars trace their cultural inheritance directly to this Khanate"
+    ]
+  },
+  "ayutthaya": {
+    "title": "Flag of the Ayutthaya Kingdom",
+    "ratio": "2:3",
+    "colors": [
+      {"color": "red", "hex": "#a51931", "note": "Plain red field of Siam."}
+    ],
+    "desc": [
+      "- The Ayutthaya Kingdom (1351–1767) was the central Siamese state on the Chao Phraya River — ancestor of modern Thailand and one of Southeast Asia's most cosmopolitan courts\n",
+      "- **Construction:** a plain red field — the standard merchant and naval flag of Ayutthaya, later inherited by the Thonburi and early Rattanakosin kingdoms\n",
+      "- Ceremonial variants added the **White Elephant** of the Siamese monarchy; the plain red continued as a civil ensign into the 19th century"
+    ],
+    "flag": "empires/ayutthaya.svg",
+    "countryData": {"name": "Ayutthaya Kingdom", "officialName": "Krung Si Ayutthaya", "un": "none"},
+    "trivia": [
+      "- Named after **Ayodhya**, the Indian epic city of Rama — Thailand's Ramakien epic is an adaptation of the Ramayana\n",
+      "- Hosted French, Dutch, English, and Japanese trading concessions; Greek adventurer Constantine Phaulkon served as effective prime minister\n",
+      "- Sacked by the Burmese (Konbaung) in 1767; King Taksin rebuilt the state at Thonburi, later moving the capital to Bangkok"
+    ]
+  },
+  "konbaung": {
+    "title": "Peacock Standard of the Konbaung Dynasty",
+    "ratio": "2:3",
+    "colors": [
+      {"color": "white", "hex": "#ffffff", "note": "Field of the royal banner."},
+      {"color": "red", "hex": "#c8102e", "note": "Solar disc."},
+      {"color": "blue", "hex": "#1d508d", "note": "Peacock's body."},
+      {"color": "green", "hex": "#4e9a2e", "note": "Plumage."}
+    ],
+    "desc": [
+      "- The Konbaung dynasty (1752–1885) was the last Burmese royal house, briefly the dominant land power of mainland Southeast Asia after sacking Ayutthaya (1767)\n",
+      "- **Construction:** a white swallowtail banner charged with a red disc bearing the **royal peacock** (မယူရ) — the Burmese dynastic emblem signifying solar kingship\n",
+      "- The peacock survived as a Burmese nationalist symbol after the British conquest and appeared on 20th-century independence flags"
+    ],
+    "flag": "empires/konbaung.svg",
+    "countryData": {"name": "Konbaung Dynasty", "officialName": "Konbaung Empire", "un": "none"},
+    "trivia": [
+      "- Expanded to the borders of today's Bangladesh, Assam, Manipur, and Thailand at its peak\n",
+      "- Three Anglo-Burmese Wars (1824, 1852, 1885) steadily reduced the kingdom until Britain deposed the last king, Thibaw, and annexed Upper Burma\n",
+      "- The dancing peacock remained the unofficial national symbol through colonial rule and into today's Myanmar"
+    ]
+  },
+  "dahomey": {
+    "title": "Flag of Ghezo of Dahomey",
+    "ratio": "2:3",
+    "colors": [
+      {"color": "red", "hex": "#c1272d", "note": "Border — royal red of Dahomey."},
+      {"color": "white", "hex": "#ffffff", "note": "Central field."},
+      {"color": "grey", "hex": "#a9a9a9", "note": "Royal elephant."},
+      {"color": "gold", "hex": "#ffcc00", "note": "Crown."}
+    ],
+    "desc": [
+      "- The Kingdom of Dahomey (1600–1904) was a highly organised Fon state in today's Benin, feared for its **Agojie** (all-female warrior corps) and its role in the Atlantic slave trade\n",
+      "- **Construction:** a red-bordered white field bearing a grey **crowned elephant** — the emblem of King Ghezo (r. 1818–1858) and the royal court at Abomey\n",
+      "- Earlier kings used a plain white banner; Ghezo's crowned elephant became the canonical representation"
+    ],
+    "flag": "empires/dahomey.svg",
+    "countryData": {"name": "Kingdom of Dahomey", "officialName": "Kingdom of Dahomey", "un": "none"},
+    "trivia": [
+      "- Ghezo ended Dahomean tribute to the Oyo Empire and reformed the economy around palm oil as the transatlantic slave trade collapsed\n",
+      "- The **Agojie** — popularly called \"Dahomey Amazons\" — numbered in the thousands and fought as royal bodyguards and line infantry\n",
+      "- French conquest under General Dodds (1892–1894) dissolved the kingdom; the abomey palace is now a UNESCO World Heritage Site"
+    ]
   }
 }
