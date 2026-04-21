@@ -1,17 +1,5 @@
 [
   {
-    "id": "ar/0",
-    "name": "0",
-    "title": "Flag of 0",
-    "groups": [
-      "sub",
-      "south-america"
-    ],
-    "colors": [],
-    "flag": "/argentina-sub/0.svg",
-    "keywords": "0 flag of 0 sub south-america"
-  },
-  {
     "id": "abbasid",
     "name": "Abbasid Caliphate",
     "title": "Flag of the Abbasid Caliphate (Black Standard)",
@@ -465,6 +453,17 @@
     "keywords": "amazonas flag of amazonas sub south-america"
   },
   {
+    "id": "amsterdam",
+    "name": "Amsterdam",
+    "title": "Flag of Amsterdam",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/amsterdam.svg",
+    "keywords": "amsterdam flag of amsterdam city"
+  },
+  {
     "id": "ru/amur-oblast",
     "name": "Amur Oblast",
     "title": "Flag of Amur Oblast",
@@ -908,6 +907,28 @@
     "keywords": "asturias flag of asturias sub europe"
   },
   {
+    "id": "auckland",
+    "name": "Auckland",
+    "title": "Flag of Auckland",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/auckland.svg",
+    "keywords": "auckland flag of auckland city"
+  },
+  {
+    "id": "austin",
+    "name": "Austin",
+    "title": "Flag of Austin",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/austin.svg",
+    "keywords": "austin flag of austin city"
+  },
+  {
     "id": "australia",
     "name": "Australia",
     "title": "Flag of Australia",
@@ -1128,6 +1149,17 @@
     "keywords": "bali flag of bali sub asia"
   },
   {
+    "id": "bangkok",
+    "name": "Bangkok",
+    "title": "Flag of Bangkok",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/bangkok.svg",
+    "keywords": "bangkok flag of bangkok city"
+  },
+  {
     "id": "bangladesh",
     "name": "Bangladesh",
     "title": "Flag of the People's Republic of Bangladesh",
@@ -1298,6 +1330,17 @@
     "keywords": "belarus flag of the republic of belarus national-flag europe red green white"
   },
   {
+    "id": "belfast",
+    "name": "Belfast",
+    "title": "Flag of Belfast",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/belfast.svg",
+    "keywords": "belfast flag of belfast city"
+  },
+  {
     "id": "belgium",
     "name": "Belgium",
     "title": "Flag of Belgium",
@@ -1324,6 +1367,17 @@
     "colors": [],
     "flag": "/russia-sub/belgorod-oblast.svg",
     "keywords": "belgorod oblast flag of belgorod oblast sub europe asia"
+  },
+  {
+    "id": "belgrade",
+    "name": "Belgrade",
+    "title": "Flag of Belgrade",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/belgrade.svg",
+    "keywords": "belgrade flag of belgrade city"
   },
   {
     "id": "belize",
@@ -1368,6 +1422,17 @@
     ],
     "flag": "/benin/flag.svg",
     "keywords": "benin flag of the republic of benin national-flag africa green yellow red"
+  },
+  {
+    "id": "berlin",
+    "name": "Berlin",
+    "title": "Flag of Berlin",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/berlin.svg",
+    "keywords": "berlin flag of berlin city"
   },
   {
     "id": "de/berlin",
@@ -1457,6 +1522,17 @@
     ],
     "flag": "/china-hist/cn-blue-sky-white-sun.svg",
     "keywords": "blue sky white sun (roc/taiwan) blue sky with a white sun flag historic former-flag east-asia blue white red"
+  },
+  {
+    "id": "bogota",
+    "name": "Bogota",
+    "title": "Flag of Bogota",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/bogota.svg",
+    "keywords": "bogota flag of bogota city"
   },
   {
     "id": "bolivia",
@@ -1766,6 +1842,39 @@
     "keywords": "bryansk oblast flag of bryansk oblast sub europe asia"
   },
   {
+    "id": "bucharest",
+    "name": "Bucharest",
+    "title": "Flag of Bucharest",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/bucharest.svg",
+    "keywords": "bucharest flag of bucharest city"
+  },
+  {
+    "id": "budapest",
+    "name": "Budapest",
+    "title": "Flag of Budapest",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/budapest.svg",
+    "keywords": "budapest flag of budapest city"
+  },
+  {
+    "id": "buenos-aires-city-cabo",
+    "name": "Buenos Aires City Cabo",
+    "title": "Flag of Buenos Aires City Cabo",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/buenos-aires-city-cabo.svg",
+    "keywords": "buenos aires city cabo flag of buenos aires city cabo city"
+  },
+  {
     "id": "ar/buenos-aires",
     "name": "Buenos Aires Province",
     "title": "Flag of Buenos Aires Province",
@@ -1839,6 +1948,17 @@
     "keywords": "buryatia flag of buryatia sub europe asia"
   },
   {
+    "id": "busan",
+    "name": "Busan",
+    "title": "Flag of Busan",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/busan.svg",
+    "keywords": "busan flag of busan city"
+  },
+  {
     "id": "byzantine",
     "name": "Byzantine Empire",
     "title": "Flag of the Byzantine Empire",
@@ -1870,6 +1990,17 @@
     ],
     "flag": "/cabo-verde/flag.svg",
     "keywords": "cabo verde flag of the republic of cabo verde national-flag africa blue white red yellow"
+  },
+  {
+    "id": "cairo",
+    "name": "Cairo",
+    "title": "Flag of Cairo",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/cairo.svg",
+    "keywords": "cairo flag of cairo city"
   },
   {
     "id": "it/calabria",
@@ -2325,6 +2456,17 @@
     "keywords": "canton of zürich flag of canton of zürich sub europe"
   },
   {
+    "id": "caracas",
+    "name": "Caracas",
+    "title": "Flag of Caracas",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/caracas.svg",
+    "keywords": "caracas flag of caracas city"
+  },
+  {
     "id": "es/castile-leon",
     "name": "Castile and León",
     "title": "Flag of Castile and León",
@@ -2657,6 +2799,17 @@
     ],
     "flag": "/china/flag.svg",
     "keywords": "china flag of the people's republic of china asia east-asia red yellow"
+  },
+  {
+    "id": "chisinau",
+    "name": "Chisinau",
+    "title": "Flag of Chisinau",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/chisinau.svg",
+    "keywords": "chisinau flag of chisinau city"
   },
   {
     "id": "ar/chubut",
@@ -3132,6 +3285,17 @@
     "keywords": "delaware flag of delaware sub north-america"
   },
   {
+    "id": "delhi-city",
+    "name": "Delhi",
+    "title": "Flag of Delhi",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/delhi-city.svg",
+    "keywords": "delhi flag of delhi city"
+  },
+  {
     "id": "in/delhi",
     "name": "Delhi",
     "title": "Flag of Delhi",
@@ -3184,6 +3348,17 @@
     ],
     "flag": "/denmark/flag.svg",
     "keywords": "denmark flag of denmark (dannebrog) europe nordic red white"
+  },
+  {
+    "id": "denver",
+    "name": "Denver",
+    "title": "Flag of Denver",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/denver.svg",
+    "keywords": "denver flag of denver city"
   },
   {
     "id": "br/df",
@@ -3466,6 +3641,17 @@
     ],
     "flag": "/ecuador/flag.svg",
     "keywords": "ecuador flag of the republic of ecuador national-flag south-america yellow blue red"
+  },
+  {
+    "id": "edinburgh",
+    "name": "Edinburgh",
+    "title": "Flag of Edinburgh",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/edinburgh.svg",
+    "keywords": "edinburgh flag of edinburgh city"
   },
   {
     "id": "egypt",
@@ -4686,6 +4872,17 @@
     "keywords": "hawaii flag of hawaii sub north-america oceania blue red white"
   },
   {
+    "id": "helsinki",
+    "name": "Helsinki",
+    "title": "Flag of Helsinki",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/helsinki.svg",
+    "keywords": "helsinki flag of helsinki city"
+  },
+  {
     "id": "de/hesse",
     "name": "Hesse",
     "title": "Flag of Hesse",
@@ -4763,6 +4960,17 @@
     ],
     "flag": "/honduras/flag.svg",
     "keywords": "honduras flag of the republic of honduras national-flag north-america blue white"
+  },
+  {
+    "id": "hong-kong",
+    "name": "Hong Kong",
+    "title": "Flag of Hong Kong",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/hong-kong.svg",
+    "keywords": "hong kong flag of hong kong city"
   },
   {
     "id": "hungary",
@@ -5655,6 +5863,17 @@
     "keywords": "jersey flag of jersey british-overseas"
   },
   {
+    "id": "jerusalem",
+    "name": "Jerusalem",
+    "title": "Flag of Jerusalem",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/jerusalem.svg",
+    "keywords": "jerusalem flag of jerusalem city"
+  },
+  {
     "id": "ru/jewish-oblast",
     "name": "Jewish Oblast",
     "title": "Flag of Jewish Oblast",
@@ -6446,6 +6665,17 @@
     "keywords": "krasnoyarsk krai flag of krasnoyarsk krai sub europe asia"
   },
   {
+    "id": "kuala-lumpur",
+    "name": "Kuala Lumpur",
+    "title": "Flag of Kuala Lumpur",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/kuala-lumpur.svg",
+    "keywords": "kuala lumpur flag of kuala lumpur city"
+  },
+  {
     "id": "jp/kumamoto",
     "name": "Kumamoto Prefecture",
     "title": "Flag of Kumamoto Prefecture",
@@ -6641,6 +6871,17 @@
     ],
     "flag": "/laos/flag.svg",
     "keywords": "laos flag of the lao people's democratic republic national-flag asia southeast-asia red blue white"
+  },
+  {
+    "id": "las-vegas",
+    "name": "Las Vegas",
+    "title": "Flag of Las Vegas",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/las-vegas.svg",
+    "keywords": "las vegas flag of las vegas city"
   },
   {
     "id": "latvia",
@@ -6861,6 +7102,17 @@
     "keywords": "liguria flag of liguria sub europe"
   },
   {
+    "id": "lima",
+    "name": "Lima",
+    "title": "Flag of Lima",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/lima.svg",
+    "keywords": "lima flag of lima city"
+  },
+  {
     "id": "ru/lipetsk-oblast",
     "name": "Lipetsk Oblast",
     "title": "Flag of Lipetsk Oblast",
@@ -6872,6 +7124,17 @@
     "colors": [],
     "flag": "/russia-sub/lipetsk-oblast.svg",
     "keywords": "lipetsk oblast flag of lipetsk oblast sub europe asia"
+  },
+  {
+    "id": "lisbon",
+    "name": "Lisbon",
+    "title": "Flag of Lisbon",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/lisbon.svg",
+    "keywords": "lisbon flag of lisbon city"
   },
   {
     "id": "lithuania",
@@ -6912,6 +7175,28 @@
     "colors": [],
     "flag": "/italy-sub/lombardy.svg",
     "keywords": "lombardy flag of lombardy sub europe"
+  },
+  {
+    "id": "london",
+    "name": "London",
+    "title": "Flag of London",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/london.svg",
+    "keywords": "london flag of london city"
+  },
+  {
+    "id": "los-angeles",
+    "name": "Los Angeles",
+    "title": "Flag of Los Angeles",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/los-angeles.svg",
+    "keywords": "los angeles flag of los angeles city"
   },
   {
     "id": "us/louisiana",
@@ -7012,6 +7297,17 @@
     "colors": [],
     "flag": "/ukraine-sub/lviv.svg",
     "keywords": "lviv flag of lviv sub europe"
+  },
+  {
+    "id": "macau",
+    "name": "Macau",
+    "title": "Flag of Macau",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/macau.svg",
+    "keywords": "macau flag of macau city"
   },
   {
     "id": "madagascar",
@@ -7233,6 +7529,17 @@
     ],
     "flag": "/iraq/mandatory.svg",
     "keywords": "mandatory iraq kingdom of iraq under british administration historic black white green red"
+  },
+  {
+    "id": "manila",
+    "name": "Manila",
+    "title": "Flag of Manila",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/manila.svg",
+    "keywords": "manila flag of manila city"
   },
   {
     "id": "in/manipur",
@@ -7491,6 +7798,17 @@
     "keywords": "mecklenburg-vorpommern flag of mecklenburg-vorpommern sub europe"
   },
   {
+    "id": "melbourne",
+    "name": "Melbourne",
+    "title": "Flag of Melbourne",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/melbourne.svg",
+    "keywords": "melbourne flag of melbourne city"
+  },
+  {
     "id": "es/melilla",
     "name": "Melilla",
     "title": "Flag of Melilla",
@@ -7592,6 +7910,28 @@
     "keywords": "mexico city flag of mexico city sub north-america"
   },
   {
+    "id": "mexico-city-city",
+    "name": "Mexico City",
+    "title": "Flag of Mexico City",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/mexico-city-city.svg",
+    "keywords": "mexico city flag of mexico city city"
+  },
+  {
+    "id": "miami",
+    "name": "Miami",
+    "title": "Flag of Miami",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/miami.svg",
+    "keywords": "miami flag of miami city"
+  },
+  {
     "id": "us/michigan",
     "name": "Michigan",
     "title": "Flag of Michigan",
@@ -7665,6 +8005,17 @@
     "colors": [],
     "flag": "/us-states/minnesota.svg",
     "keywords": "minnesota flag of minnesota sub north-america"
+  },
+  {
+    "id": "minsk",
+    "name": "Minsk",
+    "title": "Flag of Minsk",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/minsk.svg",
+    "keywords": "minsk flag of minsk city"
   },
   {
     "id": "ar/misiones",
@@ -7849,6 +8200,17 @@
     "keywords": "montenegro flag of montenegro national-flag europe red gold"
   },
   {
+    "id": "montreal",
+    "name": "Montreal",
+    "title": "Flag of Montreal",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/montreal.svg",
+    "keywords": "montreal flag of montreal city"
+  },
+  {
     "id": "montserrat",
     "name": "Montserrat",
     "title": "Flag of Montserrat",
@@ -7917,6 +8279,17 @@
     "colors": [],
     "flag": "/russia-sub/moscow.svg",
     "keywords": "moscow flag of moscow sub europe asia"
+  },
+  {
+    "id": "moscow-city",
+    "name": "Moscow",
+    "title": "Flag of Moscow",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/moscow-city.svg",
+    "keywords": "moscow flag of moscow city"
   },
   {
     "id": "ru/moscow-oblast",
@@ -8070,6 +8443,17 @@
     "colors": [],
     "flag": "/japan-sub/nagasaki.svg",
     "keywords": "nagasaki prefecture flag of nagasaki prefecture sub asia"
+  },
+  {
+    "id": "nagoya",
+    "name": "Nagoya",
+    "title": "Flag of Nagoya",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/nagoya.svg",
+    "keywords": "nagoya flag of nagoya city"
   },
   {
     "id": "namibia",
@@ -8280,6 +8664,17 @@
     "keywords": "new mexico flag of new mexico sub north-america red yellow"
   },
   {
+    "id": "new-orleans",
+    "name": "New Orleans",
+    "title": "Flag of New Orleans",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/new-orleans.svg",
+    "keywords": "new orleans flag of new orleans city"
+  },
+  {
     "id": "au/new-south-wales",
     "name": "New South Wales",
     "title": "Flag of New South Wales",
@@ -8309,6 +8704,17 @@
     ],
     "flag": "/us-states/us-new-york.svg",
     "keywords": "new york flag of new york sub north-america blue gold"
+  },
+  {
+    "id": "new-york-city",
+    "name": "New York City",
+    "title": "Flag of New York City",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/new-york-city.svg",
+    "keywords": "new york city flag of new york city city"
   },
   {
     "id": "new-zealand",
@@ -8975,6 +9381,17 @@
     "keywords": "oryol oblast flag of oryol oblast sub europe asia"
   },
   {
+    "id": "osaka-city",
+    "name": "Osaka",
+    "title": "Flag of Osaka",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/osaka-city.svg",
+    "keywords": "osaka flag of osaka city"
+  },
+  {
     "id": "jp/osaka",
     "name": "Osaka Prefecture",
     "title": "Flag of Osaka Prefecture",
@@ -8985,6 +9402,17 @@
     "colors": [],
     "flag": "/japan-sub/osaka.svg",
     "keywords": "osaka prefecture flag of osaka prefecture sub asia"
+  },
+  {
+    "id": "oslo",
+    "name": "Oslo",
+    "title": "Flag of Oslo",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/oslo.svg",
+    "keywords": "oslo flag of oslo city"
   },
   {
     "id": "ottoman",
@@ -9255,6 +9683,17 @@
     "keywords": "paraná flag of paraná sub south-america"
   },
   {
+    "id": "paris",
+    "name": "Paris",
+    "title": "Flag of Paris",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/paris.svg",
+    "keywords": "paris flag of paris city"
+  },
+  {
     "id": "parthian",
     "name": "Parthian Empire",
     "title": "Banner of the Parthian Empire",
@@ -9347,6 +9786,17 @@
     "keywords": "peru flag of peru south-america red white"
   },
   {
+    "id": "philadelphia-city",
+    "name": "Philadelphia",
+    "title": "Flag of Philadelphia",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/philadelphia-city.svg",
+    "keywords": "philadelphia flag of philadelphia city"
+  },
+  {
     "id": "pride-philadelphia",
     "name": "Philadelphia More Color More Pride",
     "title": "Flag of Philadelphia More Color More Pride",
@@ -9391,6 +9841,17 @@
     ],
     "flag": "/philippines/flag.svg",
     "keywords": "philippines flag of the philippines asia southeast-asia blue red white yellow"
+  },
+  {
+    "id": "phoenix-city",
+    "name": "Phoenix",
+    "title": "Flag of Phoenix",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/phoenix-city.svg",
+    "keywords": "phoenix flag of phoenix city"
   },
   {
     "id": "br/pi",
@@ -9508,6 +9969,17 @@
     "keywords": "pomeranian voivodeship flag of pomeranian voivodeship sub europe"
   },
   {
+    "id": "portland-or",
+    "name": "Portland, OR",
+    "title": "Flag of Portland, OR",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/portland-or.svg",
+    "keywords": "portland, or flag of portland, or city"
+  },
+  {
     "id": "portugal",
     "name": "Portugal",
     "title": "Flag of Portugal",
@@ -9521,6 +9993,17 @@
     ],
     "flag": "/portugal/flag.svg",
     "keywords": "portugal flag of portugal europe green red yellow"
+  },
+  {
+    "id": "prague",
+    "name": "Prague",
+    "title": "Flag of Prague",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/prague.svg",
+    "keywords": "prague flag of prague city"
   },
   {
     "id": "ru/primorsky-krai",
@@ -10014,6 +10497,17 @@
     "keywords": "riau flag of riau sub asia"
   },
   {
+    "id": "riga",
+    "name": "Riga",
+    "title": "Flag of Riga",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/riga.svg",
+    "keywords": "riga flag of riga city"
+  },
+  {
     "id": "br/rj",
     "name": "Rio de Janeiro",
     "title": "Flag of Rio de Janeiro",
@@ -10118,6 +10612,17 @@
     ],
     "flag": "/romania/flag.svg",
     "keywords": "romania flag of romania europe blue yellow red"
+  },
+  {
+    "id": "rome",
+    "name": "Rome",
+    "title": "Flag of Rome",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/rome.svg",
+    "keywords": "rome flag of rome city"
   },
   {
     "id": "br/ro",
@@ -10430,6 +10935,17 @@
     "keywords": "samoa flag of the independent state of samoa national-flag oceania red blue white"
   },
   {
+    "id": "san-francisco",
+    "name": "San Francisco",
+    "title": "Flag of San Francisco",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/san-francisco.svg",
+    "keywords": "san francisco flag of san francisco city"
+  },
+  {
     "id": "ar/san-juan",
     "name": "San Juan",
     "title": "Flag of San Juan",
@@ -10440,6 +10956,17 @@
     "colors": [],
     "flag": "/argentina-sub/san-juan.svg",
     "keywords": "san juan flag of san juan sub south-america"
+  },
+  {
+    "id": "san-juan-pr",
+    "name": "San Juan",
+    "title": "Flag of San Juan",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/san-juan-pr.svg",
+    "keywords": "san juan flag of san juan city"
   },
   {
     "id": "ar/san-luis",
@@ -10557,6 +11084,17 @@
     ],
     "flag": "/sao-tome-and-principe/flag.svg",
     "keywords": "sao tome and principe flag of the democratic republic of são tomé and príncipe national-flag africa green yellow red black"
+  },
+  {
+    "id": "sarajevo",
+    "name": "Sarajevo",
+    "title": "Flag of Sarajevo",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/sarajevo.svg",
+    "keywords": "sarajevo flag of sarajevo city"
   },
   {
     "id": "ru/saratov-oblast",
@@ -10750,6 +11288,17 @@
     ],
     "flag": "/senegal/flag.svg",
     "keywords": "senegal flag of the republic of senegal national-flag africa green yellow red green-star"
+  },
+  {
+    "id": "seoul",
+    "name": "Seoul",
+    "title": "Flag of Seoul",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/seoul.svg",
+    "keywords": "seoul flag of seoul city"
   },
   {
     "id": "serbia",
@@ -10961,6 +11510,17 @@
     ],
     "flag": "/singapore/flag.svg",
     "keywords": "singapore flag of singapore asia southeast-asia red white"
+  },
+  {
+    "id": "singapore-city",
+    "name": "Singapore",
+    "title": "Flag of Singapore",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/singapore-city.svg",
+    "keywords": "singapore flag of singapore city"
   },
   {
     "id": "slovakia",
@@ -11624,6 +12184,17 @@
     "keywords": "taliban (1996) flag of the islamic emirate of afghanistan (1996) historic former-flag asia white"
   },
   {
+    "id": "tallinn",
+    "name": "Tallinn",
+    "title": "Flag of Tallinn",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/tallinn.svg",
+    "keywords": "tallinn flag of tallinn city"
+  },
+  {
     "id": "mx/tam",
     "name": "Tamaulipas",
     "title": "Flag of Tamaulipas",
@@ -11704,6 +12275,28 @@
     "colors": [],
     "flag": "/russia-sub/tatarstan.svg",
     "keywords": "tatarstan flag of tatarstan sub europe asia"
+  },
+  {
+    "id": "tbilisi",
+    "name": "Tbilisi",
+    "title": "Flag of Tbilisi",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/tbilisi.svg",
+    "keywords": "tbilisi flag of tbilisi city"
+  },
+  {
+    "id": "tehran",
+    "name": "Tehran",
+    "title": "Flag of Tehran",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/tehran.svg",
+    "keywords": "tehran flag of tehran city"
   },
   {
     "id": "in/telangana",
@@ -11849,6 +12442,17 @@
     "keywords": "timor leste flag of the democratic republic of timor-leste national-flag asia southeast-asia red yellow black white"
   },
   {
+    "id": "tirana",
+    "name": "Tirana",
+    "title": "Flag of Tirana",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/tirana.svg",
+    "keywords": "tirana flag of tirana city"
+  },
+  {
     "id": "mx/tlx",
     "name": "Tlaxcala",
     "title": "Flag of Tlaxcala",
@@ -11927,6 +12531,17 @@
     "colors": [],
     "flag": "/japan-sub/tokushima.svg",
     "keywords": "tokushima prefecture flag of tokushima prefecture sub asia"
+  },
+  {
+    "id": "tokyo-city",
+    "name": "Tokyo",
+    "title": "Flag of Tokyo",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/tokyo-city.svg",
+    "keywords": "tokyo flag of tokyo city"
   },
   {
     "id": "jp/tokyo",
@@ -12514,6 +13129,17 @@
     "keywords": "valencian community flag of valencian community sub europe"
   },
   {
+    "id": "vancouver",
+    "name": "Vancouver",
+    "title": "Flag of Vancouver",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/vancouver.svg",
+    "keywords": "vancouver flag of vancouver city"
+  },
+  {
     "id": "vanuatu",
     "name": "Vanuatu",
     "title": "Flag of the Republic of Vanuatu",
@@ -12613,6 +13239,17 @@
     "keywords": "victoria flag of victoria sub oceania"
   },
   {
+    "id": "vienna",
+    "name": "Vienna",
+    "title": "Flag of Vienna",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/vienna.svg",
+    "keywords": "vienna flag of vienna city"
+  },
+  {
     "id": "vietnam",
     "name": "Vietnam",
     "title": "Flag of Vietnam",
@@ -12626,6 +13263,17 @@
     ],
     "flag": "/vietnam/flag.svg",
     "keywords": "vietnam flag of vietnam asia southeast-asia red yellow"
+  },
+  {
+    "id": "vilnius",
+    "name": "Vilnius",
+    "title": "Flag of Vilnius",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/vilnius.svg",
+    "keywords": "vilnius flag of vilnius city"
   },
   {
     "id": "ua/vinnytsia",
@@ -12756,6 +13404,17 @@
     "keywords": "warmian masurian voivodeship flag of warmian masurian voivodeship sub europe"
   },
   {
+    "id": "warsaw",
+    "name": "Warsaw",
+    "title": "Flag of Warsaw",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/warsaw.svg",
+    "keywords": "warsaw flag of warsaw city"
+  },
+  {
     "id": "us/washington",
     "name": "Washington",
     "title": "Flag of Washington",
@@ -12781,6 +13440,17 @@
     ],
     "flag": "/us-states/washington-dc.svg",
     "keywords": "washington d.c. flag of the district of columbia sub north-america white red"
+  },
+  {
+    "id": "washington-dc-city",
+    "name": "Washington, DC",
+    "title": "Flag of Washington, DC",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/washington-dc-city.svg",
+    "keywords": "washington, dc flag of washington, dc city"
   },
   {
     "id": "de-weimar",
@@ -13031,6 +13701,17 @@
     "keywords": "yemen flag of the republic of yemen national-flag asia arab red white black"
   },
   {
+    "id": "yerevan",
+    "name": "Yerevan",
+    "title": "Flag of Yerevan",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/yerevan.svg",
+    "keywords": "yerevan flag of yerevan city"
+  },
+  {
     "id": "mx/yuc",
     "name": "Yucatán",
     "title": "Flag of Yucatán",
@@ -13078,6 +13759,17 @@
     "colors": [],
     "flag": "/mexico-sub/zac.svg",
     "keywords": "zacatecas flag of zacatecas sub north-america"
+  },
+  {
+    "id": "zagreb",
+    "name": "Zagreb",
+    "title": "Flag of Zagreb",
+    "groups": [
+      "city"
+    ],
+    "colors": [],
+    "flag": "/cities/zagreb.svg",
+    "keywords": "zagreb flag of zagreb city"
   },
   {
     "id": "ua/zakarpattia",

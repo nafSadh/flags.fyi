@@ -89,13 +89,6 @@
     "id": "argentina",
     "index": "c/argentina"
   },
-  "ar/0": {
-    "g": "sub,south-america",
-    "ns": "argentina-sub",
-    "name": "0",
-    "id": "ar/0",
-    "index": "c/ar/0"
-  },
   "ar/buenos-aires-city": {
     "g": "sub,south-america",
     "ns": "argentina-sub",
@@ -171,7 +164,8 @@
     "ns": "argentina-sub",
     "name": "La Rioja",
     "id": "ar/la-rioja",
-    "index": "c/ar/la-rioja"
+    "index": "c/ar/la-rioja",
+    "wiki": "Flag_of_La_Rioja_(Argentina)"
   },
   "ar/mendoza": {
     "g": "sub,south-america",
@@ -4958,6 +4952,517 @@
     "name": "Jolly Roger",
     "id": "jolly-roger",
     "index": "m/jolly-roger"
+  },
+  "amsterdam": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Amsterdam",
+    "now": "netherlands",
+    "id": "amsterdam",
+    "index": "c/netherlands"
+  },
+  "auckland": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Auckland",
+    "now": "new-zealand",
+    "id": "auckland",
+    "index": "c/new-zealand"
+  },
+  "austin": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Austin",
+    "now": "us",
+    "id": "austin",
+    "index": "c/united-states"
+  },
+  "bangkok": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Bangkok",
+    "now": "thailand",
+    "id": "bangkok",
+    "index": "c/thailand"
+  },
+  "belfast": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Belfast",
+    "now": "uk",
+    "id": "belfast",
+    "index": "c/uk"
+  },
+  "belgrade": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Belgrade",
+    "now": "serbia",
+    "id": "belgrade",
+    "index": "c/serbia"
+  },
+  "berlin": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Berlin",
+    "now": "germany",
+    "id": "berlin",
+    "index": "c/germany"
+  },
+  "bogota": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Bogota",
+    "now": "colombia",
+    "id": "bogota",
+    "index": "c/colombia"
+  },
+  "bucharest": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Bucharest",
+    "now": "romania",
+    "id": "bucharest",
+    "index": "c/romania"
+  },
+  "budapest": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Budapest",
+    "now": "hungary",
+    "id": "budapest",
+    "index": "c/hungary"
+  },
+  "buenos-aires-city-cabo": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Buenos Aires City Cabo",
+    "id": "buenos-aires-city-cabo",
+    "index": "o/buenos-aires-city-cabo"
+  },
+  "busan": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Busan",
+    "now": "korea",
+    "id": "busan",
+    "index": "c/korea"
+  },
+  "cairo": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Cairo",
+    "now": "egypt",
+    "id": "cairo",
+    "index": "c/egypt"
+  },
+  "caracas": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Caracas",
+    "now": "venezuela",
+    "id": "caracas",
+    "index": "c/venezuela"
+  },
+  "chisinau": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Chisinau",
+    "now": "moldova",
+    "id": "chisinau",
+    "index": "c/moldova"
+  },
+  "delhi-city": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Delhi",
+    "now": "india",
+    "id": "delhi-city",
+    "index": "c/india"
+  },
+  "denver": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Denver",
+    "now": "us",
+    "id": "denver",
+    "index": "c/united-states"
+  },
+  "edinburgh": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Edinburgh",
+    "now": "uk",
+    "id": "edinburgh",
+    "index": "c/uk"
+  },
+  "helsinki": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Helsinki",
+    "now": "finland",
+    "id": "helsinki",
+    "index": "c/finland"
+  },
+  "hong-kong": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Hong Kong",
+    "now": "china",
+    "id": "hong-kong",
+    "index": "c/china"
+  },
+  "jerusalem": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Jerusalem",
+    "now": "israel",
+    "id": "jerusalem",
+    "index": "c/israel"
+  },
+  "kuala-lumpur": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Kuala Lumpur",
+    "now": "malaysia",
+    "id": "kuala-lumpur",
+    "index": "c/malaysia"
+  },
+  "las-vegas": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Las Vegas",
+    "now": "us",
+    "id": "las-vegas",
+    "index": "c/united-states"
+  },
+  "lima": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Lima",
+    "now": "peru",
+    "id": "lima",
+    "index": "c/peru"
+  },
+  "lisbon": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Lisbon",
+    "now": "portugal",
+    "id": "lisbon",
+    "index": "c/portugal"
+  },
+  "london": {
+    "g": "city",
+    "ns": "cities",
+    "name": "London",
+    "now": "uk",
+    "id": "london",
+    "index": "c/uk"
+  },
+  "los-angeles": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Los Angeles",
+    "now": "us",
+    "id": "los-angeles",
+    "index": "c/united-states"
+  },
+  "macau": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Macau",
+    "now": "china",
+    "id": "macau",
+    "index": "c/china"
+  },
+  "manila": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Manila",
+    "now": "philippines",
+    "id": "manila",
+    "index": "c/philippines"
+  },
+  "melbourne": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Melbourne",
+    "now": "australia",
+    "id": "melbourne",
+    "index": "c/australia"
+  },
+  "mexico-city-city": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Mexico City",
+    "now": "mexico",
+    "id": "mexico-city-city",
+    "index": "c/mexico"
+  },
+  "miami": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Miami",
+    "now": "us",
+    "id": "miami",
+    "index": "c/united-states"
+  },
+  "minsk": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Minsk",
+    "now": "belarus",
+    "id": "minsk",
+    "index": "c/belarus"
+  },
+  "montreal": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Montreal",
+    "now": "canada",
+    "id": "montreal",
+    "index": "c/canada"
+  },
+  "moscow-city": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Moscow",
+    "now": "russia",
+    "id": "moscow-city",
+    "index": "c/russia"
+  },
+  "nagoya": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Nagoya",
+    "now": "japan",
+    "id": "nagoya",
+    "index": "c/japan"
+  },
+  "new-orleans": {
+    "g": "city",
+    "ns": "cities",
+    "name": "New Orleans",
+    "now": "us",
+    "id": "new-orleans",
+    "index": "c/united-states"
+  },
+  "new-york-city": {
+    "g": "city",
+    "ns": "cities",
+    "name": "New York City",
+    "now": "us",
+    "id": "new-york-city",
+    "index": "c/united-states"
+  },
+  "osaka-city": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Osaka",
+    "now": "japan",
+    "id": "osaka-city",
+    "index": "c/japan"
+  },
+  "oslo": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Oslo",
+    "now": "norway",
+    "id": "oslo",
+    "index": "c/norway"
+  },
+  "paris": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Paris",
+    "now": "france",
+    "id": "paris",
+    "index": "c/france"
+  },
+  "philadelphia-city": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Philadelphia",
+    "now": "us",
+    "id": "philadelphia-city",
+    "index": "c/united-states"
+  },
+  "phoenix-city": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Phoenix",
+    "now": "us",
+    "id": "phoenix-city",
+    "index": "c/united-states"
+  },
+  "portland-or": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Portland, OR",
+    "now": "us",
+    "id": "portland-or",
+    "index": "c/united-states"
+  },
+  "prague": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Prague",
+    "now": "czech-republic",
+    "id": "prague",
+    "index": "c/czech-republic"
+  },
+  "riga": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Riga",
+    "now": "latvia",
+    "id": "riga",
+    "index": "c/latvia"
+  },
+  "rome": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Rome",
+    "now": "italy",
+    "id": "rome",
+    "index": "c/italy"
+  },
+  "san-francisco": {
+    "g": "city",
+    "ns": "cities",
+    "name": "San Francisco",
+    "now": "us",
+    "id": "san-francisco",
+    "index": "c/united-states"
+  },
+  "san-juan-pr": {
+    "g": "city",
+    "ns": "cities",
+    "name": "San Juan",
+    "now": "us",
+    "id": "san-juan-pr",
+    "index": "c/united-states"
+  },
+  "sarajevo": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Sarajevo",
+    "now": "bosnia-and-herzegovina",
+    "id": "sarajevo",
+    "index": "c/bosnia-and-herzegovina"
+  },
+  "seoul": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Seoul",
+    "now": "korea",
+    "id": "seoul",
+    "index": "c/korea"
+  },
+  "singapore-city": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Singapore",
+    "now": "singapore",
+    "id": "singapore-city",
+    "index": "c/singapore"
+  },
+  "tallinn": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Tallinn",
+    "now": "estonia",
+    "id": "tallinn",
+    "index": "c/estonia"
+  },
+  "tbilisi": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Tbilisi",
+    "now": "georgia",
+    "id": "tbilisi",
+    "index": "c/georgia"
+  },
+  "tehran": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Tehran",
+    "now": "iran",
+    "id": "tehran",
+    "index": "c/iran"
+  },
+  "tirana": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Tirana",
+    "now": "albania",
+    "id": "tirana",
+    "index": "c/albania"
+  },
+  "tokyo-city": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Tokyo",
+    "now": "japan",
+    "id": "tokyo-city",
+    "index": "c/japan"
+  },
+  "vancouver": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Vancouver",
+    "now": "canada",
+    "id": "vancouver",
+    "index": "c/canada"
+  },
+  "vienna": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Vienna",
+    "now": "austria",
+    "id": "vienna",
+    "index": "c/austria"
+  },
+  "vilnius": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Vilnius",
+    "now": "lithuania",
+    "id": "vilnius",
+    "index": "c/lithuania"
+  },
+  "warsaw": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Warsaw",
+    "now": "poland",
+    "id": "warsaw",
+    "index": "c/poland"
+  },
+  "washington-dc-city": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Washington, DC",
+    "now": "us",
+    "id": "washington-dc-city",
+    "index": "c/united-states"
+  },
+  "yerevan": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Yerevan",
+    "now": "armenia",
+    "id": "yerevan",
+    "index": "c/armenia"
+  },
+  "zagreb": {
+    "g": "city",
+    "ns": "cities",
+    "name": "Zagreb",
+    "now": "croatia",
+    "id": "zagreb",
+    "index": "c/croatia"
   },
   "white-ensign": {
     "g": "maritime",

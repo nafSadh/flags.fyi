@@ -36,11 +36,16 @@
   },
   "albania": {
     "prev": "af-kingdom",
+    "next": "tirana",
+    "cat": "countries"
+  },
+  "tirana": {
+    "prev": "albania",
     "next": "algeria",
     "cat": "countries"
   },
   "algeria": {
-    "prev": "albania",
+    "prev": "tirana",
     "next": "french-algeria",
     "cat": "countries"
   },
@@ -86,21 +91,36 @@
   },
   "armenia": {
     "prev": "ar-celeste-blanca",
+    "next": "yerevan",
+    "cat": "countries"
+  },
+  "yerevan": {
+    "prev": "armenia",
     "next": "australia",
     "cat": "countries"
   },
   "australia": {
-    "prev": "armenia",
+    "prev": "yerevan",
+    "next": "melbourne",
+    "cat": "countries"
+  },
+  "melbourne": {
+    "prev": "australia",
     "next": "austria",
     "cat": "countries"
   },
   "austria": {
-    "prev": "australia",
+    "prev": "melbourne",
+    "next": "vienna",
+    "cat": "countries"
+  },
+  "vienna": {
+    "prev": "austria",
     "next": "austria-hungary",
     "cat": "countries"
   },
   "austria-hungary": {
-    "prev": "austria",
+    "prev": "vienna",
     "next": "azerbaijan",
     "cat": "countries"
   },
@@ -146,11 +166,21 @@
   },
   "belarus": {
     "prev": "barbados",
+    "next": "minsk",
+    "cat": "countries"
+  },
+  "minsk": {
+    "prev": "belarus",
+    "next": "belfast",
+    "cat": "countries"
+  },
+  "belfast": {
+    "prev": "minsk",
     "next": "belgium",
     "cat": "countries"
   },
   "belgium": {
-    "prev": "belarus",
+    "prev": "belfast",
     "next": "belize",
     "cat": "countries"
   },
@@ -181,11 +211,16 @@
   },
   "bosnia-and-herzegovina": {
     "prev": "bolivia",
+    "next": "sarajevo",
+    "cat": "countries"
+  },
+  "sarajevo": {
+    "prev": "bosnia-and-herzegovina",
     "next": "botswana",
     "cat": "countries"
   },
   "botswana": {
-    "prev": "bosnia-and-herzegovina",
+    "prev": "sarajevo",
     "next": "brazil",
     "cat": "countries"
   },
@@ -241,11 +276,21 @@
   },
   "canada": {
     "prev": "cameroon",
+    "next": "montreal",
+    "cat": "countries"
+  },
+  "montreal": {
+    "prev": "canada",
+    "next": "vancouver",
+    "cat": "countries"
+  },
+  "vancouver": {
+    "prev": "montreal",
     "next": "central-african-republic",
     "cat": "countries"
   },
   "central-african-republic": {
-    "prev": "canada",
+    "prev": "vancouver",
     "next": "chad",
     "cat": "countries"
   },
@@ -261,11 +306,21 @@
   },
   "china": {
     "prev": "chile",
+    "next": "hong-kong",
+    "cat": "countries"
+  },
+  "hong-kong": {
+    "prev": "china",
+    "next": "macau",
+    "cat": "countries"
+  },
+  "macau": {
+    "prev": "hong-kong",
     "next": "cn-blue-sky-white-sun",
     "cat": "countries"
   },
   "cn-blue-sky-white-sun": {
-    "prev": "china",
+    "prev": "macau",
     "next": "cn-five-coloured",
     "cat": "countries"
   },
@@ -286,11 +341,16 @@
   },
   "colombia": {
     "prev": "mongol",
+    "next": "bogota",
+    "cat": "countries"
+  },
+  "bogota": {
+    "prev": "colombia",
     "next": "gran-colombia",
     "cat": "countries"
   },
   "gran-colombia": {
-    "prev": "colombia",
+    "prev": "bogota",
     "next": "comoros",
     "cat": "countries"
   },
@@ -321,11 +381,16 @@
   },
   "croatia": {
     "prev": "cote-divoire",
+    "next": "zagreb",
+    "cat": "countries"
+  },
+  "zagreb": {
+    "prev": "croatia",
     "next": "ragusa",
     "cat": "countries"
   },
   "ragusa": {
-    "prev": "croatia",
+    "prev": "zagreb",
     "next": "cuba",
     "cat": "countries"
   },
@@ -346,11 +411,16 @@
   },
   "czech-republic": {
     "prev": "cyprus",
+    "next": "prague",
+    "cat": "countries"
+  },
+  "prague": {
+    "prev": "czech-republic",
     "next": "bohemia",
     "cat": "countries"
   },
   "bohemia": {
-    "prev": "czech-republic",
+    "prev": "prague",
     "next": "denmark",
     "cat": "countries"
   },
@@ -386,16 +456,26 @@
   },
   "ecuador": {
     "prev": "eagle-of-saladin",
+    "next": "edinburgh",
+    "cat": "countries"
+  },
+  "edinburgh": {
+    "prev": "ecuador",
     "next": "egypt",
     "cat": "countries"
   },
   "egypt": {
-    "prev": "ecuador",
+    "prev": "edinburgh",
+    "next": "cairo",
+    "cat": "countries"
+  },
+  "cairo": {
+    "prev": "egypt",
     "next": "egypt-uar",
     "cat": "countries"
   },
   "egypt-uar": {
-    "prev": "egypt",
+    "prev": "cairo",
     "next": "egypt-revolution",
     "cat": "countries"
   },
@@ -456,11 +536,16 @@
   },
   "estonia": {
     "prev": "eritrea",
+    "next": "tallinn",
+    "cat": "countries"
+  },
+  "tallinn": {
+    "prev": "estonia",
     "next": "eswatini",
     "cat": "countries"
   },
   "eswatini": {
-    "prev": "estonia",
+    "prev": "tallinn",
     "next": "ethiopia",
     "cat": "countries"
   },
@@ -486,16 +571,26 @@
   },
   "finland": {
     "prev": "fiji",
+    "next": "helsinki",
+    "cat": "countries"
+  },
+  "helsinki": {
+    "prev": "finland",
     "next": "france",
     "cat": "countries"
   },
   "france": {
-    "prev": "finland",
+    "prev": "helsinki",
+    "next": "paris",
+    "cat": "countries"
+  },
+  "paris": {
+    "prev": "france",
     "next": "fr-free-france",
     "cat": "countries"
   },
   "fr-free-france": {
-    "prev": "france",
+    "prev": "paris",
     "next": "fr-bourbon",
     "cat": "countries"
   },
@@ -516,16 +611,26 @@
   },
   "georgia": {
     "prev": "gambia",
+    "next": "tbilisi",
+    "cat": "countries"
+  },
+  "tbilisi": {
+    "prev": "georgia",
     "next": "germany",
     "cat": "countries"
   },
   "germany": {
-    "prev": "georgia",
+    "prev": "tbilisi",
+    "next": "berlin",
+    "cat": "countries"
+  },
+  "berlin": {
+    "prev": "germany",
     "next": "de-east-germany",
     "cat": "countries"
   },
   "de-east-germany": {
-    "prev": "germany",
+    "prev": "berlin",
     "next": "de-west-germany",
     "cat": "countries"
   },
@@ -631,21 +736,31 @@
   },
   "hungary": {
     "prev": "honduras",
+    "next": "budapest",
+    "cat": "countries"
+  },
+  "budapest": {
+    "prev": "hungary",
     "next": "iceland",
     "cat": "countries"
   },
   "iceland": {
-    "prev": "hungary",
+    "prev": "budapest",
     "next": "india",
     "cat": "countries"
   },
   "india": {
     "prev": "iceland",
+    "next": "delhi-city",
+    "cat": "countries"
+  },
+  "delhi-city": {
+    "prev": "india",
     "next": "in-independence",
     "cat": "countries"
   },
   "in-independence": {
-    "prev": "india",
+    "prev": "delhi-city",
     "next": "in-calcutta-flag",
     "cat": "countries"
   },
@@ -706,11 +821,16 @@
   },
   "iran": {
     "prev": "majapahit",
+    "next": "tehran",
+    "cat": "countries"
+  },
+  "tehran": {
+    "prev": "iran",
     "next": "pahlavi",
     "cat": "countries"
   },
   "pahlavi": {
-    "prev": "iran",
+    "prev": "tehran",
     "next": "qajar",
     "cat": "countries"
   },
@@ -806,11 +926,16 @@
   },
   "israel": {
     "prev": "ireland",
+    "next": "jerusalem",
+    "cat": "countries"
+  },
+  "jerusalem": {
+    "prev": "israel",
     "next": "british-palestine",
     "cat": "countries"
   },
   "british-palestine": {
-    "prev": "israel",
+    "prev": "jerusalem",
     "next": "kingdom-of-jerusalem",
     "cat": "countries"
   },
@@ -821,11 +946,16 @@
   },
   "italy": {
     "prev": "kingdom-of-jerusalem",
+    "next": "rome",
+    "cat": "countries"
+  },
+  "rome": {
+    "prev": "italy",
     "next": "it-social-republic",
     "cat": "countries"
   },
   "it-social-republic": {
-    "prev": "italy",
+    "prev": "rome",
     "next": "it-kingdom",
     "cat": "countries"
   },
@@ -876,11 +1006,26 @@
   },
   "japan": {
     "prev": "jamaica",
+    "next": "nagoya",
+    "cat": "countries"
+  },
+  "nagoya": {
+    "prev": "japan",
+    "next": "osaka-city",
+    "cat": "countries"
+  },
+  "osaka-city": {
+    "prev": "nagoya",
+    "next": "tokyo-city",
+    "cat": "countries"
+  },
+  "tokyo-city": {
+    "prev": "osaka-city",
     "next": "jp-rising-sun-navy",
     "cat": "countries"
   },
   "jp-rising-sun-navy": {
-    "prev": "japan",
+    "prev": "tokyo-city",
     "next": "jp-rising-sun-army",
     "cat": "countries"
   },
@@ -926,11 +1071,21 @@
   },
   "korea": {
     "prev": "kiribati",
+    "next": "busan",
+    "cat": "countries"
+  },
+  "busan": {
+    "prev": "korea",
+    "next": "seoul",
+    "cat": "countries"
+  },
+  "seoul": {
+    "prev": "busan",
     "next": "kr-taegeukgi-1883",
     "cat": "countries"
   },
   "kr-taegeukgi-1883": {
-    "prev": "korea",
+    "prev": "seoul",
     "next": "kr-joseon",
     "cat": "countries"
   },
@@ -961,11 +1116,16 @@
   },
   "latvia": {
     "prev": "laos",
+    "next": "riga",
+    "cat": "countries"
+  },
+  "riga": {
+    "prev": "latvia",
     "next": "lebanon",
     "cat": "countries"
   },
   "lebanon": {
-    "prev": "latvia",
+    "prev": "riga",
     "next": "french-lebanon",
     "cat": "countries"
   },
@@ -1041,16 +1201,26 @@
   },
   "lithuania": {
     "prev": "liechtenstein",
+    "next": "vilnius",
+    "cat": "countries"
+  },
+  "vilnius": {
+    "prev": "lithuania",
     "next": "lithuania-gd",
     "cat": "countries"
   },
   "lithuania-gd": {
-    "prev": "lithuania",
+    "prev": "vilnius",
+    "next": "london",
+    "cat": "countries"
+  },
+  "london": {
+    "prev": "lithuania-gd",
     "next": "luxembourg",
     "cat": "countries"
   },
   "luxembourg": {
-    "prev": "lithuania-gd",
+    "prev": "london",
     "next": "madagascar",
     "cat": "countries"
   },
@@ -1071,11 +1241,16 @@
   },
   "malaysia": {
     "prev": "malawi",
+    "next": "kuala-lumpur",
+    "cat": "countries"
+  },
+  "kuala-lumpur": {
+    "prev": "malaysia",
     "next": "maldives",
     "cat": "countries"
   },
   "maldives": {
-    "prev": "malaysia",
+    "prev": "kuala-lumpur",
     "next": "mali",
     "cat": "countries"
   },
@@ -1116,11 +1291,16 @@
   },
   "mexico": {
     "prev": "comoros-mayotte",
+    "next": "mexico-city-city",
+    "cat": "countries"
+  },
+  "mexico-city-city": {
+    "prev": "mexico",
     "next": "mx-federal-republic",
     "cat": "countries"
   },
   "mx-federal-republic": {
-    "prev": "mexico",
+    "prev": "mexico-city-city",
     "next": "mx-three-guarantees",
     "cat": "countries"
   },
@@ -1146,11 +1326,16 @@
   },
   "moldova": {
     "prev": "moheli",
+    "next": "chisinau",
+    "cat": "countries"
+  },
+  "chisinau": {
+    "prev": "moldova",
     "next": "monaco",
     "cat": "countries"
   },
   "monaco": {
-    "prev": "moldova",
+    "prev": "chisinau",
     "next": "mongolia",
     "cat": "countries"
   },
@@ -1221,16 +1406,26 @@
   },
   "netherlands": {
     "prev": "nepal",
+    "next": "amsterdam",
+    "cat": "countries"
+  },
+  "amsterdam": {
+    "prev": "netherlands",
     "next": "new-zealand",
     "cat": "countries"
   },
   "new-zealand": {
-    "prev": "netherlands",
+    "prev": "amsterdam",
+    "next": "auckland",
+    "cat": "countries"
+  },
+  "auckland": {
+    "prev": "new-zealand",
     "next": "nicaragua",
     "cat": "countries"
   },
   "nicaragua": {
-    "prev": "new-zealand",
+    "prev": "auckland",
     "next": "niger",
     "cat": "countries"
   },
@@ -1261,11 +1456,16 @@
   },
   "norway": {
     "prev": "north-macedonia",
+    "next": "oslo",
+    "cat": "countries"
+  },
+  "oslo": {
+    "prev": "norway",
     "next": "oman",
     "cat": "countries"
   },
   "oman": {
-    "prev": "norway",
+    "prev": "oslo",
     "next": "omani-empire",
     "cat": "countries"
   },
@@ -1311,16 +1511,26 @@
   },
   "peru": {
     "prev": "paraguay",
+    "next": "lima",
+    "cat": "countries"
+  },
+  "lima": {
+    "prev": "peru",
     "next": "philippines",
     "cat": "countries"
   },
   "philippines": {
-    "prev": "peru",
+    "prev": "lima",
+    "next": "manila",
+    "cat": "countries"
+  },
+  "manila": {
+    "prev": "philippines",
     "next": "ph-revolutionary",
     "cat": "countries"
   },
   "ph-revolutionary": {
-    "prev": "philippines",
+    "prev": "manila",
     "next": "ph-katipunan",
     "cat": "countries"
   },
@@ -1336,11 +1546,16 @@
   },
   "poland": {
     "prev": "sulu",
+    "next": "warsaw",
+    "cat": "countries"
+  },
+  "warsaw": {
+    "prev": "poland",
     "next": "pl-november-uprising",
     "cat": "countries"
   },
   "pl-november-uprising": {
-    "prev": "poland",
+    "prev": "warsaw",
     "next": "pl-duchy-warsaw",
     "cat": "countries"
   },
@@ -1351,21 +1566,31 @@
   },
   "portugal": {
     "prev": "pl-duchy-warsaw",
+    "next": "lisbon",
+    "cat": "countries"
+  },
+  "lisbon": {
+    "prev": "portugal",
     "next": "qatar",
     "cat": "countries"
   },
   "qatar": {
-    "prev": "portugal",
+    "prev": "lisbon",
     "next": "romania",
     "cat": "countries"
   },
   "romania": {
     "prev": "qatar",
+    "next": "bucharest",
+    "cat": "countries"
+  },
+  "bucharest": {
+    "prev": "romania",
     "next": "transylvania",
     "cat": "countries"
   },
   "transylvania": {
-    "prev": "romania",
+    "prev": "bucharest",
     "next": "moldavia",
     "cat": "countries"
   },
@@ -1381,11 +1606,16 @@
   },
   "russia": {
     "prev": "wallachia",
+    "next": "moscow-city",
+    "cat": "countries"
+  },
+  "moscow-city": {
+    "prev": "russia",
     "next": "soviet-union",
     "cat": "countries"
   },
   "soviet-union": {
-    "prev": "russia",
+    "prev": "moscow-city",
     "next": "ru-sfsr",
     "cat": "countries"
   },
@@ -1456,11 +1686,16 @@
   },
   "serbia": {
     "prev": "senegal",
+    "next": "belgrade",
+    "cat": "countries"
+  },
+  "belgrade": {
+    "prev": "serbia",
     "next": "seychelles",
     "cat": "countries"
   },
   "seychelles": {
-    "prev": "serbia",
+    "prev": "belgrade",
     "next": "sierra-leone",
     "cat": "countries"
   },
@@ -1471,11 +1706,16 @@
   },
   "singapore": {
     "prev": "sierra-leone",
+    "next": "singapore-city",
+    "cat": "countries"
+  },
+  "singapore-city": {
+    "prev": "singapore",
     "next": "slovakia",
     "cat": "countries"
   },
   "slovakia": {
-    "prev": "singapore",
+    "prev": "singapore-city",
     "next": "slovenia",
     "cat": "countries"
   },
@@ -1636,11 +1876,16 @@
   },
   "thailand": {
     "prev": "zanzibar-sultanate",
+    "next": "bangkok",
+    "cat": "countries"
+  },
+  "bangkok": {
+    "prev": "thailand",
     "next": "th-siam-elephant",
     "cat": "countries"
   },
   "th-siam-elephant": {
-    "prev": "thailand",
+    "prev": "bangkok",
     "next": "ayutthaya",
     "cat": "countries"
   },
@@ -1741,11 +1986,76 @@
   },
   "us": {
     "prev": "uae",
+    "next": "austin",
+    "cat": "countries"
+  },
+  "austin": {
+    "prev": "us",
+    "next": "denver",
+    "cat": "countries"
+  },
+  "denver": {
+    "prev": "austin",
+    "next": "las-vegas",
+    "cat": "countries"
+  },
+  "las-vegas": {
+    "prev": "denver",
+    "next": "los-angeles",
+    "cat": "countries"
+  },
+  "los-angeles": {
+    "prev": "las-vegas",
+    "next": "miami",
+    "cat": "countries"
+  },
+  "miami": {
+    "prev": "los-angeles",
+    "next": "new-orleans",
+    "cat": "countries"
+  },
+  "new-orleans": {
+    "prev": "miami",
+    "next": "new-york-city",
+    "cat": "countries"
+  },
+  "new-york-city": {
+    "prev": "new-orleans",
+    "next": "philadelphia-city",
+    "cat": "countries"
+  },
+  "philadelphia-city": {
+    "prev": "new-york-city",
+    "next": "phoenix-city",
+    "cat": "countries"
+  },
+  "phoenix-city": {
+    "prev": "philadelphia-city",
+    "next": "portland-or",
+    "cat": "countries"
+  },
+  "portland-or": {
+    "prev": "phoenix-city",
+    "next": "san-francisco",
+    "cat": "countries"
+  },
+  "san-francisco": {
+    "prev": "portland-or",
+    "next": "san-juan-pr",
+    "cat": "countries"
+  },
+  "san-juan-pr": {
+    "prev": "san-francisco",
+    "next": "washington-dc-city",
+    "cat": "countries"
+  },
+  "washington-dc-city": {
+    "prev": "san-juan-pr",
     "next": "us-confederate-stainless",
     "cat": "countries"
   },
   "us-confederate-stainless": {
-    "prev": "us",
+    "prev": "washington-dc-city",
     "next": "us-confederate-stars-bars",
     "cat": "countries"
   },
@@ -1801,11 +2111,16 @@
   },
   "venezuela": {
     "prev": "papal-states",
+    "next": "caracas",
+    "cat": "countries"
+  },
+  "caracas": {
+    "prev": "venezuela",
     "next": "vietnam",
     "cat": "countries"
   },
   "vietnam": {
-    "prev": "venezuela",
+    "prev": "caracas",
     "next": "vn-south",
     "cat": "countries"
   },
@@ -1844,13 +2159,8 @@
     "next": "abkhazia",
     "cat": "countries"
   },
-  "ar/0": {
-    "prev": "ua/zhytomyr",
-    "next": "au/aboriginal",
-    "cat": "subdivisions"
-  },
   "au/aboriginal": {
-    "prev": "ar/0",
+    "prev": "ua/zhytomyr",
     "next": "it/abruzzo",
     "cat": "subdivisions"
   },
@@ -4341,7 +4651,7 @@
   },
   "ua/zhytomyr": {
     "prev": "ua/zaporizhzhia",
-    "next": "ar/0",
+    "next": "au/aboriginal",
     "cat": "subdivisions"
   },
   "african-union": {
@@ -4451,11 +4761,16 @@
   },
   "pride-bi": {
     "prev": "pride-bear",
+    "next": "buenos-aires-city-cabo",
+    "cat": "other"
+  },
+  "buenos-aires-city-cabo": {
+    "prev": "pride-bi",
     "next": "catalan",
     "cat": "other"
   },
   "catalan": {
-    "prev": "pride-bi",
+    "prev": "buenos-aires-city-cabo",
     "next": "pride-demisexual",
     "cat": "other"
   },
