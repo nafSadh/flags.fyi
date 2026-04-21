@@ -1543,6 +1543,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://flags.fyi/ph/bangsamoro/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://flags.fyi/ph/car/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://flags.fyi/pitcairn/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>

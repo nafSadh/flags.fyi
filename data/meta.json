@@ -2011,11 +2011,16 @@
   },
   "es/balearic-islands": {
     "prev": "mx/bcs",
+    "next": "ph/bangsamoro",
+    "cat": "subdivisions"
+  },
+  "ph/bangsamoro": {
+    "prev": "es/balearic-islands",
     "next": "it/basilicata",
     "cat": "subdivisions"
   },
   "it/basilicata": {
-    "prev": "es/balearic-islands",
+    "prev": "ph/bangsamoro",
     "next": "es/basque",
     "cat": "subdivisions"
   },
@@ -2351,11 +2356,16 @@
   },
   "us/connecticut": {
     "prev": "es/madrid",
+    "next": "ph/car",
+    "cat": "subdivisions"
+  },
+  "ph/car": {
+    "prev": "us/connecticut",
     "next": "ar/cordoba",
     "cat": "subdivisions"
   },
   "ar/cordoba": {
-    "prev": "us/connecticut",
+    "prev": "ph/car",
     "next": "uk/cornwall",
     "cat": "subdivisions"
   },

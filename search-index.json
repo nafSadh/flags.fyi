@@ -1086,6 +1086,18 @@
     "keywords": "bangladesh navy naval ensign of bangladesh south-asia green red white"
   },
   {
+    "id": "ph/bangsamoro",
+    "name": "Bangsamoro (BARMM)",
+    "title": "Flag of Bangsamoro (BARMM)",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/philippines-sub/bangsamoro.svg",
+    "keywords": "bangsamoro (barmm) flag of bangsamoro (barmm) sub asia"
+  },
+  {
     "id": "barbados",
     "name": "Barbados",
     "title": "Flag of Barbados",
@@ -2584,6 +2596,18 @@
     "colors": [],
     "flag": "/us-states/connecticut.svg",
     "keywords": "connecticut flag of connecticut sub north-america"
+  },
+  {
+    "id": "ph/car",
+    "name": "Cordillera Administrative Region",
+    "title": "Flag of Cordillera Administrative Region",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/philippines-sub/car.svg",
+    "keywords": "cordillera administrative region flag of cordillera administrative region sub asia"
   },
   {
     "id": "ar/cordoba",

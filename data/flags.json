@@ -1583,6 +1583,20 @@
     "id": "philippines",
     "index": "c/philippines"
   },
+  "ph/bangsamoro": {
+    "g": "sub,asia",
+    "ns": "philippines-sub",
+    "name": "Bangsamoro (BARMM)",
+    "id": "ph/bangsamoro",
+    "index": "c/ph/bangsamoro"
+  },
+  "ph/car": {
+    "g": "sub,asia",
+    "ns": "philippines-sub",
+    "name": "Cordillera Administrative Region",
+    "id": "ph/car",
+    "index": "c/ph/car"
+  },
   "pitcairn": {
     "ns": "british",
     "name": "Pitcairn Islands",
