@@ -1377,7 +1377,7 @@ const commonsFileMap = {
   'us': 'Flag_of_the_United_States.svg',
   'vietnam': 'Flag_of_Vietnam.svg',
   'yemen': 'Flag_of_Yemen.svg',
-  // Historical — from fetch-wiki-svgs.py
+  // Historical
   'ottoman': 'Flag_of_the_Ottoman_Empire_(1844–1922).svg',
   'mughal': 'Flag_of_the_Mughal_Empire.svg',
   'roman-empire': 'Vexilloid_of_the_Roman_Empire.svg',
