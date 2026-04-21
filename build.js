@@ -647,9 +647,17 @@ function colorsCompactHtml(colors) {
   if (!colors || colors.length === 0) return '';
   const items = colors.map(row => {
     const hex = rgbHex(row.hex);
-    return `<span class="cc-item"><span class="color-swatch" style="background:${hex}"></span>${escHtml(row.color.toLowerCase())} <span class="cc-hex">${hex}</span></span>`;
+    // Build hover tooltip: CMYK, Pantone, note if present
+    const tipParts = [];
+    if (row.cmyk) tipParts.push('CMYK ' + row.cmyk);
+    if (row.pantone) tipParts.push('Pantone ' + row.pantone);
+    if (row.rgb) tipParts.push('RGB ' + row.rgb);
+    if (row.cableNo) tipParts.push('Cable ' + row.cableNo);
+    if (row.note) tipParts.push(row.note);
+    const title = tipParts.length ? ` title="${escHtml(tipParts.join(' \u2022 '))}"` : '';
+    return `<span class="cc-item"${title}><span class="color-swatch" style="background:${hex}"></span>${escHtml(row.color.toLowerCase())} <span class="cc-hex">${hex}</span></span>`;
   });
-  return `<div class="colors-compact">${items.join('<span class="cc-sep">|</span>')}</div>`;
+  return `<div class="colors-compact"><span class="colors-label">Colors:</span> ${items.join(', ')}</div>`;
 }
 
 // ─── colors table ────────────────────────────────────────────────────────────

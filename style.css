@@ -392,24 +392,31 @@ body.flag-page { overflow: hidden; height: 100vh; }
   -webkit-overflow-scrolling: touch;
 }
 
-/* Ultra-compact colors: inline swatch + name + hex, separated by | */
+/* Ultra-compact colors: "Colors: red (#f01), blue (#abc)" with hover tooltips */
 .colors-compact {
-  display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem;
-  font-size: 0.78rem; line-height: 1.6; margin: 0 0 0.75rem;
-}
-.colors-compact .cc-item {
-  display: inline-flex; align-items: center; gap: 0.35rem;
+  font-size: 0.82rem; line-height: 1.6;
+  margin: 0.75rem 0 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border);
   color: var(--text);
 }
+.colors-compact .colors-label {
+  font-weight: 600; color: var(--text-light);
+  margin-right: 0.15rem;
+}
+.colors-compact .cc-item {
+  display: inline; cursor: help;
+}
 .colors-compact .color-swatch {
-  width: 0.85rem; height: 0.85rem; border-radius: 2px;
-  border: 1px solid var(--border); flex-shrink: 0;
+  display: inline-block;
+  width: 0.75rem; height: 0.75rem; border-radius: 2px;
+  border: 1px solid var(--border);
+  vertical-align: -2px; margin-right: 0.2rem;
 }
 .colors-compact .cc-hex {
-  font-family: var(--font-mono); font-size: 0.72rem;
+  font-family: var(--font-mono); font-size: 0.75rem;
   color: var(--text-light);
 }
-.colors-compact .cc-sep { color: var(--border); margin: 0 0.1rem; }
 
 /* ─── Related flags (bottom of sidebar) ───────────────────────────── */
 .related-flags {
