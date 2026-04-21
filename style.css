@@ -727,6 +727,25 @@ body.flag-page.dive-open .flag-column > .sidebar-info h1 { font-size: 1.1rem; }
 
 /* ─── Ordered page ─────────────────────────────────────────────── */
 .ordered-list { display: flex; flex-direction: column; gap: 0; padding: 0.5rem 0; }
+.flag-blocks {
+  display: grid; gap: 0.75rem; padding: 0.75rem 0 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+}
+.flag-block {
+  display: flex; flex-direction: column; gap: 0.4rem; padding: 0.4rem;
+  background: #fff; border: 1px solid var(--border); border-radius: var(--radius);
+  text-decoration: none; color: var(--text); transition: border-color 0.12s, transform 0.12s;
+}
+.flag-block:hover { border-color: var(--primary); color: var(--primary); text-decoration: none; transform: translateY(-1px); }
+.flag-block img {
+  width: 100%; aspect-ratio: 3/2; object-fit: contain;
+  background: repeating-conic-gradient(#f5f5f5 0 25%, #fff 0 50%) 50%/14px 14px;
+  border-radius: 2px;
+}
+.flag-block .fb-name {
+  font-size: 0.8rem; line-height: 1.2; text-align: center;
+  word-break: break-word;
+}
 .tier-heading {
   font-size: 0.75rem; font-family: var(--font-mono);
   text-transform: uppercase; letter-spacing: 0.08em;

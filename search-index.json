@@ -21,9 +21,13 @@
       "national-flag",
       "asia"
     ],
-    "colors": [],
+    "colors": [
+      "green",
+      "white",
+      "red"
+    ],
     "flag": "/abkhazia/flag.svg",
-    "keywords": "abkhazia flag of abkhazia national-flag asia"
+    "keywords": "abkhazia flag of abkhazia national-flag asia green white red"
   },
   {
     "id": "au/aboriginal",
@@ -5085,6 +5089,18 @@
     "keywords": "greek military junta flag of the greek military junta historic former-flag europe blue white"
   },
   {
+    "id": "greenland",
+    "name": "Greenland",
+    "title": "Flag of Greenland",
+    "groups": [
+      "national-flag",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/greenland/flag.svg",
+    "keywords": "greenland flag of greenland national-flag europe"
+  },
+  {
     "id": "grenada",
     "name": "Grenada",
     "title": "Flag of Grenada",
@@ -9811,6 +9827,18 @@
     "keywords": "north yemen (yar) flag of the yemen arab republic historic former-flag arab red white black green"
   },
   {
+    "id": "n-cyprus",
+    "name": "Northern Cyprus",
+    "title": "Flag of Northern Cyprus",
+    "groups": [
+      "national-flag",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/n-cyprus/flag.svg",
+    "keywords": "northern cyprus flag of northern cyprus national-flag asia"
+  },
+  {
     "id": "uk/northern-ireland",
     "name": "Northern Ireland (Ulster Banner)",
     "title": "Ulster Banner",
@@ -12650,6 +12678,19 @@
     "keywords": "somalia flag of the federal republic of somalia national-flag africa arab horn-of-africa blue white"
   },
   {
+    "id": "somaliland",
+    "name": "Somaliland",
+    "title": "Flag of Somaliland",
+    "groups": [
+      "national-flag",
+      "africa",
+      "horn-of-africa"
+    ],
+    "colors": [],
+    "flag": "/somaliland/flag.svg",
+    "keywords": "somaliland flag of somaliland national-flag africa horn-of-africa"
+  },
+  {
     "id": "mx/son",
     "name": "Sonora",
     "title": "Flag of Sonora",
@@ -14079,19 +14120,6 @@
     "keywords": "uganda flag of the republic of uganda national-flag africa black yellow red white"
   },
   {
-    "id": "uk",
-    "name": "UK",
-    "title": "Flag of the United Kingdom (Union Jack)",
-    "groups": [],
-    "colors": [
-      "blue (Royal Blue)",
-      "red",
-      "white"
-    ],
-    "flag": "/uk/flag.svg",
-    "keywords": "uk flag of the united kingdom (union jack) blue (royal blue) red white"
-  },
-  {
     "id": "ukraine",
     "name": "Ukraine",
     "title": "Flag of Ukraine",
@@ -14180,6 +14208,22 @@
     ],
     "flag": "/egypt/uar.svg",
     "keywords": "united arab republic united arab republic flag historic former-flag red white black green"
+  },
+  {
+    "id": "uk",
+    "name": "United Kingdom",
+    "title": "Flag of the United Kingdom (Union Jack)",
+    "groups": [
+      "national-flag",
+      "europe"
+    ],
+    "colors": [
+      "blue (Royal Blue)",
+      "red",
+      "white"
+    ],
+    "flag": "/uk/flag.svg",
+    "keywords": "united kingdom flag of the united kingdom (union jack) national-flag europe blue (royal blue) red white"
   },
   {
     "id": "libya-united",

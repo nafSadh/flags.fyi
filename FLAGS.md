@@ -1,8 +1,8 @@
 # flags.fyi — All Flags
 
-1112 flags total.
+1115 flags total.
 
-## Countries (1037)
+## Countries (1041)
 
 | # | Flag | ID | Index |
 |---|------|----|-------|
@@ -105,7 +105,7 @@
 | 97 | Basque Country (Ikurriña) | `es/basque` | `c/es/basque` |
 | 98 | Bavaria | `de/bavaria` | `c/de/bavaria` |
 | 99 | Belarus | `belarus` | `c/belarus` |
-| 100 | Belfast → uk | `belfast` | `c/uk` |
+| 100 | Belfast → uk | `belfast` | `c/united-kingdom` |
 | 101 | Belgium | `belgium` | `c/belgium` |
 | 102 | Belgorod Oblast | `ru/belgorod-oblast` | `c/ru/belgorod-oblast` |
 | 103 | Belgrade → serbia | `belgrade` | `c/serbia` |
@@ -289,7 +289,7 @@
 | 281 | East Nusa Tenggara | `id/east-nusa-tenggara` | `c/id/east-nusa-tenggara` |
 | 282 | East Pakistan (1947–1971) → bangladesh | `east-pakistan` | `c/bangladesh:1947` |
 | 283 | Ecuador | `ecuador` | `c/ecuador` |
-| 284 | Edinburgh → uk | `edinburgh` | `c/uk` |
+| 284 | Edinburgh → uk | `edinburgh` | `c/united-kingdom` |
 | 285 | Egypt | `egypt` | `c/egypt` |
 | 286 | Egypt Eyalet (1517–1867) → egypt | `egypt-eyalet` | `c/egypt:1517` |
 | 287 | Egyptian Revolution (1952–1958) → egypt | `egypt-revolution` | `c/egypt:1952` |
@@ -357,692 +357,696 @@
 | 349 | Greek Independence Flag (1821) → greece | `gr-independence` | `c/greece:1821` |
 | 350 | Greek Kingdom (1832–1924) → greece | `gr-kingdom` | `c/greece:1832` |
 | 351 | Greek Military Junta (1967–1974) → greece | `gr-junta` | `c/greece:1967` |
-| 352 | Grenada | `grenada` | `c/grenada` |
-| 353 | Groningen | `nl/groningen` | `c/nl/groningen` |
-| 354 | Guadeloupe | `fr/guadeloupe` | `c/fr/guadeloupe` |
-| 355 | Guainia | `co/guainia` | `c/co/guainia` |
-| 356 | Guanajuato | `mx/gto` | `c/mx/gto` |
-| 357 | Guarico | `ve/guarico` | `c/ve/guarico` |
-| 358 | Guatemala | `guatemala` | `c/guatemala` |
-| 359 | Guaviare | `co/guaviare` | `c/co/guaviare` |
-| 360 | Guernsey | `guernsey` | `c/uk/guernsey` |
-| 361 | Guerrero | `mx/gro` | `c/mx/gro` |
-| 362 | Guinea | `guinea` | `c/guinea` |
-| 363 | Guinea Bissau | `guinea-bissau` | `c/guinea-bissau` |
-| 364 | Gujarat | `in/gujarat` | `c/in/gujarat` |
-| 365 | Gunma Prefecture | `jp/gunma` | `c/jp/gunma` |
-| 366 | Guyana | `guyana` | `c/guyana` |
-| 367 | Hainaut | `be/hainaut` | `c/be/hainaut` |
-| 368 | Haiti | `haiti` | `c/haiti` |
-| 369 | Hamburg | `de/hamburg` | `c/de/hamburg` |
-| 370 | Haryana | `in/haryana` | `c/in/haryana` |
-| 371 | Hashemite Iraq (1921–1958) → iraq | `iraq-hashemite` | `c/iraq:1921` |
-| 372 | Hauts-de-France | `fr/hauts-de-france` | `c/fr/hauts-de-france` |
-| 373 | Hawaii | `us/hawaii` | `c/us/hawaii` |
-| 374 | Helsinki → finland | `helsinki` | `c/finland` |
-| 375 | Hesse | `de/hesse` | `c/de/hesse` |
-| 376 | Hidalgo | `mx/hgo` | `c/mx/hgo` |
-| 377 | Hiroshima Prefecture | `jp/hiroshima` | `c/jp/hiroshima` |
-| 378 | Hokkaido Prefecture | `jp/hokkaido` | `c/jp/hokkaido` |
-| 379 | Holy Roman Empire (800–1806) → germany | `holy-roman-empire` | `c/germany:800` |
-| 380 | Honduras | `honduras` | `c/honduras` |
-| 381 | Hong Kong → china | `hong-kong` | `c/china` |
-| 382 | Huancavelica | `pe/huancavelica` | `c/pe/huancavelica` |
-| 383 | Huanuco | `pe/huanuco` | `c/pe/huanuco` |
-| 384 | Hungary | `hungary` | `c/hungary` |
-| 385 | Hyderabad State (1724–1948) → india | `hyderabad` | `c/india:1724` |
-| 386 | Hyōgo Prefecture | `jp/hyogo` | `c/jp/hyogo` |
-| 387 | Ibaraki Prefecture | `jp/ibaraki` | `c/jp/ibaraki` |
-| 388 | Ica | `pe/ica` | `c/pe/ica` |
-| 389 | Iceland | `iceland` | `c/iceland` |
-| 390 | Idaho | `us/idaho` | `c/us/idaho` |
-| 391 | Idrisid Dynasty (788–974) → morocco | `idrisid` | `c/morocco:788` |
-| 392 | Île-de-France | `fr/ile-de-france` | `c/fr/ile-de-france` |
-| 393 | Illinois | `us/illinois` | `c/us/illinois` |
-| 394 | Imperial Germany (1871–1918) → germany | `de-imperial` | `c/germany:1871` |
-| 395 | Imperial Rising Sun (Army) (1870–1945) → japan | `jp-rising-sun-army` | `c/japan:1870` |
-| 396 | Imperial Rising Sun (Navy) (1889–1945) → japan | `jp-rising-sun-navy` | `c/japan:1889` |
-| 397 | Imperial Russia (1858–1917) → russia | `ru-imperial` | `c/russia:1858` |
-| 398 | India | `india` | `c/india` |
-| 399 | Indian Independence Movement Flag (1921–1947) → india | `in-independence` | `c/india:1921` |
-| 400 | Indiana | `us/indiana` | `c/us/indiana` |
-| 401 | Indonesia | `indonesia` | `c/indonesia` |
-| 402 | Ingushetia | `ru/ingushetia` | `c/ru/ingushetia` |
-| 403 | Iowa | `us/iowa` | `c/us/iowa` |
-| 404 | Iran | `iran` | `c/iran` |
-| 405 | Iraq | `iraq` | `c/iraq` |
-| 406 | Iraqi Republic (1958–1968) → iraq | `iraq-republic` | `c/iraq:1958` |
-| 407 | Iraqi Republic (Ba'athist) (1968–2008) → iraq | `iraq-baath` | `c/iraq:1968` |
-| 408 | Ireland | `ireland` | `c/ireland` |
-| 409 | Irkutsk Oblast | `ru/irkutsk-oblast` | `c/ru/irkutsk-oblast` |
-| 410 | Ishikawa Prefecture | `jp/ishikawa` | `c/jp/ishikawa` |
-| 411 | Israel | `israel` | `c/israel` |
-| 412 | Italian Libya (1911–1943) → libya | `libya-italian` | `c/libya:1911` |
-| 413 | Italian Social Republic (1943–1945) → italy | `it-social-republic` | `c/italy:1943` |
-| 414 | Italian Somaliland (1889–1960) → somalia | `italian-somaliland` | `c/somalia:1889` |
-| 415 | Italy | `italy` | `c/italy` |
-| 416 | Ivano Frankivsk | `ua/ivano-frankivsk` | `c/ua/ivano-frankivsk` |
-| 417 | Ivanovo Oblast | `ru/ivanovo-oblast` | `c/ru/ivanovo-oblast` |
-| 418 | Iwate Prefecture | `jp/iwate` | `c/jp/iwate` |
-| 419 | Jalisco | `mx/jal` | `c/mx/jal` |
-| 420 | Jamaica | `jamaica` | `c/jamaica` |
-| 421 | Jambi | `id/jambi` | `c/id/jambi` |
-| 422 | Jammu & Kashmir | `in/jammu-kashmir` | `c/in/jammu-kashmir` |
-| 423 | Japan | `japan` | `c/japan` |
-| 424 | Jersey | `jersey` | `c/uk/jersey` |
-| 425 | Jerusalem → israel | `jerusalem` | `c/israel` |
-| 426 | Jewish Oblast | `ru/jewish-oblast` | `c/ru/jewish-oblast` |
-| 427 | Jharkhand | `in/jharkhand` | `c/in/jharkhand` |
-| 428 | Jordan | `jordan` | `c/jordan` |
-| 429 | Joseon Dynasty (1392–1897) → korea | `kr-joseon` | `c/korea:1392` |
-| 430 | Jujuy | `ar/jujuy` | `c/ar/jujuy` |
-| 431 | Junin | `pe/junin` | `c/pe/junin` |
-| 432 | Kabardino Balkaria | `ru/kabardino-balkaria` | `c/ru/kabardino-balkaria` |
-| 433 | Kagawa Prefecture | `jp/kagawa` | `c/jp/kagawa` |
-| 434 | Kagoshima Prefecture | `jp/kagoshima` | `c/jp/kagoshima` |
-| 435 | Kaliningrad Oblast | `ru/kaliningrad-oblast` | `c/ru/kaliningrad-oblast` |
-| 436 | Kalmar Union (1397–1523) → denmark | `kalmar-union` | `c/denmark:1397` |
-| 437 | Kalmykia | `ru/kalmykia` | `c/ru/kalmykia` |
-| 438 | Kaluga Oblast | `ru/kaluga-oblast` | `c/ru/kaluga-oblast` |
-| 439 | Kamchatka Krai | `ru/kamchatka-krai` | `c/ru/kamchatka-krai` |
-| 440 | Kanagawa Prefecture | `jp/kanagawa` | `c/jp/kanagawa` |
-| 441 | Kanem–Bornu Empire (700–1893) → nigeria | `kanem-bornu` | `c/nigeria:700` |
-| 442 | Kansas | `us/kansas` | `c/us/kansas` |
-| 443 | Karlovy Vary | `cz/karlovy-vary` | `c/cz/karlovy-vary` |
-| 444 | Karnataka | `in/karnataka` | `c/in/karnataka` |
-| 445 | Katipunan Flag (1892–1897) → philippines | `ph-katipunan` | `c/philippines:1892` |
-| 446 | Kazakhstan | `kazakhstan` | `c/kazakhstan` |
-| 447 | Kemerovo Oblast | `ru/kemerovo-oblast` | `c/ru/kemerovo-oblast` |
-| 448 | Kentucky | `us/kentucky` | `c/us/kentucky` |
-| 449 | Kenya | `kenya` | `c/kenya` |
-| 450 | Kenya Colony (1920–1963) → kenya | `ke-colonial` | `c/kenya:1920` |
-| 451 | Khabarovsk Krai | `ru/khabarovsk-krai` | `c/ru/khabarovsk-krai` |
-| 452 | Khanate of Khiva (1511–1920) → uzbekistan | `khiva` | `c/uzbekistan:1511` |
-| 453 | Khanate of Kokand (1709–1876) → uzbekistan | `kokand` | `c/uzbekistan:1709` |
-| 454 | Kharkiv | `ua/kharkiv` | `c/ua/kharkiv` |
-| 455 | Khedivate of Egypt (1867–1914) → egypt | `egypt-khedivate` | `c/egypt:1867` |
-| 456 | Kherson | `ua/kherson` | `c/ua/kherson` |
-| 457 | Khmelnytskyi | `ua/khmelnytskyi` | `c/ua/khmelnytskyi` |
-| 458 | Kingdom of Bohemia (1198–1918) → czech-republic | `bohemia` | `c/czech-republic:1198` |
-| 459 | Kingdom of Castile (1065–1715) → spain | `castile` | `c/spain:1065` |
-| 460 | Kingdom of Dahomey (1600–1904) → benin | `dahomey` | `c/benin:1600` |
-| 461 | Kingdom of Egypt (1922–1953) → egypt | `egypt-kingdom` | `c/egypt:1922` |
-| 462 | Kingdom of Hejaz (1916–1925) → saudi-arabia | `hejaz` | `c/saudi-arabia:1916` |
-| 463 | Kingdom of Italy (1861–1946) → italy | `it-kingdom` | `c/italy:1861` |
-| 464 | Kingdom of Jerusalem (1099–1291) → israel | `kingdom-of-jerusalem` | `c/israel:1099` |
-| 465 | Kingdom of León (910–1230) → spain | `leon` | `c/spain:910` |
-| 466 | Kingdom of Libya (1951–1969) → libya | `libya-kingdom` | `c/libya:1951` |
-| 467 | Kingdom of Navarre (824–1620) → spain | `navarre` | `c/spain:824` |
-| 468 | Kingdom of Scotland (~1542) → uk-scotland | `scotland-kingdom` | `c/uk-scotland:1542` |
-| 469 | Kiribati | `kiribati` | `c/kiribati` |
-| 470 | Kirov Oblast | `ru/kirov-oblast` | `c/ru/kirov-oblast` |
-| 471 | Kirovohrad | `ua/kirovohrad` | `c/ua/kirovohrad` |
-| 472 | Kōchi Prefecture | `jp/kochi` | `c/jp/kochi` |
-| 473 | Konbaung Dynasty (1752–1885) → myanmar | `konbaung` | `c/myanmar:1752` |
-| 474 | Korea | `korea` | `c/korea` |
-| 475 | Kosovo | `kosovo` | `c/kosovo` |
-| 476 | Kostroma Oblast | `ru/kostroma-oblast` | `c/ru/kostroma-oblast` |
-| 477 | Krasnodar Krai | `ru/krasnodar-krai` | `c/ru/krasnodar-krai` |
-| 478 | Krasnoyarsk Krai | `ru/krasnoyarsk-krai` | `c/ru/krasnoyarsk-krai` |
-| 479 | Kuala Lumpur → malaysia | `kuala-lumpur` | `c/malaysia` |
-| 480 | Kumamoto Prefecture | `jp/kumamoto` | `c/jp/kumamoto` |
-| 481 | Kurgan Oblast | `ru/kurgan-oblast` | `c/ru/kurgan-oblast` |
-| 482 | Kursk Oblast | `ru/kursk-oblast` | `c/ru/kursk-oblast` |
-| 483 | Kuwait | `kuwait` | `c/kuwait` |
-| 484 | Kuyavian Pomeranian Voivodeship | `pl/kuyavian-pomeranian` | `c/pl/kuyavian-pomeranian` |
-| 485 | Kyiv Oblast | `ua/kyiv-oblast` | `c/ua/kyiv-oblast` |
-| 486 | Kyoto Prefecture | `jp/kyoto` | `c/jp/kyoto` |
-| 487 | Kyrgyzstan | `kyrgyzstan` | `c/kyrgyzstan` |
-| 488 | La Araucania | `cl/la-araucania` | `c/cl/la-araucania` |
-| 489 | La Libertad | `pe/la-libertad` | `c/pe/la-libertad` |
-| 490 | La Pampa | `ar/la-pampa` | `c/ar/la-pampa` |
-| 491 | La Rioja | `ar/la-rioja` | `c/ar/la-rioja` |
-| 492 | La Rioja | `es/la-rioja` | `c/es/la-rioja` |
-| 493 | Ladakh | `in/ladakh` | `c/in/ladakh` |
-| 494 | Lambayeque | `pe/lambayeque` | `c/pe/lambayeque` |
-| 495 | Lampung | `id/lampung` | `c/id/lampung` |
-| 496 | Laos | `laos` | `c/laos` |
-| 497 | Lara | `ve/lara` | `c/ve/lara` |
-| 498 | Las Vegas → us | `las-vegas` | `c/united-states` |
-| 499 | Latvia | `latvia` | `c/latvia` |
-| 500 | Lazio | `it/lazio` | `c/it/lazio` |
-| 501 | Lebanon | `lebanon` | `c/lebanon` |
-| 502 | Leningrad Oblast | `ru/leningrad-oblast` | `c/ru/leningrad-oblast` |
-| 503 | Lesotho | `lesotho` | `c/lesotho` |
-| 504 | Lesser Poland Voivodeship | `pl/lesser-poland` | `c/pl/lesser-poland` |
-| 505 | Liberec | `cz/liberec` | `c/cz/liberec` |
-| 506 | Liberia | `liberia` | `c/liberia` |
-| 507 | Libya | `libya` | `c/libya` |
-| 508 | Libya (civil) → libya | `libya-civil` | `c/libya` |
-| 509 | Libyan Arab Republic (1969–1977) → libya | `libya-ar` | `c/libya:1969` |
-| 510 | Libyan Jamahiriya (1977–2011) → libya | `libya-jamahiriya` | `c/libya:1977` |
-| 511 | Liechtenstein | `liechtenstein` | `c/liechtenstein` |
-| 512 | Liguria | `it/liguria` | `c/it/liguria` |
-| 513 | Lima → peru | `lima` | `c/peru` |
-| 514 | Limburg | `nl/limburg` | `c/nl/limburg` |
-| 515 | Limburg Be | `be/limburg-be` | `c/be/limburg-be` |
-| 516 | Lipetsk Oblast | `ru/lipetsk-oblast` | `c/ru/lipetsk-oblast` |
-| 517 | Lisbon → portugal | `lisbon` | `c/portugal` |
-| 518 | Lithuania | `lithuania` | `c/lithuania` |
-| 519 | Lodz Voivodeship | `pl/lodz` | `c/pl/lodz` |
-| 520 | Lombardy | `it/lombardy` | `c/it/lombardy` |
-| 521 | London → uk | `london` | `c/uk` |
-| 522 | Loreto | `pe/loreto` | `c/pe/loreto` |
-| 523 | Los Angeles → us | `los-angeles` | `c/united-states` |
-| 524 | Louisiana | `us/louisiana` | `c/us/louisiana` |
-| 525 | Lower Austria | `at/lower-austria` | `c/at/lower-austria` |
-| 526 | Lower Saxony | `de/lower-saxony` | `c/de/lower-saxony` |
-| 527 | Lower Silesian Voivodeship | `pl/lower-silesian` | `c/pl/lower-silesian` |
-| 528 | Lublin Voivodeship | `pl/lublin` | `c/pl/lublin` |
-| 529 | Lubusz Voivodeship | `pl/lubusz` | `c/pl/lubusz` |
-| 530 | Luhansk | `ua/luhansk` | `c/ua/luhansk` |
-| 531 | Luxembourg | `luxembourg` | `c/luxembourg` |
-| 532 | Lviv | `ua/lviv` | `c/ua/lviv` |
-| 533 | Macau → china | `macau` | `c/china` |
-| 534 | Madagascar | `madagascar` | `c/madagascar` |
-| 535 | Madeira | `pt/madeira` | `c/pt/madeira` |
-| 536 | Madhya Pradesh | `in/madhya-pradesh` | `c/in/madhya-pradesh` |
-| 537 | Madre De Dios | `pe/madre-de-dios` | `c/pe/madre-de-dios` |
-| 538 | Magadan Oblast | `ru/magadan-oblast` | `c/ru/magadan-oblast` |
-| 539 | Maharashtra | `in/maharashtra` | `c/in/maharashtra` |
-| 540 | Maine | `us/maine` | `c/us/maine` |
-| 541 | Majapahit Empire (1293–1527) → indonesia | `majapahit` | `c/indonesia:1293` |
-| 542 | Malawi | `malawi` | `c/malawi` |
-| 543 | Malaysia | `malaysia` | `c/malaysia` |
-| 544 | Maldives | `maldives` | `c/maldives` |
-| 545 | Mali | `mali` | `c/mali` |
-| 546 | Mali Empire (1230–1670) → mali | `mali-empire` | `c/mali:1230` |
-| 547 | Malta | `malta` | `c/malta` |
-| 548 | Maluku | `id/maluku` | `c/id/maluku` |
-| 549 | Mamluk Sultanate (1250–1517) → egypt | `egypt-mamluk` | `c/egypt:1250` |
-| 550 | Mandatory Iraq (1920–1932) → iraq | `iraq-mandatory` | `c/iraq:1920` |
-| 551 | Manila → philippines | `manila` | `c/philippines` |
-| 552 | Manipur | `in/manipur` | `c/in/manipur` |
-| 553 | Manitoba | `ca/manitoba` | `c/ca/manitoba` |
-| 554 | Mann (Isle of Man) | `mann` | `c/uk/mann` |
-| 555 | Maramures | `ro/maramures` | `c/ro/maramures` |
-| 556 | Maranhão | `br/ma` | `c/br/ma` |
-| 557 | Maratha Empire (1674–1818) → india | `maratha` | `c/india:1674` |
-| 558 | Marche | `it/marche` | `c/it/marche` |
-| 559 | Marshall Islands | `marshall-islands` | `c/marshall-islands` |
-| 560 | Martinique | `fr/martinique` | `c/fr/martinique` |
-| 561 | Maryland | `us/maryland` | `c/us/maryland` |
-| 562 | Masovian Voivodeship | `pl/masovian` | `c/pl/masovian` |
-| 563 | Massachusetts | `us/massachusetts` | `c/us/massachusetts` |
-| 564 | Mataram Sultanate (1586–1755) → indonesia | `mataram` | `c/indonesia:1586` |
-| 565 | Mato Grosso | `br/mt` | `c/br/mt` |
-| 566 | Mato Grosso do Sul | `br/ms` | `c/br/ms` |
-| 567 | Maule | `cl/maule` | `c/cl/maule` |
-| 568 | Mauritania | `mauritania` | `c/mauritania` |
-| 569 | Mauritania (1959–2017) (1959–2017) → mauritania | `mauritania-1959` | `c/mauritania:1959` |
-| 570 | Mayotte → france | `comoros-mayotte` | `c/france` |
-| 571 | Mayotte | `fr/mayotte` | `c/fr/mayotte` |
-| 572 | Mecklenburg-Vorpommern | `de/mecklenburg-vorpommern` | `c/de/mecklenburg-vorpommern` |
-| 573 | Melbourne → australia | `melbourne` | `c/australia` |
-| 574 | Melilla | `es/melilla` | `c/es/melilla` |
-| 575 | Mendoza | `ar/mendoza` | `c/ar/mendoza` |
-| 576 | Merida | `ve/merida` | `c/ve/merida` |
-| 577 | Merina Kingdom (1540–1897) → madagascar | `merina` | `c/madagascar:1540` |
-| 578 | Mexican Empire (1821–1823) → mexico | `mx-empire` | `c/mexico:1821` |
-| 579 | Mexican Federal Republic (1823–1864) → mexico | `mx-federal-republic` | `c/mexico:1823` |
-| 580 | Mexico | `mexico` | `c/mexico` |
-| 581 | Mexico City | `mx/cmx` | `c/mx/cmx` |
-| 582 | Mexico City → mexico | `mexico-city-city` | `c/mexico` |
-| 583 | Miami → us | `miami` | `c/united-states` |
-| 584 | Michigan | `us/michigan` | `c/us/michigan` |
-| 585 | Michoacán | `mx/mic` | `c/mx/mic` |
-| 586 | Micronesia | `micronesia` | `c/micronesia` |
-| 587 | Mie Prefecture | `jp/mie` | `c/jp/mie` |
-| 588 | Minas Gerais | `br/mg` | `c/br/mg` |
-| 589 | Minnesota | `us/minnesota` | `c/us/minnesota` |
-| 590 | Minsk → belarus | `minsk` | `c/belarus` |
-| 591 | Miranda | `ve/miranda` | `c/ve/miranda` |
-| 592 | Misiones | `ar/misiones` | `c/ar/misiones` |
-| 593 | Mississippi | `us/mississippi` | `c/us/mississippi` |
-| 594 | Missouri | `us/missouri` | `c/us/missouri` |
-| 595 | Miyagi Prefecture | `jp/miyagi` | `c/jp/miyagi` |
-| 596 | Miyazaki Prefecture | `jp/miyazaki` | `c/jp/miyazaki` |
-| 597 | Mohéli → comoros | `moheli` | `c/comoros` |
-| 598 | Moldova | `moldova` | `c/moldova` |
-| 599 | Molise | `it/molise` | `c/it/molise` |
-| 600 | Monaco | `monaco` | `c/monaco` |
-| 601 | Monagas | `ve/monagas` | `c/ve/monagas` |
-| 602 | Mongol Empire (1206–1368) → china | `mongol` | `c/china:1206` |
-| 603 | Mongolia | `mongolia` | `c/mongolia` |
-| 604 | Montana | `us/montana` | `c/us/montana` |
-| 605 | Montenegro | `montenegro` | `c/montenegro` |
-| 606 | Montreal → canada | `montreal` | `c/canada` |
-| 607 | Montserrat | `montserrat` | `c/uk/montserrat` |
-| 608 | Moquegua | `pe/moquegua` | `c/pe/moquegua` |
-| 609 | Moravian Silesian | `cz/moravian-silesian` | `c/cz/moravian-silesian` |
-| 610 | Mordovia | `ru/mordovia` | `c/ru/mordovia` |
-| 611 | Morelos | `mx/mor` | `c/mx/mor` |
-| 612 | Morocco | `morocco` | `c/morocco` |
-| 613 | Moscow | `ru/moscow` | `c/ru/moscow` |
-| 614 | Moscow → russia | `moscow-city` | `c/russia` |
-| 615 | Moscow Oblast | `ru/moscow-oblast` | `c/ru/moscow-oblast` |
-| 616 | Mozambique | `mozambique` | `c/mozambique` |
-| 617 | Mughal Empire (1526–1857) → india | `mughal` | `c/india:1526` |
-| 618 | Murmansk Oblast | `ru/murmansk-oblast` | `c/ru/murmansk-oblast` |
-| 619 | Muslim League Flag (1906–1947) → pakistan | `pk-muslim-league` | `c/pakistan:1906` |
-| 620 | Myanmar | `myanmar` | `c/myanmar` |
-| 621 | Mykolaiv | `ua/mykolaiv` | `c/ua/mykolaiv` |
-| 622 | N. Korea (DPRK) | `korea-dprk` | `c/n.-korea-(dprk)` |
-| 623 | Nagaland | `in/nagaland` | `c/in/nagaland` |
-| 624 | Nagano Prefecture | `jp/nagano` | `c/jp/nagano` |
-| 625 | Nagasaki Prefecture | `jp/nagasaki` | `c/jp/nagasaki` |
-| 626 | Nagoya → japan | `nagoya` | `c/japan` |
-| 627 | Namibia | `namibia` | `c/namibia` |
-| 628 | Nara Prefecture | `jp/nara` | `c/jp/nara` |
-| 629 | Nauru | `nauru` | `c/nauru` |
-| 630 | Navarre | `es/navarre` | `c/es/navarre` |
-| 631 | Nayarit | `mx/nay` | `c/mx/nay` |
-| 632 | Nazi Germany (1933–1945) → germany | `de-nazi` | `c/germany:1933` |
-| 633 | Nebraska | `us/nebraska` | `c/us/nebraska` |
-| 634 | Nepal | `nepal` | `c/nepal` |
-| 635 | Netherlands | `netherlands` | `c/netherlands` |
-| 636 | Nevada | `us/nevada` | `c/us/nevada` |
-| 637 | New Brunswick | `ca/new-brunswick` | `c/ca/new-brunswick` |
-| 638 | New Hampshire | `us/new-hampshire` | `c/us/new-hampshire` |
-| 639 | New Jersey | `us/new-jersey` | `c/us/new-jersey` |
-| 640 | New Mexico | `us/new-mexico` | `c/us/new-mexico` |
-| 641 | New Orleans → us | `new-orleans` | `c/united-states` |
-| 642 | New South Wales | `au/new-south-wales` | `c/au/new-south-wales` |
-| 643 | New York | `us/new-york` | `c/us/new-york` |
-| 644 | New York City → us | `new-york-city` | `c/united-states` |
-| 645 | New Zealand | `new-zealand` | `c/new-zealand` |
-| 646 | Newfoundland and Labrador | `ca/newfoundland-labrador` | `c/ca/newfoundland-labrador` |
-| 647 | Nicaragua | `nicaragua` | `c/nicaragua` |
-| 648 | Niger | `niger` | `c/niger` |
-| 649 | Nigeria | `nigeria` | `c/nigeria` |
-| 650 | Niigata Prefecture | `jp/niigata` | `c/jp/niigata` |
-| 651 | Normandy | `fr/normandy` | `c/fr/normandy` |
-| 652 | Norte De Santander | `co/norte-de-santander` | `c/co/norte-de-santander` |
-| 653 | North Brabant | `nl/north-brabant` | `c/nl/north-brabant` |
-| 654 | North Carolina | `us/north-carolina` | `c/us/north-carolina` |
-| 655 | North Dakota | `us/north-dakota` | `c/us/north-dakota` |
-| 656 | North Holland | `nl/north-holland` | `c/nl/north-holland` |
-| 657 | North Kalimantan | `id/north-kalimantan` | `c/id/north-kalimantan` |
-| 658 | North Macedonia | `north-macedonia` | `c/north-macedonia` |
-| 659 | North Maluku | `id/north-maluku` | `c/id/north-maluku` |
-| 660 | North Ossetia | `ru/north-ossetia` | `c/ru/north-ossetia` |
-| 661 | North Rhine-Westphalia | `de/north-rhine-westphalia` | `c/de/north-rhine-westphalia` |
-| 662 | North Sulawesi | `id/north-sulawesi` | `c/id/north-sulawesi` |
-| 663 | North Sumatra | `id/north-sumatra` | `c/id/north-sumatra` |
-| 664 | North Yemen (YAR) (1918–1990) → yemen | `north-yemen` | `c/yemen:1918` |
-| 665 | Northern Ireland (Ulster Banner) | `uk/northern-ireland` | `c/uk/northern-ireland` |
-| 666 | Northern Territory | `au/nt` | `c/au/nt` |
-| 667 | Northwest Territories | `ca/northwest-territories` | `c/ca/northwest-territories` |
-| 668 | Norway | `norway` | `c/norway` |
-| 669 | Nouvelle-Aquitaine | `fr/nouvelle-aquitaine` | `c/fr/nouvelle-aquitaine` |
-| 670 | Nova Scotia | `ca/nova-scotia` | `c/ca/nova-scotia` |
-| 671 | Novgorod Oblast | `ru/novgorod-oblast` | `c/ru/novgorod-oblast` |
-| 672 | Novosibirsk Oblast | `ru/novosibirsk-oblast` | `c/ru/novosibirsk-oblast` |
-| 673 | Nuble | `cl/nuble` | `c/cl/nuble` |
-| 674 | Nueva Esparta | `ve/nueva-esparta` | `c/ve/nueva-esparta` |
-| 675 | Nuevo León | `mx/nl` | `c/mx/nl` |
-| 676 | Nunavut | `ca/nunavut` | `c/ca/nunavut` |
-| 677 | Oaxaca | `mx/oax` | `c/mx/oax` |
-| 678 | Occitanie | `fr/occitanie` | `c/fr/occitanie` |
-| 679 | Odesa | `ua/odesa` | `c/ua/odesa` |
-| 680 | Odisha | `in/odisha` | `c/in/odisha` |
-| 681 | Ohio | `us/ohio` | `c/us/ohio` |
-| 682 | Ōita Prefecture | `jp/oita` | `c/jp/oita` |
-| 683 | Okayama Prefecture | `jp/okayama` | `c/jp/okayama` |
-| 684 | Okinawa Prefecture | `jp/okinawa` | `c/jp/okinawa` |
-| 685 | Oklahoma | `us/oklahoma` | `c/us/oklahoma` |
-| 686 | Olomouc | `cz/olomouc` | `c/cz/olomouc` |
-| 687 | Oman | `oman` | `c/oman` |
-| 688 | Omani Empire (1696–1856) → oman | `omani-empire` | `c/oman:1696` |
-| 689 | Omsk Oblast | `ru/omsk-oblast` | `c/ru/omsk-oblast` |
-| 690 | Ontario | `ca/ontario` | `c/ca/ontario` |
-| 691 | Opole Voivodeship | `pl/opole` | `c/pl/opole` |
-| 692 | Orange Free State (1854–1902) → south-africa | `orange-free-state` | `c/south-africa:1854` |
-| 693 | Oregon | `us/oregon` | `c/us/oregon` |
-| 694 | Orenburg Oblast | `ru/orenburg-oblast` | `c/ru/orenburg-oblast` |
-| 695 | Original Taegeukgi (1883) → korea | `kr-taegeukgi-1883` | `c/korea:1883` |
-| 696 | Oryol Oblast | `ru/oryol-oblast` | `c/ru/oryol-oblast` |
-| 697 | Osaka → japan | `osaka-city` | `c/japan` |
-| 698 | Osaka Prefecture | `jp/osaka` | `c/jp/osaka` |
-| 699 | Oslo → norway | `oslo` | `c/norway` |
-| 700 | Ottoman Empire (1299–1922) → turkey | `ottoman` | `c/turkey:1299` |
-| 701 | Ottoman Empire (Early) (~1300s) → turkey | `ottoman-early` | `c/turkey:1300` |
-| 702 | Ottoman Tripolitania (1551–1911) → libya | `libya-ottoman` | `c/libya:1551` |
-| 703 | Overijssel | `nl/overijssel` | `c/nl/overijssel` |
-| 704 | Pahlavi Dynasty (1925–1979) → iran | `pahlavi` | `c/iran:1925` |
-| 705 | Pakistan | `pakistan` | `c/pakistan` |
-| 706 | Palau | `palau` | `c/palau` |
-| 707 | Palestine | `palestine` | `c/palestine` |
-| 708 | Panama | `panama` | `c/panama` |
-| 709 | Papal States (756–1870) → vatican-city | `papal-states` | `c/vatican-city:756` |
-| 710 | Papua | `id/papua` | `c/id/papua` |
-| 711 | Papua New Guinea | `papua-new-guinea` | `c/papua-new-guinea` |
-| 712 | Pará | `br/pa` | `c/br/pa` |
-| 713 | Paraguay | `paraguay` | `c/paraguay` |
-| 714 | Paraíba | `br/pb` | `c/br/pb` |
-| 715 | Paraná | `br/pr` | `c/br/pr` |
-| 716 | Pardubice | `cz/pardubice` | `c/cz/pardubice` |
-| 717 | Paris → france | `paris` | `c/france` |
-| 718 | Parthian Empire (247 BC–224 AD) → iran | `parthian` | `c/iran:247` |
-| 719 | Pasco | `pe/pasco` | `c/pe/pasco` |
-| 720 | Pays de la Loire | `fr/pays-de-la-loire` | `c/fr/pays-de-la-loire` |
-| 721 | Pennsylvania | `us/pennsylvania` | `c/us/pennsylvania` |
-| 722 | Penza Oblast | `ru/penza-oblast` | `c/ru/penza-oblast` |
-| 723 | Perm Krai | `ru/perm-krai` | `c/ru/perm-krai` |
-| 724 | Pernambuco | `br/pe` | `c/br/pe` |
-| 725 | Peru | `peru` | `c/peru` |
-| 726 | Philadelphia → us | `philadelphia-city` | `c/united-states` |
-| 727 | Philippine Revolutionary Flag (1897–1901) → philippines | `ph-revolutionary` | `c/philippines:1897` |
-| 728 | Philippines | `philippines` | `c/philippines` |
-| 729 | Phoenix → us | `phoenix-city` | `c/united-states` |
-| 730 | Piauí | `br/pi` | `c/br/pi` |
-| 731 | Piedmont | `it/piedmont` | `c/it/piedmont` |
-| 732 | Pitcairn Islands | `pitcairn` | `c/uk/pitcairn` |
-| 733 | Piura | `pe/piura` | `c/pe/piura` |
-| 734 | Podlaskie Voivodeship | `pl/podlaskie` | `c/pl/podlaskie` |
-| 735 | Poland | `poland` | `c/poland` |
-| 736 | Polish November Uprising (1830–1831) → poland | `pl-november-uprising` | `c/poland:1830` |
-| 737 | Poltava | `ua/poltava` | `c/ua/poltava` |
-| 738 | Pomeranian Voivodeship | `pl/pomeranian` | `c/pl/pomeranian` |
-| 739 | Portland, OR → us | `portland-or` | `c/united-states` |
-| 740 | Portugal | `portugal` | `c/portugal` |
-| 741 | Prague | `cz/prague` | `c/cz/prague` |
-| 742 | Prague → czech-republic | `prague` | `c/czech-republic` |
-| 743 | Primorsky Krai | `ru/primorsky-krai` | `c/ru/primorsky-krai` |
-| 744 | Prince Edward Island | `ca/prince-edward-island` | `c/ca/prince-edward-island` |
-| 745 | Principality of Moldavia (1346–1859) → romania | `moldavia` | `c/romania:1346` |
-| 746 | Principality of Transylvania (1570–1711) → romania | `transylvania` | `c/romania:1570` |
-| 747 | Principality of Wallachia (1330–1859) → romania | `wallachia` | `c/romania:1330` |
-| 748 | Prussia | `de/prussia` | `c/de/prussia` |
-| 749 | Pskov Oblast | `ru/pskov-oblast` | `c/ru/pskov-oblast` |
-| 750 | Puebla | `mx/pue` | `c/mx/pue` |
-| 751 | Puerto Rico | `us/puerto-rico` | `c/us/puerto-rico` |
-| 752 | Punjab | `in/punjab` | `c/in/punjab` |
-| 753 | Puno | `pe/puno` | `c/pe/puno` |
-| 754 | Qajar Dynasty (1789–1925) → iran | `qajar` | `c/iran:1789` |
-| 755 | Qatar | `qatar` | `c/qatar` |
-| 756 | Qing Dynasty (Dragon Flag) (1889–1912) → china | `cn-qing-dragon` | `c/china:1889` |
-| 757 | Quebec | `ca/quebec` | `c/ca/quebec` |
-| 758 | Queensland | `au/queensland` | `c/au/queensland` |
-| 759 | Querétaro | `mx/qro` | `c/mx/qro` |
-| 760 | Quindio | `co/quindio` | `c/co/quindio` |
-| 761 | Quintana Roo | `mx/qr` | `c/mx/qr` |
-| 762 | Rajasthan | `in/rajasthan` | `c/in/rajasthan` |
-| 763 | Rashidun Caliphate (632–661) → saudi-arabia | `rashidun` | `c/saudi-arabia:632` |
-| 764 | Region of Murcia | `es/murcia` | `c/es/murcia` |
-| 765 | Republic of Florence (1115–1569) → italy | `florence` | `c/italy:1115` |
-| 766 | Republic of Genoa (1005–1797) → italy | `genoa` | `c/italy:1005` |
-| 767 | Republic of Hatay (1938–1939) → turkey | `hatay` | `c/turkey:1938` |
-| 768 | Republic of Pisa (1000–1406) → italy | `pisa` | `c/italy:1000` |
-| 769 | Republic of Ragusa (1358–1808) → croatia | `ragusa` | `c/croatia:1358` |
-| 770 | Republic of Venice (697–1797) → italy | `venice` | `c/italy:697` |
-| 771 | Réunion | `fr/la-reunion` | `c/fr/la-reunion` |
-| 772 | Rhineland-Palatinate | `de/rhineland-palatinate` | `c/de/rhineland-palatinate` |
-| 773 | Rhode Island | `us/rhode-island` | `c/us/rhode-island` |
-| 774 | Riau | `id/riau` | `c/id/riau` |
-| 775 | Riga → latvia | `riga` | `c/latvia` |
-| 776 | Rio de Janeiro | `br/rj` | `c/br/rj` |
-| 777 | Rio Grande do Norte | `br/rn` | `c/br/rn` |
-| 778 | Rio Grande do Sul | `br/rs` | `c/br/rs` |
-| 779 | Río Negro | `ar/rio-negro` | `c/ar/rio-negro` |
-| 780 | Risaralda | `co/risaralda` | `c/co/risaralda` |
-| 781 | Rivne | `ua/rivne` | `c/ua/rivne` |
-| 782 | Roman Empire (27 BC–476 AD) → italy | `roman-empire` | `c/italy:476` |
-| 783 | Romania | `romania` | `c/romania` |
-| 784 | Rome → italy | `rome` | `c/italy` |
-| 785 | Rondônia | `br/ro` | `c/br/ro` |
-| 786 | Roraima | `br/rr` | `c/br/rr` |
-| 787 | Rostov Oblast | `ru/rostov-oblast` | `c/ru/rostov-oblast` |
-| 788 | Russia | `russia` | `c/russia` |
-| 789 | Russian SFSR (1918–1991) → russia | `ru-sfsr` | `c/russia:1918` |
-| 790 | Rwanda | `rwanda` | `c/rwanda` |
-| 791 | Ryazan Oblast | `ru/ryazan-oblast` | `c/ru/ryazan-oblast` |
-| 792 | Saarland | `de/saarland` | `c/de/saarland` |
-| 793 | Safavid Empire (1501–1736) → iran | `safavid` | `c/iran:1501` |
-| 794 | Saga Prefecture | `jp/saga` | `c/jp/saga` |
-| 795 | Saint Helena | `saint-helena` | `c/uk/helena` |
-| 796 | Saint Kitts and Nevis | `saint-kitts-and-nevis` | `c/saint-kitts-and-nevis` |
-| 797 | Saint Lucia | `saint-lucia` | `c/saint-lucia` |
-| 798 | Saint Vincent and the Grenadines | `saint-vincent-and-the-grenadines` | `c/saint-vincent-and-the-grenadines` |
-| 799 | Saitama Prefecture | `jp/saitama` | `c/jp/saitama` |
-| 800 | Sakha | `ru/sakha` | `c/ru/sakha` |
-| 801 | Sakhalin Oblast | `ru/sakhalin-oblast` | `c/ru/sakhalin-oblast` |
-| 802 | Salta | `ar/salta` | `c/ar/salta` |
-| 803 | Salzburg | `at/salzburg` | `c/at/salzburg` |
-| 804 | Samanid Empire (819–999) → iran | `samanid` | `c/iran:819` |
-| 805 | Samara Oblast | `ru/samara-oblast` | `c/ru/samara-oblast` |
-| 806 | Samoa | `samoa` | `c/samoa` |
-| 807 | San Francisco → us | `san-francisco` | `c/united-states` |
-| 808 | San Juan | `ar/san-juan` | `c/ar/san-juan` |
-| 809 | San Juan → us | `san-juan-pr` | `c/united-states` |
-| 810 | San Luis | `ar/san-luis` | `c/ar/san-luis` |
-| 811 | San Luis Potosí | `mx/slp` | `c/mx/slp` |
-| 812 | San Marino | `san-marino` | `c/san-marino` |
-| 813 | San Martin | `pe/san-martin` | `c/pe/san-martin` |
-| 814 | Santa Catarina | `br/sc` | `c/br/sc` |
-| 815 | Santa Cruz | `ar/santa-cruz` | `c/ar/santa-cruz` |
-| 816 | Santa Fe | `ar/santa-fe` | `c/ar/santa-fe` |
-| 817 | Santander | `co/santander` | `c/co/santander` |
-| 818 | Santiago del Estero | `ar/santiago-del-estero` | `c/ar/santiago-del-estero` |
-| 819 | São Paulo | `br/sp` | `c/br/sp` |
-| 820 | Sao Tome and Principe | `sao-tome-and-principe` | `c/sao-tome-and-principe` |
-| 821 | Sarajevo → bosnia-and-herzegovina | `sarajevo` | `c/bosnia-and-herzegovina` |
-| 822 | Saratov Oblast | `ru/saratov-oblast` | `c/ru/saratov-oblast` |
-| 823 | Sardinia | `it/sardinia` | `c/it/sardinia` |
-| 824 | Sark | `sark` | `c/uk/sark` |
-| 825 | Saskatchewan | `ca/saskatchewan` | `c/ca/saskatchewan` |
-| 826 | Sassanid Empire (Derafsh Kaviani, alt) (224–651) → iran | `sassanid-alt` | `c/iran:224` |
-| 827 | Sassanid Empire (Derafsh Kaviani) (224–651) → iran | `sassanid` | `c/iran:224` |
-| 828 | Saudi Arabia | `saudi-arabia` | `c/saudi-arabia` |
-| 829 | Saxony | `de/saxony` | `c/de/saxony` |
-| 830 | Saxony-Anhalt | `de/saxony-anhalt` | `c/de/saxony-anhalt` |
-| 831 | Schleswig-Holstein | `de/schleswig-holstein` | `c/de/schleswig-holstein` |
-| 832 | Scotland (Saltire) | `uk/scotland` | `c/uk/scotland` |
-| 833 | Second Spanish Republic (1931–1939) → spain | `es-republic` | `c/spain:1931` |
-| 834 | Seljuk Empire (1037–1194) → turkey | `seljuk` | `c/turkey:1037` |
-| 835 | Senegal | `senegal` | `c/senegal` |
-| 836 | Seoul → korea | `seoul` | `c/korea` |
-| 837 | Serbia | `serbia` | `c/serbia` |
-| 838 | Sergipe | `br/se` | `c/br/se` |
-| 839 | Sevastopol | `ru/sevastopol` | `c/ru/sevastopol` |
-| 840 | Seychelles | `seychelles` | `c/seychelles` |
-| 841 | Shiga Prefecture | `jp/shiga` | `c/jp/shiga` |
-| 842 | Shimane Prefecture | `jp/shimane` | `c/jp/shimane` |
-| 843 | Shizuoka Prefecture | `jp/shizuoka` | `c/jp/shizuoka` |
-| 844 | Siam White Elephant (1855–1916) → thailand | `th-siam-elephant` | `c/thailand:1855` |
-| 845 | Sicily | `it/sicily` | `c/it/sicily` |
-| 846 | Sierra Leone | `sierra-leone` | `c/sierra-leone` |
-| 847 | Sikh Empire (1799–1849) → india | `sikh-empire` | `c/india:1799` |
-| 848 | Sikkim | `in/sikkim` | `c/in/sikkim` |
-| 849 | Silesian Voivodeship | `pl/silesian` | `c/pl/silesian` |
-| 850 | Sinaloa | `mx/sin` | `c/mx/sin` |
-| 851 | Singapore | `singapore` | `c/singapore` |
-| 852 | Singapore → singapore | `singapore-city` | `c/singapore` |
-| 853 | Slovakia | `slovakia` | `c/slovakia` |
-| 854 | Slovenia | `slovenia` | `c/slovenia` |
-| 855 | Smolensk Oblast | `ru/smolensk-oblast` | `c/ru/smolensk-oblast` |
-| 856 | Sokoto Caliphate (1804–1903) → nigeria | `sokoto` | `c/nigeria:1804` |
-| 857 | Solomon Islands | `solomon-islands` | `c/solomon-islands` |
-| 858 | Somalia | `somalia` | `c/somalia` |
-| 859 | Sonora | `mx/son` | `c/mx/son` |
-| 860 | South Africa | `south-africa` | `c/south-africa` |
-| 861 | South Africa Prinsevlag (1928–1994) → south-africa | `za-prinsevlag` | `c/south-africa:1928` |
-| 862 | South African Republic (Transvaal) (1852–1902) → south-africa | `transvaal` | `c/south-africa:1852` |
-| 863 | South Australia | `au/south-australia` | `c/au/south-australia` |
-| 864 | South Bohemia | `cz/south-bohemia` | `c/cz/south-bohemia` |
-| 865 | South Carolina | `us/south-carolina` | `c/us/south-carolina` |
-| 866 | South Dakota | `us/south-dakota` | `c/us/south-dakota` |
-| 867 | South Georgia & South Sandwich Islands | `sgssi` | `c/uk/sgssi` |
-| 868 | South Holland | `nl/south-holland` | `c/nl/south-holland` |
-| 869 | South Kalimantan | `id/south-kalimantan` | `c/id/south-kalimantan` |
-| 870 | South Moravia | `cz/south-moravia` | `c/cz/south-moravia` |
-| 871 | South Sudan | `south-sudan` | `c/south-sudan` |
-| 872 | South Sulawesi | `id/south-sulawesi` | `c/id/south-sulawesi` |
-| 873 | South Sumatra | `id/south-sumatra` | `c/id/south-sumatra` |
-| 874 | South Vietnam (1955–1975) → vietnam | `vn-south` | `c/vietnam:1955` |
-| 875 | South Yemen (PDRY) (1967–1990) → yemen | `south-yemen` | `c/yemen:1967` |
-| 876 | Southeast Sulawesi | `id/southeast-sulawesi` | `c/id/southeast-sulawesi` |
-| 877 | Soviet Union (1922–1991) → russia | `soviet-union` | `c/russia:1922` |
-| 878 | Spain | `spain` | `c/spain` |
-| 879 | Spanish Empire (1506–1785) → spain | `es-empire` | `c/spain:1506` |
-| 880 | Sri Lanka | `sri-lanka` | `c/sri-lanka` |
-| 881 | State of Mexico | `mx/mex` | `c/mx/mex` |
-| 882 | Stavropol Krai | `ru/stavropol-krai` | `c/ru/stavropol-krai` |
-| 883 | Styria | `at/styria` | `c/at/styria` |
-| 884 | Subcarpathian Voivodeship | `pl/subcarpathian` | `c/pl/subcarpathian` |
-| 885 | Sucre Ve | `ve/sucre-ve` | `c/ve/sucre-ve` |
-| 886 | Sudan | `sudan` | `c/sudan` |
-| 887 | Sultanate of Egypt (1914–1922) → egypt | `egypt-sultanate` | `c/egypt:1914` |
-| 888 | Sultanate of Rûm (1077–1308) → turkey | `sultanate-rum` | `c/turkey:1077` |
-| 889 | Sultanate of Sulu (1457–1917) → philippines | `sulu` | `c/philippines:1457` |
-| 890 | Sultanate of Zanzibar (1856–1964) → tanzania | `zanzibar-sultanate` | `c/tanzania:1856` |
-| 891 | Sumy | `ua/sumy` | `c/ua/sumy` |
-| 892 | Suriname | `suriname` | `c/suriname` |
-| 893 | Sverdlovsk Oblast | `ru/sverdlovsk-oblast` | `c/ru/sverdlovsk-oblast` |
-| 894 | Sweden | `sweden` | `c/sweden` |
-| 895 | Swietokrzyskie Voivodeship | `pl/swietokrzyskie` | `c/pl/swietokrzyskie` |
-| 896 | Switzerland | `switzerland` | `c/switzerland` |
-| 897 | Syria | `syria` | `c/syria` |
-| 898 | Tabasco | `mx/tab` | `c/mx/tab` |
-| 899 | Tachira | `ve/tachira` | `c/ve/tachira` |
-| 900 | Tacna | `pe/tacna` | `c/pe/tacna` |
-| 901 | Tajikistan | `tajikistan` | `c/tajikistan` |
-| 902 | Taliban (1996) (1996–2001) → afghanistan | `af-taliban-1996` | `c/afghanistan:1996` |
-| 903 | Tallinn → estonia | `tallinn` | `c/estonia` |
-| 904 | Tamaulipas | `mx/tam` | `c/mx/tam` |
-| 905 | Tambov Oblast | `ru/tambov-oblast` | `c/ru/tambov-oblast` |
-| 906 | Tamil Nadu | `in/tamil-nadu` | `c/in/tamil-nadu` |
-| 907 | Tanzania | `tanzania` | `c/tanzania` |
-| 908 | Tarija | `bo/tarija` | `c/bo/tarija` |
-| 909 | Tasmania | `au/tasmania` | `c/au/tasmania` |
-| 910 | Tatarstan | `ru/tatarstan` | `c/ru/tatarstan` |
-| 911 | Tbilisi → georgia | `tbilisi` | `c/georgia` |
-| 912 | Tehran → iran | `tehran` | `c/iran` |
-| 913 | Telangana | `in/telangana` | `c/in/telangana` |
-| 914 | Tennessee | `us/tennessee` | `c/us/tennessee` |
-| 915 | Ternopil | `ua/ternopil` | `c/ua/ternopil` |
-| 916 | Teutonic Order (1190–1525) → germany | `teutonic` | `c/germany:1190` |
-| 917 | Texas | `us/texas` | `c/us/texas` |
-| 918 | Thailand | `thailand` | `c/thailand` |
-| 919 | Thessaly | `gr/thessaly` | `c/gr/thessaly` |
-| 920 | Thuringia | `de/thuringia` | `c/de/thuringia` |
-| 921 | Tierra del Fuego | `ar/tierra-del-fuego` | `c/ar/tierra-del-fuego` |
-| 922 | Timor Leste | `timor-leste` | `c/timor-leste` |
-| 923 | Tirana → albania | `tirana` | `c/albania` |
-| 924 | Tlaxcala | `mx/tlx` | `c/mx/tlx` |
-| 925 | Tocantins | `br/to` | `c/br/to` |
-| 926 | Tochigi Prefecture | `jp/tochigi` | `c/jp/tochigi` |
-| 927 | Togo | `togo` | `c/togo` |
-| 928 | Tokugawa Shogunate (1603–1868) → japan | `jp-tokugawa` | `c/japan:1603` |
-| 929 | Tokushima Prefecture | `jp/tokushima` | `c/jp/tokushima` |
-| 930 | Tokyo → japan | `tokyo-city` | `c/japan` |
-| 931 | Tokyo Prefecture | `jp/tokyo` | `c/jp/tokyo` |
-| 932 | Tolima | `co/tolima` | `c/co/tolima` |
-| 933 | Tomsk Oblast | `ru/tomsk-oblast` | `c/ru/tomsk-oblast` |
-| 934 | Tonga | `tonga` | `c/tonga` |
-| 935 | Torres Strait Islander Flag | `au/torres-strait` | `c/au/torres-strait` |
-| 936 | Tottori Prefecture | `jp/tottori` | `c/jp/tottori` |
-| 937 | Toyama Prefecture | `jp/toyama` | `c/jp/toyama` |
-| 938 | Trentino-Alto Adige | `it/trentino-alto-adige` | `c/it/trentino-alto-adige` |
-| 939 | Trinidad and Tobago | `trinidad-and-tobago` | `c/trinidad-and-tobago` |
-| 940 | Tripolitanian Republic (1918–1923) → libya | `libya-tripolitanian-republic` | `c/libya:1918` |
-| 941 | Tripura | `in/tripura` | `c/in/tripura` |
-| 942 | Tristan da Cunha | `tristan` | `c/uk/tristan` |
-| 943 | Trujillo | `ve/trujillo` | `c/ve/trujillo` |
-| 944 | Tula Oblast | `ru/tula-oblast` | `c/ru/tula-oblast` |
-| 945 | Tumbes | `pe/tumbes` | `c/pe/tumbes` |
-| 946 | Tunisia | `tunisia` | `c/tunisia` |
-| 947 | Turkey | `turkey` | `c/turkey` |
-| 948 | Turkmenistan | `turkmenistan` | `c/turkmenistan` |
-| 949 | Turks and Caicos Islands | `tci` | `c/uk/tci` |
-| 950 | Tuscany | `it/tuscany` | `c/it/tuscany` |
-| 951 | Tuva | `ru/tuva` | `c/ru/tuva` |
-| 952 | Tuvalu | `tuvalu` | `c/tuvalu` |
-| 953 | Tver Oblast | `ru/tver-oblast` | `c/ru/tver-oblast` |
-| 954 | Tyumen Oblast | `ru/tyumen-oblast` | `c/ru/tyumen-oblast` |
-| 955 | Ucayali | `pe/ucayali` | `c/pe/ucayali` |
-| 956 | Udmurtia | `ru/udmurtia` | `c/ru/udmurtia` |
-| 957 | Uganda | `uganda` | `c/uganda` |
-| 958 | Ukraine | `ukraine` | `c/ukraine` |
-| 959 | Ulyanovsk Oblast | `ru/ulyanovsk-oblast` | `c/ru/ulyanovsk-oblast` |
-| 960 | Umayyad Caliphate (661–750) → syria | `umayyad` | `c/syria:661` |
-| 961 | Umbria | `it/umbria` | `c/it/umbria` |
-| 962 | United Arab Emirates | `uae` | `c/united-arab-emirates` |
-| 963 | United Arab Republic (1958–1971) → egypt | `egypt-uar` | `c/egypt:1958` |
-| 964 | United Kingdom of Libya (1951–1963) → libya | `libya-united` | `c/libya:1951` |
-| 965 | United States | `us` | `c/united-states` |
-| 966 | Upper Austria | `at/upper-austria` | `c/at/upper-austria` |
-| 967 | Uruguay | `uruguay` | `c/uruguay` |
-| 968 | Utah | `us/utah` | `c/us/utah` |
-| 969 | Utrecht | `nl/utrecht` | `c/nl/utrecht` |
-| 970 | Uttar Pradesh | `in/uttar-pradesh` | `c/in/uttar-pradesh` |
-| 971 | Uttarakhand | `in/uttarakhand` | `c/in/uttarakhand` |
-| 972 | Uzbekistan | `uzbekistan` | `c/uzbekistan` |
-| 973 | Valencian Community | `es/valencia` | `c/es/valencia` |
-| 974 | Vancouver → canada | `vancouver` | `c/canada` |
-| 975 | Vanuatu | `vanuatu` | `c/vanuatu` |
-| 976 | Vargas | `ve/vargas` | `c/ve/vargas` |
-| 977 | Vatican City | `vatican-city` | `c/vatican-city` |
-| 978 | Veneto | `it/veneto` | `c/it/veneto` |
-| 979 | Venezuela | `venezuela` | `c/venezuela` |
-| 980 | Veracruz | `mx/ver` | `c/mx/ver` |
-| 981 | Vermont | `us/vermont` | `c/us/vermont` |
-| 982 | Vichada | `co/vichada` | `c/co/vichada` |
-| 983 | Victoria | `au/victoria` | `c/au/victoria` |
-| 984 | Vienna → austria | `vienna` | `c/austria` |
-| 985 | Vienna State | `at/vienna-state` | `c/at/vienna-state` |
-| 986 | Vietnam | `vietnam` | `c/vietnam` |
-| 987 | Vilnius → lithuania | `vilnius` | `c/lithuania` |
-| 988 | Vinnytsia | `ua/vinnytsia` | `c/ua/vinnytsia` |
-| 989 | Virginia | `us/virginia` | `c/us/virginia` |
-| 990 | Vladimir Oblast | `ru/vladimir-oblast` | `c/ru/vladimir-oblast` |
-| 991 | Volgograd Oblast | `ru/volgograd-oblast` | `c/ru/volgograd-oblast` |
-| 992 | Vologda Oblast | `ru/vologda-oblast` | `c/ru/vologda-oblast` |
-| 993 | Volyn | `ua/volyn` | `c/ua/volyn` |
-| 994 | Vorarlberg | `at/vorarlberg` | `c/at/vorarlberg` |
-| 995 | Voronezh Oblast | `ru/voronezh-oblast` | `c/ru/voronezh-oblast` |
-| 996 | Wakayama Prefecture | `jp/wakayama` | `c/jp/wakayama` |
-| 997 | Wales | `uk/wales` | `c/uk/wales` |
-| 998 | Wallonia | `be/wallonia` | `c/be/wallonia` |
-| 999 | Warmian Masurian Voivodeship | `pl/warmian-masurian` | `c/pl/warmian-masurian` |
-| 1000 | Warsaw → poland | `warsaw` | `c/poland` |
-| 1001 | Washington | `us/washington` | `c/us/washington` |
-| 1002 | Washington D.C. | `us/washington-dc` | `c/us/washington-dc` |
-| 1003 | Washington, DC → us | `washington-dc-city` | `c/united-states` |
-| 1004 | Weimar Republic (1918–1933) → germany | `de-weimar` | `c/germany:1918` |
-| 1005 | West Flanders | `be/west-flanders` | `c/be/west-flanders` |
-| 1006 | West Germany (1949–1990) → germany | `de-west-germany` | `c/germany:1949` |
-| 1007 | West Java | `id/west-java` | `c/id/west-java` |
-| 1008 | West Kalimantan | `id/west-kalimantan` | `c/id/west-kalimantan` |
-| 1009 | West Nusa Tenggara | `id/west-nusa-tenggara` | `c/id/west-nusa-tenggara` |
-| 1010 | West Pomeranian Voivodeship | `pl/west-pomeranian` | `c/pl/west-pomeranian` |
-| 1011 | West Sulawesi | `id/west-sulawesi` | `c/id/west-sulawesi` |
-| 1012 | West Sumatra | `id/west-sumatra` | `c/id/west-sumatra` |
-| 1013 | West Virginia | `us/west-virginia` | `c/us/west-virginia` |
-| 1014 | Western Australia | `au/western-australia` | `c/au/western-australia` |
-| 1015 | Western Greece | `gr/western-greece` | `c/gr/western-greece` |
-| 1016 | Wisconsin | `us/wisconsin` | `c/us/wisconsin` |
-| 1017 | Wyoming | `us/wyoming` | `c/us/wyoming` |
-| 1018 | Yamagata Prefecture | `jp/yamagata` | `c/jp/yamagata` |
-| 1019 | Yamaguchi Prefecture | `jp/yamaguchi` | `c/jp/yamaguchi` |
-| 1020 | Yamalo Nenets | `ru/yamalo-nenets` | `c/ru/yamalo-nenets` |
-| 1021 | Yamanashi Prefecture | `jp/yamanashi` | `c/jp/yamanashi` |
-| 1022 | Yaracuy | `ve/yaracuy` | `c/ve/yaracuy` |
-| 1023 | Yaroslavl Oblast | `ru/yaroslavl-oblast` | `c/ru/yaroslavl-oblast` |
-| 1024 | Yemen | `yemen` | `c/yemen` |
-| 1025 | Yerevan → armenia | `yerevan` | `c/armenia` |
-| 1026 | Yucatán | `mx/yuc` | `c/mx/yuc` |
-| 1027 | Yukon | `ca/yukon` | `c/ca/yukon` |
-| 1028 | Zabaykalsky Krai | `ru/zabaykalsky-krai` | `c/ru/zabaykalsky-krai` |
-| 1029 | Zacatecas | `mx/zac` | `c/mx/zac` |
-| 1030 | Zagreb → croatia | `zagreb` | `c/croatia` |
-| 1031 | Zakarpattia | `ua/zakarpattia` | `c/ua/zakarpattia` |
-| 1032 | Zambia | `zambia` | `c/zambia` |
-| 1033 | Zand Dynasty (1751–1794) → iran | `zand` | `c/iran:1751` |
-| 1034 | Zaporizhzhia | `ua/zaporizhzhia` | `c/ua/zaporizhzhia` |
-| 1035 | Zeeland | `nl/zeeland` | `c/nl/zeeland` |
-| 1036 | Zhytomyr | `ua/zhytomyr` | `c/ua/zhytomyr` |
-| 1037 | Zimbabwe | `zimbabwe` | `c/zimbabwe` |
+| 352 | Greenland | `greenland` | `c/greenland` |
+| 353 | Grenada | `grenada` | `c/grenada` |
+| 354 | Groningen | `nl/groningen` | `c/nl/groningen` |
+| 355 | Guadeloupe | `fr/guadeloupe` | `c/fr/guadeloupe` |
+| 356 | Guainia | `co/guainia` | `c/co/guainia` |
+| 357 | Guanajuato | `mx/gto` | `c/mx/gto` |
+| 358 | Guarico | `ve/guarico` | `c/ve/guarico` |
+| 359 | Guatemala | `guatemala` | `c/guatemala` |
+| 360 | Guaviare | `co/guaviare` | `c/co/guaviare` |
+| 361 | Guernsey | `guernsey` | `c/uk/guernsey` |
+| 362 | Guerrero | `mx/gro` | `c/mx/gro` |
+| 363 | Guinea | `guinea` | `c/guinea` |
+| 364 | Guinea Bissau | `guinea-bissau` | `c/guinea-bissau` |
+| 365 | Gujarat | `in/gujarat` | `c/in/gujarat` |
+| 366 | Gunma Prefecture | `jp/gunma` | `c/jp/gunma` |
+| 367 | Guyana | `guyana` | `c/guyana` |
+| 368 | Hainaut | `be/hainaut` | `c/be/hainaut` |
+| 369 | Haiti | `haiti` | `c/haiti` |
+| 370 | Hamburg | `de/hamburg` | `c/de/hamburg` |
+| 371 | Haryana | `in/haryana` | `c/in/haryana` |
+| 372 | Hashemite Iraq (1921–1958) → iraq | `iraq-hashemite` | `c/iraq:1921` |
+| 373 | Hauts-de-France | `fr/hauts-de-france` | `c/fr/hauts-de-france` |
+| 374 | Hawaii | `us/hawaii` | `c/us/hawaii` |
+| 375 | Helsinki → finland | `helsinki` | `c/finland` |
+| 376 | Hesse | `de/hesse` | `c/de/hesse` |
+| 377 | Hidalgo | `mx/hgo` | `c/mx/hgo` |
+| 378 | Hiroshima Prefecture | `jp/hiroshima` | `c/jp/hiroshima` |
+| 379 | Hokkaido Prefecture | `jp/hokkaido` | `c/jp/hokkaido` |
+| 380 | Holy Roman Empire (800–1806) → germany | `holy-roman-empire` | `c/germany:800` |
+| 381 | Honduras | `honduras` | `c/honduras` |
+| 382 | Hong Kong → china | `hong-kong` | `c/china` |
+| 383 | Huancavelica | `pe/huancavelica` | `c/pe/huancavelica` |
+| 384 | Huanuco | `pe/huanuco` | `c/pe/huanuco` |
+| 385 | Hungary | `hungary` | `c/hungary` |
+| 386 | Hyderabad State (1724–1948) → india | `hyderabad` | `c/india:1724` |
+| 387 | Hyōgo Prefecture | `jp/hyogo` | `c/jp/hyogo` |
+| 388 | Ibaraki Prefecture | `jp/ibaraki` | `c/jp/ibaraki` |
+| 389 | Ica | `pe/ica` | `c/pe/ica` |
+| 390 | Iceland | `iceland` | `c/iceland` |
+| 391 | Idaho | `us/idaho` | `c/us/idaho` |
+| 392 | Idrisid Dynasty (788–974) → morocco | `idrisid` | `c/morocco:788` |
+| 393 | Île-de-France | `fr/ile-de-france` | `c/fr/ile-de-france` |
+| 394 | Illinois | `us/illinois` | `c/us/illinois` |
+| 395 | Imperial Germany (1871–1918) → germany | `de-imperial` | `c/germany:1871` |
+| 396 | Imperial Rising Sun (Army) (1870–1945) → japan | `jp-rising-sun-army` | `c/japan:1870` |
+| 397 | Imperial Rising Sun (Navy) (1889–1945) → japan | `jp-rising-sun-navy` | `c/japan:1889` |
+| 398 | Imperial Russia (1858–1917) → russia | `ru-imperial` | `c/russia:1858` |
+| 399 | India | `india` | `c/india` |
+| 400 | Indian Independence Movement Flag (1921–1947) → india | `in-independence` | `c/india:1921` |
+| 401 | Indiana | `us/indiana` | `c/us/indiana` |
+| 402 | Indonesia | `indonesia` | `c/indonesia` |
+| 403 | Ingushetia | `ru/ingushetia` | `c/ru/ingushetia` |
+| 404 | Iowa | `us/iowa` | `c/us/iowa` |
+| 405 | Iran | `iran` | `c/iran` |
+| 406 | Iraq | `iraq` | `c/iraq` |
+| 407 | Iraqi Republic (1958–1968) → iraq | `iraq-republic` | `c/iraq:1958` |
+| 408 | Iraqi Republic (Ba'athist) (1968–2008) → iraq | `iraq-baath` | `c/iraq:1968` |
+| 409 | Ireland | `ireland` | `c/ireland` |
+| 410 | Irkutsk Oblast | `ru/irkutsk-oblast` | `c/ru/irkutsk-oblast` |
+| 411 | Ishikawa Prefecture | `jp/ishikawa` | `c/jp/ishikawa` |
+| 412 | Israel | `israel` | `c/israel` |
+| 413 | Italian Libya (1911–1943) → libya | `libya-italian` | `c/libya:1911` |
+| 414 | Italian Social Republic (1943–1945) → italy | `it-social-republic` | `c/italy:1943` |
+| 415 | Italian Somaliland (1889–1960) → somalia | `italian-somaliland` | `c/somalia:1889` |
+| 416 | Italy | `italy` | `c/italy` |
+| 417 | Ivano Frankivsk | `ua/ivano-frankivsk` | `c/ua/ivano-frankivsk` |
+| 418 | Ivanovo Oblast | `ru/ivanovo-oblast` | `c/ru/ivanovo-oblast` |
+| 419 | Iwate Prefecture | `jp/iwate` | `c/jp/iwate` |
+| 420 | Jalisco | `mx/jal` | `c/mx/jal` |
+| 421 | Jamaica | `jamaica` | `c/jamaica` |
+| 422 | Jambi | `id/jambi` | `c/id/jambi` |
+| 423 | Jammu & Kashmir | `in/jammu-kashmir` | `c/in/jammu-kashmir` |
+| 424 | Japan | `japan` | `c/japan` |
+| 425 | Jersey | `jersey` | `c/uk/jersey` |
+| 426 | Jerusalem → israel | `jerusalem` | `c/israel` |
+| 427 | Jewish Oblast | `ru/jewish-oblast` | `c/ru/jewish-oblast` |
+| 428 | Jharkhand | `in/jharkhand` | `c/in/jharkhand` |
+| 429 | Jordan | `jordan` | `c/jordan` |
+| 430 | Joseon Dynasty (1392–1897) → korea | `kr-joseon` | `c/korea:1392` |
+| 431 | Jujuy | `ar/jujuy` | `c/ar/jujuy` |
+| 432 | Junin | `pe/junin` | `c/pe/junin` |
+| 433 | Kabardino Balkaria | `ru/kabardino-balkaria` | `c/ru/kabardino-balkaria` |
+| 434 | Kagawa Prefecture | `jp/kagawa` | `c/jp/kagawa` |
+| 435 | Kagoshima Prefecture | `jp/kagoshima` | `c/jp/kagoshima` |
+| 436 | Kaliningrad Oblast | `ru/kaliningrad-oblast` | `c/ru/kaliningrad-oblast` |
+| 437 | Kalmar Union (1397–1523) → denmark | `kalmar-union` | `c/denmark:1397` |
+| 438 | Kalmykia | `ru/kalmykia` | `c/ru/kalmykia` |
+| 439 | Kaluga Oblast | `ru/kaluga-oblast` | `c/ru/kaluga-oblast` |
+| 440 | Kamchatka Krai | `ru/kamchatka-krai` | `c/ru/kamchatka-krai` |
+| 441 | Kanagawa Prefecture | `jp/kanagawa` | `c/jp/kanagawa` |
+| 442 | Kanem–Bornu Empire (700–1893) → nigeria | `kanem-bornu` | `c/nigeria:700` |
+| 443 | Kansas | `us/kansas` | `c/us/kansas` |
+| 444 | Karlovy Vary | `cz/karlovy-vary` | `c/cz/karlovy-vary` |
+| 445 | Karnataka | `in/karnataka` | `c/in/karnataka` |
+| 446 | Katipunan Flag (1892–1897) → philippines | `ph-katipunan` | `c/philippines:1892` |
+| 447 | Kazakhstan | `kazakhstan` | `c/kazakhstan` |
+| 448 | Kemerovo Oblast | `ru/kemerovo-oblast` | `c/ru/kemerovo-oblast` |
+| 449 | Kentucky | `us/kentucky` | `c/us/kentucky` |
+| 450 | Kenya | `kenya` | `c/kenya` |
+| 451 | Kenya Colony (1920–1963) → kenya | `ke-colonial` | `c/kenya:1920` |
+| 452 | Khabarovsk Krai | `ru/khabarovsk-krai` | `c/ru/khabarovsk-krai` |
+| 453 | Khanate of Khiva (1511–1920) → uzbekistan | `khiva` | `c/uzbekistan:1511` |
+| 454 | Khanate of Kokand (1709–1876) → uzbekistan | `kokand` | `c/uzbekistan:1709` |
+| 455 | Kharkiv | `ua/kharkiv` | `c/ua/kharkiv` |
+| 456 | Khedivate of Egypt (1867–1914) → egypt | `egypt-khedivate` | `c/egypt:1867` |
+| 457 | Kherson | `ua/kherson` | `c/ua/kherson` |
+| 458 | Khmelnytskyi | `ua/khmelnytskyi` | `c/ua/khmelnytskyi` |
+| 459 | Kingdom of Bohemia (1198–1918) → czech-republic | `bohemia` | `c/czech-republic:1198` |
+| 460 | Kingdom of Castile (1065–1715) → spain | `castile` | `c/spain:1065` |
+| 461 | Kingdom of Dahomey (1600–1904) → benin | `dahomey` | `c/benin:1600` |
+| 462 | Kingdom of Egypt (1922–1953) → egypt | `egypt-kingdom` | `c/egypt:1922` |
+| 463 | Kingdom of Hejaz (1916–1925) → saudi-arabia | `hejaz` | `c/saudi-arabia:1916` |
+| 464 | Kingdom of Italy (1861–1946) → italy | `it-kingdom` | `c/italy:1861` |
+| 465 | Kingdom of Jerusalem (1099–1291) → israel | `kingdom-of-jerusalem` | `c/israel:1099` |
+| 466 | Kingdom of León (910–1230) → spain | `leon` | `c/spain:910` |
+| 467 | Kingdom of Libya (1951–1969) → libya | `libya-kingdom` | `c/libya:1951` |
+| 468 | Kingdom of Navarre (824–1620) → spain | `navarre` | `c/spain:824` |
+| 469 | Kingdom of Scotland (~1542) → uk-scotland | `scotland-kingdom` | `c/uk-scotland:1542` |
+| 470 | Kiribati | `kiribati` | `c/kiribati` |
+| 471 | Kirov Oblast | `ru/kirov-oblast` | `c/ru/kirov-oblast` |
+| 472 | Kirovohrad | `ua/kirovohrad` | `c/ua/kirovohrad` |
+| 473 | Kōchi Prefecture | `jp/kochi` | `c/jp/kochi` |
+| 474 | Konbaung Dynasty (1752–1885) → myanmar | `konbaung` | `c/myanmar:1752` |
+| 475 | Korea | `korea` | `c/korea` |
+| 476 | Kosovo | `kosovo` | `c/kosovo` |
+| 477 | Kostroma Oblast | `ru/kostroma-oblast` | `c/ru/kostroma-oblast` |
+| 478 | Krasnodar Krai | `ru/krasnodar-krai` | `c/ru/krasnodar-krai` |
+| 479 | Krasnoyarsk Krai | `ru/krasnoyarsk-krai` | `c/ru/krasnoyarsk-krai` |
+| 480 | Kuala Lumpur → malaysia | `kuala-lumpur` | `c/malaysia` |
+| 481 | Kumamoto Prefecture | `jp/kumamoto` | `c/jp/kumamoto` |
+| 482 | Kurgan Oblast | `ru/kurgan-oblast` | `c/ru/kurgan-oblast` |
+| 483 | Kursk Oblast | `ru/kursk-oblast` | `c/ru/kursk-oblast` |
+| 484 | Kuwait | `kuwait` | `c/kuwait` |
+| 485 | Kuyavian Pomeranian Voivodeship | `pl/kuyavian-pomeranian` | `c/pl/kuyavian-pomeranian` |
+| 486 | Kyiv Oblast | `ua/kyiv-oblast` | `c/ua/kyiv-oblast` |
+| 487 | Kyoto Prefecture | `jp/kyoto` | `c/jp/kyoto` |
+| 488 | Kyrgyzstan | `kyrgyzstan` | `c/kyrgyzstan` |
+| 489 | La Araucania | `cl/la-araucania` | `c/cl/la-araucania` |
+| 490 | La Libertad | `pe/la-libertad` | `c/pe/la-libertad` |
+| 491 | La Pampa | `ar/la-pampa` | `c/ar/la-pampa` |
+| 492 | La Rioja | `ar/la-rioja` | `c/ar/la-rioja` |
+| 493 | La Rioja | `es/la-rioja` | `c/es/la-rioja` |
+| 494 | Ladakh | `in/ladakh` | `c/in/ladakh` |
+| 495 | Lambayeque | `pe/lambayeque` | `c/pe/lambayeque` |
+| 496 | Lampung | `id/lampung` | `c/id/lampung` |
+| 497 | Laos | `laos` | `c/laos` |
+| 498 | Lara | `ve/lara` | `c/ve/lara` |
+| 499 | Las Vegas → us | `las-vegas` | `c/united-states` |
+| 500 | Latvia | `latvia` | `c/latvia` |
+| 501 | Lazio | `it/lazio` | `c/it/lazio` |
+| 502 | Lebanon | `lebanon` | `c/lebanon` |
+| 503 | Leningrad Oblast | `ru/leningrad-oblast` | `c/ru/leningrad-oblast` |
+| 504 | Lesotho | `lesotho` | `c/lesotho` |
+| 505 | Lesser Poland Voivodeship | `pl/lesser-poland` | `c/pl/lesser-poland` |
+| 506 | Liberec | `cz/liberec` | `c/cz/liberec` |
+| 507 | Liberia | `liberia` | `c/liberia` |
+| 508 | Libya | `libya` | `c/libya` |
+| 509 | Libya (civil) → libya | `libya-civil` | `c/libya` |
+| 510 | Libyan Arab Republic (1969–1977) → libya | `libya-ar` | `c/libya:1969` |
+| 511 | Libyan Jamahiriya (1977–2011) → libya | `libya-jamahiriya` | `c/libya:1977` |
+| 512 | Liechtenstein | `liechtenstein` | `c/liechtenstein` |
+| 513 | Liguria | `it/liguria` | `c/it/liguria` |
+| 514 | Lima → peru | `lima` | `c/peru` |
+| 515 | Limburg | `nl/limburg` | `c/nl/limburg` |
+| 516 | Limburg Be | `be/limburg-be` | `c/be/limburg-be` |
+| 517 | Lipetsk Oblast | `ru/lipetsk-oblast` | `c/ru/lipetsk-oblast` |
+| 518 | Lisbon → portugal | `lisbon` | `c/portugal` |
+| 519 | Lithuania | `lithuania` | `c/lithuania` |
+| 520 | Lodz Voivodeship | `pl/lodz` | `c/pl/lodz` |
+| 521 | Lombardy | `it/lombardy` | `c/it/lombardy` |
+| 522 | London → uk | `london` | `c/united-kingdom` |
+| 523 | Loreto | `pe/loreto` | `c/pe/loreto` |
+| 524 | Los Angeles → us | `los-angeles` | `c/united-states` |
+| 525 | Louisiana | `us/louisiana` | `c/us/louisiana` |
+| 526 | Lower Austria | `at/lower-austria` | `c/at/lower-austria` |
+| 527 | Lower Saxony | `de/lower-saxony` | `c/de/lower-saxony` |
+| 528 | Lower Silesian Voivodeship | `pl/lower-silesian` | `c/pl/lower-silesian` |
+| 529 | Lublin Voivodeship | `pl/lublin` | `c/pl/lublin` |
+| 530 | Lubusz Voivodeship | `pl/lubusz` | `c/pl/lubusz` |
+| 531 | Luhansk | `ua/luhansk` | `c/ua/luhansk` |
+| 532 | Luxembourg | `luxembourg` | `c/luxembourg` |
+| 533 | Lviv | `ua/lviv` | `c/ua/lviv` |
+| 534 | Macau → china | `macau` | `c/china` |
+| 535 | Madagascar | `madagascar` | `c/madagascar` |
+| 536 | Madeira | `pt/madeira` | `c/pt/madeira` |
+| 537 | Madhya Pradesh | `in/madhya-pradesh` | `c/in/madhya-pradesh` |
+| 538 | Madre De Dios | `pe/madre-de-dios` | `c/pe/madre-de-dios` |
+| 539 | Magadan Oblast | `ru/magadan-oblast` | `c/ru/magadan-oblast` |
+| 540 | Maharashtra | `in/maharashtra` | `c/in/maharashtra` |
+| 541 | Maine | `us/maine` | `c/us/maine` |
+| 542 | Majapahit Empire (1293–1527) → indonesia | `majapahit` | `c/indonesia:1293` |
+| 543 | Malawi | `malawi` | `c/malawi` |
+| 544 | Malaysia | `malaysia` | `c/malaysia` |
+| 545 | Maldives | `maldives` | `c/maldives` |
+| 546 | Mali | `mali` | `c/mali` |
+| 547 | Mali Empire (1230–1670) → mali | `mali-empire` | `c/mali:1230` |
+| 548 | Malta | `malta` | `c/malta` |
+| 549 | Maluku | `id/maluku` | `c/id/maluku` |
+| 550 | Mamluk Sultanate (1250–1517) → egypt | `egypt-mamluk` | `c/egypt:1250` |
+| 551 | Mandatory Iraq (1920–1932) → iraq | `iraq-mandatory` | `c/iraq:1920` |
+| 552 | Manila → philippines | `manila` | `c/philippines` |
+| 553 | Manipur | `in/manipur` | `c/in/manipur` |
+| 554 | Manitoba | `ca/manitoba` | `c/ca/manitoba` |
+| 555 | Mann (Isle of Man) | `mann` | `c/uk/mann` |
+| 556 | Maramures | `ro/maramures` | `c/ro/maramures` |
+| 557 | Maranhão | `br/ma` | `c/br/ma` |
+| 558 | Maratha Empire (1674–1818) → india | `maratha` | `c/india:1674` |
+| 559 | Marche | `it/marche` | `c/it/marche` |
+| 560 | Marshall Islands | `marshall-islands` | `c/marshall-islands` |
+| 561 | Martinique | `fr/martinique` | `c/fr/martinique` |
+| 562 | Maryland | `us/maryland` | `c/us/maryland` |
+| 563 | Masovian Voivodeship | `pl/masovian` | `c/pl/masovian` |
+| 564 | Massachusetts | `us/massachusetts` | `c/us/massachusetts` |
+| 565 | Mataram Sultanate (1586–1755) → indonesia | `mataram` | `c/indonesia:1586` |
+| 566 | Mato Grosso | `br/mt` | `c/br/mt` |
+| 567 | Mato Grosso do Sul | `br/ms` | `c/br/ms` |
+| 568 | Maule | `cl/maule` | `c/cl/maule` |
+| 569 | Mauritania | `mauritania` | `c/mauritania` |
+| 570 | Mauritania (1959–2017) (1959–2017) → mauritania | `mauritania-1959` | `c/mauritania:1959` |
+| 571 | Mayotte → france | `comoros-mayotte` | `c/france` |
+| 572 | Mayotte | `fr/mayotte` | `c/fr/mayotte` |
+| 573 | Mecklenburg-Vorpommern | `de/mecklenburg-vorpommern` | `c/de/mecklenburg-vorpommern` |
+| 574 | Melbourne → australia | `melbourne` | `c/australia` |
+| 575 | Melilla | `es/melilla` | `c/es/melilla` |
+| 576 | Mendoza | `ar/mendoza` | `c/ar/mendoza` |
+| 577 | Merida | `ve/merida` | `c/ve/merida` |
+| 578 | Merina Kingdom (1540–1897) → madagascar | `merina` | `c/madagascar:1540` |
+| 579 | Mexican Empire (1821–1823) → mexico | `mx-empire` | `c/mexico:1821` |
+| 580 | Mexican Federal Republic (1823–1864) → mexico | `mx-federal-republic` | `c/mexico:1823` |
+| 581 | Mexico | `mexico` | `c/mexico` |
+| 582 | Mexico City | `mx/cmx` | `c/mx/cmx` |
+| 583 | Mexico City → mexico | `mexico-city-city` | `c/mexico` |
+| 584 | Miami → us | `miami` | `c/united-states` |
+| 585 | Michigan | `us/michigan` | `c/us/michigan` |
+| 586 | Michoacán | `mx/mic` | `c/mx/mic` |
+| 587 | Micronesia | `micronesia` | `c/micronesia` |
+| 588 | Mie Prefecture | `jp/mie` | `c/jp/mie` |
+| 589 | Minas Gerais | `br/mg` | `c/br/mg` |
+| 590 | Minnesota | `us/minnesota` | `c/us/minnesota` |
+| 591 | Minsk → belarus | `minsk` | `c/belarus` |
+| 592 | Miranda | `ve/miranda` | `c/ve/miranda` |
+| 593 | Misiones | `ar/misiones` | `c/ar/misiones` |
+| 594 | Mississippi | `us/mississippi` | `c/us/mississippi` |
+| 595 | Missouri | `us/missouri` | `c/us/missouri` |
+| 596 | Miyagi Prefecture | `jp/miyagi` | `c/jp/miyagi` |
+| 597 | Miyazaki Prefecture | `jp/miyazaki` | `c/jp/miyazaki` |
+| 598 | Mohéli → comoros | `moheli` | `c/comoros` |
+| 599 | Moldova | `moldova` | `c/moldova` |
+| 600 | Molise | `it/molise` | `c/it/molise` |
+| 601 | Monaco | `monaco` | `c/monaco` |
+| 602 | Monagas | `ve/monagas` | `c/ve/monagas` |
+| 603 | Mongol Empire (1206–1368) → china | `mongol` | `c/china:1206` |
+| 604 | Mongolia | `mongolia` | `c/mongolia` |
+| 605 | Montana | `us/montana` | `c/us/montana` |
+| 606 | Montenegro | `montenegro` | `c/montenegro` |
+| 607 | Montreal → canada | `montreal` | `c/canada` |
+| 608 | Montserrat | `montserrat` | `c/uk/montserrat` |
+| 609 | Moquegua | `pe/moquegua` | `c/pe/moquegua` |
+| 610 | Moravian Silesian | `cz/moravian-silesian` | `c/cz/moravian-silesian` |
+| 611 | Mordovia | `ru/mordovia` | `c/ru/mordovia` |
+| 612 | Morelos | `mx/mor` | `c/mx/mor` |
+| 613 | Morocco | `morocco` | `c/morocco` |
+| 614 | Moscow | `ru/moscow` | `c/ru/moscow` |
+| 615 | Moscow → russia | `moscow-city` | `c/russia` |
+| 616 | Moscow Oblast | `ru/moscow-oblast` | `c/ru/moscow-oblast` |
+| 617 | Mozambique | `mozambique` | `c/mozambique` |
+| 618 | Mughal Empire (1526–1857) → india | `mughal` | `c/india:1526` |
+| 619 | Murmansk Oblast | `ru/murmansk-oblast` | `c/ru/murmansk-oblast` |
+| 620 | Muslim League Flag (1906–1947) → pakistan | `pk-muslim-league` | `c/pakistan:1906` |
+| 621 | Myanmar | `myanmar` | `c/myanmar` |
+| 622 | Mykolaiv | `ua/mykolaiv` | `c/ua/mykolaiv` |
+| 623 | N. Korea (DPRK) | `korea-dprk` | `c/n.-korea-(dprk)` |
+| 624 | Nagaland | `in/nagaland` | `c/in/nagaland` |
+| 625 | Nagano Prefecture | `jp/nagano` | `c/jp/nagano` |
+| 626 | Nagasaki Prefecture | `jp/nagasaki` | `c/jp/nagasaki` |
+| 627 | Nagoya → japan | `nagoya` | `c/japan` |
+| 628 | Namibia | `namibia` | `c/namibia` |
+| 629 | Nara Prefecture | `jp/nara` | `c/jp/nara` |
+| 630 | Nauru | `nauru` | `c/nauru` |
+| 631 | Navarre | `es/navarre` | `c/es/navarre` |
+| 632 | Nayarit | `mx/nay` | `c/mx/nay` |
+| 633 | Nazi Germany (1933–1945) → germany | `de-nazi` | `c/germany:1933` |
+| 634 | Nebraska | `us/nebraska` | `c/us/nebraska` |
+| 635 | Nepal | `nepal` | `c/nepal` |
+| 636 | Netherlands | `netherlands` | `c/netherlands` |
+| 637 | Nevada | `us/nevada` | `c/us/nevada` |
+| 638 | New Brunswick | `ca/new-brunswick` | `c/ca/new-brunswick` |
+| 639 | New Hampshire | `us/new-hampshire` | `c/us/new-hampshire` |
+| 640 | New Jersey | `us/new-jersey` | `c/us/new-jersey` |
+| 641 | New Mexico | `us/new-mexico` | `c/us/new-mexico` |
+| 642 | New Orleans → us | `new-orleans` | `c/united-states` |
+| 643 | New South Wales | `au/new-south-wales` | `c/au/new-south-wales` |
+| 644 | New York | `us/new-york` | `c/us/new-york` |
+| 645 | New York City → us | `new-york-city` | `c/united-states` |
+| 646 | New Zealand | `new-zealand` | `c/new-zealand` |
+| 647 | Newfoundland and Labrador | `ca/newfoundland-labrador` | `c/ca/newfoundland-labrador` |
+| 648 | Nicaragua | `nicaragua` | `c/nicaragua` |
+| 649 | Niger | `niger` | `c/niger` |
+| 650 | Nigeria | `nigeria` | `c/nigeria` |
+| 651 | Niigata Prefecture | `jp/niigata` | `c/jp/niigata` |
+| 652 | Normandy | `fr/normandy` | `c/fr/normandy` |
+| 653 | Norte De Santander | `co/norte-de-santander` | `c/co/norte-de-santander` |
+| 654 | North Brabant | `nl/north-brabant` | `c/nl/north-brabant` |
+| 655 | North Carolina | `us/north-carolina` | `c/us/north-carolina` |
+| 656 | North Dakota | `us/north-dakota` | `c/us/north-dakota` |
+| 657 | North Holland | `nl/north-holland` | `c/nl/north-holland` |
+| 658 | North Kalimantan | `id/north-kalimantan` | `c/id/north-kalimantan` |
+| 659 | North Macedonia | `north-macedonia` | `c/north-macedonia` |
+| 660 | North Maluku | `id/north-maluku` | `c/id/north-maluku` |
+| 661 | North Ossetia | `ru/north-ossetia` | `c/ru/north-ossetia` |
+| 662 | North Rhine-Westphalia | `de/north-rhine-westphalia` | `c/de/north-rhine-westphalia` |
+| 663 | North Sulawesi | `id/north-sulawesi` | `c/id/north-sulawesi` |
+| 664 | North Sumatra | `id/north-sumatra` | `c/id/north-sumatra` |
+| 665 | North Yemen (YAR) (1918–1990) → yemen | `north-yemen` | `c/yemen:1918` |
+| 666 | Northern Cyprus | `n-cyprus` | `c/northern-cyprus` |
+| 667 | Northern Ireland (Ulster Banner) | `uk/northern-ireland` | `c/uk/northern-ireland` |
+| 668 | Northern Territory | `au/nt` | `c/au/nt` |
+| 669 | Northwest Territories | `ca/northwest-territories` | `c/ca/northwest-territories` |
+| 670 | Norway | `norway` | `c/norway` |
+| 671 | Nouvelle-Aquitaine | `fr/nouvelle-aquitaine` | `c/fr/nouvelle-aquitaine` |
+| 672 | Nova Scotia | `ca/nova-scotia` | `c/ca/nova-scotia` |
+| 673 | Novgorod Oblast | `ru/novgorod-oblast` | `c/ru/novgorod-oblast` |
+| 674 | Novosibirsk Oblast | `ru/novosibirsk-oblast` | `c/ru/novosibirsk-oblast` |
+| 675 | Nuble | `cl/nuble` | `c/cl/nuble` |
+| 676 | Nueva Esparta | `ve/nueva-esparta` | `c/ve/nueva-esparta` |
+| 677 | Nuevo León | `mx/nl` | `c/mx/nl` |
+| 678 | Nunavut | `ca/nunavut` | `c/ca/nunavut` |
+| 679 | Oaxaca | `mx/oax` | `c/mx/oax` |
+| 680 | Occitanie | `fr/occitanie` | `c/fr/occitanie` |
+| 681 | Odesa | `ua/odesa` | `c/ua/odesa` |
+| 682 | Odisha | `in/odisha` | `c/in/odisha` |
+| 683 | Ohio | `us/ohio` | `c/us/ohio` |
+| 684 | Ōita Prefecture | `jp/oita` | `c/jp/oita` |
+| 685 | Okayama Prefecture | `jp/okayama` | `c/jp/okayama` |
+| 686 | Okinawa Prefecture | `jp/okinawa` | `c/jp/okinawa` |
+| 687 | Oklahoma | `us/oklahoma` | `c/us/oklahoma` |
+| 688 | Olomouc | `cz/olomouc` | `c/cz/olomouc` |
+| 689 | Oman | `oman` | `c/oman` |
+| 690 | Omani Empire (1696–1856) → oman | `omani-empire` | `c/oman:1696` |
+| 691 | Omsk Oblast | `ru/omsk-oblast` | `c/ru/omsk-oblast` |
+| 692 | Ontario | `ca/ontario` | `c/ca/ontario` |
+| 693 | Opole Voivodeship | `pl/opole` | `c/pl/opole` |
+| 694 | Orange Free State (1854–1902) → south-africa | `orange-free-state` | `c/south-africa:1854` |
+| 695 | Oregon | `us/oregon` | `c/us/oregon` |
+| 696 | Orenburg Oblast | `ru/orenburg-oblast` | `c/ru/orenburg-oblast` |
+| 697 | Original Taegeukgi (1883) → korea | `kr-taegeukgi-1883` | `c/korea:1883` |
+| 698 | Oryol Oblast | `ru/oryol-oblast` | `c/ru/oryol-oblast` |
+| 699 | Osaka → japan | `osaka-city` | `c/japan` |
+| 700 | Osaka Prefecture | `jp/osaka` | `c/jp/osaka` |
+| 701 | Oslo → norway | `oslo` | `c/norway` |
+| 702 | Ottoman Empire (1299–1922) → turkey | `ottoman` | `c/turkey:1299` |
+| 703 | Ottoman Empire (Early) (~1300s) → turkey | `ottoman-early` | `c/turkey:1300` |
+| 704 | Ottoman Tripolitania (1551–1911) → libya | `libya-ottoman` | `c/libya:1551` |
+| 705 | Overijssel | `nl/overijssel` | `c/nl/overijssel` |
+| 706 | Pahlavi Dynasty (1925–1979) → iran | `pahlavi` | `c/iran:1925` |
+| 707 | Pakistan | `pakistan` | `c/pakistan` |
+| 708 | Palau | `palau` | `c/palau` |
+| 709 | Palestine | `palestine` | `c/palestine` |
+| 710 | Panama | `panama` | `c/panama` |
+| 711 | Papal States (756–1870) → vatican-city | `papal-states` | `c/vatican-city:756` |
+| 712 | Papua | `id/papua` | `c/id/papua` |
+| 713 | Papua New Guinea | `papua-new-guinea` | `c/papua-new-guinea` |
+| 714 | Pará | `br/pa` | `c/br/pa` |
+| 715 | Paraguay | `paraguay` | `c/paraguay` |
+| 716 | Paraíba | `br/pb` | `c/br/pb` |
+| 717 | Paraná | `br/pr` | `c/br/pr` |
+| 718 | Pardubice | `cz/pardubice` | `c/cz/pardubice` |
+| 719 | Paris → france | `paris` | `c/france` |
+| 720 | Parthian Empire (247 BC–224 AD) → iran | `parthian` | `c/iran:247` |
+| 721 | Pasco | `pe/pasco` | `c/pe/pasco` |
+| 722 | Pays de la Loire | `fr/pays-de-la-loire` | `c/fr/pays-de-la-loire` |
+| 723 | Pennsylvania | `us/pennsylvania` | `c/us/pennsylvania` |
+| 724 | Penza Oblast | `ru/penza-oblast` | `c/ru/penza-oblast` |
+| 725 | Perm Krai | `ru/perm-krai` | `c/ru/perm-krai` |
+| 726 | Pernambuco | `br/pe` | `c/br/pe` |
+| 727 | Peru | `peru` | `c/peru` |
+| 728 | Philadelphia → us | `philadelphia-city` | `c/united-states` |
+| 729 | Philippine Revolutionary Flag (1897–1901) → philippines | `ph-revolutionary` | `c/philippines:1897` |
+| 730 | Philippines | `philippines` | `c/philippines` |
+| 731 | Phoenix → us | `phoenix-city` | `c/united-states` |
+| 732 | Piauí | `br/pi` | `c/br/pi` |
+| 733 | Piedmont | `it/piedmont` | `c/it/piedmont` |
+| 734 | Pitcairn Islands | `pitcairn` | `c/uk/pitcairn` |
+| 735 | Piura | `pe/piura` | `c/pe/piura` |
+| 736 | Podlaskie Voivodeship | `pl/podlaskie` | `c/pl/podlaskie` |
+| 737 | Poland | `poland` | `c/poland` |
+| 738 | Polish November Uprising (1830–1831) → poland | `pl-november-uprising` | `c/poland:1830` |
+| 739 | Poltava | `ua/poltava` | `c/ua/poltava` |
+| 740 | Pomeranian Voivodeship | `pl/pomeranian` | `c/pl/pomeranian` |
+| 741 | Portland, OR → us | `portland-or` | `c/united-states` |
+| 742 | Portugal | `portugal` | `c/portugal` |
+| 743 | Prague | `cz/prague` | `c/cz/prague` |
+| 744 | Prague → czech-republic | `prague` | `c/czech-republic` |
+| 745 | Primorsky Krai | `ru/primorsky-krai` | `c/ru/primorsky-krai` |
+| 746 | Prince Edward Island | `ca/prince-edward-island` | `c/ca/prince-edward-island` |
+| 747 | Principality of Moldavia (1346–1859) → romania | `moldavia` | `c/romania:1346` |
+| 748 | Principality of Transylvania (1570–1711) → romania | `transylvania` | `c/romania:1570` |
+| 749 | Principality of Wallachia (1330–1859) → romania | `wallachia` | `c/romania:1330` |
+| 750 | Prussia | `de/prussia` | `c/de/prussia` |
+| 751 | Pskov Oblast | `ru/pskov-oblast` | `c/ru/pskov-oblast` |
+| 752 | Puebla | `mx/pue` | `c/mx/pue` |
+| 753 | Puerto Rico | `us/puerto-rico` | `c/us/puerto-rico` |
+| 754 | Punjab | `in/punjab` | `c/in/punjab` |
+| 755 | Puno | `pe/puno` | `c/pe/puno` |
+| 756 | Qajar Dynasty (1789–1925) → iran | `qajar` | `c/iran:1789` |
+| 757 | Qatar | `qatar` | `c/qatar` |
+| 758 | Qing Dynasty (Dragon Flag) (1889–1912) → china | `cn-qing-dragon` | `c/china:1889` |
+| 759 | Quebec | `ca/quebec` | `c/ca/quebec` |
+| 760 | Queensland | `au/queensland` | `c/au/queensland` |
+| 761 | Querétaro | `mx/qro` | `c/mx/qro` |
+| 762 | Quindio | `co/quindio` | `c/co/quindio` |
+| 763 | Quintana Roo | `mx/qr` | `c/mx/qr` |
+| 764 | Rajasthan | `in/rajasthan` | `c/in/rajasthan` |
+| 765 | Rashidun Caliphate (632–661) → saudi-arabia | `rashidun` | `c/saudi-arabia:632` |
+| 766 | Region of Murcia | `es/murcia` | `c/es/murcia` |
+| 767 | Republic of Florence (1115–1569) → italy | `florence` | `c/italy:1115` |
+| 768 | Republic of Genoa (1005–1797) → italy | `genoa` | `c/italy:1005` |
+| 769 | Republic of Hatay (1938–1939) → turkey | `hatay` | `c/turkey:1938` |
+| 770 | Republic of Pisa (1000–1406) → italy | `pisa` | `c/italy:1000` |
+| 771 | Republic of Ragusa (1358–1808) → croatia | `ragusa` | `c/croatia:1358` |
+| 772 | Republic of Venice (697–1797) → italy | `venice` | `c/italy:697` |
+| 773 | Réunion | `fr/la-reunion` | `c/fr/la-reunion` |
+| 774 | Rhineland-Palatinate | `de/rhineland-palatinate` | `c/de/rhineland-palatinate` |
+| 775 | Rhode Island | `us/rhode-island` | `c/us/rhode-island` |
+| 776 | Riau | `id/riau` | `c/id/riau` |
+| 777 | Riga → latvia | `riga` | `c/latvia` |
+| 778 | Rio de Janeiro | `br/rj` | `c/br/rj` |
+| 779 | Rio Grande do Norte | `br/rn` | `c/br/rn` |
+| 780 | Rio Grande do Sul | `br/rs` | `c/br/rs` |
+| 781 | Río Negro | `ar/rio-negro` | `c/ar/rio-negro` |
+| 782 | Risaralda | `co/risaralda` | `c/co/risaralda` |
+| 783 | Rivne | `ua/rivne` | `c/ua/rivne` |
+| 784 | Roman Empire (27 BC–476 AD) → italy | `roman-empire` | `c/italy:476` |
+| 785 | Romania | `romania` | `c/romania` |
+| 786 | Rome → italy | `rome` | `c/italy` |
+| 787 | Rondônia | `br/ro` | `c/br/ro` |
+| 788 | Roraima | `br/rr` | `c/br/rr` |
+| 789 | Rostov Oblast | `ru/rostov-oblast` | `c/ru/rostov-oblast` |
+| 790 | Russia | `russia` | `c/russia` |
+| 791 | Russian SFSR (1918–1991) → russia | `ru-sfsr` | `c/russia:1918` |
+| 792 | Rwanda | `rwanda` | `c/rwanda` |
+| 793 | Ryazan Oblast | `ru/ryazan-oblast` | `c/ru/ryazan-oblast` |
+| 794 | Saarland | `de/saarland` | `c/de/saarland` |
+| 795 | Safavid Empire (1501–1736) → iran | `safavid` | `c/iran:1501` |
+| 796 | Saga Prefecture | `jp/saga` | `c/jp/saga` |
+| 797 | Saint Helena | `saint-helena` | `c/uk/helena` |
+| 798 | Saint Kitts and Nevis | `saint-kitts-and-nevis` | `c/saint-kitts-and-nevis` |
+| 799 | Saint Lucia | `saint-lucia` | `c/saint-lucia` |
+| 800 | Saint Vincent and the Grenadines | `saint-vincent-and-the-grenadines` | `c/saint-vincent-and-the-grenadines` |
+| 801 | Saitama Prefecture | `jp/saitama` | `c/jp/saitama` |
+| 802 | Sakha | `ru/sakha` | `c/ru/sakha` |
+| 803 | Sakhalin Oblast | `ru/sakhalin-oblast` | `c/ru/sakhalin-oblast` |
+| 804 | Salta | `ar/salta` | `c/ar/salta` |
+| 805 | Salzburg | `at/salzburg` | `c/at/salzburg` |
+| 806 | Samanid Empire (819–999) → iran | `samanid` | `c/iran:819` |
+| 807 | Samara Oblast | `ru/samara-oblast` | `c/ru/samara-oblast` |
+| 808 | Samoa | `samoa` | `c/samoa` |
+| 809 | San Francisco → us | `san-francisco` | `c/united-states` |
+| 810 | San Juan | `ar/san-juan` | `c/ar/san-juan` |
+| 811 | San Juan → us | `san-juan-pr` | `c/united-states` |
+| 812 | San Luis | `ar/san-luis` | `c/ar/san-luis` |
+| 813 | San Luis Potosí | `mx/slp` | `c/mx/slp` |
+| 814 | San Marino | `san-marino` | `c/san-marino` |
+| 815 | San Martin | `pe/san-martin` | `c/pe/san-martin` |
+| 816 | Santa Catarina | `br/sc` | `c/br/sc` |
+| 817 | Santa Cruz | `ar/santa-cruz` | `c/ar/santa-cruz` |
+| 818 | Santa Fe | `ar/santa-fe` | `c/ar/santa-fe` |
+| 819 | Santander | `co/santander` | `c/co/santander` |
+| 820 | Santiago del Estero | `ar/santiago-del-estero` | `c/ar/santiago-del-estero` |
+| 821 | São Paulo | `br/sp` | `c/br/sp` |
+| 822 | Sao Tome and Principe | `sao-tome-and-principe` | `c/sao-tome-and-principe` |
+| 823 | Sarajevo → bosnia-and-herzegovina | `sarajevo` | `c/bosnia-and-herzegovina` |
+| 824 | Saratov Oblast | `ru/saratov-oblast` | `c/ru/saratov-oblast` |
+| 825 | Sardinia | `it/sardinia` | `c/it/sardinia` |
+| 826 | Sark | `sark` | `c/uk/sark` |
+| 827 | Saskatchewan | `ca/saskatchewan` | `c/ca/saskatchewan` |
+| 828 | Sassanid Empire (Derafsh Kaviani, alt) (224–651) → iran | `sassanid-alt` | `c/iran:224` |
+| 829 | Sassanid Empire (Derafsh Kaviani) (224–651) → iran | `sassanid` | `c/iran:224` |
+| 830 | Saudi Arabia | `saudi-arabia` | `c/saudi-arabia` |
+| 831 | Saxony | `de/saxony` | `c/de/saxony` |
+| 832 | Saxony-Anhalt | `de/saxony-anhalt` | `c/de/saxony-anhalt` |
+| 833 | Schleswig-Holstein | `de/schleswig-holstein` | `c/de/schleswig-holstein` |
+| 834 | Scotland (Saltire) | `uk/scotland` | `c/uk/scotland` |
+| 835 | Second Spanish Republic (1931–1939) → spain | `es-republic` | `c/spain:1931` |
+| 836 | Seljuk Empire (1037–1194) → turkey | `seljuk` | `c/turkey:1037` |
+| 837 | Senegal | `senegal` | `c/senegal` |
+| 838 | Seoul → korea | `seoul` | `c/korea` |
+| 839 | Serbia | `serbia` | `c/serbia` |
+| 840 | Sergipe | `br/se` | `c/br/se` |
+| 841 | Sevastopol | `ru/sevastopol` | `c/ru/sevastopol` |
+| 842 | Seychelles | `seychelles` | `c/seychelles` |
+| 843 | Shiga Prefecture | `jp/shiga` | `c/jp/shiga` |
+| 844 | Shimane Prefecture | `jp/shimane` | `c/jp/shimane` |
+| 845 | Shizuoka Prefecture | `jp/shizuoka` | `c/jp/shizuoka` |
+| 846 | Siam White Elephant (1855–1916) → thailand | `th-siam-elephant` | `c/thailand:1855` |
+| 847 | Sicily | `it/sicily` | `c/it/sicily` |
+| 848 | Sierra Leone | `sierra-leone` | `c/sierra-leone` |
+| 849 | Sikh Empire (1799–1849) → india | `sikh-empire` | `c/india:1799` |
+| 850 | Sikkim | `in/sikkim` | `c/in/sikkim` |
+| 851 | Silesian Voivodeship | `pl/silesian` | `c/pl/silesian` |
+| 852 | Sinaloa | `mx/sin` | `c/mx/sin` |
+| 853 | Singapore | `singapore` | `c/singapore` |
+| 854 | Singapore → singapore | `singapore-city` | `c/singapore` |
+| 855 | Slovakia | `slovakia` | `c/slovakia` |
+| 856 | Slovenia | `slovenia` | `c/slovenia` |
+| 857 | Smolensk Oblast | `ru/smolensk-oblast` | `c/ru/smolensk-oblast` |
+| 858 | Sokoto Caliphate (1804–1903) → nigeria | `sokoto` | `c/nigeria:1804` |
+| 859 | Solomon Islands | `solomon-islands` | `c/solomon-islands` |
+| 860 | Somalia | `somalia` | `c/somalia` |
+| 861 | Somaliland | `somaliland` | `c/somaliland` |
+| 862 | Sonora | `mx/son` | `c/mx/son` |
+| 863 | South Africa | `south-africa` | `c/south-africa` |
+| 864 | South Africa Prinsevlag (1928–1994) → south-africa | `za-prinsevlag` | `c/south-africa:1928` |
+| 865 | South African Republic (Transvaal) (1852–1902) → south-africa | `transvaal` | `c/south-africa:1852` |
+| 866 | South Australia | `au/south-australia` | `c/au/south-australia` |
+| 867 | South Bohemia | `cz/south-bohemia` | `c/cz/south-bohemia` |
+| 868 | South Carolina | `us/south-carolina` | `c/us/south-carolina` |
+| 869 | South Dakota | `us/south-dakota` | `c/us/south-dakota` |
+| 870 | South Georgia & South Sandwich Islands | `sgssi` | `c/uk/sgssi` |
+| 871 | South Holland | `nl/south-holland` | `c/nl/south-holland` |
+| 872 | South Kalimantan | `id/south-kalimantan` | `c/id/south-kalimantan` |
+| 873 | South Moravia | `cz/south-moravia` | `c/cz/south-moravia` |
+| 874 | South Sudan | `south-sudan` | `c/south-sudan` |
+| 875 | South Sulawesi | `id/south-sulawesi` | `c/id/south-sulawesi` |
+| 876 | South Sumatra | `id/south-sumatra` | `c/id/south-sumatra` |
+| 877 | South Vietnam (1955–1975) → vietnam | `vn-south` | `c/vietnam:1955` |
+| 878 | South Yemen (PDRY) (1967–1990) → yemen | `south-yemen` | `c/yemen:1967` |
+| 879 | Southeast Sulawesi | `id/southeast-sulawesi` | `c/id/southeast-sulawesi` |
+| 880 | Soviet Union (1922–1991) → russia | `soviet-union` | `c/russia:1922` |
+| 881 | Spain | `spain` | `c/spain` |
+| 882 | Spanish Empire (1506–1785) → spain | `es-empire` | `c/spain:1506` |
+| 883 | Sri Lanka | `sri-lanka` | `c/sri-lanka` |
+| 884 | State of Mexico | `mx/mex` | `c/mx/mex` |
+| 885 | Stavropol Krai | `ru/stavropol-krai` | `c/ru/stavropol-krai` |
+| 886 | Styria | `at/styria` | `c/at/styria` |
+| 887 | Subcarpathian Voivodeship | `pl/subcarpathian` | `c/pl/subcarpathian` |
+| 888 | Sucre Ve | `ve/sucre-ve` | `c/ve/sucre-ve` |
+| 889 | Sudan | `sudan` | `c/sudan` |
+| 890 | Sultanate of Egypt (1914–1922) → egypt | `egypt-sultanate` | `c/egypt:1914` |
+| 891 | Sultanate of Rûm (1077–1308) → turkey | `sultanate-rum` | `c/turkey:1077` |
+| 892 | Sultanate of Sulu (1457–1917) → philippines | `sulu` | `c/philippines:1457` |
+| 893 | Sultanate of Zanzibar (1856–1964) → tanzania | `zanzibar-sultanate` | `c/tanzania:1856` |
+| 894 | Sumy | `ua/sumy` | `c/ua/sumy` |
+| 895 | Suriname | `suriname` | `c/suriname` |
+| 896 | Sverdlovsk Oblast | `ru/sverdlovsk-oblast` | `c/ru/sverdlovsk-oblast` |
+| 897 | Sweden | `sweden` | `c/sweden` |
+| 898 | Swietokrzyskie Voivodeship | `pl/swietokrzyskie` | `c/pl/swietokrzyskie` |
+| 899 | Switzerland | `switzerland` | `c/switzerland` |
+| 900 | Syria | `syria` | `c/syria` |
+| 901 | Tabasco | `mx/tab` | `c/mx/tab` |
+| 902 | Tachira | `ve/tachira` | `c/ve/tachira` |
+| 903 | Tacna | `pe/tacna` | `c/pe/tacna` |
+| 904 | Tajikistan | `tajikistan` | `c/tajikistan` |
+| 905 | Taliban (1996) (1996–2001) → afghanistan | `af-taliban-1996` | `c/afghanistan:1996` |
+| 906 | Tallinn → estonia | `tallinn` | `c/estonia` |
+| 907 | Tamaulipas | `mx/tam` | `c/mx/tam` |
+| 908 | Tambov Oblast | `ru/tambov-oblast` | `c/ru/tambov-oblast` |
+| 909 | Tamil Nadu | `in/tamil-nadu` | `c/in/tamil-nadu` |
+| 910 | Tanzania | `tanzania` | `c/tanzania` |
+| 911 | Tarija | `bo/tarija` | `c/bo/tarija` |
+| 912 | Tasmania | `au/tasmania` | `c/au/tasmania` |
+| 913 | Tatarstan | `ru/tatarstan` | `c/ru/tatarstan` |
+| 914 | Tbilisi → georgia | `tbilisi` | `c/georgia` |
+| 915 | Tehran → iran | `tehran` | `c/iran` |
+| 916 | Telangana | `in/telangana` | `c/in/telangana` |
+| 917 | Tennessee | `us/tennessee` | `c/us/tennessee` |
+| 918 | Ternopil | `ua/ternopil` | `c/ua/ternopil` |
+| 919 | Teutonic Order (1190–1525) → germany | `teutonic` | `c/germany:1190` |
+| 920 | Texas | `us/texas` | `c/us/texas` |
+| 921 | Thailand | `thailand` | `c/thailand` |
+| 922 | Thessaly | `gr/thessaly` | `c/gr/thessaly` |
+| 923 | Thuringia | `de/thuringia` | `c/de/thuringia` |
+| 924 | Tierra del Fuego | `ar/tierra-del-fuego` | `c/ar/tierra-del-fuego` |
+| 925 | Timor Leste | `timor-leste` | `c/timor-leste` |
+| 926 | Tirana → albania | `tirana` | `c/albania` |
+| 927 | Tlaxcala | `mx/tlx` | `c/mx/tlx` |
+| 928 | Tocantins | `br/to` | `c/br/to` |
+| 929 | Tochigi Prefecture | `jp/tochigi` | `c/jp/tochigi` |
+| 930 | Togo | `togo` | `c/togo` |
+| 931 | Tokugawa Shogunate (1603–1868) → japan | `jp-tokugawa` | `c/japan:1603` |
+| 932 | Tokushima Prefecture | `jp/tokushima` | `c/jp/tokushima` |
+| 933 | Tokyo → japan | `tokyo-city` | `c/japan` |
+| 934 | Tokyo Prefecture | `jp/tokyo` | `c/jp/tokyo` |
+| 935 | Tolima | `co/tolima` | `c/co/tolima` |
+| 936 | Tomsk Oblast | `ru/tomsk-oblast` | `c/ru/tomsk-oblast` |
+| 937 | Tonga | `tonga` | `c/tonga` |
+| 938 | Torres Strait Islander Flag | `au/torres-strait` | `c/au/torres-strait` |
+| 939 | Tottori Prefecture | `jp/tottori` | `c/jp/tottori` |
+| 940 | Toyama Prefecture | `jp/toyama` | `c/jp/toyama` |
+| 941 | Trentino-Alto Adige | `it/trentino-alto-adige` | `c/it/trentino-alto-adige` |
+| 942 | Trinidad and Tobago | `trinidad-and-tobago` | `c/trinidad-and-tobago` |
+| 943 | Tripolitanian Republic (1918–1923) → libya | `libya-tripolitanian-republic` | `c/libya:1918` |
+| 944 | Tripura | `in/tripura` | `c/in/tripura` |
+| 945 | Tristan da Cunha | `tristan` | `c/uk/tristan` |
+| 946 | Trujillo | `ve/trujillo` | `c/ve/trujillo` |
+| 947 | Tula Oblast | `ru/tula-oblast` | `c/ru/tula-oblast` |
+| 948 | Tumbes | `pe/tumbes` | `c/pe/tumbes` |
+| 949 | Tunisia | `tunisia` | `c/tunisia` |
+| 950 | Turkey | `turkey` | `c/turkey` |
+| 951 | Turkmenistan | `turkmenistan` | `c/turkmenistan` |
+| 952 | Turks and Caicos Islands | `tci` | `c/uk/tci` |
+| 953 | Tuscany | `it/tuscany` | `c/it/tuscany` |
+| 954 | Tuva | `ru/tuva` | `c/ru/tuva` |
+| 955 | Tuvalu | `tuvalu` | `c/tuvalu` |
+| 956 | Tver Oblast | `ru/tver-oblast` | `c/ru/tver-oblast` |
+| 957 | Tyumen Oblast | `ru/tyumen-oblast` | `c/ru/tyumen-oblast` |
+| 958 | Ucayali | `pe/ucayali` | `c/pe/ucayali` |
+| 959 | Udmurtia | `ru/udmurtia` | `c/ru/udmurtia` |
+| 960 | Uganda | `uganda` | `c/uganda` |
+| 961 | Ukraine | `ukraine` | `c/ukraine` |
+| 962 | Ulyanovsk Oblast | `ru/ulyanovsk-oblast` | `c/ru/ulyanovsk-oblast` |
+| 963 | Umayyad Caliphate (661–750) → syria | `umayyad` | `c/syria:661` |
+| 964 | Umbria | `it/umbria` | `c/it/umbria` |
+| 965 | United Arab Emirates | `uae` | `c/united-arab-emirates` |
+| 966 | United Arab Republic (1958–1971) → egypt | `egypt-uar` | `c/egypt:1958` |
+| 967 | United Kingdom | `uk` | `c/united-kingdom` |
+| 968 | United Kingdom of Libya (1951–1963) → libya | `libya-united` | `c/libya:1951` |
+| 969 | United States | `us` | `c/united-states` |
+| 970 | Upper Austria | `at/upper-austria` | `c/at/upper-austria` |
+| 971 | Uruguay | `uruguay` | `c/uruguay` |
+| 972 | Utah | `us/utah` | `c/us/utah` |
+| 973 | Utrecht | `nl/utrecht` | `c/nl/utrecht` |
+| 974 | Uttar Pradesh | `in/uttar-pradesh` | `c/in/uttar-pradesh` |
+| 975 | Uttarakhand | `in/uttarakhand` | `c/in/uttarakhand` |
+| 976 | Uzbekistan | `uzbekistan` | `c/uzbekistan` |
+| 977 | Valencian Community | `es/valencia` | `c/es/valencia` |
+| 978 | Vancouver → canada | `vancouver` | `c/canada` |
+| 979 | Vanuatu | `vanuatu` | `c/vanuatu` |
+| 980 | Vargas | `ve/vargas` | `c/ve/vargas` |
+| 981 | Vatican City | `vatican-city` | `c/vatican-city` |
+| 982 | Veneto | `it/veneto` | `c/it/veneto` |
+| 983 | Venezuela | `venezuela` | `c/venezuela` |
+| 984 | Veracruz | `mx/ver` | `c/mx/ver` |
+| 985 | Vermont | `us/vermont` | `c/us/vermont` |
+| 986 | Vichada | `co/vichada` | `c/co/vichada` |
+| 987 | Victoria | `au/victoria` | `c/au/victoria` |
+| 988 | Vienna → austria | `vienna` | `c/austria` |
+| 989 | Vienna State | `at/vienna-state` | `c/at/vienna-state` |
+| 990 | Vietnam | `vietnam` | `c/vietnam` |
+| 991 | Vilnius → lithuania | `vilnius` | `c/lithuania` |
+| 992 | Vinnytsia | `ua/vinnytsia` | `c/ua/vinnytsia` |
+| 993 | Virginia | `us/virginia` | `c/us/virginia` |
+| 994 | Vladimir Oblast | `ru/vladimir-oblast` | `c/ru/vladimir-oblast` |
+| 995 | Volgograd Oblast | `ru/volgograd-oblast` | `c/ru/volgograd-oblast` |
+| 996 | Vologda Oblast | `ru/vologda-oblast` | `c/ru/vologda-oblast` |
+| 997 | Volyn | `ua/volyn` | `c/ua/volyn` |
+| 998 | Vorarlberg | `at/vorarlberg` | `c/at/vorarlberg` |
+| 999 | Voronezh Oblast | `ru/voronezh-oblast` | `c/ru/voronezh-oblast` |
+| 1000 | Wakayama Prefecture | `jp/wakayama` | `c/jp/wakayama` |
+| 1001 | Wales | `uk/wales` | `c/uk/wales` |
+| 1002 | Wallonia | `be/wallonia` | `c/be/wallonia` |
+| 1003 | Warmian Masurian Voivodeship | `pl/warmian-masurian` | `c/pl/warmian-masurian` |
+| 1004 | Warsaw → poland | `warsaw` | `c/poland` |
+| 1005 | Washington | `us/washington` | `c/us/washington` |
+| 1006 | Washington D.C. | `us/washington-dc` | `c/us/washington-dc` |
+| 1007 | Washington, DC → us | `washington-dc-city` | `c/united-states` |
+| 1008 | Weimar Republic (1918–1933) → germany | `de-weimar` | `c/germany:1918` |
+| 1009 | West Flanders | `be/west-flanders` | `c/be/west-flanders` |
+| 1010 | West Germany (1949–1990) → germany | `de-west-germany` | `c/germany:1949` |
+| 1011 | West Java | `id/west-java` | `c/id/west-java` |
+| 1012 | West Kalimantan | `id/west-kalimantan` | `c/id/west-kalimantan` |
+| 1013 | West Nusa Tenggara | `id/west-nusa-tenggara` | `c/id/west-nusa-tenggara` |
+| 1014 | West Pomeranian Voivodeship | `pl/west-pomeranian` | `c/pl/west-pomeranian` |
+| 1015 | West Sulawesi | `id/west-sulawesi` | `c/id/west-sulawesi` |
+| 1016 | West Sumatra | `id/west-sumatra` | `c/id/west-sumatra` |
+| 1017 | West Virginia | `us/west-virginia` | `c/us/west-virginia` |
+| 1018 | Western Australia | `au/western-australia` | `c/au/western-australia` |
+| 1019 | Western Greece | `gr/western-greece` | `c/gr/western-greece` |
+| 1020 | Wisconsin | `us/wisconsin` | `c/us/wisconsin` |
+| 1021 | Wyoming | `us/wyoming` | `c/us/wyoming` |
+| 1022 | Yamagata Prefecture | `jp/yamagata` | `c/jp/yamagata` |
+| 1023 | Yamaguchi Prefecture | `jp/yamaguchi` | `c/jp/yamaguchi` |
+| 1024 | Yamalo Nenets | `ru/yamalo-nenets` | `c/ru/yamalo-nenets` |
+| 1025 | Yamanashi Prefecture | `jp/yamanashi` | `c/jp/yamanashi` |
+| 1026 | Yaracuy | `ve/yaracuy` | `c/ve/yaracuy` |
+| 1027 | Yaroslavl Oblast | `ru/yaroslavl-oblast` | `c/ru/yaroslavl-oblast` |
+| 1028 | Yemen | `yemen` | `c/yemen` |
+| 1029 | Yerevan → armenia | `yerevan` | `c/armenia` |
+| 1030 | Yucatán | `mx/yuc` | `c/mx/yuc` |
+| 1031 | Yukon | `ca/yukon` | `c/ca/yukon` |
+| 1032 | Zabaykalsky Krai | `ru/zabaykalsky-krai` | `c/ru/zabaykalsky-krai` |
+| 1033 | Zacatecas | `mx/zac` | `c/mx/zac` |
+| 1034 | Zagreb → croatia | `zagreb` | `c/croatia` |
+| 1035 | Zakarpattia | `ua/zakarpattia` | `c/ua/zakarpattia` |
+| 1036 | Zambia | `zambia` | `c/zambia` |
+| 1037 | Zand Dynasty (1751–1794) → iran | `zand` | `c/iran:1751` |
+| 1038 | Zaporizhzhia | `ua/zaporizhzhia` | `c/ua/zaporizhzhia` |
+| 1039 | Zeeland | `nl/zeeland` | `c/nl/zeeland` |
+| 1040 | Zhytomyr | `ua/zhytomyr` | `c/ua/zhytomyr` |
+| 1041 | Zimbabwe | `zimbabwe` | `c/zimbabwe` |
 
 ## International Organizations (11)
 
@@ -1142,10 +1146,9 @@
 | 29 | Red Ensign | `red-ensign` | `m/red-ensign` |
 | 30 | White Ensign | `white-ensign` | `m/white-ensign` |
 
-## Other (2)
+## Other (1)
 
 | # | Flag | ID | Index |
 |---|------|----|-------|
 | 1 | Buenos Aires City Cabo | `buenos-aires-city-cabo` | `o/buenos-aires-city-cabo` |
-| 2 | UK | `uk` | `` |
 

@@ -398,7 +398,9 @@ function drawMarkers(){
   gMarkers.node().__hidden=hidden;
 }
 
-function lk(d){const a=N2A[String(d.id)];return a?I2C[a]:null}
+/* Name-based fallback for disputed/partially-recognized states without ISO numeric (Somaliland, Kosovo, N. Cyprus, etc.) */
+const NAME2C={'Somaliland':'somaliland','Kosovo':'kosovo','N. Cyprus':'n-cyprus'};
+function lk(d){const a=N2A[String(d.id)];if(a&&I2C[a])return I2C[a];const nm=d.properties&&d.properties.name;if(nm&&NAME2C[nm])return MD[NAME2C[nm]];return null}
 function flagAt(c,y){
   if(y>=2025)return c.flags.find(f=>f.is_current)||c.flags.find(f=>!f.year_start&&!f.is_sub)||c.flags[0];
   const ac=c.flags.filter(f=>!f.is_sub&&f.year_start&&y>=f.year_start&&y<=(f.year_end||(f.year_start+50)));

@@ -935,20 +935,17 @@ function generateFlagIndex() {
     { title: 'Other', ids: navTiers.other },
   ];
   let orderedItems = '';
-  let ordNum = 0;
   for (const sec of tierSections) {
     if (!sec.ids.length) continue;
     orderedItems += `\n      <h3 class="tier-heading">${escHtml(sec.title)} <span class="tier-count">(${sec.ids.length})</span></h3>`;
+    orderedItems += `\n      <div class="flag-blocks">`;
     for (const fid of sec.ids) {
-      ordNum++;
       const fd = getFullFlagData(fid);
-      const indexTag = fd.index ? `<span class="index-tag">${escHtml(fd.index)}</span>` : '';
-      orderedItems += `\n      <div class="ordered-item">`
-        + `<span class="ordered-num">${ordNum}</span>`
-        + flagItem(fid, fd)
-        + indexTag
-        + `</div>`;
+      const name = fd._name || fid;
+      const flagPath = fd.flag ? '/' + fd.flag : ('/' + fid + '/flag.svg');
+      orderedItems += `<a href="/${fid}/" class="flag-block"><img src="${escHtml(flagPath)}" alt="${escHtml(name)}" loading="lazy"><span class="fb-name">${escHtml(name)}</span></a>`;
     }
+    orderedItems += `\n      </div>`;
   }
   const ordDir = path.join(baseDir, 'ordered');
   fs.mkdirSync(ordDir, { recursive: true });
@@ -965,7 +962,7 @@ function generateFlagIndex() {
   </div>
   <main class="container">
     <p style="margin:1rem 0"><a href="/flag-index/">&larr; Categories</a> &middot; <a href="/flag-index/all/">Alphabetical</a></p>
-    <div class="ordered-list">${orderedItems}
+    <div class="ordered-grid">${orderedItems}
     </div>
   </main>
   <script src="/app.js"><\/script>

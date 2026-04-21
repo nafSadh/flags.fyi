@@ -30,7 +30,11 @@ const centroidFills = {
   'comoros-mayotte': { iso: 'MYT', centroid: [-12.8, 45.2] },
   'grande-comore': { iso: 'COM', centroid: [-11.7, 43.3] },
   'libya-civil': { iso: 'LBY', centroid: [26.3, 17.2] },
-  'moheli': { iso: 'COM', centroid: [-12.3, 43.7] }
+  'moheli': { iso: 'COM', centroid: [-12.3, 43.7] },
+  'uk': { iso: 'GBR', centroid: [54.0, -2.0] },
+  'greenland': { iso: 'GRL', centroid: [71.7, -42.6] },
+  'somaliland': { iso: 'SOL', centroid: [9.5, 45.8] },
+  'n-cyprus': { iso: 'CYN', centroid: [35.3, 33.4] }
 };
 // Re-key prior by new id so lookups work
 const priorAliased = {};

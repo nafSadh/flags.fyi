@@ -3393,6 +3393,34 @@
     "id": "uae",
     "index": "c/united-arab-emirates"
   },
+  "uk": {
+    "g": "nf,europe",
+    "ns": "uk",
+    "name": "United Kingdom",
+    "id": "uk",
+    "index": "c/united-kingdom"
+  },
+  "greenland": {
+    "g": "nf,europe",
+    "ns": "greenland",
+    "name": "Greenland",
+    "id": "greenland",
+    "index": "c/greenland"
+  },
+  "somaliland": {
+    "g": "nf,africa,horn-of-africa",
+    "ns": "somaliland",
+    "name": "Somaliland",
+    "id": "somaliland",
+    "index": "c/somaliland"
+  },
+  "n-cyprus": {
+    "g": "nf,asia",
+    "ns": "n-cyprus",
+    "name": "Northern Cyprus",
+    "id": "n-cyprus",
+    "index": "c/northern-cyprus"
+  },
   "ukraine": {
     "g": "nf,europe",
     "ns": "ukraine",
@@ -5585,7 +5613,7 @@
     "name": "Belfast",
     "now": "uk",
     "id": "belfast",
-    "index": "c/uk"
+    "index": "c/united-kingdom"
   },
   "belgrade": {
     "g": "city",
@@ -5688,7 +5716,7 @@
     "name": "Edinburgh",
     "now": "uk",
     "id": "edinburgh",
-    "index": "c/uk"
+    "index": "c/united-kingdom"
   },
   "helsinki": {
     "g": "city",
@@ -5752,7 +5780,7 @@
     "name": "London",
     "now": "uk",
     "id": "london",
-    "index": "c/uk"
+    "index": "c/united-kingdom"
   },
   "los-angeles": {
     "g": "city",

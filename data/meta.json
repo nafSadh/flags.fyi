@@ -166,16 +166,11 @@
   },
   "minsk": {
     "prev": "belarus",
-    "next": "belfast",
-    "cat": "countries"
-  },
-  "belfast": {
-    "prev": "minsk",
     "next": "belgium",
     "cat": "countries"
   },
   "belgium": {
-    "prev": "belfast",
+    "prev": "minsk",
     "next": "belize",
     "cat": "countries"
   },
@@ -466,16 +461,11 @@
   },
   "ecuador": {
     "prev": "eagle-of-saladin",
-    "next": "edinburgh",
-    "cat": "countries"
-  },
-  "edinburgh": {
-    "prev": "ecuador",
     "next": "egypt",
     "cat": "countries"
   },
   "egypt": {
-    "prev": "edinburgh",
+    "prev": "ecuador",
     "next": "cairo",
     "cat": "countries"
   },
@@ -706,11 +696,16 @@
   },
   "gr-independence": {
     "prev": "gr-kingdom",
+    "next": "greenland",
+    "cat": "countries"
+  },
+  "greenland": {
+    "prev": "gr-independence",
     "next": "grenada",
     "cat": "countries"
   },
   "grenada": {
-    "prev": "gr-independence",
+    "prev": "greenland",
     "next": "guatemala",
     "cat": "countries"
   },
@@ -1221,16 +1216,11 @@
   },
   "lithuania-gd": {
     "prev": "vilnius",
-    "next": "london",
-    "cat": "countries"
-  },
-  "london": {
-    "prev": "lithuania-gd",
     "next": "luxembourg",
     "cat": "countries"
   },
   "luxembourg": {
-    "prev": "london",
+    "prev": "lithuania-gd",
     "next": "madagascar",
     "cat": "countries"
   },
@@ -1451,11 +1441,16 @@
   },
   "north-macedonia": {
     "prev": "kanem-bornu",
+    "next": "n-cyprus",
+    "cat": "countries"
+  },
+  "n-cyprus": {
+    "prev": "north-macedonia",
     "next": "norway",
     "cat": "countries"
   },
   "norway": {
-    "prev": "north-macedonia",
+    "prev": "n-cyprus",
     "next": "oslo",
     "cat": "countries"
   },
@@ -1741,11 +1736,16 @@
   },
   "british-somaliland": {
     "prev": "italian-somaliland",
+    "next": "somaliland",
+    "cat": "countries"
+  },
+  "somaliland": {
+    "prev": "british-somaliland",
     "next": "south-africa",
     "cat": "countries"
   },
   "south-africa": {
-    "prev": "british-somaliland",
+    "prev": "somaliland",
     "next": "za-prinsevlag",
     "cat": "countries"
   },
@@ -1981,11 +1981,31 @@
   },
   "uae": {
     "prev": "crimean-khanate",
+    "next": "uk",
+    "cat": "countries"
+  },
+  "uk": {
+    "prev": "uae",
+    "next": "belfast",
+    "cat": "countries"
+  },
+  "belfast": {
+    "prev": "uk",
+    "next": "edinburgh",
+    "cat": "countries"
+  },
+  "edinburgh": {
+    "prev": "belfast",
+    "next": "london",
+    "cat": "countries"
+  },
+  "london": {
+    "prev": "edinburgh",
     "next": "us",
     "cat": "countries"
   },
   "us": {
-    "prev": "uae",
+    "prev": "london",
     "next": "austin",
     "cat": "countries"
   },
