@@ -1836,6 +1836,22 @@
     "keywords": "duchy of milan flag of the duchy of milan historic empire europe gold white black blue"
   },
   {
+    "id": "parma",
+    "name": "Duchy of Parma",
+    "title": "Flag of the Duchy of Parma",
+    "groups": [
+      "historic",
+      "empire",
+      "europe"
+    ],
+    "colors": [
+      "yellow",
+      "blue"
+    ],
+    "flag": "/empires/parma.svg",
+    "keywords": "duchy of parma flag of the duchy of parma historic empire europe yellow blue"
+  },
+  {
     "id": "pl-duchy-warsaw",
     "name": "Duchy of Warsaw",
     "title": "Flag of the Duchy of Warsaw",
@@ -1993,6 +2009,23 @@
     ],
     "flag": "/el-salvador/flag.svg",
     "keywords": "el salvador flag of the republic of el salvador national-flag north-america blue white"
+  },
+  {
+    "id": "bukhara",
+    "name": "Emirate of Bukhara",
+    "title": "Flag of the Emirate of Bukhara",
+    "groups": [
+      "historic",
+      "empire",
+      "asia"
+    ],
+    "colors": [
+      "green",
+      "gold",
+      "orange"
+    ],
+    "flag": "/empires/bukhara.svg",
+    "keywords": "emirate of bukhara flag of the emirate of bukhara historic empire asia green gold orange"
   },
   {
     "id": "libya-cyrenaica",
@@ -2845,6 +2878,24 @@
     "keywords": "hungary flag of hungary europe red white green"
   },
   {
+    "id": "hyderabad",
+    "name": "Hyderabad State",
+    "title": "Asafia Flag of Hyderabad State",
+    "groups": [
+      "historic",
+      "empire",
+      "asia"
+    ],
+    "colors": [
+      "yellow",
+      "green",
+      "white",
+      "red"
+    ],
+    "flag": "/empires/hyderabad.svg",
+    "keywords": "hyderabad state asafia flag of hyderabad state historic empire asia yellow green white red"
+  },
+  {
     "id": "iceland",
     "name": "Iceland",
     "title": "Flag of Iceland",
@@ -3379,6 +3430,39 @@
     ],
     "flag": "/kenya-hist/ke-colonial.svg",
     "keywords": "kenya colony flag of the kenya colony historic colonial africa horn-of-africa blue red white"
+  },
+  {
+    "id": "khiva",
+    "name": "Khanate of Khiva",
+    "title": "Flag of the Khanate of Khiva",
+    "groups": [
+      "historic",
+      "empire",
+      "asia"
+    ],
+    "colors": [
+      "black",
+      "gold",
+      "turquoise"
+    ],
+    "flag": "/empires/khiva.svg",
+    "keywords": "khanate of khiva flag of the khanate of khiva historic empire asia black gold turquoise"
+  },
+  {
+    "id": "kokand",
+    "name": "Khanate of Kokand",
+    "title": "Flag of the Khanate of Kokand",
+    "groups": [
+      "historic",
+      "empire",
+      "asia"
+    ],
+    "colors": [
+      "green",
+      "yellow"
+    ],
+    "flag": "/empires/kokand.svg",
+    "keywords": "khanate of kokand flag of the khanate of kokand historic empire asia green yellow"
   },
   {
     "id": "khazar",
@@ -4129,6 +4213,23 @@
     "keywords": "maryland flag of maryland sub north-america black gold red white"
   },
   {
+    "id": "mataram",
+    "name": "Mataram Sultanate",
+    "title": "Flag of the Mataram Sultanate",
+    "groups": [
+      "historic",
+      "empire",
+      "asia"
+    ],
+    "colors": [
+      "red",
+      "white",
+      "blue"
+    ],
+    "flag": "/empires/mataram.svg",
+    "keywords": "mataram sultanate flag of the mataram sultanate historic empire asia red white blue"
+  },
+  {
     "id": "mauritania",
     "name": "Mauritania",
     "title": "Flag of the Islamic Republic of Mauritania",
@@ -4175,6 +4276,22 @@
     ],
     "flag": "/comoros/mayotte.svg",
     "keywords": "mayotte flag of mayotte — disputed comoros territory africa white"
+  },
+  {
+    "id": "merina",
+    "name": "Merina Kingdom",
+    "title": "Flag of the Merina Kingdom",
+    "groups": [
+      "historic",
+      "empire",
+      "africa"
+    ],
+    "colors": [
+      "white",
+      "red"
+    ],
+    "flag": "/empires/merina.svg",
+    "keywords": "merina kingdom flag of the merina kingdom historic empire africa white red"
   },
   {
     "id": "mx-empire",
@@ -6342,6 +6459,23 @@
     ],
     "flag": "/empires/sultanate-rum.svg",
     "keywords": "sultanate of rûm flag of the sultanate of rûm historic empire asia blue white black"
+  },
+  {
+    "id": "sulu",
+    "name": "Sultanate of Sulu",
+    "title": "Flag of the Sultanate of Sulu (late 19th century)",
+    "groups": [
+      "historic",
+      "empire",
+      "asia"
+    ],
+    "colors": [
+      "red",
+      "white",
+      "blue"
+    ],
+    "flag": "/empires/sulu.svg",
+    "keywords": "sultanate of sulu flag of the sultanate of sulu (late 19th century) historic empire asia red white blue"
   },
   {
     "id": "zanzibar-sultanate",

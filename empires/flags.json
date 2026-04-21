@@ -1219,5 +1219,171 @@
       "- The **Agojie** — popularly called \"Dahomey Amazons\" — numbered in the thousands and fought as royal bodyguards and line infantry\n",
       "- French conquest under General Dodds (1892–1894) dissolved the kingdom; the abomey palace is now a UNESCO World Heritage Site"
     ]
+  },
+  "bukhara": {
+    "title": "Flag of the Emirate of Bukhara",
+    "ratio": "1:2",
+    "colors": [
+      {"color": "green", "hex": "#239f40", "note": "Islamic green field."},
+      {"color": "gold", "hex": "#ffcc00", "note": "Crescent, star, hand, and calligraphy."},
+      {"color": "orange", "hex": "#e48b24", "note": "Ornate border."}
+    ],
+    "desc": [
+      "- The Emirate of Bukhara (1785–1920) was a Central Asian Uzbek state ruled by the Manghud dynasty from its capital at Bukhara, a centre of Sunni Islamic scholarship for a millennium\n",
+      "- **Construction:** a green swallowtail banner with gold crescent-and-star, a stylised **hamsa** (hand of Fatima), and Qur'anic calligraphy, bordered by a zigzag orange frame with pennants\n",
+      "- Became a Russian protectorate in 1868 and was finally absorbed into the Bukharan People's Soviet Republic in 1920"
+    ],
+    "flag": "empires/bukhara.svg",
+    "countryData": {"name": "Emirate of Bukhara", "officialName": "Amīrāt-i Bukhārā", "un": "none"},
+    "trivia": [
+      "- The Bukharan **madrasas** trained Islamic scholars from across the Muslim world for centuries\n",
+      "- Last emir Alim Khan fled to Afghanistan in 1920 after the Soviet seizure of Bukhara\n",
+      "- The historic centre of Bukhara is a UNESCO World Heritage Site"
+    ]
+  },
+  "khiva": {
+    "title": "Flag of the Khanate of Khiva",
+    "ratio": "1:2",
+    "colors": [
+      {"color": "black", "hex": "#000000", "note": "Sable field."},
+      {"color": "gold", "hex": "#fcd116", "note": "Crescent and star."},
+      {"color": "turquoise", "hex": "#2db5a6", "note": "Frame — Khwarezmian decorative tradition."}
+    ],
+    "desc": [
+      "- The Khanate of Khiva (1511–1920) was a Central Asian Uzbek state on the lower Amu Darya (Oxus), successor to the ancient Khwarezmian civilisation\n",
+      "- **Construction:** a black field bearing a gold crescent and five-pointed star, framed by a turquoise border — black being a rare heraldic field colour in Islamic states\n",
+      "- A Russian protectorate from 1873, dissolved with the founding of the Khorezm People's Soviet Republic in 1920"
+    ],
+    "flag": "empires/khiva.svg",
+    "countryData": {"name": "Khanate of Khiva", "officialName": "Xiva Xonligi", "un": "none"},
+    "trivia": [
+      "- Historically infamous among Russian explorers for its slave market of captured Persians and Russians\n",
+      "- The walled city of **Itchan Kala** (Khiva's inner town) is a preserved UNESCO site of 16th–19th-century Khanate architecture\n",
+      "- The Khanate's dynasty claimed descent from Genghis Khan's son Jochi"
+    ]
+  },
+  "kokand": {
+    "title": "Flag of the Khanate of Kokand",
+    "ratio": "2:3",
+    "colors": [
+      {"color": "green", "hex": "#73a142", "note": "Ferghana-valley green."},
+      {"color": "yellow", "hex": "#fff96c", "note": "Crescent and star."}
+    ],
+    "desc": [
+      "- The Khanate of Kokand (1709–1876) was the third Uzbek Central Asian state of the 18th–19th centuries, ruling the Ferghana Valley, parts of eastern Turkestan, and briefly southern Kazakhstan\n",
+      "- **Construction:** an olive-green field bearing a pale yellow **crescent** and five-pointed **star** — typical Islamic banner iconography\n",
+      "- Defeated and dissolved by Russia in 1876 after the Kokand Uprising; its territory became the Ferghana Oblast of the Russian Empire"
+    ],
+    "flag": "empires/kokand.svg",
+    "countryData": {"name": "Khanate of Kokand", "officialName": "Qo'qon Xonligi", "un": "none"},
+    "trivia": [
+      "- At its 19th-century peak, Kokand controlled much of modern Uzbekistan, Kyrgyzstan, southern Kazakhstan, and Tajikistan\n",
+      "- The Khanate's wealth came from Silk Road trade between China, India, Persia, and Russia\n",
+      "- Home of the **Khudoyar Khan Palace**, one of the last great Central Asian royal residences"
+    ]
+  },
+  "hyderabad": {
+    "title": "Asafia Flag of Hyderabad State",
+    "ratio": "2:3",
+    "colors": [
+      {"color": "yellow", "hex": "#fcd116", "note": "Field of the Asaf Jah dynasty."},
+      {"color": "green", "hex": "#236f4f", "note": "Horizontal stripes."},
+      {"color": "white", "hex": "#ffffff", "note": "Central disc."},
+      {"color": "red", "hex": "#c1272d", "note": "Kulah Asifi (dynastic cap emblem)."}
+    ],
+    "desc": [
+      "- Hyderabad State (1724–1948) was the largest and wealthiest princely state of British India, ruled by the **Asaf Jahi** Nizams\n",
+      "- **Construction:** a yellow field bearing the **Kulah Asifi** — the dynastic cap-shaped shield — in a central white disc, with Qur'anic calligraphy above (\"Al-'Aẓamatu li-Llāh\" — \"Majesty belongs to God\") and the invocation \"**Yā 'Uthmān**\" below, flanked by two green horizontal stripes\n",
+      "- Annexed to India in 1948 by the Indian Army's **Operation Polo** after the last Nizam refused accession"
+    ],
+    "flag": "empires/hyderabad.svg",
+    "countryData": {"name": "Hyderabad State", "officialName": "Riyasat-i Haidarābād", "un": "none"},
+    "trivia": [
+      "- The 7th Nizam, Osman Ali Khan, was at one point the world's richest person; his fortune came from Golconda diamonds and Hyderabadi taxes\n",
+      "- Capital Hyderabad was second only to Delhi in Mughal-era Indian urbanism\n",
+      "- The flag remained briefly in use for Hyderabad State within India until 1956 reorganisation"
+    ]
+  },
+  "merina": {
+    "title": "Flag of the Merina Kingdom",
+    "ratio": "2:3",
+    "colors": [
+      {"color": "white", "hex": "#ffffff", "note": "Upper band — **fotsy**, symbolising purity."},
+      {"color": "red", "hex": "#ef4135", "note": "Lower band — **mena**, the royal colour."}
+    ],
+    "desc": [
+      "- The Merina Kingdom (1540–1897) was the dominant Madagascar state that unified most of the island under a single monarchy, known as the Kingdom of Madagascar from 1817\n",
+      "- **Construction:** a simple horizontal bicolour — white over red — the historic banner of the Merina monarchs\n",
+      "- The modern Malagasy flag preserves the red and white (plus a green vertical stripe added at independence)"
+    ],
+    "flag": "empires/merina.svg",
+    "countryData": {"name": "Merina Kingdom", "officialName": "Kingdom of Madagascar", "un": "none"},
+    "trivia": [
+      "- Queen Ranavalona I's 33-year reign (1828–1861) saw the expulsion of missionaries and the suppression of Christianity\n",
+      "- Her grandson Radama II opened the kingdom again to Europeans; Queen Ranavalona III was deposed by the French in 1897\n",
+      "- The Merina aristocracy's **fanompoana** (royal corvée) and oligarchic structure survived colonialism as a political legacy in Madagascar"
+    ]
+  },
+  "sulu": {
+    "title": "Flag of the Sultanate of Sulu (late 19th century)",
+    "ratio": "1:2",
+    "colors": [
+      {"color": "red", "hex": "#c1272d", "note": "Field of the Tausūg sultans."},
+      {"color": "white", "hex": "#ffffff", "note": "Sulu royal mihrab emblem."},
+      {"color": "blue", "hex": "#21428f", "note": "Hoist stripe."}
+    ],
+    "desc": [
+      "- The Sultanate of Sulu (1457–1917) was a Muslim Tausūg state in today's southern Philippines, ruling the Sulu archipelago, parts of Mindanao, northern Borneo (Sabah), and Palawan at various times\n",
+      "- **Construction:** a red field bearing a stylised white **mihrab**-like arch with ornate foliate flourishes — the royal emblem — with a blue and white vertical stripe at the hoist\n",
+      "- The late-19th-century variant shown; earlier Sulu banners were plain red or red with different calligraphic devices"
+    ],
+    "flag": "empires/sulu.svg",
+    "countryData": {"name": "Sultanate of Sulu", "officialName": "Kasultanan sin Sūg", "un": "none"},
+    "trivia": [
+      "- The Sultan's descendants still maintain a ceremonial claim on Sabah, Malaysia — the 2013 \"Lahad Datu standoff\" was a violent flashpoint of this dispute\n",
+      "- Sulu's **Bajau** and **Tausūg** sailors connected the Spice Islands, Borneo, and the Philippines into a pre-colonial maritime network\n",
+      "- The Sultanate's sovereignty was dissolved by the US in 1915 (Carpenter Agreement); a symbolic sultan-in-exile tradition continues"
+    ]
+  },
+  "mataram": {
+    "title": "Flag of the Mataram Sultanate",
+    "ratio": "2:3",
+    "colors": [
+      {"color": "red", "hex": "#c1272d", "note": "Field of Javanese kingship."},
+      {"color": "white", "hex": "#ffffff", "note": "Crescent of Islam."},
+      {"color": "blue", "hex": "#1f4faa", "note": "Crossed krises."}
+    ],
+    "desc": [
+      "- The Mataram Sultanate (1586–1755) was the dominant Javanese Islamic state of the 17th century, covering most of Java from its court at Kotagede and later Kartasura\n",
+      "- **Construction:** a red field charged with a white **Islamic crescent** at the hoist and two crossed blue-and-white **krises** (wavy-bladed Javanese daggers) — the regalia of Javanese sultanship\n",
+      "- Fragmented in 1755 by the Treaty of Giyanti into the successor Sultanate of Yogyakarta and Sunanate of Surakarta, both of which survive today as ceremonial monarchies"
+    ],
+    "flag": "empires/mataram.svg",
+    "countryData": {"name": "Mataram Sultanate", "officialName": "Kasultanan Mataram", "un": "none"},
+    "trivia": [
+      "- Founded by Senopati ing Alaga, whose dynasty produced Sultan Agung (r. 1613–1645), the greatest Mataram ruler\n",
+      "- Sultan Agung's forces besieged Dutch Batavia twice in the 1620s; he reformed the Javanese calendar, fusing Hindu Saka with the Islamic Hijri\n",
+      "- The kris as a royal emblem predates Islam and continues as a Javanese cultural symbol"
+    ]
+  },
+  "parma": {
+    "title": "Flag of the Duchy of Parma",
+    "ratio": "2:3",
+    "colors": [
+      {"color": "yellow", "hex": "#ffcc00", "note": "Or field of the Farnese."},
+      {"color": "blue", "hex": "#21428f", "note": "Azure fleurs-de-lis."}
+    ],
+    "desc": [
+      "- The Duchy of Parma (1545–1859) was a small but important Italian state in the Po Valley, ruled successively by the Farnese, Bourbon-Parma, and Bonaparte-Parma (Marie Louise) dynasties\n",
+      "- **Construction:** a gold field sown with six azure **fleurs-de-lis**, arranged 3-2-1 — the arms of the Farnese dynasty, continued by the Bourbon-Parma as a cadet branch\n",
+      "- Merged into the United Provinces of Central Italy (1859) and then the Kingdom of Italy (1860)"
+    ],
+    "flag": "empires/parma.svg",
+    "countryData": {"name": "Duchy of Parma", "officialName": "Ducato di Parma e Piacenza", "un": "none"},
+    "trivia": [
+      "- Established by Pope Paul III for his son Pier Luigi Farnese in 1545, creating a Papal fief that outlasted the Papal States themselves\n",
+      "- Bourbon-Parma ruled until 1859; the modern deposed pretender head of house remains titular Duke\n",
+      "- Napoleon's second wife Marie Louise was made Duchess of Parma by the Congress of Vienna (1815–1847)"
+    ]
   }
 }

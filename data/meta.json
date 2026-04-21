@@ -661,11 +661,16 @@
   },
   "sikh-empire": {
     "prev": "british-raj",
+    "next": "hyderabad",
+    "cat": "countries"
+  },
+  "hyderabad": {
+    "prev": "sikh-empire",
     "next": "maratha",
     "cat": "countries"
   },
   "maratha": {
-    "prev": "sikh-empire",
+    "prev": "hyderabad",
     "next": "mughal",
     "cat": "countries"
   },
@@ -686,11 +691,16 @@
   },
   "id-dutch-east-indies": {
     "prev": "indonesia",
+    "next": "mataram",
+    "cat": "countries"
+  },
+  "mataram": {
+    "prev": "id-dutch-east-indies",
     "next": "majapahit",
     "cat": "countries"
   },
   "majapahit": {
-    "prev": "id-dutch-east-indies",
+    "prev": "mataram",
     "next": "iran",
     "cat": "countries"
   },
@@ -821,11 +831,16 @@
   },
   "it-kingdom": {
     "prev": "it-social-republic",
+    "next": "parma",
+    "cat": "countries"
+  },
+  "parma": {
+    "prev": "it-kingdom",
     "next": "milan",
     "cat": "countries"
   },
   "milan": {
-    "prev": "it-kingdom",
+    "prev": "parma",
     "next": "florence",
     "cat": "countries"
   },
@@ -1041,11 +1056,16 @@
   },
   "madagascar": {
     "prev": "luxembourg",
+    "next": "merina",
+    "cat": "countries"
+  },
+  "merina": {
+    "prev": "madagascar",
     "next": "malawi",
     "cat": "countries"
   },
   "malawi": {
-    "prev": "madagascar",
+    "prev": "merina",
     "next": "malaysia",
     "cat": "countries"
   },
@@ -1306,11 +1326,16 @@
   },
   "ph-katipunan": {
     "prev": "ph-revolutionary",
+    "next": "sulu",
+    "cat": "countries"
+  },
+  "sulu": {
+    "prev": "ph-katipunan",
     "next": "poland",
     "cat": "countries"
   },
   "poland": {
-    "prev": "ph-katipunan",
+    "prev": "sulu",
     "next": "pl-november-uprising",
     "cat": "countries"
   },
@@ -1741,11 +1766,26 @@
   },
   "uzbekistan": {
     "prev": "uruguay",
+    "next": "bukhara",
+    "cat": "countries"
+  },
+  "bukhara": {
+    "prev": "uzbekistan",
+    "next": "kokand",
+    "cat": "countries"
+  },
+  "kokand": {
+    "prev": "bukhara",
+    "next": "khiva",
+    "cat": "countries"
+  },
+  "khiva": {
+    "prev": "kokand",
     "next": "vanuatu",
     "cat": "countries"
   },
   "vanuatu": {
-    "prev": "uzbekistan",
+    "prev": "khiva",
     "next": "vatican-city",
     "cat": "countries"
   },

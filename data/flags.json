@@ -1560,6 +1560,78 @@
     "id": "dahomey",
     "index": "c/benin:1600"
   },
+  "bukhara": {
+    "g": "h,empire,asia",
+    "ns": "empires",
+    "name": "Emirate of Bukhara",
+    "now": "uzbekistan",
+    "years": "1785–1920",
+    "id": "bukhara",
+    "index": "c/uzbekistan:1785"
+  },
+  "khiva": {
+    "g": "h,empire,asia",
+    "ns": "empires",
+    "name": "Khanate of Khiva",
+    "now": "uzbekistan",
+    "years": "1511–1920",
+    "id": "khiva",
+    "index": "c/uzbekistan:1511"
+  },
+  "kokand": {
+    "g": "h,empire,asia",
+    "ns": "empires",
+    "name": "Khanate of Kokand",
+    "now": "uzbekistan",
+    "years": "1709–1876",
+    "id": "kokand",
+    "index": "c/uzbekistan:1709"
+  },
+  "hyderabad": {
+    "g": "h,empire,asia",
+    "ns": "empires",
+    "name": "Hyderabad State",
+    "now": "india",
+    "years": "1724–1948",
+    "id": "hyderabad",
+    "index": "c/india:1724"
+  },
+  "merina": {
+    "g": "h,empire,africa",
+    "ns": "empires",
+    "name": "Merina Kingdom",
+    "now": "madagascar",
+    "years": "1540–1897",
+    "id": "merina",
+    "index": "c/madagascar:1540"
+  },
+  "sulu": {
+    "g": "h,empire,asia",
+    "ns": "empires",
+    "name": "Sultanate of Sulu",
+    "now": "philippines",
+    "years": "1457–1917",
+    "id": "sulu",
+    "index": "c/philippines:1457"
+  },
+  "mataram": {
+    "g": "h,empire,asia",
+    "ns": "empires",
+    "name": "Mataram Sultanate",
+    "now": "indonesia",
+    "years": "1586–1755",
+    "id": "mataram",
+    "index": "c/indonesia:1586"
+  },
+  "parma": {
+    "g": "h,empire,europe",
+    "ns": "empires",
+    "name": "Duchy of Parma",
+    "now": "italy",
+    "years": "1545–1859",
+    "id": "parma",
+    "index": "c/italy:1545"
+  },
   "qajar": {
     "g": "h,asia",
     "ns": "persia",
