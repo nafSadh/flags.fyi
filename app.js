@@ -292,11 +292,14 @@
       if (navSearchInput.value.trim()) navDoSearch(navSearchInput.value.trim());
     });
     navSearchInput.addEventListener('input', function () {
-      navDoSearch(navSearchInput.value.trim());
+      var val = navSearchInput.value.trim();
+      navDoSearch(val);
+      navSearchInput.parentElement.classList.toggle('nav-search-has-value', !!val);
     });
     navSearchInput.addEventListener('keydown', function (e) {
       if (e.key === 'Escape') {
         navSearchInput.value = '';
+        navSearchInput.parentElement.classList.remove('nav-search-has-value');
         navSearchResults.classList.remove('visible');
         navSearchInput.blur();
         e.preventDefault();

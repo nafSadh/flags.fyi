@@ -620,7 +620,7 @@ function analyticsSnippet() {
 function navSearch() {
   return `<div class="nav-search">
     <svg class="nav-search-icon" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="5" stroke="currentColor" stroke-width="1.5" fill="none"/><path d="M11 11l3.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-    <input type="text" id="navSearch" class="nav-search-input" placeholder="Search flags\u2026" autocomplete="off" aria-label="Search flags">
+    <input type="text" id="navSearch" class="nav-search-input" placeholder="Search Flags.fyi" autocomplete="off" aria-label="Search Flags.fyi">
     <div class="nav-search-results" id="navSearchResults" role="listbox" aria-label="Search results"></div>
   </div>`;
 }
@@ -634,9 +634,9 @@ function navbar() {
   <ul>
     <li><a href="/" class="site-logo" aria-label="Flags.fyi home"><img src="/logo.svg" alt="">Flags.fyi</a></li>
   </ul>
-  ${navSearch()}
-  <ul>
+  <ul class="nav-right">
     <li class="desktop-only"><a href="/flag-index/">Index of Flags</a></li>
+    <li>${navSearch()}</li>
     <li>${themeToggleBtn()}</li>
     <li><button class="burger-btn" id="burgerBtn" aria-label="Menu" aria-expanded="false"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button></li>
   </ul>

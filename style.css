@@ -38,8 +38,8 @@
     --bg: #0e0f1e;
     --surface: #171934;
     --surface-hover: #1f2140;
-    --code-bg: #1a1d35;
-    --checker: #1a1d35;
+    --code-bg: #141629;
+    --checker: #242850;
     --border: #2a2d4a;
     --shadow: 0 2px 10px rgba(0,0,0,0.4);
   }
@@ -54,8 +54,8 @@
   --bg: #0e0f1e;
   --surface: #171934;
   --surface-hover: #1f2140;
-  --code-bg: #1a1d35;
-  --checker: #1a1d35;
+  --code-bg: #141629;
+  --checker: #242850;
   --border: #2a2d4a;
   --shadow: 0 2px 10px rgba(0,0,0,0.4);
 }
@@ -106,8 +106,8 @@ nav.site-nav {
   height: var(--navbar-h);
   display: flex; align-items: center; justify-content: space-between;
 }
-nav.site-nav ul { list-style: none; display: flex; gap: 1rem; align-items: center; }
-nav.site-nav ul li { min-width: 120px; display: flex; align-items: center; }
+nav.site-nav ul { list-style: none; display: flex; gap: 0.6rem; align-items: center; }
+nav.site-nav ul li { display: flex; align-items: center; }
 nav.site-nav a { text-decoration: none; color: rgba(255,255,255,0.85); }
 nav.site-nav a:hover { color: #fff; text-decoration: none; }
 .site-logo {
@@ -124,33 +124,46 @@ nav.site-nav a:hover { color: #fff; text-decoration: none; }
   text-align: center; flex: 1; padding: 0 1rem;
 }
 
-/* ─── Nav search (all pages) ──────────────────────────────────────── */
+/* ─── Nav search (collapses to icon; expands on hover/focus) ────────── */
 .nav-search {
-  position: relative; display: flex; align-items: center;
-  min-width: 160px; max-width: 260px; flex-shrink: 1;
+  position: relative;
+  width: 34px; height: 34px; flex-shrink: 0;
+  border-radius: 17px;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
+  transition: width 0.2s ease, background 0.15s ease, border-color 0.15s ease;
+  overflow: visible;
+}
+.nav-search:hover,
+.nav-search:focus-within,
+.nav-search.nav-search-has-value {
+  width: 220px;
+  background: rgba(255,255,255,0.18);
+  border-color: rgba(255,255,255,0.35);
 }
 .nav-search-icon {
-  position: absolute; left: 10px; top: 50%; transform: translateY(-50%);
-  color: rgba(255,255,255,0.6); pointer-events: none;
+  position: absolute; left: 9px; top: 50%; transform: translateY(-50%);
+  color: rgba(255,255,255,0.8); pointer-events: none; z-index: 1;
 }
 .nav-search-input {
-  width: 100%; padding: 0.35rem 0.75rem 0.35rem 2rem;
-  border-radius: 18px;
-  border: 1px solid rgba(255,255,255,0.25); background: rgba(255,255,255,0.12);
+  width: 100%; height: 100%;
+  padding: 0 12px 0 32px;
+  border-radius: 17px;
+  background: transparent; border: none; outline: none;
   color: #fff; font-size: 0.85rem; font-family: var(--font);
-  outline: none; transition: border-color 0.15s, background 0.15s, box-shadow 0.15s;
 }
-.nav-search-input::placeholder { color: rgba(255,255,255,0.6); }
-.nav-search-input:focus {
-  border-color: rgba(255,255,255,0.6); background: rgba(255,255,255,0.2);
-  box-shadow: 0 0 0 3px rgba(255,255,255,0.12);
+.nav-search-input::placeholder {
+  color: rgba(255,255,255,0.75);
+  opacity: 0; transition: opacity 0.15s ease 0.05s;
 }
-.nav-search-input:focus + .nav-search-icon { color: rgba(255,255,255,0.85); }
+.nav-search:hover .nav-search-input::placeholder,
+.nav-search:focus-within .nav-search-input::placeholder { opacity: 1; }
 .nav-search-results {
-  position: absolute; top: calc(100% + 6px); left: 0; right: 0;
-  background: var(--bg); color: var(--text);
+  position: absolute; top: calc(100% + 6px); right: 0;
+  width: 260px;
+  background: var(--surface); color: var(--text);
   border: 1px solid var(--border); border-radius: 10px;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.14);
+  box-shadow: var(--shadow);
   max-height: 60vh; overflow-y: auto;
   display: none; z-index: 300;
 }
@@ -176,11 +189,9 @@ nav.site-nav a:hover { color: #fff; text-decoration: none; }
 }
 .nav-search-more { border-top: 1px solid var(--border); }
 
-/* On flag pages, the nav-title competes for space — hide it when search has focus */
-body.flag-page .nav-title { flex: 1 1 auto; min-width: 0; }
+/* On narrow screens, hide the nav-title so search + controls fit */
 @media (max-width: 640px) {
   body.flag-page .nav-title { display: none; }
-  .nav-search { min-width: 0; flex: 1 1 auto; }
 }
 
 /* ─── Theme toggle button ──────────────────────────────────────────── */
@@ -190,9 +201,11 @@ body.flag-page .nav-title { flex: 1 1 auto; min-width: 0; }
   background: rgba(255,255,255,0.08); color: #fff;
   border: 1px solid rgba(255,255,255,0.15);
   cursor: pointer; padding: 0;
-  transition: background 0.15s, border-color 0.15s;
+  transition: background 0.15s, border-color 0.15s, transform 0.1s;
+  flex-shrink: 0;
 }
-.theme-toggle:hover { background: rgba(255,255,255,0.18); border-color: rgba(255,255,255,0.3); }
+.theme-toggle:hover { background: rgba(255,255,255,0.2); border-color: rgba(255,255,255,0.35); }
+.theme-toggle:active { transform: scale(0.92); }
 .theme-toggle svg { display: none; }
 /* default (no data-theme attr) = auto → show auto icon */
 html:not([data-theme]) .theme-icon-auto,
