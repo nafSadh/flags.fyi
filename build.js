@@ -2258,8 +2258,7 @@ function generateFlagPage(flagId) {
   <nav class="site-nav">
     <ul><li><a href="/" class="site-logo" aria-label="Flags.fyi home"><img src="/logo.svg" alt="">Flags.fyi</a></li></ul>
     <div class="nav-title">${escHtml(fd.title)}</div>
-    ${navSearch()}
-    <ul><li>${themeToggleBtn()}</li><li><button class="burger-btn" id="burgerBtn" aria-label="Menu" aria-expanded="false"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button></li></ul>
+    <ul class="nav-right"><li>${navSearch()}</li><li>${themeToggleBtn()}</li><li><button class="burger-btn" id="burgerBtn" aria-label="Menu" aria-expanded="false"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button></li></ul>
   </nav>
   <div class="mobile-drawer-overlay" id="mobileDrawerOverlay"></div>
   <div class="mobile-drawer" id="mobileDrawer" role="dialog" aria-label="Navigation menu">
