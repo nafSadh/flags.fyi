@@ -3080,7 +3080,8 @@
     "now": "iran",
     "years": "224–651",
     "id": "sassanid",
-    "index": "c/iran:224"
+    "index": "c/iran:224",
+    "disputed": true
   },
   "sassanid-alt": {
     "ns": "persia",
@@ -3090,7 +3091,8 @@
     "now": "iran",
     "years": "224–651",
     "id": "sassanid-alt",
-    "index": "c/iran:224"
+    "index": "c/iran:224",
+    "disputed": true
   },
   "saudi-arabia": {
     "g": "nf,as,arab,gulf",
@@ -3769,7 +3771,8 @@
     "now": "iran",
     "years": "550–330 BC",
     "id": "achaemenid",
-    "index": "c/iran:550"
+    "index": "c/iran:550",
+    "disputed": true
   },
   "kingdom-of-jerusalem": {
     "g": "h,empire,levant",
@@ -3805,7 +3808,8 @@
     "now": "turkey",
     "years": "1037–1194",
     "id": "seljuk",
-    "index": "c/turkey:1037"
+    "index": "c/turkey:1037",
+    "reconstructed": true
   },
   "safavid": {
     "g": "h,empire,asia",
@@ -3823,7 +3827,8 @@
     "now": "iran",
     "years": "247 BC–224 AD",
     "id": "parthian",
-    "index": "c/iran:247"
+    "index": "c/iran:247",
+    "reconstructed": true
   },
   "delhi-sultanate": {
     "g": "h,empire,asia",
@@ -3832,7 +3837,8 @@
     "now": "india",
     "years": "1206–1526",
     "id": "delhi-sultanate",
-    "index": "c/india:1206"
+    "index": "c/india:1206",
+    "disputed": true
   },
   "maratha": {
     "g": "h,empire,asia",
@@ -3851,7 +3857,8 @@
     "now": "mali",
     "years": "1230–1670",
     "id": "mali-empire",
-    "index": "c/mali:1230"
+    "index": "c/mali:1230",
+    "disputed": true
   },
   "teutonic": {
     "g": "h,empire,europe",
@@ -3894,7 +3901,8 @@
     "now": "indonesia",
     "years": "1293–1527",
     "id": "majapahit",
-    "index": "c/indonesia:1293"
+    "index": "c/indonesia:1293",
+    "reconstructed": true
   },
   "khazar": {
     "g": "h,empire,asia",
@@ -3902,7 +3910,8 @@
     "name": "Khazar Khaganate",
     "years": "650–969",
     "id": "khazar",
-    "index": "e/khazar-khaganate"
+    "index": "e/khazar-khaganate",
+    "reconstructed": true
   },
   "sokoto": {
     "g": "h,caliphate,africa",
@@ -3920,7 +3929,8 @@
     "now": "nigeria",
     "years": "700–1893",
     "id": "kanem-bornu",
-    "index": "c/nigeria:700"
+    "index": "c/nigeria:700",
+    "reconstructed": true
   },
   "gokturk": {
     "g": "h,empire,asia",
@@ -3928,7 +3938,8 @@
     "name": "Göktürk Khaganate",
     "years": "552–745",
     "id": "gokturk",
-    "index": "e/göktürk-khaganate"
+    "index": "e/göktürk-khaganate",
+    "reconstructed": true
   },
   "uyghur-khaganate": {
     "g": "h,empire,asia",
@@ -3936,7 +3947,8 @@
     "name": "Uyghur Khaganate",
     "years": "744–840",
     "id": "uyghur-khaganate",
-    "index": "e/uyghur-khaganate"
+    "index": "e/uyghur-khaganate",
+    "reconstructed": true
   },
   "aragon": {
     "g": "h,empire,europe",
@@ -4844,7 +4856,8 @@
     "now": "korea",
     "years": "1392–1897",
     "id": "kr-joseon",
-    "index": "c/korea:1392"
+    "index": "c/korea:1392",
+    "disputed": true
   },
   "kr-taegeukgi-1883": {
     "g": "h,fn,east-asia",

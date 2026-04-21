@@ -2096,9 +2096,32 @@ function generateFlagPage(flagId) {
 
   // Wikimedia Commons reference
   const commonsUrl = getCommonsUrl(flagId);
-  const commonsBtn = commonsUrl
-    ? `<a href="${escHtml(commonsUrl)}" class="ref-badge verified" title="Source: Wikimedia Commons" target="_blank" rel="noopener"><svg width="12" height="12" viewBox="0 0 16 16"><use href="#icon-verified"/></svg> verified</a>`
-    : `<span class="ref-badge unverified" title="Source not verified"><svg width="12" height="12" viewBox="0 0 16 16"><use href="#icon-unverified"/></svg> unverified</span>`;
+  // Provenance tiers:
+  //   reconstructed  — modern re-creation, no contemporary source
+  //   disputed       — attribution contested
+  //   verified       — official: national flag of a sovereign state (has commonsUrl)
+  //   wikimedia      — commonsUrl exists but not an official national flag
+  //   unverified     — no Commons source
+  const gTags = (fd.g || '').split(',').map(s => s.trim());
+  const isOfficial = gTags.includes('nf') && !fd.now; // current national flag
+  let commonsBtn;
+  if (fd.reconstructed) {
+    commonsBtn = commonsUrl
+      ? `<a href="${escHtml(commonsUrl)}" class="ref-badge reconstructed" title="Modern reconstruction — no contemporary flag of this design is historically attested. Click to view the source image on Wikimedia Commons." target="_blank" rel="noopener">reconstruction</a>`
+      : `<span class="ref-badge reconstructed" title="Modern reconstruction — no contemporary flag of this design is historically attested.">reconstruction</span>`;
+  } else if (fd.disputed) {
+    commonsBtn = commonsUrl
+      ? `<a href="${escHtml(commonsUrl)}" class="ref-badge disputed" title="Attribution is historically disputed — limited primary-source evidence. Click to view the source image on Wikimedia Commons." target="_blank" rel="noopener">approximation</a>`
+      : `<span class="ref-badge disputed" title="Attribution is historically disputed — limited primary-source evidence.">approximation</span>`;
+  } else if (commonsUrl && isOfficial) {
+    commonsBtn = `<a href="${escHtml(commonsUrl)}" class="ref-badge verified" title="Verified national flag — source on Wikimedia Commons" target="_blank" rel="noopener"><svg width="12" height="12" viewBox="0 0 16 16"><use href="#icon-verified"/></svg> verified</a>`;
+  } else if (commonsUrl) {
+    commonsBtn = `<a href="${escHtml(commonsUrl)}" class="ref-badge wikimedia" title="Source: Wikimedia Commons (not an authoritative/official flag)" target="_blank" rel="noopener">wikimedia</a>`;
+  } else {
+    // No Commons source — always cite Wikipedia as fallback attribution
+    commonsBtn = `<a href="${escHtml(wikiUrl)}" class="ref-badge unverified" title="No verified Commons source. Linking to Wikipedia for reference." target="_blank" rel="noopener"><svg width="12" height="12" viewBox="0 0 16 16"><use href="#icon-unverified"/></svg> wikipedia</a>`;
+  }
+  const provenanceBadge = '';
 
   // Year ribbon — for historical flags: "former" style; for current flags: "since YYYY" style
   let yearRibbonHtml = '';

@@ -448,6 +448,18 @@ body.flag-page { overflow: hidden; height: 100vh; }
   color: #2d6b00; background: #f0ffe0; border: 1px solid #d0f0b0;
 }
 .ref-badge.verified:hover { background: #e0ffd0; }
+.ref-badge.wikimedia {
+  color: #5000cc; background: #f3e5ff; border: 1px solid #e0ccff;
+}
+.ref-badge.wikimedia:hover { background: #e8d5ff; }
+.ref-badge.reconstructed {
+  color: #8a3a00; background: #fff0e0; border: 1px solid #f0cfa0;
+}
+.ref-badge.reconstructed:hover { background: #ffe8d0; }
+.ref-badge.disputed {
+  color: #7a6400; background: #fffde0; border: 1px solid #f0e8a0;
+}
+.ref-badge.disputed:hover { background: #fffae0; }
 .ref-badge.unverified {
   color: #7a6400; background: #fffde0; border: 1px solid #f0e8a0;
 }
