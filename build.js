@@ -717,7 +717,11 @@ function generateLanding() {
       <img src="/logo.svg" alt="Flagstaff" class="logo-img">
       <h1>Flags.fyi</h1>
       <p>by Flagstaff</p>
-      <a href="/flag-index/" class="btn">Index of Flags</a>
+      <div class="landing-btns">
+        <a href="/flag-index/" class="btn">Index of Flags</a>
+        <a href="/map/" class="btn">World Map</a>
+        <a href="/map/timeline.html" class="btn">Timeline</a>
+      </div>
     </div>
   </div>
   ${analyticsSnippet()}

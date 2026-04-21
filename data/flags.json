@@ -56,7 +56,7 @@
     "index": "c/uk/governor"
   },
   "anjouan": {
-    "g": "africa",
+    "g": "nf,africa",
     "ns": "comoros",
     "name": "Anjouan",
     "title": "Flag of Anjouan — Comoros Island",
@@ -66,7 +66,7 @@
   "antigua-and-barbuda": {
     "ns": "antigua-and-barbuda",
     "flag": "antigua-and-barbuda/flag.svg",
-    "g": "caribbean",
+    "g": "nf,caribbean",
     "id": "antigua-and-barbuda",
     "index": "c/antigua-and-barbuda"
   },
@@ -83,7 +83,7 @@
     "index": "c/iraq:1958"
   },
   "argentina": {
-    "g": "south-america",
+    "g": "nf,south-america",
     "ns": "argentina",
     "name": "Argentina",
     "id": "argentina",
@@ -244,14 +244,14 @@
     "index": "c/uk/island"
   },
   "australia": {
-    "g": "oceania",
+    "g": "nf,oceania",
     "ns": "australia",
     "name": "Australia",
     "id": "australia",
     "index": "c/australia"
   },
   "austria": {
-    "g": "europe",
+    "g": "nf,europe",
     "ns": "austria",
     "name": "Austria",
     "id": "austria",
@@ -324,13 +324,13 @@
     "index": "c/bangladesh"
   },
   "bangladesh-navy": {
-    "g": "south-asia",
+    "g": "nf,south-asia",
     "ns": "bangladesh",
     "id": "bangladesh-navy",
     "index": "c/bangladesh-navy"
   },
   "belgium": {
-    "g": "europe",
+    "g": "nf,europe",
     "ns": "belgium",
     "name": "Belgium",
     "id": "belgium",
@@ -392,7 +392,7 @@
     "index": "c/uk/bermuda"
   },
   "brazil": {
-    "g": "south-america",
+    "g": "nf,south-america",
     "ns": "brazil",
     "name": "Brazil",
     "id": "brazil",
@@ -618,7 +618,7 @@
     "index": "c/uk/virgin-islands"
   },
   "canada": {
-    "g": "north-america",
+    "g": "nf,north-america",
     "ns": "canada",
     "name": "Canada",
     "id": "canada",
@@ -636,7 +636,7 @@
     "index": "c/chad"
   },
   "chile": {
-    "g": "south-america",
+    "g": "nf,south-america",
     "ns": "chile",
     "name": "Chile",
     "id": "chile",
@@ -671,14 +671,14 @@
     "index": "c/cl/nuble"
   },
   "china": {
-    "g": "asia,east-asia",
+    "g": "nf,asia,east-asia",
     "ns": "china",
     "name": "China",
     "id": "china",
     "index": "c/china"
   },
   "colombia": {
-    "g": "south-america",
+    "g": "nf,south-america",
     "ns": "colombia",
     "name": "Colombia",
     "id": "colombia",
@@ -789,7 +789,7 @@
     "index": "c/comoros"
   },
   "comoros-mayotte": {
-    "g": "africa",
+    "g": "nf,africa",
     "ns": "comoros",
     "name": "Mayotte",
     "title": "Flag of Mayotte — Disputed Comoros Territory",
@@ -797,21 +797,21 @@
     "index": "c/mayotte"
   },
   "croatia": {
-    "g": "europe",
+    "g": "nf,europe",
     "ns": "croatia",
     "name": "Croatia",
     "id": "croatia",
     "index": "c/croatia"
   },
   "cuba": {
-    "g": "caribbean",
+    "g": "nf,caribbean",
     "ns": "cuba",
     "name": "Cuba",
     "id": "cuba",
     "index": "c/cuba"
   },
   "czech-republic": {
-    "g": "europe",
+    "g": "nf,europe",
     "ns": "czech-republic",
     "name": "Czech Republic",
     "id": "czech-republic",
@@ -874,7 +874,7 @@
     "index": "c/cz/south-moravia"
   },
   "denmark": {
-    "g": "europe,nordic",
+    "g": "nf,europe,nordic",
     "ns": "denmark",
     "name": "Denmark",
     "id": "denmark",
@@ -965,28 +965,28 @@
     "index": "c/egypt:1958"
   },
   "ethiopia": {
-    "g": "africa,horn-of-africa",
+    "g": "nf,africa,horn-of-africa",
     "ns": "ethiopia",
     "name": "Ethiopia",
     "id": "ethiopia",
     "index": "c/ethiopia"
   },
   "fiji": {
-    "g": "oceania",
+    "g": "nf,oceania",
     "ns": "fiji",
     "name": "Fiji",
     "id": "fiji",
     "index": "c/fiji"
   },
   "finland": {
-    "g": "europe,nordic",
+    "g": "nf,europe,nordic",
     "ns": "finland",
     "name": "Finland",
     "id": "finland",
     "index": "c/finland"
   },
   "france": {
-    "g": "europe",
+    "g": "nf,europe",
     "ns": "france",
     "name": "France",
     "id": "france",
@@ -1112,14 +1112,14 @@
     "index": "c/fr/pays-de-la-loire"
   },
   "germany": {
-    "g": "europe",
+    "g": "nf,europe",
     "ns": "germany",
     "name": "Germany",
     "id": "germany",
     "index": "c/germany"
   },
   "ghana": {
-    "g": "africa",
+    "g": "nf,africa",
     "ns": "ghana",
     "name": "Ghana",
     "id": "ghana",
@@ -1132,7 +1132,7 @@
     "index": "c/uk/gibraltar"
   },
   "grande-comore": {
-    "g": "africa",
+    "g": "nf,africa",
     "ns": "comoros",
     "name": "Grande Comore",
     "title": "Flag of Grande Comore — Comoros Island",
@@ -1140,7 +1140,7 @@
     "index": "c/grande-comore"
   },
   "greece": {
-    "g": "europe",
+    "g": "nf,europe",
     "ns": "greece",
     "name": "Greece",
     "id": "greece",
@@ -1167,7 +1167,7 @@
     "index": "c/uk/guernsey"
   },
   "hungary": {
-    "g": "europe",
+    "g": "nf,europe",
     "ns": "hungary",
     "name": "Hungary",
     "id": "hungary",
@@ -1195,14 +1195,14 @@
     "index": "c/hu/budapest"
   },
   "india": {
-    "g": "asia,south-asia",
+    "g": "nf,asia,south-asia",
     "ns": "india",
     "name": "India",
     "id": "india",
     "index": "c/india"
   },
   "indonesia": {
-    "g": "asia,southeast-asia",
+    "g": "nf,asia,southeast-asia",
     "ns": "indonesia",
     "name": "Indonesia",
     "id": "indonesia",
@@ -1412,7 +1412,7 @@
     "index": "c/id/west-sumatra"
   },
   "iran": {
-    "g": "asia",
+    "g": "nf,asia",
     "ns": "iran",
     "name": "Iran",
     "id": "iran",
@@ -1462,21 +1462,21 @@
     "index": "c/iraq:1958"
   },
   "ireland": {
-    "g": "europe",
+    "g": "nf,europe",
     "ns": "ireland",
     "name": "Ireland",
     "id": "ireland",
     "index": "c/ireland"
   },
   "israel": {
-    "g": "asia,levant",
+    "g": "nf,asia,levant",
     "ns": "israel",
     "name": "Israel",
     "id": "israel",
     "index": "c/israel"
   },
   "italy": {
-    "g": "europe",
+    "g": "nf,europe",
     "ns": "italy",
     "name": "Italy",
     "id": "italy",
@@ -1623,7 +1623,7 @@
     "index": "c/it/veneto"
   },
   "japan": {
-    "g": "asia,east-asia",
+    "g": "nf,asia,east-asia",
     "ns": "japan",
     "name": "Japan",
     "id": "japan",
@@ -1642,7 +1642,7 @@
     "index": "c/jordan"
   },
   "juneteenth": {
-    "g": "pan,north-america",
+    "g": "nf,pan,north-america",
     "ns": "juneteenth",
     "name": "Juneteenth",
     "title": "Juneteenth Flag — Emancipation Commemorative Flag",
@@ -1650,7 +1650,7 @@
     "index": "p/juneteenth"
   },
   "kenya": {
-    "g": "africa,horn-of-africa",
+    "g": "nf,africa,horn-of-africa",
     "ns": "kenya",
     "name": "Kenya",
     "id": "kenya",
@@ -1760,7 +1760,7 @@
     "index": "c/libya:1918"
   },
   "malaysia": {
-    "g": "asia,southeast-asia",
+    "g": "nf,asia,southeast-asia",
     "ns": "malaysia",
     "name": "Malaysia",
     "id": "malaysia",
@@ -1788,7 +1788,7 @@
     "index": "c/mauritania:1959"
   },
   "mexico": {
-    "g": "north-america",
+    "g": "nf,north-america",
     "ns": "mexico",
     "name": "Mexico",
     "id": "mexico",
@@ -2019,7 +2019,7 @@
     "index": "c/mx/zac"
   },
   "moheli": {
-    "g": "africa",
+    "g": "nf,africa",
     "ns": "comoros",
     "name": "Mohéli",
     "title": "Flag of Mohéli — Comoros Island",
@@ -2040,7 +2040,7 @@
     "index": "c/morocco"
   },
   "netherlands": {
-    "g": "europe",
+    "g": "nf,europe",
     "ns": "netherlands",
     "name": "Netherlands",
     "id": "netherlands",
@@ -2131,21 +2131,21 @@
     "index": "c/nl/zeeland"
   },
   "new-zealand": {
-    "g": "oceania",
+    "g": "nf,oceania",
     "ns": "new-zealand",
     "name": "New Zealand",
     "id": "new-zealand",
     "index": "c/new-zealand"
   },
   "nigeria": {
-    "g": "africa",
+    "g": "nf,africa",
     "ns": "nigeria",
     "name": "Nigeria",
     "id": "nigeria",
     "index": "c/nigeria"
   },
   "norway": {
-    "g": "europe,nordic",
+    "g": "nf,europe,nordic",
     "ns": "norway",
     "name": "Norway",
     "id": "norway",
@@ -2159,7 +2159,7 @@
     "index": "c/oman"
   },
   "pakistan": {
-    "g": "asia,south-asia",
+    "g": "nf,asia,south-asia",
     "ns": "pakistan",
     "name": "Pakistan",
     "id": "pakistan",
@@ -2173,7 +2173,7 @@
     "index": "c/palestine"
   },
   "peru": {
-    "g": "south-america",
+    "g": "nf,south-america",
     "ns": "peru",
     "name": "Peru",
     "id": "peru",
@@ -2334,7 +2334,7 @@
     "index": "c/pe/ucayali"
   },
   "philippines": {
-    "g": "asia,southeast-asia",
+    "g": "nf,asia,southeast-asia",
     "ns": "philippines",
     "name": "Philippines",
     "id": "philippines",
@@ -2362,7 +2362,7 @@
     "index": "c/uk/pitcairn"
   },
   "poland": {
-    "g": "europe",
+    "g": "nf,europe",
     "ns": "poland",
     "name": "Poland",
     "id": "poland",
@@ -2481,7 +2481,7 @@
     "index": "c/pl/west-pomeranian"
   },
   "portugal": {
-    "g": "europe",
+    "g": "nf,europe",
     "ns": "portugal",
     "name": "Portugal",
     "id": "portugal",
@@ -2509,7 +2509,7 @@
     "index": "c/qatar"
   },
   "romania": {
-    "g": "europe",
+    "g": "nf,europe",
     "ns": "romania",
     "name": "Romania",
     "id": "romania",
@@ -2530,7 +2530,7 @@
     "index": "c/ro/maramures"
   },
   "russia": {
-    "g": "europe",
+    "g": "nf,europe",
     "ns": "russia",
     "name": "Russia",
     "id": "russia",
@@ -3101,7 +3101,7 @@
     "index": "c/uk/sgssi"
   },
   "singapore": {
-    "g": "asia,southeast-asia",
+    "g": "nf,asia,southeast-asia",
     "ns": "singapore",
     "name": "Singapore",
     "id": "singapore",
@@ -3115,14 +3115,14 @@
     "index": "c/somalia"
   },
   "south-africa": {
-    "g": "africa",
+    "g": "nf,africa",
     "ns": "south-africa",
     "name": "South Africa",
     "id": "south-africa",
     "index": "c/south-africa"
   },
   "spain": {
-    "g": "europe",
+    "g": "nf,europe",
     "ns": "spain",
     "name": "Spain",
     "id": "spain",
@@ -3136,14 +3136,14 @@
     "index": "c/sudan"
   },
   "sweden": {
-    "g": "europe,nordic",
+    "g": "nf,europe,nordic",
     "ns": "sweden",
     "name": "Sweden",
     "id": "sweden",
     "index": "c/sweden"
   },
   "switzerland": {
-    "g": "europe",
+    "g": "nf,europe",
     "ns": "switzerland",
     "name": "Switzerland",
     "id": "switzerland",
@@ -3339,7 +3339,7 @@
     "index": "c/syria"
   },
   "tanzania": {
-    "g": "africa,horn-of-africa",
+    "g": "nf,africa,horn-of-africa",
     "ns": "tanzania",
     "name": "Tanzania",
     "id": "tanzania",
@@ -3353,7 +3353,7 @@
     "index": "c/uk/tci"
   },
   "thailand": {
-    "g": "asia,southeast-asia",
+    "g": "nf,asia,southeast-asia",
     "ns": "thailand",
     "name": "Thailand",
     "id": "thailand",
@@ -3374,7 +3374,7 @@
     "index": "c/tunisia"
   },
   "turkey": {
-    "g": "asia,europe",
+    "g": "nf,asia,europe",
     "ns": "turkey",
     "name": "Turkey",
     "id": "turkey",
@@ -3388,7 +3388,7 @@
     "index": "c/united-arab-emirates"
   },
   "ukraine": {
-    "g": "europe",
+    "g": "nf,europe",
     "ns": "ukraine",
     "name": "Ukraine",
     "id": "ukraine",
@@ -3571,7 +3571,7 @@
     "index": "c/united-states"
   },
   "vietnam": {
-    "g": "asia,southeast-asia",
+    "g": "nf,asia,southeast-asia",
     "ns": "vietnam",
     "name": "Vietnam",
     "id": "vietnam",
@@ -5353,28 +5353,28 @@
     "index": "i/gulf-cooperation-council"
   },
   "pan-african": {
-    "g": "pan,africa",
+    "g": "nf,pan,africa",
     "ns": "movements",
     "name": "Pan-African Flag",
     "id": "pan-african",
     "index": "p/pan-african-flag"
   },
   "pan-slavic": {
-    "g": "pan,europe",
+    "g": "nf,pan,europe",
     "ns": "movements",
     "name": "Pan-Slavic Flag",
     "id": "pan-slavic",
     "index": "p/pan-slavic-flag"
   },
   "amazigh": {
-    "g": "pan,maghreb",
+    "g": "nf,pan,maghreb",
     "ns": "movements",
     "name": "Amazigh (Berber) Flag",
     "id": "amazigh",
     "index": "p/amazigh-(berber)-flag"
   },
   "kurdish": {
-    "g": "pan,levant",
+    "g": "nf,pan,levant",
     "ns": "movements",
     "name": "Kurdish Flag",
     "id": "kurdish",
@@ -5388,14 +5388,14 @@
     "index": "p/romani-flag"
   },
   "tibetan": {
-    "g": "pan,asia",
+    "g": "nf,pan,asia",
     "ns": "movements",
     "name": "Tibetan Flag",
     "id": "tibetan",
     "index": "p/tibetan-flag"
   },
   "catalan": {
-    "g": "pan,europe",
+    "g": "nf,pan,europe",
     "ns": "movements",
     "name": "Catalan Senyera",
     "id": "catalan",
