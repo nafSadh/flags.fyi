@@ -579,5 +579,45 @@
       "- An early convert to Islam (c. 1085); Kanem became a major centre of Islamic scholarship in the Sahel\n",
       "- Final Shehu of Bornu defeated by the Sudanese warlord Rabih az-Zubayr in 1893; France absorbed the remnants into its empire"
     ]
+  },
+  "gokturk": {
+    "title": "Banner of the Göktürk Khaganate",
+    "ratio": "2:3",
+    "colors": [
+      {"color": "sky-blue", "hex": "#73bced", "note": "Kök — the eternal blue sky (Tengri)."},
+      {"color": "green", "hex": "#4e9a2e", "note": "The Ashina wolf."}
+    ],
+    "desc": [
+      "- The First Turkic (Göktürk) Khaganate (552–745) was the first Turkic state in history, stretching from Manchuria to the Caspian at its height\n",
+      "- **Construction:** a sky-blue field charged with a green wolf's head in profile — the **böri**, symbol of the founding Ashina clan said to descend from a she-wolf\n",
+      "- Reconstruction from the Turkish \"16 Great Turkic Empires\" series; earliest authentic Göktürk emblems appear on the Orkhon inscriptions, which used runic tamgas rather than pictorial banners"
+    ],
+    "flag": "empires/gokturk.svg",
+    "countryData": {"name": "Göktürk Khaganate", "officialName": "First Turkic Khaganate", "un": "none"},
+    "trivia": [
+      "- Founded by Bumin Qaghan in 552 after he defeated the Rouran\n",
+      "- Split into Eastern and Western Khaganates in 581; both were conquered by Tang China by 658\n",
+      "- The Orkhon inscriptions (732–735) are the oldest known texts in any Turkic language"
+    ]
+  },
+  "uyghur-khaganate": {
+    "title": "Banner of the Uyghur Khaganate",
+    "ratio": "2:3",
+    "colors": [
+      {"color": "yellow", "hex": "#fcd32a", "cmyk": "0/17/83/1", "note": "Manichaean and royal yellow."},
+      {"color": "black", "hex": "#000000", "note": "Lineart of the royal pair."}
+    ],
+    "desc": [
+      "- The Uyghur Khaganate (744–840) was a Turkic steppe empire based in Mongolia that overthrew the Second Turkic Khaganate and became a major Tang-era ally\n",
+      "- **Construction:** a yellow field bearing line-drawn royal portraits — a stylised depiction of the Khagan and Khatun derived from murals at Bezeklik and Khocho\n",
+      "- Reconstruction from the \"16 Great Turkic Empires\" series; historic Uyghur banners were likely plain field with tamgas, with iconography more common on ceremonial tents"
+    ],
+    "flag": "empires/uyghur-khaganate.svg",
+    "countryData": {"name": "Uyghur Khaganate", "officialName": "Uyghur Empire", "un": "none"},
+    "trivia": [
+      "- The Uyghur elite officially converted to Manichaeism in 762, making it the only Manichaean state in history\n",
+      "- Collapsed under pressure from Yenisei Kyrgyz attacks in 840; refugees established the Kocho and Ganzhou Uyghur kingdoms\n",
+      "- Modern Uyghurs trace their name and literary tradition to this period"
+    ]
   }
 }

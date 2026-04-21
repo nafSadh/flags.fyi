@@ -2368,6 +2368,22 @@
     "keywords": "gibraltar flag of gibraltar british-overseas blue red white"
   },
   {
+    "id": "gokturk",
+    "name": "Göktürk Khaganate",
+    "title": "Banner of the Göktürk Khaganate",
+    "groups": [
+      "historic",
+      "empire",
+      "asia"
+    ],
+    "colors": [
+      "sky-blue",
+      "green"
+    ],
+    "flag": "/empires/gokturk.svg",
+    "keywords": "göktürk khaganate banner of the göktürk khaganate historic empire asia sky-blue green"
+  },
+  {
     "id": "gh-gold-coast",
     "name": "Gold Coast Colony",
     "title": "Flag of the Gold Coast Colony",
@@ -6449,6 +6465,22 @@
     ],
     "flag": "/uruguay/flag.svg",
     "keywords": "uruguay flag of the oriental republic of uruguay national-flag south-america blue white yellow"
+  },
+  {
+    "id": "uyghur-khaganate",
+    "name": "Uyghur Khaganate",
+    "title": "Banner of the Uyghur Khaganate",
+    "groups": [
+      "historic",
+      "empire",
+      "asia"
+    ],
+    "colors": [
+      "yellow",
+      "black"
+    ],
+    "flag": "/empires/uyghur-khaganate.svg",
+    "keywords": "uyghur khaganate banner of the uyghur khaganate historic empire asia yellow black"
   },
   {
     "id": "uzbekistan",

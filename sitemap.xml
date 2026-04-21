@@ -1225,6 +1225,18 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://flags.fyi/gokturk/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://flags.fyi/uyghur-khaganate/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://flags.fyi/qajar/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>

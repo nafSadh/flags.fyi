@@ -1999,8 +1999,13 @@
     "next": "african-union",
     "cat": "intl"
   },
+  "gokturk": {
+    "prev": "uyghur-khaganate",
+    "next": "khazar",
+    "cat": "empires"
+  },
   "khazar": {
-    "prev": "smom",
+    "prev": "gokturk",
     "next": "templar",
     "cat": "empires"
   },
@@ -2011,7 +2016,12 @@
   },
   "smom": {
     "prev": "templar",
-    "next": "khazar",
+    "next": "uyghur-khaganate",
+    "cat": "empires"
+  },
+  "uyghur-khaganate": {
+    "prev": "smom",
+    "next": "gokturk",
     "cat": "empires"
   },
   "amazigh": {

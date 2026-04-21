@@ -1,6 +1,6 @@
 # flags.fyi — All Flags
 
-419 flags total.
+421 flags total.
 
 ## Countries (389)
 
@@ -412,13 +412,15 @@
 | 10 | Red Cross / Red Crescent | `red-cross` | `i/red-cross-/-red-crescent` |
 | 11 | United Nations | `united-nations` | `i/united-nations` |
 
-## Empires & Caliphates (3)
+## Empires & Caliphates (5)
 
 | # | Flag | ID | Index |
 |---|------|----|-------|
-| 1 | Khazar Khaganate (650–969) | `khazar` | `e/khazar-khaganate` |
-| 2 | Knights Templar (1119–1312) | `templar` | `e/knights-templar` |
-| 3 | Sovereign Military Order of Malta (1099–present) | `smom` | `e/sovereign-military-order-of-malta` |
+| 1 | Göktürk Khaganate (552–745) | `gokturk` | `e/göktürk-khaganate` |
+| 2 | Khazar Khaganate (650–969) | `khazar` | `e/khazar-khaganate` |
+| 3 | Knights Templar (1119–1312) | `templar` | `e/knights-templar` |
+| 4 | Sovereign Military Order of Malta (1099–present) | `smom` | `e/sovereign-military-order-of-malta` |
+| 5 | Uyghur Khaganate (744–840) | `uyghur-khaganate` | `e/uyghur-khaganate` |
 
 ## Pan-Movements (8)
 
