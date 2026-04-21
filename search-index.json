@@ -42,6 +42,18 @@
     "keywords": "aboriginal flag australian aboriginal flag sub oceania black red yellow"
   },
   {
+    "id": "it/abruzzo",
+    "name": "Abruzzo",
+    "title": "Flag of Abruzzo",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/italy-sub/abruzzo.svg",
+    "keywords": "abruzzo flag of abruzzo sub europe"
+  },
+  {
     "id": "achaemenid",
     "name": "Achaemenid Empire",
     "title": "Standard of the Achaemenid Empire",
@@ -529,6 +541,30 @@
     "keywords": "aomori prefecture flag of aomori prefecture sub asia"
   },
   {
+    "id": "it/aosta-valley",
+    "name": "Aosta Valley",
+    "title": "Flag of Aosta Valley",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/italy-sub/aosta-valley.svg",
+    "keywords": "aosta valley flag of aosta valley sub europe"
+  },
+  {
+    "id": "it/apulia",
+    "name": "Apulia (Puglia)",
+    "title": "Flag of Apulia (Puglia)",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/italy-sub/apulia.svg",
+    "keywords": "apulia (puglia) flag of apulia (puglia) sub europe"
+  },
+  {
     "id": "aq-qoyunlu",
     "name": "Aq Qoyunlu",
     "title": "Banner of Uzun Hasan (Aq Qoyunlu)",
@@ -995,6 +1031,18 @@
     ],
     "flag": "/barbados/flag.svg",
     "keywords": "barbados flag of barbados national-flag caribbean ultramarine gold black"
+  },
+  {
+    "id": "it/basilicata",
+    "name": "Basilicata",
+    "title": "Flag of Basilicata",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/italy-sub/basilicata.svg",
+    "keywords": "basilicata flag of basilicata sub europe"
   },
   {
     "id": "es/basque",
@@ -1520,6 +1568,18 @@
     "keywords": "cabo verde flag of the republic of cabo verde national-flag africa blue white red yellow"
   },
   {
+    "id": "it/calabria",
+    "name": "Calabria",
+    "title": "Flag of Calabria",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/italy-sub/calabria.svg",
+    "keywords": "calabria flag of calabria sub europe"
+  },
+  {
     "id": "in-calcutta-flag",
     "name": "Calcutta Flag",
     "title": "The Calcutta Flag (1906)",
@@ -1585,6 +1645,18 @@
     ],
     "flag": "/cameroon/flag.svg",
     "keywords": "cameroon flag of the republic of cameroon national-flag africa green red yellow"
+  },
+  {
+    "id": "it/campania",
+    "name": "Campania",
+    "title": "Flag of Campania",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/italy-sub/campania.svg",
+    "keywords": "campania flag of campania sub europe"
   },
   {
     "id": "mx/cam",
@@ -2851,6 +2923,18 @@
     "keywords": "el salvador flag of the republic of el salvador national-flag north-america blue white"
   },
   {
+    "id": "it/emilia-romagna",
+    "name": "Emilia-Romagna",
+    "title": "Flag of Emilia-Romagna",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/italy-sub/emilia-romagna.svg",
+    "keywords": "emilia-romagna flag of emilia-romagna sub europe"
+  },
+  {
     "id": "bukhara",
     "name": "Emirate of Bukhara",
     "title": "Flag of the Emirate of Bukhara",
@@ -3295,6 +3379,18 @@
     ],
     "flag": "/colonial/french-syria.svg",
     "keywords": "french mandate syria flag of the french mandate of syria historic colonial levant green white blue"
+  },
+  {
+    "id": "it/friuli-venezia-giulia",
+    "name": "Friuli-Venezia Giulia",
+    "title": "Flag of Friuli-Venezia Giulia",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/italy-sub/friuli-venezia-giulia.svg",
+    "keywords": "friuli-venezia giulia flag of friuli-venezia giulia sub europe"
   },
   {
     "id": "jp/fukui",
@@ -5162,6 +5258,18 @@
     "keywords": "latvia flag of the republic of latvia national-flag europe carmine red white"
   },
   {
+    "id": "it/lazio",
+    "name": "Lazio",
+    "title": "Flag of Lazio",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/italy-sub/lazio.svg",
+    "keywords": "lazio flag of lazio sub europe"
+  },
+  {
     "id": "lebanon",
     "name": "Lebanon",
     "title": "Flag of the Lebanese Republic",
@@ -5294,6 +5402,18 @@
     "keywords": "liechtenstein flag of the principality of liechtenstein national-flag europe blue red gold"
   },
   {
+    "id": "it/liguria",
+    "name": "Liguria",
+    "title": "Flag of Liguria",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/italy-sub/liguria.svg",
+    "keywords": "liguria flag of liguria sub europe"
+  },
+  {
     "id": "lithuania",
     "name": "Lithuania",
     "title": "Flag of the Republic of Lithuania",
@@ -5308,6 +5428,18 @@
     ],
     "flag": "/lithuania/flag.svg",
     "keywords": "lithuania flag of the republic of lithuania national-flag europe yellow green red"
+  },
+  {
+    "id": "it/lombardy",
+    "name": "Lombardy",
+    "title": "Flag of Lombardy",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/italy-sub/lombardy.svg",
+    "keywords": "lombardy flag of lombardy sub europe"
   },
   {
     "id": "us/louisiana",
@@ -5594,6 +5726,18 @@
     ],
     "flag": "/empires/maratha.svg",
     "keywords": "maratha empire bhagwa dhwaj of the maratha empire historic empire asia saffron"
+  },
+  {
+    "id": "it/marche",
+    "name": "Marche",
+    "title": "Flag of Marche",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/italy-sub/marche.svg",
+    "keywords": "marche flag of marche sub europe"
   },
   {
     "id": "marshall-islands",
@@ -5988,6 +6132,18 @@
     ],
     "flag": "/moldova/flag.svg",
     "keywords": "moldova flag of the republic of moldova national-flag europe blue yellow red brown"
+  },
+  {
+    "id": "it/molise",
+    "name": "Molise",
+    "title": "Flag of Molise",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/italy-sub/molise.svg",
+    "keywords": "molise flag of molise sub europe"
   },
   {
     "id": "monaco",
@@ -7215,6 +7371,18 @@
     "keywords": "piauí flag of piauí sub south-america"
   },
   {
+    "id": "it/piedmont",
+    "name": "Piedmont",
+    "title": "Flag of Piedmont",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/italy-sub/piedmont.svg",
+    "keywords": "piedmont flag of piedmont sub europe"
+  },
+  {
     "id": "pitcairn",
     "name": "Pitcairn Islands",
     "title": "Flag of Pitcairn, Henderson, Ducie and Oeno Islands",
@@ -8064,6 +8232,18 @@
     "keywords": "sao tome and principe flag of the democratic republic of são tomé and príncipe national-flag africa green yellow red black"
   },
   {
+    "id": "it/sardinia",
+    "name": "Sardinia",
+    "title": "Flag of Sardinia",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/italy-sub/sardinia.svg",
+    "keywords": "sardinia flag of sardinia sub europe"
+  },
+  {
     "id": "sark",
     "name": "Sark",
     "title": "Flag of Sark",
@@ -8317,6 +8497,18 @@
     ],
     "flag": "/thailand-hist/th-siam-elephant.svg",
     "keywords": "siam white elephant flag of siam (white elephant) historic former-flag southeast-asia red white"
+  },
+  {
+    "id": "it/sicily",
+    "name": "Sicily",
+    "title": "Flag of Sicily",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/italy-sub/sicily.svg",
+    "keywords": "sicily flag of sicily sub europe"
   },
   {
     "id": "sierra-leone",
@@ -9246,6 +9438,18 @@
     "keywords": "transgender pride flag transgender pride flag pride light blue pink white"
   },
   {
+    "id": "it/trentino-alto-adige",
+    "name": "Trentino-Alto Adige",
+    "title": "Flag of Trentino-Alto Adige",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/italy-sub/trentino-alto-adige.svg",
+    "keywords": "trentino-alto adige flag of trentino-alto adige sub europe"
+  },
+  {
     "id": "trinidad-and-tobago",
     "name": "Trinidad and Tobago",
     "title": "Flag of the Republic of Trinidad and Tobago",
@@ -9366,6 +9570,18 @@
     "keywords": "turks and caicos islands flag of turks and caicos islands british-overseas blue red white"
   },
   {
+    "id": "it/tuscany",
+    "name": "Tuscany",
+    "title": "Flag of Tuscany",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/italy-sub/tuscany.svg",
+    "keywords": "tuscany flag of tuscany sub europe"
+  },
+  {
     "id": "tuvalu",
     "name": "Tuvalu",
     "title": "Flag of Tuvalu",
@@ -9440,6 +9656,18 @@
     ],
     "flag": "/caliphates/umayyad.svg",
     "keywords": "umayyad caliphate flag of the umayyad caliphate historic caliphate white"
+  },
+  {
+    "id": "it/umbria",
+    "name": "Umbria",
+    "title": "Flag of Umbria",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/italy-sub/umbria.svg",
+    "keywords": "umbria flag of umbria sub europe"
   },
   {
     "id": "uae",
@@ -9653,6 +9881,18 @@
     ],
     "flag": "/vatican-city/flag.svg",
     "keywords": "vatican city flag of vatican city national-flag europe yellow white gold red"
+  },
+  {
+    "id": "it/veneto",
+    "name": "Veneto",
+    "title": "Flag of Veneto",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/italy-sub/veneto.svg",
+    "keywords": "veneto flag of veneto sub europe"
   },
   {
     "id": "venezuela",

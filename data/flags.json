@@ -690,6 +690,146 @@
     "id": "italy",
     "index": "c/italy"
   },
+  "it/abruzzo": {
+    "g": "sub,europe",
+    "ns": "italy-sub",
+    "name": "Abruzzo",
+    "id": "it/abruzzo",
+    "index": "c/it/abruzzo"
+  },
+  "it/aosta-valley": {
+    "g": "sub,europe",
+    "ns": "italy-sub",
+    "name": "Aosta Valley",
+    "id": "it/aosta-valley",
+    "index": "c/it/aosta-valley"
+  },
+  "it/apulia": {
+    "g": "sub,europe",
+    "ns": "italy-sub",
+    "name": "Apulia (Puglia)",
+    "id": "it/apulia",
+    "index": "c/it/apulia"
+  },
+  "it/basilicata": {
+    "g": "sub,europe",
+    "ns": "italy-sub",
+    "name": "Basilicata",
+    "id": "it/basilicata",
+    "index": "c/it/basilicata"
+  },
+  "it/calabria": {
+    "g": "sub,europe",
+    "ns": "italy-sub",
+    "name": "Calabria",
+    "id": "it/calabria",
+    "index": "c/it/calabria"
+  },
+  "it/campania": {
+    "g": "sub,europe",
+    "ns": "italy-sub",
+    "name": "Campania",
+    "id": "it/campania",
+    "index": "c/it/campania"
+  },
+  "it/emilia-romagna": {
+    "g": "sub,europe",
+    "ns": "italy-sub",
+    "name": "Emilia-Romagna",
+    "id": "it/emilia-romagna",
+    "index": "c/it/emilia-romagna"
+  },
+  "it/friuli-venezia-giulia": {
+    "g": "sub,europe",
+    "ns": "italy-sub",
+    "name": "Friuli-Venezia Giulia",
+    "id": "it/friuli-venezia-giulia",
+    "index": "c/it/friuli-venezia-giulia"
+  },
+  "it/lazio": {
+    "g": "sub,europe",
+    "ns": "italy-sub",
+    "name": "Lazio",
+    "id": "it/lazio",
+    "index": "c/it/lazio"
+  },
+  "it/liguria": {
+    "g": "sub,europe",
+    "ns": "italy-sub",
+    "name": "Liguria",
+    "id": "it/liguria",
+    "index": "c/it/liguria"
+  },
+  "it/lombardy": {
+    "g": "sub,europe",
+    "ns": "italy-sub",
+    "name": "Lombardy",
+    "id": "it/lombardy",
+    "index": "c/it/lombardy"
+  },
+  "it/marche": {
+    "g": "sub,europe",
+    "ns": "italy-sub",
+    "name": "Marche",
+    "id": "it/marche",
+    "index": "c/it/marche"
+  },
+  "it/molise": {
+    "g": "sub,europe",
+    "ns": "italy-sub",
+    "name": "Molise",
+    "id": "it/molise",
+    "index": "c/it/molise"
+  },
+  "it/piedmont": {
+    "g": "sub,europe",
+    "ns": "italy-sub",
+    "name": "Piedmont",
+    "id": "it/piedmont",
+    "index": "c/it/piedmont"
+  },
+  "it/sardinia": {
+    "g": "sub,europe",
+    "ns": "italy-sub",
+    "name": "Sardinia",
+    "id": "it/sardinia",
+    "index": "c/it/sardinia"
+  },
+  "it/sicily": {
+    "g": "sub,europe",
+    "ns": "italy-sub",
+    "name": "Sicily",
+    "id": "it/sicily",
+    "index": "c/it/sicily"
+  },
+  "it/trentino-alto-adige": {
+    "g": "sub,europe",
+    "ns": "italy-sub",
+    "name": "Trentino-Alto Adige",
+    "id": "it/trentino-alto-adige",
+    "index": "c/it/trentino-alto-adige"
+  },
+  "it/tuscany": {
+    "g": "sub,europe",
+    "ns": "italy-sub",
+    "name": "Tuscany",
+    "id": "it/tuscany",
+    "index": "c/it/tuscany"
+  },
+  "it/umbria": {
+    "g": "sub,europe",
+    "ns": "italy-sub",
+    "name": "Umbria",
+    "id": "it/umbria",
+    "index": "c/it/umbria"
+  },
+  "it/veneto": {
+    "g": "sub,europe",
+    "ns": "italy-sub",
+    "name": "Veneto",
+    "id": "it/veneto",
+    "index": "c/it/veneto"
+  },
   "japan": {
     "g": "asia,east-asia",
     "ns": "japan",

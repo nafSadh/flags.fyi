@@ -1846,11 +1846,16 @@
   },
   "au/aboriginal": {
     "prev": "mx/zac",
+    "next": "it/abruzzo",
+    "cat": "subdivisions"
+  },
+  "it/abruzzo": {
+    "prev": "au/aboriginal",
     "next": "br/ac",
     "cat": "subdivisions"
   },
   "br/ac": {
-    "prev": "au/aboriginal",
+    "prev": "it/abruzzo",
     "next": "mx/ags",
     "cat": "subdivisions"
   },
@@ -1921,11 +1926,21 @@
   },
   "jp/aomori": {
     "prev": "anguilla-governor",
+    "next": "it/aosta-valley",
+    "cat": "subdivisions"
+  },
+  "it/aosta-valley": {
+    "prev": "jp/aomori",
+    "next": "it/apulia",
+    "cat": "subdivisions"
+  },
+  "it/apulia": {
+    "prev": "it/aosta-valley",
     "next": "es/aragon",
     "cat": "subdivisions"
   },
   "es/aragon": {
-    "prev": "jp/aomori",
+    "prev": "it/apulia",
     "next": "us/arizona",
     "cat": "subdivisions"
   },
@@ -1981,11 +1996,16 @@
   },
   "es/balearic-islands": {
     "prev": "mx/bcs",
+    "next": "it/basilicata",
+    "cat": "subdivisions"
+  },
+  "it/basilicata": {
+    "prev": "es/balearic-islands",
     "next": "es/basque",
     "cat": "subdivisions"
   },
   "es/basque": {
-    "prev": "es/balearic-islands",
+    "prev": "it/basilicata",
     "next": "de/bavaria",
     "cat": "subdivisions"
   },
@@ -2041,16 +2061,26 @@
   },
   "british-virgin-islands": {
     "prev": "british-overseas-territories",
+    "next": "it/calabria",
+    "cat": "subdivisions"
+  },
+  "it/calabria": {
+    "prev": "british-virgin-islands",
     "next": "us/california",
     "cat": "subdivisions"
   },
   "us/california": {
-    "prev": "british-virgin-islands",
+    "prev": "it/calabria",
+    "next": "it/campania",
+    "cat": "subdivisions"
+  },
+  "it/campania": {
+    "prev": "us/california",
     "next": "mx/cam",
     "cat": "subdivisions"
   },
   "mx/cam": {
-    "prev": "us/california",
+    "prev": "it/campania",
     "next": "es/canary-islands",
     "cat": "subdivisions"
   },
@@ -2306,11 +2336,16 @@
   },
   "jp/ehime": {
     "prev": "mx/dgo",
+    "next": "it/emilia-romagna",
+    "cat": "subdivisions"
+  },
+  "it/emilia-romagna": {
+    "prev": "jp/ehime",
     "next": "uk/england",
     "cat": "subdivisions"
   },
   "uk/england": {
-    "prev": "jp/ehime",
+    "prev": "it/emilia-romagna",
     "next": "br/es",
     "cat": "subdivisions"
   },
@@ -2326,11 +2361,16 @@
   },
   "us/florida": {
     "prev": "es/extremadura",
+    "next": "it/friuli-venezia-giulia",
+    "cat": "subdivisions"
+  },
+  "it/friuli-venezia-giulia": {
+    "prev": "us/florida",
     "next": "jp/fukui",
     "cat": "subdivisions"
   },
   "jp/fukui": {
-    "prev": "us/florida",
+    "prev": "it/friuli-venezia-giulia",
     "next": "jp/fukuoka",
     "cat": "subdivisions"
   },
@@ -2546,11 +2586,26 @@
   },
   "in/ladakh": {
     "prev": "es/la-rioja",
+    "next": "it/lazio",
+    "cat": "subdivisions"
+  },
+  "it/lazio": {
+    "prev": "in/ladakh",
+    "next": "it/liguria",
+    "cat": "subdivisions"
+  },
+  "it/liguria": {
+    "prev": "it/lazio",
+    "next": "it/lombardy",
+    "cat": "subdivisions"
+  },
+  "it/lombardy": {
+    "prev": "it/liguria",
     "next": "us/louisiana",
     "cat": "subdivisions"
   },
   "us/louisiana": {
-    "prev": "in/ladakh",
+    "prev": "it/lombardy",
     "next": "de/lower-saxony",
     "cat": "subdivisions"
   },
@@ -2586,11 +2641,16 @@
   },
   "br/ma": {
     "prev": "mann",
+    "next": "it/marche",
+    "cat": "subdivisions"
+  },
+  "it/marche": {
+    "prev": "br/ma",
     "next": "us/maryland",
     "cat": "subdivisions"
   },
   "us/maryland": {
-    "prev": "br/ma",
+    "prev": "it/marche",
     "next": "us/massachusetts",
     "cat": "subdivisions"
   },
@@ -2666,11 +2726,16 @@
   },
   "jp/miyazaki": {
     "prev": "jp/miyagi",
+    "next": "it/molise",
+    "cat": "subdivisions"
+  },
+  "it/molise": {
+    "prev": "jp/miyazaki",
     "next": "us/montana",
     "cat": "subdivisions"
   },
   "us/montana": {
-    "prev": "jp/miyazaki",
+    "prev": "it/molise",
     "next": "montserrat",
     "cat": "subdivisions"
   },
@@ -2856,11 +2921,16 @@
   },
   "br/pi": {
     "prev": "br/pe",
+    "next": "it/piedmont",
+    "cat": "subdivisions"
+  },
+  "it/piedmont": {
+    "prev": "br/pi",
     "next": "pitcairn",
     "cat": "subdivisions"
   },
   "pitcairn": {
-    "prev": "br/pi",
+    "prev": "it/piedmont",
     "next": "de/prussia",
     "cat": "subdivisions"
   },
@@ -2976,11 +3046,16 @@
   },
   "br/sp": {
     "prev": "br/sc",
+    "next": "it/sardinia",
+    "cat": "subdivisions"
+  },
+  "it/sardinia": {
+    "prev": "br/sp",
     "next": "sark",
     "cat": "subdivisions"
   },
   "sark": {
-    "prev": "br/sp",
+    "prev": "it/sardinia",
     "next": "de/saxony",
     "cat": "subdivisions"
   },
@@ -3021,11 +3096,16 @@
   },
   "jp/shizuoka": {
     "prev": "jp/shimane",
+    "next": "it/sicily",
+    "cat": "subdivisions"
+  },
+  "it/sicily": {
+    "prev": "jp/shizuoka",
     "next": "in/sikkim",
     "cat": "subdivisions"
   },
   "in/sikkim": {
-    "prev": "jp/shizuoka",
+    "prev": "it/sicily",
     "next": "mx/sin",
     "cat": "subdivisions"
   },
@@ -3131,11 +3211,16 @@
   },
   "jp/toyama": {
     "prev": "jp/tottori",
+    "next": "it/trentino-alto-adige",
+    "cat": "subdivisions"
+  },
+  "it/trentino-alto-adige": {
+    "prev": "jp/toyama",
     "next": "in/tripura",
     "cat": "subdivisions"
   },
   "in/tripura": {
-    "prev": "jp/toyama",
+    "prev": "it/trentino-alto-adige",
     "next": "tristan",
     "cat": "subdivisions"
   },
@@ -3146,11 +3231,21 @@
   },
   "tci": {
     "prev": "tristan",
+    "next": "it/tuscany",
+    "cat": "subdivisions"
+  },
+  "it/tuscany": {
+    "prev": "tci",
+    "next": "it/umbria",
+    "cat": "subdivisions"
+  },
+  "it/umbria": {
+    "prev": "it/tuscany",
     "next": "us/utah",
     "cat": "subdivisions"
   },
   "us/utah": {
-    "prev": "tci",
+    "prev": "it/umbria",
     "next": "in/uttar-pradesh",
     "cat": "subdivisions"
   },
@@ -3166,11 +3261,16 @@
   },
   "es/valencia": {
     "prev": "in/uttarakhand",
+    "next": "it/veneto",
+    "cat": "subdivisions"
+  },
+  "it/veneto": {
+    "prev": "es/valencia",
     "next": "mx/ver",
     "cat": "subdivisions"
   },
   "mx/ver": {
-    "prev": "es/valencia",
+    "prev": "it/veneto",
     "next": "us/vermont",
     "cat": "subdivisions"
   },
