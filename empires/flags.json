@@ -238,5 +238,286 @@
       "- One of history's greatest trading powers"
     ],
     "article": "empires/venice.md"
+  },
+  "genoa": {
+    "title": "Flag of the Republic of Genoa",
+    "ratio": "2:1",
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#ffffff",
+        "cmyk": "0/0/0/0"
+      },
+      {
+        "color": "red",
+        "hex": "#be1622",
+        "cmyk": "0/100/90/10",
+        "note": "The Cross of Saint George; heraldic red of Genoa."
+      }
+    ],
+    "desc": [
+      "- The Republic of Genoa (1005–1797) flew a red St George's Cross on a white field, one of the earliest documented maritime ensigns in Europe\n",
+      "- **Construction:** a white field divided into four quadrants by a red Latin cross reaching all edges\n",
+      "- England is recorded as paying Genoa an annual tribute from 1190 onward to fly the same flag under the Republic's protection"
+    ],
+    "flag": "empires/genoa.svg",
+    "countryData": {
+      "name": "Republic of Genoa",
+      "officialName": "Most Serene Republic of Genoa",
+      "un": "none"
+    },
+    "trivia": [
+      "- Genoa was a dominant medieval maritime republic, rival to Venice, Pisa, and Amalfi\n",
+      "- The St George's Cross remained the flag of the city of Genoa after the Republic fell in 1797\n",
+      "- English ships are said to have adopted the cross because ports along the Mediterranean granted Genoese shipping special protection"
+    ]
+  },
+  "seljuk": {
+    "title": "Flag of the Great Seljuk Empire",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#0099cc",
+        "cmyk": "100/25/0/20",
+        "note": "Traditional Turkic sky-blue (kök)."
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "note": "The tamga of the Kınık Oğuz tribe — a black bow drawn with an arrow on its string — forms the emblem."
+      }
+    ],
+    "desc": [
+      "- The Great Seljuk Empire (1037–1194) was a Sunni Muslim Turco-Persian empire stretching from Central Asia to Anatolia\n",
+      "- **Construction:** a sky-blue field charged with the tamga of the Kınık tribe — a stylised bow drawn with an arrow on its string — from which the Seljuk dynasty claimed descent\n",
+      "- Note: no single canonical flag survives from the period; this depiction is a modern reconstruction from the Turkish \"16 Great Turkic Empires\" series, drawing on Seljuk coinage, tamgas, and seals"
+    ],
+    "flag": "empires/seljuk.svg",
+    "countryData": {
+      "name": "Seljuk Empire",
+      "officialName": "Great Seljuk Empire",
+      "un": "none"
+    },
+    "trivia": [
+      "- The Seljuks broke the Byzantine army at Manzikert in 1071, opening Anatolia to Turkic settlement\n",
+      "- The Kınık bow-and-arrow tamga was the clan mark of the Seljuk founders Tuğrul and Çağrı\n",
+      "- The empire fragmented into successor sultanates, including the Sultanate of Rum that preceded the Ottomans"
+    ]
+  },
+  "safavid": {
+    "title": "Flag of the Safavid Empire",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#239f40",
+        "cmyk": "78/0/59/38",
+        "note": "Islamic green; dynastic field of the Safavids."
+      },
+      {
+        "color": "gold",
+        "hex": "#ffd700",
+        "cmyk": "0/16/100/0",
+        "note": "The Sun and Lion emblem (Shir-o-Khorshid)."
+      }
+    ],
+    "desc": [
+      "- The Safavid Empire (1501–1736) established Twelver Shi'ism as Iran's state religion and flew a green banner bearing the Sun and Lion (Shir-o-Khorshid), a symbol that remained Persia's heraldic emblem into the 20th century\n",
+      "- **Construction:** a plain green field with a golden lion bearing a sun rising behind it; design varied by shah and era\n",
+      "- The emblem fused Zoroastrian solar symbolism with Islamic imagery"
+    ],
+    "flag": "empires/safavid.svg",
+    "countryData": {
+      "name": "Safavid Empire",
+      "officialName": "Guarded Domains of Iran",
+      "un": "none"
+    },
+    "trivia": [
+      "- Founded by Shah Ismail I at 14; his reign made Iran the only major Shi'a state in the Islamic world\n",
+      "- The capital was moved from Tabriz to Isfahan under Shah Abbas the Great, whose mosques and bazaars still define the city\n",
+      "- The Shir-o-Khorshid emblem was used by Iran until the 1979 revolution"
+    ]
+  },
+  "parthian": {
+    "title": "Banner of the Parthian Empire",
+    "ratio": "2:3",
+    "colors": [
+      {"color": "black", "hex": "#000000", "note": "Night sky associated with Mithra worship."},
+      {"color": "yellow", "hex": "#fdfe04", "cmyk": "0/0/100/0", "note": "Solar disc of Mithra."}
+    ],
+    "desc": [
+      "- The Parthian Empire (247 BC–224 AD) was a Iranian Arsacid state that rivalled Rome in the east; no authenticated flag survives\n",
+      "- **Construction:** modern reconstruction — a black field bearing a large golden sun disc with radiating flame-like rays, drawing on Parthian coinage and the imperial solar cult of Mithra\n",
+      "- The Parthians are better attested by the **Draco** — a wind-sock dragon standard — which later spread to Sasanian, Roman, and steppe armies"
+    ],
+    "flag": "empires/parthian.svg",
+    "countryData": {"name": "Parthian Empire", "officialName": "Arsacid Parthian Empire", "un": "none"},
+    "trivia": [
+      "- Parthian cataphracts and horse archers defeated Crassus at Carrhae in 53 BC, one of Rome's worst military disasters\n",
+      "- The Arsacid dynasty used the title 'Great King of Kings', inherited from the Achaemenids\n",
+      "- Parthian control of the Silk Road made them crucial middlemen between Rome and Han China"
+    ]
+  },
+  "delhi-sultanate": {
+    "title": "Flag of the Delhi Sultanate",
+    "ratio": "2:3",
+    "colors": [
+      {"color": "green", "hex": "#0c6d33", "cmyk": "89/0/53/57", "note": "Islamic green of the Sultanate."},
+      {"color": "black", "hex": "#000000", "note": "Off-centre black pale."}
+    ],
+    "desc": [
+      "- The Delhi Sultanate (1206–1526) was a succession of five Muslim dynasties — Mamluk, Khalji, Tughlaq, Sayyid, and Lodi — that ruled much of the Indian subcontinent before the Mughals\n",
+      "- **Construction:** a green field with an off-centre black vertical stripe; this is the depiction in the **Catalan Atlas (1375)** representing the \"lord of Delli\"\n",
+      "- Different dynasties within the Sultanate used different banners, including plain black (Mamluk) and green with Arabic inscription (later periods)"
+    ],
+    "flag": "empires/delhi-sultanate.svg",
+    "countryData": {"name": "Delhi Sultanate", "officialName": "Sultanate of Delhi", "un": "none"},
+    "trivia": [
+      "- At its height under the Tughlaqs, the Sultanate briefly controlled most of South Asia\n",
+      "- The Qutub Minar in Delhi was begun by Qutb ud-Din Aibak, founder of the first (Mamluk) dynasty\n",
+      "- The Sultanate collapsed when Babur won at Panipat in 1526, founding the Mughal Empire"
+    ]
+  },
+  "maratha": {
+    "title": "Bhagwa Dhwaj of the Maratha Empire",
+    "ratio": "15:7",
+    "colors": [
+      {"color": "saffron", "hex": "#ff9700", "cmyk": "0/41/100/0", "note": "Bhagwa — the Hindu sacred saffron."}
+    ],
+    "desc": [
+      "- The Maratha Empire (1674–1818) flew the **Bhagwa Dhwaj** (saffron banner), a swallowtail pennant long associated with Hindu kingship and Shivaji Maharaj's Hindavi Swarajya\n",
+      "- **Construction:** a plain saffron swallowtail flag — rectangular at the hoist tapering to two points at the fly\n",
+      "- The swallowtail form derives from the Hindu dhvaja tradition; variants with the Raja Mudra (Shivaji's royal seal) were also used"
+    ],
+    "flag": "empires/maratha.svg",
+    "countryData": {"name": "Maratha Empire", "officialName": "Maratha Confederacy", "un": "none"},
+    "trivia": [
+      "- Shivaji Maharaj was crowned Chhatrapati in 1674, formally founding the Maratha kingdom\n",
+      "- At its peak the Maratha Confederacy controlled most of the Indian subcontinent, reducing the Mughals to a nominal presence\n",
+      "- The British East India Company fought three Anglo-Maratha Wars (1775–1818) before finally breaking Maratha power"
+    ]
+  },
+  "mali-empire": {
+    "title": "Flag of the Mali Empire",
+    "ratio": "3:2",
+    "colors": [
+      {"color": "red", "hex": "#d7073a", "cmyk": "0/97/73/16", "note": "The red field as depicted in medieval Catalan atlases."},
+      {"color": "gold", "hex": "#ffcb00", "cmyk": "0/20/100/0", "note": "Inner gold cantle."}
+    ],
+    "desc": [
+      "- The Mali Empire (c. 1230–1670) was a West African trading empire renowned for its gold and the pilgrimage of Mansa Musa to Mecca in 1324\n",
+      "- **Construction:** a red field with a golden rectangular cantle at centre; reconstructed from the **Catalan Atlas (1375)**, which depicts Mansa Musa seated holding a golden orb beneath this banner\n",
+      "- Note: medieval West African polities did not use national flags in the modern sense; this is a modern vexillological reconstruction based on European cartographic sources"
+    ],
+    "flag": "empires/mali.svg",
+    "countryData": {"name": "Mali Empire", "officialName": "Mali Empire (Manden Kurufaba)", "un": "none"},
+    "trivia": [
+      "- Mansa Musa's Hajj of 1324 distributed so much gold through Cairo that it devalued the Egyptian dinar for a decade\n",
+      "- Timbuktu, under Malian rule, became one of the great centres of Islamic learning with the Sankore Madrasah\n",
+      "- The empire was absorbed by the rising Songhai Empire in the 15th century"
+    ]
+  },
+  "teutonic": {
+    "title": "Flag of the Teutonic Order",
+    "ratio": "3:4",
+    "colors": [
+      {"color": "white", "hex": "#ffffff", "note": "Field of the order's mantle."},
+      {"color": "black", "hex": "#000000", "note": "The order's cross and outline."}
+    ],
+    "desc": [
+      "- The Teutonic Order (1190–1525) was a German Catholic military order founded during the Third Crusade and later famous for its Baltic Crusades and the state it built in Prussia\n",
+      "- **Construction:** a white swallowtail banner bearing a plain black Latin cross — the order's insignia since its founding in Acre\n",
+      "- The order's black-cross-on-white symbol survives today in the Iron Cross (Prussian/German military decoration) and the Bundeswehr's flag"
+    ],
+    "flag": "empires/teutonic.svg",
+    "countryData": {"name": "Teutonic Order", "officialName": "Order of Brothers of the German House of Saint Mary in Jerusalem", "un": "none"},
+    "trivia": [
+      "- Founded as a hospital brotherhood in Acre in 1190, quickly became militarised\n",
+      "- The State of the Teutonic Order in Prussia (1230–1525) was defeated by Poland–Lithuania at Grunwald in 1410\n",
+      "- The order continues today as a Roman Catholic religious order in Vienna"
+    ]
+  },
+  "templar": {
+    "title": "Beauseant of the Knights Templar",
+    "ratio": "2:3",
+    "colors": [
+      {"color": "black", "hex": "#000000", "note": "The upper field — mercy to Christians."},
+      {"color": "white", "hex": "#ffffff", "note": "The lower field — purity."},
+      {"color": "red", "hex": "#cc0000", "note": "The cross pattée — martyrdom."}
+    ],
+    "desc": [
+      "- The Poor Knights of the Temple (1119–1312) were the first major Christian military order, founded to protect pilgrims to the Holy Land after the First Crusade\n",
+      "- **Construction:** the **Beauseant** — a bipartite banner with black above white — overlaid in some depictions with a red cross pattée\n",
+      "- The Beauseant was the Templars' war standard, reportedly carried into battle with strict rules: knights were forbidden from retreating while it still flew"
+    ],
+    "flag": "empires/templar.svg",
+    "countryData": {"name": "Knights Templar", "officialName": "Poor Fellow-Soldiers of Christ and of the Temple of Solomon", "un": "none"},
+    "trivia": [
+      "- The name 'Beauseant' comes from Old French, meaning 'piebald' or 'two-coloured'\n",
+      "- At their height the Templars ran a proto-banking network across Europe, pioneering letters of credit for pilgrims\n",
+      "- Suppressed in 1312 by Philip IV of France and Pope Clement V; Grand Master Jacques de Molay burned at the stake 1314"
+    ]
+  },
+  "smom": {
+    "title": "State Flag of the Sovereign Military Order of Malta",
+    "ratio": "2:3",
+    "colors": [
+      {"color": "red", "hex": "#da121a", "cmyk": "0/91/88/15", "note": "Of the order's Hospitaller origin."},
+      {"color": "white", "hex": "#ffffff", "note": "The Latin cross of the order."}
+    ],
+    "desc": [
+      "- The Sovereign Military Order of Malta (1099–present) is the surviving Catholic chivalric successor to the Knights Hospitaller; it is recognised as a sovereign subject of international law without territory\n",
+      "- **Construction:** a red field bearing a plain white Latin cross — the state flag used since the 1960s\n",
+      "- A separate **Order flag** showing the eight-pointed Maltese (Amalfi) Cross on red is used for religious functions"
+    ],
+    "flag": "empires/smom.svg",
+    "countryData": {"name": "Sovereign Military Order of Malta", "officialName": "Sovrano Militare Ordine di Malta", "un": "observer"},
+    "trivia": [
+      "- Founded c. 1099 as the Knights Hospitaller of Saint John of Jerusalem to care for pilgrims\n",
+      "- Ruled Rhodes (1310–1522) and Malta (1530–1798) before being expelled by Napoleon\n",
+      "- Today headquartered in Rome on extraterritorial property; issues its own passports, postage, and currency (maintaining diplomatic relations with 110+ states)"
+    ]
+  },
+  "lithuania-gd": {
+    "title": "Royal Banner of the Grand Duchy of Lithuania",
+    "ratio": "3:5",
+    "colors": [
+      {"color": "red", "hex": "#c8102e", "cmyk": "0/94/89/8", "note": "Field of the royal banner."},
+      {"color": "white", "hex": "#ffffff", "note": "The Vytis (mounted knight)."},
+      {"color": "yellow", "hex": "#ffd700", "note": "Accents on the knight's harness and sword."}
+    ],
+    "desc": [
+      "- The Grand Duchy of Lithuania (1236–1795) was one of medieval Europe's largest states, stretching from the Baltic to the Black Sea at its height\n",
+      "- **Construction:** a red swallowtail banner bearing the **Vytis** (\"Chase\") — a mounted armoured knight brandishing a sword, the heraldic emblem of the Lithuanian royal house since the 14th century\n",
+      "- The Vytis remains on the modern coat of arms of Lithuania"
+    ],
+    "flag": "empires/lithuania-gd.svg",
+    "countryData": {"name": "Grand Duchy of Lithuania", "officialName": "Magnus Ducatus Lithuaniae", "un": "none"},
+    "trivia": [
+      "- After personal union with Poland (Krewo, 1386) and formal union (Lublin, 1569), it formed the Polish–Lithuanian Commonwealth\n",
+      "- Grunwald (1410) saw joint Polish-Lithuanian forces crush the Teutonic Order, reshaping Central Europe\n",
+      "- Lithuania was the last pagan state in Europe; Grand Duke Jogaila converted as part of the Polish union"
+    ]
+  },
+  "majapahit": {
+    "title": "Naval Flag of the Majapahit Empire",
+    "ratio": "7:12",
+    "colors": [
+      {"color": "red", "hex": "#be0a1f", "cmyk": "0/95/84/25", "note": "Gula — the red half of \"Gula Klapa\" (sugar and coconut)."},
+      {"color": "white", "hex": "#ffffff", "note": "Klapa — the coconut meat."}
+    ],
+    "desc": [
+      "- The Majapahit Empire (1293–1527) was a Hindu-Buddhist thalassocracy based in East Java, whose influence extended across much of today's Indonesia, Malaysia, and the Philippines\n",
+      "- **Construction:** horizontal alternating red and white stripes — known as **Gula Klapa** (\"palm sugar and coconut\") — recorded as the naval banner of Majapahit fleets\n",
+      "- The same red-and-white dualism inspired the modern Indonesian and Monégasque national flags"
+    ],
+    "flag": "empires/majapahit.svg",
+    "countryData": {"name": "Majapahit Empire", "officialName": "Wilwatikta", "un": "none"},
+    "trivia": [
+      "- Prime Minister Gajah Mada swore the Palapa oath in 1336, vowing to unite the archipelago under Majapahit\n",
+      "- The empire's decline began after the death of Hayam Wuruk in 1389, worsened by the rise of Islamic sultanates\n",
+      "- Majapahit coins and terracotta have been found from the Philippines to Madagascar"
+    ]
   }
 }

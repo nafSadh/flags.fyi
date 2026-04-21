@@ -26,7 +26,7 @@
     "keywords": "abkhazia flag of abkhazia national-flag asia"
   },
   {
-    "id": "au-aboriginal",
+    "id": "au/aboriginal",
     "name": "Aboriginal Flag",
     "title": "Australian Aboriginal Flag",
     "groups": [
@@ -158,7 +158,7 @@
     "keywords": "african union flag of the african union intl africa green gold white"
   },
   {
-    "id": "us-alaska",
+    "id": "us/alaska",
     "name": "Alaska",
     "title": "Flag of Alaska",
     "groups": [
@@ -188,7 +188,7 @@
     "keywords": "albania flag of the republic of albania national-flag europe red black"
   },
   {
-    "id": "ca-alberta",
+    "id": "ca/alberta",
     "name": "Alberta",
     "title": "Flag of Alberta",
     "groups": [
@@ -279,7 +279,7 @@
     "keywords": "amazigh (berber) flag flag of the amazigh (berber) people pan maghreb blue green yellow red"
   },
   {
-    "id": "es-andalusia",
+    "id": "es/andalusia",
     "name": "Andalusia",
     "title": "Flag of Andalusia",
     "groups": [
@@ -484,7 +484,7 @@
     "keywords": "argentine sun of may flag of argentina with sun of may historic former-flag south-america celeste white gold"
   },
   {
-    "id": "us-arizona",
+    "id": "us/arizona",
     "name": "Arizona",
     "title": "Flag of Arizona",
     "groups": [
@@ -704,7 +704,7 @@
     "keywords": "barbados flag of barbados national-flag caribbean ultramarine gold black"
   },
   {
-    "id": "es-basque",
+    "id": "es/basque",
     "name": "Basque Country (Ikurriña)",
     "title": "Ikurriña — Flag of the Basque Country",
     "groups": [
@@ -720,7 +720,7 @@
     "keywords": "basque country (ikurriña) ikurriña — flag of the basque country sub europe red white green"
   },
   {
-    "id": "de-bavaria",
+    "id": "de/bavaria",
     "name": "Bavaria",
     "title": "Flag of Bavaria",
     "groups": [
@@ -971,7 +971,7 @@
     "keywords": "british antarctic territory flag of british antarctic territory british-overseas"
   },
   {
-    "id": "ca-british-columbia",
+    "id": "ca/british-columbia",
     "name": "British Columbia",
     "title": "Flag of British Columbia",
     "groups": [
@@ -1207,7 +1207,7 @@
     "keywords": "calcutta flag the calcutta flag (1906) historic south-asia red green yellow"
   },
   {
-    "id": "us-california",
+    "id": "us/california",
     "name": "California",
     "title": "Flag of the State of California (Bear Flag)",
     "groups": [
@@ -1379,7 +1379,7 @@
     "keywords": "colombia flag of colombia south-america yellow blue red"
   },
   {
-    "id": "us-colorado",
+    "id": "us/colorado",
     "name": "Colorado",
     "title": "Flag of Colorado",
     "groups": [
@@ -1494,7 +1494,7 @@
     "keywords": "congo republic flag of the republic of the congo national-flag africa green yellow red"
   },
   {
-    "id": "uk-cornwall",
+    "id": "uk/cornwall",
     "name": "Cornwall (St Piran)",
     "title": "Flag of Cornwall (St Piran)",
     "groups": [
@@ -1620,6 +1620,22 @@
     ],
     "flag": "/czech-republic/flag.svg",
     "keywords": "czech republic flag of the czech republic europe white red blue"
+  },
+  {
+    "id": "delhi-sultanate",
+    "name": "Delhi Sultanate",
+    "title": "Flag of the Delhi Sultanate",
+    "groups": [
+      "historic",
+      "empire",
+      "asia"
+    ],
+    "colors": [
+      "green",
+      "black"
+    ],
+    "flag": "/empires/delhi-sultanate.svg",
+    "keywords": "delhi sultanate flag of the delhi sultanate historic empire asia green black"
   },
   {
     "id": "denmark",
@@ -1909,7 +1925,7 @@
     "keywords": "empire of vietnam flag of the empire of vietnam historic southeast-asia yellow red"
   },
   {
-    "id": "uk-england",
+    "id": "uk/england",
     "name": "England",
     "title": "Flag of England (St George's Cross)",
     "groups": [
@@ -2289,7 +2305,7 @@
     "keywords": "georgia flag of georgia national-flag asia white red"
   },
   {
-    "id": "us-georgia",
+    "id": "us/georgia",
     "name": "Georgia (US state)",
     "title": "Flag of Georgia (US state)",
     "groups": [
@@ -2367,6 +2383,23 @@
     ],
     "flag": "/ghana-hist/gh-gold-coast.svg",
     "keywords": "gold coast colony flag of the gold coast colony historic colonial africa blue red white"
+  },
+  {
+    "id": "lithuania-gd",
+    "name": "Grand Duchy of Lithuania",
+    "title": "Royal Banner of the Grand Duchy of Lithuania",
+    "groups": [
+      "historic",
+      "empire",
+      "europe"
+    ],
+    "colors": [
+      "red",
+      "white",
+      "yellow"
+    ],
+    "flag": "/empires/lithuania-gd.svg",
+    "keywords": "grand duchy of lithuania royal banner of the grand duchy of lithuania historic empire europe red white yellow"
   },
   {
     "id": "grande-comore",
@@ -2585,7 +2618,7 @@
     "keywords": "hashemite iraq hashemite kingdom of iraq historic black white green red"
   },
   {
-    "id": "us-hawaii",
+    "id": "us/hawaii",
     "name": "Hawaii",
     "title": "Flag of Hawaii",
     "groups": [
@@ -2984,7 +3017,7 @@
     "keywords": "jamaica flag of jamaica national-flag caribbean gold green black"
   },
   {
-    "id": "in-jammu-kashmir",
+    "id": "in/jammu-kashmir",
     "name": "Jammu & Kashmir",
     "title": "Flag of Jammu & Kashmir",
     "groups": [
@@ -3277,6 +3310,23 @@
     "keywords": "kiribati flag of the republic of kiribati national-flag oceania red blue white yellow"
   },
   {
+    "id": "templar",
+    "name": "Knights Templar",
+    "title": "Beauseant of the Knights Templar",
+    "groups": [
+      "historic",
+      "empire",
+      "europe"
+    ],
+    "colors": [
+      "black",
+      "white",
+      "red"
+    ],
+    "flag": "/empires/templar.svg",
+    "keywords": "knights templar beauseant of the knights templar historic empire europe black white red"
+  },
+  {
     "id": "korea",
     "name": "Korea",
     "title": "Flag of the Republic of Korea (South Korea)",
@@ -3563,6 +3613,22 @@
     "keywords": "madagascar flag of the republic of madagascar national-flag africa white red green"
   },
   {
+    "id": "majapahit",
+    "name": "Majapahit Empire",
+    "title": "Naval Flag of the Majapahit Empire",
+    "groups": [
+      "historic",
+      "empire",
+      "asia"
+    ],
+    "colors": [
+      "red",
+      "white"
+    ],
+    "flag": "/empires/majapahit.svg",
+    "keywords": "majapahit empire naval flag of the majapahit empire historic empire asia red white"
+  },
+  {
     "id": "malawi",
     "name": "Malawi",
     "title": "Flag of the Republic of Malawi",
@@ -3630,6 +3696,22 @@
     "keywords": "mali flag of the republic of mali national-flag africa green yellow red"
   },
   {
+    "id": "mali-empire",
+    "name": "Mali Empire",
+    "title": "Flag of the Mali Empire",
+    "groups": [
+      "historic",
+      "empire",
+      "africa"
+    ],
+    "colors": [
+      "red",
+      "gold"
+    ],
+    "flag": "/empires/mali.svg",
+    "keywords": "mali empire flag of the mali empire historic empire africa red gold"
+  },
+  {
     "id": "malta",
     "name": "Malta",
     "title": "Flag of the Republic of Malta",
@@ -3686,6 +3768,21 @@
     "keywords": "mann (isle of man) flag of the isle of man british-overseas"
   },
   {
+    "id": "maratha",
+    "name": "Maratha Empire",
+    "title": "Bhagwa Dhwaj of the Maratha Empire",
+    "groups": [
+      "historic",
+      "empire",
+      "asia"
+    ],
+    "colors": [
+      "saffron"
+    ],
+    "flag": "/empires/maratha.svg",
+    "keywords": "maratha empire bhagwa dhwaj of the maratha empire historic empire asia saffron"
+  },
+  {
     "id": "marshall-islands",
     "name": "Marshall Islands",
     "title": "Flag of the Republic of the Marshall Islands",
@@ -3702,7 +3799,7 @@
     "keywords": "marshall islands flag of the republic of the marshall islands national-flag oceania blue white orange"
   },
   {
-    "id": "us-maryland",
+    "id": "us/maryland",
     "name": "Maryland",
     "title": "Flag of Maryland",
     "groups": [
@@ -3831,7 +3928,7 @@
     "keywords": "micronesia flag of the federated states of micronesia national-flag oceania blue white"
   },
   {
-    "id": "us-mississippi",
+    "id": "us/mississippi",
     "name": "Mississippi",
     "title": "Flag of Mississippi (In God We Trust)",
     "groups": [
@@ -4149,7 +4246,7 @@
     "keywords": "netherlands flag of the netherlands europe red white blue"
   },
   {
-    "id": "us-new-mexico",
+    "id": "us/new-mexico",
     "name": "New Mexico",
     "title": "Flag of New Mexico",
     "groups": [
@@ -4164,7 +4261,7 @@
     "keywords": "new mexico flag of new mexico sub north-america red yellow"
   },
   {
-    "id": "au-new-south-wales",
+    "id": "au/new-south-wales",
     "name": "New South Wales",
     "title": "Flag of New South Wales",
     "groups": [
@@ -4180,7 +4277,7 @@
     "keywords": "new south wales flag of new south wales sub oceania blue red white"
   },
   {
-    "id": "us-new-york",
+    "id": "us/new-york",
     "name": "New York",
     "title": "Flag of New York",
     "groups": [
@@ -4290,7 +4387,7 @@
     "keywords": "north yemen (yar) flag of the yemen arab republic historic former-flag arab red white black green"
   },
   {
-    "id": "uk-northern-ireland",
+    "id": "uk/northern-ireland",
     "name": "Northern Ireland (Ulster Banner)",
     "title": "Ulster Banner",
     "groups": [
@@ -4322,7 +4419,7 @@
     "keywords": "norway flag of norway europe nordic red blue white"
   },
   {
-    "id": "us-ohio",
+    "id": "us/ohio",
     "name": "Ohio",
     "title": "Flag of Ohio (Burgee)",
     "groups": [
@@ -4374,7 +4471,7 @@
     "keywords": "oman flag of the sultanate of oman national-flag asia arab gulf white red green"
   },
   {
-    "id": "ca-ontario",
+    "id": "ca/ontario",
     "name": "Ontario",
     "title": "Flag of Ontario",
     "groups": [
@@ -4617,6 +4714,22 @@
     "keywords": "paraguay flag of the republic of paraguay national-flag south-america red white blue"
   },
   {
+    "id": "parthian",
+    "name": "Parthian Empire",
+    "title": "Banner of the Parthian Empire",
+    "groups": [
+      "historic",
+      "empire",
+      "asia"
+    ],
+    "colors": [
+      "black",
+      "yellow"
+    ],
+    "flag": "/empires/parthian.svg",
+    "keywords": "parthian empire banner of the parthian empire historic empire asia black yellow"
+  },
+  {
     "id": "peru",
     "name": "Peru",
     "title": "Flag of Peru",
@@ -4743,7 +4856,7 @@
     "keywords": "progress pride flag progress pride flag pride red white pink light blue brown black"
   },
   {
-    "id": "de-prussia",
+    "id": "de/prussia",
     "name": "Prussia",
     "title": "Flag of the Kingdom of Prussia",
     "groups": [
@@ -4759,7 +4872,7 @@
     "keywords": "prussia flag of the kingdom of prussia sub europe historic black white"
   },
   {
-    "id": "us-puerto-rico",
+    "id": "us/puerto-rico",
     "name": "Puerto Rico",
     "title": "Flag of Puerto Rico",
     "groups": [
@@ -4823,7 +4936,7 @@
     "keywords": "qing dynasty (dragon flag) dragon flag of the qing dynasty historic east-asia yellow blue"
   },
   {
-    "id": "ca-quebec",
+    "id": "ca/quebec",
     "name": "Quebec",
     "title": "Flag of Quebec (Fleurdelisé)",
     "groups": [
@@ -4897,6 +5010,22 @@
     ],
     "flag": "/maritime/red-ensign.svg",
     "keywords": "red ensign red ensign of the british merchant navy maritime red blue white"
+  },
+  {
+    "id": "genoa",
+    "name": "Republic of Genoa",
+    "title": "Flag of the Republic of Genoa",
+    "groups": [
+      "historic",
+      "empire",
+      "europe"
+    ],
+    "colors": [
+      "white",
+      "red"
+    ],
+    "flag": "/empires/genoa.svg",
+    "keywords": "republic of genoa flag of the republic of genoa historic empire europe white red"
   },
   {
     "id": "hatay",
@@ -5021,6 +5150,22 @@
     ],
     "flag": "/rwanda/flag.svg",
     "keywords": "rwanda flag of the republic of rwanda national-flag africa blue yellow green yellow-sun"
+  },
+  {
+    "id": "safavid",
+    "name": "Safavid Empire",
+    "title": "Flag of the Safavid Empire",
+    "groups": [
+      "historic",
+      "empire",
+      "asia"
+    ],
+    "colors": [
+      "green",
+      "gold"
+    ],
+    "flag": "/empires/safavid.svg",
+    "keywords": "safavid empire flag of the safavid empire historic empire asia green gold"
   },
   {
     "id": "saint-helena",
@@ -5209,7 +5354,7 @@
     "keywords": "saudi arabia flag of saudi arabia national-flag asia arab gulf green white"
   },
   {
-    "id": "uk-scotland",
+    "id": "uk/scotland",
     "name": "Scotland (Saltire)",
     "title": "Flag of Scotland (St Andrew's Cross)",
     "groups": [
@@ -5239,6 +5384,22 @@
     ],
     "flag": "/spain-hist/es-republic.svg",
     "keywords": "second spanish republic flag of the second spanish republic historic former-flag europe red yellow purple"
+  },
+  {
+    "id": "seljuk",
+    "name": "Seljuk Empire",
+    "title": "Flag of the Great Seljuk Empire",
+    "groups": [
+      "historic",
+      "empire",
+      "asia"
+    ],
+    "colors": [
+      "blue",
+      "black"
+    ],
+    "flag": "/empires/seljuk.svg",
+    "keywords": "seljuk empire flag of the great seljuk empire historic empire asia blue black"
   },
   {
     "id": "senegal",
@@ -5341,7 +5502,7 @@
     "keywords": "sikh empire flag of the sikh empire historic empire south-asia blue yellow"
   },
   {
-    "id": "in-sikkim",
+    "id": "in/sikkim",
     "name": "Sikkim",
     "title": "Flag of Sikkim",
     "groups": [
@@ -5474,7 +5635,7 @@
     "keywords": "south africa prinsevlag flag of south africa (1928–1994) historic former-flag africa orange white blue"
   },
   {
-    "id": "us-south-carolina",
+    "id": "us/south-carolina",
     "name": "South Carolina",
     "title": "Flag of South Carolina",
     "groups": [
@@ -5555,6 +5716,22 @@
     ],
     "flag": "/yemen/south-.svg",
     "keywords": "south yemen (pdry) flag of the people's democratic republic of yemen historic former-flag arab red white black blue"
+  },
+  {
+    "id": "smom",
+    "name": "Sovereign Military Order of Malta",
+    "title": "State Flag of the Sovereign Military Order of Malta",
+    "groups": [
+      "historic",
+      "empire",
+      "europe"
+    ],
+    "colors": [
+      "red",
+      "white"
+    ],
+    "flag": "/empires/smom.svg",
+    "keywords": "sovereign military order of malta state flag of the sovereign military order of malta historic empire europe red white"
   },
   {
     "id": "soviet-union",
@@ -5750,7 +5927,7 @@
     "keywords": "taliban (1996) flag of the islamic emirate of afghanistan (1996) historic former-flag asia white"
   },
   {
-    "id": "in-tamil-nadu",
+    "id": "in/tamil-nadu",
     "name": "Tamil Nadu",
     "title": "Flag of Tamil Nadu",
     "groups": [
@@ -5782,7 +5959,23 @@
     "keywords": "tanzania flag of tanzania africa horn-of-africa green yellow black blue"
   },
   {
-    "id": "us-texas",
+    "id": "teutonic",
+    "name": "Teutonic Order",
+    "title": "Flag of the Teutonic Order",
+    "groups": [
+      "historic",
+      "empire",
+      "europe"
+    ],
+    "colors": [
+      "white",
+      "black"
+    ],
+    "flag": "/empires/teutonic.svg",
+    "keywords": "teutonic order flag of the teutonic order historic empire europe white black"
+  },
+  {
+    "id": "us/texas",
     "name": "Texas",
     "title": "Flag of Texas (Lone Star)",
     "groups": [
@@ -5896,7 +6089,7 @@
     "keywords": "tonga flag of the kingdom of tonga national-flag oceania red white"
   },
   {
-    "id": "au-torres-strait",
+    "id": "au/torres-strait",
     "name": "Torres Strait Islander Flag",
     "title": "Torres Strait Islander Flag",
     "groups": [
@@ -6293,7 +6486,7 @@
     "keywords": "vietnam flag of vietnam asia southeast-asia red yellow"
   },
   {
-    "id": "uk-wales",
+    "id": "uk/wales",
     "name": "Wales",
     "title": "Flag of Wales (Y Ddraig Goch)",
     "groups": [
@@ -6309,7 +6502,7 @@
     "keywords": "wales flag of wales (y ddraig goch) sub europe white green red"
   },
   {
-    "id": "us-washington-dc",
+    "id": "us/washington-dc",
     "name": "Washington D.C.",
     "title": "Flag of the District of Columbia",
     "groups": [

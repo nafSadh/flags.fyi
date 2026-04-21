@@ -1135,6 +1135,78 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://flags.fyi/genoa/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://flags.fyi/seljuk/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://flags.fyi/safavid/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://flags.fyi/parthian/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://flags.fyi/delhi-sultanate/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://flags.fyi/maratha/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://flags.fyi/mali-empire/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://flags.fyi/teutonic/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://flags.fyi/templar/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://flags.fyi/smom/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://flags.fyi/lithuania-gd/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://flags.fyi/majapahit/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://flags.fyi/qajar/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -1747,205 +1819,205 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://flags.fyi/us-california/</loc>
+    <loc>https://flags.fyi/us/california/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://flags.fyi/us-texas/</loc>
+    <loc>https://flags.fyi/us/texas/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://flags.fyi/us-hawaii/</loc>
+    <loc>https://flags.fyi/us/hawaii/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://flags.fyi/us-puerto-rico/</loc>
+    <loc>https://flags.fyi/us/puerto-rico/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://flags.fyi/us-washington-dc/</loc>
+    <loc>https://flags.fyi/us/washington-dc/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://flags.fyi/ca-quebec/</loc>
+    <loc>https://flags.fyi/ca/quebec/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://flags.fyi/uk-scotland/</loc>
+    <loc>https://flags.fyi/uk/scotland/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://flags.fyi/uk-wales/</loc>
+    <loc>https://flags.fyi/uk/wales/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://flags.fyi/uk-england/</loc>
+    <loc>https://flags.fyi/uk/england/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://flags.fyi/us-new-york/</loc>
+    <loc>https://flags.fyi/us/new-york/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://flags.fyi/us-alaska/</loc>
+    <loc>https://flags.fyi/us/alaska/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://flags.fyi/us-maryland/</loc>
+    <loc>https://flags.fyi/us/maryland/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://flags.fyi/us-new-mexico/</loc>
+    <loc>https://flags.fyi/us/new-mexico/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://flags.fyi/us-arizona/</loc>
+    <loc>https://flags.fyi/us/arizona/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://flags.fyi/us-colorado/</loc>
+    <loc>https://flags.fyi/us/colorado/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://flags.fyi/us-south-carolina/</loc>
+    <loc>https://flags.fyi/us/south-carolina/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://flags.fyi/us-ohio/</loc>
+    <loc>https://flags.fyi/us/ohio/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://flags.fyi/us-mississippi/</loc>
+    <loc>https://flags.fyi/us/mississippi/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://flags.fyi/us-georgia/</loc>
+    <loc>https://flags.fyi/us/georgia/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://flags.fyi/ca-ontario/</loc>
+    <loc>https://flags.fyi/ca/ontario/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://flags.fyi/ca-british-columbia/</loc>
+    <loc>https://flags.fyi/ca/british-columbia/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://flags.fyi/ca-alberta/</loc>
+    <loc>https://flags.fyi/ca/alberta/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://flags.fyi/uk-northern-ireland/</loc>
+    <loc>https://flags.fyi/uk/northern-ireland/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://flags.fyi/uk-cornwall/</loc>
+    <loc>https://flags.fyi/uk/cornwall/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://flags.fyi/in-jammu-kashmir/</loc>
+    <loc>https://flags.fyi/in/jammu-kashmir/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://flags.fyi/in-tamil-nadu/</loc>
+    <loc>https://flags.fyi/in/tamil-nadu/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://flags.fyi/in-sikkim/</loc>
+    <loc>https://flags.fyi/in/sikkim/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://flags.fyi/de-bavaria/</loc>
+    <loc>https://flags.fyi/de/bavaria/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://flags.fyi/de-prussia/</loc>
+    <loc>https://flags.fyi/de/prussia/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://flags.fyi/es-basque/</loc>
+    <loc>https://flags.fyi/es/basque/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://flags.fyi/es-andalusia/</loc>
+    <loc>https://flags.fyi/es/andalusia/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://flags.fyi/au-aboriginal/</loc>
+    <loc>https://flags.fyi/au/aboriginal/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://flags.fyi/au-new-south-wales/</loc>
+    <loc>https://flags.fyi/au/new-south-wales/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://flags.fyi/au-torres-strait/</loc>
+    <loc>https://flags.fyi/au/torres-strait/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

@@ -516,11 +516,16 @@
   },
   "de-imperial": {
     "prev": "de-weimar",
+    "next": "teutonic",
+    "cat": "countries"
+  },
+  "teutonic": {
+    "prev": "de-imperial",
     "next": "holy-roman-empire",
     "cat": "countries"
   },
   "holy-roman-empire": {
-    "prev": "de-imperial",
+    "prev": "teutonic",
     "next": "ghana",
     "cat": "countries"
   },
@@ -626,26 +631,41 @@
   },
   "sikh-empire": {
     "prev": "british-raj",
+    "next": "maratha",
+    "cat": "countries"
+  },
+  "maratha": {
+    "prev": "sikh-empire",
     "next": "mughal",
     "cat": "countries"
   },
   "mughal": {
-    "prev": "sikh-empire",
+    "prev": "maratha",
+    "next": "delhi-sultanate",
+    "cat": "countries"
+  },
+  "delhi-sultanate": {
+    "prev": "mughal",
     "next": "indonesia",
     "cat": "countries"
   },
   "indonesia": {
-    "prev": "mughal",
+    "prev": "delhi-sultanate",
     "next": "id-dutch-east-indies",
     "cat": "countries"
   },
   "id-dutch-east-indies": {
     "prev": "indonesia",
+    "next": "majapahit",
+    "cat": "countries"
+  },
+  "majapahit": {
+    "prev": "id-dutch-east-indies",
     "next": "iran",
     "cat": "countries"
   },
   "iran": {
-    "prev": "id-dutch-east-indies",
+    "prev": "majapahit",
     "next": "pahlavi",
     "cat": "countries"
   },
@@ -656,21 +676,31 @@
   },
   "qajar": {
     "prev": "pahlavi",
+    "next": "safavid",
+    "cat": "countries"
+  },
+  "safavid": {
+    "prev": "qajar",
     "next": "samanid",
     "cat": "countries"
   },
   "samanid": {
-    "prev": "qajar",
+    "prev": "safavid",
     "next": "achaemenid",
     "cat": "countries"
   },
   "achaemenid": {
     "prev": "samanid",
+    "next": "parthian",
+    "cat": "countries"
+  },
+  "parthian": {
+    "prev": "achaemenid",
     "next": "sassanid",
     "cat": "countries"
   },
   "sassanid": {
-    "prev": "achaemenid",
+    "prev": "parthian",
     "next": "sassanid-alt",
     "cat": "countries"
   },
@@ -746,11 +776,16 @@
   },
   "it-kingdom": {
     "prev": "it-social-republic",
+    "next": "genoa",
+    "cat": "countries"
+  },
+  "genoa": {
+    "prev": "it-kingdom",
     "next": "venice",
     "cat": "countries"
   },
   "venice": {
-    "prev": "it-kingdom",
+    "prev": "genoa",
     "next": "roman-empire",
     "cat": "countries"
   },
@@ -931,11 +966,16 @@
   },
   "lithuania": {
     "prev": "liechtenstein",
+    "next": "lithuania-gd",
+    "cat": "countries"
+  },
+  "lithuania-gd": {
+    "prev": "lithuania",
     "next": "luxembourg",
     "cat": "countries"
   },
   "luxembourg": {
-    "prev": "lithuania",
+    "prev": "lithuania-gd",
     "next": "madagascar",
     "cat": "countries"
   },
@@ -961,11 +1001,16 @@
   },
   "mali": {
     "prev": "maldives",
+    "next": "mali-empire",
+    "cat": "countries"
+  },
+  "mali-empire": {
+    "prev": "mali",
     "next": "malta",
     "cat": "countries"
   },
   "malta": {
-    "prev": "mali",
+    "prev": "mali-empire",
     "next": "marshall-islands",
     "cat": "countries"
   },
@@ -1481,11 +1526,16 @@
   },
   "ottoman": {
     "prev": "ottoman-early",
+    "next": "seljuk",
+    "cat": "countries"
+  },
+  "seljuk": {
+    "prev": "ottoman",
     "next": "byzantine",
     "cat": "countries"
   },
   "byzantine": {
-    "prev": "ottoman",
+    "prev": "seljuk",
     "next": "turkmenistan",
     "cat": "countries"
   },
@@ -1599,73 +1649,73 @@
     "next": "abkhazia",
     "cat": "countries"
   },
-  "au-aboriginal": {
-    "prev": "us-washington-dc",
-    "next": "us-alaska",
+  "au/aboriginal": {
+    "prev": "us/washington-dc",
+    "next": "us/alaska",
     "cat": "subdivisions"
   },
-  "us-alaska": {
-    "prev": "au-aboriginal",
-    "next": "ca-alberta",
+  "us/alaska": {
+    "prev": "au/aboriginal",
+    "next": "ca/alberta",
     "cat": "subdivisions"
   },
-  "ca-alberta": {
-    "prev": "us-alaska",
+  "ca/alberta": {
+    "prev": "us/alaska",
     "next": "alderney",
     "cat": "subdivisions"
   },
   "alderney": {
-    "prev": "ca-alberta",
-    "next": "es-andalusia",
+    "prev": "ca/alberta",
+    "next": "es/andalusia",
     "cat": "subdivisions"
   },
-  "es-andalusia": {
+  "es/andalusia": {
     "prev": "alderney",
     "next": "anguilla",
     "cat": "subdivisions"
   },
   "anguilla": {
-    "prev": "es-andalusia",
+    "prev": "es/andalusia",
     "next": "anguilla-governor",
     "cat": "subdivisions"
   },
   "anguilla-governor": {
     "prev": "anguilla",
-    "next": "us-arizona",
+    "next": "us/arizona",
     "cat": "subdivisions"
   },
-  "us-arizona": {
+  "us/arizona": {
     "prev": "anguilla-governor",
     "next": "ascension-island",
     "cat": "subdivisions"
   },
   "ascension-island": {
-    "prev": "us-arizona",
-    "next": "es-basque",
+    "prev": "us/arizona",
+    "next": "es/basque",
     "cat": "subdivisions"
   },
-  "es-basque": {
+  "es/basque": {
     "prev": "ascension-island",
-    "next": "de-bavaria",
+    "next": "de/bavaria",
     "cat": "subdivisions"
   },
-  "de-bavaria": {
-    "prev": "es-basque",
+  "de/bavaria": {
+    "prev": "es/basque",
     "next": "bermuda",
     "cat": "subdivisions"
   },
   "bermuda": {
-    "prev": "de-bavaria",
-    "next": "ca-british-columbia",
+    "prev": "de/bavaria",
+    "next": "ca/british-columbia",
     "cat": "subdivisions"
   },
-  "ca-british-columbia": {
+  "ca/british-columbia": {
     "prev": "bermuda",
     "next": "british-antarctic-territory",
     "cat": "subdivisions"
   },
   "british-antarctic-territory": {
-    "prev": "ca-british-columbia",
+    "prev": "ca/british-columbia",
     "next": "british-falkland-islands",
     "cat": "subdivisions"
   },
@@ -1686,202 +1736,202 @@
   },
   "british-virgin-islands": {
     "prev": "british-overseas-territories",
-    "next": "us-california",
+    "next": "us/california",
     "cat": "subdivisions"
   },
-  "us-california": {
+  "us/california": {
     "prev": "british-virgin-islands",
     "next": "cayman-islands",
     "cat": "subdivisions"
   },
   "cayman-islands": {
-    "prev": "us-california",
-    "next": "us-colorado",
+    "prev": "us/california",
+    "next": "us/colorado",
     "cat": "subdivisions"
   },
-  "us-colorado": {
+  "us/colorado": {
     "prev": "cayman-islands",
-    "next": "uk-cornwall",
+    "next": "uk/cornwall",
     "cat": "subdivisions"
   },
-  "uk-cornwall": {
-    "prev": "us-colorado",
+  "uk/cornwall": {
+    "prev": "us/colorado",
     "next": "anguilla-dolphin",
     "cat": "subdivisions"
   },
   "anguilla-dolphin": {
-    "prev": "uk-cornwall",
-    "next": "uk-england",
+    "prev": "uk/cornwall",
+    "next": "uk/england",
     "cat": "subdivisions"
   },
-  "uk-england": {
+  "uk/england": {
     "prev": "anguilla-dolphin",
-    "next": "us-georgia",
+    "next": "us/georgia",
     "cat": "subdivisions"
   },
-  "us-georgia": {
-    "prev": "uk-england",
+  "us/georgia": {
+    "prev": "uk/england",
     "next": "gibraltar",
     "cat": "subdivisions"
   },
   "gibraltar": {
-    "prev": "us-georgia",
+    "prev": "us/georgia",
     "next": "guernsey",
     "cat": "subdivisions"
   },
   "guernsey": {
     "prev": "gibraltar",
-    "next": "us-hawaii",
+    "next": "us/hawaii",
     "cat": "subdivisions"
   },
-  "us-hawaii": {
+  "us/hawaii": {
     "prev": "guernsey",
-    "next": "in-jammu-kashmir",
+    "next": "in/jammu-kashmir",
     "cat": "subdivisions"
   },
-  "in-jammu-kashmir": {
-    "prev": "us-hawaii",
+  "in/jammu-kashmir": {
+    "prev": "us/hawaii",
     "next": "jersey",
     "cat": "subdivisions"
   },
   "jersey": {
-    "prev": "in-jammu-kashmir",
+    "prev": "in/jammu-kashmir",
     "next": "mann",
     "cat": "subdivisions"
   },
   "mann": {
     "prev": "jersey",
-    "next": "us-maryland",
+    "next": "us/maryland",
     "cat": "subdivisions"
   },
-  "us-maryland": {
+  "us/maryland": {
     "prev": "mann",
-    "next": "us-mississippi",
+    "next": "us/mississippi",
     "cat": "subdivisions"
   },
-  "us-mississippi": {
-    "prev": "us-maryland",
+  "us/mississippi": {
+    "prev": "us/maryland",
     "next": "montserrat",
     "cat": "subdivisions"
   },
   "montserrat": {
-    "prev": "us-mississippi",
-    "next": "us-new-mexico",
+    "prev": "us/mississippi",
+    "next": "us/new-mexico",
     "cat": "subdivisions"
   },
-  "us-new-mexico": {
+  "us/new-mexico": {
     "prev": "montserrat",
-    "next": "au-new-south-wales",
+    "next": "au/new-south-wales",
     "cat": "subdivisions"
   },
-  "au-new-south-wales": {
-    "prev": "us-new-mexico",
-    "next": "us-new-york",
+  "au/new-south-wales": {
+    "prev": "us/new-mexico",
+    "next": "us/new-york",
     "cat": "subdivisions"
   },
-  "us-new-york": {
-    "prev": "au-new-south-wales",
-    "next": "uk-northern-ireland",
+  "us/new-york": {
+    "prev": "au/new-south-wales",
+    "next": "uk/northern-ireland",
     "cat": "subdivisions"
   },
-  "uk-northern-ireland": {
-    "prev": "us-new-york",
-    "next": "us-ohio",
+  "uk/northern-ireland": {
+    "prev": "us/new-york",
+    "next": "us/ohio",
     "cat": "subdivisions"
   },
-  "us-ohio": {
-    "prev": "uk-northern-ireland",
-    "next": "ca-ontario",
+  "us/ohio": {
+    "prev": "uk/northern-ireland",
+    "next": "ca/ontario",
     "cat": "subdivisions"
   },
-  "ca-ontario": {
-    "prev": "us-ohio",
+  "ca/ontario": {
+    "prev": "us/ohio",
     "next": "pitcairn",
     "cat": "subdivisions"
   },
   "pitcairn": {
-    "prev": "ca-ontario",
-    "next": "de-prussia",
+    "prev": "ca/ontario",
+    "next": "de/prussia",
     "cat": "subdivisions"
   },
-  "de-prussia": {
+  "de/prussia": {
     "prev": "pitcairn",
-    "next": "us-puerto-rico",
+    "next": "us/puerto-rico",
     "cat": "subdivisions"
   },
-  "us-puerto-rico": {
-    "prev": "de-prussia",
-    "next": "ca-quebec",
+  "us/puerto-rico": {
+    "prev": "de/prussia",
+    "next": "ca/quebec",
     "cat": "subdivisions"
   },
-  "ca-quebec": {
-    "prev": "us-puerto-rico",
+  "ca/quebec": {
+    "prev": "us/puerto-rico",
     "next": "saint-helena",
     "cat": "subdivisions"
   },
   "saint-helena": {
-    "prev": "ca-quebec",
+    "prev": "ca/quebec",
     "next": "sark",
     "cat": "subdivisions"
   },
   "sark": {
     "prev": "saint-helena",
-    "next": "uk-scotland",
+    "next": "uk/scotland",
     "cat": "subdivisions"
   },
-  "uk-scotland": {
+  "uk/scotland": {
     "prev": "sark",
-    "next": "in-sikkim",
+    "next": "in/sikkim",
     "cat": "subdivisions"
   },
-  "in-sikkim": {
-    "prev": "uk-scotland",
-    "next": "us-south-carolina",
+  "in/sikkim": {
+    "prev": "uk/scotland",
+    "next": "us/south-carolina",
     "cat": "subdivisions"
   },
-  "us-south-carolina": {
-    "prev": "in-sikkim",
+  "us/south-carolina": {
+    "prev": "in/sikkim",
     "next": "sgssi",
     "cat": "subdivisions"
   },
   "sgssi": {
-    "prev": "us-south-carolina",
-    "next": "in-tamil-nadu",
+    "prev": "us/south-carolina",
+    "next": "in/tamil-nadu",
     "cat": "subdivisions"
   },
-  "in-tamil-nadu": {
+  "in/tamil-nadu": {
     "prev": "sgssi",
-    "next": "us-texas",
+    "next": "us/texas",
     "cat": "subdivisions"
   },
-  "us-texas": {
-    "prev": "in-tamil-nadu",
-    "next": "au-torres-strait",
+  "us/texas": {
+    "prev": "in/tamil-nadu",
+    "next": "au/torres-strait",
     "cat": "subdivisions"
   },
-  "au-torres-strait": {
-    "prev": "us-texas",
+  "au/torres-strait": {
+    "prev": "us/texas",
     "next": "tristan",
     "cat": "subdivisions"
   },
   "tristan": {
-    "prev": "au-torres-strait",
+    "prev": "au/torres-strait",
     "next": "tci",
     "cat": "subdivisions"
   },
   "tci": {
     "prev": "tristan",
-    "next": "uk-wales",
+    "next": "uk/wales",
     "cat": "subdivisions"
   },
-  "uk-wales": {
+  "uk/wales": {
     "prev": "tci",
-    "next": "us-washington-dc",
+    "next": "us/washington-dc",
     "cat": "subdivisions"
   },
-  "us-washington-dc": {
-    "prev": "uk-wales",
-    "next": "au-aboriginal",
+  "us/washington-dc": {
+    "prev": "uk/wales",
+    "next": "au/aboriginal",
     "cat": "subdivisions"
   },
   "african-union": {
@@ -1939,9 +1989,14 @@
     "next": "african-union",
     "cat": "intl"
   },
-  "jolly-roger": {
-    "prev": "jolly-roger",
-    "next": "jolly-roger",
+  "templar": {
+    "prev": "smom",
+    "next": "smom",
+    "cat": "empires"
+  },
+  "smom": {
+    "prev": "templar",
+    "next": "templar",
     "cat": "empires"
   },
   "amazigh": {
@@ -1956,11 +2011,16 @@
   },
   "signal-flags": {
     "prev": "catalan",
+    "next": "jolly-roger",
+    "cat": "other"
+  },
+  "jolly-roger": {
+    "prev": "signal-flags",
     "next": "juneteenth",
     "cat": "other"
   },
   "juneteenth": {
-    "prev": "signal-flags",
+    "prev": "jolly-roger",
     "next": "kurdish",
     "cat": "other"
   },

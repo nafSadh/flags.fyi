@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="400"
+   height="600"
+   id="flag_KT">
+  <defs
+     id="defs1">
+    <clipPath
+       id="border">
+      <rect
+         width="50"
+         height="50"
+         x="0"
+         y="0"
+         id="rectC" />
+    </clipPath>
+  </defs>
+  <path
+     d="M 0,300 L 400,300 L 400,600 L 0,600 L 0,300 z "
+     style="fill:#ffffff"
+     id="rect1" />
+  <path
+     d="M 0,0 L 400,0 L 400,300 L 0,300 L 0,0 z "
+     style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:20;stroke-miterlimit:4;stroke-opacity:1"
+     id="rect2" />
+  <path
+     style="fill:#cc0000;fill-opacity:1;stroke:none;stroke-width:30;stroke-opacity:1"
+     d="M 165 175 L 185 189.28125 L 185 285 L 89.28125 285 L 75 265 L 75 285 L 75 315 L 75 335 L 89.28125 315 L 185 315 L 185 410.71875 L 165 425 L 185 425 L 215 425 L 235 425 L 215 410.71875 L 215 315 L 310.71875 315 L 325 335 L 325 315 L 325 285 L 325 265 L 310.71875 285 L 215 285 L 215 189.28125 L 235 175 L 215 175 L 185 175 L 165 175 z "
+     id="pathA" />
+</svg>
