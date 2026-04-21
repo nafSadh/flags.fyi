@@ -1373,6 +1373,318 @@
     "keywords": "canada flag of canada north-america red white"
   },
   {
+    "id": "ch/aargau",
+    "name": "Canton of Aargau",
+    "title": "Flag of Canton of Aargau",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/switzerland-sub/aargau.svg",
+    "keywords": "canton of aargau flag of canton of aargau sub europe"
+  },
+  {
+    "id": "ch/appenzell-ar",
+    "name": "Canton of Appenzell Ausserrhoden",
+    "title": "Flag of Canton of Appenzell Ausserrhoden",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/switzerland-sub/appenzell-ar.svg",
+    "keywords": "canton of appenzell ausserrhoden flag of canton of appenzell ausserrhoden sub europe"
+  },
+  {
+    "id": "ch/appenzell-ir",
+    "name": "Canton of Appenzell Innerrhoden",
+    "title": "Flag of Canton of Appenzell Innerrhoden",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/switzerland-sub/appenzell-ir.svg",
+    "keywords": "canton of appenzell innerrhoden flag of canton of appenzell innerrhoden sub europe"
+  },
+  {
+    "id": "ch/basel-landschaft",
+    "name": "Canton of Basel-Landschaft",
+    "title": "Flag of Canton of Basel-Landschaft",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/switzerland-sub/basel-landschaft.svg",
+    "keywords": "canton of basel-landschaft flag of canton of basel-landschaft sub europe"
+  },
+  {
+    "id": "ch/basel-stadt",
+    "name": "Canton of Basel-Stadt",
+    "title": "Flag of Canton of Basel-Stadt",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/switzerland-sub/basel-stadt.svg",
+    "keywords": "canton of basel-stadt flag of canton of basel-stadt sub europe"
+  },
+  {
+    "id": "ch/bern",
+    "name": "Canton of Bern",
+    "title": "Flag of Canton of Bern",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/switzerland-sub/bern.svg",
+    "keywords": "canton of bern flag of canton of bern sub europe"
+  },
+  {
+    "id": "ch/fribourg",
+    "name": "Canton of Fribourg",
+    "title": "Flag of Canton of Fribourg",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/switzerland-sub/fribourg.svg",
+    "keywords": "canton of fribourg flag of canton of fribourg sub europe"
+  },
+  {
+    "id": "ch/geneva",
+    "name": "Canton of Geneva",
+    "title": "Flag of Canton of Geneva",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/switzerland-sub/geneva.svg",
+    "keywords": "canton of geneva flag of canton of geneva sub europe"
+  },
+  {
+    "id": "ch/glarus",
+    "name": "Canton of Glarus",
+    "title": "Flag of Canton of Glarus",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/switzerland-sub/glarus.svg",
+    "keywords": "canton of glarus flag of canton of glarus sub europe"
+  },
+  {
+    "id": "ch/graubunden",
+    "name": "Canton of Graubünden",
+    "title": "Flag of Canton of Graubünden",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/switzerland-sub/graubunden.svg",
+    "keywords": "canton of graubünden flag of canton of graubünden sub europe"
+  },
+  {
+    "id": "ch/jura",
+    "name": "Canton of Jura",
+    "title": "Flag of Canton of Jura",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/switzerland-sub/jura.svg",
+    "keywords": "canton of jura flag of canton of jura sub europe"
+  },
+  {
+    "id": "ch/lucerne",
+    "name": "Canton of Lucerne",
+    "title": "Flag of Canton of Lucerne",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/switzerland-sub/lucerne.svg",
+    "keywords": "canton of lucerne flag of canton of lucerne sub europe"
+  },
+  {
+    "id": "ch/neuchatel",
+    "name": "Canton of Neuchâtel",
+    "title": "Flag of Canton of Neuchâtel",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/switzerland-sub/neuchatel.svg",
+    "keywords": "canton of neuchâtel flag of canton of neuchâtel sub europe"
+  },
+  {
+    "id": "ch/nidwalden",
+    "name": "Canton of Nidwalden",
+    "title": "Flag of Canton of Nidwalden",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/switzerland-sub/nidwalden.svg",
+    "keywords": "canton of nidwalden flag of canton of nidwalden sub europe"
+  },
+  {
+    "id": "ch/obwalden",
+    "name": "Canton of Obwalden",
+    "title": "Flag of Canton of Obwalden",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/switzerland-sub/obwalden.svg",
+    "keywords": "canton of obwalden flag of canton of obwalden sub europe"
+  },
+  {
+    "id": "ch/schaffhausen",
+    "name": "Canton of Schaffhausen",
+    "title": "Flag of Canton of Schaffhausen",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/switzerland-sub/schaffhausen.svg",
+    "keywords": "canton of schaffhausen flag of canton of schaffhausen sub europe"
+  },
+  {
+    "id": "ch/schwyz",
+    "name": "Canton of Schwyz",
+    "title": "Flag of Canton of Schwyz",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/switzerland-sub/schwyz.svg",
+    "keywords": "canton of schwyz flag of canton of schwyz sub europe"
+  },
+  {
+    "id": "ch/solothurn",
+    "name": "Canton of Solothurn",
+    "title": "Flag of Canton of Solothurn",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/switzerland-sub/solothurn.svg",
+    "keywords": "canton of solothurn flag of canton of solothurn sub europe"
+  },
+  {
+    "id": "ch/st-gallen",
+    "name": "Canton of St. Gallen",
+    "title": "Flag of Canton of St. Gallen",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/switzerland-sub/st-gallen.svg",
+    "keywords": "canton of st. gallen flag of canton of st. gallen sub europe"
+  },
+  {
+    "id": "ch/thurgau",
+    "name": "Canton of Thurgau",
+    "title": "Flag of Canton of Thurgau",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/switzerland-sub/thurgau.svg",
+    "keywords": "canton of thurgau flag of canton of thurgau sub europe"
+  },
+  {
+    "id": "ch/ticino",
+    "name": "Canton of Ticino",
+    "title": "Flag of Canton of Ticino",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/switzerland-sub/ticino.svg",
+    "keywords": "canton of ticino flag of canton of ticino sub europe"
+  },
+  {
+    "id": "ch/uri",
+    "name": "Canton of Uri",
+    "title": "Flag of Canton of Uri",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/switzerland-sub/uri.svg",
+    "keywords": "canton of uri flag of canton of uri sub europe"
+  },
+  {
+    "id": "ch/valais",
+    "name": "Canton of Valais",
+    "title": "Flag of Canton of Valais",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/switzerland-sub/valais.svg",
+    "keywords": "canton of valais flag of canton of valais sub europe"
+  },
+  {
+    "id": "ch/vaud",
+    "name": "Canton of Vaud",
+    "title": "Flag of Canton of Vaud",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/switzerland-sub/vaud.svg",
+    "keywords": "canton of vaud flag of canton of vaud sub europe"
+  },
+  {
+    "id": "ch/zug",
+    "name": "Canton of Zug",
+    "title": "Flag of Canton of Zug",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/switzerland-sub/zug.svg",
+    "keywords": "canton of zug flag of canton of zug sub europe"
+  },
+  {
+    "id": "ch/zurich",
+    "name": "Canton of Zürich",
+    "title": "Flag of Canton of Zürich",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/switzerland-sub/zurich.svg",
+    "keywords": "canton of zürich flag of canton of zürich sub europe"
+  },
+  {
     "id": "catalan",
     "name": "Catalan Senyera",
     "title": "The Senyera (Flag of Catalonia)",

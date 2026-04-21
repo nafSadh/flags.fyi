@@ -894,6 +894,188 @@
     "id": "switzerland",
     "index": "c/switzerland"
   },
+  "ch/zurich": {
+    "g": "sub,europe",
+    "ns": "switzerland-sub",
+    "name": "Canton of Zürich",
+    "id": "ch/zurich",
+    "index": "c/ch/zurich"
+  },
+  "ch/bern": {
+    "g": "sub,europe",
+    "ns": "switzerland-sub",
+    "name": "Canton of Bern",
+    "id": "ch/bern",
+    "index": "c/ch/bern"
+  },
+  "ch/lucerne": {
+    "g": "sub,europe",
+    "ns": "switzerland-sub",
+    "name": "Canton of Lucerne",
+    "id": "ch/lucerne",
+    "index": "c/ch/lucerne"
+  },
+  "ch/uri": {
+    "g": "sub,europe",
+    "ns": "switzerland-sub",
+    "name": "Canton of Uri",
+    "id": "ch/uri",
+    "index": "c/ch/uri"
+  },
+  "ch/schwyz": {
+    "g": "sub,europe",
+    "ns": "switzerland-sub",
+    "name": "Canton of Schwyz",
+    "id": "ch/schwyz",
+    "index": "c/ch/schwyz"
+  },
+  "ch/obwalden": {
+    "g": "sub,europe",
+    "ns": "switzerland-sub",
+    "name": "Canton of Obwalden",
+    "id": "ch/obwalden",
+    "index": "c/ch/obwalden"
+  },
+  "ch/nidwalden": {
+    "g": "sub,europe",
+    "ns": "switzerland-sub",
+    "name": "Canton of Nidwalden",
+    "id": "ch/nidwalden",
+    "index": "c/ch/nidwalden"
+  },
+  "ch/glarus": {
+    "g": "sub,europe",
+    "ns": "switzerland-sub",
+    "name": "Canton of Glarus",
+    "id": "ch/glarus",
+    "index": "c/ch/glarus"
+  },
+  "ch/zug": {
+    "g": "sub,europe",
+    "ns": "switzerland-sub",
+    "name": "Canton of Zug",
+    "id": "ch/zug",
+    "index": "c/ch/zug"
+  },
+  "ch/fribourg": {
+    "g": "sub,europe",
+    "ns": "switzerland-sub",
+    "name": "Canton of Fribourg",
+    "id": "ch/fribourg",
+    "index": "c/ch/fribourg"
+  },
+  "ch/solothurn": {
+    "g": "sub,europe",
+    "ns": "switzerland-sub",
+    "name": "Canton of Solothurn",
+    "id": "ch/solothurn",
+    "index": "c/ch/solothurn"
+  },
+  "ch/basel-stadt": {
+    "g": "sub,europe",
+    "ns": "switzerland-sub",
+    "name": "Canton of Basel-Stadt",
+    "id": "ch/basel-stadt",
+    "index": "c/ch/basel-stadt"
+  },
+  "ch/basel-landschaft": {
+    "g": "sub,europe",
+    "ns": "switzerland-sub",
+    "name": "Canton of Basel-Landschaft",
+    "id": "ch/basel-landschaft",
+    "index": "c/ch/basel-landschaft"
+  },
+  "ch/schaffhausen": {
+    "g": "sub,europe",
+    "ns": "switzerland-sub",
+    "name": "Canton of Schaffhausen",
+    "id": "ch/schaffhausen",
+    "index": "c/ch/schaffhausen"
+  },
+  "ch/appenzell-ar": {
+    "g": "sub,europe",
+    "ns": "switzerland-sub",
+    "name": "Canton of Appenzell Ausserrhoden",
+    "id": "ch/appenzell-ar",
+    "index": "c/ch/appenzell-ar"
+  },
+  "ch/appenzell-ir": {
+    "g": "sub,europe",
+    "ns": "switzerland-sub",
+    "name": "Canton of Appenzell Innerrhoden",
+    "id": "ch/appenzell-ir",
+    "index": "c/ch/appenzell-ir"
+  },
+  "ch/st-gallen": {
+    "g": "sub,europe",
+    "ns": "switzerland-sub",
+    "name": "Canton of St. Gallen",
+    "id": "ch/st-gallen",
+    "index": "c/ch/st-gallen"
+  },
+  "ch/graubunden": {
+    "g": "sub,europe",
+    "ns": "switzerland-sub",
+    "name": "Canton of Graubünden",
+    "id": "ch/graubunden",
+    "index": "c/ch/graubunden"
+  },
+  "ch/aargau": {
+    "g": "sub,europe",
+    "ns": "switzerland-sub",
+    "name": "Canton of Aargau",
+    "id": "ch/aargau",
+    "index": "c/ch/aargau"
+  },
+  "ch/thurgau": {
+    "g": "sub,europe",
+    "ns": "switzerland-sub",
+    "name": "Canton of Thurgau",
+    "id": "ch/thurgau",
+    "index": "c/ch/thurgau"
+  },
+  "ch/ticino": {
+    "g": "sub,europe",
+    "ns": "switzerland-sub",
+    "name": "Canton of Ticino",
+    "id": "ch/ticino",
+    "index": "c/ch/ticino"
+  },
+  "ch/vaud": {
+    "g": "sub,europe",
+    "ns": "switzerland-sub",
+    "name": "Canton of Vaud",
+    "id": "ch/vaud",
+    "index": "c/ch/vaud"
+  },
+  "ch/valais": {
+    "g": "sub,europe",
+    "ns": "switzerland-sub",
+    "name": "Canton of Valais",
+    "id": "ch/valais",
+    "index": "c/ch/valais"
+  },
+  "ch/neuchatel": {
+    "g": "sub,europe",
+    "ns": "switzerland-sub",
+    "name": "Canton of Neuchâtel",
+    "id": "ch/neuchatel",
+    "index": "c/ch/neuchatel"
+  },
+  "ch/geneva": {
+    "g": "sub,europe",
+    "ns": "switzerland-sub",
+    "name": "Canton of Geneva",
+    "id": "ch/geneva",
+    "index": "c/ch/geneva"
+  },
+  "ch/jura": {
+    "g": "sub,europe",
+    "ns": "switzerland-sub",
+    "name": "Canton of Jura",
+    "id": "ch/jura",
+    "index": "c/ch/jura"
+  },
   "syria": {
     "g": "nf,as,arab,levant",
     "ns": "syria",

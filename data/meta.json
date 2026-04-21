@@ -1951,11 +1951,141 @@
   },
   "us/california": {
     "prev": "british-virgin-islands",
+    "next": "ch/aargau",
+    "cat": "subdivisions"
+  },
+  "ch/aargau": {
+    "prev": "us/california",
+    "next": "ch/appenzell-ar",
+    "cat": "subdivisions"
+  },
+  "ch/appenzell-ar": {
+    "prev": "ch/aargau",
+    "next": "ch/appenzell-ir",
+    "cat": "subdivisions"
+  },
+  "ch/appenzell-ir": {
+    "prev": "ch/appenzell-ar",
+    "next": "ch/basel-landschaft",
+    "cat": "subdivisions"
+  },
+  "ch/basel-landschaft": {
+    "prev": "ch/appenzell-ir",
+    "next": "ch/basel-stadt",
+    "cat": "subdivisions"
+  },
+  "ch/basel-stadt": {
+    "prev": "ch/basel-landschaft",
+    "next": "ch/bern",
+    "cat": "subdivisions"
+  },
+  "ch/bern": {
+    "prev": "ch/basel-stadt",
+    "next": "ch/fribourg",
+    "cat": "subdivisions"
+  },
+  "ch/fribourg": {
+    "prev": "ch/bern",
+    "next": "ch/geneva",
+    "cat": "subdivisions"
+  },
+  "ch/geneva": {
+    "prev": "ch/fribourg",
+    "next": "ch/glarus",
+    "cat": "subdivisions"
+  },
+  "ch/glarus": {
+    "prev": "ch/geneva",
+    "next": "ch/graubunden",
+    "cat": "subdivisions"
+  },
+  "ch/graubunden": {
+    "prev": "ch/glarus",
+    "next": "ch/jura",
+    "cat": "subdivisions"
+  },
+  "ch/jura": {
+    "prev": "ch/graubunden",
+    "next": "ch/lucerne",
+    "cat": "subdivisions"
+  },
+  "ch/lucerne": {
+    "prev": "ch/jura",
+    "next": "ch/neuchatel",
+    "cat": "subdivisions"
+  },
+  "ch/neuchatel": {
+    "prev": "ch/lucerne",
+    "next": "ch/nidwalden",
+    "cat": "subdivisions"
+  },
+  "ch/nidwalden": {
+    "prev": "ch/neuchatel",
+    "next": "ch/obwalden",
+    "cat": "subdivisions"
+  },
+  "ch/obwalden": {
+    "prev": "ch/nidwalden",
+    "next": "ch/schaffhausen",
+    "cat": "subdivisions"
+  },
+  "ch/schaffhausen": {
+    "prev": "ch/obwalden",
+    "next": "ch/schwyz",
+    "cat": "subdivisions"
+  },
+  "ch/schwyz": {
+    "prev": "ch/schaffhausen",
+    "next": "ch/solothurn",
+    "cat": "subdivisions"
+  },
+  "ch/solothurn": {
+    "prev": "ch/schwyz",
+    "next": "ch/st-gallen",
+    "cat": "subdivisions"
+  },
+  "ch/st-gallen": {
+    "prev": "ch/solothurn",
+    "next": "ch/thurgau",
+    "cat": "subdivisions"
+  },
+  "ch/thurgau": {
+    "prev": "ch/st-gallen",
+    "next": "ch/ticino",
+    "cat": "subdivisions"
+  },
+  "ch/ticino": {
+    "prev": "ch/thurgau",
+    "next": "ch/uri",
+    "cat": "subdivisions"
+  },
+  "ch/uri": {
+    "prev": "ch/ticino",
+    "next": "ch/valais",
+    "cat": "subdivisions"
+  },
+  "ch/valais": {
+    "prev": "ch/uri",
+    "next": "ch/vaud",
+    "cat": "subdivisions"
+  },
+  "ch/vaud": {
+    "prev": "ch/valais",
+    "next": "ch/zug",
+    "cat": "subdivisions"
+  },
+  "ch/zug": {
+    "prev": "ch/vaud",
+    "next": "ch/zurich",
+    "cat": "subdivisions"
+  },
+  "ch/zurich": {
+    "prev": "ch/zug",
     "next": "cayman-islands",
     "cat": "subdivisions"
   },
   "cayman-islands": {
-    "prev": "us/california",
+    "prev": "ch/zurich",
     "next": "jp/chiba",
     "cat": "subdivisions"
   },
