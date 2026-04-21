@@ -21,6 +21,17 @@ const mapIdAliases = {
   'mayotte': 'comoros-mayotte',
   'mohéli': 'moheli'
 };
+// Centroid/iso fills for countries that never had map coordinates before.
+// lat/lng approximate geographic centers.
+const centroidFills = {
+  'abkhazia': { iso: 'ABK', centroid: [43.0, 41.0] },
+  'anjouan': { iso: 'COM', centroid: [-12.2, 44.4] },
+  'bangladesh-navy': { iso: 'BGD', centroid: [23.7, 90.4] },
+  'comoros-mayotte': { iso: 'MYT', centroid: [-12.8, 45.2] },
+  'grande-comore': { iso: 'COM', centroid: [-11.7, 43.3] },
+  'libya-civil': { iso: 'LBY', centroid: [26.3, 17.2] },
+  'moheli': { iso: 'COM', centroid: [-12.3, 43.7] }
+};
 // Re-key prior by new id so lookups work
 const priorAliased = {};
 for (const [oldId, v] of Object.entries(prior)) {
@@ -83,13 +94,14 @@ for (const [id, fd] of Object.entries(flagsJson)) {
   if (!g.includes('nf')) continue;
 
   const priorCountry = prior[id] || {};
+  const fill = centroidFills[id] || {};
   out[id] = {
     id,
     name: fd.name || id,
     current_flag: getFlagSvg(id, fd),
     flags: [],
-    iso: priorCountry.iso || null,
-    centroid: priorCountry.centroid || null
+    iso: priorCountry.iso || fill.iso || null,
+    centroid: priorCountry.centroid || fill.centroid || null
   };
 }
 
