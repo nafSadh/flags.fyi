@@ -1045,6 +1045,18 @@
     "keywords": "azerbaijan flag of the republic of azerbaijan national-flag asia blue red green white"
   },
   {
+    "id": "pt/azores",
+    "name": "Azores",
+    "title": "Flag of Azores",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/portugal-sub/azores.svg",
+    "keywords": "azores flag of azores sub europe"
+  },
+  {
     "id": "de/baden-wurttemberg",
     "name": "Baden-Württemberg",
     "title": "Flag of Baden-Württemberg",
@@ -1827,6 +1839,18 @@
     ],
     "flag": "/brunei/flag.svg",
     "keywords": "brunei flag of the nation of brunei, the abode of peace national-flag asia southeast-asia yellow white black red"
+  },
+  {
+    "id": "be/brussels-capital",
+    "name": "Brussels Capital",
+    "title": "Flag of Brussels Capital",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/belgium-sub/brussels-capital.svg",
+    "keywords": "brussels capital flag of brussels capital sub europe"
   },
   {
     "id": "ru/bryansk-oblast",
@@ -3465,6 +3489,18 @@
     "keywords": "donetsk flag of donetsk sub europe"
   },
   {
+    "id": "nl/drenthe",
+    "name": "Drenthe",
+    "title": "Flag of Drenthe",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/netherlands-sub/drenthe.svg",
+    "keywords": "drenthe flag of drenthe sub europe"
+  },
+  {
     "id": "milan",
     "name": "Duchy of Milan",
     "title": "Flag of the Duchy of Milan",
@@ -4077,6 +4113,42 @@
     "keywords": "flag of three guarantees flag of the three guarantees historic former-flag north-america white green red"
   },
   {
+    "id": "be/flanders",
+    "name": "Flanders",
+    "title": "Flag of Flanders",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/belgium-sub/flanders.svg",
+    "keywords": "flanders flag of flanders sub europe"
+  },
+  {
+    "id": "be/flemish-brabant",
+    "name": "Flemish Brabant",
+    "title": "Flag of Flemish Brabant",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/belgium-sub/flemish-brabant.svg",
+    "keywords": "flemish brabant flag of flemish brabant sub europe"
+  },
+  {
+    "id": "nl/flevoland",
+    "name": "Flevoland",
+    "title": "Flag of Flevoland",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/netherlands-sub/flevoland.svg",
+    "keywords": "flevoland flag of flevoland sub europe"
+  },
+  {
     "id": "us/florida",
     "name": "Florida",
     "title": "Flag of Florida",
@@ -4211,6 +4283,18 @@
     "keywords": "french mandate syria flag of the french mandate of syria historic colonial levant green white blue"
   },
   {
+    "id": "nl/friesland",
+    "name": "Friesland",
+    "title": "Flag of Friesland",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/netherlands-sub/friesland.svg",
+    "keywords": "friesland flag of friesland sub europe"
+  },
+  {
     "id": "it/friuli-venezia-giulia",
     "name": "Friuli-Venezia Giulia",
     "title": "Flag of Friuli-Venezia Giulia",
@@ -4302,6 +4386,18 @@
     ],
     "flag": "/gambia/flag.svg",
     "keywords": "gambia flag of the republic of the gambia national-flag africa red white blue green"
+  },
+  {
+    "id": "nl/gelderland",
+    "name": "Gelderland",
+    "title": "Flag of Gelderland",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/netherlands-sub/gelderland.svg",
+    "keywords": "gelderland flag of gelderland sub europe"
   },
   {
     "id": "pride-genderfluid",
@@ -4633,6 +4729,18 @@
     "keywords": "grenada flag of grenada national-flag caribbean red yellow green"
   },
   {
+    "id": "nl/groningen",
+    "name": "Groningen",
+    "title": "Flag of Groningen",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/netherlands-sub/groningen.svg",
+    "keywords": "groningen flag of groningen sub europe"
+  },
+  {
     "id": "fr/guadeloupe",
     "name": "Guadeloupe",
     "title": "Flag of Guadeloupe",
@@ -4785,6 +4893,18 @@
     ],
     "flag": "/guyana/flag.svg",
     "keywords": "guyana flag of the co-operative republic of guyana national-flag south-america green gold red white black"
+  },
+  {
+    "id": "be/hainaut",
+    "name": "Hainaut",
+    "title": "Flag of Hainaut",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/belgium-sub/hainaut.svg",
+    "keywords": "hainaut flag of hainaut sub europe"
   },
   {
     "id": "haiti",
@@ -7113,6 +7233,30 @@
     "keywords": "lima flag of lima city"
   },
   {
+    "id": "nl/limburg",
+    "name": "Limburg",
+    "title": "Flag of Limburg",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/netherlands-sub/limburg.svg",
+    "keywords": "limburg flag of limburg sub europe"
+  },
+  {
+    "id": "be/limburg-be",
+    "name": "Limburg Be",
+    "title": "Flag of Limburg Be",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/belgium-sub/limburg-be.svg",
+    "keywords": "limburg be flag of limburg be sub europe"
+  },
+  {
     "id": "ru/lipetsk-oblast",
     "name": "Lipetsk Oblast",
     "title": "Flag of Lipetsk Oblast",
@@ -7324,6 +7468,18 @@
     ],
     "flag": "/madagascar/flag.svg",
     "keywords": "madagascar flag of the republic of madagascar national-flag africa white red green"
+  },
+  {
+    "id": "pt/madeira",
+    "name": "Madeira",
+    "title": "Flag of Madeira",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/portugal-sub/madeira.svg",
+    "keywords": "madeira flag of madeira sub europe"
   },
   {
     "id": "in/madhya-pradesh",
@@ -8826,6 +8982,18 @@
     "keywords": "normandy flag of normandy sub europe"
   },
   {
+    "id": "nl/north-brabant",
+    "name": "North Brabant",
+    "title": "Flag of North Brabant",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/netherlands-sub/north-brabant.svg",
+    "keywords": "north brabant flag of north brabant sub europe"
+  },
+  {
     "id": "us/north-carolina",
     "name": "North Carolina",
     "title": "Flag of North Carolina",
@@ -8848,6 +9016,18 @@
     "colors": [],
     "flag": "/us-states/north-dakota.svg",
     "keywords": "north dakota flag of north dakota sub north-america"
+  },
+  {
+    "id": "nl/north-holland",
+    "name": "North Holland",
+    "title": "Flag of North Holland",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/netherlands-sub/north-holland.svg",
+    "keywords": "north holland flag of north holland sub europe"
   },
   {
     "id": "id/north-kalimantan",
@@ -9459,6 +9639,18 @@
     ],
     "flag": "/libya/ottoman-tripoli.svg",
     "keywords": "ottoman tripolitania flag of ottoman tripolitania historic red white"
+  },
+  {
+    "id": "nl/overijssel",
+    "name": "Overijssel",
+    "title": "Flag of Overijssel",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/netherlands-sub/overijssel.svg",
+    "keywords": "overijssel flag of overijssel sub europe"
   },
   {
     "id": "pahlavi",
@@ -11737,6 +11929,18 @@
     "keywords": "south georgia & south sandwich islands south georgia and the south sandwich islands british-overseas blue red white"
   },
   {
+    "id": "nl/south-holland",
+    "name": "South Holland",
+    "title": "Flag of South Holland",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/netherlands-sub/south-holland.svg",
+    "keywords": "south holland flag of south holland sub europe"
+  },
+  {
     "id": "id/south-kalimantan",
     "name": "South Kalimantan",
     "title": "Flag of South Kalimantan",
@@ -12381,6 +12585,18 @@
     ],
     "flag": "/thailand/flag.svg",
     "keywords": "thailand flag of thailand (thong trairong) asia southeast-asia red white dark blue"
+  },
+  {
+    "id": "gr/thessaly",
+    "name": "Thessaly",
+    "title": "Flag of Thessaly",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/greece-sub/thessaly.svg",
+    "keywords": "thessaly flag of thessaly sub europe"
   },
   {
     "id": "de/thuringia",
@@ -13060,6 +13276,18 @@
     "keywords": "utah flag of utah sub north-america"
   },
   {
+    "id": "nl/utrecht",
+    "name": "Utrecht",
+    "title": "Flag of Utrecht",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/netherlands-sub/utrecht.svg",
+    "keywords": "utrecht flag of utrecht sub europe"
+  },
+  {
     "id": "in/uttar-pradesh",
     "name": "Uttar Pradesh",
     "title": "Flag of Uttar Pradesh",
@@ -13392,6 +13620,18 @@
     "keywords": "wales flag of wales (y ddraig goch) sub europe white green red"
   },
   {
+    "id": "be/wallonia",
+    "name": "Wallonia",
+    "title": "Flag of Wallonia",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/belgium-sub/wallonia.svg",
+    "keywords": "wallonia flag of wallonia sub europe"
+  },
+  {
     "id": "pl/warmian-masurian",
     "name": "Warmian Masurian Voivodeship",
     "title": "Flag of Warmian Masurian Voivodeship",
@@ -13468,6 +13708,18 @@
     ],
     "flag": "/germany-hist/de-weimar.svg",
     "keywords": "weimar republic flag of the weimar republic historic former-flag europe black red gold"
+  },
+  {
+    "id": "be/west-flanders",
+    "name": "West Flanders",
+    "title": "Flag of West Flanders",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/belgium-sub/west-flanders.svg",
+    "keywords": "west flanders flag of west flanders sub europe"
   },
   {
     "id": "de-west-germany",
@@ -13581,6 +13833,18 @@
     "colors": [],
     "flag": "/australia-sub/western-australia.svg",
     "keywords": "western australia flag of western australia sub oceania"
+  },
+  {
+    "id": "gr/western-greece",
+    "name": "Western Greece",
+    "title": "Flag of Western Greece",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/greece-sub/western-greece.svg",
+    "keywords": "western greece flag of western greece sub europe"
   },
   {
     "id": "white-ensign",
@@ -13828,6 +14092,18 @@
     "colors": [],
     "flag": "/ukraine-sub/zaporizhzhia.svg",
     "keywords": "zaporizhzhia flag of zaporizhzhia sub europe"
+  },
+  {
+    "id": "nl/zeeland",
+    "name": "Zeeland",
+    "title": "Flag of Zeeland",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/netherlands-sub/zeeland.svg",
+    "keywords": "zeeland flag of zeeland sub europe"
   },
   {
     "id": "ua/zhytomyr",

@@ -2326,11 +2326,16 @@
   },
   "fr/auvergne-rhone-alpes": {
     "prev": "au/act",
+    "next": "pt/azores",
+    "cat": "subdivisions"
+  },
+  "pt/azores": {
+    "prev": "fr/auvergne-rhone-alpes",
     "next": "de/baden-wurttemberg",
     "cat": "subdivisions"
   },
   "de/baden-wurttemberg": {
-    "prev": "fr/auvergne-rhone-alpes",
+    "prev": "pt/azores",
     "next": "br/ba",
     "cat": "subdivisions"
   },
@@ -2456,11 +2461,16 @@
   },
   "fr/brittany": {
     "prev": "british-virgin-islands",
+    "next": "be/brussels-capital",
+    "cat": "subdivisions"
+  },
+  "be/brussels-capital": {
+    "prev": "fr/brittany",
     "next": "ru/bryansk-oblast",
     "cat": "subdivisions"
   },
   "ru/bryansk-oblast": {
-    "prev": "fr/brittany",
+    "prev": "be/brussels-capital",
     "next": "ar/buenos-aires",
     "cat": "subdivisions"
   },
@@ -2846,11 +2856,16 @@
   },
   "ua/donetsk": {
     "prev": "anguilla-dolphin",
+    "next": "nl/drenthe",
+    "cat": "subdivisions"
+  },
+  "nl/drenthe": {
+    "prev": "ua/donetsk",
     "next": "mx/dgo",
     "cat": "subdivisions"
   },
   "mx/dgo": {
-    "prev": "ua/donetsk",
+    "prev": "nl/drenthe",
     "next": "id/east-java",
     "cat": "subdivisions"
   },
@@ -2891,11 +2906,26 @@
   },
   "es/extremadura": {
     "prev": "br/es",
+    "next": "be/flanders",
+    "cat": "subdivisions"
+  },
+  "be/flanders": {
+    "prev": "es/extremadura",
+    "next": "be/flemish-brabant",
+    "cat": "subdivisions"
+  },
+  "be/flemish-brabant": {
+    "prev": "be/flanders",
+    "next": "nl/flevoland",
+    "cat": "subdivisions"
+  },
+  "nl/flevoland": {
+    "prev": "be/flemish-brabant",
     "next": "us/florida",
     "cat": "subdivisions"
   },
   "us/florida": {
-    "prev": "es/extremadura",
+    "prev": "nl/flevoland",
     "next": "ar/formosa",
     "cat": "subdivisions"
   },
@@ -2906,11 +2936,16 @@
   },
   "fr/french-guiana": {
     "prev": "ar/formosa",
+    "next": "nl/friesland",
+    "cat": "subdivisions"
+  },
+  "nl/friesland": {
+    "prev": "fr/french-guiana",
     "next": "it/friuli-venezia-giulia",
     "cat": "subdivisions"
   },
   "it/friuli-venezia-giulia": {
-    "prev": "fr/french-guiana",
+    "prev": "nl/friesland",
     "next": "jp/fukui",
     "cat": "subdivisions"
   },
@@ -2931,11 +2966,16 @@
   },
   "es/galicia": {
     "prev": "jp/fukushima",
+    "next": "nl/gelderland",
+    "cat": "subdivisions"
+  },
+  "nl/gelderland": {
+    "prev": "es/galicia",
     "next": "us/georgia",
     "cat": "subdivisions"
   },
   "us/georgia": {
-    "prev": "es/galicia",
+    "prev": "nl/gelderland",
     "next": "gibraltar",
     "cat": "subdivisions"
   },
@@ -2971,11 +3011,16 @@
   },
   "pl/greater-poland": {
     "prev": "fr/grand-est",
+    "next": "nl/groningen",
+    "cat": "subdivisions"
+  },
+  "nl/groningen": {
+    "prev": "pl/greater-poland",
     "next": "fr/guadeloupe",
     "cat": "subdivisions"
   },
   "fr/guadeloupe": {
-    "prev": "pl/greater-poland",
+    "prev": "nl/groningen",
     "next": "mx/gto",
     "cat": "subdivisions"
   },
@@ -3001,11 +3046,16 @@
   },
   "jp/gunma": {
     "prev": "in/gujarat",
+    "next": "be/hainaut",
+    "cat": "subdivisions"
+  },
+  "be/hainaut": {
+    "prev": "jp/gunma",
     "next": "de/hamburg",
     "cat": "subdivisions"
   },
   "de/hamburg": {
-    "prev": "jp/gunma",
+    "prev": "be/hainaut",
     "next": "in/haryana",
     "cat": "subdivisions"
   },
@@ -3326,11 +3376,21 @@
   },
   "it/liguria": {
     "prev": "pl/lesser-poland",
+    "next": "nl/limburg",
+    "cat": "subdivisions"
+  },
+  "nl/limburg": {
+    "prev": "it/liguria",
+    "next": "be/limburg-be",
+    "cat": "subdivisions"
+  },
+  "be/limburg-be": {
+    "prev": "nl/limburg",
     "next": "ru/lipetsk-oblast",
     "cat": "subdivisions"
   },
   "ru/lipetsk-oblast": {
-    "prev": "it/liguria",
+    "prev": "be/limburg-be",
     "next": "pl/lodz",
     "cat": "subdivisions"
   },
@@ -3376,11 +3436,16 @@
   },
   "ua/lviv": {
     "prev": "ua/luhansk",
+    "next": "pt/madeira",
+    "cat": "subdivisions"
+  },
+  "pt/madeira": {
+    "prev": "ua/lviv",
     "next": "in/madhya-pradesh",
     "cat": "subdivisions"
   },
   "in/madhya-pradesh": {
-    "prev": "ua/lviv",
+    "prev": "pt/madeira",
     "next": "ru/magadan-oblast",
     "cat": "subdivisions"
   },
@@ -3661,21 +3726,31 @@
   },
   "fr/normandy": {
     "prev": "jp/niigata",
+    "next": "nl/north-brabant",
+    "cat": "subdivisions"
+  },
+  "nl/north-brabant": {
+    "prev": "fr/normandy",
     "next": "us/north-carolina",
     "cat": "subdivisions"
   },
   "us/north-carolina": {
-    "prev": "fr/normandy",
+    "prev": "nl/north-brabant",
     "next": "us/north-dakota",
     "cat": "subdivisions"
   },
   "us/north-dakota": {
     "prev": "us/north-carolina",
+    "next": "nl/north-holland",
+    "cat": "subdivisions"
+  },
+  "nl/north-holland": {
+    "prev": "us/north-dakota",
     "next": "id/north-kalimantan",
     "cat": "subdivisions"
   },
   "id/north-kalimantan": {
-    "prev": "us/north-dakota",
+    "prev": "nl/north-holland",
     "next": "id/north-maluku",
     "cat": "subdivisions"
   },
@@ -3826,11 +3901,16 @@
   },
   "jp/osaka": {
     "prev": "ru/oryol-oblast",
+    "next": "nl/overijssel",
+    "cat": "subdivisions"
+  },
+  "nl/overijssel": {
+    "prev": "jp/osaka",
     "next": "id/papua",
     "cat": "subdivisions"
   },
   "id/papua": {
-    "prev": "jp/osaka",
+    "prev": "nl/overijssel",
     "next": "br/pa",
     "cat": "subdivisions"
   },
@@ -4226,11 +4306,16 @@
   },
   "sgssi": {
     "prev": "us/south-dakota",
+    "next": "nl/south-holland",
+    "cat": "subdivisions"
+  },
+  "nl/south-holland": {
+    "prev": "sgssi",
     "next": "id/south-kalimantan",
     "cat": "subdivisions"
   },
   "id/south-kalimantan": {
-    "prev": "sgssi",
+    "prev": "nl/south-holland",
     "next": "id/south-sulawesi",
     "cat": "subdivisions"
   },
@@ -4326,11 +4411,16 @@
   },
   "us/texas": {
     "prev": "ua/ternopil",
+    "next": "gr/thessaly",
+    "cat": "subdivisions"
+  },
+  "gr/thessaly": {
+    "prev": "us/texas",
     "next": "de/thuringia",
     "cat": "subdivisions"
   },
   "de/thuringia": {
-    "prev": "us/texas",
+    "prev": "gr/thessaly",
     "next": "ar/tierra-del-fuego",
     "cat": "subdivisions"
   },
@@ -4446,11 +4536,16 @@
   },
   "us/utah": {
     "prev": "it/umbria",
+    "next": "nl/utrecht",
+    "cat": "subdivisions"
+  },
+  "nl/utrecht": {
+    "prev": "us/utah",
     "next": "in/uttar-pradesh",
     "cat": "subdivisions"
   },
   "in/uttar-pradesh": {
-    "prev": "us/utah",
+    "prev": "nl/utrecht",
     "next": "in/uttarakhand",
     "cat": "subdivisions"
   },
@@ -4526,11 +4621,16 @@
   },
   "uk/wales": {
     "prev": "jp/wakayama",
+    "next": "be/wallonia",
+    "cat": "subdivisions"
+  },
+  "be/wallonia": {
+    "prev": "uk/wales",
     "next": "pl/warmian-masurian",
     "cat": "subdivisions"
   },
   "pl/warmian-masurian": {
-    "prev": "uk/wales",
+    "prev": "be/wallonia",
     "next": "us/washington",
     "cat": "subdivisions"
   },
@@ -4541,11 +4641,16 @@
   },
   "us/washington-dc": {
     "prev": "us/washington",
+    "next": "be/west-flanders",
+    "cat": "subdivisions"
+  },
+  "be/west-flanders": {
+    "prev": "us/washington-dc",
     "next": "id/west-java",
     "cat": "subdivisions"
   },
   "id/west-java": {
-    "prev": "us/washington-dc",
+    "prev": "be/west-flanders",
     "next": "id/west-kalimantan",
     "cat": "subdivisions"
   },
@@ -4581,11 +4686,16 @@
   },
   "au/western-australia": {
     "prev": "us/west-virginia",
+    "next": "gr/western-greece",
+    "cat": "subdivisions"
+  },
+  "gr/western-greece": {
+    "prev": "au/western-australia",
     "next": "us/wisconsin",
     "cat": "subdivisions"
   },
   "us/wisconsin": {
-    "prev": "au/western-australia",
+    "prev": "gr/western-greece",
     "next": "us/wyoming",
     "cat": "subdivisions"
   },
@@ -4646,11 +4756,16 @@
   },
   "ua/zaporizhzhia": {
     "prev": "ua/zakarpattia",
+    "next": "nl/zeeland",
+    "cat": "subdivisions"
+  },
+  "nl/zeeland": {
+    "prev": "ua/zaporizhzhia",
     "next": "ua/zhytomyr",
     "cat": "subdivisions"
   },
   "ua/zhytomyr": {
-    "prev": "ua/zaporizhzhia",
+    "prev": "nl/zeeland",
     "next": "au/aboriginal",
     "cat": "subdivisions"
   },

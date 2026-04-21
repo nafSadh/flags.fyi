@@ -280,6 +280,55 @@
     "id": "belgium",
     "index": "c/belgium"
   },
+  "be/brussels-capital": {
+    "g": "sub,europe",
+    "ns": "belgium-sub",
+    "name": "Brussels Capital",
+    "id": "be/brussels-capital",
+    "index": "c/be/brussels-capital"
+  },
+  "be/flanders": {
+    "g": "sub,europe",
+    "ns": "belgium-sub",
+    "name": "Flanders",
+    "id": "be/flanders",
+    "index": "c/be/flanders"
+  },
+  "be/flemish-brabant": {
+    "g": "sub,europe",
+    "ns": "belgium-sub",
+    "name": "Flemish Brabant",
+    "id": "be/flemish-brabant",
+    "index": "c/be/flemish-brabant"
+  },
+  "be/hainaut": {
+    "g": "sub,europe",
+    "ns": "belgium-sub",
+    "name": "Hainaut",
+    "id": "be/hainaut",
+    "index": "c/be/hainaut"
+  },
+  "be/limburg-be": {
+    "g": "sub,europe",
+    "ns": "belgium-sub",
+    "name": "Limburg Be",
+    "id": "be/limburg-be",
+    "index": "c/be/limburg-be"
+  },
+  "be/wallonia": {
+    "g": "sub,europe",
+    "ns": "belgium-sub",
+    "name": "Wallonia",
+    "id": "be/wallonia",
+    "index": "c/be/wallonia"
+  },
+  "be/west-flanders": {
+    "g": "sub,europe",
+    "ns": "belgium-sub",
+    "name": "West Flanders",
+    "id": "be/west-flanders",
+    "index": "c/be/west-flanders"
+  },
   "bermuda": {
     "ns": "british",
     "g": "bot",
@@ -858,6 +907,20 @@
     "name": "Greece",
     "id": "greece",
     "index": "c/greece"
+  },
+  "gr/thessaly": {
+    "g": "sub,europe",
+    "ns": "greece-sub",
+    "name": "Thessaly",
+    "id": "gr/thessaly",
+    "index": "c/gr/thessaly"
+  },
+  "gr/western-greece": {
+    "g": "sub,europe",
+    "ns": "greece-sub",
+    "name": "Western Greece",
+    "id": "gr/western-greece",
+    "index": "c/gr/western-greece"
   },
   "guernsey": {
     "ns": "british.cd",
@@ -1724,6 +1787,90 @@
     "id": "netherlands",
     "index": "c/netherlands"
   },
+  "nl/drenthe": {
+    "g": "sub,europe",
+    "ns": "netherlands-sub",
+    "name": "Drenthe",
+    "id": "nl/drenthe",
+    "index": "c/nl/drenthe"
+  },
+  "nl/flevoland": {
+    "g": "sub,europe",
+    "ns": "netherlands-sub",
+    "name": "Flevoland",
+    "id": "nl/flevoland",
+    "index": "c/nl/flevoland"
+  },
+  "nl/friesland": {
+    "g": "sub,europe",
+    "ns": "netherlands-sub",
+    "name": "Friesland",
+    "id": "nl/friesland",
+    "index": "c/nl/friesland"
+  },
+  "nl/gelderland": {
+    "g": "sub,europe",
+    "ns": "netherlands-sub",
+    "name": "Gelderland",
+    "id": "nl/gelderland",
+    "index": "c/nl/gelderland"
+  },
+  "nl/groningen": {
+    "g": "sub,europe",
+    "ns": "netherlands-sub",
+    "name": "Groningen",
+    "id": "nl/groningen",
+    "index": "c/nl/groningen"
+  },
+  "nl/limburg": {
+    "g": "sub,europe",
+    "ns": "netherlands-sub",
+    "name": "Limburg",
+    "id": "nl/limburg",
+    "index": "c/nl/limburg"
+  },
+  "nl/north-brabant": {
+    "g": "sub,europe",
+    "ns": "netherlands-sub",
+    "name": "North Brabant",
+    "id": "nl/north-brabant",
+    "index": "c/nl/north-brabant"
+  },
+  "nl/north-holland": {
+    "g": "sub,europe",
+    "ns": "netherlands-sub",
+    "name": "North Holland",
+    "id": "nl/north-holland",
+    "index": "c/nl/north-holland"
+  },
+  "nl/overijssel": {
+    "g": "sub,europe",
+    "ns": "netherlands-sub",
+    "name": "Overijssel",
+    "id": "nl/overijssel",
+    "index": "c/nl/overijssel"
+  },
+  "nl/south-holland": {
+    "g": "sub,europe",
+    "ns": "netherlands-sub",
+    "name": "South Holland",
+    "id": "nl/south-holland",
+    "index": "c/nl/south-holland"
+  },
+  "nl/utrecht": {
+    "g": "sub,europe",
+    "ns": "netherlands-sub",
+    "name": "Utrecht",
+    "id": "nl/utrecht",
+    "index": "c/nl/utrecht"
+  },
+  "nl/zeeland": {
+    "g": "sub,europe",
+    "ns": "netherlands-sub",
+    "name": "Zeeland",
+    "id": "nl/zeeland",
+    "index": "c/nl/zeeland"
+  },
   "new-zealand": {
     "g": "oceania",
     "ns": "new-zealand",
@@ -1926,6 +2073,20 @@
     "name": "Portugal",
     "id": "portugal",
     "index": "c/portugal"
+  },
+  "pt/azores": {
+    "g": "sub,europe",
+    "ns": "portugal-sub",
+    "name": "Azores",
+    "id": "pt/azores",
+    "index": "c/pt/azores"
+  },
+  "pt/madeira": {
+    "g": "sub,europe",
+    "ns": "portugal-sub",
+    "name": "Madeira",
+    "id": "pt/madeira",
+    "index": "c/pt/madeira"
   },
   "qatar": {
     "g": "nf,as,arab,gulf",
