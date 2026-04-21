@@ -175,6 +175,30 @@
     "keywords": "afsharid dynasty state flag of the afsharid dynasty historic empire asia red blue white"
   },
   {
+    "id": "jp/aichi",
+    "name": "Aichi Prefecture",
+    "title": "Flag of Aichi Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/aichi.svg",
+    "keywords": "aichi prefecture flag of aichi prefecture sub asia"
+  },
+  {
+    "id": "jp/akita",
+    "name": "Akita Prefecture",
+    "title": "Flag of Akita Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/akita.svg",
+    "keywords": "akita prefecture flag of akita prefecture sub asia"
+  },
+  {
     "id": "us/alaska",
     "name": "Alaska",
     "title": "Flag of Alaska",
@@ -419,6 +443,18 @@
     ],
     "flag": "/antigua-and-barbuda/flag.svg",
     "keywords": "antigua and barbuda flag of antigua and barbuda caribbean red blue yellow black white"
+  },
+  {
+    "id": "jp/aomori",
+    "name": "Aomori Prefecture",
+    "title": "Flag of Aomori Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/aomori.svg",
+    "keywords": "aomori prefecture flag of aomori prefecture sub asia"
   },
   {
     "id": "aq-qoyunlu",
@@ -1399,6 +1435,18 @@
     "keywords": "chad flag of chad national-flag africa arab africa"
   },
   {
+    "id": "jp/chiba",
+    "name": "Chiba Prefecture",
+    "title": "Flag of Chiba Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/chiba.svg",
+    "keywords": "chiba prefecture flag of chiba prefecture sub asia"
+  },
+  {
     "id": "chile",
     "name": "Chile",
     "title": "Flag of Chile",
@@ -1996,6 +2044,18 @@
     "keywords": "egyptian revolution egyptian revolution flag historic former-flag red white black"
   },
   {
+    "id": "jp/ehime",
+    "name": "Ehime Prefecture",
+    "title": "Flag of Ehime Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/ehime.svg",
+    "keywords": "ehime prefecture flag of ehime prefecture sub asia"
+  },
+  {
     "id": "el-salvador",
     "name": "El Salvador",
     "title": "Flag of the Republic of El Salvador",
@@ -2421,6 +2481,42 @@
     "keywords": "french mandate syria flag of the french mandate of syria historic colonial levant green white blue"
   },
   {
+    "id": "jp/fukui",
+    "name": "Fukui Prefecture",
+    "title": "Flag of Fukui Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/fukui.svg",
+    "keywords": "fukui prefecture flag of fukui prefecture sub asia"
+  },
+  {
+    "id": "jp/fukuoka",
+    "name": "Fukuoka Prefecture",
+    "title": "Flag of Fukuoka Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/fukuoka.svg",
+    "keywords": "fukuoka prefecture flag of fukuoka prefecture sub asia"
+  },
+  {
+    "id": "jp/fukushima",
+    "name": "Fukushima Prefecture",
+    "title": "Flag of Fukushima Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/fukushima.svg",
+    "keywords": "fukushima prefecture flag of fukushima prefecture sub asia"
+  },
+  {
     "id": "gabon",
     "name": "Gabon",
     "title": "Flag of the Gabonese Republic",
@@ -2530,6 +2626,18 @@
     ],
     "flag": "/british/gibraltar.svg",
     "keywords": "gibraltar flag of gibraltar british-overseas blue red white"
+  },
+  {
+    "id": "jp/gifu",
+    "name": "Gifu Prefecture",
+    "title": "Flag of Gifu Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/gifu.svg",
+    "keywords": "gifu prefecture flag of gifu prefecture sub asia"
   },
   {
     "id": "gokturk",
@@ -2765,6 +2873,18 @@
     "keywords": "gulf cooperation council flag of the gulf cooperation council intl gulf blue gold"
   },
   {
+    "id": "jp/gunma",
+    "name": "Gunma Prefecture",
+    "title": "Flag of Gunma Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/gunma.svg",
+    "keywords": "gunma prefecture flag of gunma prefecture sub asia"
+  },
+  {
     "id": "guyana",
     "name": "Guyana",
     "title": "Flag of the Co-operative Republic of Guyana",
@@ -2832,6 +2952,30 @@
     "keywords": "hawaii flag of hawaii sub north-america oceania blue red white"
   },
   {
+    "id": "jp/hiroshima",
+    "name": "Hiroshima Prefecture",
+    "title": "Flag of Hiroshima Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/hiroshima.svg",
+    "keywords": "hiroshima prefecture flag of hiroshima prefecture sub asia"
+  },
+  {
+    "id": "jp/hokkaido",
+    "name": "Hokkaido Prefecture",
+    "title": "Flag of Hokkaido Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/hokkaido.svg",
+    "keywords": "hokkaido prefecture flag of hokkaido prefecture sub asia"
+  },
+  {
     "id": "holy-roman-empire",
     "name": "Holy Roman Empire",
     "title": "Banner of the Holy Roman Empire",
@@ -2894,6 +3038,30 @@
     ],
     "flag": "/empires/hyderabad.svg",
     "keywords": "hyderabad state asafia flag of hyderabad state historic empire asia yellow green white red"
+  },
+  {
+    "id": "jp/hyogo",
+    "name": "Hyōgo Prefecture",
+    "title": "Flag of Hyōgo Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/hyogo.svg",
+    "keywords": "hyōgo prefecture flag of hyōgo prefecture sub asia"
+  },
+  {
+    "id": "jp/ibaraki",
+    "name": "Ibaraki Prefecture",
+    "title": "Flag of Ibaraki Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/ibaraki.svg",
+    "keywords": "ibaraki prefecture flag of ibaraki prefecture sub asia"
   },
   {
     "id": "iceland",
@@ -3136,6 +3304,18 @@
     "keywords": "ireland flag of ireland europe green white orange"
   },
   {
+    "id": "jp/ishikawa",
+    "name": "Ishikawa Prefecture",
+    "title": "Flag of Ishikawa Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/ishikawa.svg",
+    "keywords": "ishikawa prefecture flag of ishikawa prefecture sub asia"
+  },
+  {
     "id": "israel",
     "name": "Israel",
     "title": "Flag of Israel",
@@ -3214,6 +3394,18 @@
     ],
     "flag": "/italy/flag.svg",
     "keywords": "italy flag of italy europe green white red"
+  },
+  {
+    "id": "jp/iwate",
+    "name": "Iwate Prefecture",
+    "title": "Flag of Iwate Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/iwate.svg",
+    "keywords": "iwate prefecture flag of iwate prefecture sub asia"
   },
   {
     "id": "jamaica",
@@ -3334,6 +3526,30 @@
     "keywords": "juneteenth juneteenth flag — emancipation commemorative flag pan north-america"
   },
   {
+    "id": "jp/kagawa",
+    "name": "Kagawa Prefecture",
+    "title": "Flag of Kagawa Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/kagawa.svg",
+    "keywords": "kagawa prefecture flag of kagawa prefecture sub asia"
+  },
+  {
+    "id": "jp/kagoshima",
+    "name": "Kagoshima Prefecture",
+    "title": "Flag of Kagoshima Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/kagoshima.svg",
+    "keywords": "kagoshima prefecture flag of kagoshima prefecture sub asia"
+  },
+  {
     "id": "kalmar-union",
     "name": "Kalmar Union",
     "title": "Flag of the Kalmar Union",
@@ -3348,6 +3564,18 @@
     ],
     "flag": "/empires/kalmar-union.svg",
     "keywords": "kalmar union flag of the kalmar union historic empire europe yellow red"
+  },
+  {
+    "id": "jp/kanagawa",
+    "name": "Kanagawa Prefecture",
+    "title": "Flag of Kanagawa Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/kanagawa.svg",
+    "keywords": "kanagawa prefecture flag of kanagawa prefecture sub asia"
   },
   {
     "id": "kanem-bornu",
@@ -3706,6 +3934,18 @@
     "keywords": "knights templar beauseant of the knights templar historic empire europe black white red"
   },
   {
+    "id": "jp/kochi",
+    "name": "Kōchi Prefecture",
+    "title": "Flag of Kōchi Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/kochi.svg",
+    "keywords": "kōchi prefecture flag of kōchi prefecture sub asia"
+  },
+  {
     "id": "konbaung",
     "name": "Konbaung Dynasty",
     "title": "Peacock Standard of the Konbaung Dynasty",
@@ -3752,6 +3992,18 @@
     "keywords": "kosovo flag of the republic of kosovo national-flag europe blue gold white"
   },
   {
+    "id": "jp/kumamoto",
+    "name": "Kumamoto Prefecture",
+    "title": "Flag of Kumamoto Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/kumamoto.svg",
+    "keywords": "kumamoto prefecture flag of kumamoto prefecture sub asia"
+  },
+  {
     "id": "kurdish",
     "name": "Kurdish Flag",
     "title": "Flag of Kurdistan",
@@ -3781,6 +4033,18 @@
     "colors": [],
     "flag": "/kuwait/flag.svg",
     "keywords": "kuwait flag of kuwait national-flag asia arab gulf"
+  },
+  {
+    "id": "jp/kyoto",
+    "name": "Kyoto Prefecture",
+    "title": "Flag of Kyoto Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/kyoto.svg",
+    "keywords": "kyoto prefecture flag of kyoto prefecture sub asia"
   },
   {
     "id": "kyrgyzstan",
@@ -4358,6 +4622,18 @@
     "keywords": "micronesia flag of the federated states of micronesia national-flag oceania blue white"
   },
   {
+    "id": "jp/mie",
+    "name": "Mie Prefecture",
+    "title": "Flag of Mie Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/mie.svg",
+    "keywords": "mie prefecture flag of mie prefecture sub asia"
+  },
+  {
     "id": "us/mississippi",
     "name": "Mississippi",
     "title": "Flag of Mississippi (In God We Trust)",
@@ -4373,6 +4649,30 @@
     ],
     "flag": "/us-states/us-mississippi.svg",
     "keywords": "mississippi flag of mississippi (in god we trust) sub north-america blue red white gold"
+  },
+  {
+    "id": "jp/miyagi",
+    "name": "Miyagi Prefecture",
+    "title": "Flag of Miyagi Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/miyagi.svg",
+    "keywords": "miyagi prefecture flag of miyagi prefecture sub asia"
+  },
+  {
+    "id": "jp/miyazaki",
+    "name": "Miyazaki Prefecture",
+    "title": "Flag of Miyazaki Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/miyazaki.svg",
+    "keywords": "miyazaki prefecture flag of miyazaki prefecture sub asia"
   },
   {
     "id": "moheli",
@@ -4579,6 +4879,30 @@
     "keywords": "n. korea (dprk) flag of the democratic people's republic of korea (north korea) national-flag east-asia"
   },
   {
+    "id": "jp/nagano",
+    "name": "Nagano Prefecture",
+    "title": "Flag of Nagano Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/nagano.svg",
+    "keywords": "nagano prefecture flag of nagano prefecture sub asia"
+  },
+  {
+    "id": "jp/nagasaki",
+    "name": "Nagasaki Prefecture",
+    "title": "Flag of Nagasaki Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/nagasaki.svg",
+    "keywords": "nagasaki prefecture flag of nagasaki prefecture sub asia"
+  },
+  {
     "id": "namibia",
     "name": "Namibia",
     "title": "Flag of the Republic of Namibia",
@@ -4595,6 +4919,18 @@
     ],
     "flag": "/namibia/flag.svg",
     "keywords": "namibia flag of the republic of namibia national-flag africa blue red green white yellow"
+  },
+  {
+    "id": "jp/nara",
+    "name": "Nara Prefecture",
+    "title": "Flag of Nara Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/nara.svg",
+    "keywords": "nara prefecture flag of nara prefecture sub asia"
   },
   {
     "id": "nato",
@@ -4784,6 +5120,18 @@
     "keywords": "nigeria flag of nigeria africa green white"
   },
   {
+    "id": "jp/niigata",
+    "name": "Niigata Prefecture",
+    "title": "Flag of Niigata Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/niigata.svg",
+    "keywords": "niigata prefecture flag of niigata prefecture sub asia"
+  },
+  {
     "id": "north-macedonia",
     "name": "North Macedonia",
     "title": "Flag of the Republic of North Macedonia",
@@ -4863,6 +5211,42 @@
     ],
     "flag": "/us-states/us-ohio.svg",
     "keywords": "ohio flag of ohio (burgee) sub north-america red white blue"
+  },
+  {
+    "id": "jp/oita",
+    "name": "Ōita Prefecture",
+    "title": "Flag of Ōita Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/oita.svg",
+    "keywords": "ōita prefecture flag of ōita prefecture sub asia"
+  },
+  {
+    "id": "jp/okayama",
+    "name": "Okayama Prefecture",
+    "title": "Flag of Okayama Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/okayama.svg",
+    "keywords": "okayama prefecture flag of okayama prefecture sub asia"
+  },
+  {
+    "id": "jp/okinawa",
+    "name": "Okinawa Prefecture",
+    "title": "Flag of Okinawa Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/okinawa.svg",
+    "keywords": "okinawa prefecture flag of okinawa prefecture sub asia"
   },
   {
     "id": "olympic",
@@ -4983,6 +5367,18 @@
     ],
     "flag": "/korea-hist/kr-taegeukgi-1883.svg",
     "keywords": "original taegeukgi original taegeukgi (1883) historic former-flag east-asia white red blue black"
+  },
+  {
+    "id": "jp/osaka",
+    "name": "Osaka Prefecture",
+    "title": "Flag of Osaka Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/osaka.svg",
+    "keywords": "osaka prefecture flag of osaka prefecture sub asia"
   },
   {
     "id": "ottoman",
@@ -5749,6 +6145,18 @@
     "keywords": "safavid empire flag of the safavid empire historic empire asia green gold"
   },
   {
+    "id": "jp/saga",
+    "name": "Saga Prefecture",
+    "title": "Flag of Saga Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/saga.svg",
+    "keywords": "saga prefecture flag of saga prefecture sub asia"
+  },
+  {
     "id": "saint-helena",
     "name": "Saint Helena",
     "title": "Flag of Saint Helena",
@@ -5813,6 +6221,18 @@
     ],
     "flag": "/saint-vincent-and-the-grenadines/flag.svg",
     "keywords": "saint vincent and the grenadines flag of saint vincent and the grenadines national-flag caribbean blue gold green"
+  },
+  {
+    "id": "jp/saitama",
+    "name": "Saitama Prefecture",
+    "title": "Flag of Saitama Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/saitama.svg",
+    "keywords": "saitama prefecture flag of saitama prefecture sub asia"
   },
   {
     "id": "samanid",
@@ -6033,6 +6453,42 @@
     ],
     "flag": "/seychelles/flag.svg",
     "keywords": "seychelles flag of the republic of seychelles national-flag africa blue yellow red white green"
+  },
+  {
+    "id": "jp/shiga",
+    "name": "Shiga Prefecture",
+    "title": "Flag of Shiga Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/shiga.svg",
+    "keywords": "shiga prefecture flag of shiga prefecture sub asia"
+  },
+  {
+    "id": "jp/shimane",
+    "name": "Shimane Prefecture",
+    "title": "Flag of Shimane Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/shimane.svg",
+    "keywords": "shimane prefecture flag of shimane prefecture sub asia"
+  },
+  {
+    "id": "jp/shizuoka",
+    "name": "Shizuoka Prefecture",
+    "title": "Flag of Shizuoka Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/shizuoka.svg",
+    "keywords": "shizuoka prefecture flag of shizuoka prefecture sub asia"
   },
   {
     "id": "th-siam-elephant",
@@ -6707,6 +7163,18 @@
     "keywords": "timor leste flag of the democratic republic of timor-leste national-flag asia southeast-asia red yellow black white"
   },
   {
+    "id": "jp/tochigi",
+    "name": "Tochigi Prefecture",
+    "title": "Flag of Tochigi Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/tochigi.svg",
+    "keywords": "tochigi prefecture flag of tochigi prefecture sub asia"
+  },
+  {
     "id": "togo",
     "name": "Togo",
     "title": "Flag of the Togolese Republic",
@@ -6739,6 +7207,30 @@
     "keywords": "tokugawa shogunate flag of the tokugawa shogunate historic east-asia white black"
   },
   {
+    "id": "jp/tokushima",
+    "name": "Tokushima Prefecture",
+    "title": "Flag of Tokushima Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/tokushima.svg",
+    "keywords": "tokushima prefecture flag of tokushima prefecture sub asia"
+  },
+  {
+    "id": "jp/tokyo",
+    "name": "Tokyo Prefecture",
+    "title": "Flag of Tokyo Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/tokyo.svg",
+    "keywords": "tokyo prefecture flag of tokyo prefecture sub asia"
+  },
+  {
     "id": "tonga",
     "name": "Tonga",
     "title": "Flag of the Kingdom of Tonga",
@@ -6769,6 +7261,30 @@
     ],
     "flag": "/australia-sub/au-torres-strait.svg",
     "keywords": "torres strait islander flag torres strait islander flag sub oceania green blue black white"
+  },
+  {
+    "id": "jp/tottori",
+    "name": "Tottori Prefecture",
+    "title": "Flag of Tottori Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/tottori.svg",
+    "keywords": "tottori prefecture flag of tottori prefecture sub asia"
+  },
+  {
+    "id": "jp/toyama",
+    "name": "Toyama Prefecture",
+    "title": "Flag of Toyama Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/toyama.svg",
+    "keywords": "toyama prefecture flag of toyama prefecture sub asia"
   },
   {
     "id": "pride-trans",
@@ -7167,6 +7683,18 @@
     "keywords": "vietnam flag of vietnam asia southeast-asia red yellow"
   },
   {
+    "id": "jp/wakayama",
+    "name": "Wakayama Prefecture",
+    "title": "Flag of Wakayama Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/wakayama.svg",
+    "keywords": "wakayama prefecture flag of wakayama prefecture sub asia"
+  },
+  {
     "id": "uk/wales",
     "name": "Wales",
     "title": "Flag of Wales (Y Ddraig Goch)",
@@ -7245,6 +7773,42 @@
     ],
     "flag": "/maritime/white-ensign.svg",
     "keywords": "white ensign white ensign of the royal navy maritime white red blue"
+  },
+  {
+    "id": "jp/yamagata",
+    "name": "Yamagata Prefecture",
+    "title": "Flag of Yamagata Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/yamagata.svg",
+    "keywords": "yamagata prefecture flag of yamagata prefecture sub asia"
+  },
+  {
+    "id": "jp/yamaguchi",
+    "name": "Yamaguchi Prefecture",
+    "title": "Flag of Yamaguchi Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/yamaguchi.svg",
+    "keywords": "yamaguchi prefecture flag of yamaguchi prefecture sub asia"
+  },
+  {
+    "id": "jp/yamanashi",
+    "name": "Yamanashi Prefecture",
+    "title": "Flag of Yamanashi Prefecture",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/japan-sub/yamanashi.svg",
+    "keywords": "yamanashi prefecture flag of yamanashi prefecture sub asia"
   },
   {
     "id": "yemen",

@@ -1869,6 +1869,335 @@
     "id": "jp-rising-sun-navy",
     "index": "c/japan:1889"
   },
+  "jp/hokkaido": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Hokkaido Prefecture",
+    "id": "jp/hokkaido",
+    "index": "c/jp/hokkaido"
+  },
+  "jp/aomori": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Aomori Prefecture",
+    "id": "jp/aomori",
+    "index": "c/jp/aomori"
+  },
+  "jp/iwate": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Iwate Prefecture",
+    "id": "jp/iwate",
+    "index": "c/jp/iwate"
+  },
+  "jp/miyagi": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Miyagi Prefecture",
+    "id": "jp/miyagi",
+    "index": "c/jp/miyagi"
+  },
+  "jp/akita": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Akita Prefecture",
+    "id": "jp/akita",
+    "index": "c/jp/akita"
+  },
+  "jp/yamagata": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Yamagata Prefecture",
+    "id": "jp/yamagata",
+    "index": "c/jp/yamagata"
+  },
+  "jp/fukushima": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Fukushima Prefecture",
+    "id": "jp/fukushima",
+    "index": "c/jp/fukushima"
+  },
+  "jp/ibaraki": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Ibaraki Prefecture",
+    "id": "jp/ibaraki",
+    "index": "c/jp/ibaraki"
+  },
+  "jp/tochigi": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Tochigi Prefecture",
+    "id": "jp/tochigi",
+    "index": "c/jp/tochigi"
+  },
+  "jp/gunma": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Gunma Prefecture",
+    "id": "jp/gunma",
+    "index": "c/jp/gunma"
+  },
+  "jp/saitama": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Saitama Prefecture",
+    "id": "jp/saitama",
+    "index": "c/jp/saitama"
+  },
+  "jp/chiba": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Chiba Prefecture",
+    "id": "jp/chiba",
+    "index": "c/jp/chiba"
+  },
+  "jp/tokyo": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Tokyo Prefecture",
+    "id": "jp/tokyo",
+    "index": "c/jp/tokyo"
+  },
+  "jp/kanagawa": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Kanagawa Prefecture",
+    "id": "jp/kanagawa",
+    "index": "c/jp/kanagawa"
+  },
+  "jp/niigata": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Niigata Prefecture",
+    "id": "jp/niigata",
+    "index": "c/jp/niigata"
+  },
+  "jp/toyama": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Toyama Prefecture",
+    "id": "jp/toyama",
+    "index": "c/jp/toyama"
+  },
+  "jp/ishikawa": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Ishikawa Prefecture",
+    "id": "jp/ishikawa",
+    "index": "c/jp/ishikawa"
+  },
+  "jp/fukui": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Fukui Prefecture",
+    "id": "jp/fukui",
+    "index": "c/jp/fukui"
+  },
+  "jp/yamanashi": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Yamanashi Prefecture",
+    "id": "jp/yamanashi",
+    "index": "c/jp/yamanashi"
+  },
+  "jp/nagano": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Nagano Prefecture",
+    "id": "jp/nagano",
+    "index": "c/jp/nagano"
+  },
+  "jp/gifu": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Gifu Prefecture",
+    "id": "jp/gifu",
+    "index": "c/jp/gifu"
+  },
+  "jp/shizuoka": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Shizuoka Prefecture",
+    "id": "jp/shizuoka",
+    "index": "c/jp/shizuoka"
+  },
+  "jp/aichi": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Aichi Prefecture",
+    "id": "jp/aichi",
+    "index": "c/jp/aichi"
+  },
+  "jp/mie": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Mie Prefecture",
+    "id": "jp/mie",
+    "index": "c/jp/mie"
+  },
+  "jp/shiga": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Shiga Prefecture",
+    "id": "jp/shiga",
+    "index": "c/jp/shiga"
+  },
+  "jp/kyoto": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Kyoto Prefecture",
+    "id": "jp/kyoto",
+    "index": "c/jp/kyoto"
+  },
+  "jp/osaka": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Osaka Prefecture",
+    "id": "jp/osaka",
+    "index": "c/jp/osaka"
+  },
+  "jp/hyogo": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Hyōgo Prefecture",
+    "id": "jp/hyogo",
+    "index": "c/jp/hyogo"
+  },
+  "jp/nara": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Nara Prefecture",
+    "id": "jp/nara",
+    "index": "c/jp/nara"
+  },
+  "jp/wakayama": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Wakayama Prefecture",
+    "id": "jp/wakayama",
+    "index": "c/jp/wakayama"
+  },
+  "jp/tottori": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Tottori Prefecture",
+    "id": "jp/tottori",
+    "index": "c/jp/tottori"
+  },
+  "jp/shimane": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Shimane Prefecture",
+    "id": "jp/shimane",
+    "index": "c/jp/shimane"
+  },
+  "jp/okayama": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Okayama Prefecture",
+    "id": "jp/okayama",
+    "index": "c/jp/okayama"
+  },
+  "jp/hiroshima": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Hiroshima Prefecture",
+    "id": "jp/hiroshima",
+    "index": "c/jp/hiroshima"
+  },
+  "jp/yamaguchi": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Yamaguchi Prefecture",
+    "id": "jp/yamaguchi",
+    "index": "c/jp/yamaguchi"
+  },
+  "jp/tokushima": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Tokushima Prefecture",
+    "id": "jp/tokushima",
+    "index": "c/jp/tokushima"
+  },
+  "jp/kagawa": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Kagawa Prefecture",
+    "id": "jp/kagawa",
+    "index": "c/jp/kagawa"
+  },
+  "jp/ehime": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Ehime Prefecture",
+    "id": "jp/ehime",
+    "index": "c/jp/ehime"
+  },
+  "jp/kochi": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Kōchi Prefecture",
+    "id": "jp/kochi",
+    "index": "c/jp/kochi"
+  },
+  "jp/fukuoka": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Fukuoka Prefecture",
+    "id": "jp/fukuoka",
+    "index": "c/jp/fukuoka"
+  },
+  "jp/saga": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Saga Prefecture",
+    "id": "jp/saga",
+    "index": "c/jp/saga"
+  },
+  "jp/nagasaki": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Nagasaki Prefecture",
+    "id": "jp/nagasaki",
+    "index": "c/jp/nagasaki"
+  },
+  "jp/kumamoto": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Kumamoto Prefecture",
+    "id": "jp/kumamoto",
+    "index": "c/jp/kumamoto"
+  },
+  "jp/oita": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Ōita Prefecture",
+    "id": "jp/oita",
+    "index": "c/jp/oita"
+  },
+  "jp/miyazaki": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Miyazaki Prefecture",
+    "id": "jp/miyazaki",
+    "index": "c/jp/miyazaki"
+  },
+  "jp/kagoshima": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Kagoshima Prefecture",
+    "id": "jp/kagoshima",
+    "index": "c/jp/kagoshima"
+  },
+  "jp/okinawa": {
+    "g": "sub,asia",
+    "ns": "japan-sub",
+    "name": "Okinawa Prefecture",
+    "id": "jp/okinawa",
+    "index": "c/jp/okinawa"
+  },
   "kr-joseon": {
     "g": "h,east-asia",
     "ns": "korea-hist",

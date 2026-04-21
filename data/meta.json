@@ -1845,12 +1845,22 @@
     "cat": "countries"
   },
   "au/aboriginal": {
-    "prev": "us/washington-dc",
+    "prev": "jp/yamanashi",
+    "next": "jp/aichi",
+    "cat": "subdivisions"
+  },
+  "jp/aichi": {
+    "prev": "au/aboriginal",
+    "next": "jp/akita",
+    "cat": "subdivisions"
+  },
+  "jp/akita": {
+    "prev": "jp/aichi",
     "next": "us/alaska",
     "cat": "subdivisions"
   },
   "us/alaska": {
-    "prev": "au/aboriginal",
+    "prev": "jp/akita",
     "next": "ca/alberta",
     "cat": "subdivisions"
   },
@@ -1876,11 +1886,16 @@
   },
   "anguilla-governor": {
     "prev": "anguilla",
+    "next": "jp/aomori",
+    "cat": "subdivisions"
+  },
+  "jp/aomori": {
+    "prev": "anguilla-governor",
     "next": "us/arizona",
     "cat": "subdivisions"
   },
   "us/arizona": {
-    "prev": "anguilla-governor",
+    "prev": "jp/aomori",
     "next": "ascension-island",
     "cat": "subdivisions"
   },
@@ -1941,11 +1956,16 @@
   },
   "cayman-islands": {
     "prev": "us/california",
+    "next": "jp/chiba",
+    "cat": "subdivisions"
+  },
+  "jp/chiba": {
+    "prev": "cayman-islands",
     "next": "us/colorado",
     "cat": "subdivisions"
   },
   "us/colorado": {
-    "prev": "cayman-islands",
+    "prev": "jp/chiba",
     "next": "uk/cornwall",
     "cat": "subdivisions"
   },
@@ -1956,66 +1976,186 @@
   },
   "anguilla-dolphin": {
     "prev": "uk/cornwall",
+    "next": "jp/ehime",
+    "cat": "subdivisions"
+  },
+  "jp/ehime": {
+    "prev": "anguilla-dolphin",
     "next": "uk/england",
     "cat": "subdivisions"
   },
   "uk/england": {
-    "prev": "anguilla-dolphin",
+    "prev": "jp/ehime",
+    "next": "jp/fukui",
+    "cat": "subdivisions"
+  },
+  "jp/fukui": {
+    "prev": "uk/england",
+    "next": "jp/fukuoka",
+    "cat": "subdivisions"
+  },
+  "jp/fukuoka": {
+    "prev": "jp/fukui",
+    "next": "jp/fukushima",
+    "cat": "subdivisions"
+  },
+  "jp/fukushima": {
+    "prev": "jp/fukuoka",
     "next": "us/georgia",
     "cat": "subdivisions"
   },
   "us/georgia": {
-    "prev": "uk/england",
+    "prev": "jp/fukushima",
     "next": "gibraltar",
     "cat": "subdivisions"
   },
   "gibraltar": {
     "prev": "us/georgia",
+    "next": "jp/gifu",
+    "cat": "subdivisions"
+  },
+  "jp/gifu": {
+    "prev": "gibraltar",
     "next": "guernsey",
     "cat": "subdivisions"
   },
   "guernsey": {
-    "prev": "gibraltar",
+    "prev": "jp/gifu",
+    "next": "jp/gunma",
+    "cat": "subdivisions"
+  },
+  "jp/gunma": {
+    "prev": "guernsey",
     "next": "us/hawaii",
     "cat": "subdivisions"
   },
   "us/hawaii": {
-    "prev": "guernsey",
+    "prev": "jp/gunma",
+    "next": "jp/hiroshima",
+    "cat": "subdivisions"
+  },
+  "jp/hiroshima": {
+    "prev": "us/hawaii",
+    "next": "jp/hokkaido",
+    "cat": "subdivisions"
+  },
+  "jp/hokkaido": {
+    "prev": "jp/hiroshima",
+    "next": "jp/hyogo",
+    "cat": "subdivisions"
+  },
+  "jp/hyogo": {
+    "prev": "jp/hokkaido",
+    "next": "jp/ibaraki",
+    "cat": "subdivisions"
+  },
+  "jp/ibaraki": {
+    "prev": "jp/hyogo",
+    "next": "jp/ishikawa",
+    "cat": "subdivisions"
+  },
+  "jp/ishikawa": {
+    "prev": "jp/ibaraki",
+    "next": "jp/iwate",
+    "cat": "subdivisions"
+  },
+  "jp/iwate": {
+    "prev": "jp/ishikawa",
     "next": "in/jammu-kashmir",
     "cat": "subdivisions"
   },
   "in/jammu-kashmir": {
-    "prev": "us/hawaii",
+    "prev": "jp/iwate",
     "next": "jersey",
     "cat": "subdivisions"
   },
   "jersey": {
     "prev": "in/jammu-kashmir",
+    "next": "jp/kagawa",
+    "cat": "subdivisions"
+  },
+  "jp/kagawa": {
+    "prev": "jersey",
+    "next": "jp/kagoshima",
+    "cat": "subdivisions"
+  },
+  "jp/kagoshima": {
+    "prev": "jp/kagawa",
+    "next": "jp/kanagawa",
+    "cat": "subdivisions"
+  },
+  "jp/kanagawa": {
+    "prev": "jp/kagoshima",
+    "next": "jp/kochi",
+    "cat": "subdivisions"
+  },
+  "jp/kochi": {
+    "prev": "jp/kanagawa",
+    "next": "jp/kumamoto",
+    "cat": "subdivisions"
+  },
+  "jp/kumamoto": {
+    "prev": "jp/kochi",
+    "next": "jp/kyoto",
+    "cat": "subdivisions"
+  },
+  "jp/kyoto": {
+    "prev": "jp/kumamoto",
     "next": "mann",
     "cat": "subdivisions"
   },
   "mann": {
-    "prev": "jersey",
+    "prev": "jp/kyoto",
     "next": "us/maryland",
     "cat": "subdivisions"
   },
   "us/maryland": {
     "prev": "mann",
+    "next": "jp/mie",
+    "cat": "subdivisions"
+  },
+  "jp/mie": {
+    "prev": "us/maryland",
     "next": "us/mississippi",
     "cat": "subdivisions"
   },
   "us/mississippi": {
-    "prev": "us/maryland",
+    "prev": "jp/mie",
+    "next": "jp/miyagi",
+    "cat": "subdivisions"
+  },
+  "jp/miyagi": {
+    "prev": "us/mississippi",
+    "next": "jp/miyazaki",
+    "cat": "subdivisions"
+  },
+  "jp/miyazaki": {
+    "prev": "jp/miyagi",
     "next": "montserrat",
     "cat": "subdivisions"
   },
   "montserrat": {
-    "prev": "us/mississippi",
+    "prev": "jp/miyazaki",
+    "next": "jp/nagano",
+    "cat": "subdivisions"
+  },
+  "jp/nagano": {
+    "prev": "montserrat",
+    "next": "jp/nagasaki",
+    "cat": "subdivisions"
+  },
+  "jp/nagasaki": {
+    "prev": "jp/nagano",
+    "next": "jp/nara",
+    "cat": "subdivisions"
+  },
+  "jp/nara": {
+    "prev": "jp/nagasaki",
     "next": "us/new-mexico",
     "cat": "subdivisions"
   },
   "us/new-mexico": {
-    "prev": "montserrat",
+    "prev": "jp/nara",
     "next": "au/new-south-wales",
     "cat": "subdivisions"
   },
@@ -2026,26 +2166,51 @@
   },
   "us/new-york": {
     "prev": "au/new-south-wales",
+    "next": "jp/niigata",
+    "cat": "subdivisions"
+  },
+  "jp/niigata": {
+    "prev": "us/new-york",
     "next": "uk/northern-ireland",
     "cat": "subdivisions"
   },
   "uk/northern-ireland": {
-    "prev": "us/new-york",
+    "prev": "jp/niigata",
     "next": "us/ohio",
     "cat": "subdivisions"
   },
   "us/ohio": {
     "prev": "uk/northern-ireland",
+    "next": "jp/oita",
+    "cat": "subdivisions"
+  },
+  "jp/oita": {
+    "prev": "us/ohio",
+    "next": "jp/okayama",
+    "cat": "subdivisions"
+  },
+  "jp/okayama": {
+    "prev": "jp/oita",
+    "next": "jp/okinawa",
+    "cat": "subdivisions"
+  },
+  "jp/okinawa": {
+    "prev": "jp/okayama",
     "next": "ca/ontario",
     "cat": "subdivisions"
   },
   "ca/ontario": {
-    "prev": "us/ohio",
+    "prev": "jp/okinawa",
+    "next": "jp/osaka",
+    "cat": "subdivisions"
+  },
+  "jp/osaka": {
+    "prev": "ca/ontario",
     "next": "pitcairn",
     "cat": "subdivisions"
   },
   "pitcairn": {
-    "prev": "ca/ontario",
+    "prev": "jp/osaka",
     "next": "de/prussia",
     "cat": "subdivisions"
   },
@@ -2061,26 +2226,51 @@
   },
   "ca/quebec": {
     "prev": "us/puerto-rico",
+    "next": "jp/saga",
+    "cat": "subdivisions"
+  },
+  "jp/saga": {
+    "prev": "ca/quebec",
     "next": "saint-helena",
     "cat": "subdivisions"
   },
   "saint-helena": {
-    "prev": "ca/quebec",
+    "prev": "jp/saga",
+    "next": "jp/saitama",
+    "cat": "subdivisions"
+  },
+  "jp/saitama": {
+    "prev": "saint-helena",
     "next": "sark",
     "cat": "subdivisions"
   },
   "sark": {
-    "prev": "saint-helena",
+    "prev": "jp/saitama",
     "next": "uk/scotland",
     "cat": "subdivisions"
   },
   "uk/scotland": {
     "prev": "sark",
+    "next": "jp/shiga",
+    "cat": "subdivisions"
+  },
+  "jp/shiga": {
+    "prev": "uk/scotland",
+    "next": "jp/shimane",
+    "cat": "subdivisions"
+  },
+  "jp/shimane": {
+    "prev": "jp/shiga",
+    "next": "jp/shizuoka",
+    "cat": "subdivisions"
+  },
+  "jp/shizuoka": {
+    "prev": "jp/shimane",
     "next": "in/sikkim",
     "cat": "subdivisions"
   },
   "in/sikkim": {
-    "prev": "uk/scotland",
+    "prev": "jp/shizuoka",
     "next": "us/south-carolina",
     "cat": "subdivisions"
   },
@@ -2101,31 +2291,76 @@
   },
   "us/texas": {
     "prev": "in/tamil-nadu",
+    "next": "jp/tochigi",
+    "cat": "subdivisions"
+  },
+  "jp/tochigi": {
+    "prev": "us/texas",
+    "next": "jp/tokushima",
+    "cat": "subdivisions"
+  },
+  "jp/tokushima": {
+    "prev": "jp/tochigi",
+    "next": "jp/tokyo",
+    "cat": "subdivisions"
+  },
+  "jp/tokyo": {
+    "prev": "jp/tokushima",
     "next": "au/torres-strait",
     "cat": "subdivisions"
   },
   "au/torres-strait": {
-    "prev": "us/texas",
+    "prev": "jp/tokyo",
+    "next": "jp/tottori",
+    "cat": "subdivisions"
+  },
+  "jp/tottori": {
+    "prev": "au/torres-strait",
+    "next": "jp/toyama",
+    "cat": "subdivisions"
+  },
+  "jp/toyama": {
+    "prev": "jp/tottori",
     "next": "tristan",
     "cat": "subdivisions"
   },
   "tristan": {
-    "prev": "au/torres-strait",
+    "prev": "jp/toyama",
     "next": "tci",
     "cat": "subdivisions"
   },
   "tci": {
     "prev": "tristan",
+    "next": "jp/wakayama",
+    "cat": "subdivisions"
+  },
+  "jp/wakayama": {
+    "prev": "tci",
     "next": "uk/wales",
     "cat": "subdivisions"
   },
   "uk/wales": {
-    "prev": "tci",
+    "prev": "jp/wakayama",
     "next": "us/washington-dc",
     "cat": "subdivisions"
   },
   "us/washington-dc": {
     "prev": "uk/wales",
+    "next": "jp/yamagata",
+    "cat": "subdivisions"
+  },
+  "jp/yamagata": {
+    "prev": "us/washington-dc",
+    "next": "jp/yamaguchi",
+    "cat": "subdivisions"
+  },
+  "jp/yamaguchi": {
+    "prev": "jp/yamagata",
+    "next": "jp/yamanashi",
+    "cat": "subdivisions"
+  },
+  "jp/yamanashi": {
+    "prev": "jp/yamaguchi",
     "next": "au/aboriginal",
     "cat": "subdivisions"
   },
