@@ -145,6 +145,195 @@
     "id": "brazil",
     "index": "c/brazil"
   },
+  "br/ac": {
+    "g": "sub,south-america",
+    "ns": "brazil-sub",
+    "name": "Acre",
+    "id": "br/ac",
+    "index": "c/br/ac"
+  },
+  "br/al": {
+    "g": "sub,south-america",
+    "ns": "brazil-sub",
+    "name": "Alagoas",
+    "id": "br/al",
+    "index": "c/br/al"
+  },
+  "br/ap": {
+    "g": "sub,south-america",
+    "ns": "brazil-sub",
+    "name": "Amapá",
+    "id": "br/ap",
+    "index": "c/br/ap"
+  },
+  "br/am": {
+    "g": "sub,south-america",
+    "ns": "brazil-sub",
+    "name": "Amazonas",
+    "id": "br/am",
+    "index": "c/br/am"
+  },
+  "br/ba": {
+    "g": "sub,south-america",
+    "ns": "brazil-sub",
+    "name": "Bahia",
+    "id": "br/ba",
+    "index": "c/br/ba"
+  },
+  "br/ce": {
+    "g": "sub,south-america",
+    "ns": "brazil-sub",
+    "name": "Ceará",
+    "id": "br/ce",
+    "index": "c/br/ce"
+  },
+  "br/df": {
+    "g": "sub,south-america",
+    "ns": "brazil-sub",
+    "name": "Distrito Federal",
+    "id": "br/df",
+    "index": "c/br/df"
+  },
+  "br/es": {
+    "g": "sub,south-america",
+    "ns": "brazil-sub",
+    "name": "Espírito Santo",
+    "id": "br/es",
+    "index": "c/br/es"
+  },
+  "br/go": {
+    "g": "sub,south-america",
+    "ns": "brazil-sub",
+    "name": "Goiás",
+    "id": "br/go",
+    "index": "c/br/go"
+  },
+  "br/ma": {
+    "g": "sub,south-america",
+    "ns": "brazil-sub",
+    "name": "Maranhão",
+    "id": "br/ma",
+    "index": "c/br/ma"
+  },
+  "br/mt": {
+    "g": "sub,south-america",
+    "ns": "brazil-sub",
+    "name": "Mato Grosso",
+    "id": "br/mt",
+    "index": "c/br/mt"
+  },
+  "br/ms": {
+    "g": "sub,south-america",
+    "ns": "brazil-sub",
+    "name": "Mato Grosso do Sul",
+    "id": "br/ms",
+    "index": "c/br/ms"
+  },
+  "br/mg": {
+    "g": "sub,south-america",
+    "ns": "brazil-sub",
+    "name": "Minas Gerais",
+    "id": "br/mg",
+    "index": "c/br/mg"
+  },
+  "br/pa": {
+    "g": "sub,south-america",
+    "ns": "brazil-sub",
+    "name": "Pará",
+    "id": "br/pa",
+    "index": "c/br/pa"
+  },
+  "br/pb": {
+    "g": "sub,south-america",
+    "ns": "brazil-sub",
+    "name": "Paraíba",
+    "id": "br/pb",
+    "index": "c/br/pb"
+  },
+  "br/pr": {
+    "g": "sub,south-america",
+    "ns": "brazil-sub",
+    "name": "Paraná",
+    "id": "br/pr",
+    "index": "c/br/pr"
+  },
+  "br/pe": {
+    "g": "sub,south-america",
+    "ns": "brazil-sub",
+    "name": "Pernambuco",
+    "id": "br/pe",
+    "index": "c/br/pe"
+  },
+  "br/pi": {
+    "g": "sub,south-america",
+    "ns": "brazil-sub",
+    "name": "Piauí",
+    "id": "br/pi",
+    "index": "c/br/pi"
+  },
+  "br/rj": {
+    "g": "sub,south-america",
+    "ns": "brazil-sub",
+    "name": "Rio de Janeiro",
+    "id": "br/rj",
+    "index": "c/br/rj"
+  },
+  "br/rn": {
+    "g": "sub,south-america",
+    "ns": "brazil-sub",
+    "name": "Rio Grande do Norte",
+    "id": "br/rn",
+    "index": "c/br/rn"
+  },
+  "br/rs": {
+    "g": "sub,south-america",
+    "ns": "brazil-sub",
+    "name": "Rio Grande do Sul",
+    "id": "br/rs",
+    "index": "c/br/rs"
+  },
+  "br/ro": {
+    "g": "sub,south-america",
+    "ns": "brazil-sub",
+    "name": "Rondônia",
+    "id": "br/ro",
+    "index": "c/br/ro"
+  },
+  "br/rr": {
+    "g": "sub,south-america",
+    "ns": "brazil-sub",
+    "name": "Roraima",
+    "id": "br/rr",
+    "index": "c/br/rr"
+  },
+  "br/sc": {
+    "g": "sub,south-america",
+    "ns": "brazil-sub",
+    "name": "Santa Catarina",
+    "id": "br/sc",
+    "index": "c/br/sc"
+  },
+  "br/sp": {
+    "g": "sub,south-america",
+    "ns": "brazil-sub",
+    "name": "São Paulo",
+    "id": "br/sp",
+    "index": "c/br/sp"
+  },
+  "br/se": {
+    "g": "sub,south-america",
+    "ns": "brazil-sub",
+    "name": "Sergipe",
+    "id": "br/se",
+    "index": "c/br/se"
+  },
+  "br/to": {
+    "g": "sub,south-america",
+    "ns": "brazil-sub",
+    "name": "Tocantins",
+    "id": "br/to",
+    "index": "c/br/to"
+  },
   "british-antarctic-territory": {
     "g": "bot",
     "ns": "british",

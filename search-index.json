@@ -58,6 +58,18 @@
     "keywords": "achaemenid empire standard of the achaemenid empire historic empire asia gold purple"
   },
   {
+    "id": "br/ac",
+    "name": "Acre",
+    "title": "Flag of Acre",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/brazil-sub/ac.svg",
+    "keywords": "acre flag of acre sub south-america"
+  },
+  {
     "id": "afghanistan",
     "name": "Afghanistan",
     "title": "Flag of Afghanistan",
@@ -211,6 +223,18 @@
     "keywords": "alabama flag of alabama sub north-america"
   },
   {
+    "id": "br/al",
+    "name": "Alagoas",
+    "title": "Flag of Alagoas",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/brazil-sub/al.svg",
+    "keywords": "alagoas flag of alagoas sub south-america"
+  },
+  {
     "id": "us/alaska",
     "name": "Alaska",
     "title": "Flag of Alaska",
@@ -315,6 +339,18 @@
     "keywords": "almoravid dynasty flag of the almoravid dynasty historic caliphate maghreb white"
   },
   {
+    "id": "br/ap",
+    "name": "Amapá",
+    "title": "Flag of Amapá",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/brazil-sub/ap.svg",
+    "keywords": "amapá flag of amapá sub south-america"
+  },
+  {
     "id": "amazigh",
     "name": "Amazigh (Berber) Flag",
     "title": "Flag of the Amazigh (Berber) People",
@@ -330,6 +366,18 @@
     ],
     "flag": "/movements/amazigh.svg",
     "keywords": "amazigh (berber) flag flag of the amazigh (berber) people pan maghreb blue green yellow red"
+  },
+  {
+    "id": "br/am",
+    "name": "Amazonas",
+    "title": "Flag of Amazonas",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/brazil-sub/am.svg",
+    "keywords": "amazonas flag of amazonas sub south-america"
   },
   {
     "id": "es/andalusia",
@@ -760,6 +808,18 @@
     ],
     "flag": "/bahamas/flag.svg",
     "keywords": "bahamas flag of the commonwealth of the bahamas national-flag caribbean aquamarine yellow black"
+  },
+  {
+    "id": "br/ba",
+    "name": "Bahia",
+    "title": "Flag of Bahia",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/brazil-sub/ba.svg",
+    "keywords": "bahia flag of bahia sub south-america"
   },
   {
     "id": "bahrain",
@@ -1787,6 +1847,18 @@
     "keywords": "cayman islands flag of cayman islands british-overseas blue red white"
   },
   {
+    "id": "br/ce",
+    "name": "Ceará",
+    "title": "Flag of Ceará",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/brazil-sub/ce.svg",
+    "keywords": "ceará flag of ceará sub south-america"
+  },
+  {
     "id": "central-african-republic",
     "name": "Central African Republic",
     "title": "Flag of the Central African Republic",
@@ -2206,6 +2278,18 @@
     "keywords": "denmark flag of denmark (dannebrog) europe nordic red white"
   },
   {
+    "id": "br/df",
+    "name": "Distrito Federal",
+    "title": "Flag of Distrito Federal",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/brazil-sub/df.svg",
+    "keywords": "distrito federal flag of distrito federal sub south-america"
+  },
+  {
     "id": "djibouti",
     "name": "Djibouti",
     "title": "Flag of the Republic of Djibouti",
@@ -2606,6 +2690,18 @@
     ],
     "flag": "/eritrea/flag.svg",
     "keywords": "eritrea flag of the state of eritrea national-flag africa horn-of-africa red green blue yellow"
+  },
+  {
+    "id": "br/es",
+    "name": "Espírito Santo",
+    "title": "Flag of Espírito Santo",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/brazil-sub/es.svg",
+    "keywords": "espírito santo flag of espírito santo sub south-america"
   },
   {
     "id": "estonia",
@@ -3058,6 +3154,18 @@
     "colors": [],
     "flag": "/japan-sub/gifu.svg",
     "keywords": "gifu prefecture flag of gifu prefecture sub asia"
+  },
+  {
+    "id": "br/go",
+    "name": "Goiás",
+    "title": "Flag of Goiás",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/brazil-sub/go.svg",
+    "keywords": "goiás flag of goiás sub south-america"
   },
   {
     "id": "gokturk",
@@ -4981,6 +5089,18 @@
     "keywords": "mann (isle of man) flag of the isle of man british-overseas"
   },
   {
+    "id": "br/ma",
+    "name": "Maranhão",
+    "title": "Flag of Maranhão",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/brazil-sub/ma.svg",
+    "keywords": "maranhão flag of maranhão sub south-america"
+  },
+  {
     "id": "maratha",
     "name": "Maratha Empire",
     "title": "Bhagwa Dhwaj of the Maratha Empire",
@@ -5056,6 +5176,30 @@
     ],
     "flag": "/empires/mataram.svg",
     "keywords": "mataram sultanate flag of the mataram sultanate historic empire asia red white blue"
+  },
+  {
+    "id": "br/mt",
+    "name": "Mato Grosso",
+    "title": "Flag of Mato Grosso",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/brazil-sub/mt.svg",
+    "keywords": "mato grosso flag of mato grosso sub south-america"
+  },
+  {
+    "id": "br/ms",
+    "name": "Mato Grosso do Sul",
+    "title": "Flag of Mato Grosso do Sul",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/brazil-sub/ms.svg",
+    "keywords": "mato grosso do sul flag of mato grosso do sul sub south-america"
   },
   {
     "id": "mauritania",
@@ -5220,6 +5364,18 @@
     "colors": [],
     "flag": "/japan-sub/mie.svg",
     "keywords": "mie prefecture flag of mie prefecture sub asia"
+  },
+  {
+    "id": "br/mg",
+    "name": "Minas Gerais",
+    "title": "Flag of Minas Gerais",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/brazil-sub/mg.svg",
+    "keywords": "minas gerais flag of minas gerais sub south-america"
   },
   {
     "id": "us/minnesota",
@@ -6306,6 +6462,18 @@
     "keywords": "papua new guinea flag of the independent state of papua new guinea national-flag oceania red black yellow white"
   },
   {
+    "id": "br/pa",
+    "name": "Pará",
+    "title": "Flag of Pará",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/brazil-sub/pa.svg",
+    "keywords": "pará flag of pará sub south-america"
+  },
+  {
     "id": "paraguay",
     "name": "Paraguay",
     "title": "Flag of the Republic of Paraguay",
@@ -6320,6 +6488,30 @@
     ],
     "flag": "/paraguay/flag.svg",
     "keywords": "paraguay flag of the republic of paraguay national-flag south-america red white blue"
+  },
+  {
+    "id": "br/pb",
+    "name": "Paraíba",
+    "title": "Flag of Paraíba",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/brazil-sub/pb.svg",
+    "keywords": "paraíba flag of paraíba sub south-america"
+  },
+  {
+    "id": "br/pr",
+    "name": "Paraná",
+    "title": "Flag of Paraná",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/brazil-sub/pr.svg",
+    "keywords": "paraná flag of paraná sub south-america"
   },
   {
     "id": "parthian",
@@ -6348,6 +6540,18 @@
     "colors": [],
     "flag": "/us-states/pennsylvania.svg",
     "keywords": "pennsylvania flag of pennsylvania sub north-america"
+  },
+  {
+    "id": "br/pe",
+    "name": "Pernambuco",
+    "title": "Flag of Pernambuco",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/brazil-sub/pe.svg",
+    "keywords": "pernambuco flag of pernambuco sub south-america"
   },
   {
     "id": "peru",
@@ -6397,6 +6601,18 @@
     ],
     "flag": "/philippines/flag.svg",
     "keywords": "philippines flag of the philippines asia southeast-asia blue red white yellow"
+  },
+  {
+    "id": "br/pi",
+    "name": "Piauí",
+    "title": "Flag of Piauí",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/brazil-sub/pi.svg",
+    "keywords": "piauí flag of piauí sub south-america"
   },
   {
     "id": "pitcairn",
@@ -6803,6 +7019,42 @@
     "keywords": "rhode island flag of rhode island sub north-america"
   },
   {
+    "id": "br/rj",
+    "name": "Rio de Janeiro",
+    "title": "Flag of Rio de Janeiro",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/brazil-sub/rj.svg",
+    "keywords": "rio de janeiro flag of rio de janeiro sub south-america"
+  },
+  {
+    "id": "br/rn",
+    "name": "Rio Grande do Norte",
+    "title": "Flag of Rio Grande do Norte",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/brazil-sub/rn.svg",
+    "keywords": "rio grande do norte flag of rio grande do norte sub south-america"
+  },
+  {
+    "id": "br/rs",
+    "name": "Rio Grande do Sul",
+    "title": "Flag of Rio Grande do Sul",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/brazil-sub/rs.svg",
+    "keywords": "rio grande do sul flag of rio grande do sul sub south-america"
+  },
+  {
     "id": "roman-empire",
     "name": "Roman Empire",
     "title": "Vexillum of the Roman Empire",
@@ -6847,6 +7099,30 @@
     ],
     "flag": "/romania/flag.svg",
     "keywords": "romania flag of romania europe blue yellow red"
+  },
+  {
+    "id": "br/ro",
+    "name": "Rondônia",
+    "title": "Flag of Rondônia",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/brazil-sub/ro.svg",
+    "keywords": "rondônia flag of rondônia sub south-america"
+  },
+  {
+    "id": "br/rr",
+    "name": "Roraima",
+    "title": "Flag of Roraima",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/brazil-sub/rr.svg",
+    "keywords": "roraima flag of roraima sub south-america"
   },
   {
     "id": "russia",
@@ -7063,6 +7339,30 @@
     "keywords": "san marino flag of the republic of san marino national-flag europe white light blue gold"
   },
   {
+    "id": "br/sc",
+    "name": "Santa Catarina",
+    "title": "Flag of Santa Catarina",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/brazil-sub/sc.svg",
+    "keywords": "santa catarina flag of santa catarina sub south-america"
+  },
+  {
+    "id": "br/sp",
+    "name": "São Paulo",
+    "title": "Flag of São Paulo",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/brazil-sub/sp.svg",
+    "keywords": "são paulo flag of são paulo sub south-america"
+  },
+  {
     "id": "sao-tome-and-principe",
     "name": "Sao Tome and Principe",
     "title": "Flag of the Democratic Republic of São Tomé and Príncipe",
@@ -7251,6 +7551,18 @@
     ],
     "flag": "/serbia/flag.svg",
     "keywords": "serbia flag of the republic of serbia national-flag europe red blue white gold"
+  },
+  {
+    "id": "br/se",
+    "name": "Sergipe",
+    "title": "Flag of Sergipe",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/brazil-sub/se.svg",
+    "keywords": "sergipe flag of sergipe sub south-america"
   },
   {
     "id": "seychelles",
@@ -8013,6 +8325,18 @@
     ],
     "flag": "/timor-leste/flag.svg",
     "keywords": "timor leste flag of the democratic republic of timor-leste national-flag asia southeast-asia red yellow black white"
+  },
+  {
+    "id": "br/to",
+    "name": "Tocantins",
+    "title": "Flag of Tocantins",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/brazil-sub/to.svg",
+    "keywords": "tocantins flag of tocantins sub south-america"
   },
   {
     "id": "jp/tochigi",

@@ -1846,11 +1846,16 @@
   },
   "au/aboriginal": {
     "prev": "jp/yamanashi",
+    "next": "br/ac",
+    "cat": "subdivisions"
+  },
+  "br/ac": {
+    "prev": "au/aboriginal",
     "next": "jp/aichi",
     "cat": "subdivisions"
   },
   "jp/aichi": {
-    "prev": "au/aboriginal",
+    "prev": "br/ac",
     "next": "jp/akita",
     "cat": "subdivisions"
   },
@@ -1861,11 +1866,16 @@
   },
   "us/alabama": {
     "prev": "jp/akita",
+    "next": "br/al",
+    "cat": "subdivisions"
+  },
+  "br/al": {
+    "prev": "us/alabama",
     "next": "us/alaska",
     "cat": "subdivisions"
   },
   "us/alaska": {
-    "prev": "us/alabama",
+    "prev": "br/al",
     "next": "ca/alberta",
     "cat": "subdivisions"
   },
@@ -1876,11 +1886,21 @@
   },
   "alderney": {
     "prev": "ca/alberta",
+    "next": "br/ap",
+    "cat": "subdivisions"
+  },
+  "br/ap": {
+    "prev": "alderney",
+    "next": "br/am",
+    "cat": "subdivisions"
+  },
+  "br/am": {
+    "prev": "br/ap",
     "next": "es/andalusia",
     "cat": "subdivisions"
   },
   "es/andalusia": {
-    "prev": "alderney",
+    "prev": "br/am",
     "next": "anguilla",
     "cat": "subdivisions"
   },
@@ -1916,11 +1936,16 @@
   },
   "de/baden-wurttemberg": {
     "prev": "ascension-island",
+    "next": "br/ba",
+    "cat": "subdivisions"
+  },
+  "br/ba": {
+    "prev": "de/baden-wurttemberg",
     "next": "es/basque",
     "cat": "subdivisions"
   },
   "es/basque": {
-    "prev": "de/baden-wurttemberg",
+    "prev": "br/ba",
     "next": "de/bavaria",
     "cat": "subdivisions"
   },
@@ -2116,11 +2141,16 @@
   },
   "cayman-islands": {
     "prev": "ch/zurich",
+    "next": "br/ce",
+    "cat": "subdivisions"
+  },
+  "br/ce": {
+    "prev": "cayman-islands",
     "next": "jp/chiba",
     "cat": "subdivisions"
   },
   "jp/chiba": {
-    "prev": "cayman-islands",
+    "prev": "br/ce",
     "next": "us/colorado",
     "cat": "subdivisions"
   },
@@ -2141,11 +2171,16 @@
   },
   "us/delaware": {
     "prev": "uk/cornwall",
+    "next": "br/df",
+    "cat": "subdivisions"
+  },
+  "br/df": {
+    "prev": "us/delaware",
     "next": "anguilla-dolphin",
     "cat": "subdivisions"
   },
   "anguilla-dolphin": {
-    "prev": "us/delaware",
+    "prev": "br/df",
     "next": "jp/ehime",
     "cat": "subdivisions"
   },
@@ -2156,11 +2191,16 @@
   },
   "uk/england": {
     "prev": "jp/ehime",
+    "next": "br/es",
+    "cat": "subdivisions"
+  },
+  "br/es": {
+    "prev": "uk/england",
     "next": "us/florida",
     "cat": "subdivisions"
   },
   "us/florida": {
-    "prev": "uk/england",
+    "prev": "br/es",
     "next": "jp/fukui",
     "cat": "subdivisions"
   },
@@ -2191,11 +2231,16 @@
   },
   "jp/gifu": {
     "prev": "gibraltar",
+    "next": "br/go",
+    "cat": "subdivisions"
+  },
+  "br/go": {
+    "prev": "jp/gifu",
     "next": "guernsey",
     "cat": "subdivisions"
   },
   "guernsey": {
-    "prev": "jp/gifu",
+    "prev": "br/go",
     "next": "jp/gunma",
     "cat": "subdivisions"
   },
@@ -2336,21 +2381,36 @@
   },
   "mann": {
     "prev": "us/maine",
+    "next": "br/ma",
+    "cat": "subdivisions"
+  },
+  "br/ma": {
+    "prev": "mann",
     "next": "us/maryland",
     "cat": "subdivisions"
   },
   "us/maryland": {
-    "prev": "mann",
+    "prev": "br/ma",
     "next": "us/massachusetts",
     "cat": "subdivisions"
   },
   "us/massachusetts": {
     "prev": "us/maryland",
+    "next": "br/mt",
+    "cat": "subdivisions"
+  },
+  "br/mt": {
+    "prev": "us/massachusetts",
+    "next": "br/ms",
+    "cat": "subdivisions"
+  },
+  "br/ms": {
+    "prev": "br/mt",
     "next": "de/mecklenburg-vorpommern",
     "cat": "subdivisions"
   },
   "de/mecklenburg-vorpommern": {
-    "prev": "us/massachusetts",
+    "prev": "br/ms",
     "next": "us/michigan",
     "cat": "subdivisions"
   },
@@ -2361,11 +2421,16 @@
   },
   "jp/mie": {
     "prev": "us/michigan",
+    "next": "br/mg",
+    "cat": "subdivisions"
+  },
+  "br/mg": {
+    "prev": "jp/mie",
     "next": "us/minnesota",
     "cat": "subdivisions"
   },
   "us/minnesota": {
-    "prev": "jp/mie",
+    "prev": "br/mg",
     "next": "us/mississippi",
     "cat": "subdivisions"
   },
@@ -2511,16 +2576,41 @@
   },
   "jp/osaka": {
     "prev": "us/oregon",
+    "next": "br/pa",
+    "cat": "subdivisions"
+  },
+  "br/pa": {
+    "prev": "jp/osaka",
+    "next": "br/pb",
+    "cat": "subdivisions"
+  },
+  "br/pb": {
+    "prev": "br/pa",
+    "next": "br/pr",
+    "cat": "subdivisions"
+  },
+  "br/pr": {
+    "prev": "br/pb",
     "next": "us/pennsylvania",
     "cat": "subdivisions"
   },
   "us/pennsylvania": {
-    "prev": "jp/osaka",
+    "prev": "br/pr",
+    "next": "br/pe",
+    "cat": "subdivisions"
+  },
+  "br/pe": {
+    "prev": "us/pennsylvania",
+    "next": "br/pi",
+    "cat": "subdivisions"
+  },
+  "br/pi": {
+    "prev": "br/pe",
     "next": "pitcairn",
     "cat": "subdivisions"
   },
   "pitcairn": {
-    "prev": "us/pennsylvania",
+    "prev": "br/pi",
     "next": "de/prussia",
     "cat": "subdivisions"
   },
@@ -2546,11 +2636,36 @@
   },
   "us/rhode-island": {
     "prev": "de/rhineland-palatinate",
+    "next": "br/rj",
+    "cat": "subdivisions"
+  },
+  "br/rj": {
+    "prev": "us/rhode-island",
+    "next": "br/rn",
+    "cat": "subdivisions"
+  },
+  "br/rn": {
+    "prev": "br/rj",
+    "next": "br/rs",
+    "cat": "subdivisions"
+  },
+  "br/rs": {
+    "prev": "br/rn",
+    "next": "br/ro",
+    "cat": "subdivisions"
+  },
+  "br/ro": {
+    "prev": "br/rs",
+    "next": "br/rr",
+    "cat": "subdivisions"
+  },
+  "br/rr": {
+    "prev": "br/ro",
     "next": "de/saarland",
     "cat": "subdivisions"
   },
   "de/saarland": {
-    "prev": "us/rhode-island",
+    "prev": "br/rr",
     "next": "jp/saga",
     "cat": "subdivisions"
   },
@@ -2566,11 +2681,21 @@
   },
   "jp/saitama": {
     "prev": "saint-helena",
+    "next": "br/sc",
+    "cat": "subdivisions"
+  },
+  "br/sc": {
+    "prev": "jp/saitama",
+    "next": "br/sp",
+    "cat": "subdivisions"
+  },
+  "br/sp": {
+    "prev": "br/sc",
     "next": "sark",
     "cat": "subdivisions"
   },
   "sark": {
-    "prev": "jp/saitama",
+    "prev": "br/sp",
     "next": "de/saxony",
     "cat": "subdivisions"
   },
@@ -2591,11 +2716,16 @@
   },
   "uk/scotland": {
     "prev": "de/schleswig-holstein",
+    "next": "br/se",
+    "cat": "subdivisions"
+  },
+  "br/se": {
+    "prev": "uk/scotland",
     "next": "jp/shiga",
     "cat": "subdivisions"
   },
   "jp/shiga": {
-    "prev": "uk/scotland",
+    "prev": "br/se",
     "next": "jp/shimane",
     "cat": "subdivisions"
   },
@@ -2646,11 +2776,16 @@
   },
   "de/thuringia": {
     "prev": "us/texas",
+    "next": "br/to",
+    "cat": "subdivisions"
+  },
+  "br/to": {
+    "prev": "de/thuringia",
     "next": "jp/tochigi",
     "cat": "subdivisions"
   },
   "jp/tochigi": {
-    "prev": "de/thuringia",
+    "prev": "br/to",
     "next": "jp/tokushima",
     "cat": "subdivisions"
   },
