@@ -7759,6 +7759,139 @@
     "id": "venezuela",
     "index": "c/venezuela"
   },
+  "ve/amazonas-ve": {
+    "g": "sub,south-america",
+    "ns": "venezuela-sub",
+    "name": "Amazonas Ve",
+    "id": "ve/amazonas-ve",
+    "index": "c/ve/amazonas-ve"
+  },
+  "ve/anzoategui": {
+    "g": "sub,south-america",
+    "ns": "venezuela-sub",
+    "name": "Anzoategui",
+    "id": "ve/anzoategui",
+    "index": "c/ve/anzoategui"
+  },
+  "ve/aragua": {
+    "g": "sub,south-america",
+    "ns": "venezuela-sub",
+    "name": "Aragua",
+    "id": "ve/aragua",
+    "index": "c/ve/aragua"
+  },
+  "ve/bolivar-ve": {
+    "g": "sub,south-america",
+    "ns": "venezuela-sub",
+    "name": "Bolivar Ve",
+    "id": "ve/bolivar-ve",
+    "index": "c/ve/bolivar-ve"
+  },
+  "ve/carabobo": {
+    "g": "sub,south-america",
+    "ns": "venezuela-sub",
+    "name": "Carabobo",
+    "id": "ve/carabobo",
+    "index": "c/ve/carabobo"
+  },
+  "ve/cojedes": {
+    "g": "sub,south-america",
+    "ns": "venezuela-sub",
+    "name": "Cojedes",
+    "id": "ve/cojedes",
+    "index": "c/ve/cojedes"
+  },
+  "ve/delta-amacuro": {
+    "g": "sub,south-america",
+    "ns": "venezuela-sub",
+    "name": "Delta Amacuro",
+    "id": "ve/delta-amacuro",
+    "index": "c/ve/delta-amacuro"
+  },
+  "ve/falcon": {
+    "g": "sub,south-america",
+    "ns": "venezuela-sub",
+    "name": "Falcon",
+    "id": "ve/falcon",
+    "index": "c/ve/falcon"
+  },
+  "ve/guarico": {
+    "g": "sub,south-america",
+    "ns": "venezuela-sub",
+    "name": "Guarico",
+    "id": "ve/guarico",
+    "index": "c/ve/guarico"
+  },
+  "ve/lara": {
+    "g": "sub,south-america",
+    "ns": "venezuela-sub",
+    "name": "Lara",
+    "id": "ve/lara",
+    "index": "c/ve/lara"
+  },
+  "ve/merida": {
+    "g": "sub,south-america",
+    "ns": "venezuela-sub",
+    "name": "Merida",
+    "id": "ve/merida",
+    "index": "c/ve/merida"
+  },
+  "ve/miranda": {
+    "g": "sub,south-america",
+    "ns": "venezuela-sub",
+    "name": "Miranda",
+    "id": "ve/miranda",
+    "index": "c/ve/miranda"
+  },
+  "ve/monagas": {
+    "g": "sub,south-america",
+    "ns": "venezuela-sub",
+    "name": "Monagas",
+    "id": "ve/monagas",
+    "index": "c/ve/monagas"
+  },
+  "ve/nueva-esparta": {
+    "g": "sub,south-america",
+    "ns": "venezuela-sub",
+    "name": "Nueva Esparta",
+    "id": "ve/nueva-esparta",
+    "index": "c/ve/nueva-esparta"
+  },
+  "ve/sucre-ve": {
+    "g": "sub,south-america",
+    "ns": "venezuela-sub",
+    "name": "Sucre Ve",
+    "id": "ve/sucre-ve",
+    "index": "c/ve/sucre-ve"
+  },
+  "ve/tachira": {
+    "g": "sub,south-america",
+    "ns": "venezuela-sub",
+    "name": "Tachira",
+    "id": "ve/tachira",
+    "index": "c/ve/tachira"
+  },
+  "ve/trujillo": {
+    "g": "sub,south-america",
+    "ns": "venezuela-sub",
+    "name": "Trujillo",
+    "id": "ve/trujillo",
+    "index": "c/ve/trujillo"
+  },
+  "ve/vargas": {
+    "g": "sub,south-america",
+    "ns": "venezuela-sub",
+    "name": "Vargas",
+    "id": "ve/vargas",
+    "index": "c/ve/vargas"
+  },
+  "ve/yaracuy": {
+    "g": "sub,south-america",
+    "ns": "venezuela-sub",
+    "name": "Yaracuy",
+    "id": "ve/yaracuy",
+    "index": "c/ve/yaracuy"
+  },
   "uruguay": {
     "g": "nf,south-america",
     "ns": "uruguay",
@@ -7776,6 +7909,27 @@
     "ns": "bolivia",
     "id": "bolivia",
     "index": "c/bolivia"
+  },
+  "bo/chuquisaca": {
+    "g": "sub,south-america",
+    "ns": "bolivia-sub",
+    "name": "Chuquisaca",
+    "id": "bo/chuquisaca",
+    "index": "c/bo/chuquisaca"
+  },
+  "bo/cochabamba": {
+    "g": "sub,south-america",
+    "ns": "bolivia-sub",
+    "name": "Cochabamba",
+    "id": "bo/cochabamba",
+    "index": "c/bo/cochabamba"
+  },
+  "bo/tarija": {
+    "g": "sub,south-america",
+    "ns": "bolivia-sub",
+    "name": "Tarija",
+    "id": "bo/tarija",
+    "index": "c/bo/tarija"
   },
   "ecuador": {
     "g": "nf,south-america",

@@ -477,6 +477,18 @@
     "keywords": "amazonas pe flag of amazonas pe sub south-america"
   },
   {
+    "id": "ve/amazonas-ve",
+    "name": "Amazonas Ve",
+    "title": "Flag of Amazonas Ve",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/venezuela-sub/amazonas-ve.svg",
+    "keywords": "amazonas ve flag of amazonas ve sub south-america"
+  },
+  {
     "id": "amsterdam",
     "name": "Amsterdam",
     "title": "Flag of Amsterdam",
@@ -650,6 +662,18 @@
     "keywords": "antioquia flag of antioquia sub south-america"
   },
   {
+    "id": "ve/anzoategui",
+    "name": "Anzoategui",
+    "title": "Flag of Anzoategui",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/venezuela-sub/anzoategui.svg",
+    "keywords": "anzoategui flag of anzoategui sub south-america"
+  },
+  {
     "id": "jp/aomori",
     "name": "Aomori Prefecture",
     "title": "Flag of Aomori Prefecture",
@@ -755,6 +779,18 @@
     "colors": [],
     "flag": "/spain-sub/aragon.svg",
     "keywords": "aragon flag of aragon sub europe"
+  },
+  {
+    "id": "ve/aragua",
+    "name": "Aragua",
+    "title": "Flag of Aragua",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/venezuela-sub/aragua.svg",
+    "keywords": "aragua flag of aragua sub south-america"
   },
   {
     "id": "pe/arequipa",
@@ -1653,6 +1689,18 @@
     "colors": [],
     "flag": "/cities/bogota.svg",
     "keywords": "bogota flag of bogota city"
+  },
+  {
+    "id": "ve/bolivar-ve",
+    "name": "Bolivar Ve",
+    "title": "Flag of Bolivar Ve",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/venezuela-sub/bolivar-ve.svg",
+    "keywords": "bolivar ve flag of bolivar ve sub south-america"
   },
   {
     "id": "bolivia",
@@ -2648,6 +2696,18 @@
     "keywords": "canton of zürich flag of canton of zürich sub europe"
   },
   {
+    "id": "ve/carabobo",
+    "name": "Carabobo",
+    "title": "Flag of Carabobo",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/venezuela-sub/carabobo.svg",
+    "keywords": "carabobo flag of carabobo sub south-america"
+  },
+  {
     "id": "caracas",
     "name": "Caracas",
     "title": "Flag of Caracas",
@@ -3065,6 +3125,18 @@
     "keywords": "chukotka autonomous okrug flag of chukotka autonomous okrug sub europe asia"
   },
   {
+    "id": "bo/chuquisaca",
+    "name": "Chuquisaca",
+    "title": "Flag of Chuquisaca",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/bolivia-sub/chuquisaca.svg",
+    "keywords": "chuquisaca flag of chuquisaca sub south-america"
+  },
+  {
     "id": "ru/chuvashia",
     "name": "Chuvashia",
     "title": "Flag of Chuvashia",
@@ -3100,6 +3172,30 @@
     "colors": [],
     "flag": "/mexico-sub/coa.svg",
     "keywords": "coahuila flag of coahuila sub north-america"
+  },
+  {
+    "id": "bo/cochabamba",
+    "name": "Cochabamba",
+    "title": "Flag of Cochabamba",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/bolivia-sub/cochabamba.svg",
+    "keywords": "cochabamba flag of cochabamba sub south-america"
+  },
+  {
+    "id": "ve/cojedes",
+    "name": "Cojedes",
+    "title": "Flag of Cojedes",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/venezuela-sub/cojedes.svg",
+    "keywords": "cojedes flag of cojedes sub south-america"
   },
   {
     "id": "mx/col",
@@ -3574,6 +3670,18 @@
     ],
     "flag": "/empires/delhi-sultanate.svg",
     "keywords": "delhi sultanate flag of the delhi sultanate historic empire asia green black"
+  },
+  {
+    "id": "ve/delta-amacuro",
+    "name": "Delta Amacuro",
+    "title": "Flag of Delta Amacuro",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/venezuela-sub/delta-amacuro.svg",
+    "keywords": "delta amacuro flag of delta amacuro sub south-america"
   },
   {
     "id": "pride-demisexual",
@@ -4258,6 +4366,18 @@
     "colors": [],
     "flag": "/spain-sub/extremadura.svg",
     "keywords": "extremadura flag of extremadura sub europe"
+  },
+  {
+    "id": "ve/falcon",
+    "name": "Falcon",
+    "title": "Flag of Falcon",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/venezuela-sub/falcon.svg",
+    "keywords": "falcon flag of falcon sub south-america"
   },
   {
     "id": "fatimid",
@@ -5003,6 +5123,18 @@
     "colors": [],
     "flag": "/mexico-sub/gto.svg",
     "keywords": "guanajuato flag of guanajuato sub north-america"
+  },
+  {
+    "id": "ve/guarico",
+    "name": "Guarico",
+    "title": "Flag of Guarico",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/venezuela-sub/guarico.svg",
+    "keywords": "guarico flag of guarico sub south-america"
   },
   {
     "id": "guatemala",
@@ -7341,6 +7473,18 @@
     "keywords": "laos flag of the lao people's democratic republic national-flag asia southeast-asia red blue white"
   },
   {
+    "id": "ve/lara",
+    "name": "Lara",
+    "title": "Flag of Lara",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/venezuela-sub/lara.svg",
+    "keywords": "lara flag of lara sub south-america"
+  },
+  {
     "id": "las-vegas",
     "name": "Las Vegas",
     "title": "Flag of Las Vegas",
@@ -8409,6 +8553,18 @@
     "keywords": "mendoza flag of mendoza sub south-america"
   },
   {
+    "id": "ve/merida",
+    "name": "Merida",
+    "title": "Flag of Merida",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/venezuela-sub/merida.svg",
+    "keywords": "merida flag of merida sub south-america"
+  },
+  {
     "id": "merina",
     "name": "Merina Kingdom",
     "title": "Flag of the Merina Kingdom",
@@ -8594,6 +8750,18 @@
     "keywords": "minsk flag of minsk city"
   },
   {
+    "id": "ve/miranda",
+    "name": "Miranda",
+    "title": "Flag of Miranda",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/venezuela-sub/miranda.svg",
+    "keywords": "miranda flag of miranda sub south-america"
+  },
+  {
     "id": "ar/misiones",
     "name": "Misiones",
     "title": "Flag of Misiones",
@@ -8715,6 +8883,18 @@
     ],
     "flag": "/monaco/flag.svg",
     "keywords": "monaco flag of the principality of monaco national-flag europe red white"
+  },
+  {
+    "id": "ve/monagas",
+    "name": "Monagas",
+    "title": "Flag of Monagas",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/venezuela-sub/monagas.svg",
+    "keywords": "monagas flag of monagas sub south-america"
   },
   {
     "id": "mongol",
@@ -9708,6 +9888,18 @@
     "colors": [],
     "flag": "/chile-sub/nuble.svg",
     "keywords": "nuble flag of nuble sub south-america"
+  },
+  {
+    "id": "ve/nueva-esparta",
+    "name": "Nueva Esparta",
+    "title": "Flag of Nueva Esparta",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/venezuela-sub/nueva-esparta.svg",
+    "keywords": "nueva esparta flag of nueva esparta sub south-america"
   },
   {
     "id": "mx/nl",
@@ -12795,6 +12987,18 @@
     "keywords": "subcarpathian voivodeship flag of subcarpathian voivodeship sub europe"
   },
   {
+    "id": "ve/sucre-ve",
+    "name": "Sucre Ve",
+    "title": "Flag of Sucre Ve",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/venezuela-sub/sucre-ve.svg",
+    "keywords": "sucre ve flag of sucre ve sub south-america"
+  },
+  {
     "id": "sudan",
     "name": "Sudan",
     "title": "Flag of the Republic of the Sudan",
@@ -12992,6 +13196,18 @@
     "keywords": "tabasco flag of tabasco sub north-america"
   },
   {
+    "id": "ve/tachira",
+    "name": "Tachira",
+    "title": "Flag of Tachira",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/venezuela-sub/tachira.svg",
+    "keywords": "tachira flag of tachira sub south-america"
+  },
+  {
     "id": "pe/tacna",
     "name": "Tacna",
     "title": "Flag of Tacna",
@@ -13102,6 +13318,18 @@
     ],
     "flag": "/tanzania/flag.svg",
     "keywords": "tanzania flag of tanzania africa horn-of-africa green yellow black blue"
+  },
+  {
+    "id": "bo/tarija",
+    "name": "Tarija",
+    "title": "Flag of Tarija",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/bolivia-sub/tarija.svg",
+    "keywords": "tarija flag of tarija sub south-america"
   },
   {
     "id": "au/tasmania",
@@ -13583,6 +13811,18 @@
     ],
     "flag": "/british/tristan.svg",
     "keywords": "tristan da cunha flag of tristan da cunha british-overseas blue red white"
+  },
+  {
+    "id": "ve/trujillo",
+    "name": "Trujillo",
+    "title": "Flag of Trujillo",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/venezuela-sub/trujillo.svg",
+    "keywords": "trujillo flag of trujillo sub south-america"
   },
   {
     "id": "ru/tula-oblast",
@@ -14079,6 +14319,18 @@
     ],
     "flag": "/vanuatu/flag.svg",
     "keywords": "vanuatu flag of the republic of vanuatu national-flag oceania red green black yellow"
+  },
+  {
+    "id": "ve/vargas",
+    "name": "Vargas",
+    "title": "Flag of Vargas",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/venezuela-sub/vargas.svg",
+    "keywords": "vargas flag of vargas sub south-america"
   },
   {
     "id": "vatican-city",
@@ -14665,6 +14917,18 @@
     "colors": [],
     "flag": "/japan-sub/yamanashi.svg",
     "keywords": "yamanashi prefecture flag of yamanashi prefecture sub asia"
+  },
+  {
+    "id": "ve/yaracuy",
+    "name": "Yaracuy",
+    "title": "Flag of Yaracuy",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/venezuela-sub/yaracuy.svg",
+    "keywords": "yaracuy flag of yaracuy sub south-america"
   },
   {
     "id": "ru/yaroslavl-oblast",
