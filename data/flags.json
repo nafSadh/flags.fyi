@@ -81,7 +81,8 @@
     "years": "1958",
     "ns": "arab-hist",
     "id": "arab-federation",
-    "index": "c/iraq:1958"
+    "index": "c/iraq:1958",
+    "wikiEntity": "Arab_Federation"
   },
   "argentina": {
     "g": "nf,south-america",
@@ -896,7 +897,8 @@
     "title": "Eagle of Saladin — Pan-Arab Heraldic Symbol",
     "name": "Eagle of Saladin",
     "id": "eagle-of-saladin",
-    "index": "c/eagle-of-saladin"
+    "index": "c/eagle-of-saladin",
+    "wikiEntity": "Eagle_of_Saladin"
   },
   "egypt": {
     "g": "nf,af,arab",
@@ -909,7 +911,8 @@
     "years": "1517–1867",
     "ns": "egypt",
     "id": "egypt-eyalet",
-    "index": "c/egypt:1517"
+    "index": "c/egypt:1517",
+    "wikiEntity": "Egypt_Eyalet"
   },
   "egypt-khedivate": {
     "g": "h",
@@ -918,7 +921,8 @@
     "years": "1867–1914",
     "ns": "egypt",
     "id": "egypt-khedivate",
-    "index": "c/egypt:1867"
+    "index": "c/egypt:1867",
+    "wikiEntity": "Khedivate_of_Egypt"
   },
   "egypt-kingdom": {
     "g": "h",
@@ -927,7 +931,8 @@
     "years": "1922–1953",
     "ns": "egypt",
     "id": "egypt-kingdom",
-    "index": "c/egypt:1922"
+    "index": "c/egypt:1922",
+    "wikiEntity": "Kingdom_of_Egypt"
   },
   "egypt-mamluk": {
     "g": "h",
@@ -937,7 +942,8 @@
     "years": "1250–1517",
     "ns": "egypt",
     "id": "egypt-mamluk",
-    "index": "c/egypt:1250"
+    "index": "c/egypt:1250",
+    "wikiEntity": "Mamluk_Sultanate"
   },
   "egypt-revolution": {
     "g": "h,fn",
@@ -946,7 +952,8 @@
     "years": "1952–1958",
     "ns": "egypt",
     "id": "egypt-revolution",
-    "index": "c/egypt:1952"
+    "index": "c/egypt:1952",
+    "wikiEntity": "Egyptian_revolution_of_1952"
   },
   "egypt-sultanate": {
     "g": "h",
@@ -956,7 +963,8 @@
     "years": "1914–1922",
     "ns": "egypt",
     "id": "egypt-sultanate",
-    "index": "c/egypt:1914"
+    "index": "c/egypt:1914",
+    "wikiEntity": "Sultanate_of_Egypt"
   },
   "egypt-uar": {
     "g": "h,fn",
@@ -965,7 +973,8 @@
     "years": "1958–1971",
     "ns": "egypt",
     "id": "egypt-uar",
-    "index": "c/egypt:1958"
+    "index": "c/egypt:1958",
+    "wikiEntity": "United_Arab_Republic"
   },
   "ethiopia": {
     "g": "nf,africa,horn-of-africa",
@@ -1434,7 +1443,8 @@
     "years": "1968–2008",
     "ns": "iraq",
     "id": "iraq-baath",
-    "index": "c/iraq:1968"
+    "index": "c/iraq:1968",
+    "wikiEntity": "Ba%27athist_Iraq"
   },
   "iraq-hashemite": {
     "g": "h",
@@ -1444,7 +1454,8 @@
     "years": "1921–1958",
     "ns": "iraq",
     "id": "iraq-hashemite",
-    "index": "c/iraq:1921"
+    "index": "c/iraq:1921",
+    "wikiEntity": "Kingdom_of_Iraq"
   },
   "iraq-mandatory": {
     "g": "h",
@@ -1454,7 +1465,8 @@
     "years": "1920–1932",
     "ns": "iraq",
     "id": "iraq-mandatory",
-    "index": "c/iraq:1920"
+    "index": "c/iraq:1920",
+    "wikiEntity": "Mandatory_Iraq"
   },
   "iraq-republic": {
     "g": "h",
@@ -1463,7 +1475,8 @@
     "years": "1958–1968",
     "ns": "iraq",
     "id": "iraq-republic",
-    "index": "c/iraq:1958"
+    "index": "c/iraq:1958",
+    "wikiEntity": "Iraqi_Republic_(1958%E2%80%931968)"
   },
   "ireland": {
     "g": "nf,europe",
@@ -1698,7 +1711,8 @@
     "years": "1969–1977",
     "ns": "libya",
     "id": "libya-ar",
-    "index": "c/libya:1969"
+    "index": "c/libya:1969",
+    "wikiEntity": "Libyan_Arab_Republic"
   },
   "libya-civil": {
     "g": "h,arab,maghreb",
@@ -1706,7 +1720,8 @@
     "ns": "libya",
     "id": "libya-civil",
     "index": "c/libya",
-    "now": "libya"
+    "now": "libya",
+    "wikiEntity": "Flag_of_Libya"
   },
   "libya-cyrenaica": {
     "g": "h",
@@ -1715,7 +1730,8 @@
     "years": "1949–1951",
     "ns": "libya",
     "id": "libya-cyrenaica",
-    "index": "c/libya:1949"
+    "index": "c/libya:1949",
+    "wikiEntity": "Emirate_of_Cyrenaica"
   },
   "libya-italian": {
     "g": "h",
@@ -1724,7 +1740,8 @@
     "years": "1911–1943",
     "ns": "libya",
     "id": "libya-italian",
-    "index": "c/libya:1911"
+    "index": "c/libya:1911",
+    "wikiEntity": "Italian_Libya"
   },
   "libya-jamahiriya": {
     "g": "h",
@@ -1733,7 +1750,8 @@
     "years": "1977–2011",
     "ns": "libya",
     "id": "libya-jamahiriya",
-    "index": "c/libya:1977"
+    "index": "c/libya:1977",
+    "wikiEntity": "Great_Socialist_People%27s_Libyan_Arab_Jamahiriya"
   },
   "libya-kingdom": {
     "g": "h",
@@ -1743,7 +1761,8 @@
     "years": "1951–1969",
     "ns": "libya",
     "id": "libya-kingdom",
-    "index": "c/libya:1951"
+    "index": "c/libya:1951",
+    "wikiEntity": "Kingdom_of_Libya"
   },
   "libya-ottoman": {
     "g": "h",
@@ -1753,7 +1772,8 @@
     "years": "1551–1911",
     "ns": "libya",
     "id": "libya-ottoman",
-    "index": "c/libya:1551"
+    "index": "c/libya:1551",
+    "wikiEntity": "Ottoman_Tripolitania"
   },
   "libya-tripolitanian-republic": {
     "g": "h",
@@ -1762,7 +1782,8 @@
     "years": "1918–1923",
     "ns": "libya",
     "id": "libya-tripolitanian-republic",
-    "index": "c/libya:1918"
+    "index": "c/libya:1918",
+    "wikiEntity": "Tripolitanian_Republic"
   },
   "malaysia": {
     "g": "nf,asia,southeast-asia",
@@ -3081,7 +3102,8 @@
     "years": "224–651",
     "id": "sassanid",
     "index": "c/iran:224",
-    "disputed": true
+    "disputed": true,
+    "wikiEntity": "Derafsh_Kaviani"
   },
   "sassanid-alt": {
     "ns": "persia",
@@ -3092,7 +3114,8 @@
     "years": "224–651",
     "id": "sassanid-alt",
     "index": "c/iran:224",
-    "disputed": true
+    "disputed": true,
+    "wikiEntity": "Derafsh_Kaviani"
   },
   "saudi-arabia": {
     "g": "nf,as,arab,gulf",
@@ -3627,7 +3650,8 @@
     "now": "saudi-arabia",
     "years": "632–661",
     "id": "rashidun",
-    "index": "c/saudi-arabia:632"
+    "index": "c/saudi-arabia:632",
+    "reconstructed": true
   },
   "umayyad": {
     "g": "h,caliphate",
@@ -3636,7 +3660,8 @@
     "now": "syria",
     "years": "661–750",
     "id": "umayyad",
-    "index": "c/syria:661"
+    "index": "c/syria:661",
+    "reconstructed": true
   },
   "abbasid": {
     "g": "h,caliphate",
@@ -3654,7 +3679,8 @@
     "now": "egypt",
     "years": "909–1171",
     "id": "fatimid",
-    "index": "c/egypt:909"
+    "index": "c/egypt:909",
+    "reconstructed": true
   },
   "ayyubid": {
     "g": "h,caliphate",
@@ -3681,7 +3707,8 @@
     "now": "turkey",
     "years": "~1300s",
     "id": "ottoman-early",
-    "index": "c/turkey:1300"
+    "index": "c/turkey:1300",
+    "wikiEntity": "Flag_of_the_Ottoman_Empire"
   },
   "mughal": {
     "g": "h,caliphate,south-asia",
@@ -3699,7 +3726,8 @@
     "now": "morocco",
     "years": "1121–1269",
     "id": "almohad",
-    "index": "c/morocco:1121"
+    "index": "c/morocco:1121",
+    "reconstructed": true
   },
   "almoravid": {
     "g": "h,caliphate,maghreb",
@@ -3708,7 +3736,8 @@
     "now": "morocco",
     "years": "1040–1147",
     "id": "almoravid",
-    "index": "c/morocco:1040"
+    "index": "c/morocco:1040",
+    "reconstructed": true
   },
   "idrisid": {
     "g": "h,caliphate,maghreb",
@@ -3717,7 +3746,8 @@
     "now": "morocco",
     "years": "788–974",
     "id": "idrisid",
-    "index": "c/morocco:788"
+    "index": "c/morocco:788",
+    "reconstructed": true
   },
   "samanid": {
     "g": "h,caliphate,asia",
@@ -3726,7 +3756,8 @@
     "now": "iran",
     "years": "819–999",
     "id": "samanid",
-    "index": "c/iran:819"
+    "index": "c/iran:819",
+    "reconstructed": true
   },
   "roman-empire": {
     "g": "h,empire,europe",
@@ -3975,7 +4006,8 @@
     "now": "spain",
     "years": "1230–1492",
     "id": "nasrid",
-    "index": "c/spain:1230"
+    "index": "c/spain:1230",
+    "wikiEntity": "Emirate_of_Granada"
   },
   "florence": {
     "g": "h,empire,europe",
@@ -4101,7 +4133,8 @@
     "now": "south-africa",
     "years": "1852–1902",
     "id": "transvaal",
-    "index": "c/south-africa:1852"
+    "index": "c/south-africa:1852",
+    "wikiEntity": "South_African_Republic"
   },
   "orange-free-state": {
     "g": "h,empire,africa",
@@ -4308,7 +4341,8 @@
     "now": "yemen",
     "years": "1918–1990",
     "id": "north-yemen",
-    "index": "c/yemen:1918"
+    "index": "c/yemen:1918",
+    "wikiEntity": "North_Yemen"
   },
   "south-yemen": {
     "g": "h,fn,arab",
@@ -4317,7 +4351,8 @@
     "now": "yemen",
     "years": "1967–1990",
     "id": "south-yemen",
-    "index": "c/yemen:1967"
+    "index": "c/yemen:1967",
+    "wikiEntity": "South_Yemen"
   },
   "hejaz": {
     "g": "h,arab",
@@ -4326,7 +4361,8 @@
     "now": "saudi-arabia",
     "years": "1916–1925",
     "id": "hejaz",
-    "index": "c/saudi-arabia:1916"
+    "index": "c/saudi-arabia:1916",
+    "wikiEntity": "Kingdom_of_Hejaz"
   },
   "hatay": {
     "g": "h",
@@ -4335,7 +4371,8 @@
     "now": "turkey",
     "years": "1938–1939",
     "id": "hatay",
-    "index": "c/turkey:1938"
+    "index": "c/turkey:1938",
+    "wikiEntity": "Hatay_State"
   },
   "libya-united": {
     "g": "h",
@@ -4344,7 +4381,8 @@
     "now": "libya",
     "years": "1951–1963",
     "id": "libya-united",
-    "index": "c/libya:1951"
+    "index": "c/libya:1951",
+    "wikiEntity": "Kingdom_of_Libya"
   },
   "in-calcutta-flag": {
     "g": "h,south-asia",
@@ -4353,7 +4391,8 @@
     "now": "india",
     "years": "1906",
     "id": "in-calcutta-flag",
-    "index": "c/india:1906"
+    "index": "c/india:1906",
+    "wikiEntity": "Calcutta_flag"
   },
   "in-independence": {
     "g": "h,fn,south-asia",
@@ -4362,7 +4401,8 @@
     "now": "india",
     "years": "1921–1947",
     "id": "in-independence",
-    "index": "c/india:1921"
+    "index": "c/india:1921",
+    "wikiEntity": "Flag_of_India"
   },
   "sikh-empire": {
     "g": "h,empire,south-asia",
@@ -4371,7 +4411,8 @@
     "now": "india",
     "years": "1799–1849",
     "id": "sikh-empire",
-    "index": "c/india:1799"
+    "index": "c/india:1799",
+    "wikiEntity": "Sikh_Empire"
   },
   "british-raj": {
     "g": "h,colonial,south-asia",
@@ -4384,7 +4425,8 @@
     ],
     "years": "1858–1947",
     "id": "british-raj",
-    "index": "c/india:1858"
+    "index": "c/india:1858",
+    "wikiEntity": "British_Raj"
   },
   "pk-muslim-league": {
     "g": "h,south-asia",
@@ -4393,7 +4435,8 @@
     "now": "pakistan",
     "years": "1906–1947",
     "id": "pk-muslim-league",
-    "index": "c/pakistan:1906"
+    "index": "c/pakistan:1906",
+    "wikiEntity": "All-India_Muslim_League"
   },
   "east-pakistan": {
     "g": "h,fn,south-asia",
@@ -4402,7 +4445,8 @@
     "now": "bangladesh",
     "years": "1947–1971",
     "id": "east-pakistan",
-    "index": "c/bangladesh:1947"
+    "index": "c/bangladesh:1947",
+    "wikiEntity": "East_Pakistan"
   },
   "bd-1971-map": {
     "g": "h,fn,south-asia",
@@ -4412,7 +4456,8 @@
     "years": "1971",
     "title": "Bangladesh Liberation Flag (1971, Map Version)",
     "id": "bd-1971-map",
-    "index": "c/bangladesh:1971"
+    "index": "c/bangladesh:1971",
+    "wikiEntity": "Flag_of_Bangladesh"
   },
   "af-kingdom": {
     "g": "h,fn,asia",
@@ -4422,7 +4467,8 @@
     "years": "1926–1973",
     "title": "Flag of the Kingdom of Afghanistan",
     "id": "af-kingdom",
-    "index": "c/afghanistan:1926"
+    "index": "c/afghanistan:1926",
+    "wikiEntity": "Kingdom_of_Afghanistan"
   },
   "af-republic": {
     "g": "h,fn,asia",
@@ -4432,7 +4478,8 @@
     "years": "1973–1978",
     "title": "Flag of the Republic of Afghanistan",
     "id": "af-republic",
-    "index": "c/afghanistan:1973"
+    "index": "c/afghanistan:1973",
+    "wikiEntity": "Republic_of_Afghanistan"
   },
   "af-soviet": {
     "g": "h,fn,asia",
@@ -4442,7 +4489,8 @@
     "years": "1978–1992",
     "title": "Flag of Afghanistan (Soviet Era)",
     "id": "af-soviet",
-    "index": "c/afghanistan:1978"
+    "index": "c/afghanistan:1978",
+    "wikiEntity": "Democratic_Republic_of_Afghanistan"
   },
   "af-taliban-1996": {
     "g": "h,fn,asia",
@@ -4451,7 +4499,8 @@
     "now": "afghanistan",
     "years": "1996–2001",
     "id": "af-taliban-1996",
-    "index": "c/afghanistan:1996"
+    "index": "c/afghanistan:1996",
+    "wikiEntity": "Islamic_Emirate_of_Afghanistan_(1996%E2%80%932001)"
   },
   "af-islamic-republic": {
     "g": "h,fn,asia",
@@ -4461,7 +4510,8 @@
     "years": "2001–2021",
     "title": "Flag of the Islamic Republic of Afghanistan",
     "id": "af-islamic-republic",
-    "index": "c/afghanistan:2001"
+    "index": "c/afghanistan:2001",
+    "wikiEntity": "Islamic_Republic_of_Afghanistan"
   },
   "cn-qing-dragon": {
     "g": "h,east-asia",
@@ -4471,7 +4521,8 @@
     "years": "1889–1912",
     "title": "Yellow Dragon Flag — Qing Dynasty China",
     "id": "cn-qing-dragon",
-    "index": "c/china:1889"
+    "index": "c/china:1889",
+    "wikiEntity": "Qing_dynasty"
   },
   "cn-five-coloured": {
     "g": "h,fn,east-asia",
@@ -4481,7 +4532,8 @@
     "years": "1912–1928",
     "title": "Five-Coloured Flag — Republic of China (1912–1928)",
     "id": "cn-five-coloured",
-    "index": "c/china:1912"
+    "index": "c/china:1912",
+    "wikiEntity": "Beiyang_government"
   },
   "cn-blue-sky-white-sun": {
     "g": "h,fn,east-asia",
@@ -4491,7 +4543,8 @@
     "years": "1928",
     "title": "Blue Sky White Sun — Flag of ROC (Taiwan)",
     "id": "cn-blue-sky-white-sun",
-    "index": "c/china:1928"
+    "index": "c/china:1928",
+    "wikiEntity": "Republic_of_China_(1912%E2%80%931949)"
   },
   "jp-tokugawa": {
     "g": "h,east-asia",
@@ -4500,7 +4553,8 @@
     "now": "japan",
     "years": "1603–1868",
     "id": "jp-tokugawa",
-    "index": "c/japan:1603"
+    "index": "c/japan:1603",
+    "wikiEntity": "Tokugawa_shogunate"
   },
   "jp-rising-sun-army": {
     "g": "h,east-asia",
@@ -4509,7 +4563,8 @@
     "now": "japan",
     "years": "1870–1945",
     "id": "jp-rising-sun-army",
-    "index": "c/japan:1870"
+    "index": "c/japan:1870",
+    "wikiEntity": "Rising_Sun_Flag"
   },
   "jp-rising-sun-navy": {
     "g": "h,east-asia",
@@ -4518,7 +4573,8 @@
     "now": "japan",
     "years": "1889–1945",
     "id": "jp-rising-sun-navy",
-    "index": "c/japan:1889"
+    "index": "c/japan:1889",
+    "wikiEntity": "Rising_Sun_Flag"
   },
   "jp/hokkaido": {
     "g": "sub,asia",
@@ -4857,7 +4913,8 @@
     "years": "1392–1897",
     "id": "kr-joseon",
     "index": "c/korea:1392",
-    "disputed": true
+    "disputed": true,
+    "wikiEntity": "Joseon"
   },
   "kr-taegeukgi-1883": {
     "g": "h,fn,east-asia",
@@ -4866,7 +4923,8 @@
     "now": "korea",
     "years": "1883",
     "id": "kr-taegeukgi-1883",
-    "index": "c/korea:1883"
+    "index": "c/korea:1883",
+    "wikiEntity": "Flag_of_South_Korea"
   },
   "vn-south": {
     "g": "h,fn,southeast-asia",
@@ -4875,7 +4933,8 @@
     "now": "vietnam",
     "years": "1955–1975",
     "id": "vn-south",
-    "index": "c/vietnam:1955"
+    "index": "c/vietnam:1955",
+    "wikiEntity": "South_Vietnam"
   },
   "vn-empire": {
     "g": "h,southeast-asia",
@@ -4884,7 +4943,8 @@
     "now": "vietnam",
     "years": "1945",
     "id": "vn-empire",
-    "index": "c/vietnam:1945"
+    "index": "c/vietnam:1945",
+    "wikiEntity": "Empire_of_Vietnam"
   },
   "id-dutch-east-indies": {
     "g": "h,colonial,southeast-asia",
@@ -4893,7 +4953,8 @@
     "now": "indonesia",
     "years": "1800–1949",
     "id": "id-dutch-east-indies",
-    "index": "c/indonesia:1800"
+    "index": "c/indonesia:1800",
+    "wikiEntity": "Dutch_East_Indies"
   },
   "ph-katipunan": {
     "g": "h,southeast-asia",
@@ -4902,7 +4963,8 @@
     "now": "philippines",
     "years": "1892–1897",
     "id": "ph-katipunan",
-    "index": "c/philippines:1892"
+    "index": "c/philippines:1892",
+    "wikiEntity": "Katipunan"
   },
   "ph-revolutionary": {
     "g": "h,fn,southeast-asia",
@@ -4911,7 +4973,8 @@
     "now": "philippines",
     "years": "1897–1901",
     "id": "ph-revolutionary",
-    "index": "c/philippines:1897"
+    "index": "c/philippines:1897",
+    "wikiEntity": "Flag_of_the_Philippines"
   },
   "th-siam-elephant": {
     "g": "h,fn,southeast-asia",
@@ -4920,7 +4983,8 @@
     "now": "thailand",
     "years": "1855–1916",
     "id": "th-siam-elephant",
-    "index": "c/thailand:1855"
+    "index": "c/thailand:1855",
+    "wikiEntity": "Rattanakosin_Kingdom"
   },
   "fr-bourbon": {
     "g": "h,fn,europe",
@@ -4929,7 +4993,8 @@
     "now": "france",
     "years": "1589–1792",
     "id": "fr-bourbon",
-    "index": "c/france:1589"
+    "index": "c/france:1589",
+    "wikiEntity": "House_of_Bourbon"
   },
   "fr-free-france": {
     "g": "h,europe",
@@ -4938,7 +5003,8 @@
     "now": "france",
     "years": "1940–1944",
     "id": "fr-free-france",
-    "index": "c/france:1940"
+    "index": "c/france:1940",
+    "wikiEntity": "Free_France"
   },
   "de-imperial": {
     "g": "h,fn,europe",
@@ -4947,7 +5013,8 @@
     "now": "germany",
     "years": "1871–1918",
     "id": "de-imperial",
-    "index": "c/germany:1871"
+    "index": "c/germany:1871",
+    "wikiEntity": "German_Empire"
   },
   "de-weimar": {
     "g": "h,fn,europe",
@@ -4956,7 +5023,8 @@
     "now": "germany",
     "years": "1918–1933",
     "id": "de-weimar",
-    "index": "c/germany:1918"
+    "index": "c/germany:1918",
+    "wikiEntity": "Weimar_Republic"
   },
   "de-nazi": {
     "g": "h,fn,europe",
@@ -4965,7 +5033,8 @@
     "now": "germany",
     "years": "1933–1945",
     "id": "de-nazi",
-    "index": "c/germany:1933"
+    "index": "c/germany:1933",
+    "wikiEntity": "Nazi_Germany"
   },
   "de-east-germany": {
     "g": "h,fn,europe",
@@ -4974,7 +5043,8 @@
     "now": "germany",
     "years": "1949–1990",
     "id": "de-east-germany",
-    "index": "c/germany:1949"
+    "index": "c/germany:1949",
+    "wikiEntity": "East_Germany"
   },
   "de-west-germany": {
     "g": "h,fn,europe",
@@ -4983,7 +5053,8 @@
     "now": "germany",
     "years": "1949–1990",
     "id": "de-west-germany",
-    "index": "c/germany:1949"
+    "index": "c/germany:1949",
+    "wikiEntity": "West_Germany"
   },
   "ru-imperial": {
     "g": "h,fn,europe",
@@ -4992,7 +5063,8 @@
     "now": "russia",
     "years": "1858–1917",
     "id": "ru-imperial",
-    "index": "c/russia:1858"
+    "index": "c/russia:1858",
+    "wikiEntity": "Russian_Empire"
   },
   "ru-sfsr": {
     "g": "h,fn,europe",
@@ -5001,7 +5073,8 @@
     "now": "russia",
     "years": "1918–1991",
     "id": "ru-sfsr",
-    "index": "c/russia:1918"
+    "index": "c/russia:1918",
+    "wikiEntity": "Russian_Soviet_Federative_Socialist_Republic"
   },
   "soviet-union": {
     "g": "h,fn,europe",
@@ -5010,7 +5083,8 @@
     "now": "russia",
     "years": "1922–1991",
     "id": "soviet-union",
-    "index": "c/russia:1922"
+    "index": "c/russia:1922",
+    "wikiEntity": "Soviet_Union"
   },
   "es-republic": {
     "g": "h,fn,europe",
@@ -5019,7 +5093,8 @@
     "now": "spain",
     "years": "1931–1939",
     "id": "es-republic",
-    "index": "c/spain:1931"
+    "index": "c/spain:1931",
+    "wikiEntity": "Second_Spanish_Republic"
   },
   "es-francoist": {
     "g": "h,fn,europe",
@@ -5028,7 +5103,8 @@
     "now": "spain",
     "years": "1939–1975",
     "id": "es-francoist",
-    "index": "c/spain:1939"
+    "index": "c/spain:1939",
+    "wikiEntity": "Francoist_Spain"
   },
   "es-empire": {
     "g": "h,empire,europe",
@@ -5037,7 +5113,8 @@
     "now": "spain",
     "years": "1506–1785",
     "id": "es-empire",
-    "index": "c/spain:1506"
+    "index": "c/spain:1506",
+    "wikiEntity": "Spanish_Empire"
   },
   "it-kingdom": {
     "g": "h,fn,europe",
@@ -5046,7 +5123,8 @@
     "now": "italy",
     "years": "1861–1946",
     "id": "it-kingdom",
-    "index": "c/italy:1861"
+    "index": "c/italy:1861",
+    "wikiEntity": "Kingdom_of_Italy"
   },
   "it-social-republic": {
     "g": "h,fn,europe",
@@ -5055,7 +5133,8 @@
     "now": "italy",
     "years": "1943–1945",
     "id": "it-social-republic",
-    "index": "c/italy:1943"
+    "index": "c/italy:1943",
+    "wikiEntity": "Italian_Social_Republic"
   },
   "pl-duchy-warsaw": {
     "g": "h,europe",
@@ -5064,7 +5143,8 @@
     "now": "poland",
     "years": "1807–1815",
     "id": "pl-duchy-warsaw",
-    "index": "c/poland:1807"
+    "index": "c/poland:1807",
+    "wikiEntity": "Duchy_of_Warsaw"
   },
   "pl-november-uprising": {
     "g": "h,europe",
@@ -5073,7 +5153,8 @@
     "now": "poland",
     "years": "1830–1831",
     "id": "pl-november-uprising",
-    "index": "c/poland:1830"
+    "index": "c/poland:1830",
+    "wikiEntity": "November_Uprising"
   },
   "gr-independence": {
     "g": "h,europe",
@@ -5082,7 +5163,8 @@
     "now": "greece",
     "years": "1821",
     "id": "gr-independence",
-    "index": "c/greece:1821"
+    "index": "c/greece:1821",
+    "wikiEntity": "Greek_War_of_Independence"
   },
   "gr-kingdom": {
     "g": "h,fn,europe",
@@ -5091,7 +5173,8 @@
     "now": "greece",
     "years": "1832–1924",
     "id": "gr-kingdom",
-    "index": "c/greece:1832"
+    "index": "c/greece:1832",
+    "wikiEntity": "Kingdom_of_Greece"
   },
   "gr-junta": {
     "g": "h,fn,europe",
@@ -5100,7 +5183,8 @@
     "now": "greece",
     "years": "1967–1974",
     "id": "gr-junta",
-    "index": "c/greece:1967"
+    "index": "c/greece:1967",
+    "wikiEntity": "Greek_junta"
   },
   "scotland-kingdom": {
     "g": "h,europe",
@@ -5109,7 +5193,8 @@
     "now": "uk-scotland",
     "years": "~1542",
     "id": "scotland-kingdom",
-    "index": "c/uk-scotland:1542"
+    "index": "c/uk-scotland:1542",
+    "wikiEntity": "Kingdom_of_Scotland"
   },
   "us-betsy-ross": {
     "g": "h,fn,north-america",
@@ -5118,7 +5203,8 @@
     "now": "us",
     "years": "1777–1795",
     "id": "us-betsy-ross",
-    "index": "c/united-states:1777"
+    "index": "c/united-states:1777",
+    "wikiEntity": "Betsy_Ross_flag"
   },
   "us-confederate-stars-bars": {
     "g": "h,north-america",
@@ -5127,7 +5213,8 @@
     "now": "us",
     "years": "1861–1863",
     "id": "us-confederate-stars-bars",
-    "index": "c/united-states:1861"
+    "index": "c/united-states:1861",
+    "wikiEntity": "Flags_of_the_Confederate_States_of_America"
   },
   "us-confederate-stainless": {
     "g": "h,north-america",
@@ -5136,7 +5223,8 @@
     "now": "us",
     "years": "1863–1865",
     "id": "us-confederate-stainless",
-    "index": "c/united-states:1863"
+    "index": "c/united-states:1863",
+    "wikiEntity": "Flags_of_the_Confederate_States_of_America"
   },
   "mx-three-guarantees": {
     "g": "h,fn,north-america",
@@ -5145,7 +5233,8 @@
     "now": "mexico",
     "years": "1821",
     "id": "mx-three-guarantees",
-    "index": "c/mexico:1821"
+    "index": "c/mexico:1821",
+    "wikiEntity": "First_Mexican_Empire"
   },
   "mx-empire": {
     "g": "h,fn,north-america",
@@ -5154,7 +5243,8 @@
     "now": "mexico",
     "years": "1821–1823",
     "id": "mx-empire",
-    "index": "c/mexico:1821"
+    "index": "c/mexico:1821",
+    "wikiEntity": "First_Mexican_Empire"
   },
   "mx-federal-republic": {
     "g": "h,fn,north-america",
@@ -5163,7 +5253,8 @@
     "now": "mexico",
     "years": "1823–1864",
     "id": "mx-federal-republic",
-    "index": "c/mexico:1823"
+    "index": "c/mexico:1823",
+    "wikiEntity": "First_Mexican_Republic"
   },
   "br-empire": {
     "g": "h,fn,south-america",
@@ -5172,7 +5263,8 @@
     "now": "brazil",
     "years": "1822–1889",
     "id": "br-empire",
-    "index": "c/brazil:1822"
+    "index": "c/brazil:1822",
+    "wikiEntity": "Empire_of_Brazil"
   },
   "br-provisional": {
     "g": "h,fn,south-america",
@@ -5181,7 +5273,8 @@
     "now": "brazil",
     "years": "1889",
     "id": "br-provisional",
-    "index": "c/brazil:1889"
+    "index": "c/brazil:1889",
+    "wikiEntity": "First_Brazilian_Republic"
   },
   "ar-celeste-blanca": {
     "g": "h,fn,south-america",
@@ -5190,7 +5283,9 @@
     "now": "argentina",
     "years": "1812",
     "id": "ar-celeste-blanca",
-    "index": "c/argentina:1812"
+    "index": "c/argentina:1812",
+    "wiki": "Flag_of_Argentina",
+    "wikiEntity": "Flag_of_Argentina"
   },
   "ar-sun-of-may": {
     "g": "h,fn,south-america",
@@ -5199,7 +5294,9 @@
     "now": "argentina",
     "years": "1818",
     "id": "ar-sun-of-may",
-    "index": "c/argentina:1818"
+    "index": "c/argentina:1818",
+    "wiki": "Sun_of_May",
+    "wikiEntity": "Sun_of_May"
   },
   "cu-lone-star": {
     "g": "h,fn,caribbean",
@@ -5208,7 +5305,8 @@
     "now": "cuba",
     "years": "1849",
     "id": "cu-lone-star",
-    "index": "c/cuba:1849"
+    "index": "c/cuba:1849",
+    "wikiEntity": "Cuba"
   },
   "et-imperial-lion": {
     "g": "h,fn,africa,horn-of-africa",
@@ -5217,7 +5315,8 @@
     "now": "ethiopia",
     "years": "1897–1974",
     "id": "et-imperial-lion",
-    "index": "c/ethiopia:1897"
+    "index": "c/ethiopia:1897",
+    "wikiEntity": "Ethiopian_Empire"
   },
   "et-derg": {
     "g": "h,fn,africa,horn-of-africa",
@@ -5226,7 +5325,8 @@
     "now": "ethiopia",
     "years": "1974–1991",
     "id": "et-derg",
-    "index": "c/ethiopia:1974"
+    "index": "c/ethiopia:1974",
+    "wikiEntity": "Derg"
   },
   "za-prinsevlag": {
     "g": "h,fn,africa",
@@ -5235,7 +5335,8 @@
     "now": "south-africa",
     "years": "1928–1994",
     "id": "za-prinsevlag",
-    "index": "c/south-africa:1928"
+    "index": "c/south-africa:1928",
+    "wikiEntity": "Flag_of_South_Africa_(1928%E2%80%931994)"
   },
   "gh-gold-coast": {
     "g": "h,colonial,africa",
@@ -5244,7 +5345,8 @@
     "now": "ghana",
     "years": "1877–1957",
     "id": "gh-gold-coast",
-    "index": "c/ghana:1877"
+    "index": "c/ghana:1877",
+    "wikiEntity": "Gold_Coast_(British_colony)"
   },
   "ke-colonial": {
     "g": "h,colonial,africa,horn-of-africa",
@@ -5253,7 +5355,8 @@
     "now": "kenya",
     "years": "1920–1963",
     "id": "ke-colonial",
-    "index": "c/kenya:1920"
+    "index": "c/kenya:1920",
+    "wikiEntity": "Colony_of_Kenya"
   },
   "french-algeria": {
     "g": "h,colonial,maghreb",
@@ -5262,7 +5365,8 @@
     "now": "algeria",
     "years": "1830–1962",
     "id": "french-algeria",
-    "index": "c/algeria:1830"
+    "index": "c/algeria:1830",
+    "wikiEntity": "French_Algeria"
   },
   "british-palestine": {
     "g": "h,colonial,levant",
@@ -5274,7 +5378,8 @@
     ],
     "years": "1920–1948",
     "id": "british-palestine",
-    "index": "c/israel:1920"
+    "index": "c/israel:1920",
+    "wikiEntity": "Mandatory_Palestine"
   },
   "french-syria": {
     "g": "h,colonial,levant",
@@ -5283,7 +5388,8 @@
     "now": "syria",
     "years": "1920–1946",
     "id": "french-syria",
-    "index": "c/syria:1920"
+    "index": "c/syria:1920",
+    "wikiEntity": "French_Mandate_for_Syria_and_the_Lebanon"
   },
   "french-lebanon": {
     "g": "h,colonial,levant",
@@ -5292,7 +5398,8 @@
     "now": "lebanon",
     "years": "1920–1943",
     "id": "french-lebanon",
-    "index": "c/lebanon:1920"
+    "index": "c/lebanon:1920",
+    "wikiEntity": "French_Mandate_for_Syria_and_the_Lebanon"
   },
   "anglo-egyptian-sudan": {
     "g": "h,colonial,africa",
@@ -5301,7 +5408,8 @@
     "now": "sudan",
     "years": "1899–1956",
     "id": "anglo-egyptian-sudan",
-    "index": "c/sudan:1899"
+    "index": "c/sudan:1899",
+    "wikiEntity": "Anglo-Egyptian_Sudan"
   },
   "italian-somaliland": {
     "g": "h,colonial,africa,horn-of-africa",
@@ -5310,7 +5418,8 @@
     "now": "somalia",
     "years": "1889–1960",
     "id": "italian-somaliland",
-    "index": "c/somalia:1889"
+    "index": "c/somalia:1889",
+    "wikiEntity": "Italian_Somaliland"
   },
   "british-somaliland": {
     "g": "h,colonial,africa,horn-of-africa",
@@ -5319,7 +5428,8 @@
     "now": "somalia",
     "years": "1884–1960",
     "id": "british-somaliland",
-    "index": "c/somalia:1884"
+    "index": "c/somalia:1884",
+    "wikiEntity": "British_Somaliland"
   },
   "united-nations": {
     "g": "intl",

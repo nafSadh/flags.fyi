@@ -640,6 +640,20 @@ function navbar() {
 </div>`;
 }
 
+// ─── compact colors list (sidebar) ───────────────────────────────────────────
+// Simple swatch + name + hex, one per row. Full table (CMYK/Pantone + meanings)
+// is in the deep-dive panel via colorsTableHtml.
+function colorsCompactHtml(colors) {
+  if (!colors || colors.length === 0) return '';
+  let html = `<div class="colors-header">Colors</div>\n  <ul class="colors-compact">`;
+  for (const row of colors) {
+    const hex = rgbHex(row.hex);
+    html += `\n    <li><span class="color-swatch" style="background:${hex}"></span><span class="cc-name">${escHtml(titleCase(row.color))}</span><span class="cc-hex">${hex}</span></li>`;
+  }
+  html += `\n  </ul>`;
+  return html;
+}
+
 // ─── colors table ────────────────────────────────────────────────────────────
 function colorsTableHtml(colors, colorNote) {
   if (!colors || colors.length === 0) return '';
@@ -1141,12 +1155,12 @@ const wikiOverrides = {
   'korea-dprk': 'Flag_of_North_Korea', 'mann': 'Flag_of_the_Isle_of_Man',
   'sgssi': 'Flag_of_South_Georgia_and_the_South_Sandwich_Islands',
   'tci': 'Flag_of_the_Turks_and_Caicos_Islands',
-  'rashidun': 'Rashidun_Caliphate', 'umayyad': 'Umayyad_Caliphate',
-  'abbasid': 'Abbasid_Caliphate', 'fatimid': 'Fatimid_Caliphate',
-  'ayyubid': 'Ayyubid_dynasty', 'ottoman': 'Flag_of_the_Ottoman_Empire',
+  'rashidun': 'Rashidun_(Caliph_Umar).svg', 'umayyad': 'Umayyad_Caliphate',
+  'abbasid': 'Black_flag.svg', 'fatimid': 'Fatimid_Caliphate',
+  'ayyubid': 'Flag_of_Saladin.svg', 'ottoman': 'Flag_of_the_Ottoman_Empire',
   'ottoman-early': 'Flag_of_the_Ottoman_Empire', 'mughal': 'Mughal_Empire',
-  'almohad': 'Almohad_Caliphate', 'almoravid': 'Almoravid_dynasty',
-  'idrisid': 'Idrisid_dynasty', 'samanid': 'Samanid_Empire',
+  'almohad': 'Flag_of_Almohad_Dynasty.svg', 'almoravid': 'Almoravid_dynasty',
+  'idrisid': 'Black_flag.svg', 'samanid': 'Samanid_Empire',
   'roman-empire': 'Roman_Empire', 'byzantine': 'Byzantine_Empire',
   'holy-roman-empire': 'Holy_Roman_Empire', 'mongol': 'Mongol_Empire',
   'achaemenid': 'Achaemenid_Empire', 'kingdom-of-jerusalem': 'Kingdom_of_Jerusalem',
@@ -1187,7 +1201,7 @@ const wikiOverrides = {
   'br-empire': 'Empire_of_Brazil', 'br-provisional': 'Flag_of_Brazil',
   'ar-celeste-blanca': 'Flag_of_Argentina', 'ar-sun-of-may': 'Flag_of_Argentina',
   'cu-lone-star': 'Flag_of_Cuba',
-  'et-imperial-lion': 'Flag_of_Ethiopia', 'et-derg': 'Derg',
+  'et-imperial-lion': 'Flag_of_Ethiopia_(1897-1936;_1941-1974)_squared.svg', 'et-derg': 'Derg',
   'za-prinsevlag': 'Flag_of_South_Africa_(1928–1994)', 'gh-gold-coast': 'Gold_Coast_(British_colony)',
   'ke-colonial': 'Kenya_Colony',
   'french-algeria': 'French_Algeria', 'british-palestine': 'Mandatory_Palestine',
@@ -1349,7 +1363,7 @@ const commonsFileMap = {
   'roman-empire': 'Vexilloid_of_the_Roman_Empire.svg',
   'byzantine': 'Byzantine_imperial_flag,_14th_century.svg',
   'holy-roman-empire': 'Banner_of_the_Holy_Roman_Emperor_with_haloes_(1400-1806).svg',
-  'mongol': 'Flag_of_the_Mongol_Empire.svg',
+  'mongol': 'Flag_of_the_Mongol_Empire_3.svg',
   'achaemenid': 'Standard_of_Cyrus_the_Great_(Achaemenid_Empire).svg',
   'venice': 'Flag_of_Most_Serene_Republic_of_Venice.svg',
   'pahlavi': 'State_flag_of_Iran_(1933–1964).svg',
@@ -2043,7 +2057,9 @@ function generateFlagPage(flagId) {
   }
 
   // Colors table
-  const colorsHtml = fd.colors ? colorsTableHtml(fd.colors, fd.colorNote) : '';
+  const colorsSidebarHtml = fd.colors ? colorsCompactHtml(fd.colors) : '';
+  const colorsFullHtml = fd.colors ? colorsTableHtml(fd.colors, fd.colorNote) : '';
+  const colorsHtml = colorsSidebarHtml; // sidebar uses compact list
 
   // Check if deep-dive content exists
   const hasDeepDive = !!(fd.cs || fd.desc || fd.article || fd.trivia);
@@ -2120,9 +2136,9 @@ function generateFlagPage(flagId) {
   // Entity summary (2–3 sentence Wikipedia extract) + link to the entity article
   const entityExtract = getWikiExtract(flagId);
   const entitySummaryHtml = entityExtract
-    ? `<div class="entity-summary"><p>${escHtml(entityExtract)}</p><a href="${escHtml(entityWikiUrl)}" class="entity-wiki-link" target="_blank" rel="noopener">About ${escHtml(fd._name)} on Wikipedia <span aria-hidden="true">\u2197</span></a></div>`
+    ? `<div class="entity-summary"><p>${escHtml(entityExtract)} <a href="${escHtml(entityWikiUrl)}" class="entity-wiki-link" target="_blank" rel="noopener">read more <span aria-hidden="true">\u2197</span></a></p></div>`
     : (entityWikiUrl && entityWikiUrl !== wikiUrl
-      ? `<a href="${escHtml(entityWikiUrl)}" class="entity-wiki-link" target="_blank" rel="noopener">About ${escHtml(fd._name)} on Wikipedia <span aria-hidden="true">\u2197</span></a>`
+      ? `<a href="${escHtml(entityWikiUrl)}" class="entity-wiki-link" target="_blank" rel="noopener">${escHtml(fd._name)} on Wikipedia <span aria-hidden="true">\u2197</span></a>`
       : '');
   const entityWikiLink = entitySummaryHtml;
 
@@ -2267,6 +2283,7 @@ function generateFlagPage(flagId) {
       <div class="deep-dive-body">
         ${csHtml}
         ${descHtml}
+        ${colorsFullHtml ? '<h3>Colors in detail</h3>' + colorsFullHtml : ''}
         ${triviaHtml}
         ${articleHtml}
         <details class="json-data">

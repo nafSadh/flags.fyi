@@ -392,6 +392,22 @@ body.flag-page { overflow: hidden; height: 100vh; }
   -webkit-overflow-scrolling: touch;
 }
 
+/* Compact colors list in sidebar — just swatch + name + hex. */
+.colors-compact { list-style: none; padding: 0; margin: 0 0 0.5rem; }
+.colors-compact li {
+  display: flex; align-items: center; gap: 0.5rem;
+  padding: 0.25rem 0; font-size: 0.82rem;
+}
+.colors-compact .color-swatch {
+  width: 1rem; height: 1rem; border-radius: 2px; flex-shrink: 0;
+  border: 1px solid var(--border);
+}
+.colors-compact .cc-name { flex: 1; color: var(--text); }
+.colors-compact .cc-hex {
+  font-family: var(--font-mono); font-size: 0.75rem;
+  color: var(--text-light); letter-spacing: 0.02em;
+}
+
 /* ─── Related flags (bottom of sidebar) ───────────────────────────── */
 .related-flags {
   padding: 0.5rem 0.75rem;
@@ -413,9 +429,8 @@ body.flag-page { overflow: hidden; height: 100vh; }
   margin-bottom: 0.4rem;
 }
 .entity-wiki-link {
-  display: inline-block; margin-top: 0.25rem;
-  font-size: 0.8rem; color: var(--primary);
-  text-decoration: none; padding: 0.1rem 0;
+  display: inline; color: var(--primary);
+  text-decoration: none; white-space: nowrap;
 }
 .entity-wiki-link:hover { text-decoration: underline; }
 
