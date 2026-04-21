@@ -645,13 +645,11 @@ function navbar() {
 // is in the deep-dive panel via colorsTableHtml.
 function colorsCompactHtml(colors) {
   if (!colors || colors.length === 0) return '';
-  let html = `<div class="colors-header">Colors</div>\n  <ul class="colors-compact">`;
-  for (const row of colors) {
+  const items = colors.map(row => {
     const hex = rgbHex(row.hex);
-    html += `\n    <li><span class="color-swatch" style="background:${hex}"></span><span class="cc-name">${escHtml(titleCase(row.color))}</span><span class="cc-hex">${hex}</span></li>`;
-  }
-  html += `\n  </ul>`;
-  return html;
+    return `<span class="cc-item"><span class="color-swatch" style="background:${hex}"></span>${escHtml(row.color.toLowerCase())} <span class="cc-hex">${hex}</span></span>`;
+  });
+  return `<div class="colors-compact">${items.join('<span class="cc-sep">|</span>')}</div>`;
 }
 
 // ─── colors table ────────────────────────────────────────────────────────────
@@ -2260,10 +2258,10 @@ function generateFlagPage(flagId) {
       </div>
       <div class="sidebar-info" id="sidebarInfo">
         ${subtitleHtml}
+        ${entityWikiLink}
         ${colorsHtml}
         <a href="${escHtml(wikiUrl)}" class="wiki-link" target="_blank" rel="noopener" aria-label="View on Wikipedia"><svg width="20" height="20" viewBox="0 0 128 128" aria-hidden="true"><use href="#icon-wiki"/></svg></a>
         ${commonsBtn}
-        ${entityWikiLink}
       </div>
       <div class="sidebar-bottom">
         ${relatedHtml}
