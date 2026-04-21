@@ -1156,11 +1156,21 @@
   },
   "nigeria": {
     "prev": "niger",
+    "next": "sokoto",
+    "cat": "countries"
+  },
+  "sokoto": {
+    "prev": "nigeria",
+    "next": "kanem-bornu",
+    "cat": "countries"
+  },
+  "kanem-bornu": {
+    "prev": "sokoto",
     "next": "north-macedonia",
     "cat": "countries"
   },
   "north-macedonia": {
-    "prev": "nigeria",
+    "prev": "kanem-bornu",
     "next": "norway",
     "cat": "countries"
   },
@@ -1989,14 +1999,19 @@
     "next": "african-union",
     "cat": "intl"
   },
-  "templar": {
+  "khazar": {
     "prev": "smom",
+    "next": "templar",
+    "cat": "empires"
+  },
+  "templar": {
+    "prev": "khazar",
     "next": "smom",
     "cat": "empires"
   },
   "smom": {
     "prev": "templar",
-    "next": "templar",
+    "next": "khazar",
     "cat": "empires"
   },
   "amazigh": {

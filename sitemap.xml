@@ -1207,6 +1207,24 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://flags.fyi/khazar/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://flags.fyi/sokoto/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://flags.fyi/kanem-bornu/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://flags.fyi/qajar/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>

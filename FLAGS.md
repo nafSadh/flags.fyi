@@ -1,8 +1,8 @@
 # flags.fyi — All Flags
 
-416 flags total.
+419 flags total.
 
-## Countries (387)
+## Countries (389)
 
 | # | Flag | ID | Index |
 |---|------|----|-------|
@@ -192,207 +192,209 @@
 | 184 | Jersey | `jersey` | `c/uk/jersey` |
 | 185 | Jordan | `jordan` | `c/jordan` |
 | 186 | Joseon Dynasty (1392–1897) → korea | `kr-joseon` | `c/korea:1392` |
-| 187 | Katipunan Flag (1892–1897) → philippines | `ph-katipunan` | `c/philippines:1892` |
-| 188 | Kazakhstan | `kazakhstan` | `c/kazakhstan` |
-| 189 | Kenya | `kenya` | `c/kenya` |
-| 190 | Kenya Colony (1920–1963) → kenya | `ke-colonial` | `c/kenya:1920` |
-| 191 | Khedivate of Egypt (1867–1914) → egypt | `egypt-khedivate` | `c/egypt:1867` |
-| 192 | Kingdom of Egypt (1922–1953) → egypt | `egypt-kingdom` | `c/egypt:1922` |
-| 193 | Kingdom of Hejaz (1916–1925) → saudi-arabia | `hejaz` | `c/saudi-arabia:1916` |
-| 194 | Kingdom of Italy (1861–1946) → italy | `it-kingdom` | `c/italy:1861` |
-| 195 | Kingdom of Jerusalem (1099–1291) → israel | `kingdom-of-jerusalem` | `c/israel:1099` |
-| 196 | Kingdom of Libya (1951–1969) → libya | `libya-kingdom` | `c/libya:1951` |
-| 197 | Kingdom of Scotland (~1542) → uk-scotland | `scotland-kingdom` | `c/uk-scotland:1542` |
-| 198 | Kiribati | `kiribati` | `c/kiribati` |
-| 199 | Korea | `korea` | `c/korea` |
-| 200 | Kosovo | `kosovo` | `c/kosovo` |
-| 201 | Kuwait | `kuwait` | `c/kuwait` |
-| 202 | Kyrgyzstan | `kyrgyzstan` | `c/kyrgyzstan` |
-| 203 | Laos | `laos` | `c/laos` |
-| 204 | Latvia | `latvia` | `c/latvia` |
-| 205 | Lebanon | `lebanon` | `c/lebanon` |
-| 206 | Lesotho | `lesotho` | `c/lesotho` |
-| 207 | Liberia | `liberia` | `c/liberia` |
-| 208 | Libya | `libya` | `c/libya` |
-| 209 | Libya (civil) | `libya-civil` | `c/libya-(civil)` |
-| 210 | Libyan Arab Republic (1969–1977) → libya | `libya-ar` | `c/libya:1969` |
-| 211 | Libyan Jamahiriya (1977–2011) → libya | `libya-jamahiriya` | `c/libya:1977` |
-| 212 | Liechtenstein | `liechtenstein` | `c/liechtenstein` |
-| 213 | Lithuania | `lithuania` | `c/lithuania` |
-| 214 | Luxembourg | `luxembourg` | `c/luxembourg` |
-| 215 | Madagascar | `madagascar` | `c/madagascar` |
-| 216 | Majapahit Empire (1293–1527) → indonesia | `majapahit` | `c/indonesia:1293` |
-| 217 | Malawi | `malawi` | `c/malawi` |
-| 218 | Malaysia | `malaysia` | `c/malaysia` |
-| 219 | Maldives | `maldives` | `c/maldives` |
-| 220 | Mali | `mali` | `c/mali` |
-| 221 | Mali Empire (1230–1670) → mali | `mali-empire` | `c/mali:1230` |
-| 222 | Malta | `malta` | `c/malta` |
-| 223 | Mamluk Sultanate (1250–1517) → egypt | `egypt-mamluk` | `c/egypt:1250` |
-| 224 | Mandatory Iraq (1920–1932) → iraq | `iraq-mandatory` | `c/iraq:1920` |
-| 225 | Mann (Isle of Man) | `mann` | `c/uk/mann` |
-| 226 | Maratha Empire (1674–1818) → india | `maratha` | `c/india:1674` |
-| 227 | Marshall Islands | `marshall-islands` | `c/marshall-islands` |
-| 228 | Maryland | `us/maryland` | `c/us/maryland` |
-| 229 | Mauritania | `mauritania` | `c/mauritania` |
-| 230 | Mauritania (1959–2017) (1959–2017) → mauritania | `mauritania-1959` | `c/mauritania:1959` |
-| 231 | Mayotte | `comoros-mayotte` | `c/mayotte` |
-| 232 | Mexican Empire (1821–1823) → mexico | `mx-empire` | `c/mexico:1821` |
-| 233 | Mexican Federal Republic (1823–1864) → mexico | `mx-federal-republic` | `c/mexico:1823` |
-| 234 | Mexico | `mexico` | `c/mexico` |
-| 235 | Micronesia | `micronesia` | `c/micronesia` |
-| 236 | Mississippi | `us/mississippi` | `c/us/mississippi` |
-| 237 | Mohéli | `moheli` | `c/mohéli` |
-| 238 | Moldova | `moldova` | `c/moldova` |
-| 239 | Monaco | `monaco` | `c/monaco` |
-| 240 | Mongol Empire (1206–1368) → china | `mongol` | `c/china:1206` |
-| 241 | Mongolia | `mongolia` | `c/mongolia` |
-| 242 | Montenegro | `montenegro` | `c/montenegro` |
-| 243 | Montserrat | `montserrat` | `c/uk/montserrat` |
-| 244 | Morocco | `morocco` | `c/morocco` |
-| 245 | Mozambique | `mozambique` | `c/mozambique` |
-| 246 | Mughal Empire (1526–1857) → india | `mughal` | `c/india:1526` |
-| 247 | Muslim League Flag (1906–1947) → pakistan | `pk-muslim-league` | `c/pakistan:1906` |
-| 248 | Myanmar | `myanmar` | `c/myanmar` |
-| 249 | N. Korea (DPRK) | `korea-dprk` | `c/n.-korea-(dprk)` |
-| 250 | Namibia | `namibia` | `c/namibia` |
-| 251 | Nauru | `nauru` | `c/nauru` |
-| 252 | Nazi Germany (1933–1945) → germany | `de-nazi` | `c/germany:1933` |
-| 253 | Nepal | `nepal` | `c/nepal` |
-| 254 | Netherlands | `netherlands` | `c/netherlands` |
-| 255 | New Mexico | `us/new-mexico` | `c/us/new-mexico` |
-| 256 | New South Wales | `au/new-south-wales` | `c/au/new-south-wales` |
-| 257 | New York | `us/new-york` | `c/us/new-york` |
-| 258 | New Zealand | `new-zealand` | `c/new-zealand` |
-| 259 | Nicaragua | `nicaragua` | `c/nicaragua` |
-| 260 | Niger | `niger` | `c/niger` |
-| 261 | Nigeria | `nigeria` | `c/nigeria` |
-| 262 | North Macedonia | `north-macedonia` | `c/north-macedonia` |
-| 263 | North Yemen (YAR) (1918–1990) → yemen | `north-yemen` | `c/yemen:1918` |
-| 264 | Northern Ireland (Ulster Banner) | `uk/northern-ireland` | `c/uk/northern-ireland` |
-| 265 | Norway | `norway` | `c/norway` |
-| 266 | Ohio | `us/ohio` | `c/us/ohio` |
-| 267 | Oman | `oman` | `c/oman` |
-| 268 | Ontario | `ca/ontario` | `c/ca/ontario` |
-| 269 | Original Taegeukgi (1883) → korea | `kr-taegeukgi-1883` | `c/korea:1883` |
-| 270 | Ottoman Empire (1299–1922) → turkey | `ottoman` | `c/turkey:1299` |
-| 271 | Ottoman Empire (Early) (~1300s) → turkey | `ottoman-early` | `c/turkey:1300` |
-| 272 | Ottoman Tripolitania (1551–1911) → libya | `libya-ottoman` | `c/libya:1551` |
-| 273 | Pahlavi Dynasty (1925–1979) → iran | `pahlavi` | `c/iran:1925` |
-| 274 | Pakistan | `pakistan` | `c/pakistan` |
-| 275 | Palau | `palau` | `c/palau` |
-| 276 | Palestine | `palestine` | `c/palestine` |
-| 277 | Panama | `panama` | `c/panama` |
-| 278 | Papua New Guinea | `papua-new-guinea` | `c/papua-new-guinea` |
-| 279 | Paraguay | `paraguay` | `c/paraguay` |
-| 280 | Parthian Empire (247 BC–224 AD) → iran | `parthian` | `c/iran:247` |
-| 281 | Peru | `peru` | `c/peru` |
-| 282 | Philippine Revolutionary Flag (1897–1901) → philippines | `ph-revolutionary` | `c/philippines:1897` |
-| 283 | Philippines | `philippines` | `c/philippines` |
-| 284 | Pitcairn Islands | `pitcairn` | `c/uk/pitcairn` |
-| 285 | Poland | `poland` | `c/poland` |
-| 286 | Polish November Uprising (1830–1831) → poland | `pl-november-uprising` | `c/poland:1830` |
-| 287 | Portugal | `portugal` | `c/portugal` |
-| 288 | Prussia | `de/prussia` | `c/de/prussia` |
-| 289 | Puerto Rico | `us/puerto-rico` | `c/us/puerto-rico` |
-| 290 | Qajar Dynasty (1789–1925) → iran | `qajar` | `c/iran:1789` |
-| 291 | Qatar | `qatar` | `c/qatar` |
-| 292 | Qing Dynasty (Dragon Flag) (1889–1912) → china | `cn-qing-dragon` | `c/china:1889` |
-| 293 | Quebec | `ca/quebec` | `c/ca/quebec` |
-| 294 | Rashidun Caliphate (632–661) → saudi-arabia | `rashidun` | `c/saudi-arabia:632` |
-| 295 | Republic of Genoa (1005–1797) → italy | `genoa` | `c/italy:1005` |
-| 296 | Republic of Hatay (1938–1939) → turkey | `hatay` | `c/turkey:1938` |
-| 297 | Republic of Venice (697–1797) → italy | `venice` | `c/italy:697` |
-| 298 | Roman Empire (27 BC–476 AD) → italy | `roman-empire` | `c/italy:476` |
-| 299 | Romania | `romania` | `c/romania` |
-| 300 | Russia | `russia` | `c/russia` |
-| 301 | Russian SFSR (1918–1991) → russia | `ru-sfsr` | `c/russia:1918` |
-| 302 | Rwanda | `rwanda` | `c/rwanda` |
-| 303 | Safavid Empire (1501–1736) → iran | `safavid` | `c/iran:1501` |
-| 304 | Saint Helena | `saint-helena` | `c/uk/helena` |
-| 305 | Saint Kitts and Nevis | `saint-kitts-and-nevis` | `c/saint-kitts-and-nevis` |
-| 306 | Saint Lucia | `saint-lucia` | `c/saint-lucia` |
-| 307 | Saint Vincent and the Grenadines | `saint-vincent-and-the-grenadines` | `c/saint-vincent-and-the-grenadines` |
-| 308 | Samanid Empire (819–999) → iran | `samanid` | `c/iran:819` |
-| 309 | Samoa | `samoa` | `c/samoa` |
-| 310 | San Marino | `san-marino` | `c/san-marino` |
-| 311 | Sao Tome and Principe | `sao-tome-and-principe` | `c/sao-tome-and-principe` |
-| 312 | Sark | `sark` | `c/uk/sark` |
-| 313 | Sassanid Empire (Derafsh Kaviani, alt) (224–651) → iran | `sassanid-alt` | `c/iran:224` |
-| 314 | Sassanid Empire (Derafsh Kaviani) (224–651) → iran | `sassanid` | `c/iran:224` |
-| 315 | Saudi Arabia | `saudi-arabia` | `c/saudi-arabia` |
-| 316 | Scotland (Saltire) | `uk/scotland` | `c/uk/scotland` |
-| 317 | Second Spanish Republic (1931–1939) → spain | `es-republic` | `c/spain:1931` |
-| 318 | Seljuk Empire (1037–1194) → turkey | `seljuk` | `c/turkey:1037` |
-| 319 | Senegal | `senegal` | `c/senegal` |
-| 320 | Serbia | `serbia` | `c/serbia` |
-| 321 | Seychelles | `seychelles` | `c/seychelles` |
-| 322 | Siam White Elephant (1855–1916) → thailand | `th-siam-elephant` | `c/thailand:1855` |
-| 323 | Sierra Leone | `sierra-leone` | `c/sierra-leone` |
-| 324 | Sikh Empire (1799–1849) → india | `sikh-empire` | `c/india:1799` |
-| 325 | Sikkim | `in/sikkim` | `c/in/sikkim` |
-| 326 | Singapore | `singapore` | `c/singapore` |
-| 327 | Slovakia | `slovakia` | `c/slovakia` |
-| 328 | Slovenia | `slovenia` | `c/slovenia` |
-| 329 | Solomon Islands | `solomon-islands` | `c/solomon-islands` |
-| 330 | Somalia | `somalia` | `c/somalia` |
-| 331 | South Africa | `south-africa` | `c/south-africa` |
-| 332 | South Africa Prinsevlag (1928–1994) → south-africa | `za-prinsevlag` | `c/south-africa:1928` |
-| 333 | South Carolina | `us/south-carolina` | `c/us/south-carolina` |
-| 334 | South Georgia & South Sandwich Islands | `sgssi` | `c/uk/sgssi` |
-| 335 | South Sudan | `south-sudan` | `c/south-sudan` |
-| 336 | South Vietnam (1955–1975) → vietnam | `vn-south` | `c/vietnam:1955` |
-| 337 | South Yemen (PDRY) (1967–1990) → yemen | `south-yemen` | `c/yemen:1967` |
-| 338 | Soviet Union (1922–1991) → russia | `soviet-union` | `c/russia:1922` |
-| 339 | Spain | `spain` | `c/spain` |
-| 340 | Spanish Empire (1506–1785) → spain | `es-empire` | `c/spain:1506` |
-| 341 | Sri Lanka | `sri-lanka` | `c/sri-lanka` |
-| 342 | Sudan | `sudan` | `c/sudan` |
-| 343 | Sultanate of Egypt (1914–1922) → egypt | `egypt-sultanate` | `c/egypt:1914` |
-| 344 | Suriname | `suriname` | `c/suriname` |
-| 345 | Sweden | `sweden` | `c/sweden` |
-| 346 | Switzerland | `switzerland` | `c/switzerland` |
-| 347 | Syria | `syria` | `c/syria` |
-| 348 | Tajikistan | `tajikistan` | `c/tajikistan` |
-| 349 | Taliban (1996) (1996–2001) → afghanistan | `af-taliban-1996` | `c/afghanistan:1996` |
-| 350 | Tamil Nadu | `in/tamil-nadu` | `c/in/tamil-nadu` |
-| 351 | Tanzania | `tanzania` | `c/tanzania` |
-| 352 | Teutonic Order (1190–1525) → germany | `teutonic` | `c/germany:1190` |
-| 353 | Texas | `us/texas` | `c/us/texas` |
-| 354 | Thailand | `thailand` | `c/thailand` |
-| 355 | Timor Leste | `timor-leste` | `c/timor-leste` |
-| 356 | Togo | `togo` | `c/togo` |
-| 357 | Tokugawa Shogunate (1603–1868) → japan | `jp-tokugawa` | `c/japan:1603` |
-| 358 | Tonga | `tonga` | `c/tonga` |
-| 359 | Torres Strait Islander Flag | `au/torres-strait` | `c/au/torres-strait` |
-| 360 | Trinidad and Tobago | `trinidad-and-tobago` | `c/trinidad-and-tobago` |
-| 361 | Tripolitanian Republic (1918–1923) → libya | `libya-tripolitanian-republic` | `c/libya:1918` |
-| 362 | Tristan da Cunha | `tristan` | `c/uk/tristan` |
-| 363 | Tunisia | `tunisia` | `c/tunisia` |
-| 364 | Turkey | `turkey` | `c/turkey` |
-| 365 | Turkmenistan | `turkmenistan` | `c/turkmenistan` |
-| 366 | Turks and Caicos Islands | `tci` | `c/uk/tci` |
-| 367 | Tuvalu | `tuvalu` | `c/tuvalu` |
-| 368 | Uganda | `uganda` | `c/uganda` |
-| 369 | Ukraine | `ukraine` | `c/ukraine` |
-| 370 | Umayyad Caliphate (661–750) → syria | `umayyad` | `c/syria:661` |
-| 371 | United Arab Emirates | `uae` | `c/united-arab-emirates` |
-| 372 | United Arab Republic (1958–1971) → egypt | `egypt-uar` | `c/egypt:1958` |
-| 373 | United Kingdom of Libya (1951–1963) → libya | `libya-united` | `c/libya:1951` |
-| 374 | United States | `us` | `c/united-states` |
-| 375 | Uruguay | `uruguay` | `c/uruguay` |
-| 376 | Uzbekistan | `uzbekistan` | `c/uzbekistan` |
-| 377 | Vanuatu | `vanuatu` | `c/vanuatu` |
-| 378 | Vatican City | `vatican-city` | `c/vatican-city` |
-| 379 | Venezuela | `venezuela` | `c/venezuela` |
-| 380 | Vietnam | `vietnam` | `c/vietnam` |
-| 381 | Wales | `uk/wales` | `c/uk/wales` |
-| 382 | Washington D.C. | `us/washington-dc` | `c/us/washington-dc` |
-| 383 | Weimar Republic (1918–1933) → germany | `de-weimar` | `c/germany:1918` |
-| 384 | West Germany (1949–1990) → germany | `de-west-germany` | `c/germany:1949` |
-| 385 | Yemen | `yemen` | `c/yemen` |
-| 386 | Zambia | `zambia` | `c/zambia` |
-| 387 | Zimbabwe | `zimbabwe` | `c/zimbabwe` |
+| 187 | Kanem–Bornu Empire (700–1893) → nigeria | `kanem-bornu` | `c/nigeria:700` |
+| 188 | Katipunan Flag (1892–1897) → philippines | `ph-katipunan` | `c/philippines:1892` |
+| 189 | Kazakhstan | `kazakhstan` | `c/kazakhstan` |
+| 190 | Kenya | `kenya` | `c/kenya` |
+| 191 | Kenya Colony (1920–1963) → kenya | `ke-colonial` | `c/kenya:1920` |
+| 192 | Khedivate of Egypt (1867–1914) → egypt | `egypt-khedivate` | `c/egypt:1867` |
+| 193 | Kingdom of Egypt (1922–1953) → egypt | `egypt-kingdom` | `c/egypt:1922` |
+| 194 | Kingdom of Hejaz (1916–1925) → saudi-arabia | `hejaz` | `c/saudi-arabia:1916` |
+| 195 | Kingdom of Italy (1861–1946) → italy | `it-kingdom` | `c/italy:1861` |
+| 196 | Kingdom of Jerusalem (1099–1291) → israel | `kingdom-of-jerusalem` | `c/israel:1099` |
+| 197 | Kingdom of Libya (1951–1969) → libya | `libya-kingdom` | `c/libya:1951` |
+| 198 | Kingdom of Scotland (~1542) → uk-scotland | `scotland-kingdom` | `c/uk-scotland:1542` |
+| 199 | Kiribati | `kiribati` | `c/kiribati` |
+| 200 | Korea | `korea` | `c/korea` |
+| 201 | Kosovo | `kosovo` | `c/kosovo` |
+| 202 | Kuwait | `kuwait` | `c/kuwait` |
+| 203 | Kyrgyzstan | `kyrgyzstan` | `c/kyrgyzstan` |
+| 204 | Laos | `laos` | `c/laos` |
+| 205 | Latvia | `latvia` | `c/latvia` |
+| 206 | Lebanon | `lebanon` | `c/lebanon` |
+| 207 | Lesotho | `lesotho` | `c/lesotho` |
+| 208 | Liberia | `liberia` | `c/liberia` |
+| 209 | Libya | `libya` | `c/libya` |
+| 210 | Libya (civil) | `libya-civil` | `c/libya-(civil)` |
+| 211 | Libyan Arab Republic (1969–1977) → libya | `libya-ar` | `c/libya:1969` |
+| 212 | Libyan Jamahiriya (1977–2011) → libya | `libya-jamahiriya` | `c/libya:1977` |
+| 213 | Liechtenstein | `liechtenstein` | `c/liechtenstein` |
+| 214 | Lithuania | `lithuania` | `c/lithuania` |
+| 215 | Luxembourg | `luxembourg` | `c/luxembourg` |
+| 216 | Madagascar | `madagascar` | `c/madagascar` |
+| 217 | Majapahit Empire (1293–1527) → indonesia | `majapahit` | `c/indonesia:1293` |
+| 218 | Malawi | `malawi` | `c/malawi` |
+| 219 | Malaysia | `malaysia` | `c/malaysia` |
+| 220 | Maldives | `maldives` | `c/maldives` |
+| 221 | Mali | `mali` | `c/mali` |
+| 222 | Mali Empire (1230–1670) → mali | `mali-empire` | `c/mali:1230` |
+| 223 | Malta | `malta` | `c/malta` |
+| 224 | Mamluk Sultanate (1250–1517) → egypt | `egypt-mamluk` | `c/egypt:1250` |
+| 225 | Mandatory Iraq (1920–1932) → iraq | `iraq-mandatory` | `c/iraq:1920` |
+| 226 | Mann (Isle of Man) | `mann` | `c/uk/mann` |
+| 227 | Maratha Empire (1674–1818) → india | `maratha` | `c/india:1674` |
+| 228 | Marshall Islands | `marshall-islands` | `c/marshall-islands` |
+| 229 | Maryland | `us/maryland` | `c/us/maryland` |
+| 230 | Mauritania | `mauritania` | `c/mauritania` |
+| 231 | Mauritania (1959–2017) (1959–2017) → mauritania | `mauritania-1959` | `c/mauritania:1959` |
+| 232 | Mayotte | `comoros-mayotte` | `c/mayotte` |
+| 233 | Mexican Empire (1821–1823) → mexico | `mx-empire` | `c/mexico:1821` |
+| 234 | Mexican Federal Republic (1823–1864) → mexico | `mx-federal-republic` | `c/mexico:1823` |
+| 235 | Mexico | `mexico` | `c/mexico` |
+| 236 | Micronesia | `micronesia` | `c/micronesia` |
+| 237 | Mississippi | `us/mississippi` | `c/us/mississippi` |
+| 238 | Mohéli | `moheli` | `c/mohéli` |
+| 239 | Moldova | `moldova` | `c/moldova` |
+| 240 | Monaco | `monaco` | `c/monaco` |
+| 241 | Mongol Empire (1206–1368) → china | `mongol` | `c/china:1206` |
+| 242 | Mongolia | `mongolia` | `c/mongolia` |
+| 243 | Montenegro | `montenegro` | `c/montenegro` |
+| 244 | Montserrat | `montserrat` | `c/uk/montserrat` |
+| 245 | Morocco | `morocco` | `c/morocco` |
+| 246 | Mozambique | `mozambique` | `c/mozambique` |
+| 247 | Mughal Empire (1526–1857) → india | `mughal` | `c/india:1526` |
+| 248 | Muslim League Flag (1906–1947) → pakistan | `pk-muslim-league` | `c/pakistan:1906` |
+| 249 | Myanmar | `myanmar` | `c/myanmar` |
+| 250 | N. Korea (DPRK) | `korea-dprk` | `c/n.-korea-(dprk)` |
+| 251 | Namibia | `namibia` | `c/namibia` |
+| 252 | Nauru | `nauru` | `c/nauru` |
+| 253 | Nazi Germany (1933–1945) → germany | `de-nazi` | `c/germany:1933` |
+| 254 | Nepal | `nepal` | `c/nepal` |
+| 255 | Netherlands | `netherlands` | `c/netherlands` |
+| 256 | New Mexico | `us/new-mexico` | `c/us/new-mexico` |
+| 257 | New South Wales | `au/new-south-wales` | `c/au/new-south-wales` |
+| 258 | New York | `us/new-york` | `c/us/new-york` |
+| 259 | New Zealand | `new-zealand` | `c/new-zealand` |
+| 260 | Nicaragua | `nicaragua` | `c/nicaragua` |
+| 261 | Niger | `niger` | `c/niger` |
+| 262 | Nigeria | `nigeria` | `c/nigeria` |
+| 263 | North Macedonia | `north-macedonia` | `c/north-macedonia` |
+| 264 | North Yemen (YAR) (1918–1990) → yemen | `north-yemen` | `c/yemen:1918` |
+| 265 | Northern Ireland (Ulster Banner) | `uk/northern-ireland` | `c/uk/northern-ireland` |
+| 266 | Norway | `norway` | `c/norway` |
+| 267 | Ohio | `us/ohio` | `c/us/ohio` |
+| 268 | Oman | `oman` | `c/oman` |
+| 269 | Ontario | `ca/ontario` | `c/ca/ontario` |
+| 270 | Original Taegeukgi (1883) → korea | `kr-taegeukgi-1883` | `c/korea:1883` |
+| 271 | Ottoman Empire (1299–1922) → turkey | `ottoman` | `c/turkey:1299` |
+| 272 | Ottoman Empire (Early) (~1300s) → turkey | `ottoman-early` | `c/turkey:1300` |
+| 273 | Ottoman Tripolitania (1551–1911) → libya | `libya-ottoman` | `c/libya:1551` |
+| 274 | Pahlavi Dynasty (1925–1979) → iran | `pahlavi` | `c/iran:1925` |
+| 275 | Pakistan | `pakistan` | `c/pakistan` |
+| 276 | Palau | `palau` | `c/palau` |
+| 277 | Palestine | `palestine` | `c/palestine` |
+| 278 | Panama | `panama` | `c/panama` |
+| 279 | Papua New Guinea | `papua-new-guinea` | `c/papua-new-guinea` |
+| 280 | Paraguay | `paraguay` | `c/paraguay` |
+| 281 | Parthian Empire (247 BC–224 AD) → iran | `parthian` | `c/iran:247` |
+| 282 | Peru | `peru` | `c/peru` |
+| 283 | Philippine Revolutionary Flag (1897–1901) → philippines | `ph-revolutionary` | `c/philippines:1897` |
+| 284 | Philippines | `philippines` | `c/philippines` |
+| 285 | Pitcairn Islands | `pitcairn` | `c/uk/pitcairn` |
+| 286 | Poland | `poland` | `c/poland` |
+| 287 | Polish November Uprising (1830–1831) → poland | `pl-november-uprising` | `c/poland:1830` |
+| 288 | Portugal | `portugal` | `c/portugal` |
+| 289 | Prussia | `de/prussia` | `c/de/prussia` |
+| 290 | Puerto Rico | `us/puerto-rico` | `c/us/puerto-rico` |
+| 291 | Qajar Dynasty (1789–1925) → iran | `qajar` | `c/iran:1789` |
+| 292 | Qatar | `qatar` | `c/qatar` |
+| 293 | Qing Dynasty (Dragon Flag) (1889–1912) → china | `cn-qing-dragon` | `c/china:1889` |
+| 294 | Quebec | `ca/quebec` | `c/ca/quebec` |
+| 295 | Rashidun Caliphate (632–661) → saudi-arabia | `rashidun` | `c/saudi-arabia:632` |
+| 296 | Republic of Genoa (1005–1797) → italy | `genoa` | `c/italy:1005` |
+| 297 | Republic of Hatay (1938–1939) → turkey | `hatay` | `c/turkey:1938` |
+| 298 | Republic of Venice (697–1797) → italy | `venice` | `c/italy:697` |
+| 299 | Roman Empire (27 BC–476 AD) → italy | `roman-empire` | `c/italy:476` |
+| 300 | Romania | `romania` | `c/romania` |
+| 301 | Russia | `russia` | `c/russia` |
+| 302 | Russian SFSR (1918–1991) → russia | `ru-sfsr` | `c/russia:1918` |
+| 303 | Rwanda | `rwanda` | `c/rwanda` |
+| 304 | Safavid Empire (1501–1736) → iran | `safavid` | `c/iran:1501` |
+| 305 | Saint Helena | `saint-helena` | `c/uk/helena` |
+| 306 | Saint Kitts and Nevis | `saint-kitts-and-nevis` | `c/saint-kitts-and-nevis` |
+| 307 | Saint Lucia | `saint-lucia` | `c/saint-lucia` |
+| 308 | Saint Vincent and the Grenadines | `saint-vincent-and-the-grenadines` | `c/saint-vincent-and-the-grenadines` |
+| 309 | Samanid Empire (819–999) → iran | `samanid` | `c/iran:819` |
+| 310 | Samoa | `samoa` | `c/samoa` |
+| 311 | San Marino | `san-marino` | `c/san-marino` |
+| 312 | Sao Tome and Principe | `sao-tome-and-principe` | `c/sao-tome-and-principe` |
+| 313 | Sark | `sark` | `c/uk/sark` |
+| 314 | Sassanid Empire (Derafsh Kaviani, alt) (224–651) → iran | `sassanid-alt` | `c/iran:224` |
+| 315 | Sassanid Empire (Derafsh Kaviani) (224–651) → iran | `sassanid` | `c/iran:224` |
+| 316 | Saudi Arabia | `saudi-arabia` | `c/saudi-arabia` |
+| 317 | Scotland (Saltire) | `uk/scotland` | `c/uk/scotland` |
+| 318 | Second Spanish Republic (1931–1939) → spain | `es-republic` | `c/spain:1931` |
+| 319 | Seljuk Empire (1037–1194) → turkey | `seljuk` | `c/turkey:1037` |
+| 320 | Senegal | `senegal` | `c/senegal` |
+| 321 | Serbia | `serbia` | `c/serbia` |
+| 322 | Seychelles | `seychelles` | `c/seychelles` |
+| 323 | Siam White Elephant (1855–1916) → thailand | `th-siam-elephant` | `c/thailand:1855` |
+| 324 | Sierra Leone | `sierra-leone` | `c/sierra-leone` |
+| 325 | Sikh Empire (1799–1849) → india | `sikh-empire` | `c/india:1799` |
+| 326 | Sikkim | `in/sikkim` | `c/in/sikkim` |
+| 327 | Singapore | `singapore` | `c/singapore` |
+| 328 | Slovakia | `slovakia` | `c/slovakia` |
+| 329 | Slovenia | `slovenia` | `c/slovenia` |
+| 330 | Sokoto Caliphate (1804–1903) → nigeria | `sokoto` | `c/nigeria:1804` |
+| 331 | Solomon Islands | `solomon-islands` | `c/solomon-islands` |
+| 332 | Somalia | `somalia` | `c/somalia` |
+| 333 | South Africa | `south-africa` | `c/south-africa` |
+| 334 | South Africa Prinsevlag (1928–1994) → south-africa | `za-prinsevlag` | `c/south-africa:1928` |
+| 335 | South Carolina | `us/south-carolina` | `c/us/south-carolina` |
+| 336 | South Georgia & South Sandwich Islands | `sgssi` | `c/uk/sgssi` |
+| 337 | South Sudan | `south-sudan` | `c/south-sudan` |
+| 338 | South Vietnam (1955–1975) → vietnam | `vn-south` | `c/vietnam:1955` |
+| 339 | South Yemen (PDRY) (1967–1990) → yemen | `south-yemen` | `c/yemen:1967` |
+| 340 | Soviet Union (1922–1991) → russia | `soviet-union` | `c/russia:1922` |
+| 341 | Spain | `spain` | `c/spain` |
+| 342 | Spanish Empire (1506–1785) → spain | `es-empire` | `c/spain:1506` |
+| 343 | Sri Lanka | `sri-lanka` | `c/sri-lanka` |
+| 344 | Sudan | `sudan` | `c/sudan` |
+| 345 | Sultanate of Egypt (1914–1922) → egypt | `egypt-sultanate` | `c/egypt:1914` |
+| 346 | Suriname | `suriname` | `c/suriname` |
+| 347 | Sweden | `sweden` | `c/sweden` |
+| 348 | Switzerland | `switzerland` | `c/switzerland` |
+| 349 | Syria | `syria` | `c/syria` |
+| 350 | Tajikistan | `tajikistan` | `c/tajikistan` |
+| 351 | Taliban (1996) (1996–2001) → afghanistan | `af-taliban-1996` | `c/afghanistan:1996` |
+| 352 | Tamil Nadu | `in/tamil-nadu` | `c/in/tamil-nadu` |
+| 353 | Tanzania | `tanzania` | `c/tanzania` |
+| 354 | Teutonic Order (1190–1525) → germany | `teutonic` | `c/germany:1190` |
+| 355 | Texas | `us/texas` | `c/us/texas` |
+| 356 | Thailand | `thailand` | `c/thailand` |
+| 357 | Timor Leste | `timor-leste` | `c/timor-leste` |
+| 358 | Togo | `togo` | `c/togo` |
+| 359 | Tokugawa Shogunate (1603–1868) → japan | `jp-tokugawa` | `c/japan:1603` |
+| 360 | Tonga | `tonga` | `c/tonga` |
+| 361 | Torres Strait Islander Flag | `au/torres-strait` | `c/au/torres-strait` |
+| 362 | Trinidad and Tobago | `trinidad-and-tobago` | `c/trinidad-and-tobago` |
+| 363 | Tripolitanian Republic (1918–1923) → libya | `libya-tripolitanian-republic` | `c/libya:1918` |
+| 364 | Tristan da Cunha | `tristan` | `c/uk/tristan` |
+| 365 | Tunisia | `tunisia` | `c/tunisia` |
+| 366 | Turkey | `turkey` | `c/turkey` |
+| 367 | Turkmenistan | `turkmenistan` | `c/turkmenistan` |
+| 368 | Turks and Caicos Islands | `tci` | `c/uk/tci` |
+| 369 | Tuvalu | `tuvalu` | `c/tuvalu` |
+| 370 | Uganda | `uganda` | `c/uganda` |
+| 371 | Ukraine | `ukraine` | `c/ukraine` |
+| 372 | Umayyad Caliphate (661–750) → syria | `umayyad` | `c/syria:661` |
+| 373 | United Arab Emirates | `uae` | `c/united-arab-emirates` |
+| 374 | United Arab Republic (1958–1971) → egypt | `egypt-uar` | `c/egypt:1958` |
+| 375 | United Kingdom of Libya (1951–1963) → libya | `libya-united` | `c/libya:1951` |
+| 376 | United States | `us` | `c/united-states` |
+| 377 | Uruguay | `uruguay` | `c/uruguay` |
+| 378 | Uzbekistan | `uzbekistan` | `c/uzbekistan` |
+| 379 | Vanuatu | `vanuatu` | `c/vanuatu` |
+| 380 | Vatican City | `vatican-city` | `c/vatican-city` |
+| 381 | Venezuela | `venezuela` | `c/venezuela` |
+| 382 | Vietnam | `vietnam` | `c/vietnam` |
+| 383 | Wales | `uk/wales` | `c/uk/wales` |
+| 384 | Washington D.C. | `us/washington-dc` | `c/us/washington-dc` |
+| 385 | Weimar Republic (1918–1933) → germany | `de-weimar` | `c/germany:1918` |
+| 386 | West Germany (1949–1990) → germany | `de-west-germany` | `c/germany:1949` |
+| 387 | Yemen | `yemen` | `c/yemen` |
+| 388 | Zambia | `zambia` | `c/zambia` |
+| 389 | Zimbabwe | `zimbabwe` | `c/zimbabwe` |
 
 ## International Organizations (11)
 
@@ -410,12 +412,13 @@
 | 10 | Red Cross / Red Crescent | `red-cross` | `i/red-cross-/-red-crescent` |
 | 11 | United Nations | `united-nations` | `i/united-nations` |
 
-## Empires & Caliphates (2)
+## Empires & Caliphates (3)
 
 | # | Flag | ID | Index |
 |---|------|----|-------|
-| 1 | Knights Templar (1119–1312) | `templar` | `e/knights-templar` |
-| 2 | Sovereign Military Order of Malta (1099–present) | `smom` | `e/sovereign-military-order-of-malta` |
+| 1 | Khazar Khaganate (650–969) | `khazar` | `e/khazar-khaganate` |
+| 2 | Knights Templar (1119–1312) | `templar` | `e/knights-templar` |
+| 3 | Sovereign Military Order of Malta (1099–present) | `smom` | `e/sovereign-military-order-of-malta` |
 
 ## Pan-Movements (8)
 

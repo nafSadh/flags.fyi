@@ -3119,6 +3119,23 @@
     "keywords": "juneteenth juneteenth flag — emancipation commemorative flag pan north-america"
   },
   {
+    "id": "kanem-bornu",
+    "name": "Kanem–Bornu Empire",
+    "title": "Flag of the Kanem–Bornu Empire",
+    "groups": [
+      "historic",
+      "empire",
+      "africa"
+    ],
+    "colors": [
+      "blue",
+      "yellow",
+      "green"
+    ],
+    "flag": "/empires/kanem-bornu.svg",
+    "keywords": "kanem–bornu empire flag of the kanem–bornu empire historic empire africa blue yellow green"
+  },
+  {
     "id": "ph-katipunan",
     "name": "Katipunan Flag",
     "title": "Flag of the Katipunan",
@@ -3182,6 +3199,22 @@
     ],
     "flag": "/kenya-hist/ke-colonial.svg",
     "keywords": "kenya colony flag of the kenya colony historic colonial africa horn-of-africa blue red white"
+  },
+  {
+    "id": "khazar",
+    "name": "Khazar Khaganate",
+    "title": "Banner of the Khazar Khaganate",
+    "groups": [
+      "historic",
+      "empire",
+      "asia"
+    ],
+    "colors": [
+      "sky-blue",
+      "white"
+    ],
+    "flag": "/empires/khazar.svg",
+    "keywords": "khazar khaganate banner of the khazar khaganate historic empire asia sky-blue white"
   },
   {
     "id": "egypt-khedivate",
@@ -5564,6 +5597,21 @@
     ],
     "flag": "/slovenia/flag.svg",
     "keywords": "slovenia flag of the republic of slovenia national-flag europe white blue red gold"
+  },
+  {
+    "id": "sokoto",
+    "name": "Sokoto Caliphate",
+    "title": "Flag of the Sokoto Caliphate",
+    "groups": [
+      "historic",
+      "caliphate",
+      "africa"
+    ],
+    "colors": [
+      "green"
+    ],
+    "flag": "/empires/sokoto.svg",
+    "keywords": "sokoto caliphate flag of the sokoto caliphate historic caliphate africa green"
   },
   {
     "id": "solomon-islands",

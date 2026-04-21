@@ -1257,6 +1257,32 @@
     "id": "majapahit",
     "index": "c/indonesia:1293"
   },
+  "khazar": {
+    "g": "h,empire,asia",
+    "ns": "empires",
+    "name": "Khazar Khaganate",
+    "years": "650–969",
+    "id": "khazar",
+    "index": "e/khazar-khaganate"
+  },
+  "sokoto": {
+    "g": "h,caliphate,africa",
+    "ns": "empires",
+    "name": "Sokoto Caliphate",
+    "now": "nigeria",
+    "years": "1804–1903",
+    "id": "sokoto",
+    "index": "c/nigeria:1804"
+  },
+  "kanem-bornu": {
+    "g": "h,empire,africa",
+    "ns": "empires",
+    "name": "Kanem–Bornu Empire",
+    "now": "nigeria",
+    "years": "700–1893",
+    "id": "kanem-bornu",
+    "index": "c/nigeria:700"
+  },
   "qajar": {
     "g": "h,asia",
     "ns": "persia",

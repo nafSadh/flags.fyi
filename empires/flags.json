@@ -519,5 +519,65 @@
       "- The empire's decline began after the death of Hayam Wuruk in 1389, worsened by the rise of Islamic sultanates\n",
       "- Majapahit coins and terracotta have been found from the Philippines to Madagascar"
     ]
+  },
+  "khazar": {
+    "title": "Banner of the Khazar Khaganate",
+    "ratio": "2:3",
+    "colors": [
+      {"color": "sky-blue", "hex": "#73bced", "cmyk": "51/21/0/7", "note": "Turkic blue of the eternal sky."},
+      {"color": "white", "hex": "#ffffff", "note": "Wolf emblem and star motifs."}
+    ],
+    "desc": [
+      "- The Khazar Khaganate (c. 650–969) was a Turkic steppe empire centred on the lower Volga, famous for its ruling class's conversion to Judaism and its buffer role between Byzantium, the Caliphate, and the Rus'\n",
+      "- **Construction:** a sky-blue field bearing a stylised wolf standard trailed by five stars — a modern reconstruction from the Turkish \"16 Great Turkic Empires\" series drawn from Khazar steppe iconography\n",
+      "- No authenticated banner survives; the Khazars used Turkic tamgas and (for their Jewish elite) Hebrew lettering on coins"
+    ],
+    "flag": "empires/khazar.svg",
+    "countryData": {"name": "Khazar Khaganate", "officialName": "Khazaria", "un": "none"},
+    "trivia": [
+      "- The Khazar ruling elite converted to Judaism c. 740 — the only medieval state outside Yemen known to have done so\n",
+      "- Khazar power collapsed after Sviatoslav of Kiev sacked their capital Atil c. 969\n",
+      "- Khazarian history survives mainly through the Rus' Primary Chronicle, Arab geographers, and the King Joseph correspondence"
+    ]
+  },
+  "sokoto": {
+    "title": "Flag of the Sokoto Caliphate",
+    "ratio": "2:3",
+    "colors": [
+      {"color": "green", "hex": "#38803f", "cmyk": "56/0/51/50", "note": "Islamic green of the Jihadists."}
+    ],
+    "desc": [
+      "- The Sokoto Caliphate (1804–1903) was the largest independent state in 19th-century Africa, spanning much of today's northern Nigeria and beyond\n",
+      "- **Construction:** a plain green field — the banner of Usman dan Fodio's Fulani Jihad and the pan-Islamic green used across the Sahel\n",
+      "- Individual emirates within the Caliphate flew their own variations; plain green is the canonical modern depiction of the Sokoto standard"
+    ],
+    "flag": "empires/sokoto.svg",
+    "countryData": {"name": "Sokoto Caliphate", "officialName": "Sokoto Caliphate", "un": "none"},
+    "trivia": [
+      "- Founded by the scholar-warrior Usman dan Fodio after his 1804 jihad against the Hausa city-states\n",
+      "- At its height the Caliphate administered some 10 million people across 30 emirates\n",
+      "- Defeated by British forces under Lugard in 1903; its aristocracy was absorbed into the Northern Nigeria Protectorate"
+    ]
+  },
+  "kanem-bornu": {
+    "title": "Flag of the Kanem–Bornu Empire",
+    "ratio": "2:3",
+    "colors": [
+      {"color": "blue", "hex": "#0000ff", "note": "Upper band."},
+      {"color": "yellow", "hex": "#ffff00", "note": "Middle band."},
+      {"color": "green", "hex": "#00cc00", "note": "Lower band."}
+    ],
+    "desc": [
+      "- The Kanem–Bornu Empire (c. 700–1893) was a long-lived Saharan state of the Lake Chad basin, ruled by the Sayfawa dynasty for over eight centuries\n",
+      "- **Construction:** a horizontal tricolour of blue, yellow, and green — reconstructed from the banner described by 19th-century European travellers to the Bornu court\n",
+      "- The empire merged **Kanem** (north-east of Lake Chad) and **Bornu** (south-west) after Kanem's dynasty relocated following Bulala attacks in the 14th century"
+    ],
+    "flag": "empires/kanem-bornu.svg",
+    "countryData": {"name": "Kanem-Bornu Empire", "officialName": "Kanem-Bornu", "un": "none"},
+    "trivia": [
+      "- One of the longest-lived imperial dynasties in world history — the Sayfawa ruled for roughly 800 years\n",
+      "- An early convert to Islam (c. 1085); Kanem became a major centre of Islamic scholarship in the Sahel\n",
+      "- Final Shehu of Bornu defeated by the Sudanese warlord Rabih az-Zubayr in 1893; France absorbed the remnants into its empire"
+    ]
   }
 }
