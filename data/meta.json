@@ -3614,23 +3614,68 @@
     "next": "gokturk",
     "cat": "empires"
   },
-  "amazigh": {
+  "pride-agender": {
     "prev": "white-ensign",
+    "next": "amazigh",
+    "cat": "other"
+  },
+  "amazigh": {
+    "prev": "pride-agender",
+    "next": "pride-aromantic",
+    "cat": "other"
+  },
+  "pride-aromantic": {
+    "prev": "amazigh",
+    "next": "pride-asexual",
+    "cat": "other"
+  },
+  "pride-asexual": {
+    "prev": "pride-aromantic",
+    "next": "pride-bear",
+    "cat": "other"
+  },
+  "pride-bear": {
+    "prev": "pride-asexual",
+    "next": "pride-bi",
+    "cat": "other"
+  },
+  "pride-bi": {
+    "prev": "pride-bear",
     "next": "catalan",
     "cat": "other"
   },
   "catalan": {
-    "prev": "amazigh",
+    "prev": "pride-bi",
+    "next": "pride-demisexual",
+    "cat": "other"
+  },
+  "pride-demisexual": {
+    "prev": "catalan",
+    "next": "pride-genderfluid",
+    "cat": "other"
+  },
+  "pride-genderfluid": {
+    "prev": "pride-demisexual",
+    "next": "pride-genderqueer",
+    "cat": "other"
+  },
+  "pride-genderqueer": {
+    "prev": "pride-genderfluid",
     "next": "signal-flags",
     "cat": "other"
   },
   "signal-flags": {
-    "prev": "catalan",
+    "prev": "pride-genderqueer",
+    "next": "pride-intersex",
+    "cat": "other"
+  },
+  "pride-intersex": {
+    "prev": "signal-flags",
     "next": "jolly-roger",
     "cat": "other"
   },
   "jolly-roger": {
-    "prev": "signal-flags",
+    "prev": "pride-intersex",
     "next": "juneteenth",
     "cat": "other"
   },
@@ -3641,21 +3686,51 @@
   },
   "kurdish": {
     "prev": "juneteenth",
+    "next": "pride-leather",
+    "cat": "other"
+  },
+  "pride-leather": {
+    "prev": "kurdish",
+    "next": "pride-lesbian",
+    "cat": "other"
+  },
+  "pride-lesbian": {
+    "prev": "pride-leather",
+    "next": "pride-nonbinary",
+    "cat": "other"
+  },
+  "pride-nonbinary": {
+    "prev": "pride-lesbian",
     "next": "pan-african",
     "cat": "other"
   },
   "pan-african": {
-    "prev": "kurdish",
+    "prev": "pride-nonbinary",
     "next": "pan-slavic",
     "cat": "other"
   },
   "pan-slavic": {
     "prev": "pan-african",
+    "next": "pride-pan",
+    "cat": "other"
+  },
+  "pride-pan": {
+    "prev": "pan-slavic",
+    "next": "pride-philadelphia",
+    "cat": "other"
+  },
+  "pride-philadelphia": {
+    "prev": "pride-pan",
+    "next": "pride-polyamory",
+    "cat": "other"
+  },
+  "pride-polyamory": {
+    "prev": "pride-philadelphia",
     "next": "pride-progress",
     "cat": "other"
   },
   "pride-progress": {
-    "prev": "pan-slavic",
+    "prev": "pride-polyamory",
     "next": "pride-rainbow",
     "cat": "other"
   },
@@ -3671,11 +3746,16 @@
   },
   "romani": {
     "prev": "red-ensign",
+    "next": "pride-rubber",
+    "cat": "other"
+  },
+  "pride-rubber": {
+    "prev": "romani",
     "next": "tibetan",
     "cat": "other"
   },
   "tibetan": {
-    "prev": "romani",
+    "prev": "pride-rubber",
     "next": "pride-trans",
     "cat": "other"
   },
@@ -3686,7 +3766,7 @@
   },
   "white-ensign": {
     "prev": "pride-trans",
-    "next": "amazigh",
+    "next": "pride-agender",
     "cat": "other"
   }
 }

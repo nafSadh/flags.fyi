@@ -3706,6 +3706,118 @@
     "id": "pride-trans",
     "index": "r/transgender-pride-flag"
   },
+  "pride-bi": {
+    "g": "pride",
+    "ns": "movements",
+    "name": "Bisexual Pride",
+    "id": "pride-bi",
+    "index": "r/bisexual-pride"
+  },
+  "pride-pan": {
+    "g": "pride",
+    "ns": "movements",
+    "name": "Pansexual Pride",
+    "id": "pride-pan",
+    "index": "r/pansexual-pride"
+  },
+  "pride-asexual": {
+    "g": "pride",
+    "ns": "movements",
+    "name": "Asexual Pride",
+    "id": "pride-asexual",
+    "index": "r/asexual-pride"
+  },
+  "pride-nonbinary": {
+    "g": "pride",
+    "ns": "movements",
+    "name": "Nonbinary Pride",
+    "id": "pride-nonbinary",
+    "index": "r/nonbinary-pride"
+  },
+  "pride-genderqueer": {
+    "g": "pride",
+    "ns": "movements",
+    "name": "Genderqueer Pride",
+    "id": "pride-genderqueer",
+    "index": "r/genderqueer-pride"
+  },
+  "pride-genderfluid": {
+    "g": "pride",
+    "ns": "movements",
+    "name": "Genderfluid Pride",
+    "id": "pride-genderfluid",
+    "index": "r/genderfluid-pride"
+  },
+  "pride-agender": {
+    "g": "pride",
+    "ns": "movements",
+    "name": "Agender Pride",
+    "id": "pride-agender",
+    "index": "r/agender-pride"
+  },
+  "pride-intersex": {
+    "g": "pride",
+    "ns": "movements",
+    "name": "Intersex Pride",
+    "id": "pride-intersex",
+    "index": "r/intersex-pride"
+  },
+  "pride-lesbian": {
+    "g": "pride",
+    "ns": "movements",
+    "name": "Lesbian Pride",
+    "id": "pride-lesbian",
+    "index": "r/lesbian-pride"
+  },
+  "pride-aromantic": {
+    "g": "pride",
+    "ns": "movements",
+    "name": "Aromantic Pride",
+    "id": "pride-aromantic",
+    "index": "r/aromantic-pride"
+  },
+  "pride-demisexual": {
+    "g": "pride",
+    "ns": "movements",
+    "name": "Demisexual Pride",
+    "id": "pride-demisexual",
+    "index": "r/demisexual-pride"
+  },
+  "pride-bear": {
+    "g": "pride",
+    "ns": "movements",
+    "name": "Bear Pride",
+    "id": "pride-bear",
+    "index": "r/bear-pride"
+  },
+  "pride-leather": {
+    "g": "pride",
+    "ns": "movements",
+    "name": "Leather Pride",
+    "id": "pride-leather",
+    "index": "r/leather-pride"
+  },
+  "pride-rubber": {
+    "g": "pride",
+    "ns": "movements",
+    "name": "Rubber Pride",
+    "id": "pride-rubber",
+    "index": "r/rubber-pride"
+  },
+  "pride-polyamory": {
+    "g": "pride",
+    "ns": "movements",
+    "name": "Polyamory Pride",
+    "id": "pride-polyamory",
+    "index": "r/polyamory-pride"
+  },
+  "pride-philadelphia": {
+    "g": "pride",
+    "ns": "movements",
+    "name": "Philadelphia More Color More Pride",
+    "id": "pride-philadelphia",
+    "index": "r/philadelphia-more-color-more-pride"
+  },
   "jolly-roger": {
     "g": "maritime,h",
     "ns": "maritime",

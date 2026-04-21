@@ -211,6 +211,17 @@
     "keywords": "afsharid dynasty state flag of the afsharid dynasty historic empire asia red blue white"
   },
   {
+    "id": "pride-agender",
+    "name": "Agender Pride",
+    "title": "Flag of Agender Pride",
+    "groups": [
+      "pride"
+    ],
+    "colors": [],
+    "flag": "/movements/pride-agender.svg",
+    "keywords": "agender pride flag of agender pride pride"
+  },
+  {
     "id": "mx/ags",
     "name": "Aguascalientes",
     "title": "Flag of Aguascalientes",
@@ -730,6 +741,17 @@
     "keywords": "armenia flag of the republic of armenia national-flag asia red blue orange"
   },
   {
+    "id": "pride-aromantic",
+    "name": "Aromantic Pride",
+    "title": "Flag of Aromantic Pride",
+    "groups": [
+      "pride"
+    ],
+    "colors": [],
+    "flag": "/movements/pride-aromantic.svg",
+    "keywords": "aromantic pride flag of aromantic pride pride"
+  },
+  {
     "id": "in/arunachal-pradesh",
     "name": "Arunachal Pradesh",
     "title": "Flag of Arunachal Pradesh",
@@ -772,6 +794,17 @@
     ],
     "flag": "/intl/asean.svg",
     "keywords": "asean flag of asean intl southeast-asia blue red white yellow"
+  },
+  {
+    "id": "pride-asexual",
+    "name": "Asexual Pride",
+    "title": "Flag of Asexual Pride",
+    "groups": [
+      "pride"
+    ],
+    "colors": [],
+    "flag": "/movements/pride-asexual.svg",
+    "keywords": "asexual pride flag of asexual pride pride"
   },
   {
     "id": "in/assam",
@@ -1100,6 +1133,17 @@
     "keywords": "bavaria flag of bavaria sub europe white blue"
   },
   {
+    "id": "pride-bear",
+    "name": "Bear Pride",
+    "title": "Flag of Bear Pride",
+    "groups": [
+      "pride"
+    ],
+    "colors": [],
+    "flag": "/movements/pride-bear.svg",
+    "keywords": "bear pride flag of bear pride pride"
+  },
+  {
     "id": "belarus",
     "name": "Belarus",
     "title": "Flag of the Republic of Belarus",
@@ -1222,6 +1266,17 @@
     ],
     "flag": "/bhutan/flag.svg",
     "keywords": "bhutan flag of the kingdom of bhutan national-flag asia south-asia yellow orange white"
+  },
+  {
+    "id": "pride-bi",
+    "name": "Bisexual Pride",
+    "title": "Flag of Bisexual Pride",
+    "groups": [
+      "pride"
+    ],
+    "colors": [],
+    "flag": "/movements/pride-bi.svg",
+    "keywords": "bisexual pride flag of bisexual pride pride"
   },
   {
     "id": "cn-blue-sky-white-sun",
@@ -2719,6 +2774,17 @@
     "keywords": "delhi sultanate flag of the delhi sultanate historic empire asia green black"
   },
   {
+    "id": "pride-demisexual",
+    "name": "Demisexual Pride",
+    "title": "Flag of Demisexual Pride",
+    "groups": [
+      "pride"
+    ],
+    "colors": [],
+    "flag": "/movements/pride-demisexual.svg",
+    "keywords": "demisexual pride flag of demisexual pride pride"
+  },
+  {
     "id": "denmark",
     "name": "Denmark",
     "title": "Flag of Denmark (Dannebrog)",
@@ -3594,6 +3660,28 @@
     "keywords": "gambia flag of the republic of the gambia national-flag africa red white blue green"
   },
   {
+    "id": "pride-genderfluid",
+    "name": "Genderfluid Pride",
+    "title": "Flag of Genderfluid Pride",
+    "groups": [
+      "pride"
+    ],
+    "colors": [],
+    "flag": "/movements/pride-genderfluid.svg",
+    "keywords": "genderfluid pride flag of genderfluid pride pride"
+  },
+  {
+    "id": "pride-genderqueer",
+    "name": "Genderqueer Pride",
+    "title": "Flag of Genderqueer Pride",
+    "groups": [
+      "pride"
+    ],
+    "colors": [],
+    "flag": "/movements/pride-genderqueer.svg",
+    "keywords": "genderqueer pride flag of genderqueer pride pride"
+  },
+  {
     "id": "georgia",
     "name": "Georgia",
     "title": "Flag of Georgia",
@@ -4407,6 +4495,17 @@
     "colors": [],
     "flag": "/maritime/signal-flags.svg",
     "keywords": "international signal flags international maritime signal flags maritime"
+  },
+  {
+    "id": "pride-intersex",
+    "name": "Intersex Pride",
+    "title": "Flag of Intersex Pride",
+    "groups": [
+      "pride"
+    ],
+    "colors": [],
+    "flag": "/movements/pride-intersex.svg",
+    "keywords": "intersex pride flag of intersex pride pride"
   },
   {
     "id": "us/iowa",
@@ -5426,6 +5525,17 @@
     "keywords": "lazio flag of lazio sub europe"
   },
   {
+    "id": "pride-leather",
+    "name": "Leather Pride",
+    "title": "Flag of Leather Pride",
+    "groups": [
+      "pride"
+    ],
+    "colors": [],
+    "flag": "/movements/pride-leather.svg",
+    "keywords": "leather pride flag of leather pride pride"
+  },
+  {
     "id": "lebanon",
     "name": "Lebanon",
     "title": "Flag of the Lebanese Republic",
@@ -5442,6 +5552,17 @@
     ],
     "flag": "/lebanon/flag.svg",
     "keywords": "lebanon flag of the lebanese republic national-flag asia arab levant red white green"
+  },
+  {
+    "id": "pride-lesbian",
+    "name": "Lesbian Pride",
+    "title": "Flag of Lesbian Pride",
+    "groups": [
+      "pride"
+    ],
+    "colors": [],
+    "flag": "/movements/pride-lesbian.svg",
+    "keywords": "lesbian pride flag of lesbian pride pride"
   },
   {
     "id": "lesotho",
@@ -6896,6 +7017,17 @@
     "keywords": "niigata prefecture flag of niigata prefecture sub asia"
   },
   {
+    "id": "pride-nonbinary",
+    "name": "Nonbinary Pride",
+    "title": "Flag of Nonbinary Pride",
+    "groups": [
+      "pride"
+    ],
+    "colors": [],
+    "flag": "/movements/pride-nonbinary.svg",
+    "keywords": "nonbinary pride flag of nonbinary pride pride"
+  },
+  {
     "id": "us/north-carolina",
     "name": "North Carolina",
     "title": "Flag of North Carolina",
@@ -7449,6 +7581,17 @@
     "keywords": "panama flag of the republic of panama national-flag north-america white red blue"
   },
   {
+    "id": "pride-pan",
+    "name": "Pansexual Pride",
+    "title": "Flag of Pansexual Pride",
+    "groups": [
+      "pride"
+    ],
+    "colors": [],
+    "flag": "/movements/pride-pan.svg",
+    "keywords": "pansexual pride flag of pansexual pride pride"
+  },
+  {
     "id": "papal-states",
     "name": "Papal States",
     "title": "Flag of the Papal States",
@@ -7588,6 +7731,17 @@
     "keywords": "peru flag of peru south-america red white"
   },
   {
+    "id": "pride-philadelphia",
+    "name": "Philadelphia More Color More Pride",
+    "title": "Flag of Philadelphia More Color More Pride",
+    "groups": [
+      "pride"
+    ],
+    "colors": [],
+    "flag": "/movements/pride-philadelphia.svg",
+    "keywords": "philadelphia more color more pride flag of philadelphia more color more pride pride"
+  },
+  {
     "id": "ph-revolutionary",
     "name": "Philippine Revolutionary Flag",
     "title": "Flag of the First Philippine Republic",
@@ -7689,6 +7843,17 @@
     ],
     "flag": "/poland-hist/pl-november-uprising.svg",
     "keywords": "polish november uprising flag of the polish november uprising historic europe white red"
+  },
+  {
+    "id": "pride-polyamory",
+    "name": "Polyamory Pride",
+    "title": "Flag of Polyamory Pride",
+    "groups": [
+      "pride"
+    ],
+    "colors": [],
+    "flag": "/movements/pride-polyamory.svg",
+    "keywords": "polyamory pride flag of polyamory pride pride"
   },
   {
     "id": "portugal",
@@ -8263,6 +8428,17 @@
     "colors": [],
     "flag": "/brazil-sub/rr.svg",
     "keywords": "roraima flag of roraima sub south-america"
+  },
+  {
+    "id": "pride-rubber",
+    "name": "Rubber Pride",
+    "title": "Flag of Rubber Pride",
+    "groups": [
+      "pride"
+    ],
+    "colors": [],
+    "flag": "/movements/pride-rubber.svg",
+    "keywords": "rubber pride flag of rubber pride pride"
   },
   {
     "id": "russia",

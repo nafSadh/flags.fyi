@@ -1,6 +1,6 @@
 # flags.fyi — All Flags
 
-739 flags total.
+755 flags total.
 
 ## Countries (707)
 
@@ -753,13 +753,29 @@
 | 7 | Romani Flag | `romani` | `p/romani-flag` |
 | 8 | Tibetan Flag | `tibetan` | `p/tibetan-flag` |
 
-## Pride (3)
+## Pride (19)
 
 | # | Flag | ID | Index |
 |---|------|----|-------|
-| 1 | Progress Pride Flag | `pride-progress` | `r/progress-pride-flag` |
-| 2 | Rainbow Pride Flag | `pride-rainbow` | `r/rainbow-pride-flag` |
-| 3 | Transgender Pride Flag | `pride-trans` | `r/transgender-pride-flag` |
+| 1 | Agender Pride | `pride-agender` | `r/agender-pride` |
+| 2 | Aromantic Pride | `pride-aromantic` | `r/aromantic-pride` |
+| 3 | Asexual Pride | `pride-asexual` | `r/asexual-pride` |
+| 4 | Bear Pride | `pride-bear` | `r/bear-pride` |
+| 5 | Bisexual Pride | `pride-bi` | `r/bisexual-pride` |
+| 6 | Demisexual Pride | `pride-demisexual` | `r/demisexual-pride` |
+| 7 | Genderfluid Pride | `pride-genderfluid` | `r/genderfluid-pride` |
+| 8 | Genderqueer Pride | `pride-genderqueer` | `r/genderqueer-pride` |
+| 9 | Intersex Pride | `pride-intersex` | `r/intersex-pride` |
+| 10 | Leather Pride | `pride-leather` | `r/leather-pride` |
+| 11 | Lesbian Pride | `pride-lesbian` | `r/lesbian-pride` |
+| 12 | Nonbinary Pride | `pride-nonbinary` | `r/nonbinary-pride` |
+| 13 | Pansexual Pride | `pride-pan` | `r/pansexual-pride` |
+| 14 | Philadelphia More Color More Pride | `pride-philadelphia` | `r/philadelphia-more-color-more-pride` |
+| 15 | Polyamory Pride | `pride-polyamory` | `r/polyamory-pride` |
+| 16 | Progress Pride Flag | `pride-progress` | `r/progress-pride-flag` |
+| 17 | Rainbow Pride Flag | `pride-rainbow` | `r/rainbow-pride-flag` |
+| 18 | Rubber Pride | `pride-rubber` | `r/rubber-pride` |
+| 19 | Transgender Pride Flag | `pride-trans` | `r/transgender-pride-flag` |
 
 ## Maritime (4)
 
