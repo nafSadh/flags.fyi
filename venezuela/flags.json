@@ -55,5 +55,28 @@
       "- The eighth star was added in 2006 by President Hugo Chavez, honouring Simon Bolivar's 1817 decree to include Guayana\n",
       "- The original seven-star version, designed by Francisco de Miranda, dates from 1806 and is among the oldest independence banners in the Americas\n"
     ]
+  },
+  "venezuela-state-flag": {
+    "title": "State flag of Venezuela",
+    "ratio": "2:3",
+    "use": {
+      "as": "state flag",
+      "since": "2006-03-12"
+    },
+    "colors": [
+      { "color": "yellow", "hex": "#FCE300", "note": "Top band." },
+      { "color": "blue", "hex": "#00247D", "note": "Middle band with eight white stars." },
+      { "color": "red", "hex": "#CF142B", "note": "Bottom band." },
+      { "color": "white", "hex": "#FFFFFF", "note": "Stars and emblem elements." }
+    ],
+    "desc": [
+      "- The state (or 'government') flag is the civil tricolour with the national coat of arms added in the upper hoist corner\n",
+      "- Flown by government bodies, embassies, naval vessels, and the armed forces; the civil flag (without CoA) is the version most commonly seen in public\n",
+      "- Wikipedia lists the civil version as the national flag; the state flag is a restricted-use variant\n"
+    ],
+    "of": {
+      "country": "venezuela"
+    },
+    "wikiEntity": "Flag_of_Venezuela"
   }
 }

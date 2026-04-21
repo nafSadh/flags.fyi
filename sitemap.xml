@@ -6607,6 +6607,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://flags.fyi/venezuela-state-flag/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://flags.fyi/ve/amazonas-ve/</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>

@@ -7916,6 +7916,15 @@
     "id": "venezuela",
     "index": "c/venezuela"
   },
+  "venezuela-state-flag": {
+    "g": "south-america",
+    "name": "Venezuela (state flag)",
+    "ns": "venezuela",
+    "id": "venezuela-state-flag",
+    "index": "c/venezuela",
+    "now": "venezuela",
+    "wikiEntity": "Flag_of_Venezuela"
+  },
   "ve/amazonas-ve": {
     "g": "sub,south-america",
     "ns": "venezuela-sub",

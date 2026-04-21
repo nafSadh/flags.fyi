@@ -1,8 +1,8 @@
 # flags.fyi — All Flags
 
-1115 flags total.
+1116 flags total.
 
-## Countries (1041)
+## Countries (1042)
 
 | # | Flag | ID | Index |
 |---|------|----|-------|
@@ -989,64 +989,65 @@
 | 981 | Vatican City | `vatican-city` | `c/vatican-city` |
 | 982 | Veneto | `it/veneto` | `c/it/veneto` |
 | 983 | Venezuela | `venezuela` | `c/venezuela` |
-| 984 | Veracruz | `mx/ver` | `c/mx/ver` |
-| 985 | Vermont | `us/vermont` | `c/us/vermont` |
-| 986 | Vichada | `co/vichada` | `c/co/vichada` |
-| 987 | Victoria | `au/victoria` | `c/au/victoria` |
-| 988 | Vienna → austria | `vienna` | `c/austria` |
-| 989 | Vienna State | `at/vienna-state` | `c/at/vienna-state` |
-| 990 | Vietnam | `vietnam` | `c/vietnam` |
-| 991 | Vilnius → lithuania | `vilnius` | `c/lithuania` |
-| 992 | Vinnytsia | `ua/vinnytsia` | `c/ua/vinnytsia` |
-| 993 | Virginia | `us/virginia` | `c/us/virginia` |
-| 994 | Vladimir Oblast | `ru/vladimir-oblast` | `c/ru/vladimir-oblast` |
-| 995 | Volgograd Oblast | `ru/volgograd-oblast` | `c/ru/volgograd-oblast` |
-| 996 | Vologda Oblast | `ru/vologda-oblast` | `c/ru/vologda-oblast` |
-| 997 | Volyn | `ua/volyn` | `c/ua/volyn` |
-| 998 | Vorarlberg | `at/vorarlberg` | `c/at/vorarlberg` |
-| 999 | Voronezh Oblast | `ru/voronezh-oblast` | `c/ru/voronezh-oblast` |
-| 1000 | Wakayama Prefecture | `jp/wakayama` | `c/jp/wakayama` |
-| 1001 | Wales | `uk/wales` | `c/uk/wales` |
-| 1002 | Wallonia | `be/wallonia` | `c/be/wallonia` |
-| 1003 | Warmian Masurian Voivodeship | `pl/warmian-masurian` | `c/pl/warmian-masurian` |
-| 1004 | Warsaw → poland | `warsaw` | `c/poland` |
-| 1005 | Washington | `us/washington` | `c/us/washington` |
-| 1006 | Washington D.C. | `us/washington-dc` | `c/us/washington-dc` |
-| 1007 | Washington, DC → us | `washington-dc-city` | `c/united-states` |
-| 1008 | Weimar Republic (1918–1933) → germany | `de-weimar` | `c/germany:1918` |
-| 1009 | West Flanders | `be/west-flanders` | `c/be/west-flanders` |
-| 1010 | West Germany (1949–1990) → germany | `de-west-germany` | `c/germany:1949` |
-| 1011 | West Java | `id/west-java` | `c/id/west-java` |
-| 1012 | West Kalimantan | `id/west-kalimantan` | `c/id/west-kalimantan` |
-| 1013 | West Nusa Tenggara | `id/west-nusa-tenggara` | `c/id/west-nusa-tenggara` |
-| 1014 | West Pomeranian Voivodeship | `pl/west-pomeranian` | `c/pl/west-pomeranian` |
-| 1015 | West Sulawesi | `id/west-sulawesi` | `c/id/west-sulawesi` |
-| 1016 | West Sumatra | `id/west-sumatra` | `c/id/west-sumatra` |
-| 1017 | West Virginia | `us/west-virginia` | `c/us/west-virginia` |
-| 1018 | Western Australia | `au/western-australia` | `c/au/western-australia` |
-| 1019 | Western Greece | `gr/western-greece` | `c/gr/western-greece` |
-| 1020 | Wisconsin | `us/wisconsin` | `c/us/wisconsin` |
-| 1021 | Wyoming | `us/wyoming` | `c/us/wyoming` |
-| 1022 | Yamagata Prefecture | `jp/yamagata` | `c/jp/yamagata` |
-| 1023 | Yamaguchi Prefecture | `jp/yamaguchi` | `c/jp/yamaguchi` |
-| 1024 | Yamalo Nenets | `ru/yamalo-nenets` | `c/ru/yamalo-nenets` |
-| 1025 | Yamanashi Prefecture | `jp/yamanashi` | `c/jp/yamanashi` |
-| 1026 | Yaracuy | `ve/yaracuy` | `c/ve/yaracuy` |
-| 1027 | Yaroslavl Oblast | `ru/yaroslavl-oblast` | `c/ru/yaroslavl-oblast` |
-| 1028 | Yemen | `yemen` | `c/yemen` |
-| 1029 | Yerevan → armenia | `yerevan` | `c/armenia` |
-| 1030 | Yucatán | `mx/yuc` | `c/mx/yuc` |
-| 1031 | Yukon | `ca/yukon` | `c/ca/yukon` |
-| 1032 | Zabaykalsky Krai | `ru/zabaykalsky-krai` | `c/ru/zabaykalsky-krai` |
-| 1033 | Zacatecas | `mx/zac` | `c/mx/zac` |
-| 1034 | Zagreb → croatia | `zagreb` | `c/croatia` |
-| 1035 | Zakarpattia | `ua/zakarpattia` | `c/ua/zakarpattia` |
-| 1036 | Zambia | `zambia` | `c/zambia` |
-| 1037 | Zand Dynasty (1751–1794) → iran | `zand` | `c/iran:1751` |
-| 1038 | Zaporizhzhia | `ua/zaporizhzhia` | `c/ua/zaporizhzhia` |
-| 1039 | Zeeland | `nl/zeeland` | `c/nl/zeeland` |
-| 1040 | Zhytomyr | `ua/zhytomyr` | `c/ua/zhytomyr` |
-| 1041 | Zimbabwe | `zimbabwe` | `c/zimbabwe` |
+| 984 | Venezuela (state flag) → venezuela | `venezuela-state-flag` | `c/venezuela` |
+| 985 | Veracruz | `mx/ver` | `c/mx/ver` |
+| 986 | Vermont | `us/vermont` | `c/us/vermont` |
+| 987 | Vichada | `co/vichada` | `c/co/vichada` |
+| 988 | Victoria | `au/victoria` | `c/au/victoria` |
+| 989 | Vienna → austria | `vienna` | `c/austria` |
+| 990 | Vienna State | `at/vienna-state` | `c/at/vienna-state` |
+| 991 | Vietnam | `vietnam` | `c/vietnam` |
+| 992 | Vilnius → lithuania | `vilnius` | `c/lithuania` |
+| 993 | Vinnytsia | `ua/vinnytsia` | `c/ua/vinnytsia` |
+| 994 | Virginia | `us/virginia` | `c/us/virginia` |
+| 995 | Vladimir Oblast | `ru/vladimir-oblast` | `c/ru/vladimir-oblast` |
+| 996 | Volgograd Oblast | `ru/volgograd-oblast` | `c/ru/volgograd-oblast` |
+| 997 | Vologda Oblast | `ru/vologda-oblast` | `c/ru/vologda-oblast` |
+| 998 | Volyn | `ua/volyn` | `c/ua/volyn` |
+| 999 | Vorarlberg | `at/vorarlberg` | `c/at/vorarlberg` |
+| 1000 | Voronezh Oblast | `ru/voronezh-oblast` | `c/ru/voronezh-oblast` |
+| 1001 | Wakayama Prefecture | `jp/wakayama` | `c/jp/wakayama` |
+| 1002 | Wales | `uk/wales` | `c/uk/wales` |
+| 1003 | Wallonia | `be/wallonia` | `c/be/wallonia` |
+| 1004 | Warmian Masurian Voivodeship | `pl/warmian-masurian` | `c/pl/warmian-masurian` |
+| 1005 | Warsaw → poland | `warsaw` | `c/poland` |
+| 1006 | Washington | `us/washington` | `c/us/washington` |
+| 1007 | Washington D.C. | `us/washington-dc` | `c/us/washington-dc` |
+| 1008 | Washington, DC → us | `washington-dc-city` | `c/united-states` |
+| 1009 | Weimar Republic (1918–1933) → germany | `de-weimar` | `c/germany:1918` |
+| 1010 | West Flanders | `be/west-flanders` | `c/be/west-flanders` |
+| 1011 | West Germany (1949–1990) → germany | `de-west-germany` | `c/germany:1949` |
+| 1012 | West Java | `id/west-java` | `c/id/west-java` |
+| 1013 | West Kalimantan | `id/west-kalimantan` | `c/id/west-kalimantan` |
+| 1014 | West Nusa Tenggara | `id/west-nusa-tenggara` | `c/id/west-nusa-tenggara` |
+| 1015 | West Pomeranian Voivodeship | `pl/west-pomeranian` | `c/pl/west-pomeranian` |
+| 1016 | West Sulawesi | `id/west-sulawesi` | `c/id/west-sulawesi` |
+| 1017 | West Sumatra | `id/west-sumatra` | `c/id/west-sumatra` |
+| 1018 | West Virginia | `us/west-virginia` | `c/us/west-virginia` |
+| 1019 | Western Australia | `au/western-australia` | `c/au/western-australia` |
+| 1020 | Western Greece | `gr/western-greece` | `c/gr/western-greece` |
+| 1021 | Wisconsin | `us/wisconsin` | `c/us/wisconsin` |
+| 1022 | Wyoming | `us/wyoming` | `c/us/wyoming` |
+| 1023 | Yamagata Prefecture | `jp/yamagata` | `c/jp/yamagata` |
+| 1024 | Yamaguchi Prefecture | `jp/yamaguchi` | `c/jp/yamaguchi` |
+| 1025 | Yamalo Nenets | `ru/yamalo-nenets` | `c/ru/yamalo-nenets` |
+| 1026 | Yamanashi Prefecture | `jp/yamanashi` | `c/jp/yamanashi` |
+| 1027 | Yaracuy | `ve/yaracuy` | `c/ve/yaracuy` |
+| 1028 | Yaroslavl Oblast | `ru/yaroslavl-oblast` | `c/ru/yaroslavl-oblast` |
+| 1029 | Yemen | `yemen` | `c/yemen` |
+| 1030 | Yerevan → armenia | `yerevan` | `c/armenia` |
+| 1031 | Yucatán | `mx/yuc` | `c/mx/yuc` |
+| 1032 | Yukon | `ca/yukon` | `c/ca/yukon` |
+| 1033 | Zabaykalsky Krai | `ru/zabaykalsky-krai` | `c/ru/zabaykalsky-krai` |
+| 1034 | Zacatecas | `mx/zac` | `c/mx/zac` |
+| 1035 | Zagreb → croatia | `zagreb` | `c/croatia` |
+| 1036 | Zakarpattia | `ua/zakarpattia` | `c/ua/zakarpattia` |
+| 1037 | Zambia | `zambia` | `c/zambia` |
+| 1038 | Zand Dynasty (1751–1794) → iran | `zand` | `c/iran:1751` |
+| 1039 | Zaporizhzhia | `ua/zaporizhzhia` | `c/ua/zaporizhzhia` |
+| 1040 | Zeeland | `nl/zeeland` | `c/nl/zeeland` |
+| 1041 | Zhytomyr | `ua/zhytomyr` | `c/ua/zhytomyr` |
+| 1042 | Zimbabwe | `zimbabwe` | `c/zimbabwe` |
 
 ## International Organizations (11)
 

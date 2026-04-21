@@ -2136,11 +2136,16 @@
   },
   "caracas": {
     "prev": "venezuela",
+    "next": "venezuela-state-flag",
+    "cat": "countries"
+  },
+  "venezuela-state-flag": {
+    "prev": "caracas",
     "next": "vietnam",
     "cat": "countries"
   },
   "vietnam": {
-    "prev": "caracas",
+    "prev": "venezuela-state-flag",
     "next": "vn-south",
     "cat": "countries"
   },

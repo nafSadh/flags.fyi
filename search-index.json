@@ -14479,6 +14479,22 @@
     "keywords": "venezuela flag of the bolivarian republic of venezuela national-flag south-america yellow blue red white"
   },
   {
+    "id": "venezuela-state-flag",
+    "name": "Venezuela (state flag)",
+    "title": "State flag of Venezuela",
+    "groups": [
+      "south-america"
+    ],
+    "colors": [
+      "yellow",
+      "blue",
+      "red",
+      "white"
+    ],
+    "flag": "/venezuela/state-flag.svg",
+    "keywords": "venezuela (state flag) state flag of venezuela south-america yellow blue red white"
+  },
+  {
     "id": "mx/ver",
     "name": "Veracruz",
     "title": "Flag of Veracruz",
