@@ -1639,6 +1639,524 @@
     "id": "russia",
     "index": "c/russia"
   },
+  "ru/adygea": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Adygea",
+    "id": "ru/adygea",
+    "index": "c/ru/adygea"
+  },
+  "ru/altai-krai": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Altai Krai",
+    "id": "ru/altai-krai",
+    "index": "c/ru/altai-krai"
+  },
+  "ru/amur-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Amur Oblast",
+    "id": "ru/amur-oblast",
+    "index": "c/ru/amur-oblast"
+  },
+  "ru/arkhangelsk-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Arkhangelsk Oblast",
+    "id": "ru/arkhangelsk-oblast",
+    "index": "c/ru/arkhangelsk-oblast"
+  },
+  "ru/astrakhan-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Astrakhan Oblast",
+    "id": "ru/astrakhan-oblast",
+    "index": "c/ru/astrakhan-oblast"
+  },
+  "ru/bashkortostan": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Bashkortostan",
+    "id": "ru/bashkortostan",
+    "index": "c/ru/bashkortostan"
+  },
+  "ru/belgorod-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Belgorod Oblast",
+    "id": "ru/belgorod-oblast",
+    "index": "c/ru/belgorod-oblast"
+  },
+  "ru/bryansk-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Bryansk Oblast",
+    "id": "ru/bryansk-oblast",
+    "index": "c/ru/bryansk-oblast"
+  },
+  "ru/buryatia": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Buryatia",
+    "id": "ru/buryatia",
+    "index": "c/ru/buryatia"
+  },
+  "ru/chechnya": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Chechnya",
+    "id": "ru/chechnya",
+    "index": "c/ru/chechnya"
+  },
+  "ru/chelyabinsk-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Chelyabinsk Oblast",
+    "id": "ru/chelyabinsk-oblast",
+    "index": "c/ru/chelyabinsk-oblast"
+  },
+  "ru/chukotka-okrug": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Chukotka Autonomous Okrug",
+    "id": "ru/chukotka-okrug",
+    "index": "c/ru/chukotka-okrug"
+  },
+  "ru/chuvashia": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Chuvashia",
+    "id": "ru/chuvashia",
+    "index": "c/ru/chuvashia"
+  },
+  "ru/dagestan": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Dagestan",
+    "id": "ru/dagestan",
+    "index": "c/ru/dagestan"
+  },
+  "ru/ingushetia": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Ingushetia",
+    "id": "ru/ingushetia",
+    "index": "c/ru/ingushetia"
+  },
+  "ru/irkutsk-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Irkutsk Oblast",
+    "id": "ru/irkutsk-oblast",
+    "index": "c/ru/irkutsk-oblast"
+  },
+  "ru/ivanovo-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Ivanovo Oblast",
+    "id": "ru/ivanovo-oblast",
+    "index": "c/ru/ivanovo-oblast"
+  },
+  "ru/jewish-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Jewish Oblast",
+    "id": "ru/jewish-oblast",
+    "index": "c/ru/jewish-oblast"
+  },
+  "ru/kabardino-balkaria": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Kabardino Balkaria",
+    "id": "ru/kabardino-balkaria",
+    "index": "c/ru/kabardino-balkaria"
+  },
+  "ru/kaliningrad-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Kaliningrad Oblast",
+    "id": "ru/kaliningrad-oblast",
+    "index": "c/ru/kaliningrad-oblast"
+  },
+  "ru/kalmykia": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Kalmykia",
+    "id": "ru/kalmykia",
+    "index": "c/ru/kalmykia"
+  },
+  "ru/kaluga-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Kaluga Oblast",
+    "id": "ru/kaluga-oblast",
+    "index": "c/ru/kaluga-oblast"
+  },
+  "ru/kamchatka-krai": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Kamchatka Krai",
+    "id": "ru/kamchatka-krai",
+    "index": "c/ru/kamchatka-krai"
+  },
+  "ru/kemerovo-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Kemerovo Oblast",
+    "id": "ru/kemerovo-oblast",
+    "index": "c/ru/kemerovo-oblast"
+  },
+  "ru/khabarovsk-krai": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Khabarovsk Krai",
+    "id": "ru/khabarovsk-krai",
+    "index": "c/ru/khabarovsk-krai"
+  },
+  "ru/kirov-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Kirov Oblast",
+    "id": "ru/kirov-oblast",
+    "index": "c/ru/kirov-oblast"
+  },
+  "ru/kostroma-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Kostroma Oblast",
+    "id": "ru/kostroma-oblast",
+    "index": "c/ru/kostroma-oblast"
+  },
+  "ru/krasnodar-krai": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Krasnodar Krai",
+    "id": "ru/krasnodar-krai",
+    "index": "c/ru/krasnodar-krai"
+  },
+  "ru/krasnoyarsk-krai": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Krasnoyarsk Krai",
+    "id": "ru/krasnoyarsk-krai",
+    "index": "c/ru/krasnoyarsk-krai"
+  },
+  "ru/kurgan-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Kurgan Oblast",
+    "id": "ru/kurgan-oblast",
+    "index": "c/ru/kurgan-oblast"
+  },
+  "ru/kursk-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Kursk Oblast",
+    "id": "ru/kursk-oblast",
+    "index": "c/ru/kursk-oblast"
+  },
+  "ru/leningrad-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Leningrad Oblast",
+    "id": "ru/leningrad-oblast",
+    "index": "c/ru/leningrad-oblast"
+  },
+  "ru/lipetsk-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Lipetsk Oblast",
+    "id": "ru/lipetsk-oblast",
+    "index": "c/ru/lipetsk-oblast"
+  },
+  "ru/magadan-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Magadan Oblast",
+    "id": "ru/magadan-oblast",
+    "index": "c/ru/magadan-oblast"
+  },
+  "ru/mordovia": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Mordovia",
+    "id": "ru/mordovia",
+    "index": "c/ru/mordovia"
+  },
+  "ru/moscow-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Moscow Oblast",
+    "id": "ru/moscow-oblast",
+    "index": "c/ru/moscow-oblast"
+  },
+  "ru/moscow": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Moscow",
+    "id": "ru/moscow",
+    "index": "c/ru/moscow"
+  },
+  "ru/murmansk-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Murmansk Oblast",
+    "id": "ru/murmansk-oblast",
+    "index": "c/ru/murmansk-oblast"
+  },
+  "ru/north-ossetia": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "North Ossetia",
+    "id": "ru/north-ossetia",
+    "index": "c/ru/north-ossetia"
+  },
+  "ru/novgorod-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Novgorod Oblast",
+    "id": "ru/novgorod-oblast",
+    "index": "c/ru/novgorod-oblast"
+  },
+  "ru/novosibirsk-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Novosibirsk Oblast",
+    "id": "ru/novosibirsk-oblast",
+    "index": "c/ru/novosibirsk-oblast"
+  },
+  "ru/omsk-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Omsk Oblast",
+    "id": "ru/omsk-oblast",
+    "index": "c/ru/omsk-oblast"
+  },
+  "ru/orenburg-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Orenburg Oblast",
+    "id": "ru/orenburg-oblast",
+    "index": "c/ru/orenburg-oblast"
+  },
+  "ru/oryol-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Oryol Oblast",
+    "id": "ru/oryol-oblast",
+    "index": "c/ru/oryol-oblast"
+  },
+  "ru/penza-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Penza Oblast",
+    "id": "ru/penza-oblast",
+    "index": "c/ru/penza-oblast"
+  },
+  "ru/perm-krai": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Perm Krai",
+    "id": "ru/perm-krai",
+    "index": "c/ru/perm-krai"
+  },
+  "ru/primorsky-krai": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Primorsky Krai",
+    "id": "ru/primorsky-krai",
+    "index": "c/ru/primorsky-krai"
+  },
+  "ru/pskov-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Pskov Oblast",
+    "id": "ru/pskov-oblast",
+    "index": "c/ru/pskov-oblast"
+  },
+  "ru/rostov-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Rostov Oblast",
+    "id": "ru/rostov-oblast",
+    "index": "c/ru/rostov-oblast"
+  },
+  "ru/ryazan-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Ryazan Oblast",
+    "id": "ru/ryazan-oblast",
+    "index": "c/ru/ryazan-oblast"
+  },
+  "ru/sakha": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Sakha",
+    "id": "ru/sakha",
+    "index": "c/ru/sakha"
+  },
+  "ru/sakhalin-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Sakhalin Oblast",
+    "id": "ru/sakhalin-oblast",
+    "index": "c/ru/sakhalin-oblast"
+  },
+  "ru/samara-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Samara Oblast",
+    "id": "ru/samara-oblast",
+    "index": "c/ru/samara-oblast"
+  },
+  "ru/saratov-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Saratov Oblast",
+    "id": "ru/saratov-oblast",
+    "index": "c/ru/saratov-oblast"
+  },
+  "ru/sevastopol": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Sevastopol",
+    "id": "ru/sevastopol",
+    "index": "c/ru/sevastopol"
+  },
+  "ru/smolensk-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Smolensk Oblast",
+    "id": "ru/smolensk-oblast",
+    "index": "c/ru/smolensk-oblast"
+  },
+  "ru/stavropol-krai": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Stavropol Krai",
+    "id": "ru/stavropol-krai",
+    "index": "c/ru/stavropol-krai"
+  },
+  "ru/sverdlovsk-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Sverdlovsk Oblast",
+    "id": "ru/sverdlovsk-oblast",
+    "index": "c/ru/sverdlovsk-oblast"
+  },
+  "ru/tambov-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Tambov Oblast",
+    "id": "ru/tambov-oblast",
+    "index": "c/ru/tambov-oblast"
+  },
+  "ru/tatarstan": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Tatarstan",
+    "id": "ru/tatarstan",
+    "index": "c/ru/tatarstan"
+  },
+  "ru/tomsk-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Tomsk Oblast",
+    "id": "ru/tomsk-oblast",
+    "index": "c/ru/tomsk-oblast"
+  },
+  "ru/tula-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Tula Oblast",
+    "id": "ru/tula-oblast",
+    "index": "c/ru/tula-oblast"
+  },
+  "ru/tuva": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Tuva",
+    "id": "ru/tuva",
+    "index": "c/ru/tuva"
+  },
+  "ru/tver-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Tver Oblast",
+    "id": "ru/tver-oblast",
+    "index": "c/ru/tver-oblast"
+  },
+  "ru/tyumen-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Tyumen Oblast",
+    "id": "ru/tyumen-oblast",
+    "index": "c/ru/tyumen-oblast"
+  },
+  "ru/udmurtia": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Udmurtia",
+    "id": "ru/udmurtia",
+    "index": "c/ru/udmurtia"
+  },
+  "ru/ulyanovsk-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Ulyanovsk Oblast",
+    "id": "ru/ulyanovsk-oblast",
+    "index": "c/ru/ulyanovsk-oblast"
+  },
+  "ru/vladimir-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Vladimir Oblast",
+    "id": "ru/vladimir-oblast",
+    "index": "c/ru/vladimir-oblast"
+  },
+  "ru/volgograd-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Volgograd Oblast",
+    "id": "ru/volgograd-oblast",
+    "index": "c/ru/volgograd-oblast"
+  },
+  "ru/vologda-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Vologda Oblast",
+    "id": "ru/vologda-oblast",
+    "index": "c/ru/vologda-oblast"
+  },
+  "ru/voronezh-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Voronezh Oblast",
+    "id": "ru/voronezh-oblast",
+    "index": "c/ru/voronezh-oblast"
+  },
+  "ru/yamalo-nenets": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Yamalo Nenets",
+    "id": "ru/yamalo-nenets",
+    "index": "c/ru/yamalo-nenets"
+  },
+  "ru/yaroslavl-oblast": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Yaroslavl Oblast",
+    "id": "ru/yaroslavl-oblast",
+    "index": "c/ru/yaroslavl-oblast"
+  },
+  "ru/zabaykalsky-krai": {
+    "g": "sub,europe,asia",
+    "ns": "russia-sub",
+    "name": "Zabaykalsky Krai",
+    "id": "ru/zabaykalsky-krai",
+    "index": "c/ru/zabaykalsky-krai"
+  },
   "saint-helena": {
     "ns": "british",
     "g": "bot",

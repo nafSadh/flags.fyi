@@ -94,6 +94,19 @@
     "keywords": "acre flag of acre sub south-america"
   },
   {
+    "id": "ru/adygea",
+    "name": "Adygea",
+    "title": "Flag of Adygea",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/adygea.svg",
+    "keywords": "adygea flag of adygea sub europe asia"
+  },
+  {
     "id": "afghanistan",
     "name": "Afghanistan",
     "title": "Flag of Afghanistan",
@@ -386,6 +399,19 @@
     "keywords": "almoravid dynasty flag of the almoravid dynasty historic caliphate maghreb white"
   },
   {
+    "id": "ru/altai-krai",
+    "name": "Altai Krai",
+    "title": "Flag of Altai Krai",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/altai-krai.svg",
+    "keywords": "altai krai flag of altai krai sub europe asia"
+  },
+  {
     "id": "br/ap",
     "name": "Amapá",
     "title": "Flag of Amapá",
@@ -425,6 +451,19 @@
     "colors": [],
     "flag": "/brazil-sub/am.svg",
     "keywords": "amazonas flag of amazonas sub south-america"
+  },
+  {
+    "id": "ru/amur-oblast",
+    "name": "Amur Oblast",
+    "title": "Flag of Amur Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/amur-oblast.svg",
+    "keywords": "amur oblast flag of amur oblast sub europe asia"
   },
   {
     "id": "es/andalusia",
@@ -725,6 +764,19 @@
     "keywords": "arkansas flag of arkansas sub north-america"
   },
   {
+    "id": "ru/arkhangelsk-oblast",
+    "name": "Arkhangelsk Oblast",
+    "title": "Flag of Arkhangelsk Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/arkhangelsk-oblast.svg",
+    "keywords": "arkhangelsk oblast flag of arkhangelsk oblast sub europe asia"
+  },
+  {
     "id": "armenia",
     "name": "Armenia",
     "title": "Flag of the Republic of Armenia",
@@ -817,6 +869,19 @@
     "colors": [],
     "flag": "/india-sub/assam.svg",
     "keywords": "assam flag of assam sub asia"
+  },
+  {
+    "id": "ru/astrakhan-oblast",
+    "name": "Astrakhan Oblast",
+    "title": "Flag of Astrakhan Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/astrakhan-oblast.svg",
+    "keywords": "astrakhan oblast flag of astrakhan oblast sub europe asia"
   },
   {
     "id": "es/asturias",
@@ -1114,6 +1179,19 @@
     "keywords": "barbados flag of barbados national-flag caribbean ultramarine gold black"
   },
   {
+    "id": "ru/bashkortostan",
+    "name": "Bashkortostan",
+    "title": "Flag of Bashkortostan",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/bashkortostan.svg",
+    "keywords": "bashkortostan flag of bashkortostan sub europe asia"
+  },
+  {
     "id": "it/basilicata",
     "name": "Basilicata",
     "title": "Flag of Basilicata",
@@ -1197,6 +1275,19 @@
     ],
     "flag": "/belgium/flag.svg",
     "keywords": "belgium flag of belgium europe black yellow red"
+  },
+  {
+    "id": "ru/belgorod-oblast",
+    "name": "Belgorod Oblast",
+    "title": "Flag of Belgorod Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/belgorod-oblast.svg",
+    "keywords": "belgorod oblast flag of belgorod oblast sub europe asia"
   },
   {
     "id": "belize",
@@ -1614,6 +1705,19 @@
     "keywords": "brunei flag of the nation of brunei, the abode of peace national-flag asia southeast-asia yellow white black red"
   },
   {
+    "id": "ru/bryansk-oblast",
+    "name": "Bryansk Oblast",
+    "title": "Flag of Bryansk Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/bryansk-oblast.svg",
+    "keywords": "bryansk oblast flag of bryansk oblast sub europe asia"
+  },
+  {
     "id": "ar/buenos-aires",
     "name": "Buenos Aires Province",
     "title": "Flag of Buenos Aires Province",
@@ -1672,6 +1776,19 @@
     ],
     "flag": "/burundi/flag.svg",
     "keywords": "burundi flag of the republic of burundi national-flag africa red white green"
+  },
+  {
+    "id": "ru/buryatia",
+    "name": "Buryatia",
+    "title": "Flag of Buryatia",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/buryatia.svg",
+    "keywords": "buryatia flag of buryatia sub europe asia"
   },
   {
     "id": "byzantine",
@@ -2330,6 +2447,32 @@
     "keywords": "chandigarh flag of chandigarh sub asia"
   },
   {
+    "id": "ru/chechnya",
+    "name": "Chechnya",
+    "title": "Flag of Chechnya",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/chechnya.svg",
+    "keywords": "chechnya flag of chechnya sub europe asia"
+  },
+  {
+    "id": "ru/chelyabinsk-oblast",
+    "name": "Chelyabinsk Oblast",
+    "title": "Flag of Chelyabinsk Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/chelyabinsk-oblast.svg",
+    "keywords": "chelyabinsk oblast flag of chelyabinsk oblast sub europe asia"
+  },
+  {
     "id": "mx/chp",
     "name": "Chiapas",
     "title": "Flag of Chiapas",
@@ -2406,6 +2549,32 @@
     "colors": [],
     "flag": "/argentina-sub/chubut.svg",
     "keywords": "chubut flag of chubut sub south-america"
+  },
+  {
+    "id": "ru/chukotka-okrug",
+    "name": "Chukotka Autonomous Okrug",
+    "title": "Flag of Chukotka Autonomous Okrug",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/chukotka-okrug.svg",
+    "keywords": "chukotka autonomous okrug flag of chukotka autonomous okrug sub europe asia"
+  },
+  {
+    "id": "ru/chuvashia",
+    "name": "Chuvashia",
+    "title": "Flag of Chuvashia",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/chuvashia.svg",
+    "keywords": "chuvashia flag of chuvashia sub europe asia"
   },
   {
     "id": "ar/buenos-aires-city",
@@ -2816,6 +2985,19 @@
     "colors": [],
     "flag": "/india-sub/dadra-nagar-haveli.svg",
     "keywords": "dadra and nagar haveli and daman and diu flag of dadra and nagar haveli and daman and diu sub asia"
+  },
+  {
+    "id": "ru/dagestan",
+    "name": "Dagestan",
+    "title": "Flag of Dagestan",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/dagestan.svg",
+    "keywords": "dagestan flag of dagestan sub europe asia"
   },
   {
     "id": "us/delaware",
@@ -4916,6 +5098,19 @@
     "keywords": "indonesia flag of indonesia asia southeast-asia red white"
   },
   {
+    "id": "ru/ingushetia",
+    "name": "Ingushetia",
+    "title": "Flag of Ingushetia",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/ingushetia.svg",
+    "keywords": "ingushetia flag of ingushetia sub europe asia"
+  },
+  {
     "id": "signal-flags",
     "name": "International Signal Flags",
     "title": "International Maritime Signal Flags",
@@ -5033,6 +5228,19 @@
     "keywords": "ireland flag of ireland europe green white orange"
   },
   {
+    "id": "ru/irkutsk-oblast",
+    "name": "Irkutsk Oblast",
+    "title": "Flag of Irkutsk Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/irkutsk-oblast.svg",
+    "keywords": "irkutsk oblast flag of irkutsk oblast sub europe asia"
+  },
+  {
     "id": "jp/ishikawa",
     "name": "Ishikawa Prefecture",
     "title": "Flag of Ishikawa Prefecture",
@@ -5125,6 +5333,19 @@
     "keywords": "italy flag of italy europe green white red"
   },
   {
+    "id": "ru/ivanovo-oblast",
+    "name": "Ivanovo Oblast",
+    "title": "Flag of Ivanovo Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/ivanovo-oblast.svg",
+    "keywords": "ivanovo oblast flag of ivanovo oblast sub europe asia"
+  },
+  {
     "id": "jp/iwate",
     "name": "Iwate Prefecture",
     "title": "Flag of Iwate Prefecture",
@@ -5204,6 +5425,19 @@
     "colors": [],
     "flag": "/british/jersey.svg",
     "keywords": "jersey flag of jersey british-overseas"
+  },
+  {
+    "id": "ru/jewish-oblast",
+    "name": "Jewish Oblast",
+    "title": "Flag of Jewish Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/jewish-oblast.svg",
+    "keywords": "jewish oblast flag of jewish oblast sub europe asia"
   },
   {
     "id": "in/jharkhand",
@@ -5291,6 +5525,19 @@
     "keywords": "juneteenth juneteenth flag — emancipation commemorative flag pan north-america"
   },
   {
+    "id": "ru/kabardino-balkaria",
+    "name": "Kabardino Balkaria",
+    "title": "Flag of Kabardino Balkaria",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/kabardino-balkaria.svg",
+    "keywords": "kabardino balkaria flag of kabardino balkaria sub europe asia"
+  },
+  {
     "id": "jp/kagawa",
     "name": "Kagawa Prefecture",
     "title": "Flag of Kagawa Prefecture",
@@ -5315,6 +5562,19 @@
     "keywords": "kagoshima prefecture flag of kagoshima prefecture sub asia"
   },
   {
+    "id": "ru/kaliningrad-oblast",
+    "name": "Kaliningrad Oblast",
+    "title": "Flag of Kaliningrad Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/kaliningrad-oblast.svg",
+    "keywords": "kaliningrad oblast flag of kaliningrad oblast sub europe asia"
+  },
+  {
     "id": "kalmar-union",
     "name": "Kalmar Union",
     "title": "Flag of the Kalmar Union",
@@ -5329,6 +5589,45 @@
     ],
     "flag": "/empires/kalmar-union.svg",
     "keywords": "kalmar union flag of the kalmar union historic empire europe yellow red"
+  },
+  {
+    "id": "ru/kalmykia",
+    "name": "Kalmykia",
+    "title": "Flag of Kalmykia",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/kalmykia.svg",
+    "keywords": "kalmykia flag of kalmykia sub europe asia"
+  },
+  {
+    "id": "ru/kaluga-oblast",
+    "name": "Kaluga Oblast",
+    "title": "Flag of Kaluga Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/kaluga-oblast.svg",
+    "keywords": "kaluga oblast flag of kaluga oblast sub europe asia"
+  },
+  {
+    "id": "ru/kamchatka-krai",
+    "name": "Kamchatka Krai",
+    "title": "Flag of Kamchatka Krai",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/kamchatka-krai.svg",
+    "keywords": "kamchatka krai flag of kamchatka krai sub europe asia"
   },
   {
     "id": "jp/kanagawa",
@@ -5414,6 +5713,19 @@
     "keywords": "kazakhstan flag of the republic of kazakhstan national-flag asia sky blue gold"
   },
   {
+    "id": "ru/kemerovo-oblast",
+    "name": "Kemerovo Oblast",
+    "title": "Flag of Kemerovo Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/kemerovo-oblast.svg",
+    "keywords": "kemerovo oblast flag of kemerovo oblast sub europe asia"
+  },
+  {
     "id": "us/kentucky",
     "name": "Kentucky",
     "title": "Flag of Kentucky",
@@ -5459,6 +5771,19 @@
     ],
     "flag": "/kenya-hist/ke-colonial.svg",
     "keywords": "kenya colony flag of the kenya colony historic colonial africa horn-of-africa blue red white"
+  },
+  {
+    "id": "ru/khabarovsk-krai",
+    "name": "Khabarovsk Krai",
+    "title": "Flag of Khabarovsk Krai",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/khabarovsk-krai.svg",
+    "keywords": "khabarovsk krai flag of khabarovsk krai sub europe asia"
   },
   {
     "id": "khiva",
@@ -5718,6 +6043,19 @@
     "keywords": "kiribati flag of the republic of kiribati national-flag oceania red blue white yellow"
   },
   {
+    "id": "ru/kirov-oblast",
+    "name": "Kirov Oblast",
+    "title": "Flag of Kirov Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/kirov-oblast.svg",
+    "keywords": "kirov oblast flag of kirov oblast sub europe asia"
+  },
+  {
     "id": "templar",
     "name": "Knights Templar",
     "title": "Beauseant of the Knights Templar",
@@ -5793,6 +6131,45 @@
     "keywords": "kosovo flag of the republic of kosovo national-flag europe blue gold white"
   },
   {
+    "id": "ru/kostroma-oblast",
+    "name": "Kostroma Oblast",
+    "title": "Flag of Kostroma Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/kostroma-oblast.svg",
+    "keywords": "kostroma oblast flag of kostroma oblast sub europe asia"
+  },
+  {
+    "id": "ru/krasnodar-krai",
+    "name": "Krasnodar Krai",
+    "title": "Flag of Krasnodar Krai",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/krasnodar-krai.svg",
+    "keywords": "krasnodar krai flag of krasnodar krai sub europe asia"
+  },
+  {
+    "id": "ru/krasnoyarsk-krai",
+    "name": "Krasnoyarsk Krai",
+    "title": "Flag of Krasnoyarsk Krai",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/krasnoyarsk-krai.svg",
+    "keywords": "krasnoyarsk krai flag of krasnoyarsk krai sub europe asia"
+  },
+  {
     "id": "jp/kumamoto",
     "name": "Kumamoto Prefecture",
     "title": "Flag of Kumamoto Prefecture",
@@ -5820,6 +6197,32 @@
     ],
     "flag": "/movements/kurdish.svg",
     "keywords": "kurdish flag flag of kurdistan pan levant red white green yellow"
+  },
+  {
+    "id": "ru/kurgan-oblast",
+    "name": "Kurgan Oblast",
+    "title": "Flag of Kurgan Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/kurgan-oblast.svg",
+    "keywords": "kurgan oblast flag of kurgan oblast sub europe asia"
+  },
+  {
+    "id": "ru/kursk-oblast",
+    "name": "Kursk Oblast",
+    "title": "Flag of Kursk Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/kursk-oblast.svg",
+    "keywords": "kursk oblast flag of kursk oblast sub europe asia"
   },
   {
     "id": "kuwait",
@@ -5984,6 +6387,19 @@
     "keywords": "lebanon flag of the lebanese republic national-flag asia arab levant red white green"
   },
   {
+    "id": "ru/leningrad-oblast",
+    "name": "Leningrad Oblast",
+    "title": "Flag of Leningrad Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/leningrad-oblast.svg",
+    "keywords": "leningrad oblast flag of leningrad oblast sub europe asia"
+  },
+  {
     "id": "pride-lesbian",
     "name": "Lesbian Pride",
     "title": "Flag of Lesbian Pride",
@@ -6121,6 +6537,19 @@
     "keywords": "liguria flag of liguria sub europe"
   },
   {
+    "id": "ru/lipetsk-oblast",
+    "name": "Lipetsk Oblast",
+    "title": "Flag of Lipetsk Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/lipetsk-oblast.svg",
+    "keywords": "lipetsk oblast flag of lipetsk oblast sub europe asia"
+  },
+  {
     "id": "lithuania",
     "name": "Lithuania",
     "title": "Flag of the Republic of Lithuania",
@@ -6215,6 +6644,19 @@
     "colors": [],
     "flag": "/india-sub/madhya-pradesh.svg",
     "keywords": "madhya pradesh flag of madhya pradesh sub asia"
+  },
+  {
+    "id": "ru/magadan-oblast",
+    "name": "Magadan Oblast",
+    "title": "Flag of Magadan Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/magadan-oblast.svg",
+    "keywords": "magadan oblast flag of magadan oblast sub europe asia"
   },
   {
     "id": "in/maharashtra",
@@ -7002,6 +7444,19 @@
     "keywords": "montserrat flag of montserrat british-overseas blue red white"
   },
   {
+    "id": "ru/mordovia",
+    "name": "Mordovia",
+    "title": "Flag of Mordovia",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/mordovia.svg",
+    "keywords": "mordovia flag of mordovia sub europe asia"
+  },
+  {
     "id": "mx/mor",
     "name": "Morelos",
     "title": "Flag of Morelos",
@@ -7029,6 +7484,32 @@
     ],
     "flag": "/morocco/flag.svg",
     "keywords": "morocco flag of morocco national-flag africa arab maghreb red green"
+  },
+  {
+    "id": "ru/moscow",
+    "name": "Moscow",
+    "title": "Flag of Moscow",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/moscow.svg",
+    "keywords": "moscow flag of moscow sub europe asia"
+  },
+  {
+    "id": "ru/moscow-oblast",
+    "name": "Moscow Oblast",
+    "title": "Flag of Moscow Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/moscow-oblast.svg",
+    "keywords": "moscow oblast flag of moscow oblast sub europe asia"
   },
   {
     "id": "mozambique",
@@ -7063,6 +7544,19 @@
     ],
     "flag": "/caliphates/mughal.svg",
     "keywords": "mughal empire flag of the mughal empire historic caliphate south-asia green gold"
+  },
+  {
+    "id": "ru/murmansk-oblast",
+    "name": "Murmansk Oblast",
+    "title": "Flag of Murmansk Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/murmansk-oblast.svg",
+    "keywords": "murmansk oblast flag of murmansk oblast sub europe asia"
   },
   {
     "id": "pk-muslim-league",
@@ -7533,6 +8027,19 @@
     "keywords": "north macedonia flag of the republic of north macedonia national-flag europe red yellow"
   },
   {
+    "id": "ru/north-ossetia",
+    "name": "North Ossetia",
+    "title": "Flag of North Ossetia",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/north-ossetia.svg",
+    "keywords": "north ossetia flag of north ossetia sub europe asia"
+  },
+  {
     "id": "de/north-rhine-westphalia",
     "name": "North Rhine-Westphalia",
     "title": "Flag of North Rhine-Westphalia",
@@ -7641,6 +8148,32 @@
     "colors": [],
     "flag": "/canada-sub/nova-scotia.svg",
     "keywords": "nova scotia flag of nova scotia sub north-america"
+  },
+  {
+    "id": "ru/novgorod-oblast",
+    "name": "Novgorod Oblast",
+    "title": "Flag of Novgorod Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/novgorod-oblast.svg",
+    "keywords": "novgorod oblast flag of novgorod oblast sub europe asia"
+  },
+  {
+    "id": "ru/novosibirsk-oblast",
+    "name": "Novosibirsk Oblast",
+    "title": "Flag of Novosibirsk Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/novosibirsk-oblast.svg",
+    "keywords": "novosibirsk oblast flag of novosibirsk oblast sub europe asia"
   },
   {
     "id": "mx/nl",
@@ -7819,6 +8352,19 @@
     "keywords": "omani empire banner of the omani empire historic empire asia white red"
   },
   {
+    "id": "ru/omsk-oblast",
+    "name": "Omsk Oblast",
+    "title": "Flag of Omsk Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/omsk-oblast.svg",
+    "keywords": "omsk oblast flag of omsk oblast sub europe asia"
+  },
+  {
     "id": "ca/ontario",
     "name": "Ontario",
     "title": "Flag of Ontario",
@@ -7865,6 +8411,19 @@
     "keywords": "oregon flag of oregon sub north-america"
   },
   {
+    "id": "ru/orenburg-oblast",
+    "name": "Orenburg Oblast",
+    "title": "Flag of Orenburg Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/orenburg-oblast.svg",
+    "keywords": "orenburg oblast flag of orenburg oblast sub europe asia"
+  },
+  {
     "id": "oic",
     "name": "Organisation of Islamic Cooperation",
     "title": "Flag of the Organisation of Islamic Cooperation",
@@ -7897,6 +8456,19 @@
     ],
     "flag": "/korea-hist/kr-taegeukgi-1883.svg",
     "keywords": "original taegeukgi original taegeukgi (1883) historic former-flag east-asia white red blue black"
+  },
+  {
+    "id": "ru/oryol-oblast",
+    "name": "Oryol Oblast",
+    "title": "Flag of Oryol Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/oryol-oblast.svg",
+    "keywords": "oryol oblast flag of oryol oblast sub europe asia"
   },
   {
     "id": "jp/osaka",
@@ -8207,6 +8779,32 @@
     "keywords": "pennsylvania flag of pennsylvania sub north-america"
   },
   {
+    "id": "ru/penza-oblast",
+    "name": "Penza Oblast",
+    "title": "Flag of Penza Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/penza-oblast.svg",
+    "keywords": "penza oblast flag of penza oblast sub europe asia"
+  },
+  {
+    "id": "ru/perm-krai",
+    "name": "Perm Krai",
+    "title": "Flag of Perm Krai",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/perm-krai.svg",
+    "keywords": "perm krai flag of perm krai sub europe asia"
+  },
+  {
     "id": "br/pe",
     "name": "Pernambuco",
     "title": "Flag of Pernambuco",
@@ -8373,6 +8971,19 @@
     "keywords": "portugal flag of portugal europe green red yellow"
   },
   {
+    "id": "ru/primorsky-krai",
+    "name": "Primorsky Krai",
+    "title": "Flag of Primorsky Krai",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/primorsky-krai.svg",
+    "keywords": "primorsky krai flag of primorsky krai sub europe asia"
+  },
+  {
     "id": "ca/prince-edward-island",
     "name": "Prince Edward Island",
     "title": "Flag of Prince Edward Island",
@@ -8468,6 +9079,19 @@
     ],
     "flag": "/germany-sub/de-prussia.svg",
     "keywords": "prussia flag of the kingdom of prussia sub europe historic black white"
+  },
+  {
+    "id": "ru/pskov-oblast",
+    "name": "Pskov Oblast",
+    "title": "Flag of Pskov Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/pskov-oblast.svg",
+    "keywords": "pskov oblast flag of pskov oblast sub europe asia"
   },
   {
     "id": "mx/pue",
@@ -8944,6 +9568,19 @@
     "keywords": "roraima flag of roraima sub south-america"
   },
   {
+    "id": "ru/rostov-oblast",
+    "name": "Rostov Oblast",
+    "title": "Flag of Rostov Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/rostov-oblast.svg",
+    "keywords": "rostov oblast flag of rostov oblast sub europe asia"
+  },
+  {
     "id": "pride-rubber",
     "name": "Rubber Pride",
     "title": "Flag of Rubber Pride",
@@ -9001,6 +9638,19 @@
     ],
     "flag": "/rwanda/flag.svg",
     "keywords": "rwanda flag of the republic of rwanda national-flag africa blue yellow green yellow-sun"
+  },
+  {
+    "id": "ru/ryazan-oblast",
+    "name": "Ryazan Oblast",
+    "title": "Flag of Ryazan Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/ryazan-oblast.svg",
+    "keywords": "ryazan oblast flag of ryazan oblast sub europe asia"
   },
   {
     "id": "de/saarland",
@@ -9121,6 +9771,32 @@
     "keywords": "saitama prefecture flag of saitama prefecture sub asia"
   },
   {
+    "id": "ru/sakha",
+    "name": "Sakha",
+    "title": "Flag of Sakha",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/sakha.svg",
+    "keywords": "sakha flag of sakha sub europe asia"
+  },
+  {
+    "id": "ru/sakhalin-oblast",
+    "name": "Sakhalin Oblast",
+    "title": "Flag of Sakhalin Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/sakhalin-oblast.svg",
+    "keywords": "sakhalin oblast flag of sakhalin oblast sub europe asia"
+  },
+  {
     "id": "ar/salta",
     "name": "Salta",
     "title": "Flag of Salta",
@@ -9147,6 +9823,19 @@
     ],
     "flag": "/caliphates/samanid.svg",
     "keywords": "samanid empire flag of the samanid empire historic caliphate asia black white"
+  },
+  {
+    "id": "ru/samara-oblast",
+    "name": "Samara Oblast",
+    "title": "Flag of Samara Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/samara-oblast.svg",
+    "keywords": "samara oblast flag of samara oblast sub europe asia"
   },
   {
     "id": "samoa",
@@ -9292,6 +9981,19 @@
     ],
     "flag": "/sao-tome-and-principe/flag.svg",
     "keywords": "sao tome and principe flag of the democratic republic of são tomé and príncipe national-flag africa green yellow red black"
+  },
+  {
+    "id": "ru/saratov-oblast",
+    "name": "Saratov Oblast",
+    "title": "Flag of Saratov Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/saratov-oblast.svg",
+    "keywords": "saratov oblast flag of saratov oblast sub europe asia"
   },
   {
     "id": "it/sardinia",
@@ -9503,6 +10205,19 @@
     "keywords": "sergipe flag of sergipe sub south-america"
   },
   {
+    "id": "ru/sevastopol",
+    "name": "Sevastopol",
+    "title": "Flag of Sevastopol",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/sevastopol.svg",
+    "keywords": "sevastopol flag of sevastopol sub europe asia"
+  },
+  {
     "id": "seychelles",
     "name": "Seychelles",
     "title": "Flag of the Republic of Seychelles",
@@ -9691,6 +10406,19 @@
     ],
     "flag": "/slovenia/flag.svg",
     "keywords": "slovenia flag of the republic of slovenia national-flag europe white blue red gold"
+  },
+  {
+    "id": "ru/smolensk-oblast",
+    "name": "Smolensk Oblast",
+    "title": "Flag of Smolensk Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/smolensk-oblast.svg",
+    "keywords": "smolensk oblast flag of smolensk oblast sub europe asia"
   },
   {
     "id": "sokoto",
@@ -10006,6 +10734,19 @@
     "keywords": "state of mexico flag of state of mexico sub north-america"
   },
   {
+    "id": "ru/stavropol-krai",
+    "name": "Stavropol Krai",
+    "title": "Flag of Stavropol Krai",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/stavropol-krai.svg",
+    "keywords": "stavropol krai flag of stavropol krai sub europe asia"
+  },
+  {
     "id": "sudan",
     "name": "Sudan",
     "title": "Flag of the Republic of the Sudan",
@@ -10104,6 +10845,19 @@
     ],
     "flag": "/suriname/flag.svg",
     "keywords": "suriname flag of the republic of suriname national-flag south-america green white red yellow"
+  },
+  {
+    "id": "ru/sverdlovsk-oblast",
+    "name": "Sverdlovsk Oblast",
+    "title": "Flag of Sverdlovsk Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/sverdlovsk-oblast.svg",
+    "keywords": "sverdlovsk oblast flag of sverdlovsk oblast sub europe asia"
   },
   {
     "id": "sweden",
@@ -10210,6 +10964,19 @@
     "keywords": "tamaulipas flag of tamaulipas sub north-america"
   },
   {
+    "id": "ru/tambov-oblast",
+    "name": "Tambov Oblast",
+    "title": "Flag of Tambov Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/tambov-oblast.svg",
+    "keywords": "tambov oblast flag of tambov oblast sub europe asia"
+  },
+  {
     "id": "in/tamil-nadu",
     "name": "Tamil Nadu",
     "title": "Flag of Tamil Nadu",
@@ -10252,6 +11019,19 @@
     "colors": [],
     "flag": "/australia-sub/tasmania.svg",
     "keywords": "tasmania flag of tasmania sub oceania"
+  },
+  {
+    "id": "ru/tatarstan",
+    "name": "Tatarstan",
+    "title": "Flag of Tatarstan",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/tatarstan.svg",
+    "keywords": "tatarstan flag of tatarstan sub europe asia"
   },
   {
     "id": "in/telangana",
@@ -10477,6 +11257,19 @@
     "keywords": "tokyo prefecture flag of tokyo prefecture sub asia"
   },
   {
+    "id": "ru/tomsk-oblast",
+    "name": "Tomsk Oblast",
+    "title": "Flag of Tomsk Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/tomsk-oblast.svg",
+    "keywords": "tomsk oblast flag of tomsk oblast sub europe asia"
+  },
+  {
     "id": "tonga",
     "name": "Tonga",
     "title": "Flag of the Kingdom of Tonga",
@@ -10617,6 +11410,19 @@
     "keywords": "tristan da cunha flag of tristan da cunha british-overseas blue red white"
   },
   {
+    "id": "ru/tula-oblast",
+    "name": "Tula Oblast",
+    "title": "Flag of Tula Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/tula-oblast.svg",
+    "keywords": "tula oblast flag of tula oblast sub europe asia"
+  },
+  {
     "id": "tunisia",
     "name": "Tunisia",
     "title": "Flag of the Republic of Tunisia",
@@ -10692,6 +11498,19 @@
     "keywords": "tuscany flag of tuscany sub europe"
   },
   {
+    "id": "ru/tuva",
+    "name": "Tuva",
+    "title": "Flag of Tuva",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/tuva.svg",
+    "keywords": "tuva flag of tuva sub europe asia"
+  },
+  {
     "id": "tuvalu",
     "name": "Tuvalu",
     "title": "Flag of Tuvalu",
@@ -10708,6 +11527,45 @@
     ],
     "flag": "/tuvalu/flag.svg",
     "keywords": "tuvalu flag of tuvalu national-flag oceania light blue dark blue white yellow red"
+  },
+  {
+    "id": "ru/tver-oblast",
+    "name": "Tver Oblast",
+    "title": "Flag of Tver Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/tver-oblast.svg",
+    "keywords": "tver oblast flag of tver oblast sub europe asia"
+  },
+  {
+    "id": "ru/tyumen-oblast",
+    "name": "Tyumen Oblast",
+    "title": "Flag of Tyumen Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/tyumen-oblast.svg",
+    "keywords": "tyumen oblast flag of tyumen oblast sub europe asia"
+  },
+  {
+    "id": "ru/udmurtia",
+    "name": "Udmurtia",
+    "title": "Flag of Udmurtia",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/udmurtia.svg",
+    "keywords": "udmurtia flag of udmurtia sub europe asia"
   },
   {
     "id": "uganda",
@@ -10752,6 +11610,19 @@
     ],
     "flag": "/ukraine/flag.svg",
     "keywords": "ukraine flag of ukraine europe blue yellow"
+  },
+  {
+    "id": "ru/ulyanovsk-oblast",
+    "name": "Ulyanovsk Oblast",
+    "title": "Flag of Ulyanovsk Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/ulyanovsk-oblast.svg",
+    "keywords": "ulyanovsk oblast flag of ulyanovsk oblast sub europe asia"
   },
   {
     "id": "umayyad",
@@ -11085,6 +11956,58 @@
     "keywords": "virginia flag of virginia sub north-america"
   },
   {
+    "id": "ru/vladimir-oblast",
+    "name": "Vladimir Oblast",
+    "title": "Flag of Vladimir Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/vladimir-oblast.svg",
+    "keywords": "vladimir oblast flag of vladimir oblast sub europe asia"
+  },
+  {
+    "id": "ru/volgograd-oblast",
+    "name": "Volgograd Oblast",
+    "title": "Flag of Volgograd Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/volgograd-oblast.svg",
+    "keywords": "volgograd oblast flag of volgograd oblast sub europe asia"
+  },
+  {
+    "id": "ru/vologda-oblast",
+    "name": "Vologda Oblast",
+    "title": "Flag of Vologda Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/vologda-oblast.svg",
+    "keywords": "vologda oblast flag of vologda oblast sub europe asia"
+  },
+  {
+    "id": "ru/voronezh-oblast",
+    "name": "Voronezh Oblast",
+    "title": "Flag of Voronezh Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/voronezh-oblast.svg",
+    "keywords": "voronezh oblast flag of voronezh oblast sub europe asia"
+  },
+  {
     "id": "jp/wakayama",
     "name": "Wakayama Prefecture",
     "title": "Flag of Wakayama Prefecture",
@@ -11261,6 +12184,19 @@
     "keywords": "yamaguchi prefecture flag of yamaguchi prefecture sub asia"
   },
   {
+    "id": "ru/yamalo-nenets",
+    "name": "Yamalo Nenets",
+    "title": "Flag of Yamalo Nenets",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/yamalo-nenets.svg",
+    "keywords": "yamalo nenets flag of yamalo nenets sub europe asia"
+  },
+  {
     "id": "jp/yamanashi",
     "name": "Yamanashi Prefecture",
     "title": "Flag of Yamanashi Prefecture",
@@ -11271,6 +12207,19 @@
     "colors": [],
     "flag": "/japan-sub/yamanashi.svg",
     "keywords": "yamanashi prefecture flag of yamanashi prefecture sub asia"
+  },
+  {
+    "id": "ru/yaroslavl-oblast",
+    "name": "Yaroslavl Oblast",
+    "title": "Flag of Yaroslavl Oblast",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/yaroslavl-oblast.svg",
+    "keywords": "yaroslavl oblast flag of yaroslavl oblast sub europe asia"
   },
   {
     "id": "yemen",
@@ -11312,6 +12261,19 @@
     "colors": [],
     "flag": "/canada-sub/yukon.svg",
     "keywords": "yukon flag of yukon sub north-america"
+  },
+  {
+    "id": "ru/zabaykalsky-krai",
+    "name": "Zabaykalsky Krai",
+    "title": "Flag of Zabaykalsky Krai",
+    "groups": [
+      "sub",
+      "europe",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/russia-sub/zabaykalsky-krai.svg",
+    "keywords": "zabaykalsky krai flag of zabaykalsky krai sub europe asia"
   },
   {
     "id": "mx/zac",
