@@ -670,6 +670,18 @@
     "keywords": "armenia flag of the republic of armenia national-flag asia red blue orange"
   },
   {
+    "id": "in/arunachal-pradesh",
+    "name": "Arunachal Pradesh",
+    "title": "Flag of Arunachal Pradesh",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/india-sub/arunachal-pradesh.svg",
+    "keywords": "arunachal pradesh flag of arunachal pradesh sub asia"
+  },
+  {
     "id": "ascension-island",
     "name": "Ascension Island",
     "title": "Flag of Ascension Island",
@@ -700,6 +712,18 @@
     ],
     "flag": "/intl/asean.svg",
     "keywords": "asean flag of asean intl southeast-asia blue red white yellow"
+  },
+  {
+    "id": "in/assam",
+    "name": "Assam",
+    "title": "Flag of Assam",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/india-sub/assam.svg",
+    "keywords": "assam flag of assam sub asia"
   },
   {
     "id": "australia",
@@ -1939,6 +1963,18 @@
     "keywords": "chad flag of chad national-flag africa arab africa"
   },
   {
+    "id": "in/chandigarh",
+    "name": "Chandigarh",
+    "title": "Flag of Chandigarh",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/india-sub/chandigarh.svg",
+    "keywords": "chandigarh flag of chandigarh sub asia"
+  },
+  {
     "id": "mx/chp",
     "name": "Chiapas",
     "title": "Flag of Chiapas",
@@ -2331,6 +2367,18 @@
     "keywords": "czech republic flag of the czech republic europe white red blue"
   },
   {
+    "id": "in/dadra-nagar-haveli",
+    "name": "Dadra and Nagar Haveli and Daman and Diu",
+    "title": "Flag of Dadra and Nagar Haveli and Daman and Diu",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/india-sub/dadra-nagar-haveli.svg",
+    "keywords": "dadra and nagar haveli and daman and diu flag of dadra and nagar haveli and daman and diu sub asia"
+  },
+  {
     "id": "us/delaware",
     "name": "Delaware",
     "title": "Flag of Delaware",
@@ -2341,6 +2389,18 @@
     "colors": [],
     "flag": "/us-states/delaware.svg",
     "keywords": "delaware flag of delaware sub north-america"
+  },
+  {
+    "id": "in/delhi",
+    "name": "Delhi",
+    "title": "Flag of Delhi",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/india-sub/delhi.svg",
+    "keywords": "delhi flag of delhi sub asia"
   },
   {
     "id": "delhi-sultanate",
@@ -3264,6 +3324,18 @@
     "keywords": "gifu prefecture flag of gifu prefecture sub asia"
   },
   {
+    "id": "in/goa",
+    "name": "Goa",
+    "title": "Flag of Goa",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/india-sub/goa.svg",
+    "keywords": "goa flag of goa sub asia"
+  },
+  {
     "id": "br/go",
     "name": "Goiás",
     "title": "Flag of Goiás",
@@ -3518,6 +3590,18 @@
     "keywords": "guinea bissau flag of the republic of guinea-bissau national-flag africa red yellow green black"
   },
   {
+    "id": "in/gujarat",
+    "name": "Gujarat",
+    "title": "Flag of Gujarat",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/india-sub/gujarat.svg",
+    "keywords": "gujarat flag of gujarat sub asia"
+  },
+  {
     "id": "gcc",
     "name": "Gulf Cooperation Council",
     "title": "Flag of the Gulf Cooperation Council",
@@ -3589,6 +3673,18 @@
     "colors": [],
     "flag": "/germany-sub/hamburg.svg",
     "keywords": "hamburg flag of hamburg sub europe"
+  },
+  {
+    "id": "in/haryana",
+    "name": "Haryana",
+    "title": "Flag of Haryana",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/india-sub/haryana.svg",
+    "keywords": "haryana flag of haryana sub asia"
   },
   {
     "id": "iraq-hashemite",
@@ -4221,6 +4317,18 @@
     "keywords": "jersey flag of jersey british-overseas"
   },
   {
+    "id": "in/jharkhand",
+    "name": "Jharkhand",
+    "title": "Flag of Jharkhand",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/india-sub/jharkhand.svg",
+    "keywords": "jharkhand flag of jharkhand sub asia"
+  },
+  {
     "id": "jolly-roger",
     "name": "Jolly Roger",
     "title": "The Jolly Roger (Pirate Flag)",
@@ -4361,6 +4469,18 @@
     "colors": [],
     "flag": "/us-states/kansas.svg",
     "keywords": "kansas flag of kansas sub north-america"
+  },
+  {
+    "id": "in/karnataka",
+    "name": "Karnataka",
+    "title": "Flag of Karnataka",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/india-sub/karnataka.svg",
+    "keywords": "karnataka flag of karnataka sub asia"
   },
   {
     "id": "ph-katipunan",
@@ -4842,6 +4962,18 @@
     "keywords": "kyrgyzstan flag of the kyrgyz republic national-flag asia red yellow"
   },
   {
+    "id": "in/ladakh",
+    "name": "Ladakh",
+    "title": "Flag of Ladakh",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/india-sub/ladakh.svg",
+    "keywords": "ladakh flag of ladakh sub asia"
+  },
+  {
     "id": "laos",
     "name": "Laos",
     "title": "Flag of the Lao People's Democratic Republic",
@@ -5078,6 +5210,30 @@
     "keywords": "madagascar flag of the republic of madagascar national-flag africa white red green"
   },
   {
+    "id": "in/madhya-pradesh",
+    "name": "Madhya Pradesh",
+    "title": "Flag of Madhya Pradesh",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/india-sub/madhya-pradesh.svg",
+    "keywords": "madhya pradesh flag of madhya pradesh sub asia"
+  },
+  {
+    "id": "in/maharashtra",
+    "name": "Maharashtra",
+    "title": "Flag of Maharashtra",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/india-sub/maharashtra.svg",
+    "keywords": "maharashtra flag of maharashtra sub asia"
+  },
+  {
     "id": "us/maine",
     "name": "Maine",
     "title": "Flag of Maine",
@@ -5232,6 +5388,18 @@
     ],
     "flag": "/iraq/mandatory.svg",
     "keywords": "mandatory iraq kingdom of iraq under british administration historic black white green red"
+  },
+  {
+    "id": "in/manipur",
+    "name": "Manipur",
+    "title": "Flag of Manipur",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/india-sub/manipur.svg",
+    "keywords": "manipur flag of manipur sub asia"
   },
   {
     "id": "mann",
@@ -5851,6 +6019,18 @@
     "keywords": "n. korea (dprk) flag of the democratic people's republic of korea (north korea) national-flag east-asia"
   },
   {
+    "id": "in/nagaland",
+    "name": "Nagaland",
+    "title": "Flag of Nagaland",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/india-sub/nagaland.svg",
+    "keywords": "nagaland flag of nagaland sub asia"
+  },
+  {
     "id": "jp/nagano",
     "name": "Nagano Prefecture",
     "title": "Flag of Nagano Prefecture",
@@ -6287,6 +6467,18 @@
     "colors": [],
     "flag": "/mexico-sub/oax.svg",
     "keywords": "oaxaca flag of oaxaca sub north-america"
+  },
+  {
+    "id": "in/odisha",
+    "name": "Odisha",
+    "title": "Flag of Odisha",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/india-sub/odisha.svg",
+    "keywords": "odisha flag of odisha sub asia"
   },
   {
     "id": "us/ohio",
@@ -7015,6 +7207,18 @@
     "keywords": "puerto rico flag of puerto rico sub caribbean red white blue"
   },
   {
+    "id": "in/punjab",
+    "name": "Punjab",
+    "title": "Flag of Punjab",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/india-sub/punjab.svg",
+    "keywords": "punjab flag of punjab sub asia"
+  },
+  {
     "id": "qajar",
     "name": "Qajar Dynasty",
     "title": "Flag of the Qajar Dynasty",
@@ -7118,6 +7322,18 @@
     ],
     "flag": "/pride/rainbow.svg",
     "keywords": "rainbow pride flag rainbow pride flag pride red orange yellow green blue violet"
+  },
+  {
+    "id": "in/rajasthan",
+    "name": "Rajasthan",
+    "title": "Flag of Rajasthan",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/india-sub/rajasthan.svg",
+    "keywords": "rajasthan flag of rajasthan sub asia"
   },
   {
     "id": "rashidun",
@@ -8556,6 +8772,18 @@
     "keywords": "tanzania flag of tanzania africa horn-of-africa green yellow black blue"
   },
   {
+    "id": "in/telangana",
+    "name": "Telangana",
+    "title": "Flag of Telangana",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/india-sub/telangana.svg",
+    "keywords": "telangana flag of telangana sub asia"
+  },
+  {
     "id": "us/tennessee",
     "name": "Tennessee",
     "title": "Flag of Tennessee",
@@ -8856,6 +9084,18 @@
     "keywords": "tripolitanian republic flag of tripolitanian republic historic blue green"
   },
   {
+    "id": "in/tripura",
+    "name": "Tripura",
+    "title": "Flag of Tripura",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/india-sub/tripura.svg",
+    "keywords": "tripura flag of tripura sub asia"
+  },
+  {
     "id": "tristan",
     "name": "Tristan da Cunha",
     "title": "Flag of Tristan da Cunha",
@@ -9118,6 +9358,30 @@
     "colors": [],
     "flag": "/us-states/utah.svg",
     "keywords": "utah flag of utah sub north-america"
+  },
+  {
+    "id": "in/uttar-pradesh",
+    "name": "Uttar Pradesh",
+    "title": "Flag of Uttar Pradesh",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/india-sub/uttar-pradesh.svg",
+    "keywords": "uttar pradesh flag of uttar pradesh sub asia"
+  },
+  {
+    "id": "in/uttarakhand",
+    "name": "Uttarakhand",
+    "title": "Flag of Uttarakhand",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/india-sub/uttarakhand.svg",
+    "keywords": "uttarakhand flag of uttarakhand sub asia"
   },
   {
     "id": "uyghur-khaganate",

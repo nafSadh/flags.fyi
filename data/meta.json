@@ -1931,16 +1931,26 @@
   },
   "us/arkansas": {
     "prev": "us/arizona",
+    "next": "in/arunachal-pradesh",
+    "cat": "subdivisions"
+  },
+  "in/arunachal-pradesh": {
+    "prev": "us/arkansas",
     "next": "ascension-island",
     "cat": "subdivisions"
   },
   "ascension-island": {
-    "prev": "us/arkansas",
+    "prev": "in/arunachal-pradesh",
+    "next": "in/assam",
+    "cat": "subdivisions"
+  },
+  "in/assam": {
+    "prev": "ascension-island",
     "next": "de/baden-wurttemberg",
     "cat": "subdivisions"
   },
   "de/baden-wurttemberg": {
-    "prev": "ascension-island",
+    "prev": "in/assam",
     "next": "br/ba",
     "cat": "subdivisions"
   },
@@ -2166,11 +2176,16 @@
   },
   "br/ce": {
     "prev": "cayman-islands",
+    "next": "in/chandigarh",
+    "cat": "subdivisions"
+  },
+  "in/chandigarh": {
+    "prev": "br/ce",
     "next": "mx/chp",
     "cat": "subdivisions"
   },
   "mx/chp": {
-    "prev": "br/ce",
+    "prev": "in/chandigarh",
     "next": "jp/chiba",
     "cat": "subdivisions"
   },
@@ -2206,16 +2221,26 @@
   },
   "uk/cornwall": {
     "prev": "us/connecticut",
+    "next": "in/dadra-nagar-haveli",
+    "cat": "subdivisions"
+  },
+  "in/dadra-nagar-haveli": {
+    "prev": "uk/cornwall",
     "next": "us/delaware",
     "cat": "subdivisions"
   },
   "us/delaware": {
-    "prev": "uk/cornwall",
+    "prev": "in/dadra-nagar-haveli",
+    "next": "in/delhi",
+    "cat": "subdivisions"
+  },
+  "in/delhi": {
+    "prev": "us/delaware",
     "next": "br/df",
     "cat": "subdivisions"
   },
   "br/df": {
-    "prev": "us/delaware",
+    "prev": "in/delhi",
     "next": "anguilla-dolphin",
     "cat": "subdivisions"
   },
@@ -2276,11 +2301,16 @@
   },
   "jp/gifu": {
     "prev": "gibraltar",
+    "next": "in/goa",
+    "cat": "subdivisions"
+  },
+  "in/goa": {
+    "prev": "jp/gifu",
     "next": "br/go",
     "cat": "subdivisions"
   },
   "br/go": {
-    "prev": "jp/gifu",
+    "prev": "in/goa",
     "next": "mx/gto",
     "cat": "subdivisions"
   },
@@ -2296,21 +2326,31 @@
   },
   "mx/gro": {
     "prev": "guernsey",
+    "next": "in/gujarat",
+    "cat": "subdivisions"
+  },
+  "in/gujarat": {
+    "prev": "mx/gro",
     "next": "jp/gunma",
     "cat": "subdivisions"
   },
   "jp/gunma": {
-    "prev": "mx/gro",
+    "prev": "in/gujarat",
     "next": "de/hamburg",
     "cat": "subdivisions"
   },
   "de/hamburg": {
     "prev": "jp/gunma",
+    "next": "in/haryana",
+    "cat": "subdivisions"
+  },
+  "in/haryana": {
+    "prev": "de/hamburg",
     "next": "us/hawaii",
     "cat": "subdivisions"
   },
   "us/hawaii": {
-    "prev": "de/hamburg",
+    "prev": "in/haryana",
     "next": "de/hesse",
     "cat": "subdivisions"
   },
@@ -2386,11 +2426,16 @@
   },
   "jersey": {
     "prev": "in/jammu-kashmir",
+    "next": "in/jharkhand",
+    "cat": "subdivisions"
+  },
+  "in/jharkhand": {
+    "prev": "jersey",
     "next": "jp/kagawa",
     "cat": "subdivisions"
   },
   "jp/kagawa": {
-    "prev": "jersey",
+    "prev": "in/jharkhand",
     "next": "jp/kagoshima",
     "cat": "subdivisions"
   },
@@ -2406,11 +2451,16 @@
   },
   "us/kansas": {
     "prev": "jp/kanagawa",
+    "next": "in/karnataka",
+    "cat": "subdivisions"
+  },
+  "in/karnataka": {
+    "prev": "us/kansas",
     "next": "us/kentucky",
     "cat": "subdivisions"
   },
   "us/kentucky": {
-    "prev": "us/kansas",
+    "prev": "in/karnataka",
     "next": "jp/kochi",
     "cat": "subdivisions"
   },
@@ -2426,26 +2476,46 @@
   },
   "jp/kyoto": {
     "prev": "jp/kumamoto",
+    "next": "in/ladakh",
+    "cat": "subdivisions"
+  },
+  "in/ladakh": {
+    "prev": "jp/kyoto",
     "next": "us/louisiana",
     "cat": "subdivisions"
   },
   "us/louisiana": {
-    "prev": "jp/kyoto",
+    "prev": "in/ladakh",
     "next": "de/lower-saxony",
     "cat": "subdivisions"
   },
   "de/lower-saxony": {
     "prev": "us/louisiana",
+    "next": "in/madhya-pradesh",
+    "cat": "subdivisions"
+  },
+  "in/madhya-pradesh": {
+    "prev": "de/lower-saxony",
+    "next": "in/maharashtra",
+    "cat": "subdivisions"
+  },
+  "in/maharashtra": {
+    "prev": "in/madhya-pradesh",
     "next": "us/maine",
     "cat": "subdivisions"
   },
   "us/maine": {
-    "prev": "de/lower-saxony",
+    "prev": "in/maharashtra",
+    "next": "in/manipur",
+    "cat": "subdivisions"
+  },
+  "in/manipur": {
+    "prev": "us/maine",
     "next": "mann",
     "cat": "subdivisions"
   },
   "mann": {
-    "prev": "us/maine",
+    "prev": "in/manipur",
     "next": "br/ma",
     "cat": "subdivisions"
   },
@@ -2541,11 +2611,16 @@
   },
   "mx/mor": {
     "prev": "montserrat",
+    "next": "in/nagaland",
+    "cat": "subdivisions"
+  },
+  "in/nagaland": {
+    "prev": "mx/mor",
     "next": "jp/nagano",
     "cat": "subdivisions"
   },
   "jp/nagano": {
-    "prev": "mx/mor",
+    "prev": "in/nagaland",
     "next": "jp/nagasaki",
     "cat": "subdivisions"
   },
@@ -2631,11 +2706,16 @@
   },
   "mx/oax": {
     "prev": "mx/nl",
+    "next": "in/odisha",
+    "cat": "subdivisions"
+  },
+  "in/odisha": {
+    "prev": "mx/oax",
     "next": "us/ohio",
     "cat": "subdivisions"
   },
   "us/ohio": {
-    "prev": "mx/oax",
+    "prev": "in/odisha",
     "next": "jp/oita",
     "cat": "subdivisions"
   },
@@ -2721,11 +2801,16 @@
   },
   "us/puerto-rico": {
     "prev": "mx/pue",
+    "next": "in/punjab",
+    "cat": "subdivisions"
+  },
+  "in/punjab": {
+    "prev": "us/puerto-rico",
     "next": "ca/quebec",
     "cat": "subdivisions"
   },
   "ca/quebec": {
-    "prev": "us/puerto-rico",
+    "prev": "in/punjab",
     "next": "mx/qro",
     "cat": "subdivisions"
   },
@@ -2736,11 +2821,16 @@
   },
   "mx/qr": {
     "prev": "mx/qro",
+    "next": "in/rajasthan",
+    "cat": "subdivisions"
+  },
+  "in/rajasthan": {
+    "prev": "mx/qr",
     "next": "de/rhineland-palatinate",
     "cat": "subdivisions"
   },
   "de/rhineland-palatinate": {
-    "prev": "mx/qr",
+    "prev": "in/rajasthan",
     "next": "us/rhode-island",
     "cat": "subdivisions"
   },
@@ -2901,11 +2991,16 @@
   },
   "in/tamil-nadu": {
     "prev": "mx/tam",
+    "next": "in/telangana",
+    "cat": "subdivisions"
+  },
+  "in/telangana": {
+    "prev": "in/tamil-nadu",
     "next": "us/tennessee",
     "cat": "subdivisions"
   },
   "us/tennessee": {
-    "prev": "in/tamil-nadu",
+    "prev": "in/telangana",
     "next": "us/texas",
     "cat": "subdivisions"
   },
@@ -2956,11 +3051,16 @@
   },
   "jp/toyama": {
     "prev": "jp/tottori",
+    "next": "in/tripura",
+    "cat": "subdivisions"
+  },
+  "in/tripura": {
+    "prev": "jp/toyama",
     "next": "tristan",
     "cat": "subdivisions"
   },
   "tristan": {
-    "prev": "jp/toyama",
+    "prev": "in/tripura",
     "next": "tci",
     "cat": "subdivisions"
   },
@@ -2971,11 +3071,21 @@
   },
   "us/utah": {
     "prev": "tci",
+    "next": "in/uttar-pradesh",
+    "cat": "subdivisions"
+  },
+  "in/uttar-pradesh": {
+    "prev": "us/utah",
+    "next": "in/uttarakhand",
+    "cat": "subdivisions"
+  },
+  "in/uttarakhand": {
+    "prev": "in/uttar-pradesh",
     "next": "mx/ver",
     "cat": "subdivisions"
   },
   "mx/ver": {
-    "prev": "us/utah",
+    "prev": "in/uttarakhand",
     "next": "us/vermont",
     "cat": "subdivisions"
   },

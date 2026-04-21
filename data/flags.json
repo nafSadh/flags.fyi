@@ -3882,6 +3882,160 @@
     "id": "in/tamil-nadu",
     "index": "c/in/tamil-nadu"
   },
+  "in/arunachal-pradesh": {
+    "g": "sub,asia",
+    "ns": "india-sub",
+    "name": "Arunachal Pradesh",
+    "id": "in/arunachal-pradesh",
+    "index": "c/in/arunachal-pradesh"
+  },
+  "in/assam": {
+    "g": "sub,asia",
+    "ns": "india-sub",
+    "name": "Assam",
+    "id": "in/assam",
+    "index": "c/in/assam"
+  },
+  "in/chandigarh": {
+    "g": "sub,asia",
+    "ns": "india-sub",
+    "name": "Chandigarh",
+    "id": "in/chandigarh",
+    "index": "c/in/chandigarh"
+  },
+  "in/dadra-nagar-haveli": {
+    "g": "sub,asia",
+    "ns": "india-sub",
+    "name": "Dadra and Nagar Haveli and Daman and Diu",
+    "id": "in/dadra-nagar-haveli",
+    "index": "c/in/dadra-nagar-haveli"
+  },
+  "in/delhi": {
+    "g": "sub,asia",
+    "ns": "india-sub",
+    "name": "Delhi",
+    "id": "in/delhi",
+    "index": "c/in/delhi"
+  },
+  "in/goa": {
+    "g": "sub,asia",
+    "ns": "india-sub",
+    "name": "Goa",
+    "id": "in/goa",
+    "index": "c/in/goa"
+  },
+  "in/gujarat": {
+    "g": "sub,asia",
+    "ns": "india-sub",
+    "name": "Gujarat",
+    "id": "in/gujarat",
+    "index": "c/in/gujarat"
+  },
+  "in/haryana": {
+    "g": "sub,asia",
+    "ns": "india-sub",
+    "name": "Haryana",
+    "id": "in/haryana",
+    "index": "c/in/haryana"
+  },
+  "in/jharkhand": {
+    "g": "sub,asia",
+    "ns": "india-sub",
+    "name": "Jharkhand",
+    "id": "in/jharkhand",
+    "index": "c/in/jharkhand"
+  },
+  "in/karnataka": {
+    "g": "sub,asia",
+    "ns": "india-sub",
+    "name": "Karnataka",
+    "id": "in/karnataka",
+    "index": "c/in/karnataka"
+  },
+  "in/ladakh": {
+    "g": "sub,asia",
+    "ns": "india-sub",
+    "name": "Ladakh",
+    "id": "in/ladakh",
+    "index": "c/in/ladakh"
+  },
+  "in/madhya-pradesh": {
+    "g": "sub,asia",
+    "ns": "india-sub",
+    "name": "Madhya Pradesh",
+    "id": "in/madhya-pradesh",
+    "index": "c/in/madhya-pradesh"
+  },
+  "in/maharashtra": {
+    "g": "sub,asia",
+    "ns": "india-sub",
+    "name": "Maharashtra",
+    "id": "in/maharashtra",
+    "index": "c/in/maharashtra"
+  },
+  "in/manipur": {
+    "g": "sub,asia",
+    "ns": "india-sub",
+    "name": "Manipur",
+    "id": "in/manipur",
+    "index": "c/in/manipur"
+  },
+  "in/nagaland": {
+    "g": "sub,asia",
+    "ns": "india-sub",
+    "name": "Nagaland",
+    "id": "in/nagaland",
+    "index": "c/in/nagaland"
+  },
+  "in/odisha": {
+    "g": "sub,asia",
+    "ns": "india-sub",
+    "name": "Odisha",
+    "id": "in/odisha",
+    "index": "c/in/odisha"
+  },
+  "in/punjab": {
+    "g": "sub,asia",
+    "ns": "india-sub",
+    "name": "Punjab",
+    "id": "in/punjab",
+    "index": "c/in/punjab"
+  },
+  "in/rajasthan": {
+    "g": "sub,asia",
+    "ns": "india-sub",
+    "name": "Rajasthan",
+    "id": "in/rajasthan",
+    "index": "c/in/rajasthan"
+  },
+  "in/telangana": {
+    "g": "sub,asia",
+    "ns": "india-sub",
+    "name": "Telangana",
+    "id": "in/telangana",
+    "index": "c/in/telangana"
+  },
+  "in/tripura": {
+    "g": "sub,asia",
+    "ns": "india-sub",
+    "name": "Tripura",
+    "id": "in/tripura",
+    "index": "c/in/tripura"
+  },
+  "in/uttar-pradesh": {
+    "g": "sub,asia",
+    "ns": "india-sub",
+    "name": "Uttar Pradesh",
+    "id": "in/uttar-pradesh",
+    "index": "c/in/uttar-pradesh"
+  },
+  "in/uttarakhand": {
+    "g": "sub,asia",
+    "ns": "india-sub",
+    "name": "Uttarakhand",
+    "id": "in/uttarakhand",
+    "index": "c/in/uttarakhand"
+  },
   "in/sikkim": {
     "name": "Sikkim",
     "ns": "india-sub",
