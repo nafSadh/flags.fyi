@@ -23,9 +23,11 @@
     if (!deepDive) return;
     deepDive.classList.remove('open');
     document.body.classList.remove('dive-open');
-    // Move flag info back into the sidebar
+    // Move flag info back into the sidebar, before .sidebar-bottom
     if (sidebarInfo && sidebar) {
-      sidebar.appendChild(sidebarInfo);
+      var bottom = sidebar.querySelector('.sidebar-bottom');
+      if (bottom) sidebar.insertBefore(sidebarInfo, bottom);
+      else sidebar.appendChild(sidebarInfo);
     }
   }
 
