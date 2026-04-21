@@ -11,13 +11,53 @@
   --text: #363636;
   --text-light: #636363;
   --bg: #fff;
+  --surface: #fff;            /* elevated surfaces: cards, dropdowns, deep-dive */
+  --surface-hover: #fafafa;
+  --code-bg: #f5f5f5;
+  --checker: #eaeaea;         /* flag viewport transparency pattern */
   --border: #e5e5e5;
+  --shadow: 0 2px 8px rgba(0,0,0,0.08);
   --radius: 4px;
   --sidebar-w: 340px;
   --navbar-h: 52px;
   --left-rail-w: 48px;
   --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --font-mono: "SF Mono", "Consolas", "Liberation Mono", Menlo, monospace;
+}
+
+/* Dark theme — activates via system preference OR data-theme="dark" on <html>.
+   [data-theme="light"] forces light even if system is dark. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --primary: #b598ff;
+    --primary-hover: #c7afff;
+    --primary-light: #2a1f45;
+    --primary-muted: #3a2960;
+    --text: #c8cde0;
+    --text-light: #8890a8;
+    --bg: #0e0f1e;
+    --surface: #171934;
+    --surface-hover: #1f2140;
+    --code-bg: #1a1d35;
+    --checker: #1a1d35;
+    --border: #2a2d4a;
+    --shadow: 0 2px 10px rgba(0,0,0,0.4);
+  }
+}
+[data-theme="dark"] {
+  --primary: #b598ff;
+  --primary-hover: #c7afff;
+  --primary-light: #2a1f45;
+  --primary-muted: #3a2960;
+  --text: #c8cde0;
+  --text-light: #8890a8;
+  --bg: #0e0f1e;
+  --surface: #171934;
+  --surface-hover: #1f2140;
+  --code-bg: #1a1d35;
+  --checker: #1a1d35;
+  --border: #2a2d4a;
+  --shadow: 0 2px 10px rgba(0,0,0,0.4);
 }
 
 html { font-size: 16px; }
@@ -35,9 +75,9 @@ h3 { font-size: 1.15rem; font-weight: 600; }
 p { margin-bottom: 0.75rem; }
 img { max-width: 100%; height: auto; }
 code { font-family: var(--font-mono); font-size: 0.875em; }
-pre { overflow-x: auto; padding: 0.75rem; background: #f5f5f5; border-radius: var(--radius); font-size: 0.9rem; }
+pre { overflow-x: auto; padding: 0.75rem; background: var(--code-bg); border-radius: var(--radius); font-size: 0.9rem; }
 pre code { background: none; padding: 0; font-size: 1em; }
-blockquote { border-left: 3px solid var(--border); padding: 0.5rem 1rem; margin: 1rem 0; color: var(--text-light); background: #fafafa; }
+blockquote { border-left: 3px solid var(--border); padding: 0.5rem 1rem; margin: 1rem 0; color: var(--text-light); background: var(--surface-hover); }
 
 /* ─── Lists ──────────────────────────────────────────────────────── */
 ul, ol { padding-left: 1.5rem; margin: 0.5rem 0 0.75rem; }
@@ -84,13 +124,89 @@ nav.site-nav a:hover { color: #fff; text-decoration: none; }
   text-align: center; flex: 1; padding: 0 1rem;
 }
 
+/* ─── Nav search (all pages) ──────────────────────────────────────── */
+.nav-search {
+  position: relative; display: flex; align-items: center;
+  min-width: 160px; max-width: 260px; flex-shrink: 1;
+}
+.nav-search-icon {
+  position: absolute; left: 10px; top: 50%; transform: translateY(-50%);
+  color: rgba(255,255,255,0.6); pointer-events: none;
+}
+.nav-search-input {
+  width: 100%; padding: 0.35rem 0.75rem 0.35rem 2rem;
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,0.25); background: rgba(255,255,255,0.12);
+  color: #fff; font-size: 0.85rem; font-family: var(--font);
+  outline: none; transition: border-color 0.15s, background 0.15s, box-shadow 0.15s;
+}
+.nav-search-input::placeholder { color: rgba(255,255,255,0.6); }
+.nav-search-input:focus {
+  border-color: rgba(255,255,255,0.6); background: rgba(255,255,255,0.2);
+  box-shadow: 0 0 0 3px rgba(255,255,255,0.12);
+}
+.nav-search-input:focus + .nav-search-icon { color: rgba(255,255,255,0.85); }
+.nav-search-results {
+  position: absolute; top: calc(100% + 6px); left: 0; right: 0;
+  background: var(--bg); color: var(--text);
+  border: 1px solid var(--border); border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.14);
+  max-height: 60vh; overflow-y: auto;
+  display: none; z-index: 300;
+}
+.nav-search-results.visible { display: block; }
+.nav-search .nav-search-results a {
+  display: flex; align-items: center; gap: 0.5rem;
+  padding: 0.45rem 0.65rem; text-decoration: none;
+  color: var(--text); font-size: 0.85rem;
+  border-bottom: 1px solid var(--border);
+}
+.nav-search .nav-search-results a:last-child { border-bottom: none; }
+.nav-search .nav-search-results a:hover,
+.nav-search .nav-search-results a.nav-search-active {
+  background: var(--primary-light); color: var(--primary); text-decoration: none;
+}
+.nav-search-results .thumb {
+  width: 24px; height: 24px; border-radius: 50%; object-fit: cover; flex-shrink: 0;
+}
+.nav-search-empty,
+.nav-search-more {
+  padding: 0.6rem 0.75rem; font-size: 0.8rem; color: var(--text-light);
+  text-align: center;
+}
+.nav-search-more { border-top: 1px solid var(--border); }
+
+/* On flag pages, the nav-title competes for space — hide it when search has focus */
+body.flag-page .nav-title { flex: 1 1 auto; min-width: 0; }
+@media (max-width: 640px) {
+  body.flag-page .nav-title { display: none; }
+  .nav-search { min-width: 0; flex: 1 1 auto; }
+}
+
+/* ─── Theme toggle button ──────────────────────────────────────────── */
+.theme-toggle {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 34px; height: 34px; border-radius: 50%;
+  background: rgba(255,255,255,0.08); color: #fff;
+  border: 1px solid rgba(255,255,255,0.15);
+  cursor: pointer; padding: 0;
+  transition: background 0.15s, border-color 0.15s;
+}
+.theme-toggle:hover { background: rgba(255,255,255,0.18); border-color: rgba(255,255,255,0.3); }
+.theme-toggle svg { display: none; }
+/* default (no data-theme attr) = auto → show auto icon */
+html:not([data-theme]) .theme-icon-auto,
+[data-theme="auto"] .theme-icon-auto,
+[data-theme="light"] .theme-icon-light,
+[data-theme="dark"] .theme-icon-dark { display: block; }
+
 /* ═══════════════════════════════════════════════════════════════════
    LEFT RAIL (thin sidebar with index icon)
    ═══════════════════════════════════════════════════════════════════ */
 .left-rail {
   position: fixed; top: var(--navbar-h); left: 0; bottom: 0;
   width: var(--left-rail-w); z-index: 50;
-  background: linear-gradient(180deg, rgba(143,0,255,0.06) 0%, rgba(80,0,204,0.03) 40%, rgba(255,255,255,1) 100%);
+  background: linear-gradient(180deg, rgba(143,0,255,0.06) 0%, rgba(80,0,204,0.03) 40%, var(--surface) 100%);
   border-right: 1px solid var(--border);
   display: flex; flex-direction: column; align-items: center;
   padding-top: 0.75rem;
@@ -126,7 +242,7 @@ nav.site-nav a:hover { color: #fff; text-decoration: none; }
   background: rgba(255,255,255,0.9); color: var(--primary); border-radius: 2rem;
   font-weight: 600; text-decoration: none; font-size: 1rem;
 }
-.hero-landing a.btn:hover { background: #fff; text-decoration: none; }
+.hero-landing a.btn:hover { background: #fff; color: #5000cc; text-decoration: none; }
 
 /* ═══════════════════════════════════════════════════════════════════
    HERO BANNER (flag-index)
@@ -156,7 +272,7 @@ main > .search-box { margin: 1rem auto; }
 }
 /* Search input in main content (not hero) */
 main .search-input {
-  background: #fff; color: var(--text);
+  background: var(--surface); color: var(--text);
   border: 1px solid var(--border);
 }
 main .search-input::placeholder { color: var(--text-light); }
@@ -188,8 +304,8 @@ main .search-count { color: var(--text-light); }
 .search-results {
   position: absolute; top: 100%; left: 0; right: 0;
   margin-top: 0.5rem; padding: 0.75rem;
-  background: #fff; border: 1px solid var(--border); border-radius: 12px;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+  box-shadow: var(--shadow);
   z-index: 200; display: none; text-align: left;
   max-height: 400px; overflow-y: auto;
 }
@@ -251,7 +367,7 @@ main .search-count { color: var(--text-light); }
   display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 0.75rem;
 }
 .hub-card {
-  display: flex; flex-direction: column; padding: 0.85rem; background: #fff;
+  display: flex; flex-direction: column; padding: 0.85rem; background: var(--surface);
   border: 1px solid var(--border); border-radius: 8px;
   text-decoration: none; color: var(--text);
   transition: border-color 0.15s, box-shadow 0.15s;
@@ -315,12 +431,12 @@ body.flag-page { overflow: hidden; height: 100vh; }
   flex: 1;
   display: flex; align-items: center; justify-content: center;
   overflow: hidden;
-  background-color: #f5f5f5;
+  background-color: var(--code-bg);
   background-image:
-    linear-gradient(45deg, #e0e0e0 25%, transparent 25%),
-    linear-gradient(-45deg, #e0e0e0 25%, transparent 25%),
-    linear-gradient(45deg, transparent 75%, #e0e0e0 75%),
-    linear-gradient(-45deg, transparent 75%, #e0e0e0 75%);
+    linear-gradient(45deg, var(--checker) 25%, transparent 25%),
+    linear-gradient(-45deg, var(--checker) 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, var(--checker) 75%),
+    linear-gradient(-45deg, transparent 75%, var(--checker) 75%);
   background-size: 20px 20px;
   background-position: 0 0, 0 10px, 10px -10px, -10px 0;
   padding: 1rem;
@@ -336,7 +452,7 @@ body.flag-page { overflow: hidden; height: 100vh; }
 /* ─── Right sidebar ───────────────────────────────────────────────── */
 .sidebar {
   width: var(--sidebar-w); flex-shrink: 0;
-  background: var(--bg); border-left: 1px solid var(--border);
+  background: var(--surface); color: var(--text); border-left: 1px solid var(--border);
   display: flex; flex-direction: column; overflow: hidden;
 }
 
@@ -577,7 +693,7 @@ body.flag-page { overflow: hidden; height: 100vh; }
 /* ─── Deep dive panel (inside flex layout) ────────────────────────── */
 .deep-dive {
   width: 0; flex-shrink: 0;
-  background: var(--bg); overflow: hidden;
+  background: var(--surface); color: var(--text); overflow: hidden;
   transition: width 0.3s ease; display: flex; flex-direction: column;
   border-left: 0 solid var(--border);
 }
@@ -662,7 +778,7 @@ body.flag-page.dive-open .flag-column > .sidebar-info h1 { font-size: 1.1rem; }
 .mobile-drawer {
   position: fixed; top: var(--navbar-h); bottom: 0;
   right: -280px; width: 280px;
-  background: #fff; z-index: 200;
+  background: var(--surface); color: var(--text); z-index: 200;
   transition: right 0.3s ease;
   box-shadow: none;
   display: flex; flex-direction: column;
@@ -752,7 +868,7 @@ body.flag-page.dive-open .flag-column > .sidebar-info h1 { font-size: 1.1rem; }
   .mobile-bottom-nav {
     display: flex; justify-content: space-around; align-items: center;
     position: fixed; bottom: 0; left: 0; right: 0;
-    height: 52px; background: #fff;
+    height: 52px; background: var(--surface);
     border-top: 1px solid var(--border);
     z-index: 150;
   }
@@ -783,13 +899,13 @@ body.flag-page.dive-open .flag-column > .sidebar-info h1 { font-size: 1.1rem; }
 }
 .flag-block {
   display: flex; flex-direction: column; gap: 0.4rem; padding: 0.4rem;
-  background: #fff; border: 1px solid var(--border); border-radius: var(--radius);
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
   text-decoration: none; color: var(--text); transition: border-color 0.12s, transform 0.12s;
 }
 .flag-block:hover { border-color: var(--primary); color: var(--primary); text-decoration: none; transform: translateY(-1px); }
 .flag-block img {
   width: 100%; aspect-ratio: 3/2; object-fit: contain;
-  background: repeating-conic-gradient(#f5f5f5 0 25%, #fff 0 50%) 50%/14px 14px;
+  background: repeating-conic-gradient(var(--checker) 0 25%, var(--surface) 0 50%) 50%/14px 14px;
   border-radius: 2px;
 }
 .flag-block .fb-name {
@@ -805,9 +921,9 @@ body.flag-page.dive-open .flag-column > .sidebar-info h1 { font-size: 1.1rem; }
 .tier-heading .tier-count { font-weight: 400; opacity: 0.6; }
 .ordered-item {
   display: flex; align-items: center; gap: 0.5rem;
-  padding: 0.25rem 0.3rem; border-bottom: 1px solid #f0f0f0;
+  padding: 0.25rem 0.3rem; border-bottom: 1px solid var(--border);
 }
-.ordered-item:hover { background: #fafafa; }
+.ordered-item:hover { background: var(--surface-hover); }
 .ordered-item a {
   display: inline-flex; align-items: center; gap: 0.35rem;
   text-decoration: none; color: var(--text); font-size: 0.8rem;
