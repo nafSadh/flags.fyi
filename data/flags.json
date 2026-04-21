@@ -1642,7 +1642,7 @@
     "index": "c/jordan"
   },
   "juneteenth": {
-    "g": "nf,pan,north-america",
+    "g": "pan,north-america",
     "ns": "juneteenth",
     "name": "Juneteenth",
     "title": "Juneteenth Flag — Emancipation Commemorative Flag",
@@ -5353,28 +5353,28 @@
     "index": "i/gulf-cooperation-council"
   },
   "pan-african": {
-    "g": "nf,pan,africa",
+    "g": "pan,africa",
     "ns": "movements",
     "name": "Pan-African Flag",
     "id": "pan-african",
     "index": "p/pan-african-flag"
   },
   "pan-slavic": {
-    "g": "nf,pan,europe",
+    "g": "pan,europe",
     "ns": "movements",
     "name": "Pan-Slavic Flag",
     "id": "pan-slavic",
     "index": "p/pan-slavic-flag"
   },
   "amazigh": {
-    "g": "nf,pan,maghreb",
+    "g": "pan,maghreb",
     "ns": "movements",
     "name": "Amazigh (Berber) Flag",
     "id": "amazigh",
     "index": "p/amazigh-(berber)-flag"
   },
   "kurdish": {
-    "g": "nf,pan,levant",
+    "g": "pan,levant",
     "ns": "movements",
     "name": "Kurdish Flag",
     "id": "kurdish",
@@ -5388,14 +5388,14 @@
     "index": "p/romani-flag"
   },
   "tibetan": {
-    "g": "nf,pan,asia",
+    "g": "pan,asia",
     "ns": "movements",
     "name": "Tibetan Flag",
     "id": "tibetan",
     "index": "p/tibetan-flag"
   },
   "catalan": {
-    "g": "nf,pan,europe",
+    "g": "pan,europe",
     "ns": "movements",
     "name": "Catalan Senyera",
     "id": "catalan",
