@@ -453,6 +453,30 @@
     "keywords": "amazonas flag of amazonas sub south-america"
   },
   {
+    "id": "co/amazonas",
+    "name": "Amazonas",
+    "title": "Flag of Amazonas",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/colombia-sub/amazonas.svg",
+    "keywords": "amazonas flag of amazonas sub south-america"
+  },
+  {
+    "id": "pe/amazonas-pe",
+    "name": "Amazonas Pe",
+    "title": "Flag of Amazonas Pe",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/peru-sub/amazonas-pe.svg",
+    "keywords": "amazonas pe flag of amazonas pe sub south-america"
+  },
+  {
     "id": "amsterdam",
     "name": "Amsterdam",
     "title": "Flag of Amsterdam",
@@ -475,6 +499,18 @@
     "colors": [],
     "flag": "/russia-sub/amur-oblast.svg",
     "keywords": "amur oblast flag of amur oblast sub europe asia"
+  },
+  {
+    "id": "pe/ancash",
+    "name": "Ancash",
+    "title": "Flag of Ancash",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/peru-sub/ancash.svg",
+    "keywords": "ancash flag of ancash sub south-america"
   },
   {
     "id": "es/andalusia",
@@ -602,6 +638,18 @@
     "keywords": "antigua and barbuda flag of antigua and barbuda caribbean red blue yellow black white"
   },
   {
+    "id": "co/antioquia",
+    "name": "Antioquia",
+    "title": "Flag of Antioquia",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/colombia-sub/antioquia.svg",
+    "keywords": "antioquia flag of antioquia sub south-america"
+  },
+  {
     "id": "jp/aomori",
     "name": "Aomori Prefecture",
     "title": "Flag of Aomori Prefecture",
@@ -636,6 +684,18 @@
     "colors": [],
     "flag": "/italy-sub/apulia.svg",
     "keywords": "apulia (puglia) flag of apulia (puglia) sub europe"
+  },
+  {
+    "id": "pe/apurimac",
+    "name": "Apurimac",
+    "title": "Flag of Apurimac",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/peru-sub/apurimac.svg",
+    "keywords": "apurimac flag of apurimac sub south-america"
   },
   {
     "id": "aq-qoyunlu",
@@ -695,6 +755,18 @@
     "colors": [],
     "flag": "/spain-sub/aragon.svg",
     "keywords": "aragon flag of aragon sub europe"
+  },
+  {
+    "id": "pe/arequipa",
+    "name": "Arequipa",
+    "title": "Flag of Arequipa",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/peru-sub/arequipa.svg",
+    "keywords": "arequipa flag of arequipa sub south-america"
   },
   {
     "id": "argentina",
@@ -1532,6 +1604,18 @@
     "keywords": "bhutan flag of the kingdom of bhutan national-flag asia south-asia yellow orange white"
   },
   {
+    "id": "cl/biobio",
+    "name": "Biobio",
+    "title": "Flag of Biobio",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/chile-sub/biobio.svg",
+    "keywords": "biobio flag of biobio sub south-america"
+  },
+  {
     "id": "pride-bi",
     "name": "Bisexual Pride",
     "title": "Flag of Bisexual Pride",
@@ -1644,6 +1728,18 @@
     "colors": [],
     "flag": "/france-sub/bourgogne-franche-comte.svg",
     "keywords": "bourgogne-franche-comté flag of bourgogne-franche-comté sub europe"
+  },
+  {
+    "id": "co/boyaca",
+    "name": "Boyaca",
+    "title": "Flag of Boyaca",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/colombia-sub/boyaca.svg",
+    "keywords": "boyaca flag of boyaca sub south-america"
   },
   {
     "id": "de/brandenburg",
@@ -2133,6 +2229,18 @@
     "keywords": "california flag of the state of california (bear flag) sub north-america white red maple seal green"
   },
   {
+    "id": "pe/callao",
+    "name": "Callao",
+    "title": "Flag of Callao",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/peru-sub/callao.svg",
+    "keywords": "callao flag of callao sub south-america"
+  },
+  {
     "id": "cambodia",
     "name": "Cambodia",
     "title": "Flag of the Kingdom of Cambodia",
@@ -2563,6 +2671,18 @@
     "keywords": "carinthia flag of carinthia sub europe"
   },
   {
+    "id": "co/casanare",
+    "name": "Casanare",
+    "title": "Flag of Casanare",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/colombia-sub/casanare.svg",
+    "keywords": "casanare flag of casanare sub south-america"
+  },
+  {
     "id": "es/castile-leon",
     "name": "Castile and León",
     "title": "Flag of Castile and León",
@@ -2624,6 +2744,18 @@
     "colors": [],
     "flag": "/argentina-sub/catamarca.svg",
     "keywords": "catamarca flag of catamarca sub south-america"
+  },
+  {
+    "id": "co/cauca",
+    "name": "Cauca",
+    "title": "Flag of Cauca",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/colombia-sub/cauca.svg",
+    "keywords": "cauca flag of cauca sub south-america"
   },
   {
     "id": "cayman-islands",
@@ -3160,6 +3292,18 @@
     "keywords": "córdoba flag of córdoba sub south-america"
   },
   {
+    "id": "co/cordoba-co",
+    "name": "Cordoba Co",
+    "title": "Flag of Cordoba Co",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/colombia-sub/cordoba-co.svg",
+    "keywords": "cordoba co flag of cordoba co sub south-america"
+  },
+  {
     "id": "uk/cornwall",
     "name": "Cornwall (St Piran)",
     "title": "Flag of Cornwall (St Piran)",
@@ -3311,6 +3455,18 @@
     ],
     "flag": "/cuba-hist/cu-lone-star.svg",
     "keywords": "cuban lone star flag of cuba (lone star flag) historic former-flag caribbean blue white red"
+  },
+  {
+    "id": "pe/cusco",
+    "name": "Cusco",
+    "title": "Flag of Cusco",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/peru-sub/cusco.svg",
+    "keywords": "cusco flag of cusco sub south-america"
   },
   {
     "id": "cyprus",
@@ -4825,6 +4981,18 @@
     "keywords": "guadeloupe flag of guadeloupe sub europe"
   },
   {
+    "id": "co/guainia",
+    "name": "Guainia",
+    "title": "Flag of Guainia",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/colombia-sub/guainia.svg",
+    "keywords": "guainia flag of guainia sub south-america"
+  },
+  {
     "id": "mx/gto",
     "name": "Guanajuato",
     "title": "Flag of Guanajuato",
@@ -4852,6 +5020,18 @@
     ],
     "flag": "/guatemala/flag.svg",
     "keywords": "guatemala flag of the republic of guatemala national-flag north-america blue white gold green"
+  },
+  {
+    "id": "co/guaviare",
+    "name": "Guaviare",
+    "title": "Flag of Guaviare",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/colombia-sub/guaviare.svg",
+    "keywords": "guaviare flag of guaviare sub south-america"
   },
   {
     "id": "guernsey",
@@ -5165,6 +5345,30 @@
     "keywords": "hong kong flag of hong kong city"
   },
   {
+    "id": "pe/huancavelica",
+    "name": "Huancavelica",
+    "title": "Flag of Huancavelica",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/peru-sub/huancavelica.svg",
+    "keywords": "huancavelica flag of huancavelica sub south-america"
+  },
+  {
+    "id": "pe/huanuco",
+    "name": "Huanuco",
+    "title": "Flag of Huanuco",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/peru-sub/huanuco.svg",
+    "keywords": "huanuco flag of huanuco sub south-america"
+  },
+  {
     "id": "hungary",
     "name": "Hungary",
     "title": "Flag of Hungary",
@@ -5220,6 +5424,18 @@
     "colors": [],
     "flag": "/japan-sub/ibaraki.svg",
     "keywords": "ibaraki prefecture flag of ibaraki prefecture sub asia"
+  },
+  {
+    "id": "pe/ica",
+    "name": "Ica",
+    "title": "Flag of Ica",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/peru-sub/ica.svg",
+    "keywords": "ica flag of ica sub south-america"
   },
   {
     "id": "iceland",
@@ -6164,6 +6380,18 @@
     "keywords": "juneteenth juneteenth flag — emancipation commemorative flag pan north-america"
   },
   {
+    "id": "pe/junin",
+    "name": "Junin",
+    "title": "Flag of Junin",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/peru-sub/junin.svg",
+    "keywords": "junin flag of junin sub south-america"
+  },
+  {
     "id": "ru/kabardino-balkaria",
     "name": "Kabardino Balkaria",
     "title": "Flag of Kabardino Balkaria",
@@ -7000,6 +7228,30 @@
     "keywords": "kyrgyzstan flag of the kyrgyz republic national-flag asia red yellow"
   },
   {
+    "id": "cl/la-araucania",
+    "name": "La Araucania",
+    "title": "Flag of La Araucania",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/chile-sub/la-araucania.svg",
+    "keywords": "la araucania flag of la araucania sub south-america"
+  },
+  {
+    "id": "pe/la-libertad",
+    "name": "La Libertad",
+    "title": "Flag of La Libertad",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/peru-sub/la-libertad.svg",
+    "keywords": "la libertad flag of la libertad sub south-america"
+  },
+  {
     "id": "ar/la-pampa",
     "name": "La Pampa",
     "title": "Flag of La Pampa",
@@ -7046,6 +7298,18 @@
     "colors": [],
     "flag": "/india-sub/ladakh.svg",
     "keywords": "ladakh flag of ladakh sub asia"
+  },
+  {
+    "id": "pe/lambayeque",
+    "name": "Lambayeque",
+    "title": "Flag of Lambayeque",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/peru-sub/lambayeque.svg",
+    "keywords": "lambayeque flag of lambayeque sub south-america"
   },
   {
     "id": "id/lampung",
@@ -7428,6 +7692,18 @@
     "keywords": "london flag of london city"
   },
   {
+    "id": "pe/loreto",
+    "name": "Loreto",
+    "title": "Flag of Loreto",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/peru-sub/loreto.svg",
+    "keywords": "loreto flag of loreto sub south-america"
+  },
+  {
     "id": "los-angeles",
     "name": "Los Angeles",
     "title": "Flag of Los Angeles",
@@ -7600,6 +7876,18 @@
     "colors": [],
     "flag": "/india-sub/madhya-pradesh.svg",
     "keywords": "madhya pradesh flag of madhya pradesh sub asia"
+  },
+  {
+    "id": "pe/madre-de-dios",
+    "name": "Madre De Dios",
+    "title": "Flag of Madre De Dios",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/peru-sub/madre-de-dios.svg",
+    "keywords": "madre de dios flag of madre de dios sub south-america"
   },
   {
     "id": "ru/magadan-oblast",
@@ -8000,6 +8288,18 @@
     "colors": [],
     "flag": "/brazil-sub/ms.svg",
     "keywords": "mato grosso do sul flag of mato grosso do sul sub south-america"
+  },
+  {
+    "id": "cl/maule",
+    "name": "Maule",
+    "title": "Flag of Maule",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/chile-sub/maule.svg",
+    "keywords": "maule flag of maule sub south-america"
   },
   {
     "id": "mauritania",
@@ -8500,6 +8800,18 @@
     ],
     "flag": "/british/montserrat.svg",
     "keywords": "montserrat flag of montserrat british-overseas blue red white"
+  },
+  {
+    "id": "pe/moquegua",
+    "name": "Moquegua",
+    "title": "Flag of Moquegua",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/peru-sub/moquegua.svg",
+    "keywords": "moquegua flag of moquegua sub south-america"
   },
   {
     "id": "cz/moravian-silesian",
@@ -9114,6 +9426,18 @@
     "keywords": "normandy flag of normandy sub europe"
   },
   {
+    "id": "co/norte-de-santander",
+    "name": "Norte De Santander",
+    "title": "Flag of Norte De Santander",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/colombia-sub/norte-de-santander.svg",
+    "keywords": "norte de santander flag of norte de santander sub south-america"
+  },
+  {
     "id": "nl/north-brabant",
     "name": "North Brabant",
     "title": "Flag of North Brabant",
@@ -9372,6 +9696,18 @@
     "colors": [],
     "flag": "/russia-sub/novosibirsk-oblast.svg",
     "keywords": "novosibirsk oblast flag of novosibirsk oblast sub europe asia"
+  },
+  {
+    "id": "cl/nuble",
+    "name": "Nuble",
+    "title": "Flag of Nuble",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/chile-sub/nuble.svg",
+    "keywords": "nuble flag of nuble sub south-america"
   },
   {
     "id": "mx/nl",
@@ -10058,6 +10394,18 @@
     "keywords": "parthian empire banner of the parthian empire historic empire asia black yellow"
   },
   {
+    "id": "pe/pasco",
+    "name": "Pasco",
+    "title": "Flag of Pasco",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/peru-sub/pasco.svg",
+    "keywords": "pasco flag of pasco sub south-america"
+  },
+  {
     "id": "fr/pays-de-la-loire",
     "name": "Pays de la Loire",
     "title": "Flag of Pays de la Loire",
@@ -10239,6 +10587,18 @@
     ],
     "flag": "/british/pitcairn.svg",
     "keywords": "pitcairn islands flag of pitcairn, henderson, ducie and oeno islands british-overseas blue red white"
+  },
+  {
+    "id": "pe/piura",
+    "name": "Piura",
+    "title": "Flag of Piura",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/peru-sub/piura.svg",
+    "keywords": "piura flag of piura sub south-america"
   },
   {
     "id": "pl/podlaskie",
@@ -10529,6 +10889,18 @@
     "keywords": "punjab flag of punjab sub asia"
   },
   {
+    "id": "pe/puno",
+    "name": "Puno",
+    "title": "Flag of Puno",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/peru-sub/puno.svg",
+    "keywords": "puno flag of puno sub south-america"
+  },
+  {
     "id": "qajar",
     "name": "Qajar Dynasty",
     "title": "Flag of the Qajar Dynasty",
@@ -10614,6 +10986,18 @@
     "colors": [],
     "flag": "/mexico-sub/qro.svg",
     "keywords": "querétaro flag of querétaro sub north-america"
+  },
+  {
+    "id": "co/quindio",
+    "name": "Quindio",
+    "title": "Flag of Quindio",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/colombia-sub/quindio.svg",
+    "keywords": "quindio flag of quindio sub south-america"
   },
   {
     "id": "mx/qr",
@@ -10914,6 +11298,18 @@
     "colors": [],
     "flag": "/argentina-sub/rio-negro.svg",
     "keywords": "río negro flag of río negro sub south-america"
+  },
+  {
+    "id": "co/risaralda",
+    "name": "Risaralda",
+    "title": "Flag of Risaralda",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/colombia-sub/risaralda.svg",
+    "keywords": "risaralda flag of risaralda sub south-america"
   },
   {
     "id": "ua/rivne",
@@ -11381,6 +11777,18 @@
     "keywords": "san marino flag of the republic of san marino national-flag europe white light blue gold"
   },
   {
+    "id": "pe/san-martin",
+    "name": "San Martin",
+    "title": "Flag of San Martin",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/peru-sub/san-martin.svg",
+    "keywords": "san martin flag of san martin sub south-america"
+  },
+  {
     "id": "br/sc",
     "name": "Santa Catarina",
     "title": "Flag of Santa Catarina",
@@ -11415,6 +11823,18 @@
     "colors": [],
     "flag": "/argentina-sub/santa-fe.svg",
     "keywords": "santa fe flag of santa fe sub south-america"
+  },
+  {
+    "id": "co/santander",
+    "name": "Santander",
+    "title": "Flag of Santander",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/colombia-sub/santander.svg",
+    "keywords": "santander flag of santander sub south-america"
   },
   {
     "id": "ar/santiago-del-estero",
@@ -12572,6 +12992,18 @@
     "keywords": "tabasco flag of tabasco sub north-america"
   },
   {
+    "id": "pe/tacna",
+    "name": "Tacna",
+    "title": "Flag of Tacna",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/peru-sub/tacna.svg",
+    "keywords": "tacna flag of tacna sub south-america"
+  },
+  {
     "id": "tajikistan",
     "name": "Tajikistan",
     "title": "Flag of the Republic of Tajikistan",
@@ -12988,6 +13420,18 @@
     "keywords": "tokyo prefecture flag of tokyo prefecture sub asia"
   },
   {
+    "id": "co/tolima",
+    "name": "Tolima",
+    "title": "Flag of Tolima",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/colombia-sub/tolima.svg",
+    "keywords": "tolima flag of tolima sub south-america"
+  },
+  {
     "id": "ru/tomsk-oblast",
     "name": "Tomsk Oblast",
     "title": "Flag of Tomsk Oblast",
@@ -13154,6 +13598,18 @@
     "keywords": "tula oblast flag of tula oblast sub europe asia"
   },
   {
+    "id": "pe/tumbes",
+    "name": "Tumbes",
+    "title": "Flag of Tumbes",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/peru-sub/tumbes.svg",
+    "keywords": "tumbes flag of tumbes sub south-america"
+  },
+  {
     "id": "tunisia",
     "name": "Tunisia",
     "title": "Flag of the Republic of Tunisia",
@@ -13284,6 +13740,18 @@
     "colors": [],
     "flag": "/russia-sub/tyumen-oblast.svg",
     "keywords": "tyumen oblast flag of tyumen oblast sub europe asia"
+  },
+  {
+    "id": "pe/ucayali",
+    "name": "Ucayali",
+    "title": "Flag of Ucayali",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/peru-sub/ucayali.svg",
+    "keywords": "ucayali flag of ucayali sub south-america"
   },
   {
     "id": "ru/udmurtia",
@@ -13681,6 +14149,18 @@
     "colors": [],
     "flag": "/us-states/vermont.svg",
     "keywords": "vermont flag of vermont sub north-america"
+  },
+  {
+    "id": "co/vichada",
+    "name": "Vichada",
+    "title": "Flag of Vichada",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/colombia-sub/vichada.svg",
+    "keywords": "vichada flag of vichada sub south-america"
   },
   {
     "id": "au/victoria",

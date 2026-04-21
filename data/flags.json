@@ -642,6 +642,34 @@
     "id": "chile",
     "index": "c/chile"
   },
+  "cl/biobio": {
+    "g": "sub,south-america",
+    "ns": "chile-sub",
+    "name": "Biobio",
+    "id": "cl/biobio",
+    "index": "c/cl/biobio"
+  },
+  "cl/la-araucania": {
+    "g": "sub,south-america",
+    "ns": "chile-sub",
+    "name": "La Araucania",
+    "id": "cl/la-araucania",
+    "index": "c/cl/la-araucania"
+  },
+  "cl/maule": {
+    "g": "sub,south-america",
+    "ns": "chile-sub",
+    "name": "Maule",
+    "id": "cl/maule",
+    "index": "c/cl/maule"
+  },
+  "cl/nuble": {
+    "g": "sub,south-america",
+    "ns": "chile-sub",
+    "name": "Nuble",
+    "id": "cl/nuble",
+    "index": "c/cl/nuble"
+  },
   "china": {
     "g": "asia,east-asia",
     "ns": "china",
@@ -655,6 +683,104 @@
     "name": "Colombia",
     "id": "colombia",
     "index": "c/colombia"
+  },
+  "co/amazonas": {
+    "g": "sub,south-america",
+    "ns": "colombia-sub",
+    "name": "Amazonas",
+    "id": "co/amazonas",
+    "index": "c/co/amazonas"
+  },
+  "co/antioquia": {
+    "g": "sub,south-america",
+    "ns": "colombia-sub",
+    "name": "Antioquia",
+    "id": "co/antioquia",
+    "index": "c/co/antioquia"
+  },
+  "co/boyaca": {
+    "g": "sub,south-america",
+    "ns": "colombia-sub",
+    "name": "Boyaca",
+    "id": "co/boyaca",
+    "index": "c/co/boyaca"
+  },
+  "co/casanare": {
+    "g": "sub,south-america",
+    "ns": "colombia-sub",
+    "name": "Casanare",
+    "id": "co/casanare",
+    "index": "c/co/casanare"
+  },
+  "co/cauca": {
+    "g": "sub,south-america",
+    "ns": "colombia-sub",
+    "name": "Cauca",
+    "id": "co/cauca",
+    "index": "c/co/cauca"
+  },
+  "co/cordoba-co": {
+    "g": "sub,south-america",
+    "ns": "colombia-sub",
+    "name": "Cordoba Co",
+    "id": "co/cordoba-co",
+    "index": "c/co/cordoba-co"
+  },
+  "co/guainia": {
+    "g": "sub,south-america",
+    "ns": "colombia-sub",
+    "name": "Guainia",
+    "id": "co/guainia",
+    "index": "c/co/guainia"
+  },
+  "co/guaviare": {
+    "g": "sub,south-america",
+    "ns": "colombia-sub",
+    "name": "Guaviare",
+    "id": "co/guaviare",
+    "index": "c/co/guaviare"
+  },
+  "co/norte-de-santander": {
+    "g": "sub,south-america",
+    "ns": "colombia-sub",
+    "name": "Norte De Santander",
+    "id": "co/norte-de-santander",
+    "index": "c/co/norte-de-santander"
+  },
+  "co/quindio": {
+    "g": "sub,south-america",
+    "ns": "colombia-sub",
+    "name": "Quindio",
+    "id": "co/quindio",
+    "index": "c/co/quindio"
+  },
+  "co/risaralda": {
+    "g": "sub,south-america",
+    "ns": "colombia-sub",
+    "name": "Risaralda",
+    "id": "co/risaralda",
+    "index": "c/co/risaralda"
+  },
+  "co/santander": {
+    "g": "sub,south-america",
+    "ns": "colombia-sub",
+    "name": "Santander",
+    "id": "co/santander",
+    "index": "c/co/santander"
+  },
+  "co/tolima": {
+    "g": "sub,south-america",
+    "ns": "colombia-sub",
+    "name": "Tolima",
+    "id": "co/tolima",
+    "index": "c/co/tolima"
+  },
+  "co/vichada": {
+    "g": "sub,south-america",
+    "ns": "colombia-sub",
+    "name": "Vichada",
+    "id": "co/vichada",
+    "index": "c/co/vichada"
   },
   "comoros": {
     "g": "nf,af,arab,africa",
@@ -2052,6 +2178,160 @@
     "name": "Peru",
     "id": "peru",
     "index": "c/peru"
+  },
+  "pe/amazonas-pe": {
+    "g": "sub,south-america",
+    "ns": "peru-sub",
+    "name": "Amazonas Pe",
+    "id": "pe/amazonas-pe",
+    "index": "c/pe/amazonas-pe"
+  },
+  "pe/ancash": {
+    "g": "sub,south-america",
+    "ns": "peru-sub",
+    "name": "Ancash",
+    "id": "pe/ancash",
+    "index": "c/pe/ancash"
+  },
+  "pe/apurimac": {
+    "g": "sub,south-america",
+    "ns": "peru-sub",
+    "name": "Apurimac",
+    "id": "pe/apurimac",
+    "index": "c/pe/apurimac"
+  },
+  "pe/arequipa": {
+    "g": "sub,south-america",
+    "ns": "peru-sub",
+    "name": "Arequipa",
+    "id": "pe/arequipa",
+    "index": "c/pe/arequipa"
+  },
+  "pe/callao": {
+    "g": "sub,south-america",
+    "ns": "peru-sub",
+    "name": "Callao",
+    "id": "pe/callao",
+    "index": "c/pe/callao"
+  },
+  "pe/cusco": {
+    "g": "sub,south-america",
+    "ns": "peru-sub",
+    "name": "Cusco",
+    "id": "pe/cusco",
+    "index": "c/pe/cusco"
+  },
+  "pe/huancavelica": {
+    "g": "sub,south-america",
+    "ns": "peru-sub",
+    "name": "Huancavelica",
+    "id": "pe/huancavelica",
+    "index": "c/pe/huancavelica"
+  },
+  "pe/huanuco": {
+    "g": "sub,south-america",
+    "ns": "peru-sub",
+    "name": "Huanuco",
+    "id": "pe/huanuco",
+    "index": "c/pe/huanuco"
+  },
+  "pe/ica": {
+    "g": "sub,south-america",
+    "ns": "peru-sub",
+    "name": "Ica",
+    "id": "pe/ica",
+    "index": "c/pe/ica"
+  },
+  "pe/junin": {
+    "g": "sub,south-america",
+    "ns": "peru-sub",
+    "name": "Junin",
+    "id": "pe/junin",
+    "index": "c/pe/junin"
+  },
+  "pe/la-libertad": {
+    "g": "sub,south-america",
+    "ns": "peru-sub",
+    "name": "La Libertad",
+    "id": "pe/la-libertad",
+    "index": "c/pe/la-libertad"
+  },
+  "pe/lambayeque": {
+    "g": "sub,south-america",
+    "ns": "peru-sub",
+    "name": "Lambayeque",
+    "id": "pe/lambayeque",
+    "index": "c/pe/lambayeque"
+  },
+  "pe/loreto": {
+    "g": "sub,south-america",
+    "ns": "peru-sub",
+    "name": "Loreto",
+    "id": "pe/loreto",
+    "index": "c/pe/loreto"
+  },
+  "pe/madre-de-dios": {
+    "g": "sub,south-america",
+    "ns": "peru-sub",
+    "name": "Madre De Dios",
+    "id": "pe/madre-de-dios",
+    "index": "c/pe/madre-de-dios"
+  },
+  "pe/moquegua": {
+    "g": "sub,south-america",
+    "ns": "peru-sub",
+    "name": "Moquegua",
+    "id": "pe/moquegua",
+    "index": "c/pe/moquegua"
+  },
+  "pe/pasco": {
+    "g": "sub,south-america",
+    "ns": "peru-sub",
+    "name": "Pasco",
+    "id": "pe/pasco",
+    "index": "c/pe/pasco"
+  },
+  "pe/piura": {
+    "g": "sub,south-america",
+    "ns": "peru-sub",
+    "name": "Piura",
+    "id": "pe/piura",
+    "index": "c/pe/piura"
+  },
+  "pe/puno": {
+    "g": "sub,south-america",
+    "ns": "peru-sub",
+    "name": "Puno",
+    "id": "pe/puno",
+    "index": "c/pe/puno"
+  },
+  "pe/san-martin": {
+    "g": "sub,south-america",
+    "ns": "peru-sub",
+    "name": "San Martin",
+    "id": "pe/san-martin",
+    "index": "c/pe/san-martin"
+  },
+  "pe/tacna": {
+    "g": "sub,south-america",
+    "ns": "peru-sub",
+    "name": "Tacna",
+    "id": "pe/tacna",
+    "index": "c/pe/tacna"
+  },
+  "pe/tumbes": {
+    "g": "sub,south-america",
+    "ns": "peru-sub",
+    "name": "Tumbes",
+    "id": "pe/tumbes",
+    "index": "c/pe/tumbes"
+  },
+  "pe/ucayali": {
+    "g": "sub,south-america",
+    "ns": "peru-sub",
+    "name": "Ucayali",
+    "id": "pe/ucayali",
+    "index": "c/pe/ucayali"
   },
   "philippines": {
     "g": "asia,southeast-asia",

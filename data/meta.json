@@ -2236,16 +2236,31 @@
   },
   "br/am": {
     "prev": "br/ap",
+    "next": "co/amazonas",
+    "cat": "subdivisions"
+  },
+  "co/amazonas": {
+    "prev": "br/am",
+    "next": "pe/amazonas-pe",
+    "cat": "subdivisions"
+  },
+  "pe/amazonas-pe": {
+    "prev": "co/amazonas",
     "next": "ru/amur-oblast",
     "cat": "subdivisions"
   },
   "ru/amur-oblast": {
-    "prev": "br/am",
+    "prev": "pe/amazonas-pe",
+    "next": "pe/ancash",
+    "cat": "subdivisions"
+  },
+  "pe/ancash": {
+    "prev": "ru/amur-oblast",
     "next": "es/andalusia",
     "cat": "subdivisions"
   },
   "es/andalusia": {
-    "prev": "ru/amur-oblast",
+    "prev": "pe/ancash",
     "next": "anguilla",
     "cat": "subdivisions"
   },
@@ -2256,11 +2271,16 @@
   },
   "anguilla-governor": {
     "prev": "anguilla",
+    "next": "co/antioquia",
+    "cat": "subdivisions"
+  },
+  "co/antioquia": {
+    "prev": "anguilla-governor",
     "next": "jp/aomori",
     "cat": "subdivisions"
   },
   "jp/aomori": {
-    "prev": "anguilla-governor",
+    "prev": "co/antioquia",
     "next": "it/aosta-valley",
     "cat": "subdivisions"
   },
@@ -2271,16 +2291,26 @@
   },
   "it/apulia": {
     "prev": "it/aosta-valley",
+    "next": "pe/apurimac",
+    "cat": "subdivisions"
+  },
+  "pe/apurimac": {
+    "prev": "it/apulia",
     "next": "es/aragon",
     "cat": "subdivisions"
   },
   "es/aragon": {
-    "prev": "it/apulia",
+    "prev": "pe/apurimac",
+    "next": "pe/arequipa",
+    "cat": "subdivisions"
+  },
+  "pe/arequipa": {
+    "prev": "es/aragon",
     "next": "us/arizona",
     "cat": "subdivisions"
   },
   "us/arizona": {
-    "prev": "es/aragon",
+    "prev": "pe/arequipa",
     "next": "us/arkansas",
     "cat": "subdivisions"
   },
@@ -2421,16 +2451,26 @@
   },
   "bermuda": {
     "prev": "de/berlin",
+    "next": "cl/biobio",
+    "cat": "subdivisions"
+  },
+  "cl/biobio": {
+    "prev": "bermuda",
     "next": "fr/bourgogne-franche-comte",
     "cat": "subdivisions"
   },
   "fr/bourgogne-franche-comte": {
-    "prev": "bermuda",
+    "prev": "cl/biobio",
+    "next": "co/boyaca",
+    "cat": "subdivisions"
+  },
+  "co/boyaca": {
+    "prev": "fr/bourgogne-franche-comte",
     "next": "de/brandenburg",
     "cat": "subdivisions"
   },
   "de/brandenburg": {
-    "prev": "fr/bourgogne-franche-comte",
+    "prev": "co/boyaca",
     "next": "de/bremen",
     "cat": "subdivisions"
   },
@@ -2516,11 +2556,16 @@
   },
   "us/california": {
     "prev": "it/calabria",
+    "next": "pe/callao",
+    "cat": "subdivisions"
+  },
+  "pe/callao": {
+    "prev": "us/california",
     "next": "it/campania",
     "cat": "subdivisions"
   },
   "it/campania": {
-    "prev": "us/california",
+    "prev": "pe/callao",
     "next": "mx/cam",
     "cat": "subdivisions"
   },
@@ -2671,11 +2716,16 @@
   },
   "at/carinthia": {
     "prev": "ch/zurich",
+    "next": "co/casanare",
+    "cat": "subdivisions"
+  },
+  "co/casanare": {
+    "prev": "at/carinthia",
     "next": "es/castile-leon",
     "cat": "subdivisions"
   },
   "es/castile-leon": {
-    "prev": "at/carinthia",
+    "prev": "co/casanare",
     "next": "es/castilla-la-mancha",
     "cat": "subdivisions"
   },
@@ -2691,11 +2741,16 @@
   },
   "ar/catamarca": {
     "prev": "es/catalonia",
+    "next": "co/cauca",
+    "cat": "subdivisions"
+  },
+  "co/cauca": {
+    "prev": "ar/catamarca",
     "next": "cayman-islands",
     "cat": "subdivisions"
   },
   "cayman-islands": {
-    "prev": "ar/catamarca",
+    "prev": "co/cauca",
     "next": "br/ce",
     "cat": "subdivisions"
   },
@@ -2831,11 +2886,16 @@
   },
   "ar/cordoba": {
     "prev": "ph/car",
+    "next": "co/cordoba-co",
+    "cat": "subdivisions"
+  },
+  "co/cordoba-co": {
+    "prev": "ar/cordoba",
     "next": "uk/cornwall",
     "cat": "subdivisions"
   },
   "uk/cornwall": {
-    "prev": "ar/cordoba",
+    "prev": "co/cordoba-co",
     "next": "ar/corrientes",
     "cat": "subdivisions"
   },
@@ -2846,11 +2906,16 @@
   },
   "fr/corsica": {
     "prev": "ar/corrientes",
+    "next": "pe/cusco",
+    "cat": "subdivisions"
+  },
+  "pe/cusco": {
+    "prev": "fr/corsica",
     "next": "in/dadra-nagar-haveli",
     "cat": "subdivisions"
   },
   "in/dadra-nagar-haveli": {
-    "prev": "fr/corsica",
+    "prev": "pe/cusco",
     "next": "ru/dagestan",
     "cat": "subdivisions"
   },
@@ -3051,16 +3116,26 @@
   },
   "fr/guadeloupe": {
     "prev": "nl/groningen",
+    "next": "co/guainia",
+    "cat": "subdivisions"
+  },
+  "co/guainia": {
+    "prev": "fr/guadeloupe",
     "next": "mx/gto",
     "cat": "subdivisions"
   },
   "mx/gto": {
-    "prev": "fr/guadeloupe",
+    "prev": "co/guainia",
+    "next": "co/guaviare",
+    "cat": "subdivisions"
+  },
+  "co/guaviare": {
+    "prev": "mx/gto",
     "next": "guernsey",
     "cat": "subdivisions"
   },
   "guernsey": {
-    "prev": "mx/gto",
+    "prev": "co/guaviare",
     "next": "mx/gro",
     "cat": "subdivisions"
   },
@@ -3121,21 +3196,36 @@
   },
   "jp/hokkaido": {
     "prev": "jp/hiroshima",
+    "next": "pe/huancavelica",
+    "cat": "subdivisions"
+  },
+  "pe/huancavelica": {
+    "prev": "jp/hokkaido",
+    "next": "pe/huanuco",
+    "cat": "subdivisions"
+  },
+  "pe/huanuco": {
+    "prev": "pe/huancavelica",
     "next": "jp/hyogo",
     "cat": "subdivisions"
   },
   "jp/hyogo": {
-    "prev": "jp/hokkaido",
+    "prev": "pe/huanuco",
     "next": "jp/ibaraki",
     "cat": "subdivisions"
   },
   "jp/ibaraki": {
     "prev": "jp/hyogo",
+    "next": "pe/ica",
+    "cat": "subdivisions"
+  },
+  "pe/ica": {
+    "prev": "jp/ibaraki",
     "next": "us/idaho",
     "cat": "subdivisions"
   },
   "us/idaho": {
-    "prev": "jp/ibaraki",
+    "prev": "pe/ica",
     "next": "fr/ile-de-france",
     "cat": "subdivisions"
   },
@@ -3221,11 +3311,16 @@
   },
   "ar/jujuy": {
     "prev": "in/jharkhand",
+    "next": "pe/junin",
+    "cat": "subdivisions"
+  },
+  "pe/junin": {
+    "prev": "ar/jujuy",
     "next": "ru/kabardino-balkaria",
     "cat": "subdivisions"
   },
   "ru/kabardino-balkaria": {
-    "prev": "ar/jujuy",
+    "prev": "pe/junin",
     "next": "jp/kagawa",
     "cat": "subdivisions"
   },
@@ -3366,11 +3461,21 @@
   },
   "jp/kyoto": {
     "prev": "ua/kyiv-oblast",
+    "next": "cl/la-araucania",
+    "cat": "subdivisions"
+  },
+  "cl/la-araucania": {
+    "prev": "jp/kyoto",
+    "next": "pe/la-libertad",
+    "cat": "subdivisions"
+  },
+  "pe/la-libertad": {
+    "prev": "cl/la-araucania",
     "next": "ar/la-pampa",
     "cat": "subdivisions"
   },
   "ar/la-pampa": {
-    "prev": "jp/kyoto",
+    "prev": "pe/la-libertad",
     "next": "ar/la-rioja",
     "cat": "subdivisions"
   },
@@ -3386,11 +3491,16 @@
   },
   "in/ladakh": {
     "prev": "es/la-rioja",
+    "next": "pe/lambayeque",
+    "cat": "subdivisions"
+  },
+  "pe/lambayeque": {
+    "prev": "in/ladakh",
     "next": "id/lampung",
     "cat": "subdivisions"
   },
   "id/lampung": {
-    "prev": "in/ladakh",
+    "prev": "pe/lambayeque",
     "next": "it/lazio",
     "cat": "subdivisions"
   },
@@ -3441,11 +3551,16 @@
   },
   "it/lombardy": {
     "prev": "pl/lodz",
+    "next": "pe/loreto",
+    "cat": "subdivisions"
+  },
+  "pe/loreto": {
+    "prev": "it/lombardy",
     "next": "us/louisiana",
     "cat": "subdivisions"
   },
   "us/louisiana": {
-    "prev": "it/lombardy",
+    "prev": "pe/loreto",
     "next": "at/lower-austria",
     "cat": "subdivisions"
   },
@@ -3491,11 +3606,16 @@
   },
   "in/madhya-pradesh": {
     "prev": "pt/madeira",
+    "next": "pe/madre-de-dios",
+    "cat": "subdivisions"
+  },
+  "pe/madre-de-dios": {
+    "prev": "in/madhya-pradesh",
     "next": "ru/magadan-oblast",
     "cat": "subdivisions"
   },
   "ru/magadan-oblast": {
-    "prev": "in/madhya-pradesh",
+    "prev": "pe/madre-de-dios",
     "next": "in/maharashtra",
     "cat": "subdivisions"
   },
@@ -3571,11 +3691,16 @@
   },
   "br/ms": {
     "prev": "br/mt",
+    "next": "cl/maule",
+    "cat": "subdivisions"
+  },
+  "cl/maule": {
+    "prev": "br/ms",
     "next": "fr/mayotte",
     "cat": "subdivisions"
   },
   "fr/mayotte": {
-    "prev": "br/ms",
+    "prev": "cl/maule",
     "next": "de/mecklenburg-vorpommern",
     "cat": "subdivisions"
   },
@@ -3661,11 +3786,16 @@
   },
   "montserrat": {
     "prev": "us/montana",
+    "next": "pe/moquegua",
+    "cat": "subdivisions"
+  },
+  "pe/moquegua": {
+    "prev": "montserrat",
     "next": "cz/moravian-silesian",
     "cat": "subdivisions"
   },
   "cz/moravian-silesian": {
-    "prev": "montserrat",
+    "prev": "pe/moquegua",
     "next": "ru/mordovia",
     "cat": "subdivisions"
   },
@@ -3781,11 +3911,16 @@
   },
   "fr/normandy": {
     "prev": "jp/niigata",
+    "next": "co/norte-de-santander",
+    "cat": "subdivisions"
+  },
+  "co/norte-de-santander": {
+    "prev": "fr/normandy",
     "next": "nl/north-brabant",
     "cat": "subdivisions"
   },
   "nl/north-brabant": {
-    "prev": "fr/normandy",
+    "prev": "co/norte-de-santander",
     "next": "us/north-carolina",
     "cat": "subdivisions"
   },
@@ -3866,11 +4001,16 @@
   },
   "ru/novosibirsk-oblast": {
     "prev": "ru/novgorod-oblast",
+    "next": "cl/nuble",
+    "cat": "subdivisions"
+  },
+  "cl/nuble": {
+    "prev": "ru/novosibirsk-oblast",
     "next": "mx/nl",
     "cat": "subdivisions"
   },
   "mx/nl": {
-    "prev": "ru/novosibirsk-oblast",
+    "prev": "cl/nuble",
     "next": "ca/nunavut",
     "cat": "subdivisions"
   },
@@ -3991,11 +4131,16 @@
   },
   "cz/pardubice": {
     "prev": "br/pr",
+    "next": "pe/pasco",
+    "cat": "subdivisions"
+  },
+  "pe/pasco": {
+    "prev": "cz/pardubice",
     "next": "fr/pays-de-la-loire",
     "cat": "subdivisions"
   },
   "fr/pays-de-la-loire": {
-    "prev": "cz/pardubice",
+    "prev": "pe/pasco",
     "next": "us/pennsylvania",
     "cat": "subdivisions"
   },
@@ -4031,11 +4176,16 @@
   },
   "pitcairn": {
     "prev": "it/piedmont",
+    "next": "pe/piura",
+    "cat": "subdivisions"
+  },
+  "pe/piura": {
+    "prev": "pitcairn",
     "next": "pl/podlaskie",
     "cat": "subdivisions"
   },
   "pl/podlaskie": {
-    "prev": "pitcairn",
+    "prev": "pe/piura",
     "next": "ua/poltava",
     "cat": "subdivisions"
   },
@@ -4086,11 +4236,16 @@
   },
   "in/punjab": {
     "prev": "us/puerto-rico",
+    "next": "pe/puno",
+    "cat": "subdivisions"
+  },
+  "pe/puno": {
+    "prev": "in/punjab",
     "next": "ca/quebec",
     "cat": "subdivisions"
   },
   "ca/quebec": {
-    "prev": "in/punjab",
+    "prev": "pe/puno",
     "next": "au/queensland",
     "cat": "subdivisions"
   },
@@ -4101,11 +4256,16 @@
   },
   "mx/qro": {
     "prev": "au/queensland",
+    "next": "co/quindio",
+    "cat": "subdivisions"
+  },
+  "co/quindio": {
+    "prev": "mx/qro",
     "next": "mx/qr",
     "cat": "subdivisions"
   },
   "mx/qr": {
-    "prev": "mx/qro",
+    "prev": "co/quindio",
     "next": "in/rajasthan",
     "cat": "subdivisions"
   },
@@ -4156,11 +4316,16 @@
   },
   "ar/rio-negro": {
     "prev": "br/rs",
+    "next": "co/risaralda",
+    "cat": "subdivisions"
+  },
+  "co/risaralda": {
+    "prev": "ar/rio-negro",
     "next": "ua/rivne",
     "cat": "subdivisions"
   },
   "ua/rivne": {
-    "prev": "ar/rio-negro",
+    "prev": "co/risaralda",
     "next": "br/ro",
     "cat": "subdivisions"
   },
@@ -4241,11 +4406,16 @@
   },
   "mx/slp": {
     "prev": "ar/san-luis",
+    "next": "pe/san-martin",
+    "cat": "subdivisions"
+  },
+  "pe/san-martin": {
+    "prev": "mx/slp",
     "next": "br/sc",
     "cat": "subdivisions"
   },
   "br/sc": {
-    "prev": "mx/slp",
+    "prev": "pe/san-martin",
     "next": "ar/santa-cruz",
     "cat": "subdivisions"
   },
@@ -4256,11 +4426,16 @@
   },
   "ar/santa-fe": {
     "prev": "ar/santa-cruz",
+    "next": "co/santander",
+    "cat": "subdivisions"
+  },
+  "co/santander": {
+    "prev": "ar/santa-fe",
     "next": "ar/santiago-del-estero",
     "cat": "subdivisions"
   },
   "ar/santiago-del-estero": {
-    "prev": "ar/santa-fe",
+    "prev": "co/santander",
     "next": "br/sp",
     "cat": "subdivisions"
   },
@@ -4456,11 +4631,16 @@
   },
   "mx/tab": {
     "prev": "pl/swietokrzyskie",
+    "next": "pe/tacna",
+    "cat": "subdivisions"
+  },
+  "pe/tacna": {
+    "prev": "mx/tab",
     "next": "mx/tam",
     "cat": "subdivisions"
   },
   "mx/tam": {
-    "prev": "mx/tab",
+    "prev": "pe/tacna",
     "next": "ru/tambov-oblast",
     "cat": "subdivisions"
   },
@@ -4541,11 +4721,16 @@
   },
   "jp/tokyo": {
     "prev": "jp/tokushima",
+    "next": "co/tolima",
+    "cat": "subdivisions"
+  },
+  "co/tolima": {
+    "prev": "jp/tokyo",
     "next": "ru/tomsk-oblast",
     "cat": "subdivisions"
   },
   "ru/tomsk-oblast": {
-    "prev": "jp/tokyo",
+    "prev": "co/tolima",
     "next": "au/torres-strait",
     "cat": "subdivisions"
   },
@@ -4581,11 +4766,16 @@
   },
   "ru/tula-oblast": {
     "prev": "tristan",
+    "next": "pe/tumbes",
+    "cat": "subdivisions"
+  },
+  "pe/tumbes": {
+    "prev": "ru/tula-oblast",
     "next": "tci",
     "cat": "subdivisions"
   },
   "tci": {
-    "prev": "ru/tula-oblast",
+    "prev": "pe/tumbes",
     "next": "it/tuscany",
     "cat": "subdivisions"
   },
@@ -4606,11 +4796,16 @@
   },
   "ru/tyumen-oblast": {
     "prev": "ru/tver-oblast",
+    "next": "pe/ucayali",
+    "cat": "subdivisions"
+  },
+  "pe/ucayali": {
+    "prev": "ru/tyumen-oblast",
     "next": "ru/udmurtia",
     "cat": "subdivisions"
   },
   "ru/udmurtia": {
-    "prev": "ru/tyumen-oblast",
+    "prev": "pe/ucayali",
     "next": "ru/ulyanovsk-oblast",
     "cat": "subdivisions"
   },
@@ -4666,11 +4861,16 @@
   },
   "us/vermont": {
     "prev": "mx/ver",
+    "next": "co/vichada",
+    "cat": "subdivisions"
+  },
+  "co/vichada": {
+    "prev": "us/vermont",
     "next": "au/victoria",
     "cat": "subdivisions"
   },
   "au/victoria": {
-    "prev": "us/vermont",
+    "prev": "co/vichada",
     "next": "at/vienna-state",
     "cat": "subdivisions"
   },

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="450" height="300" viewBox="-45 0 90 60">
+<rect id="green"	fill="#57B02D"	x="-45" width="90" height="60"/>
+<defs>
+<g id="star" fill="#FFF" transform="translate(0,0) scale(4)">
+  <g id="cone">
+    <polygon id="triangle" points="0,0 0,1 .5,1" transform="translate(0,-1) rotate(18)"/>
+    <use xlink:href="#triangle" transform="scale(-1,1)"/>
+  </g>
+  <use xlink:href="#cone" transform="rotate(72)"/>
+  <use xlink:href="#cone" transform="rotate(-72)"/>
+  <use xlink:href="#cone" transform="rotate(144)"/>
+  <use xlink:href="#cone" transform="rotate(-144)"/>
+</g>
+</defs>
+
+<g id="right_half">
+ <use xlink:href="#star" transform="translate(4,6)"/>
+ <use xlink:href="#star" transform="translate(12,9)"/>
+ <use xlink:href="#star" transform="translate(19,13)"/>
+ <use xlink:href="#star" transform="translate(25,18)"/>
+ <use xlink:href="#star" transform="translate(29.5,24)"/>
+ <use xlink:href="#star" transform="translate(33,31)"/>
+ <use xlink:href="#star" transform="translate(36,38)"/>
+ <use xlink:href="#star" transform="translate(38,46)"/>
+ <use xlink:href="#star" transform="translate(39.333,53.5)"/>
+</g>
+<use xlink:href="#right_half" transform="scale(-1,1)"/>
+</svg>
