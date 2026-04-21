@@ -24,6 +24,15 @@ function entityTitle(id, fd) {
   return (fd.name || id).replace(/ /g, '_');
 }
 
+// Wikipedia article about the flag itself (fallback when the entity has no article
+// or when the flag IS the subject, e.g., pride flags, ICS signal flags).
+function flagArticleTitle(id, fd) {
+  if (fd.wiki) return fd.wiki;
+  const name = (fd.name || id).replace(/ /g, '_');
+  return `Flag_of_${name}`;
+}
+
+
 function fetchSummary(title) {
   return new Promise((resolve) => {
     const url = `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title)}`;
@@ -57,12 +66,44 @@ function fetchSummary(title) {
 
 async function main() {
   const entries = Object.entries(flagsJson);
-  let fetched = 0, cached = 0, failed = 0;
+  let fetched = 0, cached = 0, failed = 0, flagFallback = 0;
   for (let i = 0; i < entries.length; i++) {
     const [id, fd] = entries[i];
-    if (cache[id] && !FORCE) { cached++; continue; }
-    const title = entityTitle(id, fd);
-    const summary = await fetchSummary(title);
+    const existing = cache[id];
+    const hasExtract = existing && existing.extract;
+    if (hasExtract && !FORCE) { cached++; continue; }
+
+    const g = (fd.g || '').split(',').map(s => s.trim());
+    const subjectIsFlag = g.includes('pride') || id.startsWith('ics-') || (g.includes('maritime') && !fd.now);
+
+    // Build a candidate list of Wikipedia titles to try in order.
+    const candidates = [];
+    if (!subjectIsFlag) candidates.push(entityTitle(id, fd));
+    candidates.push(flagArticleTitle(id, fd));
+    // For pride/maritime flags the article often has a custom name; try _name + "_flag" variations
+    if (subjectIsFlag && fd.name) {
+      const base = fd.name.replace(/ /g, '_');
+      candidates.push(base);
+      candidates.push(base + '_flag');
+      candidates.push(base + '_Flag');
+      candidates.push(base.replace('Pride', 'pride_flag'));
+    }
+    // ICS alphabet: NATO name
+    if (id.startsWith('ics-') && fd.name && fd.name.startsWith('ICS ')) {
+      const nato = fd.name.slice(4);
+      candidates.push('ICS_' + nato);
+      candidates.push(nato + '_(NATO_phonetic_alphabet)');
+    }
+
+    let summary = null;
+    let attempted = 0;
+    for (const title of candidates) {
+      if (summary) break;
+      attempted++;
+      summary = await fetchSummary(title);
+      await new Promise(r => setTimeout(r, 30));
+    }
+    if (summary && attempted > 1) flagFallback++;
     if (summary) {
       cache[id] = summary;
       fetched++;
@@ -72,14 +113,12 @@ async function main() {
     }
     if (i % 20 === 0) {
       fs.writeFileSync(cachePath, JSON.stringify(cache, null, 0) + '\n');
-      process.stderr.write(`\r  ${i + 1}/${entries.length}  fetched=${fetched}  cached=${cached}  failed=${failed}`);
+      process.stderr.write(`\r  ${i + 1}/${entries.length}  fetched=${fetched}  cached=${cached}  flagFallback=${flagFallback}  failed=${failed}`);
     }
-    // Rate-limit: 30ms between requests
-    await new Promise(r => setTimeout(r, 30));
   }
   fs.writeFileSync(cachePath, JSON.stringify(cache, null, 0) + '\n');
   process.stderr.write('\n');
-  console.log(`Done. fetched=${fetched} cached=${cached} failed=${failed}`);
+  console.log(`Done. fetched=${fetched} cached=${cached} flagFallback=${flagFallback} failed=${failed}`);
 }
 
 main();

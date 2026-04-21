@@ -1258,6 +1258,20 @@ function getWikiExtract(flagId) {
   return entry && entry.extract ? entry.extract : null;
 }
 
+// Short summary for sidebar: Wikipedia extract if available, otherwise fall back
+// to the first 1–2 sentences of the local desc (the flag's own description).
+function getSidebarSummary(flagId, fd) {
+  const wiki = getWikiExtract(flagId);
+  if (wiki) return { text: wiki, source: 'wiki' };
+  const desc = fd.desc ? arrayText(fd.desc) : '';
+  if (desc) {
+    // Strip leading "- " or "* " bullet markers from the first line
+    const firstLine = desc.split('\n').map(l => l.replace(/^[-*]\s+/, '').trim()).filter(Boolean)[0] || '';
+    if (firstLine) return { text: firstLine, source: 'local' };
+  }
+  return null;
+}
+
 // ─── Wikimedia Commons reference map ────────────────────────────────────────
 // Known Wikimedia Commons filenames for flags (verified sources)
 const commonsFileMap = {
@@ -2131,10 +2145,12 @@ function generateFlagPage(flagId) {
   const wikiUrl = getWikiUrl(flagId, fd);
   const entityWikiUrl = getEntityWikiUrl(flagId, fd);
   const wikiRailBtn = `<a href="${escHtml(wikiUrl)}" class="rail-btn" title="Wikipedia: ${escHtml(fd.title || 'Flag')}" target="_blank" rel="noopener"><svg width="20" height="20" viewBox="0 0 128 128"><use href="#icon-wiki"/></svg></a>\n`;
-  // Entity summary (2–3 sentence Wikipedia extract) + link to the entity article
-  const entityExtract = getWikiExtract(flagId);
-  const entitySummaryHtml = entityExtract
-    ? `<div class="entity-summary"><p>${escHtml(entityExtract)} <a href="${escHtml(entityWikiUrl)}" class="entity-wiki-link" target="_blank" rel="noopener">read more <span aria-hidden="true">\u2197</span></a></p></div>`
+  // Entity/flag summary: Wikipedia extract if cached, else first line of local desc.
+  const summaryInfo = getSidebarSummary(flagId, fd);
+  const entitySummaryHtml = summaryInfo
+    ? (summaryInfo.source === 'wiki'
+      ? `<div class="entity-summary"><p>${escHtml(summaryInfo.text)} <a href="${escHtml(entityWikiUrl)}" class="entity-wiki-link" target="_blank" rel="noopener">read more <span aria-hidden="true">\u2197</span></a></p></div>`
+      : `<div class="entity-summary"><p>${escHtml(summaryInfo.text)}</p></div>`)
     : (entityWikiUrl && entityWikiUrl !== wikiUrl
       ? `<a href="${escHtml(entityWikiUrl)}" class="entity-wiki-link" target="_blank" rel="noopener">${escHtml(fd._name)} on Wikipedia <span aria-hidden="true">\u2197</span></a>`
       : '');
