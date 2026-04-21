@@ -1333,7 +1333,7 @@
     "name": "Bangladesh Navy",
     "title": "Naval Ensign of Bangladesh",
     "groups": [
-      "historic",
+      "maritime",
       "south-asia"
     ],
     "colors": [
@@ -1342,7 +1342,7 @@
       "white"
     ],
     "flag": "/bangladesh/navy.svg",
-    "keywords": "bangladesh navy naval ensign of bangladesh historic south-asia green red white"
+    "keywords": "bangladesh navy naval ensign of bangladesh maritime south-asia green red white"
   },
   {
     "id": "ph/bangsamoro",
