@@ -1611,6 +1611,118 @@
     "id": "poland",
     "index": "c/poland"
   },
+  "pl/greater-poland": {
+    "g": "sub,europe",
+    "ns": "poland-sub",
+    "name": "Greater Poland Voivodeship",
+    "id": "pl/greater-poland",
+    "index": "c/pl/greater-poland"
+  },
+  "pl/kuyavian-pomeranian": {
+    "g": "sub,europe",
+    "ns": "poland-sub",
+    "name": "Kuyavian Pomeranian Voivodeship",
+    "id": "pl/kuyavian-pomeranian",
+    "index": "c/pl/kuyavian-pomeranian"
+  },
+  "pl/lesser-poland": {
+    "g": "sub,europe",
+    "ns": "poland-sub",
+    "name": "Lesser Poland Voivodeship",
+    "id": "pl/lesser-poland",
+    "index": "c/pl/lesser-poland"
+  },
+  "pl/lodz": {
+    "g": "sub,europe",
+    "ns": "poland-sub",
+    "name": "Lodz Voivodeship",
+    "id": "pl/lodz",
+    "index": "c/pl/lodz"
+  },
+  "pl/lower-silesian": {
+    "g": "sub,europe",
+    "ns": "poland-sub",
+    "name": "Lower Silesian Voivodeship",
+    "id": "pl/lower-silesian",
+    "index": "c/pl/lower-silesian"
+  },
+  "pl/lublin": {
+    "g": "sub,europe",
+    "ns": "poland-sub",
+    "name": "Lublin Voivodeship",
+    "id": "pl/lublin",
+    "index": "c/pl/lublin"
+  },
+  "pl/lubusz": {
+    "g": "sub,europe",
+    "ns": "poland-sub",
+    "name": "Lubusz Voivodeship",
+    "id": "pl/lubusz",
+    "index": "c/pl/lubusz"
+  },
+  "pl/masovian": {
+    "g": "sub,europe",
+    "ns": "poland-sub",
+    "name": "Masovian Voivodeship",
+    "id": "pl/masovian",
+    "index": "c/pl/masovian"
+  },
+  "pl/opole": {
+    "g": "sub,europe",
+    "ns": "poland-sub",
+    "name": "Opole Voivodeship",
+    "id": "pl/opole",
+    "index": "c/pl/opole"
+  },
+  "pl/podlaskie": {
+    "g": "sub,europe",
+    "ns": "poland-sub",
+    "name": "Podlaskie Voivodeship",
+    "id": "pl/podlaskie",
+    "index": "c/pl/podlaskie"
+  },
+  "pl/pomeranian": {
+    "g": "sub,europe",
+    "ns": "poland-sub",
+    "name": "Pomeranian Voivodeship",
+    "id": "pl/pomeranian",
+    "index": "c/pl/pomeranian"
+  },
+  "pl/silesian": {
+    "g": "sub,europe",
+    "ns": "poland-sub",
+    "name": "Silesian Voivodeship",
+    "id": "pl/silesian",
+    "index": "c/pl/silesian"
+  },
+  "pl/subcarpathian": {
+    "g": "sub,europe",
+    "ns": "poland-sub",
+    "name": "Subcarpathian Voivodeship",
+    "id": "pl/subcarpathian",
+    "index": "c/pl/subcarpathian"
+  },
+  "pl/swietokrzyskie": {
+    "g": "sub,europe",
+    "ns": "poland-sub",
+    "name": "Swietokrzyskie Voivodeship",
+    "id": "pl/swietokrzyskie",
+    "index": "c/pl/swietokrzyskie"
+  },
+  "pl/warmian-masurian": {
+    "g": "sub,europe",
+    "ns": "poland-sub",
+    "name": "Warmian Masurian Voivodeship",
+    "id": "pl/warmian-masurian",
+    "index": "c/pl/warmian-masurian"
+  },
+  "pl/west-pomeranian": {
+    "g": "sub,europe",
+    "ns": "poland-sub",
+    "name": "West Pomeranian Voivodeship",
+    "id": "pl/west-pomeranian",
+    "index": "c/pl/west-pomeranian"
+  },
   "portugal": {
     "g": "europe",
     "ns": "portugal",
@@ -2496,6 +2608,174 @@
     "name": "Ukraine",
     "id": "ukraine",
     "index": "c/ukraine"
+  },
+  "ua/cherkasy": {
+    "g": "sub,europe",
+    "ns": "ukraine-sub",
+    "name": "Cherkasy",
+    "id": "ua/cherkasy",
+    "index": "c/ua/cherkasy"
+  },
+  "ua/chernihiv": {
+    "g": "sub,europe",
+    "ns": "ukraine-sub",
+    "name": "Chernihiv",
+    "id": "ua/chernihiv",
+    "index": "c/ua/chernihiv"
+  },
+  "ua/chernivtsi": {
+    "g": "sub,europe",
+    "ns": "ukraine-sub",
+    "name": "Chernivtsi",
+    "id": "ua/chernivtsi",
+    "index": "c/ua/chernivtsi"
+  },
+  "ua/dnipropetrovsk": {
+    "g": "sub,europe",
+    "ns": "ukraine-sub",
+    "name": "Dnipropetrovsk",
+    "id": "ua/dnipropetrovsk",
+    "index": "c/ua/dnipropetrovsk"
+  },
+  "ua/donetsk": {
+    "g": "sub,europe",
+    "ns": "ukraine-sub",
+    "name": "Donetsk",
+    "id": "ua/donetsk",
+    "index": "c/ua/donetsk"
+  },
+  "ua/ivano-frankivsk": {
+    "g": "sub,europe",
+    "ns": "ukraine-sub",
+    "name": "Ivano Frankivsk",
+    "id": "ua/ivano-frankivsk",
+    "index": "c/ua/ivano-frankivsk"
+  },
+  "ua/kharkiv": {
+    "g": "sub,europe",
+    "ns": "ukraine-sub",
+    "name": "Kharkiv",
+    "id": "ua/kharkiv",
+    "index": "c/ua/kharkiv"
+  },
+  "ua/kherson": {
+    "g": "sub,europe",
+    "ns": "ukraine-sub",
+    "name": "Kherson",
+    "id": "ua/kherson",
+    "index": "c/ua/kherson"
+  },
+  "ua/khmelnytskyi": {
+    "g": "sub,europe",
+    "ns": "ukraine-sub",
+    "name": "Khmelnytskyi",
+    "id": "ua/khmelnytskyi",
+    "index": "c/ua/khmelnytskyi"
+  },
+  "ua/kirovohrad": {
+    "g": "sub,europe",
+    "ns": "ukraine-sub",
+    "name": "Kirovohrad",
+    "id": "ua/kirovohrad",
+    "index": "c/ua/kirovohrad"
+  },
+  "ua/kyiv-oblast": {
+    "g": "sub,europe",
+    "ns": "ukraine-sub",
+    "name": "Kyiv Oblast",
+    "id": "ua/kyiv-oblast",
+    "index": "c/ua/kyiv-oblast"
+  },
+  "ua/luhansk": {
+    "g": "sub,europe",
+    "ns": "ukraine-sub",
+    "name": "Luhansk",
+    "id": "ua/luhansk",
+    "index": "c/ua/luhansk"
+  },
+  "ua/lviv": {
+    "g": "sub,europe",
+    "ns": "ukraine-sub",
+    "name": "Lviv",
+    "id": "ua/lviv",
+    "index": "c/ua/lviv"
+  },
+  "ua/mykolaiv": {
+    "g": "sub,europe",
+    "ns": "ukraine-sub",
+    "name": "Mykolaiv",
+    "id": "ua/mykolaiv",
+    "index": "c/ua/mykolaiv"
+  },
+  "ua/odesa": {
+    "g": "sub,europe",
+    "ns": "ukraine-sub",
+    "name": "Odesa",
+    "id": "ua/odesa",
+    "index": "c/ua/odesa"
+  },
+  "ua/poltava": {
+    "g": "sub,europe",
+    "ns": "ukraine-sub",
+    "name": "Poltava",
+    "id": "ua/poltava",
+    "index": "c/ua/poltava"
+  },
+  "ua/rivne": {
+    "g": "sub,europe",
+    "ns": "ukraine-sub",
+    "name": "Rivne",
+    "id": "ua/rivne",
+    "index": "c/ua/rivne"
+  },
+  "ua/sumy": {
+    "g": "sub,europe",
+    "ns": "ukraine-sub",
+    "name": "Sumy",
+    "id": "ua/sumy",
+    "index": "c/ua/sumy"
+  },
+  "ua/ternopil": {
+    "g": "sub,europe",
+    "ns": "ukraine-sub",
+    "name": "Ternopil",
+    "id": "ua/ternopil",
+    "index": "c/ua/ternopil"
+  },
+  "ua/vinnytsia": {
+    "g": "sub,europe",
+    "ns": "ukraine-sub",
+    "name": "Vinnytsia",
+    "id": "ua/vinnytsia",
+    "index": "c/ua/vinnytsia"
+  },
+  "ua/volyn": {
+    "g": "sub,europe",
+    "ns": "ukraine-sub",
+    "name": "Volyn",
+    "id": "ua/volyn",
+    "index": "c/ua/volyn"
+  },
+  "ua/zakarpattia": {
+    "g": "sub,europe",
+    "ns": "ukraine-sub",
+    "name": "Zakarpattia",
+    "id": "ua/zakarpattia",
+    "index": "c/ua/zakarpattia"
+  },
+  "ua/zaporizhzhia": {
+    "g": "sub,europe",
+    "ns": "ukraine-sub",
+    "name": "Zaporizhzhia",
+    "id": "ua/zaporizhzhia",
+    "index": "c/ua/zaporizhzhia"
+  },
+  "ua/zhytomyr": {
+    "g": "sub,europe",
+    "ns": "ukraine-sub",
+    "name": "Zhytomyr",
+    "id": "ua/zhytomyr",
+    "index": "c/ua/zhytomyr"
   },
   "us": {
     "g": "nf,north-america",

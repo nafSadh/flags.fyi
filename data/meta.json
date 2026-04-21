@@ -1845,7 +1845,7 @@
     "cat": "countries"
   },
   "ar/0": {
-    "prev": "mx/zac",
+    "prev": "ua/zhytomyr",
     "next": "au/aboriginal",
     "cat": "subdivisions"
   },
@@ -2361,11 +2361,26 @@
   },
   "ru/chelyabinsk-oblast": {
     "prev": "ru/chechnya",
+    "next": "ua/cherkasy",
+    "cat": "subdivisions"
+  },
+  "ua/cherkasy": {
+    "prev": "ru/chelyabinsk-oblast",
+    "next": "ua/chernihiv",
+    "cat": "subdivisions"
+  },
+  "ua/chernihiv": {
+    "prev": "ua/cherkasy",
+    "next": "ua/chernivtsi",
+    "cat": "subdivisions"
+  },
+  "ua/chernivtsi": {
+    "prev": "ua/chernihiv",
     "next": "mx/chp",
     "cat": "subdivisions"
   },
   "mx/chp": {
-    "prev": "ru/chelyabinsk-oblast",
+    "prev": "ua/chernivtsi",
     "next": "jp/chiba",
     "cat": "subdivisions"
   },
@@ -2471,16 +2486,26 @@
   },
   "br/df": {
     "prev": "in/delhi",
+    "next": "ua/dnipropetrovsk",
+    "cat": "subdivisions"
+  },
+  "ua/dnipropetrovsk": {
+    "prev": "br/df",
     "next": "anguilla-dolphin",
     "cat": "subdivisions"
   },
   "anguilla-dolphin": {
-    "prev": "br/df",
+    "prev": "ua/dnipropetrovsk",
+    "next": "ua/donetsk",
+    "cat": "subdivisions"
+  },
+  "ua/donetsk": {
+    "prev": "anguilla-dolphin",
     "next": "mx/dgo",
     "cat": "subdivisions"
   },
   "mx/dgo": {
-    "prev": "anguilla-dolphin",
+    "prev": "ua/donetsk",
     "next": "jp/ehime",
     "cat": "subdivisions"
   },
@@ -2576,11 +2601,16 @@
   },
   "fr/grand-est": {
     "prev": "br/go",
+    "next": "pl/greater-poland",
+    "cat": "subdivisions"
+  },
+  "pl/greater-poland": {
+    "prev": "fr/grand-est",
     "next": "fr/guadeloupe",
     "cat": "subdivisions"
   },
   "fr/guadeloupe": {
-    "prev": "fr/grand-est",
+    "prev": "pl/greater-poland",
     "next": "mx/gto",
     "cat": "subdivisions"
   },
@@ -2696,11 +2726,16 @@
   },
   "jp/ishikawa": {
     "prev": "ru/irkutsk-oblast",
+    "next": "ua/ivano-frankivsk",
+    "cat": "subdivisions"
+  },
+  "ua/ivano-frankivsk": {
+    "prev": "jp/ishikawa",
     "next": "ru/ivanovo-oblast",
     "cat": "subdivisions"
   },
   "ru/ivanovo-oblast": {
-    "prev": "jp/ishikawa",
+    "prev": "ua/ivano-frankivsk",
     "next": "jp/iwate",
     "cat": "subdivisions"
   },
@@ -2801,16 +2836,36 @@
   },
   "ru/khabarovsk-krai": {
     "prev": "us/kentucky",
+    "next": "ua/kharkiv",
+    "cat": "subdivisions"
+  },
+  "ua/kharkiv": {
+    "prev": "ru/khabarovsk-krai",
+    "next": "ua/kherson",
+    "cat": "subdivisions"
+  },
+  "ua/kherson": {
+    "prev": "ua/kharkiv",
+    "next": "ua/khmelnytskyi",
+    "cat": "subdivisions"
+  },
+  "ua/khmelnytskyi": {
+    "prev": "ua/kherson",
     "next": "ru/kirov-oblast",
     "cat": "subdivisions"
   },
   "ru/kirov-oblast": {
-    "prev": "ru/khabarovsk-krai",
+    "prev": "ua/khmelnytskyi",
+    "next": "ua/kirovohrad",
+    "cat": "subdivisions"
+  },
+  "ua/kirovohrad": {
+    "prev": "ru/kirov-oblast",
     "next": "jp/kochi",
     "cat": "subdivisions"
   },
   "jp/kochi": {
-    "prev": "ru/kirov-oblast",
+    "prev": "ua/kirovohrad",
     "next": "ru/kostroma-oblast",
     "cat": "subdivisions"
   },
@@ -2841,11 +2896,21 @@
   },
   "ru/kursk-oblast": {
     "prev": "ru/kurgan-oblast",
+    "next": "pl/kuyavian-pomeranian",
+    "cat": "subdivisions"
+  },
+  "pl/kuyavian-pomeranian": {
+    "prev": "ru/kursk-oblast",
+    "next": "ua/kyiv-oblast",
+    "cat": "subdivisions"
+  },
+  "ua/kyiv-oblast": {
+    "prev": "pl/kuyavian-pomeranian",
     "next": "jp/kyoto",
     "cat": "subdivisions"
   },
   "jp/kyoto": {
-    "prev": "ru/kursk-oblast",
+    "prev": "ua/kyiv-oblast",
     "next": "ar/la-pampa",
     "cat": "subdivisions"
   },
@@ -2876,21 +2941,31 @@
   },
   "ru/leningrad-oblast": {
     "prev": "it/lazio",
+    "next": "pl/lesser-poland",
+    "cat": "subdivisions"
+  },
+  "pl/lesser-poland": {
+    "prev": "ru/leningrad-oblast",
     "next": "it/liguria",
     "cat": "subdivisions"
   },
   "it/liguria": {
-    "prev": "ru/leningrad-oblast",
+    "prev": "pl/lesser-poland",
     "next": "ru/lipetsk-oblast",
     "cat": "subdivisions"
   },
   "ru/lipetsk-oblast": {
     "prev": "it/liguria",
+    "next": "pl/lodz",
+    "cat": "subdivisions"
+  },
+  "pl/lodz": {
+    "prev": "ru/lipetsk-oblast",
     "next": "it/lombardy",
     "cat": "subdivisions"
   },
   "it/lombardy": {
-    "prev": "ru/lipetsk-oblast",
+    "prev": "pl/lodz",
     "next": "us/louisiana",
     "cat": "subdivisions"
   },
@@ -2901,11 +2976,36 @@
   },
   "de/lower-saxony": {
     "prev": "us/louisiana",
+    "next": "pl/lower-silesian",
+    "cat": "subdivisions"
+  },
+  "pl/lower-silesian": {
+    "prev": "de/lower-saxony",
+    "next": "pl/lublin",
+    "cat": "subdivisions"
+  },
+  "pl/lublin": {
+    "prev": "pl/lower-silesian",
+    "next": "pl/lubusz",
+    "cat": "subdivisions"
+  },
+  "pl/lubusz": {
+    "prev": "pl/lublin",
+    "next": "ua/luhansk",
+    "cat": "subdivisions"
+  },
+  "ua/luhansk": {
+    "prev": "pl/lubusz",
+    "next": "ua/lviv",
+    "cat": "subdivisions"
+  },
+  "ua/lviv": {
+    "prev": "ua/luhansk",
     "next": "in/madhya-pradesh",
     "cat": "subdivisions"
   },
   "in/madhya-pradesh": {
-    "prev": "de/lower-saxony",
+    "prev": "ua/lviv",
     "next": "ru/magadan-oblast",
     "cat": "subdivisions"
   },
@@ -2956,11 +3056,16 @@
   },
   "us/maryland": {
     "prev": "fr/martinique",
+    "next": "pl/masovian",
+    "cat": "subdivisions"
+  },
+  "pl/masovian": {
+    "prev": "us/maryland",
     "next": "us/massachusetts",
     "cat": "subdivisions"
   },
   "us/massachusetts": {
-    "prev": "us/maryland",
+    "prev": "pl/masovian",
     "next": "br/mt",
     "cat": "subdivisions"
   },
@@ -3086,11 +3191,16 @@
   },
   "ru/murmansk-oblast": {
     "prev": "ru/moscow-oblast",
+    "next": "ua/mykolaiv",
+    "cat": "subdivisions"
+  },
+  "ua/mykolaiv": {
+    "prev": "ru/murmansk-oblast",
     "next": "in/nagaland",
     "cat": "subdivisions"
   },
   "in/nagaland": {
-    "prev": "ru/murmansk-oblast",
+    "prev": "ua/mykolaiv",
     "next": "jp/nagano",
     "cat": "subdivisions"
   },
@@ -3246,11 +3356,16 @@
   },
   "fr/occitanie": {
     "prev": "mx/oax",
+    "next": "ua/odesa",
+    "cat": "subdivisions"
+  },
+  "ua/odesa": {
+    "prev": "fr/occitanie",
     "next": "in/odisha",
     "cat": "subdivisions"
   },
   "in/odisha": {
-    "prev": "fr/occitanie",
+    "prev": "ua/odesa",
     "next": "us/ohio",
     "cat": "subdivisions"
   },
@@ -3286,11 +3401,16 @@
   },
   "ca/ontario": {
     "prev": "ru/omsk-oblast",
+    "next": "pl/opole",
+    "cat": "subdivisions"
+  },
+  "pl/opole": {
+    "prev": "ca/ontario",
     "next": "us/oregon",
     "cat": "subdivisions"
   },
   "us/oregon": {
-    "prev": "ca/ontario",
+    "prev": "pl/opole",
     "next": "ru/orenburg-oblast",
     "cat": "subdivisions"
   },
@@ -3361,11 +3481,26 @@
   },
   "pitcairn": {
     "prev": "it/piedmont",
+    "next": "pl/podlaskie",
+    "cat": "subdivisions"
+  },
+  "pl/podlaskie": {
+    "prev": "pitcairn",
+    "next": "ua/poltava",
+    "cat": "subdivisions"
+  },
+  "ua/poltava": {
+    "prev": "pl/podlaskie",
+    "next": "pl/pomeranian",
+    "cat": "subdivisions"
+  },
+  "pl/pomeranian": {
+    "prev": "ua/poltava",
     "next": "ru/primorsky-krai",
     "cat": "subdivisions"
   },
   "ru/primorsky-krai": {
-    "prev": "pitcairn",
+    "prev": "pl/pomeranian",
     "next": "ca/prince-edward-island",
     "cat": "subdivisions"
   },
@@ -3461,11 +3596,16 @@
   },
   "ar/rio-negro": {
     "prev": "br/rs",
+    "next": "ua/rivne",
+    "cat": "subdivisions"
+  },
+  "ua/rivne": {
+    "prev": "ar/rio-negro",
     "next": "br/ro",
     "cat": "subdivisions"
   },
   "br/ro": {
-    "prev": "ar/rio-negro",
+    "prev": "ua/rivne",
     "next": "br/rr",
     "cat": "subdivisions"
   },
@@ -3636,11 +3776,16 @@
   },
   "in/sikkim": {
     "prev": "it/sicily",
+    "next": "pl/silesian",
+    "cat": "subdivisions"
+  },
+  "pl/silesian": {
+    "prev": "in/sikkim",
     "next": "mx/sin",
     "cat": "subdivisions"
   },
   "mx/sin": {
-    "prev": "in/sikkim",
+    "prev": "pl/silesian",
     "next": "ru/smolensk-oblast",
     "cat": "subdivisions"
   },
@@ -3681,16 +3826,31 @@
   },
   "ru/stavropol-krai": {
     "prev": "mx/mex",
+    "next": "pl/subcarpathian",
+    "cat": "subdivisions"
+  },
+  "pl/subcarpathian": {
+    "prev": "ru/stavropol-krai",
+    "next": "ua/sumy",
+    "cat": "subdivisions"
+  },
+  "ua/sumy": {
+    "prev": "pl/subcarpathian",
     "next": "ru/sverdlovsk-oblast",
     "cat": "subdivisions"
   },
   "ru/sverdlovsk-oblast": {
-    "prev": "ru/stavropol-krai",
+    "prev": "ua/sumy",
+    "next": "pl/swietokrzyskie",
+    "cat": "subdivisions"
+  },
+  "pl/swietokrzyskie": {
+    "prev": "ru/sverdlovsk-oblast",
     "next": "mx/tab",
     "cat": "subdivisions"
   },
   "mx/tab": {
-    "prev": "ru/sverdlovsk-oblast",
+    "prev": "pl/swietokrzyskie",
     "next": "mx/tam",
     "cat": "subdivisions"
   },
@@ -3726,11 +3886,16 @@
   },
   "us/tennessee": {
     "prev": "in/telangana",
+    "next": "ua/ternopil",
+    "cat": "subdivisions"
+  },
+  "ua/ternopil": {
+    "prev": "us/tennessee",
     "next": "us/texas",
     "cat": "subdivisions"
   },
   "us/texas": {
-    "prev": "us/tennessee",
+    "prev": "ua/ternopil",
     "next": "de/thuringia",
     "cat": "subdivisions"
   },
@@ -3886,11 +4051,16 @@
   },
   "au/victoria": {
     "prev": "us/vermont",
+    "next": "ua/vinnytsia",
+    "cat": "subdivisions"
+  },
+  "ua/vinnytsia": {
+    "prev": "au/victoria",
     "next": "us/virginia",
     "cat": "subdivisions"
   },
   "us/virginia": {
-    "prev": "au/victoria",
+    "prev": "ua/vinnytsia",
     "next": "ru/vladimir-oblast",
     "cat": "subdivisions"
   },
@@ -3906,11 +4076,16 @@
   },
   "ru/vologda-oblast": {
     "prev": "ru/volgograd-oblast",
+    "next": "ua/volyn",
+    "cat": "subdivisions"
+  },
+  "ua/volyn": {
+    "prev": "ru/vologda-oblast",
     "next": "ru/voronezh-oblast",
     "cat": "subdivisions"
   },
   "ru/voronezh-oblast": {
-    "prev": "ru/vologda-oblast",
+    "prev": "ua/volyn",
     "next": "jp/wakayama",
     "cat": "subdivisions"
   },
@@ -3921,21 +4096,31 @@
   },
   "uk/wales": {
     "prev": "jp/wakayama",
+    "next": "pl/warmian-masurian",
+    "cat": "subdivisions"
+  },
+  "pl/warmian-masurian": {
+    "prev": "uk/wales",
     "next": "us/washington",
     "cat": "subdivisions"
   },
   "us/washington": {
-    "prev": "uk/wales",
+    "prev": "pl/warmian-masurian",
     "next": "us/washington-dc",
     "cat": "subdivisions"
   },
   "us/washington-dc": {
     "prev": "us/washington",
+    "next": "pl/west-pomeranian",
+    "cat": "subdivisions"
+  },
+  "pl/west-pomeranian": {
+    "prev": "us/washington-dc",
     "next": "us/west-virginia",
     "cat": "subdivisions"
   },
   "us/west-virginia": {
-    "prev": "us/washington-dc",
+    "prev": "pl/west-pomeranian",
     "next": "au/western-australia",
     "cat": "subdivisions"
   },
@@ -3996,6 +4181,21 @@
   },
   "mx/zac": {
     "prev": "ru/zabaykalsky-krai",
+    "next": "ua/zakarpattia",
+    "cat": "subdivisions"
+  },
+  "ua/zakarpattia": {
+    "prev": "mx/zac",
+    "next": "ua/zaporizhzhia",
+    "cat": "subdivisions"
+  },
+  "ua/zaporizhzhia": {
+    "prev": "ua/zakarpattia",
+    "next": "ua/zhytomyr",
+    "cat": "subdivisions"
+  },
+  "ua/zhytomyr": {
+    "prev": "ua/zaporizhzhia",
     "next": "ar/0",
     "cat": "subdivisions"
   },

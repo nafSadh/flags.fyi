@@ -2473,6 +2473,42 @@
     "keywords": "chelyabinsk oblast flag of chelyabinsk oblast sub europe asia"
   },
   {
+    "id": "ua/cherkasy",
+    "name": "Cherkasy",
+    "title": "Flag of Cherkasy",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/ukraine-sub/cherkasy.svg",
+    "keywords": "cherkasy flag of cherkasy sub europe"
+  },
+  {
+    "id": "ua/chernihiv",
+    "name": "Chernihiv",
+    "title": "Flag of Chernihiv",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/ukraine-sub/chernihiv.svg",
+    "keywords": "chernihiv flag of chernihiv sub europe"
+  },
+  {
+    "id": "ua/chernivtsi",
+    "name": "Chernivtsi",
+    "title": "Flag of Chernivtsi",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/ukraine-sub/chernivtsi.svg",
+    "keywords": "chernivtsi flag of chernivtsi sub europe"
+  },
+  {
     "id": "mx/chp",
     "name": "Chiapas",
     "title": "Flag of Chiapas",
@@ -3097,6 +3133,18 @@
     "keywords": "djibouti flag of the republic of djibouti national-flag africa arab horn-of-africa light blue green white red"
   },
   {
+    "id": "ua/dnipropetrovsk",
+    "name": "Dnipropetrovsk",
+    "title": "Flag of Dnipropetrovsk",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/ukraine-sub/dnipropetrovsk.svg",
+    "keywords": "dnipropetrovsk flag of dnipropetrovsk sub europe"
+  },
+  {
     "id": "anguilla-dolphin",
     "name": "Dolphin Flag",
     "title": "Dolphin Flag of Anguilla",
@@ -3144,6 +3192,18 @@
     ],
     "flag": "/dominican-republic/flag.svg",
     "keywords": "dominican republic flag of the dominican republic national-flag caribbean blue red white"
+  },
+  {
+    "id": "ua/donetsk",
+    "name": "Donetsk",
+    "title": "Flag of Donetsk",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/ukraine-sub/donetsk.svg",
+    "keywords": "donetsk flag of donetsk sub europe"
   },
   {
     "id": "milan",
@@ -4164,6 +4224,18 @@
     ],
     "flag": "/comoros/grande-comore.svg",
     "keywords": "grande comore flag of grande comore — comoros island africa blue"
+  },
+  {
+    "id": "pl/greater-poland",
+    "name": "Greater Poland Voivodeship",
+    "title": "Flag of Greater Poland Voivodeship",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/poland-sub/greater-poland.svg",
+    "keywords": "greater poland voivodeship flag of greater poland voivodeship sub europe"
   },
   {
     "id": "greece",
@@ -5333,6 +5405,18 @@
     "keywords": "italy flag of italy europe green white red"
   },
   {
+    "id": "ua/ivano-frankivsk",
+    "name": "Ivano Frankivsk",
+    "title": "Flag of Ivano Frankivsk",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/ukraine-sub/ivano-frankivsk.svg",
+    "keywords": "ivano frankivsk flag of ivano frankivsk sub europe"
+  },
+  {
     "id": "ru/ivanovo-oblast",
     "name": "Ivanovo Oblast",
     "title": "Flag of Ivanovo Oblast",
@@ -5819,6 +5903,18 @@
     "keywords": "khanate of kokand flag of the khanate of kokand historic empire asia green yellow"
   },
   {
+    "id": "ua/kharkiv",
+    "name": "Kharkiv",
+    "title": "Flag of Kharkiv",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/ukraine-sub/kharkiv.svg",
+    "keywords": "kharkiv flag of kharkiv sub europe"
+  },
+  {
     "id": "khazar",
     "name": "Khazar Khaganate",
     "title": "Banner of the Khazar Khaganate",
@@ -5847,6 +5943,30 @@
     ],
     "flag": "/egypt/khedivate.svg",
     "keywords": "khedivate of egypt flag of khedivate of egypt historic red white"
+  },
+  {
+    "id": "ua/kherson",
+    "name": "Kherson",
+    "title": "Flag of Kherson",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/ukraine-sub/kherson.svg",
+    "keywords": "kherson flag of kherson sub europe"
+  },
+  {
+    "id": "ua/khmelnytskyi",
+    "name": "Khmelnytskyi",
+    "title": "Flag of Khmelnytskyi",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/ukraine-sub/khmelnytskyi.svg",
+    "keywords": "khmelnytskyi flag of khmelnytskyi sub europe"
   },
   {
     "id": "bohemia",
@@ -6056,6 +6176,18 @@
     "keywords": "kirov oblast flag of kirov oblast sub europe asia"
   },
   {
+    "id": "ua/kirovohrad",
+    "name": "Kirovohrad",
+    "title": "Flag of Kirovohrad",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/ukraine-sub/kirovohrad.svg",
+    "keywords": "kirovohrad flag of kirovohrad sub europe"
+  },
+  {
     "id": "templar",
     "name": "Knights Templar",
     "title": "Beauseant of the Knights Templar",
@@ -6237,6 +6369,30 @@
     "colors": [],
     "flag": "/kuwait/flag.svg",
     "keywords": "kuwait flag of kuwait national-flag asia arab gulf"
+  },
+  {
+    "id": "pl/kuyavian-pomeranian",
+    "name": "Kuyavian Pomeranian Voivodeship",
+    "title": "Flag of Kuyavian Pomeranian Voivodeship",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/poland-sub/kuyavian-pomeranian.svg",
+    "keywords": "kuyavian pomeranian voivodeship flag of kuyavian pomeranian voivodeship sub europe"
+  },
+  {
+    "id": "ua/kyiv-oblast",
+    "name": "Kyiv Oblast",
+    "title": "Flag of Kyiv Oblast",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/ukraine-sub/kyiv-oblast.svg",
+    "keywords": "kyiv oblast flag of kyiv oblast sub europe"
   },
   {
     "id": "jp/kyoto",
@@ -6428,6 +6584,18 @@
     "keywords": "lesotho flag of the kingdom of lesotho national-flag africa blue white green black"
   },
   {
+    "id": "pl/lesser-poland",
+    "name": "Lesser Poland Voivodeship",
+    "title": "Flag of Lesser Poland Voivodeship",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/poland-sub/lesser-poland.svg",
+    "keywords": "lesser poland voivodeship flag of lesser poland voivodeship sub europe"
+  },
+  {
     "id": "liberia",
     "name": "Liberia",
     "title": "Flag of the Republic of Liberia",
@@ -6566,6 +6734,18 @@
     "keywords": "lithuania flag of the republic of lithuania national-flag europe yellow green red"
   },
   {
+    "id": "pl/lodz",
+    "name": "Lodz Voivodeship",
+    "title": "Flag of Lodz Voivodeship",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/poland-sub/lodz.svg",
+    "keywords": "lodz voivodeship flag of lodz voivodeship sub europe"
+  },
+  {
     "id": "it/lombardy",
     "name": "Lombardy",
     "title": "Flag of Lombardy",
@@ -6602,6 +6782,54 @@
     "keywords": "lower saxony flag of lower saxony sub europe"
   },
   {
+    "id": "pl/lower-silesian",
+    "name": "Lower Silesian Voivodeship",
+    "title": "Flag of Lower Silesian Voivodeship",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/poland-sub/lower-silesian.svg",
+    "keywords": "lower silesian voivodeship flag of lower silesian voivodeship sub europe"
+  },
+  {
+    "id": "pl/lublin",
+    "name": "Lublin Voivodeship",
+    "title": "Flag of Lublin Voivodeship",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/poland-sub/lublin.svg",
+    "keywords": "lublin voivodeship flag of lublin voivodeship sub europe"
+  },
+  {
+    "id": "pl/lubusz",
+    "name": "Lubusz Voivodeship",
+    "title": "Flag of Lubusz Voivodeship",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/poland-sub/lubusz.svg",
+    "keywords": "lubusz voivodeship flag of lubusz voivodeship sub europe"
+  },
+  {
+    "id": "ua/luhansk",
+    "name": "Luhansk",
+    "title": "Flag of Luhansk",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/ukraine-sub/luhansk.svg",
+    "keywords": "luhansk flag of luhansk sub europe"
+  },
+  {
     "id": "luxembourg",
     "name": "Luxembourg",
     "title": "Flag of the Grand Duchy of Luxembourg",
@@ -6616,6 +6844,18 @@
     ],
     "flag": "/luxembourg/flag.svg",
     "keywords": "luxembourg flag of the grand duchy of luxembourg national-flag europe red white light blue"
+  },
+  {
+    "id": "ua/lviv",
+    "name": "Lviv",
+    "title": "Flag of Lviv",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/ukraine-sub/lviv.svg",
+    "keywords": "lviv flag of lviv sub europe"
   },
   {
     "id": "madagascar",
@@ -6944,6 +7184,18 @@
     ],
     "flag": "/us-states/us-maryland.svg",
     "keywords": "maryland flag of maryland sub north-america black gold red white"
+  },
+  {
+    "id": "pl/masovian",
+    "name": "Masovian Voivodeship",
+    "title": "Flag of Masovian Voivodeship",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/poland-sub/masovian.svg",
+    "keywords": "masovian voivodeship flag of masovian voivodeship sub europe"
   },
   {
     "id": "us/massachusetts",
@@ -7592,6 +7844,18 @@
     "keywords": "myanmar flag of the republic of the union of myanmar national-flag asia southeast-asia yellow green red white"
   },
   {
+    "id": "ua/mykolaiv",
+    "name": "Mykolaiv",
+    "title": "Flag of Mykolaiv",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/ukraine-sub/mykolaiv.svg",
+    "keywords": "mykolaiv flag of mykolaiv sub europe"
+  },
+  {
     "id": "korea-dprk",
     "name": "N. Korea (DPRK)",
     "title": "Flag of the Democratic People's Republic of Korea (North Korea)",
@@ -8224,6 +8488,18 @@
     "keywords": "occitanie flag of occitanie sub europe"
   },
   {
+    "id": "ua/odesa",
+    "name": "Odesa",
+    "title": "Flag of Odesa",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/ukraine-sub/odesa.svg",
+    "keywords": "odesa flag of odesa sub europe"
+  },
+  {
     "id": "in/odisha",
     "name": "Odisha",
     "title": "Flag of Odisha",
@@ -8379,6 +8655,18 @@
     ],
     "flag": "/canada-sub/ca-ontario.svg",
     "keywords": "ontario flag of ontario sub north-america red white green"
+  },
+  {
+    "id": "pl/opole",
+    "name": "Opole Voivodeship",
+    "title": "Flag of Opole Voivodeship",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/poland-sub/opole.svg",
+    "keywords": "opole voivodeship flag of opole voivodeship sub europe"
   },
   {
     "id": "orange-free-state",
@@ -8916,6 +9204,18 @@
     "keywords": "pitcairn islands flag of pitcairn, henderson, ducie and oeno islands british-overseas blue red white"
   },
   {
+    "id": "pl/podlaskie",
+    "name": "Podlaskie Voivodeship",
+    "title": "Flag of Podlaskie Voivodeship",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/poland-sub/podlaskie.svg",
+    "keywords": "podlaskie voivodeship flag of podlaskie voivodeship sub europe"
+  },
+  {
     "id": "poland",
     "name": "Poland",
     "title": "Flag of Poland",
@@ -8945,6 +9245,18 @@
     "keywords": "polish november uprising flag of the polish november uprising historic europe white red"
   },
   {
+    "id": "ua/poltava",
+    "name": "Poltava",
+    "title": "Flag of Poltava",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/ukraine-sub/poltava.svg",
+    "keywords": "poltava flag of poltava sub europe"
+  },
+  {
     "id": "pride-polyamory",
     "name": "Polyamory Pride",
     "title": "Flag of Polyamory Pride",
@@ -8954,6 +9266,18 @@
     "colors": [],
     "flag": "/movements/pride-polyamory.svg",
     "keywords": "polyamory pride flag of polyamory pride pride"
+  },
+  {
+    "id": "pl/pomeranian",
+    "name": "Pomeranian Voivodeship",
+    "title": "Flag of Pomeranian Voivodeship",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/poland-sub/pomeranian.svg",
+    "keywords": "pomeranian voivodeship flag of pomeranian voivodeship sub europe"
   },
   {
     "id": "portugal",
@@ -9496,6 +9820,18 @@
     "colors": [],
     "flag": "/argentina-sub/rio-negro.svg",
     "keywords": "río negro flag of río negro sub south-america"
+  },
+  {
+    "id": "ua/rivne",
+    "name": "Rivne",
+    "title": "Flag of Rivne",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/ukraine-sub/rivne.svg",
+    "keywords": "rivne flag of rivne sub europe"
   },
   {
     "id": "roman-empire",
@@ -10348,6 +10684,18 @@
     "keywords": "sikkim flag of sikkim sub south-asia red white blue"
   },
   {
+    "id": "pl/silesian",
+    "name": "Silesian Voivodeship",
+    "title": "Flag of Silesian Voivodeship",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/poland-sub/silesian.svg",
+    "keywords": "silesian voivodeship flag of silesian voivodeship sub europe"
+  },
+  {
     "id": "mx/sin",
     "name": "Sinaloa",
     "title": "Flag of Sinaloa",
@@ -10747,6 +11095,18 @@
     "keywords": "stavropol krai flag of stavropol krai sub europe asia"
   },
   {
+    "id": "pl/subcarpathian",
+    "name": "Subcarpathian Voivodeship",
+    "title": "Flag of Subcarpathian Voivodeship",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/poland-sub/subcarpathian.svg",
+    "keywords": "subcarpathian voivodeship flag of subcarpathian voivodeship sub europe"
+  },
+  {
     "id": "sudan",
     "name": "Sudan",
     "title": "Flag of the Republic of the Sudan",
@@ -10830,6 +11190,18 @@
     "keywords": "sultanate of zanzibar flag of the sultanate of zanzibar (1963) historic empire africa red green yellow"
   },
   {
+    "id": "ua/sumy",
+    "name": "Sumy",
+    "title": "Flag of Sumy",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/ukraine-sub/sumy.svg",
+    "keywords": "sumy flag of sumy sub europe"
+  },
+  {
     "id": "suriname",
     "name": "Suriname",
     "title": "Flag of the Republic of Suriname",
@@ -10873,6 +11245,18 @@
     ],
     "flag": "/sweden/flag.svg",
     "keywords": "sweden flag of sweden europe nordic blue yellow"
+  },
+  {
+    "id": "pl/swietokrzyskie",
+    "name": "Swietokrzyskie Voivodeship",
+    "title": "Flag of Swietokrzyskie Voivodeship",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/poland-sub/swietokrzyskie.svg",
+    "keywords": "swietokrzyskie voivodeship flag of swietokrzyskie voivodeship sub europe"
   },
   {
     "id": "switzerland",
@@ -11056,6 +11440,18 @@
     "colors": [],
     "flag": "/us-states/tennessee.svg",
     "keywords": "tennessee flag of tennessee sub north-america"
+  },
+  {
+    "id": "ua/ternopil",
+    "name": "Ternopil",
+    "title": "Flag of Ternopil",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/ukraine-sub/ternopil.svg",
+    "keywords": "ternopil flag of ternopil sub europe"
   },
   {
     "id": "teutonic",
@@ -11944,6 +12340,18 @@
     "keywords": "vietnam flag of vietnam asia southeast-asia red yellow"
   },
   {
+    "id": "ua/vinnytsia",
+    "name": "Vinnytsia",
+    "title": "Flag of Vinnytsia",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/ukraine-sub/vinnytsia.svg",
+    "keywords": "vinnytsia flag of vinnytsia sub europe"
+  },
+  {
     "id": "us/virginia",
     "name": "Virginia",
     "title": "Flag of Virginia",
@@ -11995,6 +12403,18 @@
     "keywords": "vologda oblast flag of vologda oblast sub europe asia"
   },
   {
+    "id": "ua/volyn",
+    "name": "Volyn",
+    "title": "Flag of Volyn",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/ukraine-sub/volyn.svg",
+    "keywords": "volyn flag of volyn sub europe"
+  },
+  {
     "id": "ru/voronezh-oblast",
     "name": "Voronezh Oblast",
     "title": "Flag of Voronezh Oblast",
@@ -12034,6 +12454,18 @@
     ],
     "flag": "/uk-sub/wales.svg",
     "keywords": "wales flag of wales (y ddraig goch) sub europe white green red"
+  },
+  {
+    "id": "pl/warmian-masurian",
+    "name": "Warmian Masurian Voivodeship",
+    "title": "Flag of Warmian Masurian Voivodeship",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/poland-sub/warmian-masurian.svg",
+    "keywords": "warmian masurian voivodeship flag of warmian masurian voivodeship sub europe"
   },
   {
     "id": "us/washington",
@@ -12095,6 +12527,18 @@
     ],
     "flag": "/germany-hist/de-west-germany.svg",
     "keywords": "west germany flag of the federal republic of germany (west) historic former-flag europe black red gold"
+  },
+  {
+    "id": "pl/west-pomeranian",
+    "name": "West Pomeranian Voivodeship",
+    "title": "Flag of West Pomeranian Voivodeship",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/poland-sub/west-pomeranian.svg",
+    "keywords": "west pomeranian voivodeship flag of west pomeranian voivodeship sub europe"
   },
   {
     "id": "us/west-virginia",
@@ -12288,6 +12732,18 @@
     "keywords": "zacatecas flag of zacatecas sub north-america"
   },
   {
+    "id": "ua/zakarpattia",
+    "name": "Zakarpattia",
+    "title": "Flag of Zakarpattia",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/ukraine-sub/zakarpattia.svg",
+    "keywords": "zakarpattia flag of zakarpattia sub europe"
+  },
+  {
     "id": "zambia",
     "name": "Zambia",
     "title": "Flag of the Republic of Zambia",
@@ -12320,6 +12776,30 @@
     ],
     "flag": "/empires/zand.svg",
     "keywords": "zand dynasty flag of the zand dynasty historic empire asia white green gold"
+  },
+  {
+    "id": "ua/zaporizhzhia",
+    "name": "Zaporizhzhia",
+    "title": "Flag of Zaporizhzhia",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/ukraine-sub/zaporizhzhia.svg",
+    "keywords": "zaporizhzhia flag of zaporizhzhia sub europe"
+  },
+  {
+    "id": "ua/zhytomyr",
+    "name": "Zhytomyr",
+    "title": "Flag of Zhytomyr",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/ukraine-sub/zhytomyr.svg",
+    "keywords": "zhytomyr flag of zhytomyr sub europe"
   },
   {
     "id": "zimbabwe",
