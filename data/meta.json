@@ -96,11 +96,16 @@
   },
   "austria": {
     "prev": "australia",
+    "next": "austria-hungary",
+    "cat": "countries"
+  },
+  "austria-hungary": {
+    "prev": "austria",
     "next": "azerbaijan",
     "cat": "countries"
   },
   "azerbaijan": {
-    "prev": "austria",
+    "prev": "austria-hungary",
     "next": "bahamas",
     "cat": "countries"
   },
@@ -326,16 +331,26 @@
   },
   "czech-republic": {
     "prev": "cyprus",
+    "next": "bohemia",
+    "cat": "countries"
+  },
+  "bohemia": {
+    "prev": "czech-republic",
     "next": "denmark",
     "cat": "countries"
   },
   "denmark": {
-    "prev": "czech-republic",
+    "prev": "bohemia",
+    "next": "kalmar-union",
+    "cat": "countries"
+  },
+  "kalmar-union": {
+    "prev": "denmark",
     "next": "djibouti",
     "cat": "countries"
   },
   "djibouti": {
-    "prev": "denmark",
+    "prev": "kalmar-union",
     "next": "dominica",
     "cat": "countries"
   },
@@ -776,16 +791,26 @@
   },
   "it-kingdom": {
     "prev": "it-social-republic",
+    "next": "florence",
+    "cat": "countries"
+  },
+  "florence": {
+    "prev": "it-kingdom",
     "next": "genoa",
     "cat": "countries"
   },
   "genoa": {
-    "prev": "it-kingdom",
+    "prev": "florence",
+    "next": "pisa",
+    "cat": "countries"
+  },
+  "pisa": {
+    "prev": "genoa",
     "next": "venice",
     "cat": "countries"
   },
   "venice": {
-    "prev": "genoa",
+    "prev": "pisa",
     "next": "roman-empire",
     "cat": "countries"
   },
@@ -1181,11 +1206,16 @@
   },
   "oman": {
     "prev": "norway",
+    "next": "omani-empire",
+    "cat": "countries"
+  },
+  "omani-empire": {
+    "prev": "oman",
     "next": "pakistan",
     "cat": "countries"
   },
   "pakistan": {
-    "prev": "oman",
+    "prev": "omani-empire",
     "next": "pk-muslim-league",
     "cat": "countries"
   },
@@ -1426,11 +1456,26 @@
   },
   "es-empire": {
     "prev": "es-republic",
+    "next": "nasrid",
+    "cat": "countries"
+  },
+  "nasrid": {
+    "prev": "es-empire",
+    "next": "aragon",
+    "cat": "countries"
+  },
+  "aragon": {
+    "prev": "nasrid",
+    "next": "castile",
+    "cat": "countries"
+  },
+  "castile": {
+    "prev": "aragon",
     "next": "sri-lanka",
     "cat": "countries"
   },
   "sri-lanka": {
-    "prev": "es-empire",
+    "prev": "castile",
     "next": "sudan",
     "cat": "countries"
   },
@@ -1536,11 +1581,16 @@
   },
   "ottoman": {
     "prev": "ottoman-early",
+    "next": "sultanate-rum",
+    "cat": "countries"
+  },
+  "sultanate-rum": {
+    "prev": "ottoman",
     "next": "seljuk",
     "cat": "countries"
   },
   "seljuk": {
-    "prev": "ottoman",
+    "prev": "sultanate-rum",
     "next": "byzantine",
     "cat": "countries"
   },
@@ -1611,11 +1661,16 @@
   },
   "vatican-city": {
     "prev": "vanuatu",
+    "next": "papal-states",
+    "cat": "countries"
+  },
+  "papal-states": {
+    "prev": "vatican-city",
     "next": "venezuela",
     "cat": "countries"
   },
   "venezuela": {
-    "prev": "vatican-city",
+    "prev": "papal-states",
     "next": "vietnam",
     "cat": "countries"
   },

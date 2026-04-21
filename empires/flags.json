@@ -619,5 +619,229 @@
       "- Collapsed under pressure from Yenisei Kyrgyz attacks in 840; refugees established the Kocho and Ganzhou Uyghur kingdoms\n",
       "- Modern Uyghurs trace their name and literary tradition to this period"
     ]
+  },
+  "aragon": {
+    "title": "Flag of the Crown of Aragon",
+    "ratio": "2:3",
+    "colors": [
+      {"color": "yellow", "hex": "#fcdd09", "cmyk": "0/12/97/0", "note": "Gold of the Senyera."},
+      {"color": "red", "hex": "#da121a", "cmyk": "0/92/88/14", "note": "The four pales."}
+    ],
+    "desc": [
+      "- The Crown of Aragon (1162–1716) was a dynastic federation centred on Aragon that expanded across the Mediterranean — Catalonia, Valencia, Majorca, Sicily, Sardinia, and briefly Athens and Naples\n",
+      "- **Construction:** four red vertical stripes (palos) on a gold field — the **Senyera** — one of Europe's oldest continuously used flags, first attested in the 12th century\n",
+      "- Modern versions add the Aragonese coat of arms (tree of Sobrarbe, Cross of Íñigo Arista, Moor's heads, royal bars)"
+    ],
+    "flag": "empires/aragon.svg",
+    "countryData": {"name": "Crown of Aragon", "officialName": "Corona de Aragón", "un": "none"},
+    "trivia": [
+      "- Legend attributes the four red pales to Wilfred the Hairy's blood dragged across his gold shield by Charles the Bald — a 16th-century invention\n",
+      "- Merged with Castile via the marriage of Ferdinand II and Isabella I in 1469, creating Spain\n",
+      "- The pales survive on the flags of Catalonia, Valencia, Aragon, the Balearics, and Roussillon"
+    ]
+  },
+  "castile": {
+    "title": "Royal Banner of the Kingdom of Castile",
+    "ratio": "1:1",
+    "colors": [
+      {"color": "red", "hex": "#c60b1e", "cmyk": "0/95/100/5", "note": "Gules field of the royal banner."},
+      {"color": "gold", "hex": "#ffc400", "note": "Triple-towered castle."}
+    ],
+    "desc": [
+      "- The Kingdom of Castile (1065–1715) was the dominant Christian kingdom of the Reconquista; its union with Aragon in 1469 created the core of modern Spain\n",
+      "- **Construction:** a square red banner bearing a gold three-towered castle — the **castillo** from which the kingdom takes its name\n",
+      "- Arms of Castile adopted by Alfonso VIII in the late 12th century after an earlier lion banner gave way to the castle"
+    ],
+    "flag": "empires/castile.svg",
+    "countryData": {"name": "Kingdom of Castile", "officialName": "Reino de Castilla", "un": "none"},
+    "trivia": [
+      "- The castle has appeared on Spanish royal and national arms continuously for over 800 years\n",
+      "- The kingdom gave its name to Castilian, the linguistic ancestor of modern Spanish\n",
+      "- Combined with León (1230) to form the Crown of Castile — the political unit that financed Columbus's voyage"
+    ]
+  },
+  "nasrid": {
+    "title": "Royal Standard of the Nasrid Kingdom of Granada",
+    "ratio": "1:2",
+    "colors": [
+      {"color": "red", "hex": "#ce1126", "cmyk": "0/92/82/19", "note": "Field of the Nasrid banner."},
+      {"color": "gold", "hex": "#ffcc00", "note": "Motto inscription."}
+    ],
+    "desc": [
+      "- The Emirate of Granada (1230–1492) was the last Muslim state in the Iberian Peninsula, ruled by the Nasrid dynasty from their mountain capital at the Alhambra\n",
+      "- **Construction:** a red pennant bearing the Nasrid motto in gold Arabic calligraphy — **\"وَلَا غَالِبَ إِلَّا اللَّهُ\"** (\"There is no victor but God\")\n",
+      "- The same motto is inscribed throughout the Alhambra, where it became the dynastic slogan"
+    ],
+    "flag": "empires/nasrid.svg",
+    "countryData": {"name": "Emirate of Granada", "officialName": "Emirato de Granada (Nasrid Kingdom)", "un": "none"},
+    "trivia": [
+      "- Founded by Muhammad I ibn Nasr after the Almohad collapse; the emirate survived as a Castilian tributary for 260 years\n",
+      "- Surrendered by Muhammad XII (Boabdil) to Ferdinand and Isabella on 2 January 1492 — the end of Al-Andalus\n",
+      "- The motto appears over 7,000 times across the Alhambra's walls and ceilings"
+    ]
+  },
+  "florence": {
+    "title": "Flag of the Republic of Florence",
+    "ratio": "2:3",
+    "colors": [
+      {"color": "white", "hex": "#ffffff", "note": "Field of the republican banner."},
+      {"color": "red", "hex": "#c1272d", "cmyk": "0/80/77/24", "note": "Giglio — the Florentine lily."}
+    ],
+    "desc": [
+      "- The Republic of Florence (1115–1569) was one of medieval and Renaissance Europe's most influential city-states — home of the Medici, Dante, Brunelleschi, and Machiavelli\n",
+      "- **Construction:** a white field bearing a red **giglio fiorentino** (Florentine lily), a stylised fleur-de-lis that became the city's emblem from the 11th century\n",
+      "- Before 1251 the lily was white on red (Ghibelline); the Guelph victory reversed the colours to red on white, the version that endures"
+    ],
+    "flag": "empires/florence.svg",
+    "countryData": {"name": "Republic of Florence", "officialName": "Repubblica Fiorentina", "un": "none"},
+    "trivia": [
+      "- The giglio survives today as the emblem of the modern city of Florence and Tuscany\n",
+      "- Florence issued Europe's first widely accepted gold coinage of the period — the florin (1252)\n",
+      "- Became the Duchy (1532) and then Grand Duchy (1569) of Tuscany under the Medici"
+    ]
+  },
+  "pisa": {
+    "title": "Stendardo of the Republic of Pisa",
+    "ratio": "1:1",
+    "colors": [
+      {"color": "blue", "hex": "#1d508d", "cmyk": "80/44/0/45", "note": "Maritime blue."},
+      {"color": "black", "hex": "#000000", "note": "Vertical pales."},
+      {"color": "red", "hex": "#c1272d", "note": "Central disc."},
+      {"color": "white", "hex": "#ffffff", "note": "Pisan Cross."}
+    ],
+    "desc": [
+      "- The Republic of Pisa (1000–1406) was one of the four Italian **maritime republics** (with Venice, Genoa, and Amalfi); its naval power dominated the western Mediterranean in the 11th–13th centuries\n",
+      "- **Construction:** alternating blue and black vertical pales, charged with a red roundel bearing the distinctive **Pisan Cross** — a white Greek cross with clover-like pommelled tips\n",
+      "- The Pisan Cross predates the Knights Templar's red cross and likely influenced Crusader heraldry"
+    ],
+    "flag": "empires/pisa.svg",
+    "countryData": {"name": "Republic of Pisa", "officialName": "Repubblica di Pisa", "un": "none"},
+    "trivia": [
+      "- Pisan fleets played a decisive role in the First Crusade, carrying supplies to the Levant in exchange for trading quarters\n",
+      "- Decisive defeat at Meloria (1284) by Genoa ended Pisan naval power\n",
+      "- The Leaning Tower was begun in 1173 during the republic's height, funded by spoils from Sicily"
+    ]
+  },
+  "papal-states": {
+    "title": "Flag of the Papal States",
+    "ratio": "1:2",
+    "colors": [
+      {"color": "gold", "hex": "#ffcc00", "note": "Papal yellow."},
+      {"color": "white", "hex": "#ffffff", "note": "Keys of Saint Peter."}
+    ],
+    "desc": [
+      "- The Papal States (756–1870) were the direct temporal rule of the Pope over central Italy, beginning with the Donation of Pepin and ending with the Risorgimento\n",
+      "- **Construction:** a gold swallowtail banner charged with the **Keys of Saint Peter** — the crossed silver and gold keys symbolising papal authority to bind and loose\n",
+      "- The yellow-and-white colour pairing endures on today's Vatican City flag, the direct successor"
+    ],
+    "flag": "empires/papal-states.svg",
+    "countryData": {"name": "Papal States", "officialName": "Stato della Chiesa", "un": "none"},
+    "trivia": [
+      "- At their height the Papal States spanned from Rome across Umbria, the Marche, Romagna, and Latium\n",
+      "- Annexed by the Kingdom of Italy in 1870 after the capture of Rome; the Pope remained a \"prisoner in the Vatican\" until the 1929 Lateran Treaty\n",
+      "- Amounts to the second-longest continuously ruled European polity after San Marino"
+    ]
+  },
+  "kalmar-union": {
+    "title": "Flag of the Kalmar Union",
+    "ratio": "7:9",
+    "colors": [
+      {"color": "yellow", "hex": "#fcd116", "note": "Field of the union banner."},
+      {"color": "red", "hex": "#d50000", "note": "Nordic cross of the Union."}
+    ],
+    "desc": [
+      "- The Kalmar Union (1397–1523) was a personal union of Denmark, Sweden, and Norway under a single monarch — the closest medieval Scandinavia came to political unity\n",
+      "- **Construction:** a yellow field with a red Nordic cross (off-centre toward the hoist) — reconstructed from Johannes Rotche's 15th-century armorial and period coin depictions\n",
+      "- No authenticated fabric flag survives; the design is inferred from contemporary heraldic sources"
+    ],
+    "flag": "empires/kalmar-union.svg",
+    "countryData": {"name": "Kalmar Union", "officialName": "Kalmarunionen", "un": "none"},
+    "trivia": [
+      "- Named for the Swedish town of Kalmar where the founding treaty was signed\n",
+      "- Dissolved when Gustav Vasa led Sweden to independence after the Stockholm Bloodbath (1520)\n",
+      "- Denmark and Norway remained in personal union until 1814"
+    ]
+  },
+  "austria-hungary": {
+    "title": "Naval Ensign of Austria-Hungary",
+    "ratio": "2:3",
+    "colors": [
+      {"color": "red", "hex": "#c8102e", "cmyk": "0/92/82/22", "note": "Austrian and Hungarian field."},
+      {"color": "white", "hex": "#ffffff", "note": "Central band of the Austrian bend."},
+      {"color": "gold", "hex": "#ffcc00", "note": "Royal and imperial crowns."}
+    ],
+    "desc": [
+      "- Austria-Hungary (1867–1918) was the dual monarchy that succeeded the Austrian Empire after the **Ausgleich** (Compromise) of 1867, uniting the Austrian and Hungarian halves under one sovereign\n",
+      "- **Construction:** a red-white-red horizontal tricolour bearing two crowned shields — the plain **Austrian bend** beside the **Hungarian arms** (Árpád-striped with three mounds and double cross), each topped by its respective crown\n",
+      "- Used as naval ensign; the merchant flag used simpler horizontal stripes"
+    ],
+    "flag": "empires/austria-hungary.svg",
+    "countryData": {"name": "Austria-Hungary", "officialName": "Österreichisch-Ungarische Monarchie", "un": "none"},
+    "trivia": [
+      "- One of Europe's great powers for half a century and the last multi-national empire to rule Central Europe\n",
+      "- Dissolved at the end of WWI into Austria, Hungary, Czechoslovakia, and parts of Yugoslavia, Poland, Romania, Italy, and Ukraine\n",
+      "- The assassination of its heir, Archduke Franz Ferdinand, at Sarajevo in 1914 triggered the First World War"
+    ]
+  },
+  "bohemia": {
+    "title": "Flag of the Kingdom of Bohemia",
+    "ratio": "2:3",
+    "colors": [
+      {"color": "white", "hex": "#ffffff", "note": "Upper band."},
+      {"color": "red", "hex": "#d7141a", "note": "Lower band."}
+    ],
+    "desc": [
+      "- The Kingdom of Bohemia (1198–1918) was a medieval and early-modern European state, long under the Habsburgs and the direct ancestor of today's Czech Republic\n",
+      "- **Construction:** a horizontal bicolour — white above red — the civil flag of the kingdom; identical to the modern flag of Poland\n",
+      "- The royal banner features a silver two-tailed lion on red — granted by HRE Frederick Barbarossa in 1158"
+    ],
+    "flag": "empires/bohemia.svg",
+    "countryData": {"name": "Kingdom of Bohemia", "officialName": "Regnum Bohemiae", "un": "none"},
+    "trivia": [
+      "- Member of the Holy Roman Empire from 1002; the Bohemian king was one of the seven prince-electors\n",
+      "- Defenestration of Prague (1618) in Bohemia triggered the Thirty Years' War\n",
+      "- The Czechoslovak flag added a blue triangle at the hoist in 1920; the Czech Republic kept this flag after the split with Slovakia in 1993"
+    ]
+  },
+  "sultanate-rum": {
+    "title": "Flag of the Sultanate of R\u00fbm",
+    "ratio": "2:3",
+    "colors": [
+      {"color": "blue", "hex": "#0a1a7a", "cmyk": "95/87/0/45", "note": "Field of the Anatolian Seljuks."},
+      {"color": "white", "hex": "#ffffff", "note": "Double-headed eagle."},
+      {"color": "black", "hex": "#000000", "note": "Seljuk Kınık tamga (bow and arrow)."}
+    ],
+    "desc": [
+      "- The Sultanate of Rûm (1077–1308) was the Anatolian Seljuk state — **Rûm** meaning \"Rome\", referring to the Byzantine lands they conquered after Manzikert (1071)\n",
+      "- **Construction:** a deep blue field bearing a white double-headed eagle overlaid with the Kınık tamga (bow and arrow) — fusing Byzantine heraldic imagery with the Great Seljuks' clan mark\n",
+      "- The double-headed eagle later passed from the Seljuks to the Palaeologan Byzantines, and onward to Russian, Albanian, and Habsburg heraldry"
+    ],
+    "flag": "empires/sultanate-rum.svg",
+    "countryData": {"name": "Sultanate of R\u00fbm", "officialName": "Anatolian Seljuk Sultanate", "un": "none"},
+    "trivia": [
+      "- Capital at Konya for most of its history; ruled much of central Anatolia\n",
+      "- Collapsed into Beyliks (principalities) after the Mongol invasion; one of these — the Osmanli Beylik — became the Ottoman Empire\n",
+      "- Host to the poet Rumi, who took his name from this sultanate (the \"Land of Rûm\")"
+    ]
+  },
+  "omani-empire": {
+    "title": "Banner of the Omani Empire",
+    "ratio": "2:3",
+    "colors": [
+      {"color": "white", "hex": "#ffffff", "note": "Imam's field."},
+      {"color": "red", "hex": "#ce1126", "note": "Shamshir (curved sword) and Qur'anic inscription."}
+    ],
+    "desc": [
+      "- The Omani Empire (1696–1856) was an Indian Ocean thalassocracy based in Muscat and (from 1832) Zanzibar; at its peak it ruled the Swahili coast, Socotra, and parts of Persia and Balochistan\n",
+      "- **Construction:** a white field with a red **shamshir** (curved sabre) above the Qur'anic inscription \"نَصْرٌ مِنَ اللَّهِ وَفَتْحٌ قَرِيبٌ\" (\"Victory from God and a near opening\", Qur'an 61:13)\n",
+      "- A plain red ensign was used at sea by Omani merchant fleets; this is the Imam's ceremonial banner"
+    ],
+    "flag": "empires/omani-empire.svg",
+    "countryData": {"name": "Omani Empire", "officialName": "Imamate and Sultanate of Oman", "un": "none"},
+    "trivia": [
+      "- Capital moved from Muscat to Zanzibar under Said bin Sultan, reflecting the empire's African commercial centre of gravity\n",
+      "- After Said's death in 1856 the empire split between his sons — one taking Oman, the other Zanzibar\n",
+      "- Modern Oman's flag added the red pale with the national emblem — a direct continuation of this heritage"
+    ]
   }
 }

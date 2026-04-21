@@ -1299,6 +1299,105 @@
     "id": "uyghur-khaganate",
     "index": "e/uyghur-khaganate"
   },
+  "aragon": {
+    "g": "h,empire,europe",
+    "ns": "empires",
+    "name": "Crown of Aragon",
+    "now": "spain",
+    "years": "1162–1716",
+    "id": "aragon",
+    "index": "c/spain:1162"
+  },
+  "castile": {
+    "g": "h,empire,europe",
+    "ns": "empires",
+    "name": "Kingdom of Castile",
+    "now": "spain",
+    "years": "1065–1715",
+    "id": "castile",
+    "index": "c/spain:1065"
+  },
+  "nasrid": {
+    "g": "h,empire,europe",
+    "ns": "empires",
+    "name": "Emirate of Granada (Nasrid)",
+    "now": "spain",
+    "years": "1230–1492",
+    "id": "nasrid",
+    "index": "c/spain:1230"
+  },
+  "florence": {
+    "g": "h,empire,europe",
+    "ns": "empires",
+    "name": "Republic of Florence",
+    "now": "italy",
+    "years": "1115–1569",
+    "id": "florence",
+    "index": "c/italy:1115"
+  },
+  "pisa": {
+    "g": "h,empire,europe",
+    "ns": "empires",
+    "name": "Republic of Pisa",
+    "now": "italy",
+    "years": "1000–1406",
+    "id": "pisa",
+    "index": "c/italy:1000"
+  },
+  "papal-states": {
+    "g": "h,empire,europe",
+    "ns": "empires",
+    "name": "Papal States",
+    "now": "vatican-city",
+    "years": "756–1870",
+    "id": "papal-states",
+    "index": "c/vatican-city:756"
+  },
+  "kalmar-union": {
+    "g": "h,empire,europe",
+    "ns": "empires",
+    "name": "Kalmar Union",
+    "now": "denmark",
+    "years": "1397–1523",
+    "id": "kalmar-union",
+    "index": "c/denmark:1397"
+  },
+  "austria-hungary": {
+    "g": "h,empire,europe",
+    "ns": "empires",
+    "name": "Austria-Hungary",
+    "now": "austria",
+    "years": "1867–1918",
+    "id": "austria-hungary",
+    "index": "c/austria:1867"
+  },
+  "bohemia": {
+    "g": "h,empire,europe",
+    "ns": "empires",
+    "name": "Kingdom of Bohemia",
+    "now": "czech-republic",
+    "years": "1198–1918",
+    "id": "bohemia",
+    "index": "c/czech-republic:1198"
+  },
+  "sultanate-rum": {
+    "g": "h,empire,asia",
+    "ns": "empires",
+    "name": "Sultanate of Rûm",
+    "now": "turkey",
+    "years": "1077–1308",
+    "id": "sultanate-rum",
+    "index": "c/turkey:1077"
+  },
+  "omani-empire": {
+    "g": "h,empire,asia",
+    "ns": "empires",
+    "name": "Omani Empire",
+    "now": "oman",
+    "years": "1696–1856",
+    "id": "omani-empire",
+    "index": "c/oman:1696"
+  },
   "qajar": {
     "g": "h,asia",
     "ns": "persia",

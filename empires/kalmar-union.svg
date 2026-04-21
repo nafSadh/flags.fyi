@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1" width="1600" height="1000">
+  <!-- Yellow: #ffcd00, sRGB hex for Pantone 116C -->
+  <path fill="#ffcd00" d="M0 0h1600v1000H0z"/>
+  <!-- Red: #c8102e, sRGB hex for Pantone 186C -->
+  <path fill="#c8102e" d="M500 0h200v1000H500z"/>
+  <path fill="#c8102e" d="M0 400h1600v200H0z"/>
+</svg>

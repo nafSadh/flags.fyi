@@ -578,6 +578,23 @@
     "keywords": "austria flag of austria europe red white"
   },
   {
+    "id": "austria-hungary",
+    "name": "Austria-Hungary",
+    "title": "Naval Ensign of Austria-Hungary",
+    "groups": [
+      "historic",
+      "empire",
+      "europe"
+    ],
+    "colors": [
+      "red",
+      "white",
+      "gold"
+    ],
+    "flag": "/empires/austria-hungary.svg",
+    "keywords": "austria-hungary naval ensign of austria-hungary historic empire europe red white gold"
+  },
+  {
     "id": "ayyubid",
     "name": "Ayyubid Dynasty",
     "title": "Banner of the Ayyubid Dynasty",
@@ -1559,6 +1576,22 @@
     "keywords": "croatia flag of croatia europe red white blue light blue yellow black"
   },
   {
+    "id": "aragon",
+    "name": "Crown of Aragon",
+    "title": "Flag of the Crown of Aragon",
+    "groups": [
+      "historic",
+      "empire",
+      "europe"
+    ],
+    "colors": [
+      "yellow",
+      "red"
+    ],
+    "flag": "/empires/aragon.svg",
+    "keywords": "crown of aragon flag of the crown of aragon historic empire europe yellow red"
+  },
+  {
     "id": "cuba",
     "name": "Cuba",
     "title": "Flag of Cuba",
@@ -1892,6 +1925,22 @@
     ],
     "flag": "/libya/cyrenaica.svg",
     "keywords": "emirate of cyrenaica flag of emirate of cyrenaica historic black white"
+  },
+  {
+    "id": "nasrid",
+    "name": "Emirate of Granada (Nasrid)",
+    "title": "Royal Standard of the Nasrid Kingdom of Granada",
+    "groups": [
+      "historic",
+      "empire",
+      "europe"
+    ],
+    "colors": [
+      "red",
+      "gold"
+    ],
+    "flag": "/empires/nasrid.svg",
+    "keywords": "emirate of granada (nasrid) royal standard of the nasrid kingdom of granada historic empire europe red gold"
   },
   {
     "id": "br-empire",
@@ -3135,6 +3184,22 @@
     "keywords": "juneteenth juneteenth flag — emancipation commemorative flag pan north-america"
   },
   {
+    "id": "kalmar-union",
+    "name": "Kalmar Union",
+    "title": "Flag of the Kalmar Union",
+    "groups": [
+      "historic",
+      "empire",
+      "europe"
+    ],
+    "colors": [
+      "yellow",
+      "red"
+    ],
+    "flag": "/empires/kalmar-union.svg",
+    "keywords": "kalmar union flag of the kalmar union historic empire europe yellow red"
+  },
+  {
     "id": "kanem-bornu",
     "name": "Kanem–Bornu Empire",
     "title": "Flag of the Kanem–Bornu Empire",
@@ -3245,6 +3310,38 @@
     ],
     "flag": "/egypt/khedivate.svg",
     "keywords": "khedivate of egypt flag of khedivate of egypt historic red white"
+  },
+  {
+    "id": "bohemia",
+    "name": "Kingdom of Bohemia",
+    "title": "Flag of the Kingdom of Bohemia",
+    "groups": [
+      "historic",
+      "empire",
+      "europe"
+    ],
+    "colors": [
+      "white",
+      "red"
+    ],
+    "flag": "/empires/bohemia.svg",
+    "keywords": "kingdom of bohemia flag of the kingdom of bohemia historic empire europe white red"
+  },
+  {
+    "id": "castile",
+    "name": "Kingdom of Castile",
+    "title": "Royal Banner of the Kingdom of Castile",
+    "groups": [
+      "historic",
+      "empire",
+      "europe"
+    ],
+    "colors": [
+      "red",
+      "gold"
+    ],
+    "flag": "/empires/castile.svg",
+    "keywords": "kingdom of castile royal banner of the kingdom of castile historic empire europe red gold"
   },
   {
     "id": "egypt-kingdom",
@@ -4520,6 +4617,22 @@
     "keywords": "oman flag of the sultanate of oman national-flag asia arab gulf white red green"
   },
   {
+    "id": "omani-empire",
+    "name": "Omani Empire",
+    "title": "Banner of the Omani Empire",
+    "groups": [
+      "historic",
+      "empire",
+      "asia"
+    ],
+    "colors": [
+      "white",
+      "red"
+    ],
+    "flag": "/empires/omani-empire.svg",
+    "keywords": "omani empire banner of the omani empire historic empire asia white red"
+  },
+  {
     "id": "ca/ontario",
     "name": "Ontario",
     "title": "Flag of Ontario",
@@ -4728,6 +4841,22 @@
     ],
     "flag": "/panama/flag.svg",
     "keywords": "panama flag of the republic of panama national-flag north-america white red blue"
+  },
+  {
+    "id": "papal-states",
+    "name": "Papal States",
+    "title": "Flag of the Papal States",
+    "groups": [
+      "historic",
+      "empire",
+      "europe"
+    ],
+    "colors": [
+      "gold",
+      "white"
+    ],
+    "flag": "/empires/papal-states.svg",
+    "keywords": "papal states flag of the papal states historic empire europe gold white"
   },
   {
     "id": "papua-new-guinea",
@@ -5061,6 +5190,22 @@
     "keywords": "red ensign red ensign of the british merchant navy maritime red blue white"
   },
   {
+    "id": "florence",
+    "name": "Republic of Florence",
+    "title": "Flag of the Republic of Florence",
+    "groups": [
+      "historic",
+      "empire",
+      "europe"
+    ],
+    "colors": [
+      "white",
+      "red"
+    ],
+    "flag": "/empires/florence.svg",
+    "keywords": "republic of florence flag of the republic of florence historic empire europe white red"
+  },
+  {
     "id": "genoa",
     "name": "Republic of Genoa",
     "title": "Flag of the Republic of Genoa",
@@ -5089,6 +5234,24 @@
     ],
     "flag": "/arab-hist/hatay.svg",
     "keywords": "republic of hatay flag of the republic of hatay historic red white"
+  },
+  {
+    "id": "pisa",
+    "name": "Republic of Pisa",
+    "title": "Stendardo of the Republic of Pisa",
+    "groups": [
+      "historic",
+      "empire",
+      "europe"
+    ],
+    "colors": [
+      "blue",
+      "black",
+      "red",
+      "white"
+    ],
+    "flag": "/empires/pisa.svg",
+    "keywords": "republic of pisa stendardo of the republic of pisa historic empire europe blue black red white"
   },
   {
     "id": "venice",
@@ -5892,6 +6055,23 @@
     ],
     "flag": "/egypt/sultanate.svg",
     "keywords": "sultanate of egypt flag of sultanate of egypt historic green white"
+  },
+  {
+    "id": "sultanate-rum",
+    "name": "Sultanate of Rûm",
+    "title": "Flag of the Sultanate of Rûm",
+    "groups": [
+      "historic",
+      "empire",
+      "asia"
+    ],
+    "colors": [
+      "blue",
+      "white",
+      "black"
+    ],
+    "flag": "/empires/sultanate-rum.svg",
+    "keywords": "sultanate of rûm flag of the sultanate of rûm historic empire asia blue white black"
   },
   {
     "id": "suriname",
