@@ -199,6 +199,18 @@
     "keywords": "akita prefecture flag of akita prefecture sub asia"
   },
   {
+    "id": "us/alabama",
+    "name": "Alabama",
+    "title": "Flag of Alabama",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/us-states/alabama.svg",
+    "keywords": "alabama flag of alabama sub north-america"
+  },
+  {
     "id": "us/alaska",
     "name": "Alaska",
     "title": "Flag of Alaska",
@@ -568,6 +580,18 @@
     ],
     "flag": "/us-states/us-arizona.svg",
     "keywords": "arizona flag of arizona sub north-america blue red yellow copper"
+  },
+  {
+    "id": "us/arkansas",
+    "name": "Arkansas",
+    "title": "Flag of Arkansas",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/us-states/arkansas.svg",
+    "keywords": "arkansas flag of arkansas sub north-america"
   },
   {
     "id": "armenia",
@@ -1967,6 +1991,18 @@
     "keywords": "congo republic flag of the republic of the congo national-flag africa green yellow red"
   },
   {
+    "id": "us/connecticut",
+    "name": "Connecticut",
+    "title": "Flag of Connecticut",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/us-states/connecticut.svg",
+    "keywords": "connecticut flag of connecticut sub north-america"
+  },
+  {
     "id": "uk/cornwall",
     "name": "Cornwall (St Piran)",
     "title": "Flag of Cornwall (St Piran)",
@@ -2125,6 +2161,18 @@
     ],
     "flag": "/czech-republic/flag.svg",
     "keywords": "czech republic flag of the czech republic europe white red blue"
+  },
+  {
+    "id": "us/delaware",
+    "name": "Delaware",
+    "title": "Flag of Delaware",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/us-states/delaware.svg",
+    "keywords": "delaware flag of delaware sub north-america"
   },
   {
     "id": "delhi-sultanate",
@@ -2741,6 +2789,18 @@
     ],
     "flag": "/mexico-hist/mx-three-guarantees.svg",
     "keywords": "flag of three guarantees flag of the three guarantees historic former-flag north-america white green red"
+  },
+  {
+    "id": "us/florida",
+    "name": "Florida",
+    "title": "Flag of Florida",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/us-states/florida.svg",
+    "keywords": "florida flag of florida sub north-america"
   },
   {
     "id": "france",
@@ -3465,6 +3525,18 @@
     "keywords": "iceland flag of iceland national-flag europe nordic blue white red"
   },
   {
+    "id": "us/idaho",
+    "name": "Idaho",
+    "title": "Flag of Idaho",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/us-states/idaho.svg",
+    "keywords": "idaho flag of idaho sub north-america"
+  },
+  {
     "id": "idrisid",
     "name": "Idrisid Dynasty",
     "title": "Flag of the Idrisid Dynasty",
@@ -3479,6 +3551,18 @@
     ],
     "flag": "/caliphates/idrisid.svg",
     "keywords": "idrisid dynasty flag of the idrisid dynasty historic caliphate maghreb white green"
+  },
+  {
+    "id": "us/illinois",
+    "name": "Illinois",
+    "title": "Flag of Illinois",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/us-states/illinois.svg",
+    "keywords": "illinois flag of illinois sub north-america"
   },
   {
     "id": "de-imperial",
@@ -3579,6 +3663,18 @@
     "keywords": "indian independence movement flag flag of the indian independence movement historic former-flag south-asia saffron white green"
   },
   {
+    "id": "us/indiana",
+    "name": "Indiana",
+    "title": "Flag of Indiana",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/us-states/indiana.svg",
+    "keywords": "indiana flag of indiana sub north-america"
+  },
+  {
     "id": "indonesia",
     "name": "Indonesia",
     "title": "Flag of Indonesia",
@@ -3603,6 +3699,18 @@
     "colors": [],
     "flag": "/maritime/signal-flags.svg",
     "keywords": "international signal flags international maritime signal flags maritime"
+  },
+  {
+    "id": "us/iowa",
+    "name": "Iowa",
+    "title": "Flag of Iowa",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/us-states/iowa.svg",
+    "keywords": "iowa flag of iowa sub north-america"
   },
   {
     "id": "iran",
@@ -3979,6 +4087,18 @@
     "keywords": "kanem–bornu empire flag of the kanem–bornu empire historic empire africa blue yellow green"
   },
   {
+    "id": "us/kansas",
+    "name": "Kansas",
+    "title": "Flag of Kansas",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/us-states/kansas.svg",
+    "keywords": "kansas flag of kansas sub north-america"
+  },
+  {
     "id": "ph-katipunan",
     "name": "Katipunan Flag",
     "title": "Flag of the Katipunan",
@@ -4007,6 +4127,18 @@
     ],
     "flag": "/kazakhstan/flag.svg",
     "keywords": "kazakhstan flag of the republic of kazakhstan national-flag asia sky blue gold"
+  },
+  {
+    "id": "us/kentucky",
+    "name": "Kentucky",
+    "title": "Flag of Kentucky",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/us-states/kentucky.svg",
+    "keywords": "kentucky flag of kentucky sub north-america"
   },
   {
     "id": "kenya",
@@ -4626,6 +4758,18 @@
     "keywords": "lithuania flag of the republic of lithuania national-flag europe yellow green red"
   },
   {
+    "id": "us/louisiana",
+    "name": "Louisiana",
+    "title": "Flag of Louisiana",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/us-states/louisiana.svg",
+    "keywords": "louisiana flag of louisiana sub north-america"
+  },
+  {
     "id": "de/lower-saxony",
     "name": "Lower Saxony",
     "title": "Flag of Lower Saxony",
@@ -4668,6 +4812,18 @@
     ],
     "flag": "/madagascar/flag.svg",
     "keywords": "madagascar flag of the republic of madagascar national-flag africa white red green"
+  },
+  {
+    "id": "us/maine",
+    "name": "Maine",
+    "title": "Flag of Maine",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/us-states/maine.svg",
+    "keywords": "maine flag of maine sub north-america"
   },
   {
     "id": "majapahit",
@@ -4873,6 +5029,18 @@
     "keywords": "maryland flag of maryland sub north-america black gold red white"
   },
   {
+    "id": "us/massachusetts",
+    "name": "Massachusetts",
+    "title": "Flag of Massachusetts",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/us-states/massachusetts.svg",
+    "keywords": "massachusetts flag of massachusetts sub north-america"
+  },
+  {
     "id": "mataram",
     "name": "Mataram Sultanate",
     "title": "Flag of the Mataram Sultanate",
@@ -5015,6 +5183,18 @@
     "keywords": "mexico flag of mexico north-america green white red"
   },
   {
+    "id": "us/michigan",
+    "name": "Michigan",
+    "title": "Flag of Michigan",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/us-states/michigan.svg",
+    "keywords": "michigan flag of michigan sub north-america"
+  },
+  {
     "id": "micronesia",
     "name": "Micronesia",
     "title": "Flag of the Federated States of Micronesia",
@@ -5042,6 +5222,18 @@
     "keywords": "mie prefecture flag of mie prefecture sub asia"
   },
   {
+    "id": "us/minnesota",
+    "name": "Minnesota",
+    "title": "Flag of Minnesota",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/us-states/minnesota.svg",
+    "keywords": "minnesota flag of minnesota sub north-america"
+  },
+  {
     "id": "us/mississippi",
     "name": "Mississippi",
     "title": "Flag of Mississippi (In God We Trust)",
@@ -5057,6 +5249,18 @@
     ],
     "flag": "/us-states/us-mississippi.svg",
     "keywords": "mississippi flag of mississippi (in god we trust) sub north-america blue red white gold"
+  },
+  {
+    "id": "us/missouri",
+    "name": "Missouri",
+    "title": "Flag of Missouri",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/us-states/missouri.svg",
+    "keywords": "missouri flag of missouri sub north-america"
   },
   {
     "id": "jp/miyagi",
@@ -5159,6 +5363,18 @@
     ],
     "flag": "/mongolia/flag.svg",
     "keywords": "mongolia flag of mongolia national-flag asia red blue yellow"
+  },
+  {
+    "id": "us/montana",
+    "name": "Montana",
+    "title": "Flag of Montana",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/us-states/montana.svg",
+    "keywords": "montana flag of montana sub north-america"
   },
   {
     "id": "montenegro",
@@ -5388,6 +5604,18 @@
     "keywords": "nazi germany flag of nazi germany historic former-flag europe red white black"
   },
   {
+    "id": "us/nebraska",
+    "name": "Nebraska",
+    "title": "Flag of Nebraska",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/us-states/nebraska.svg",
+    "keywords": "nebraska flag of nebraska sub north-america"
+  },
+  {
     "id": "nepal",
     "name": "Nepal",
     "title": "Flag of the Federal Democratic Republic of Nepal",
@@ -5418,6 +5646,42 @@
     ],
     "flag": "/netherlands/flag.svg",
     "keywords": "netherlands flag of the netherlands europe red white blue"
+  },
+  {
+    "id": "us/nevada",
+    "name": "Nevada",
+    "title": "Flag of Nevada",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/us-states/nevada.svg",
+    "keywords": "nevada flag of nevada sub north-america"
+  },
+  {
+    "id": "us/new-hampshire",
+    "name": "New Hampshire",
+    "title": "Flag of New Hampshire",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/us-states/new-hampshire.svg",
+    "keywords": "new hampshire flag of new hampshire sub north-america"
+  },
+  {
+    "id": "us/new-jersey",
+    "name": "New Jersey",
+    "title": "Flag of New Jersey",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/us-states/new-jersey.svg",
+    "keywords": "new jersey flag of new jersey sub north-america"
   },
   {
     "id": "us/new-mexico",
@@ -5538,6 +5802,30 @@
     "colors": [],
     "flag": "/japan-sub/niigata.svg",
     "keywords": "niigata prefecture flag of niigata prefecture sub asia"
+  },
+  {
+    "id": "us/north-carolina",
+    "name": "North Carolina",
+    "title": "Flag of North Carolina",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/us-states/north-carolina.svg",
+    "keywords": "north carolina flag of north carolina sub north-america"
+  },
+  {
+    "id": "us/north-dakota",
+    "name": "North Dakota",
+    "title": "Flag of North Dakota",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/us-states/north-dakota.svg",
+    "keywords": "north dakota flag of north dakota sub north-america"
   },
   {
     "id": "north-macedonia",
@@ -5669,6 +5957,18 @@
     "keywords": "okinawa prefecture flag of okinawa prefecture sub asia"
   },
   {
+    "id": "us/oklahoma",
+    "name": "Oklahoma",
+    "title": "Flag of Oklahoma",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/us-states/oklahoma.svg",
+    "keywords": "oklahoma flag of oklahoma sub north-america"
+  },
+  {
     "id": "olympic",
     "name": "Olympic Flag",
     "title": "The Olympic Flag",
@@ -5753,6 +6053,18 @@
     ],
     "flag": "/empires/orange-free-state.svg",
     "keywords": "orange free state flag of the orange free state historic empire africa orange white red blue"
+  },
+  {
+    "id": "us/oregon",
+    "name": "Oregon",
+    "title": "Flag of Oregon",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/us-states/oregon.svg",
+    "keywords": "oregon flag of oregon sub north-america"
   },
   {
     "id": "oic",
@@ -6024,6 +6336,18 @@
     ],
     "flag": "/empires/parthian.svg",
     "keywords": "parthian empire banner of the parthian empire historic empire asia black yellow"
+  },
+  {
+    "id": "us/pennsylvania",
+    "name": "Pennsylvania",
+    "title": "Flag of Pennsylvania",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/us-states/pennsylvania.svg",
+    "keywords": "pennsylvania flag of pennsylvania sub north-america"
   },
   {
     "id": "peru",
@@ -6465,6 +6789,18 @@
     "colors": [],
     "flag": "/germany-sub/rhineland-palatinate.svg",
     "keywords": "rhineland-palatinate flag of rhineland-palatinate sub europe"
+  },
+  {
+    "id": "us/rhode-island",
+    "name": "Rhode Island",
+    "title": "Flag of Rhode Island",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/us-states/rhode-island.svg",
+    "keywords": "rhode island flag of rhode island sub north-america"
   },
   {
     "id": "roman-empire",
@@ -7200,6 +7536,18 @@
     "keywords": "south carolina flag of south carolina sub north-america indigo white"
   },
   {
+    "id": "us/south-dakota",
+    "name": "South Dakota",
+    "title": "Flag of South Dakota",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/us-states/south-dakota.svg",
+    "keywords": "south dakota flag of south dakota sub north-america"
+  },
+  {
     "id": "sgssi",
     "name": "South Georgia & South Sandwich Islands",
     "title": "South Georgia and the South Sandwich Islands",
@@ -7558,6 +7906,18 @@
     ],
     "flag": "/tanzania/flag.svg",
     "keywords": "tanzania flag of tanzania africa horn-of-africa green yellow black blue"
+  },
+  {
+    "id": "us/tennessee",
+    "name": "Tennessee",
+    "title": "Flag of Tennessee",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/us-states/tennessee.svg",
+    "keywords": "tennessee flag of tennessee sub north-america"
   },
   {
     "id": "teutonic",
@@ -8076,6 +8436,18 @@
     "keywords": "uruguay flag of the oriental republic of uruguay national-flag south-america blue white yellow"
   },
   {
+    "id": "us/utah",
+    "name": "Utah",
+    "title": "Flag of Utah",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/us-states/utah.svg",
+    "keywords": "utah flag of utah sub north-america"
+  },
+  {
     "id": "uyghur-khaganate",
     "name": "Uyghur Khaganate",
     "title": "Banner of the Uyghur Khaganate",
@@ -8160,6 +8532,18 @@
     "keywords": "venezuela flag of the bolivarian republic of venezuela national-flag south-america yellow blue red white"
   },
   {
+    "id": "us/vermont",
+    "name": "Vermont",
+    "title": "Flag of Vermont",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/us-states/vermont.svg",
+    "keywords": "vermont flag of vermont sub north-america"
+  },
+  {
     "id": "vietnam",
     "name": "Vietnam",
     "title": "Flag of Vietnam",
@@ -8173,6 +8557,18 @@
     ],
     "flag": "/vietnam/flag.svg",
     "keywords": "vietnam flag of vietnam asia southeast-asia red yellow"
+  },
+  {
+    "id": "us/virginia",
+    "name": "Virginia",
+    "title": "Flag of Virginia",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/us-states/virginia.svg",
+    "keywords": "virginia flag of virginia sub north-america"
   },
   {
     "id": "jp/wakayama",
@@ -8201,6 +8597,18 @@
     ],
     "flag": "/uk-sub/wales.svg",
     "keywords": "wales flag of wales (y ddraig goch) sub europe white green red"
+  },
+  {
+    "id": "us/washington",
+    "name": "Washington",
+    "title": "Flag of Washington",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/us-states/washington.svg",
+    "keywords": "washington flag of washington sub north-america"
   },
   {
     "id": "us/washington-dc",
@@ -8252,6 +8660,18 @@
     "keywords": "west germany flag of the federal republic of germany (west) historic former-flag europe black red gold"
   },
   {
+    "id": "us/west-virginia",
+    "name": "West Virginia",
+    "title": "Flag of West Virginia",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/us-states/west-virginia.svg",
+    "keywords": "west virginia flag of west virginia sub north-america"
+  },
+  {
     "id": "white-ensign",
     "name": "White Ensign",
     "title": "White Ensign of the Royal Navy",
@@ -8265,6 +8685,30 @@
     ],
     "flag": "/maritime/white-ensign.svg",
     "keywords": "white ensign white ensign of the royal navy maritime white red blue"
+  },
+  {
+    "id": "us/wisconsin",
+    "name": "Wisconsin",
+    "title": "Flag of Wisconsin",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/us-states/wisconsin.svg",
+    "keywords": "wisconsin flag of wisconsin sub north-america"
+  },
+  {
+    "id": "us/wyoming",
+    "name": "Wyoming",
+    "title": "Flag of Wyoming",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/us-states/wyoming.svg",
+    "keywords": "wyoming flag of wyoming sub north-america"
   },
   {
     "id": "jp/yamagata",

@@ -3035,6 +3035,265 @@
     "index": "c/us/california",
     "g": "sub,north-america"
   },
+  "us/alabama": {
+    "g": "sub,north-america",
+    "ns": "us-states",
+    "name": "Alabama",
+    "id": "us/alabama",
+    "index": "c/us/alabama"
+  },
+  "us/arkansas": {
+    "g": "sub,north-america",
+    "ns": "us-states",
+    "name": "Arkansas",
+    "id": "us/arkansas",
+    "index": "c/us/arkansas"
+  },
+  "us/connecticut": {
+    "g": "sub,north-america",
+    "ns": "us-states",
+    "name": "Connecticut",
+    "id": "us/connecticut",
+    "index": "c/us/connecticut"
+  },
+  "us/delaware": {
+    "g": "sub,north-america",
+    "ns": "us-states",
+    "name": "Delaware",
+    "id": "us/delaware",
+    "index": "c/us/delaware"
+  },
+  "us/florida": {
+    "g": "sub,north-america",
+    "ns": "us-states",
+    "name": "Florida",
+    "id": "us/florida",
+    "index": "c/us/florida"
+  },
+  "us/idaho": {
+    "g": "sub,north-america",
+    "ns": "us-states",
+    "name": "Idaho",
+    "id": "us/idaho",
+    "index": "c/us/idaho"
+  },
+  "us/illinois": {
+    "g": "sub,north-america",
+    "ns": "us-states",
+    "name": "Illinois",
+    "id": "us/illinois",
+    "index": "c/us/illinois"
+  },
+  "us/indiana": {
+    "g": "sub,north-america",
+    "ns": "us-states",
+    "name": "Indiana",
+    "id": "us/indiana",
+    "index": "c/us/indiana"
+  },
+  "us/iowa": {
+    "g": "sub,north-america",
+    "ns": "us-states",
+    "name": "Iowa",
+    "id": "us/iowa",
+    "index": "c/us/iowa"
+  },
+  "us/kansas": {
+    "g": "sub,north-america",
+    "ns": "us-states",
+    "name": "Kansas",
+    "id": "us/kansas",
+    "index": "c/us/kansas"
+  },
+  "us/kentucky": {
+    "g": "sub,north-america",
+    "ns": "us-states",
+    "name": "Kentucky",
+    "id": "us/kentucky",
+    "index": "c/us/kentucky"
+  },
+  "us/louisiana": {
+    "g": "sub,north-america",
+    "ns": "us-states",
+    "name": "Louisiana",
+    "id": "us/louisiana",
+    "index": "c/us/louisiana"
+  },
+  "us/maine": {
+    "g": "sub,north-america",
+    "ns": "us-states",
+    "name": "Maine",
+    "id": "us/maine",
+    "index": "c/us/maine"
+  },
+  "us/massachusetts": {
+    "g": "sub,north-america",
+    "ns": "us-states",
+    "name": "Massachusetts",
+    "id": "us/massachusetts",
+    "index": "c/us/massachusetts"
+  },
+  "us/michigan": {
+    "g": "sub,north-america",
+    "ns": "us-states",
+    "name": "Michigan",
+    "id": "us/michigan",
+    "index": "c/us/michigan"
+  },
+  "us/minnesota": {
+    "g": "sub,north-america",
+    "ns": "us-states",
+    "name": "Minnesota",
+    "id": "us/minnesota",
+    "index": "c/us/minnesota"
+  },
+  "us/missouri": {
+    "g": "sub,north-america",
+    "ns": "us-states",
+    "name": "Missouri",
+    "id": "us/missouri",
+    "index": "c/us/missouri"
+  },
+  "us/montana": {
+    "g": "sub,north-america",
+    "ns": "us-states",
+    "name": "Montana",
+    "id": "us/montana",
+    "index": "c/us/montana"
+  },
+  "us/nebraska": {
+    "g": "sub,north-america",
+    "ns": "us-states",
+    "name": "Nebraska",
+    "id": "us/nebraska",
+    "index": "c/us/nebraska"
+  },
+  "us/nevada": {
+    "g": "sub,north-america",
+    "ns": "us-states",
+    "name": "Nevada",
+    "id": "us/nevada",
+    "index": "c/us/nevada"
+  },
+  "us/new-hampshire": {
+    "g": "sub,north-america",
+    "ns": "us-states",
+    "name": "New Hampshire",
+    "id": "us/new-hampshire",
+    "index": "c/us/new-hampshire"
+  },
+  "us/new-jersey": {
+    "g": "sub,north-america",
+    "ns": "us-states",
+    "name": "New Jersey",
+    "id": "us/new-jersey",
+    "index": "c/us/new-jersey"
+  },
+  "us/north-carolina": {
+    "g": "sub,north-america",
+    "ns": "us-states",
+    "name": "North Carolina",
+    "id": "us/north-carolina",
+    "index": "c/us/north-carolina"
+  },
+  "us/north-dakota": {
+    "g": "sub,north-america",
+    "ns": "us-states",
+    "name": "North Dakota",
+    "id": "us/north-dakota",
+    "index": "c/us/north-dakota"
+  },
+  "us/oklahoma": {
+    "g": "sub,north-america",
+    "ns": "us-states",
+    "name": "Oklahoma",
+    "id": "us/oklahoma",
+    "index": "c/us/oklahoma"
+  },
+  "us/oregon": {
+    "g": "sub,north-america",
+    "ns": "us-states",
+    "name": "Oregon",
+    "id": "us/oregon",
+    "index": "c/us/oregon"
+  },
+  "us/pennsylvania": {
+    "g": "sub,north-america",
+    "ns": "us-states",
+    "name": "Pennsylvania",
+    "id": "us/pennsylvania",
+    "index": "c/us/pennsylvania"
+  },
+  "us/rhode-island": {
+    "g": "sub,north-america",
+    "ns": "us-states",
+    "name": "Rhode Island",
+    "id": "us/rhode-island",
+    "index": "c/us/rhode-island"
+  },
+  "us/south-dakota": {
+    "g": "sub,north-america",
+    "ns": "us-states",
+    "name": "South Dakota",
+    "id": "us/south-dakota",
+    "index": "c/us/south-dakota"
+  },
+  "us/tennessee": {
+    "g": "sub,north-america",
+    "ns": "us-states",
+    "name": "Tennessee",
+    "id": "us/tennessee",
+    "index": "c/us/tennessee"
+  },
+  "us/utah": {
+    "g": "sub,north-america",
+    "ns": "us-states",
+    "name": "Utah",
+    "id": "us/utah",
+    "index": "c/us/utah"
+  },
+  "us/vermont": {
+    "g": "sub,north-america",
+    "ns": "us-states",
+    "name": "Vermont",
+    "id": "us/vermont",
+    "index": "c/us/vermont"
+  },
+  "us/virginia": {
+    "g": "sub,north-america",
+    "ns": "us-states",
+    "name": "Virginia",
+    "id": "us/virginia",
+    "index": "c/us/virginia"
+  },
+  "us/washington": {
+    "g": "sub,north-america",
+    "ns": "us-states",
+    "name": "Washington",
+    "id": "us/washington",
+    "index": "c/us/washington"
+  },
+  "us/west-virginia": {
+    "g": "sub,north-america",
+    "ns": "us-states",
+    "name": "West Virginia",
+    "id": "us/west-virginia",
+    "index": "c/us/west-virginia"
+  },
+  "us/wisconsin": {
+    "g": "sub,north-america",
+    "ns": "us-states",
+    "name": "Wisconsin",
+    "id": "us/wisconsin",
+    "index": "c/us/wisconsin"
+  },
+  "us/wyoming": {
+    "g": "sub,north-america",
+    "ns": "us-states",
+    "name": "Wyoming",
+    "id": "us/wyoming",
+    "index": "c/us/wyoming"
+  },
   "us/texas": {
     "g": "sub,north-america",
     "ns": "us-states",

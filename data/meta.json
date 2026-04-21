@@ -1856,11 +1856,16 @@
   },
   "jp/akita": {
     "prev": "jp/aichi",
+    "next": "us/alabama",
+    "cat": "subdivisions"
+  },
+  "us/alabama": {
+    "prev": "jp/akita",
     "next": "us/alaska",
     "cat": "subdivisions"
   },
   "us/alaska": {
-    "prev": "jp/akita",
+    "prev": "us/alabama",
     "next": "ca/alberta",
     "cat": "subdivisions"
   },
@@ -1896,11 +1901,16 @@
   },
   "us/arizona": {
     "prev": "jp/aomori",
+    "next": "us/arkansas",
+    "cat": "subdivisions"
+  },
+  "us/arkansas": {
+    "prev": "us/arizona",
     "next": "ascension-island",
     "cat": "subdivisions"
   },
   "ascension-island": {
-    "prev": "us/arizona",
+    "prev": "us/arkansas",
     "next": "de/baden-wurttemberg",
     "cat": "subdivisions"
   },
@@ -2116,16 +2126,26 @@
   },
   "us/colorado": {
     "prev": "jp/chiba",
+    "next": "us/connecticut",
+    "cat": "subdivisions"
+  },
+  "us/connecticut": {
+    "prev": "us/colorado",
     "next": "uk/cornwall",
     "cat": "subdivisions"
   },
   "uk/cornwall": {
-    "prev": "us/colorado",
+    "prev": "us/connecticut",
+    "next": "us/delaware",
+    "cat": "subdivisions"
+  },
+  "us/delaware": {
+    "prev": "uk/cornwall",
     "next": "anguilla-dolphin",
     "cat": "subdivisions"
   },
   "anguilla-dolphin": {
-    "prev": "uk/cornwall",
+    "prev": "us/delaware",
     "next": "jp/ehime",
     "cat": "subdivisions"
   },
@@ -2136,11 +2156,16 @@
   },
   "uk/england": {
     "prev": "jp/ehime",
+    "next": "us/florida",
+    "cat": "subdivisions"
+  },
+  "us/florida": {
+    "prev": "uk/england",
     "next": "jp/fukui",
     "cat": "subdivisions"
   },
   "jp/fukui": {
-    "prev": "uk/england",
+    "prev": "us/florida",
     "next": "jp/fukuoka",
     "cat": "subdivisions"
   },
@@ -2211,11 +2236,31 @@
   },
   "jp/ibaraki": {
     "prev": "jp/hyogo",
+    "next": "us/idaho",
+    "cat": "subdivisions"
+  },
+  "us/idaho": {
+    "prev": "jp/ibaraki",
+    "next": "us/illinois",
+    "cat": "subdivisions"
+  },
+  "us/illinois": {
+    "prev": "us/idaho",
+    "next": "us/indiana",
+    "cat": "subdivisions"
+  },
+  "us/indiana": {
+    "prev": "us/illinois",
+    "next": "us/iowa",
+    "cat": "subdivisions"
+  },
+  "us/iowa": {
+    "prev": "us/indiana",
     "next": "jp/ishikawa",
     "cat": "subdivisions"
   },
   "jp/ishikawa": {
-    "prev": "jp/ibaraki",
+    "prev": "us/iowa",
     "next": "jp/iwate",
     "cat": "subdivisions"
   },
@@ -2246,11 +2291,21 @@
   },
   "jp/kanagawa": {
     "prev": "jp/kagoshima",
+    "next": "us/kansas",
+    "cat": "subdivisions"
+  },
+  "us/kansas": {
+    "prev": "jp/kanagawa",
+    "next": "us/kentucky",
+    "cat": "subdivisions"
+  },
+  "us/kentucky": {
+    "prev": "us/kansas",
     "next": "jp/kochi",
     "cat": "subdivisions"
   },
   "jp/kochi": {
-    "prev": "jp/kanagawa",
+    "prev": "us/kentucky",
     "next": "jp/kumamoto",
     "cat": "subdivisions"
   },
@@ -2261,51 +2316,86 @@
   },
   "jp/kyoto": {
     "prev": "jp/kumamoto",
+    "next": "us/louisiana",
+    "cat": "subdivisions"
+  },
+  "us/louisiana": {
+    "prev": "jp/kyoto",
     "next": "de/lower-saxony",
     "cat": "subdivisions"
   },
   "de/lower-saxony": {
-    "prev": "jp/kyoto",
+    "prev": "us/louisiana",
+    "next": "us/maine",
+    "cat": "subdivisions"
+  },
+  "us/maine": {
+    "prev": "de/lower-saxony",
     "next": "mann",
     "cat": "subdivisions"
   },
   "mann": {
-    "prev": "de/lower-saxony",
+    "prev": "us/maine",
     "next": "us/maryland",
     "cat": "subdivisions"
   },
   "us/maryland": {
     "prev": "mann",
+    "next": "us/massachusetts",
+    "cat": "subdivisions"
+  },
+  "us/massachusetts": {
+    "prev": "us/maryland",
     "next": "de/mecklenburg-vorpommern",
     "cat": "subdivisions"
   },
   "de/mecklenburg-vorpommern": {
-    "prev": "us/maryland",
+    "prev": "us/massachusetts",
+    "next": "us/michigan",
+    "cat": "subdivisions"
+  },
+  "us/michigan": {
+    "prev": "de/mecklenburg-vorpommern",
     "next": "jp/mie",
     "cat": "subdivisions"
   },
   "jp/mie": {
-    "prev": "de/mecklenburg-vorpommern",
+    "prev": "us/michigan",
+    "next": "us/minnesota",
+    "cat": "subdivisions"
+  },
+  "us/minnesota": {
+    "prev": "jp/mie",
     "next": "us/mississippi",
     "cat": "subdivisions"
   },
   "us/mississippi": {
-    "prev": "jp/mie",
+    "prev": "us/minnesota",
+    "next": "us/missouri",
+    "cat": "subdivisions"
+  },
+  "us/missouri": {
+    "prev": "us/mississippi",
     "next": "jp/miyagi",
     "cat": "subdivisions"
   },
   "jp/miyagi": {
-    "prev": "us/mississippi",
+    "prev": "us/missouri",
     "next": "jp/miyazaki",
     "cat": "subdivisions"
   },
   "jp/miyazaki": {
     "prev": "jp/miyagi",
+    "next": "us/montana",
+    "cat": "subdivisions"
+  },
+  "us/montana": {
+    "prev": "jp/miyazaki",
     "next": "montserrat",
     "cat": "subdivisions"
   },
   "montserrat": {
-    "prev": "jp/miyazaki",
+    "prev": "us/montana",
     "next": "jp/nagano",
     "cat": "subdivisions"
   },
@@ -2321,11 +2411,31 @@
   },
   "jp/nara": {
     "prev": "jp/nagasaki",
+    "next": "us/nebraska",
+    "cat": "subdivisions"
+  },
+  "us/nebraska": {
+    "prev": "jp/nara",
+    "next": "us/nevada",
+    "cat": "subdivisions"
+  },
+  "us/nevada": {
+    "prev": "us/nebraska",
+    "next": "us/new-hampshire",
+    "cat": "subdivisions"
+  },
+  "us/new-hampshire": {
+    "prev": "us/nevada",
+    "next": "us/new-jersey",
+    "cat": "subdivisions"
+  },
+  "us/new-jersey": {
+    "prev": "us/new-hampshire",
     "next": "us/new-mexico",
     "cat": "subdivisions"
   },
   "us/new-mexico": {
-    "prev": "jp/nara",
+    "prev": "us/new-jersey",
     "next": "au/new-south-wales",
     "cat": "subdivisions"
   },
@@ -2341,11 +2451,21 @@
   },
   "jp/niigata": {
     "prev": "us/new-york",
+    "next": "us/north-carolina",
+    "cat": "subdivisions"
+  },
+  "us/north-carolina": {
+    "prev": "jp/niigata",
+    "next": "us/north-dakota",
+    "cat": "subdivisions"
+  },
+  "us/north-dakota": {
+    "prev": "us/north-carolina",
     "next": "de/north-rhine-westphalia",
     "cat": "subdivisions"
   },
   "de/north-rhine-westphalia": {
-    "prev": "jp/niigata",
+    "prev": "us/north-dakota",
     "next": "uk/northern-ireland",
     "cat": "subdivisions"
   },
@@ -2371,21 +2491,36 @@
   },
   "jp/okinawa": {
     "prev": "jp/okayama",
+    "next": "us/oklahoma",
+    "cat": "subdivisions"
+  },
+  "us/oklahoma": {
+    "prev": "jp/okinawa",
     "next": "ca/ontario",
     "cat": "subdivisions"
   },
   "ca/ontario": {
-    "prev": "jp/okinawa",
+    "prev": "us/oklahoma",
+    "next": "us/oregon",
+    "cat": "subdivisions"
+  },
+  "us/oregon": {
+    "prev": "ca/ontario",
     "next": "jp/osaka",
     "cat": "subdivisions"
   },
   "jp/osaka": {
-    "prev": "ca/ontario",
+    "prev": "us/oregon",
+    "next": "us/pennsylvania",
+    "cat": "subdivisions"
+  },
+  "us/pennsylvania": {
+    "prev": "jp/osaka",
     "next": "pitcairn",
     "cat": "subdivisions"
   },
   "pitcairn": {
-    "prev": "jp/osaka",
+    "prev": "us/pennsylvania",
     "next": "de/prussia",
     "cat": "subdivisions"
   },
@@ -2406,11 +2541,16 @@
   },
   "de/rhineland-palatinate": {
     "prev": "ca/quebec",
+    "next": "us/rhode-island",
+    "cat": "subdivisions"
+  },
+  "us/rhode-island": {
+    "prev": "de/rhineland-palatinate",
     "next": "de/saarland",
     "cat": "subdivisions"
   },
   "de/saarland": {
-    "prev": "de/rhineland-palatinate",
+    "prev": "us/rhode-island",
     "next": "jp/saga",
     "cat": "subdivisions"
   },
@@ -2476,21 +2616,31 @@
   },
   "us/south-carolina": {
     "prev": "in/sikkim",
+    "next": "us/south-dakota",
+    "cat": "subdivisions"
+  },
+  "us/south-dakota": {
+    "prev": "us/south-carolina",
     "next": "sgssi",
     "cat": "subdivisions"
   },
   "sgssi": {
-    "prev": "us/south-carolina",
+    "prev": "us/south-dakota",
     "next": "in/tamil-nadu",
     "cat": "subdivisions"
   },
   "in/tamil-nadu": {
     "prev": "sgssi",
+    "next": "us/tennessee",
+    "cat": "subdivisions"
+  },
+  "us/tennessee": {
+    "prev": "in/tamil-nadu",
     "next": "us/texas",
     "cat": "subdivisions"
   },
   "us/texas": {
-    "prev": "in/tamil-nadu",
+    "prev": "us/tennessee",
     "next": "de/thuringia",
     "cat": "subdivisions"
   },
@@ -2536,26 +2686,61 @@
   },
   "tci": {
     "prev": "tristan",
+    "next": "us/utah",
+    "cat": "subdivisions"
+  },
+  "us/utah": {
+    "prev": "tci",
+    "next": "us/vermont",
+    "cat": "subdivisions"
+  },
+  "us/vermont": {
+    "prev": "us/utah",
+    "next": "us/virginia",
+    "cat": "subdivisions"
+  },
+  "us/virginia": {
+    "prev": "us/vermont",
     "next": "jp/wakayama",
     "cat": "subdivisions"
   },
   "jp/wakayama": {
-    "prev": "tci",
+    "prev": "us/virginia",
     "next": "uk/wales",
     "cat": "subdivisions"
   },
   "uk/wales": {
     "prev": "jp/wakayama",
+    "next": "us/washington",
+    "cat": "subdivisions"
+  },
+  "us/washington": {
+    "prev": "uk/wales",
     "next": "us/washington-dc",
     "cat": "subdivisions"
   },
   "us/washington-dc": {
-    "prev": "uk/wales",
+    "prev": "us/washington",
+    "next": "us/west-virginia",
+    "cat": "subdivisions"
+  },
+  "us/west-virginia": {
+    "prev": "us/washington-dc",
+    "next": "us/wisconsin",
+    "cat": "subdivisions"
+  },
+  "us/wisconsin": {
+    "prev": "us/west-virginia",
+    "next": "us/wyoming",
+    "cat": "subdivisions"
+  },
+  "us/wyoming": {
+    "prev": "us/wisconsin",
     "next": "jp/yamagata",
     "cat": "subdivisions"
   },
   "jp/yamagata": {
-    "prev": "us/washington-dc",
+    "prev": "us/wyoming",
     "next": "jp/yamaguchi",
     "cat": "subdivisions"
   },
