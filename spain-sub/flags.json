@@ -1,5 +1,5 @@
 {
-  "es-basque": {
+  "es/basque": {
     "title": "Ikurriña — Flag of the Basque Country",
     "colors": [
       {
@@ -43,7 +43,7 @@
     ],
     "article": "spain-sub/es-basque.md"
   },
-  "es-andalusia": {
+  "es/andalusia": {
     "title": "Flag of Andalusia",
     "colors": [
       {

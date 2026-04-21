@@ -1,5 +1,5 @@
 {
-  "de-bavaria": {
+  "de/bavaria": {
     "title": "Flag of Bavaria",
     "colors": [
       {
@@ -37,7 +37,7 @@
     ],
     "article": "germany-sub/de-bavaria.md"
   },
-  "de-prussia": {
+  "de/prussia": {
     "title": "Flag of the Kingdom of Prussia",
     "colors": [
       {

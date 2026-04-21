@@ -1,5 +1,5 @@
 {
-  "uk-scotland": {
+  "uk/scotland": {
     "title": "Flag of Scotland (St Andrew's Cross)",
     "ratio": "3:5",
     "colors": [
@@ -38,7 +38,7 @@
     ],
     "article": "uk-sub/uk-scotland.md"
   },
-  "uk-wales": {
+  "uk/wales": {
     "title": "Flag of Wales (Y Ddraig Goch)",
     "ratio": "3:5",
     "colors": [
@@ -82,7 +82,7 @@
     ],
     "article": "uk-sub/uk-wales.md"
   },
-  "uk-england": {
+  "uk/england": {
     "title": "Flag of England (St George's Cross)",
     "ratio": "3:5",
     "colors": [
@@ -121,7 +121,7 @@
     ],
     "article": "uk-sub/uk-england.md"
   },
-  "uk-northern-ireland": {
+  "uk/northern-ireland": {
     "title": "Ulster Banner",
     "ratio": "1:2",
     "colors": [
@@ -165,7 +165,7 @@
     ],
     "article": "uk-sub/uk-northern-ireland.md"
   },
-  "uk-cornwall": {
+  "uk/cornwall": {
     "title": "Flag of Cornwall (St Piran)",
     "ratio": "3:5",
     "colors": [

@@ -1,5 +1,5 @@
 {
-  "ca-quebec": {
+  "ca/quebec": {
     "title": "Flag of Quebec (Fleurdelisé)",
     "ratio": "2:3",
     "colors": [
@@ -38,7 +38,7 @@
     ],
     "article": "canada-sub/ca-quebec.md"
   },
-  "ca-ontario": {
+  "ca/ontario": {
     "title": "Flag of Ontario",
     "ratio": "1:2",
     "colors": [
@@ -81,7 +81,7 @@
     ],
     "article": "canada-sub/ca-ontario.md"
   },
-  "ca-british-columbia": {
+  "ca/british-columbia": {
     "title": "Flag of British Columbia",
     "ratio": "3:5",
     "colors": [
@@ -134,7 +134,7 @@
     ],
     "article": "canada-sub/ca-british-columbia.md"
   },
-  "ca-alberta": {
+  "ca/alberta": {
     "title": "Flag of Alberta",
     "ratio": "1:2",
     "colors": [

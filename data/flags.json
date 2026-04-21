@@ -1150,6 +1150,113 @@
     "id": "venice",
     "index": "c/italy:697"
   },
+  "genoa": {
+    "g": "h,empire,europe",
+    "ns": "empires",
+    "name": "Republic of Genoa",
+    "now": "italy",
+    "years": "1005–1797",
+    "id": "genoa",
+    "index": "c/italy:1005"
+  },
+  "seljuk": {
+    "g": "h,empire,asia",
+    "ns": "empires",
+    "name": "Seljuk Empire",
+    "now": "turkey",
+    "years": "1037–1194",
+    "id": "seljuk",
+    "index": "c/turkey:1037"
+  },
+  "safavid": {
+    "g": "h,empire,asia",
+    "ns": "empires",
+    "name": "Safavid Empire",
+    "now": "iran",
+    "years": "1501–1736",
+    "id": "safavid",
+    "index": "c/iran:1501"
+  },
+  "parthian": {
+    "g": "h,empire,asia",
+    "ns": "empires",
+    "name": "Parthian Empire",
+    "now": "iran",
+    "years": "247 BC–224 AD",
+    "id": "parthian",
+    "index": "c/iran:247"
+  },
+  "delhi-sultanate": {
+    "g": "h,empire,asia",
+    "ns": "empires",
+    "name": "Delhi Sultanate",
+    "now": "india",
+    "years": "1206–1526",
+    "id": "delhi-sultanate",
+    "index": "c/india:1206"
+  },
+  "maratha": {
+    "g": "h,empire,asia",
+    "ns": "empires",
+    "name": "Maratha Empire",
+    "now": "india",
+    "years": "1674–1818",
+    "id": "maratha",
+    "index": "c/india:1674"
+  },
+  "mali-empire": {
+    "g": "h,empire,africa",
+    "ns": "empires",
+    "flag": "empires/mali.svg",
+    "name": "Mali Empire",
+    "now": "mali",
+    "years": "1230–1670",
+    "id": "mali-empire",
+    "index": "c/mali:1230"
+  },
+  "teutonic": {
+    "g": "h,empire,europe",
+    "ns": "empires",
+    "name": "Teutonic Order",
+    "now": "germany",
+    "years": "1190–1525",
+    "id": "teutonic",
+    "index": "c/germany:1190"
+  },
+  "templar": {
+    "g": "h,empire,europe",
+    "ns": "empires",
+    "name": "Knights Templar",
+    "years": "1119–1312",
+    "id": "templar",
+    "index": "e/knights-templar"
+  },
+  "smom": {
+    "g": "h,empire,europe",
+    "ns": "empires",
+    "name": "Sovereign Military Order of Malta",
+    "years": "1099–present",
+    "id": "smom",
+    "index": "e/sovereign-military-order-of-malta"
+  },
+  "lithuania-gd": {
+    "g": "h,empire,europe",
+    "ns": "empires",
+    "name": "Grand Duchy of Lithuania",
+    "now": "lithuania",
+    "years": "1236–1795",
+    "id": "lithuania-gd",
+    "index": "c/lithuania:1236"
+  },
+  "majapahit": {
+    "g": "h,empire,asia",
+    "ns": "empires",
+    "name": "Majapahit Empire",
+    "now": "indonesia",
+    "years": "1293–1527",
+    "id": "majapahit",
+    "index": "c/indonesia:1293"
+  },
   "qajar": {
     "g": "h,asia",
     "ns": "persia",
@@ -1646,7 +1753,7 @@
     "now": "uk-scotland",
     "years": "~1542",
     "id": "scotland-kingdom",
-    "index": "c/scotland-(saltire):1542"
+    "index": "c/uk-scotland:1542"
   },
   "us-betsy-ross": {
     "g": "h,fn,north-america",
@@ -2011,7 +2118,7 @@
     "ns": "maritime",
     "name": "Jolly Roger",
     "id": "jolly-roger",
-    "index": "e/jolly-roger"
+    "index": "m/jolly-roger"
   },
   "white-ensign": {
     "g": "maritime",
@@ -2035,242 +2142,242 @@
     "id": "signal-flags",
     "index": "m/international-signal-flags"
   },
-  "us-california": {
+  "us/california": {
     "ns": "us",
     "name": "California",
-    "id": "us-california",
+    "id": "us/california",
     "index": "c/us/california",
     "g": "sub,north-america"
   },
-  "us-texas": {
+  "us/texas": {
     "g": "sub,north-america",
     "ns": "us-states",
     "name": "Texas",
-    "id": "us-texas",
+    "id": "us/texas",
     "index": "c/us/texas"
   },
-  "us-hawaii": {
+  "us/hawaii": {
     "g": "sub,north-america,oceania",
     "ns": "us-states",
     "name": "Hawaii",
-    "id": "us-hawaii",
+    "id": "us/hawaii",
     "index": "c/us/hawaii"
   },
-  "us-puerto-rico": {
+  "us/puerto-rico": {
     "g": "sub,caribbean",
     "ns": "us-states",
     "name": "Puerto Rico",
-    "id": "us-puerto-rico",
+    "id": "us/puerto-rico",
     "index": "c/us/puerto-rico"
   },
-  "us-washington-dc": {
+  "us/washington-dc": {
     "g": "sub,north-america",
     "ns": "us-states",
     "name": "Washington D.C.",
-    "id": "us-washington-dc",
+    "id": "us/washington-dc",
     "index": "c/us/washington-dc"
   },
-  "ca-quebec": {
+  "ca/quebec": {
     "g": "sub,north-america",
     "ns": "canada-sub",
     "name": "Quebec",
-    "id": "ca-quebec",
+    "id": "ca/quebec",
     "index": "c/ca/quebec"
   },
-  "uk-scotland": {
+  "uk/scotland": {
     "g": "sub,europe",
     "ns": "uk-sub",
     "name": "Scotland (Saltire)",
-    "id": "uk-scotland",
+    "id": "uk/scotland",
     "index": "c/uk/scotland"
   },
-  "uk-wales": {
+  "uk/wales": {
     "g": "sub,europe",
     "ns": "uk-sub",
     "name": "Wales",
-    "id": "uk-wales",
+    "id": "uk/wales",
     "index": "c/uk/wales"
   },
-  "uk-england": {
+  "uk/england": {
     "g": "sub,europe",
     "ns": "uk-sub",
     "name": "England",
-    "id": "uk-england",
+    "id": "uk/england",
     "index": "c/uk/england"
   },
-  "us-new-york": {
+  "us/new-york": {
     "ns": "us-states",
     "name": "New York",
     "g": "sub,north-america",
-    "id": "us-new-york",
+    "id": "us/new-york",
     "index": "c/us/new-york"
   },
-  "us-alaska": {
+  "us/alaska": {
     "ns": "us-states",
     "name": "Alaska",
     "g": "sub,north-america",
-    "id": "us-alaska",
+    "id": "us/alaska",
     "index": "c/us/alaska"
   },
-  "us-maryland": {
+  "us/maryland": {
     "ns": "us-states",
     "name": "Maryland",
     "g": "sub,north-america",
-    "id": "us-maryland",
+    "id": "us/maryland",
     "index": "c/us/maryland"
   },
-  "us-new-mexico": {
+  "us/new-mexico": {
     "ns": "us-states",
     "name": "New Mexico",
     "g": "sub,north-america",
-    "id": "us-new-mexico",
+    "id": "us/new-mexico",
     "index": "c/us/new-mexico"
   },
-  "us-arizona": {
+  "us/arizona": {
     "ns": "us-states",
     "name": "Arizona",
     "g": "sub,north-america",
-    "id": "us-arizona",
+    "id": "us/arizona",
     "index": "c/us/arizona"
   },
-  "us-colorado": {
+  "us/colorado": {
     "ns": "us-states",
     "name": "Colorado",
     "g": "sub,north-america",
-    "id": "us-colorado",
+    "id": "us/colorado",
     "index": "c/us/colorado"
   },
-  "us-south-carolina": {
+  "us/south-carolina": {
     "ns": "us-states",
     "name": "South Carolina",
     "g": "sub,north-america",
-    "id": "us-south-carolina",
+    "id": "us/south-carolina",
     "index": "c/us/south-carolina"
   },
-  "us-ohio": {
+  "us/ohio": {
     "ns": "us-states",
     "name": "Ohio",
     "g": "sub,north-america",
-    "id": "us-ohio",
+    "id": "us/ohio",
     "index": "c/us/ohio"
   },
-  "us-mississippi": {
+  "us/mississippi": {
     "ns": "us-states",
     "name": "Mississippi",
     "g": "sub,north-america",
-    "id": "us-mississippi",
+    "id": "us/mississippi",
     "index": "c/us/mississippi"
   },
-  "us-georgia": {
+  "us/georgia": {
     "ns": "us-states",
     "name": "Georgia (US state)",
     "g": "sub,north-america",
-    "id": "us-georgia",
+    "id": "us/georgia",
     "index": "c/us/georgia"
   },
-  "ca-ontario": {
+  "ca/ontario": {
     "ns": "canada-sub",
     "name": "Ontario",
     "g": "sub,north-america",
-    "id": "ca-ontario",
+    "id": "ca/ontario",
     "index": "c/ca/ontario"
   },
-  "ca-british-columbia": {
+  "ca/british-columbia": {
     "ns": "canada-sub",
     "name": "British Columbia",
     "g": "sub,north-america",
-    "id": "ca-british-columbia",
+    "id": "ca/british-columbia",
     "index": "c/ca/british-columbia"
   },
-  "ca-alberta": {
+  "ca/alberta": {
     "ns": "canada-sub",
     "name": "Alberta",
     "g": "sub,north-america",
-    "id": "ca-alberta",
+    "id": "ca/alberta",
     "index": "c/ca/alberta"
   },
-  "uk-northern-ireland": {
+  "uk/northern-ireland": {
     "name": "Northern Ireland (Ulster Banner)",
     "ns": "uk-sub",
     "g": "sub,europe",
-    "id": "uk-northern-ireland",
+    "id": "uk/northern-ireland",
     "index": "c/uk/northern-ireland"
   },
-  "uk-cornwall": {
+  "uk/cornwall": {
     "name": "Cornwall (St Piran)",
     "ns": "uk-sub",
     "g": "sub,europe",
-    "id": "uk-cornwall",
+    "id": "uk/cornwall",
     "index": "c/uk/cornwall"
   },
-  "in-jammu-kashmir": {
+  "in/jammu-kashmir": {
     "name": "Jammu & Kashmir",
     "ns": "india-sub",
     "g": "sub,south-asia",
-    "id": "in-jammu-kashmir",
+    "id": "in/jammu-kashmir",
     "index": "c/in/jammu-kashmir"
   },
-  "in-tamil-nadu": {
+  "in/tamil-nadu": {
     "name": "Tamil Nadu",
     "ns": "india-sub",
     "g": "sub,south-asia",
-    "id": "in-tamil-nadu",
+    "id": "in/tamil-nadu",
     "index": "c/in/tamil-nadu"
   },
-  "in-sikkim": {
+  "in/sikkim": {
     "name": "Sikkim",
     "ns": "india-sub",
     "g": "sub,south-asia",
-    "id": "in-sikkim",
+    "id": "in/sikkim",
     "index": "c/in/sikkim"
   },
-  "de-bavaria": {
+  "de/bavaria": {
     "name": "Bavaria",
     "ns": "germany-sub",
     "g": "sub,europe",
-    "id": "de-bavaria",
+    "id": "de/bavaria",
     "index": "c/de/bavaria"
   },
-  "de-prussia": {
+  "de/prussia": {
     "name": "Prussia",
     "ns": "germany-sub",
     "g": "sub,europe,h",
-    "id": "de-prussia",
+    "id": "de/prussia",
     "index": "c/de/prussia"
   },
-  "es-basque": {
+  "es/basque": {
     "name": "Basque Country (Ikurriña)",
     "ns": "spain-sub",
     "g": "sub,europe",
-    "id": "es-basque",
+    "id": "es/basque",
     "index": "c/es/basque"
   },
-  "es-andalusia": {
+  "es/andalusia": {
     "name": "Andalusia",
     "ns": "spain-sub",
     "g": "sub,europe",
-    "id": "es-andalusia",
+    "id": "es/andalusia",
     "index": "c/es/andalusia"
   },
-  "au-aboriginal": {
+  "au/aboriginal": {
     "name": "Aboriginal Flag",
     "ns": "australia-sub",
     "g": "sub,oceania",
-    "id": "au-aboriginal",
+    "id": "au/aboriginal",
     "index": "c/au/aboriginal"
   },
-  "au-new-south-wales": {
+  "au/new-south-wales": {
     "name": "New South Wales",
     "ns": "australia-sub",
     "g": "sub,oceania",
-    "id": "au-new-south-wales",
+    "id": "au/new-south-wales",
     "index": "c/au/new-south-wales"
   },
-  "au-torres-strait": {
+  "au/torres-strait": {
     "name": "Torres Strait Islander Flag",
     "ns": "australia-sub",
     "g": "sub,oceania",
-    "id": "au-torres-strait",
+    "id": "au/torres-strait",
     "index": "c/au/torres-strait"
   },
   "benin": {

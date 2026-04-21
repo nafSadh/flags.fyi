@@ -1,5 +1,5 @@
 {
-  "au-aboriginal": {
+  "au/aboriginal": {
     "title": "Australian Aboriginal Flag",
     "colors": [
       {
@@ -46,7 +46,7 @@
     ],
     "article": "australia-sub/au-aboriginal.md"
   },
-  "au-new-south-wales": {
+  "au/new-south-wales": {
     "title": "Flag of New South Wales",
     "colors": [
       {
@@ -87,7 +87,7 @@
     ],
     "article": "australia-sub/au-new-south-wales.md"
   },
-  "au-torres-strait": {
+  "au/torres-strait": {
     "title": "Torres Strait Islander Flag",
     "colors": [
       {

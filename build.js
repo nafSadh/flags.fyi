@@ -249,9 +249,12 @@ const metaJson = (() => {
   tier3.forEach(id => assigned.add(id));
 
   // ── Tier 4: Empires, caliphates, colonial, historic regions ──
+  // Exclude flags that belong in tier 5 by category even if they carry the h tag
+  // (h = historical; a maritime/pride/pan flag can be historical without being an empire).
   const tier4 = allIds.filter(id => {
     if (assigned.has(id)) return false;
     const g = gs(id);
+    if (g.includes('maritime') || g.includes('pride') || g.includes('pan')) return false;
     return g.includes('empire') || g.includes('caliphate') || g.includes('colonial') || g.includes('h');
   }).sort((a, b) => (flagsJson[a].name || a).localeCompare(flagsJson[b].name || b));
   tier4.forEach(id => assigned.add(id));
@@ -321,10 +324,11 @@ const navTiers = metaJson.tiers;
 
     if (subSet.has(id)) {
       // Subdivision: c/{parent}/{suffix-from-id}
-      const prefix = id.split('-')[0];
+      // Ids use "/" for renamed subs (us/california) or legacy "-" (bermuda, anguilla-governor).
+      const sep = id.includes('/') ? '/' : '-';
+      const prefix = id.split(sep)[0];
       const parent = subCountryMap[prefix] || (gs.includes('bot') ? botParent : prefix);
-      // Use ID with prefix stripped, e.g. us-alaska → alaska, au-aboriginal → aboriginal
-      const suffix = id.startsWith(prefix + '-') ? id.substring(prefix.length + 1) : id;
+      const suffix = id.startsWith(prefix + sep) ? id.substring(prefix.length + 1) : id;
       f.index = 'c/' + parent + '/' + suffix;
     } else if (intlSet.has(id)) {
       const name = (f.name || id).toLowerCase().replace(/\s+/g, '-');
@@ -367,10 +371,14 @@ function titleCase(str) {
 
 function namePartFromId(flagId, namespace) {
   if (flagId === namespace) return '';
+  // Subdivision ids use slash: "us/california" → namePart "california".
+  // Aux flags.json entries with explicit "flag" fields override this inference.
+  if (flagId.includes('/')) {
+    return flagId.substring(flagId.indexOf('/') + 1);
+  }
   if (flagId.startsWith(namespace + '-')) {
     return flagId.substring(namespace.length + 1);
   }
-  // For IDs like "us-california" with ns "us", strip the ns prefix
   const dashIndex = flagId.indexOf('-');
   if (dashIndex > 0 && flagId.substring(0, dashIndex) === namespace) {
     return flagId.substring(dashIndex + 1);

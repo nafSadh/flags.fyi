@@ -1,5 +1,5 @@
 {
-  "us-texas": {
+  "us/texas": {
     "title": "Flag of Texas (Lone Star)",
     "ratio": "2:3",
     "colors": [
@@ -46,7 +46,7 @@
     ],
     "article": "us-states/us-texas.md"
   },
-  "us-hawaii": {
+  "us/hawaii": {
     "title": "Flag of Hawaii",
     "ratio": "1:2",
     "colors": [
@@ -89,7 +89,7 @@
     ],
     "article": "us-states/us-hawaii.md"
   },
-  "us-puerto-rico": {
+  "us/puerto-rico": {
     "title": "Flag of Puerto Rico",
     "ratio": "2:3",
     "colors": [
@@ -134,7 +134,7 @@
     ],
     "article": "us-states/us-puerto-rico.md"
   },
-  "us-washington-dc": {
+  "us/washington-dc": {
     "title": "Flag of the District of Columbia",
     "ratio": "10:19",
     "colors": [
@@ -173,7 +173,7 @@
     ],
     "article": "us-states/us-washington-dc.md"
   },
-  "us-new-york": {
+  "us/new-york": {
     "title": "Flag of New York",
     "ratio": "10:19",
     "colors": [
@@ -209,7 +209,7 @@
     ],
     "article": "us-states/us-new-york.md"
   },
-  "us-alaska": {
+  "us/alaska": {
     "title": "Flag of Alaska",
     "ratio": "125:177",
     "colors": [
@@ -245,7 +245,7 @@
     ],
     "article": "us-states/us-alaska.md"
   },
-  "us-maryland": {
+  "us/maryland": {
     "title": "Flag of Maryland",
     "ratio": "2:3",
     "colors": [
@@ -291,7 +291,7 @@
     ],
     "article": "us-states/us-maryland.md"
   },
-  "us-new-mexico": {
+  "us/new-mexico": {
     "title": "Flag of New Mexico",
     "ratio": "2:3",
     "colors": [
@@ -328,7 +328,7 @@
     ],
     "article": "us-states/us-new-mexico.md"
   },
-  "us-arizona": {
+  "us/arizona": {
     "title": "Flag of Arizona",
     "ratio": "2:3",
     "colors": [
@@ -374,7 +374,7 @@
     ],
     "article": "us-states/us-arizona.md"
   },
-  "us-colorado": {
+  "us/colorado": {
     "title": "Flag of Colorado",
     "ratio": "2:3",
     "colors": [
@@ -424,7 +424,7 @@
     ],
     "article": "us-states/us-colorado.md"
   },
-  "us-south-carolina": {
+  "us/south-carolina": {
     "title": "Flag of South Carolina",
     "ratio": "2:3",
     "colors": [
@@ -461,7 +461,7 @@
     ],
     "article": "us-states/us-south-carolina.md"
   },
-  "us-ohio": {
+  "us/ohio": {
     "title": "Flag of Ohio (Burgee)",
     "ratio": "8:13",
     "colors": [
@@ -504,7 +504,7 @@
     ],
     "article": "us-states/us-ohio.md"
   },
-  "us-mississippi": {
+  "us/mississippi": {
     "title": "Flag of Mississippi (In God We Trust)",
     "ratio": "2:3",
     "colors": [
@@ -551,7 +551,7 @@
     ],
     "article": "us-states/us-mississippi.md"
   },
-  "us-georgia": {
+  "us/georgia": {
     "title": "Flag of Georgia (US state)",
     "ratio": "2:3",
     "colors": [
