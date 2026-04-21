@@ -187,6 +187,18 @@
     "keywords": "afsharid dynasty state flag of the afsharid dynasty historic empire asia red blue white"
   },
   {
+    "id": "mx/ags",
+    "name": "Aguascalientes",
+    "title": "Flag of Aguascalientes",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/mexico-sub/ags.svg",
+    "keywords": "aguascalientes flag of aguascalientes sub north-america"
+  },
+  {
     "id": "jp/aichi",
     "name": "Aichi Prefecture",
     "title": "Flag of Aichi Prefecture",
@@ -836,6 +848,30 @@
     ],
     "flag": "/bahrain/flag.svg",
     "keywords": "bahrain flag of the kingdom of bahrain national-flag arab gulf red white"
+  },
+  {
+    "id": "mx/bc",
+    "name": "Baja California",
+    "title": "Flag of Baja California",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/mexico-sub/bc.svg",
+    "keywords": "baja california flag of baja california sub north-america"
+  },
+  {
+    "id": "mx/bcs",
+    "name": "Baja California Sur",
+    "title": "Flag of Baja California Sur",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/mexico-sub/bcs.svg",
+    "keywords": "baja california sur flag of baja california sur sub north-america"
   },
   {
     "id": "bangladesh",
@@ -1491,6 +1527,18 @@
     "keywords": "cameroon flag of the republic of cameroon national-flag africa green red yellow"
   },
   {
+    "id": "mx/cam",
+    "name": "Campeche",
+    "title": "Flag of Campeche",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/mexico-sub/cam.svg",
+    "keywords": "campeche flag of campeche sub north-america"
+  },
+  {
     "id": "canada",
     "name": "Canada",
     "title": "Flag of Canada",
@@ -1891,6 +1939,18 @@
     "keywords": "chad flag of chad national-flag africa arab africa"
   },
   {
+    "id": "mx/chp",
+    "name": "Chiapas",
+    "title": "Flag of Chiapas",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/mexico-sub/chp.svg",
+    "keywords": "chiapas flag of chiapas sub north-america"
+  },
+  {
     "id": "jp/chiba",
     "name": "Chiba Prefecture",
     "title": "Flag of Chiba Prefecture",
@@ -1901,6 +1961,18 @@
     "colors": [],
     "flag": "/japan-sub/chiba.svg",
     "keywords": "chiba prefecture flag of chiba prefecture sub asia"
+  },
+  {
+    "id": "mx/chh",
+    "name": "Chihuahua",
+    "title": "Flag of Chihuahua",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/mexico-sub/chh.svg",
+    "keywords": "chihuahua flag of chihuahua sub north-america"
   },
   {
     "id": "chile",
@@ -1931,6 +2003,30 @@
     ],
     "flag": "/china/flag.svg",
     "keywords": "china flag of the people's republic of china asia east-asia red yellow"
+  },
+  {
+    "id": "mx/coa",
+    "name": "Coahuila",
+    "title": "Flag of Coahuila",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/mexico-sub/coa.svg",
+    "keywords": "coahuila flag of coahuila sub north-america"
+  },
+  {
+    "id": "mx/col",
+    "name": "Colima",
+    "title": "Flag of Colima",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/mexico-sub/col.svg",
+    "keywords": "colima flag of colima sub north-america"
   },
   {
     "id": "colombia",
@@ -2405,6 +2501,18 @@
     ],
     "flag": "/poland-hist/pl-duchy-warsaw.svg",
     "keywords": "duchy of warsaw flag of the duchy of warsaw historic europe white red"
+  },
+  {
+    "id": "mx/dgo",
+    "name": "Durango",
+    "title": "Flag of Durango",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/mexico-sub/dgo.svg",
+    "keywords": "durango flag of durango sub north-america"
   },
   {
     "id": "id-dutch-east-indies",
@@ -3325,6 +3433,18 @@
     "keywords": "grenada flag of grenada national-flag caribbean red yellow green"
   },
   {
+    "id": "mx/gto",
+    "name": "Guanajuato",
+    "title": "Flag of Guanajuato",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/mexico-sub/gto.svg",
+    "keywords": "guanajuato flag of guanajuato sub north-america"
+  },
+  {
     "id": "guatemala",
     "name": "Guatemala",
     "title": "Flag of the Republic of Guatemala",
@@ -3351,6 +3471,18 @@
     "colors": [],
     "flag": "/british/guernsey.svg",
     "keywords": "guernsey flag of guernsey british-overseas"
+  },
+  {
+    "id": "mx/gro",
+    "name": "Guerrero",
+    "title": "Flag of Guerrero",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/mexico-sub/gro.svg",
+    "keywords": "guerrero flag of guerrero sub north-america"
   },
   {
     "id": "guinea",
@@ -3502,6 +3634,18 @@
     "colors": [],
     "flag": "/germany-sub/hesse.svg",
     "keywords": "hesse flag of hesse sub europe"
+  },
+  {
+    "id": "mx/hgo",
+    "name": "Hidalgo",
+    "title": "Flag of Hidalgo",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/mexico-sub/hgo.svg",
+    "keywords": "hidalgo flag of hidalgo sub north-america"
   },
   {
     "id": "jp/hiroshima",
@@ -4006,6 +4150,18 @@
     "colors": [],
     "flag": "/japan-sub/iwate.svg",
     "keywords": "iwate prefecture flag of iwate prefecture sub asia"
+  },
+  {
+    "id": "mx/jal",
+    "name": "Jalisco",
+    "title": "Flag of Jalisco",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/mexico-sub/jal.svg",
+    "keywords": "jalisco flag of jalisco sub north-america"
   },
   {
     "id": "jamaica",
@@ -5327,6 +5483,18 @@
     "keywords": "mexico flag of mexico north-america green white red"
   },
   {
+    "id": "mx/cmx",
+    "name": "Mexico City",
+    "title": "Flag of Mexico City",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/mexico-sub/cmx.svg",
+    "keywords": "mexico city flag of mexico city sub north-america"
+  },
+  {
     "id": "us/michigan",
     "name": "Michigan",
     "title": "Flag of Michigan",
@@ -5337,6 +5505,18 @@
     "colors": [],
     "flag": "/us-states/michigan.svg",
     "keywords": "michigan flag of michigan sub north-america"
+  },
+  {
+    "id": "mx/mic",
+    "name": "Michoacán",
+    "title": "Flag of Michoacán",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/mexico-sub/mic.svg",
+    "keywords": "michoacán flag of michoacán sub north-america"
   },
   {
     "id": "micronesia",
@@ -5563,6 +5743,18 @@
     "keywords": "montserrat flag of montserrat british-overseas blue red white"
   },
   {
+    "id": "mx/mor",
+    "name": "Morelos",
+    "title": "Flag of Morelos",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/mexico-sub/mor.svg",
+    "keywords": "morelos flag of morelos sub north-america"
+  },
+  {
     "id": "morocco",
     "name": "Morocco",
     "title": "Flag of Morocco",
@@ -5741,6 +5933,18 @@
     ],
     "flag": "/nauru/flag.svg",
     "keywords": "nauru flag of the republic of nauru national-flag oceania blue yellow white"
+  },
+  {
+    "id": "mx/nay",
+    "name": "Nayarit",
+    "title": "Flag of Nayarit",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/mexico-sub/nay.svg",
+    "keywords": "nayarit flag of nayarit sub north-america"
   },
   {
     "id": "de-nazi",
@@ -6059,6 +6263,30 @@
     ],
     "flag": "/norway/flag.svg",
     "keywords": "norway flag of norway europe nordic red blue white"
+  },
+  {
+    "id": "mx/nl",
+    "name": "Nuevo León",
+    "title": "Flag of Nuevo León",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/mexico-sub/nl.svg",
+    "keywords": "nuevo león flag of nuevo león sub north-america"
+  },
+  {
+    "id": "mx/oax",
+    "name": "Oaxaca",
+    "title": "Flag of Oaxaca",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/mexico-sub/oax.svg",
+    "keywords": "oaxaca flag of oaxaca sub north-america"
   },
   {
     "id": "us/ohio",
@@ -6759,6 +6987,18 @@
     "keywords": "prussia flag of the kingdom of prussia sub europe historic black white"
   },
   {
+    "id": "mx/pue",
+    "name": "Puebla",
+    "title": "Flag of Puebla",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/mexico-sub/pue.svg",
+    "keywords": "puebla flag of puebla sub north-america"
+  },
+  {
     "id": "us/puerto-rico",
     "name": "Puerto Rico",
     "title": "Flag of Puerto Rico",
@@ -6836,6 +7076,30 @@
     ],
     "flag": "/canada-sub/quebec.svg",
     "keywords": "quebec flag of quebec (fleurdelisé) sub north-america blue white"
+  },
+  {
+    "id": "mx/qro",
+    "name": "Querétaro",
+    "title": "Flag of Querétaro",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/mexico-sub/qro.svg",
+    "keywords": "querétaro flag of querétaro sub north-america"
+  },
+  {
+    "id": "mx/qr",
+    "name": "Quintana Roo",
+    "title": "Flag of Quintana Roo",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/mexico-sub/qr.svg",
+    "keywords": "quintana roo flag of quintana roo sub north-america"
   },
   {
     "id": "pride-rainbow",
@@ -7323,6 +7587,18 @@
     "keywords": "samoa flag of the independent state of samoa national-flag oceania red blue white"
   },
   {
+    "id": "mx/slp",
+    "name": "San Luis Potosí",
+    "title": "Flag of San Luis Potosí",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/mexico-sub/slp.svg",
+    "keywords": "san luis potosí flag of san luis potosí sub north-america"
+  },
+  {
     "id": "san-marino",
     "name": "San Marino",
     "title": "Flag of the Republic of San Marino",
@@ -7683,6 +7959,18 @@
     "keywords": "sikkim flag of sikkim sub south-asia red white blue"
   },
   {
+    "id": "mx/sin",
+    "name": "Sinaloa",
+    "title": "Flag of Sinaloa",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/mexico-sub/sin.svg",
+    "keywords": "sinaloa flag of sinaloa sub north-america"
+  },
+  {
     "id": "singapore",
     "name": "Singapore",
     "title": "Flag of Singapore",
@@ -7778,6 +8066,18 @@
     ],
     "flag": "/somalia/flag.svg",
     "keywords": "somalia flag of the federal republic of somalia national-flag africa arab horn-of-africa blue white"
+  },
+  {
+    "id": "mx/son",
+    "name": "Sonora",
+    "title": "Flag of Sonora",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/mexico-sub/son.svg",
+    "keywords": "sonora flag of sonora sub north-america"
   },
   {
     "id": "south-africa",
@@ -8008,6 +8308,18 @@
     "keywords": "sri lanka flag of the democratic socialist republic of sri lanka national-flag asia south-asia maroon yellow green orange"
   },
   {
+    "id": "mx/mex",
+    "name": "State of Mexico",
+    "title": "Flag of State of Mexico",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/mexico-sub/mex.svg",
+    "keywords": "state of mexico flag of state of mexico sub north-america"
+  },
+  {
     "id": "sudan",
     "name": "Sudan",
     "title": "Flag of the Republic of the Sudan",
@@ -8156,6 +8468,18 @@
     "keywords": "syria flag of the syrian arab republic national-flag asia arab levant red white black green"
   },
   {
+    "id": "mx/tab",
+    "name": "Tabasco",
+    "title": "Flag of Tabasco",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/mexico-sub/tab.svg",
+    "keywords": "tabasco flag of tabasco sub north-america"
+  },
+  {
     "id": "tajikistan",
     "name": "Tajikistan",
     "title": "Flag of the Republic of Tajikistan",
@@ -8186,6 +8510,18 @@
     ],
     "flag": "/afghanistan/af-taliban-1996.svg",
     "keywords": "taliban (1996) flag of the islamic emirate of afghanistan (1996) historic former-flag asia white"
+  },
+  {
+    "id": "mx/tam",
+    "name": "Tamaulipas",
+    "title": "Flag of Tamaulipas",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/mexico-sub/tam.svg",
+    "keywords": "tamaulipas flag of tamaulipas sub north-america"
   },
   {
     "id": "in/tamil-nadu",
@@ -8325,6 +8661,18 @@
     ],
     "flag": "/timor-leste/flag.svg",
     "keywords": "timor leste flag of the democratic republic of timor-leste national-flag asia southeast-asia red yellow black white"
+  },
+  {
+    "id": "mx/tlx",
+    "name": "Tlaxcala",
+    "title": "Flag of Tlaxcala",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/mexico-sub/tlx.svg",
+    "keywords": "tlaxcala flag of tlaxcala sub north-america"
   },
   {
     "id": "br/to",
@@ -8856,6 +9204,18 @@
     "keywords": "venezuela flag of the bolivarian republic of venezuela national-flag south-america yellow blue red white"
   },
   {
+    "id": "mx/ver",
+    "name": "Veracruz",
+    "title": "Flag of Veracruz",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/mexico-sub/ver.svg",
+    "keywords": "veracruz flag of veracruz sub north-america"
+  },
+  {
     "id": "us/vermont",
     "name": "Vermont",
     "title": "Flag of Vermont",
@@ -9086,6 +9446,30 @@
     ],
     "flag": "/yemen/flag.svg",
     "keywords": "yemen flag of the republic of yemen national-flag asia arab red white black"
+  },
+  {
+    "id": "mx/yuc",
+    "name": "Yucatán",
+    "title": "Flag of Yucatán",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/mexico-sub/yuc.svg",
+    "keywords": "yucatán flag of yucatán sub north-america"
+  },
+  {
+    "id": "mx/zac",
+    "name": "Zacatecas",
+    "title": "Flag of Zacatecas",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/mexico-sub/zac.svg",
+    "keywords": "zacatecas flag of zacatecas sub north-america"
   },
   {
     "id": "zambia",

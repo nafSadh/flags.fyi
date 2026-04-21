@@ -1845,17 +1845,22 @@
     "cat": "countries"
   },
   "au/aboriginal": {
-    "prev": "jp/yamanashi",
+    "prev": "mx/zac",
     "next": "br/ac",
     "cat": "subdivisions"
   },
   "br/ac": {
     "prev": "au/aboriginal",
+    "next": "mx/ags",
+    "cat": "subdivisions"
+  },
+  "mx/ags": {
+    "prev": "br/ac",
     "next": "jp/aichi",
     "cat": "subdivisions"
   },
   "jp/aichi": {
-    "prev": "br/ac",
+    "prev": "mx/ags",
     "next": "jp/akita",
     "cat": "subdivisions"
   },
@@ -1941,11 +1946,21 @@
   },
   "br/ba": {
     "prev": "de/baden-wurttemberg",
+    "next": "mx/bc",
+    "cat": "subdivisions"
+  },
+  "mx/bc": {
+    "prev": "br/ba",
+    "next": "mx/bcs",
+    "cat": "subdivisions"
+  },
+  "mx/bcs": {
+    "prev": "mx/bc",
     "next": "es/basque",
     "cat": "subdivisions"
   },
   "es/basque": {
-    "prev": "br/ba",
+    "prev": "mx/bcs",
     "next": "de/bavaria",
     "cat": "subdivisions"
   },
@@ -2006,11 +2021,16 @@
   },
   "us/california": {
     "prev": "british-virgin-islands",
+    "next": "mx/cam",
+    "cat": "subdivisions"
+  },
+  "mx/cam": {
+    "prev": "us/california",
     "next": "ch/aargau",
     "cat": "subdivisions"
   },
   "ch/aargau": {
-    "prev": "us/california",
+    "prev": "mx/cam",
     "next": "ch/appenzell-ar",
     "cat": "subdivisions"
   },
@@ -2146,16 +2166,36 @@
   },
   "br/ce": {
     "prev": "cayman-islands",
+    "next": "mx/chp",
+    "cat": "subdivisions"
+  },
+  "mx/chp": {
+    "prev": "br/ce",
     "next": "jp/chiba",
     "cat": "subdivisions"
   },
   "jp/chiba": {
-    "prev": "br/ce",
+    "prev": "mx/chp",
+    "next": "mx/chh",
+    "cat": "subdivisions"
+  },
+  "mx/chh": {
+    "prev": "jp/chiba",
+    "next": "mx/coa",
+    "cat": "subdivisions"
+  },
+  "mx/coa": {
+    "prev": "mx/chh",
+    "next": "mx/col",
+    "cat": "subdivisions"
+  },
+  "mx/col": {
+    "prev": "mx/coa",
     "next": "us/colorado",
     "cat": "subdivisions"
   },
   "us/colorado": {
-    "prev": "jp/chiba",
+    "prev": "mx/col",
     "next": "us/connecticut",
     "cat": "subdivisions"
   },
@@ -2181,11 +2221,16 @@
   },
   "anguilla-dolphin": {
     "prev": "br/df",
+    "next": "mx/dgo",
+    "cat": "subdivisions"
+  },
+  "mx/dgo": {
+    "prev": "anguilla-dolphin",
     "next": "jp/ehime",
     "cat": "subdivisions"
   },
   "jp/ehime": {
-    "prev": "anguilla-dolphin",
+    "prev": "mx/dgo",
     "next": "uk/england",
     "cat": "subdivisions"
   },
@@ -2236,16 +2281,26 @@
   },
   "br/go": {
     "prev": "jp/gifu",
+    "next": "mx/gto",
+    "cat": "subdivisions"
+  },
+  "mx/gto": {
+    "prev": "br/go",
     "next": "guernsey",
     "cat": "subdivisions"
   },
   "guernsey": {
-    "prev": "br/go",
+    "prev": "mx/gto",
+    "next": "mx/gro",
+    "cat": "subdivisions"
+  },
+  "mx/gro": {
+    "prev": "guernsey",
     "next": "jp/gunma",
     "cat": "subdivisions"
   },
   "jp/gunma": {
-    "prev": "guernsey",
+    "prev": "mx/gro",
     "next": "de/hamburg",
     "cat": "subdivisions"
   },
@@ -2261,11 +2316,16 @@
   },
   "de/hesse": {
     "prev": "us/hawaii",
+    "next": "mx/hgo",
+    "cat": "subdivisions"
+  },
+  "mx/hgo": {
+    "prev": "de/hesse",
     "next": "jp/hiroshima",
     "cat": "subdivisions"
   },
   "jp/hiroshima": {
-    "prev": "de/hesse",
+    "prev": "mx/hgo",
     "next": "jp/hokkaido",
     "cat": "subdivisions"
   },
@@ -2311,11 +2371,16 @@
   },
   "jp/iwate": {
     "prev": "jp/ishikawa",
+    "next": "mx/jal",
+    "cat": "subdivisions"
+  },
+  "mx/jal": {
+    "prev": "jp/iwate",
     "next": "in/jammu-kashmir",
     "cat": "subdivisions"
   },
   "in/jammu-kashmir": {
-    "prev": "jp/iwate",
+    "prev": "mx/jal",
     "next": "jersey",
     "cat": "subdivisions"
   },
@@ -2411,16 +2476,26 @@
   },
   "de/mecklenburg-vorpommern": {
     "prev": "br/ms",
+    "next": "mx/cmx",
+    "cat": "subdivisions"
+  },
+  "mx/cmx": {
+    "prev": "de/mecklenburg-vorpommern",
     "next": "us/michigan",
     "cat": "subdivisions"
   },
   "us/michigan": {
-    "prev": "de/mecklenburg-vorpommern",
+    "prev": "mx/cmx",
+    "next": "mx/mic",
+    "cat": "subdivisions"
+  },
+  "mx/mic": {
+    "prev": "us/michigan",
     "next": "jp/mie",
     "cat": "subdivisions"
   },
   "jp/mie": {
-    "prev": "us/michigan",
+    "prev": "mx/mic",
     "next": "br/mg",
     "cat": "subdivisions"
   },
@@ -2461,11 +2536,16 @@
   },
   "montserrat": {
     "prev": "us/montana",
+    "next": "mx/mor",
+    "cat": "subdivisions"
+  },
+  "mx/mor": {
+    "prev": "montserrat",
     "next": "jp/nagano",
     "cat": "subdivisions"
   },
   "jp/nagano": {
-    "prev": "montserrat",
+    "prev": "mx/mor",
     "next": "jp/nagasaki",
     "cat": "subdivisions"
   },
@@ -2476,11 +2556,16 @@
   },
   "jp/nara": {
     "prev": "jp/nagasaki",
+    "next": "mx/nay",
+    "cat": "subdivisions"
+  },
+  "mx/nay": {
+    "prev": "jp/nara",
     "next": "us/nebraska",
     "cat": "subdivisions"
   },
   "us/nebraska": {
-    "prev": "jp/nara",
+    "prev": "mx/nay",
     "next": "us/nevada",
     "cat": "subdivisions"
   },
@@ -2536,11 +2621,21 @@
   },
   "uk/northern-ireland": {
     "prev": "de/north-rhine-westphalia",
+    "next": "mx/nl",
+    "cat": "subdivisions"
+  },
+  "mx/nl": {
+    "prev": "uk/northern-ireland",
+    "next": "mx/oax",
+    "cat": "subdivisions"
+  },
+  "mx/oax": {
+    "prev": "mx/nl",
     "next": "us/ohio",
     "cat": "subdivisions"
   },
   "us/ohio": {
-    "prev": "uk/northern-ireland",
+    "prev": "mx/oax",
     "next": "jp/oita",
     "cat": "subdivisions"
   },
@@ -2616,21 +2711,36 @@
   },
   "de/prussia": {
     "prev": "pitcairn",
+    "next": "mx/pue",
+    "cat": "subdivisions"
+  },
+  "mx/pue": {
+    "prev": "de/prussia",
     "next": "us/puerto-rico",
     "cat": "subdivisions"
   },
   "us/puerto-rico": {
-    "prev": "de/prussia",
+    "prev": "mx/pue",
     "next": "ca/quebec",
     "cat": "subdivisions"
   },
   "ca/quebec": {
     "prev": "us/puerto-rico",
+    "next": "mx/qro",
+    "cat": "subdivisions"
+  },
+  "mx/qro": {
+    "prev": "ca/quebec",
+    "next": "mx/qr",
+    "cat": "subdivisions"
+  },
+  "mx/qr": {
+    "prev": "mx/qro",
     "next": "de/rhineland-palatinate",
     "cat": "subdivisions"
   },
   "de/rhineland-palatinate": {
-    "prev": "ca/quebec",
+    "prev": "mx/qr",
     "next": "us/rhode-island",
     "cat": "subdivisions"
   },
@@ -2681,11 +2791,16 @@
   },
   "jp/saitama": {
     "prev": "saint-helena",
+    "next": "mx/slp",
+    "cat": "subdivisions"
+  },
+  "mx/slp": {
+    "prev": "jp/saitama",
     "next": "br/sc",
     "cat": "subdivisions"
   },
   "br/sc": {
-    "prev": "jp/saitama",
+    "prev": "mx/slp",
     "next": "br/sp",
     "cat": "subdivisions"
   },
@@ -2741,11 +2856,21 @@
   },
   "in/sikkim": {
     "prev": "jp/shizuoka",
+    "next": "mx/sin",
+    "cat": "subdivisions"
+  },
+  "mx/sin": {
+    "prev": "in/sikkim",
+    "next": "mx/son",
+    "cat": "subdivisions"
+  },
+  "mx/son": {
+    "prev": "mx/sin",
     "next": "us/south-carolina",
     "cat": "subdivisions"
   },
   "us/south-carolina": {
-    "prev": "in/sikkim",
+    "prev": "mx/son",
     "next": "us/south-dakota",
     "cat": "subdivisions"
   },
@@ -2756,11 +2881,26 @@
   },
   "sgssi": {
     "prev": "us/south-dakota",
+    "next": "mx/mex",
+    "cat": "subdivisions"
+  },
+  "mx/mex": {
+    "prev": "sgssi",
+    "next": "mx/tab",
+    "cat": "subdivisions"
+  },
+  "mx/tab": {
+    "prev": "mx/mex",
+    "next": "mx/tam",
+    "cat": "subdivisions"
+  },
+  "mx/tam": {
+    "prev": "mx/tab",
     "next": "in/tamil-nadu",
     "cat": "subdivisions"
   },
   "in/tamil-nadu": {
-    "prev": "sgssi",
+    "prev": "mx/tam",
     "next": "us/tennessee",
     "cat": "subdivisions"
   },
@@ -2776,11 +2916,16 @@
   },
   "de/thuringia": {
     "prev": "us/texas",
+    "next": "mx/tlx",
+    "cat": "subdivisions"
+  },
+  "mx/tlx": {
+    "prev": "de/thuringia",
     "next": "br/to",
     "cat": "subdivisions"
   },
   "br/to": {
-    "prev": "de/thuringia",
+    "prev": "mx/tlx",
     "next": "jp/tochigi",
     "cat": "subdivisions"
   },
@@ -2826,11 +2971,16 @@
   },
   "us/utah": {
     "prev": "tci",
+    "next": "mx/ver",
+    "cat": "subdivisions"
+  },
+  "mx/ver": {
+    "prev": "us/utah",
     "next": "us/vermont",
     "cat": "subdivisions"
   },
   "us/vermont": {
-    "prev": "us/utah",
+    "prev": "mx/ver",
     "next": "us/virginia",
     "cat": "subdivisions"
   },
@@ -2886,6 +3036,16 @@
   },
   "jp/yamanashi": {
     "prev": "jp/yamaguchi",
+    "next": "mx/yuc",
+    "cat": "subdivisions"
+  },
+  "mx/yuc": {
+    "prev": "jp/yamanashi",
+    "next": "mx/zac",
+    "cat": "subdivisions"
+  },
+  "mx/zac": {
+    "prev": "mx/yuc",
     "next": "au/aboriginal",
     "cat": "subdivisions"
   },

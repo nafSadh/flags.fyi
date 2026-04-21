@@ -862,6 +862,230 @@
     "id": "mexico",
     "index": "c/mexico"
   },
+  "mx/ags": {
+    "g": "sub,north-america",
+    "ns": "mexico-sub",
+    "name": "Aguascalientes",
+    "id": "mx/ags",
+    "index": "c/mx/ags"
+  },
+  "mx/bc": {
+    "g": "sub,north-america",
+    "ns": "mexico-sub",
+    "name": "Baja California",
+    "id": "mx/bc",
+    "index": "c/mx/bc"
+  },
+  "mx/bcs": {
+    "g": "sub,north-america",
+    "ns": "mexico-sub",
+    "name": "Baja California Sur",
+    "id": "mx/bcs",
+    "index": "c/mx/bcs"
+  },
+  "mx/cam": {
+    "g": "sub,north-america",
+    "ns": "mexico-sub",
+    "name": "Campeche",
+    "id": "mx/cam",
+    "index": "c/mx/cam"
+  },
+  "mx/chp": {
+    "g": "sub,north-america",
+    "ns": "mexico-sub",
+    "name": "Chiapas",
+    "id": "mx/chp",
+    "index": "c/mx/chp"
+  },
+  "mx/chh": {
+    "g": "sub,north-america",
+    "ns": "mexico-sub",
+    "name": "Chihuahua",
+    "id": "mx/chh",
+    "index": "c/mx/chh"
+  },
+  "mx/cmx": {
+    "g": "sub,north-america",
+    "ns": "mexico-sub",
+    "name": "Mexico City",
+    "id": "mx/cmx",
+    "index": "c/mx/cmx"
+  },
+  "mx/coa": {
+    "g": "sub,north-america",
+    "ns": "mexico-sub",
+    "name": "Coahuila",
+    "id": "mx/coa",
+    "index": "c/mx/coa"
+  },
+  "mx/col": {
+    "g": "sub,north-america",
+    "ns": "mexico-sub",
+    "name": "Colima",
+    "id": "mx/col",
+    "index": "c/mx/col"
+  },
+  "mx/dgo": {
+    "g": "sub,north-america",
+    "ns": "mexico-sub",
+    "name": "Durango",
+    "id": "mx/dgo",
+    "index": "c/mx/dgo"
+  },
+  "mx/gto": {
+    "g": "sub,north-america",
+    "ns": "mexico-sub",
+    "name": "Guanajuato",
+    "id": "mx/gto",
+    "index": "c/mx/gto"
+  },
+  "mx/gro": {
+    "g": "sub,north-america",
+    "ns": "mexico-sub",
+    "name": "Guerrero",
+    "id": "mx/gro",
+    "index": "c/mx/gro"
+  },
+  "mx/hgo": {
+    "g": "sub,north-america",
+    "ns": "mexico-sub",
+    "name": "Hidalgo",
+    "id": "mx/hgo",
+    "index": "c/mx/hgo"
+  },
+  "mx/jal": {
+    "g": "sub,north-america",
+    "ns": "mexico-sub",
+    "name": "Jalisco",
+    "id": "mx/jal",
+    "index": "c/mx/jal"
+  },
+  "mx/mex": {
+    "g": "sub,north-america",
+    "ns": "mexico-sub",
+    "name": "State of Mexico",
+    "id": "mx/mex",
+    "index": "c/mx/mex"
+  },
+  "mx/mic": {
+    "g": "sub,north-america",
+    "ns": "mexico-sub",
+    "name": "Michoacán",
+    "id": "mx/mic",
+    "index": "c/mx/mic"
+  },
+  "mx/mor": {
+    "g": "sub,north-america",
+    "ns": "mexico-sub",
+    "name": "Morelos",
+    "id": "mx/mor",
+    "index": "c/mx/mor"
+  },
+  "mx/nay": {
+    "g": "sub,north-america",
+    "ns": "mexico-sub",
+    "name": "Nayarit",
+    "id": "mx/nay",
+    "index": "c/mx/nay"
+  },
+  "mx/nl": {
+    "g": "sub,north-america",
+    "ns": "mexico-sub",
+    "name": "Nuevo León",
+    "id": "mx/nl",
+    "index": "c/mx/nl"
+  },
+  "mx/oax": {
+    "g": "sub,north-america",
+    "ns": "mexico-sub",
+    "name": "Oaxaca",
+    "id": "mx/oax",
+    "index": "c/mx/oax"
+  },
+  "mx/pue": {
+    "g": "sub,north-america",
+    "ns": "mexico-sub",
+    "name": "Puebla",
+    "id": "mx/pue",
+    "index": "c/mx/pue"
+  },
+  "mx/qro": {
+    "g": "sub,north-america",
+    "ns": "mexico-sub",
+    "name": "Querétaro",
+    "id": "mx/qro",
+    "index": "c/mx/qro"
+  },
+  "mx/qr": {
+    "g": "sub,north-america",
+    "ns": "mexico-sub",
+    "name": "Quintana Roo",
+    "id": "mx/qr",
+    "index": "c/mx/qr"
+  },
+  "mx/slp": {
+    "g": "sub,north-america",
+    "ns": "mexico-sub",
+    "name": "San Luis Potosí",
+    "id": "mx/slp",
+    "index": "c/mx/slp"
+  },
+  "mx/sin": {
+    "g": "sub,north-america",
+    "ns": "mexico-sub",
+    "name": "Sinaloa",
+    "id": "mx/sin",
+    "index": "c/mx/sin"
+  },
+  "mx/son": {
+    "g": "sub,north-america",
+    "ns": "mexico-sub",
+    "name": "Sonora",
+    "id": "mx/son",
+    "index": "c/mx/son"
+  },
+  "mx/tab": {
+    "g": "sub,north-america",
+    "ns": "mexico-sub",
+    "name": "Tabasco",
+    "id": "mx/tab",
+    "index": "c/mx/tab"
+  },
+  "mx/tam": {
+    "g": "sub,north-america",
+    "ns": "mexico-sub",
+    "name": "Tamaulipas",
+    "id": "mx/tam",
+    "index": "c/mx/tam"
+  },
+  "mx/tlx": {
+    "g": "sub,north-america",
+    "ns": "mexico-sub",
+    "name": "Tlaxcala",
+    "id": "mx/tlx",
+    "index": "c/mx/tlx"
+  },
+  "mx/ver": {
+    "g": "sub,north-america",
+    "ns": "mexico-sub",
+    "name": "Veracruz",
+    "id": "mx/ver",
+    "index": "c/mx/ver"
+  },
+  "mx/yuc": {
+    "g": "sub,north-america",
+    "ns": "mexico-sub",
+    "name": "Yucatán",
+    "id": "mx/yuc",
+    "index": "c/mx/yuc"
+  },
+  "mx/zac": {
+    "g": "sub,north-america",
+    "ns": "mexico-sub",
+    "name": "Zacatecas",
+    "id": "mx/zac",
+    "index": "c/mx/zac"
+  },
   "moheli": {
     "g": "africa",
     "ns": "comoros",
