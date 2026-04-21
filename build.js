@@ -607,7 +607,7 @@ function htmlHead(title, extraHead = '') {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${escHtml(title)} — Flags.fyi</title>
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
-  <script>(function(){try{var t=localStorage.getItem('fyi-theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+  <script>(function(){try{var t=localStorage.getItem('fyi-theme');if(t!=='light'&&t!=='dark'){t=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
   <link rel="stylesheet" href="/style.css">
   ${extraHead}
 </head>`;
@@ -626,7 +626,10 @@ function navSearch() {
 }
 
 function themeToggleBtn() {
-  return `<button class="theme-toggle" id="themeToggle" aria-label="Toggle theme" title="Toggle theme (auto \u2192 light \u2192 dark)"><svg class="theme-icon-auto" width="18" height="18" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 3a5 5 0 000 10z" fill="currentColor"/></svg><svg class="theme-icon-light" width="18" height="18" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="3" fill="currentColor"/><g stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M8 1v2M8 13v2M1 8h2M13 8h2M3 3l1.4 1.4M11.6 11.6L13 13M3 13l1.4-1.4M11.6 4.4L13 3"/></g></svg><svg class="theme-icon-dark" width="18" height="18" viewBox="0 0 16 16" aria-hidden="true"><path d="M13 10a5 5 0 01-7-7 6 6 0 107 7z" fill="currentColor"/></svg></button>`;
+  // Icons show the *target* theme (what clicking will switch TO).
+  // When page is light → show moon (click to go dark).
+  // When page is dark → show sun (click to go light).
+  return `<button class="theme-toggle" id="themeToggle" aria-label="Toggle theme" title="Toggle light/dark"><svg class="theme-icon-moon" width="18" height="18" viewBox="0 0 16 16" aria-hidden="true"><path d="M13 10a5 5 0 01-7-7 6 6 0 107 7z" fill="currentColor"/></svg><svg class="theme-icon-sun" width="18" height="18" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="3" fill="currentColor"/><g stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M8 1v2M8 13v2M1 8h2M13 8h2M3 3l1.4 1.4M11.6 11.6L13 13M3 13l1.4-1.4M11.6 4.4L13 3"/></g></svg></button>`;
 }
 
 function navbar() {

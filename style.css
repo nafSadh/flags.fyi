@@ -106,8 +106,9 @@ nav.site-nav {
   height: var(--navbar-h);
   display: flex; align-items: center; justify-content: space-between;
 }
-nav.site-nav ul { list-style: none; display: flex; gap: 0.6rem; align-items: center; }
+nav.site-nav ul { list-style: none; display: flex; gap: 0.75rem; align-items: center; }
 nav.site-nav ul li { display: flex; align-items: center; }
+nav.site-nav ul.nav-right { gap: 0.9rem; }
 nav.site-nav a { text-decoration: none; color: rgba(255,255,255,0.85); }
 nav.site-nav a:hover { color: #fff; text-decoration: none; }
 .site-logo {
@@ -124,40 +125,42 @@ nav.site-nav a:hover { color: #fff; text-decoration: none; }
   text-align: center; flex: 1; padding: 0 1rem;
 }
 
-/* ─── Nav search (collapses to icon; expands on hover/focus) ────────── */
+/* ─── Nav search (icon by default; expands leftward on hover/focus) ──
+   The .nav-search container stays at 34x34 so layout never reflows.
+   The input is absolute-positioned and grows toward the left. */
 .nav-search {
   position: relative;
   width: 34px; height: 34px; flex-shrink: 0;
+}
+.nav-search-input {
+  position: absolute; right: 0; top: 0;
+  width: 34px; height: 34px;
+  padding: 0 34px 0 12px;  /* right padding leaves room for the icon */
   border-radius: 17px;
   background: rgba(255,255,255,0.08);
   border: 1px solid rgba(255,255,255,0.15);
+  color: #fff; font-size: 0.85rem; font-family: var(--font);
+  outline: none;
   transition: width 0.2s ease, background 0.15s ease, border-color 0.15s ease;
-  overflow: visible;
 }
-.nav-search:hover,
-.nav-search:focus-within,
-.nav-search.nav-search-has-value {
+.nav-search:hover .nav-search-input,
+.nav-search:focus-within .nav-search-input,
+.nav-search.nav-search-has-value .nav-search-input {
   width: 220px;
-  background: rgba(255,255,255,0.18);
+  background: rgba(255,255,255,0.2);
   border-color: rgba(255,255,255,0.35);
 }
 .nav-search-icon {
-  position: absolute; left: 9px; top: 50%; transform: translateY(-50%);
-  color: rgba(255,255,255,0.8); pointer-events: none; z-index: 1;
-}
-.nav-search-input {
-  width: 100%; height: 100%;
-  padding: 0 12px 0 32px;
-  border-radius: 17px;
-  background: transparent; border: none; outline: none;
-  color: #fff; font-size: 0.85rem; font-family: var(--font);
+  position: absolute; right: 9px; top: 50%; transform: translateY(-50%);
+  color: rgba(255,255,255,0.85); pointer-events: none; z-index: 1;
 }
 .nav-search-input::placeholder {
   color: rgba(255,255,255,0.75);
   opacity: 0; transition: opacity 0.15s ease 0.05s;
 }
 .nav-search:hover .nav-search-input::placeholder,
-.nav-search:focus-within .nav-search-input::placeholder { opacity: 1; }
+.nav-search:focus-within .nav-search-input::placeholder,
+.nav-search.nav-search-has-value .nav-search-input::placeholder { opacity: 1; }
 .nav-search-results {
   position: absolute; top: calc(100% + 6px); right: 0;
   width: 260px;
@@ -207,11 +210,9 @@ nav.site-nav a:hover { color: #fff; text-decoration: none; }
 .theme-toggle:hover { background: rgba(255,255,255,0.2); border-color: rgba(255,255,255,0.35); }
 .theme-toggle:active { transform: scale(0.92); }
 .theme-toggle svg { display: none; }
-/* default (no data-theme attr) = auto → show auto icon */
-html:not([data-theme]) .theme-icon-auto,
-[data-theme="auto"] .theme-icon-auto,
-[data-theme="light"] .theme-icon-light,
-[data-theme="dark"] .theme-icon-dark { display: block; }
+/* Show the "target" icon: moon when light (click = go dark), sun when dark */
+[data-theme="light"] .theme-icon-moon,
+[data-theme="dark"] .theme-icon-sun { display: block; }
 
 /* ═══════════════════════════════════════════════════════════════════
    LEFT RAIL (thin sidebar with index icon)

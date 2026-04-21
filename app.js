@@ -2,24 +2,23 @@
 (function () {
   'use strict';
 
-  // ─── Theme toggle (auto → light → dark → auto) ────────────────────────────
+  // ─── Theme toggle (light ↔ dark) ──────────────────────────────────────────
+  // The inline <head> script always sets data-theme to "light" or "dark"
+  // (from localStorage or system preference), so every click produces a
+  // visible change. Shift+click clears the saved preference.
   var themeToggle = document.getElementById('themeToggle');
-  function currentTheme() {
-    return document.documentElement.getAttribute('data-theme') || 'auto';
-  }
-  function setTheme(t) {
-    if (t === 'auto') {
-      document.documentElement.removeAttribute('data-theme');
-      try { localStorage.removeItem('fyi-theme'); } catch (e) {}
-    } else {
-      document.documentElement.setAttribute('data-theme', t);
-      try { localStorage.setItem('fyi-theme', t); } catch (e) {}
-    }
-  }
   if (themeToggle) {
-    themeToggle.addEventListener('click', function () {
-      var t = currentTheme();
-      setTheme(t === 'auto' ? 'light' : t === 'light' ? 'dark' : 'auto');
+    themeToggle.addEventListener('click', function (e) {
+      if (e.shiftKey) {
+        try { localStorage.removeItem('fyi-theme'); } catch (er) {}
+        var sys = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', sys);
+        return;
+      }
+      var current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+      var next = current === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      try { localStorage.setItem('fyi-theme', next); } catch (er) {}
     });
   }
 
