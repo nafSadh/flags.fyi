@@ -378,6 +378,8 @@ function namePartFromId(flagId, namespace) {
   return flagId;
 }
 
+// Namespaces can use dot notation (e.g. "british.cd") to encode a sub-namespace
+// that shares its parent's asset directory. "british.cd" → files live in /british/.
 function dirName(namespace) {
   return namespace.split('.')[0];
 }
@@ -576,11 +578,24 @@ function jsonLdCollectionPage(title, description, urlPath) {
 }
 
 // ─── shared HTML pieces (Pico CSS) ───────────────────────────────────────────
+const CSP_DIRECTIVES = [
+  "default-src 'self'",
+  "script-src 'self' 'unsafe-inline' https://gc.zgo.at",
+  "style-src 'self' 'unsafe-inline'",
+  "img-src 'self'",
+  "connect-src 'self' https://flags-fyi.goatcounter.com https://gc.zgo.at",
+  "font-src 'self'",
+  "object-src 'none'",
+  "base-uri 'self'",
+  "form-action 'self'"
+].join('; ');
+
 function htmlHead(title, extraHead = '') {
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="${CSP_DIRECTIVES}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${escHtml(title)} — Flags.fyi</title>
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
@@ -596,7 +611,7 @@ function analyticsSnippet() {
 function navbar() {
   return `<nav class="site-nav">
   <ul>
-    <li><a href="/" class="site-logo"><img src="/logo.svg" alt="">Flags.fyi</a></li>
+    <li><a href="/" class="site-logo" aria-label="Flags.fyi home"><img src="/logo.svg" alt="">Flags.fyi</a></li>
   </ul>
   <ul>
     <li class="desktop-only"><a href="/flag-index/">Index of Flags</a></li>
@@ -829,6 +844,7 @@ function generateFlagIndex() {
   const totalFlags = allIds.length;
   const hubDesc = 'Browse flags by category. Explore national, historical, and organizational flags with color details and construction sheets.';
   const hubExtra = `<meta name="description" content="${escHtml(hubDesc)}">
+  <link rel="prefetch" href="/search-index.json" as="fetch" crossorigin="anonymous">
   ${ogTags('Index of Flags', hubDesc, '/logo.svg', '/flag-index/')}
   ${canonicalTag('/flag-index/')}
   ${jsonLdCollectionPage('Index of Flags', hubDesc, '/flag-index/')}`;
@@ -838,7 +854,7 @@ function generateFlagIndex() {
   <div class="hero-banner">
     <div class="container"><h1>Index of Flags</h1><p class="hero-sub">${totalFlags} flags across ${orderedCats.length} categories</p>
     <div class="search-box">
-      <input type="text" id="flagSearch" class="search-input" placeholder="Search flags by name, color, or category..." autocomplete="off">
+      <input type="text" id="flagSearch" class="search-input" placeholder="Search flags by name, color, or category..." autocomplete="off" aria-label="Search flags">
       <span class="search-count" id="searchCount"></span>
     </div>
     </div>
@@ -872,6 +888,7 @@ function generateFlagIndex() {
   fs.mkdirSync(allDir, { recursive: true });
   const allDesc = 'Browse all flags alphabetically on Flags.fyi.';
   const allExtra = `<meta name="description" content="${escHtml(allDesc)}">
+  <link rel="prefetch" href="/search-index.json" as="fetch" crossorigin="anonymous">
   ${ogTags('All Flags', allDesc, '/logo.svg', '/flag-index/all/')}
   ${canonicalTag('/flag-index/all/')}
   ${jsonLdCollectionPage('All Flags', allDesc, '/flag-index/all/')}`;
@@ -884,7 +901,7 @@ function generateFlagIndex() {
   <main class="container">
     <p style="margin:1rem 0"><a href="/flag-index/">&larr; Categories</a></p>
     <div class="search-box">
-      <input type="text" id="flagSearch" class="search-input" placeholder="Search flags by name, color, or category..." autocomplete="off">
+      <input type="text" id="flagSearch" class="search-input" placeholder="Search flags by name, color, or category..." autocomplete="off" aria-label="Search flags">
       <span class="search-count" id="searchCount"></span>
     </div>
     <div class="flag-grid">${allItems}
@@ -1506,6 +1523,10 @@ function generateFlagPage(flagId) {
         articleHtml = renderMarkdown(fs.readFileSync(mdPath, 'utf8'));
       }
     }
+    // Deep-dive sits under an h2 header and sibling h3 sections (Description, Trivia).
+    // Demote article headings by 2 so md h1 → h3, preserving page outline.
+    articleHtml = articleHtml.replace(/<(\/?)h([1-4])>/g,
+      (_, slash, n) => `<${slash}h${Math.min(parseInt(n) + 2, 6)}>`);
   }
 
   // JSON data
@@ -1585,7 +1606,7 @@ function generateFlagPage(flagId) {
   ${svgSprite()}
   <!-- Top navbar with centered title -->
   <nav class="site-nav">
-    <ul><li><a href="/" class="site-logo"><img src="/logo.svg" alt="">Flags.fyi</a></li></ul>
+    <ul><li><a href="/" class="site-logo" aria-label="Flags.fyi home"><img src="/logo.svg" alt="">Flags.fyi</a></li></ul>
     <div class="nav-title">${escHtml(fd.title)}</div>
     <ul><li><button class="burger-btn" id="burgerBtn" aria-label="Menu" aria-expanded="false"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button></li></ul>
   </nav>
@@ -1630,7 +1651,7 @@ function generateFlagPage(flagId) {
       <div class="sidebar-info" id="sidebarInfo">
         ${subtitleHtml}
         ${colorsHtml}
-        <a href="${escHtml(wikiUrl)}" class="wiki-link" target="_blank" rel="noopener"><svg width="20" height="20" viewBox="0 0 128 128"><use href="#icon-wiki"/></svg></a>
+        <a href="${escHtml(wikiUrl)}" class="wiki-link" target="_blank" rel="noopener" aria-label="View on Wikipedia"><svg width="20" height="20" viewBox="0 0 128 128" aria-hidden="true"><use href="#icon-wiki"/></svg></a>
         ${commonsBtn}
       </div>
       <div class="sidebar-bottom">

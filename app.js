@@ -42,25 +42,20 @@
   var searchInput = document.getElementById('flagSearch');
   var searchCount = document.getElementById('searchCount');
   var searchIndex = null;
-  var searchIndexLoading = false;
+  var searchIndexPromise = null;
   var isAllPage = window.location.pathname.indexOf('/flag-index/all/') !== -1;
   var isHubPage = !isAllPage && window.location.pathname.indexOf('/flag-index/') !== -1
     && window.location.pathname.replace(/\/$/, '') === '/flag-index';
 
   function loadSearchIndex(cb) {
     if (searchIndex) { cb(searchIndex); return; }
-    if (searchIndexLoading) return;
-    searchIndexLoading = true;
-    var xhr = new XMLHttpRequest();
-    xhr.open('GET', '/search-index.json', true);
-    xhr.onreadystatechange = function () {
-      if (xhr.readyState === 4 && xhr.status === 200) {
-        try { searchIndex = JSON.parse(xhr.responseText); } catch (e) { searchIndex = []; }
-        searchIndexLoading = false;
-        cb(searchIndex);
-      }
-    };
-    xhr.send();
+    if (!searchIndexPromise) {
+      searchIndexPromise = fetch('/search-index.json', { credentials: 'omit' })
+        .then(function (r) { return r.ok ? r.json() : []; })
+        .catch(function () { return []; })
+        .then(function (data) { searchIndex = data; return data; });
+    }
+    searchIndexPromise.then(cb);
   }
 
   function filterIndex(query) {
@@ -134,7 +129,7 @@
     }
     if (!query) {
       resultsEl.classList.remove('visible');
-      resultsEl.innerHTML = '';
+      while (resultsEl.firstChild) resultsEl.removeChild(resultsEl.firstChild);
       if (hubNormalContent) hubNormalContent.style.display = '';
       if (searchCount) searchCount.textContent = '';
       return;
@@ -142,21 +137,35 @@
     loadSearchIndex(function () {
       var matches = filterIndex(query);
       if (hubNormalContent) hubNormalContent.style.display = 'none';
+      while (resultsEl.firstChild) resultsEl.removeChild(resultsEl.firstChild);
       if (matches.length === 0) {
-        resultsEl.innerHTML = '<div class="search-results-empty">No flags found</div>';
+        var empty = document.createElement('div');
+        empty.className = 'search-results-empty';
+        empty.textContent = 'No flags found';
+        resultsEl.appendChild(empty);
         resultsEl.classList.add('visible');
         if (searchCount) searchCount.textContent = '0 results';
         return;
       }
+      var grid = document.createElement('div');
+      grid.className = 'flag-grid';
       var limited = matches.slice(0, 20);
-      var html = '<div class="flag-grid">';
       for (var i = 0; i < limited.length; i++) {
         var m = limited[i];
-        var img = m.flag ? '<img src="' + m.flag + '" alt="' + m.name + '" class="thumb" loading="lazy">' : '';
-        html += '<a href="/' + m.id + '/">' + img + m.name + '</a>';
+        var a = document.createElement('a');
+        a.href = '/' + m.id + '/';
+        if (m.flag) {
+          var img = document.createElement('img');
+          img.src = m.flag;
+          img.alt = m.name;
+          img.className = 'thumb';
+          img.loading = 'lazy';
+          a.appendChild(img);
+        }
+        a.appendChild(document.createTextNode(m.name));
+        grid.appendChild(a);
       }
-      html += '</div>';
-      resultsEl.innerHTML = html;
+      resultsEl.appendChild(grid);
       resultsEl.classList.add('visible');
       var label = matches.length + ' result' + (matches.length !== 1 ? 's' : '');
       if (matches.length > 20) label += ' (showing 20)';

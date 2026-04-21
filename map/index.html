@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline'; img-src 'self'; connect-src 'self' https://cdn.jsdelivr.net; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Flag Map — Flags.fyi</title>
 <meta name="description" content="Interactive world map of 268 flags across 85 countries, from 600 BC to today.">
@@ -204,7 +205,7 @@ nav {
     <div id="th">Drag to explore flags through history · 600 BC → present</div>
   </div>
 
-  <div id="tt"><img id="tf" src="" alt=""><div><div class="tn" id="tn"></div><div class="tm" id="tm"></div></div></div>
+  <div id="tt" role="tooltip"><img id="tf" src="" alt=""><div><div class="tn" id="tn"></div><div class="tm" id="tm"></div></div></div>
   <div id="st"></div>
   <div id="zc">
     <button class="zb" id="zIn" title="Zoom in (+)">+</button>
@@ -223,8 +224,8 @@ nav {
 </div>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js" integrity="sha384-CjloA8y00+1SDAUkjs099PVfnY2KmDC2BZnws9kh8D/lX1s46w6EPhpXdqMfjK6i" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js" integrity="sha384-9dCJK6nh7skY14HrcvlLYlFga9/MehJjL9ONWRflmiXNRuf8p2jiF4Y5PR881PTq" crossorigin="anonymous"></script>
 <script>
 (function(){
 'use strict';

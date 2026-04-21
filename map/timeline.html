@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self'; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Flag Timeline — Flags.fyi</title>
 <meta name="description" content="Interactive timeline of national flags with event-density scaling and lineage connections.">
@@ -116,7 +117,7 @@ nav { position: fixed; top: 0; left: 0; right: 0; z-index: 20; height: var(--nav
 <div id="ruler"><div id="rulerCv"></div></div>
 <div id="cur"></div><div id="curY"></div>
 <div id="tl"><div id="cv"><svg id="lineage"></svg></div></div>
-<div id="tt"><img id="ti" src=""><h3 id="tn"></h3><div class="tm" id="tm"></div><div class="td" id="td"></div><div class="tlin" id="tlin"></div></div>
+<div id="tt" role="tooltip"><img id="ti" src="" alt=""><h3 id="tn"></h3><div class="tm" id="tm"></div><div class="td" id="td"></div><div class="tlin" id="tlin"></div></div>
 <div id="ld"><div class="sp"></div></div>
 <div id="st"></div>
 <div id="lg"><span class="lg-bar"></span>density · <span class="lg-line"></span>lineage</div>
@@ -250,6 +251,9 @@ function render(){
       span.style.left=x1+'px';span.style.width=w+'px';
 
       const sL=start<0?Math.abs(start)+' BC':start;
+      const yrRange=sL+(end<NOW?'–'+end:'–present');
+      span.title=f.name+' ('+yrRange+')';
+      span.setAttribute('aria-label',span.title);
       let content='<img src="'+B+f.flag_svg+'" alt="" onerror="this.style.display=\'none\'">';
       if(availW>80)content+='<span class="fs-n">'+f.name+'</span>';
       if(availW>160)content+='<span class="fs-y">'+sL+(end<NOW?' – '+end:'')+'</span>';
