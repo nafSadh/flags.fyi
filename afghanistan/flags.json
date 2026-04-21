@@ -4,61 +4,58 @@
     "ratio": "2:3",
     "use": {
       "as": "national flag",
-      "since": "2021-08-15"
+      "since": "2004-01-04"
     },
     "colors": [
-      {
-        "color": "white",
-        "hex": "#FFFFFF",
-        "cmyk": "0/0/0/0",
-        "note": "Field of the current (post-2021) flag; bears the black Shahada inscription."
-      },
       {
         "color": "black",
         "hex": "#000000",
         "cmyk": "0/0/0/100",
         "pantone": "Black",
-        "note": "Shahada text; in the pre-2021 tricolour represented the dark past of foreign occupation."
+        "note": "The dark past of foreign occupation overcome by the nation."
       },
       {
         "color": "red",
         "hex": "#D32011",
         "cmyk": "0/85/92/17",
         "pantone": "485 C",
-        "note": "In the pre-2021 tricolour, represents the blood shed for independence."
+        "note": "Blood shed in the struggle for independence."
       },
       {
         "color": "green",
         "hex": "#007A36",
         "cmyk": "100/0/56/52",
         "pantone": "348 C",
-        "note": "In the pre-2021 tricolour, symbolises Islam, hope, and prosperity."
+        "note": "Islam, hope, and prosperity."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "National emblem — mosque with mihrab, Shahada inscription, wheat sheaves, and the year 1298 (1919 AD, independence)."
       }
     ],
     "desc": [
-      "- The current flag of the Islamic Emirate of Afghanistan is a plain white field bearing the Shahada (Islamic declaration of faith) in black Arabic script\n",
-      "- It was adopted upon the Taliban's return to power on 15 August 2021\n",
-      "- The previous flag (2004–2021) of the Islamic Republic was a vertical tricolour of black, red, and green with the national emblem — a mosque, Shahada, and wheat sheaves — in white at the centre\n",
+      "- The flag of Afghanistan is a vertical tricolour of black (hoist), red, and green, bearing the white national emblem at centre\n",
+      "- Adopted in January 2004 under the Islamic Republic's constitution; it remains the flag recognised internationally and by the UN\n",
+      "- The Taliban regime that retook power on 15 August 2021 flies a plain white flag bearing the Shahada; it is not recognised here and is not used by the Afghan seat at the United Nations\n",
       "- Afghanistan has had more flag changes than almost any other country — over 20 designs since 1901, reflecting its turbulent political history\n",
-      "- Construction (pre-2021 tricolour): three equal vertical bands of black (hoist), red, and green\n",
-      "- The national emblem is centred, spanning roughly half the flag's height\n",
-      "- Ratio 2:3"
+      "- **Construction:** three equal vertical bands of black, red, and green. White national emblem is centred on the red band. Ratio 2:3"
     ],
-    "note": "The tricolor of black-red-green (with national emblem) was used from 2004 to 2021 under the Islamic Republic.",
     "article": "afghanistan/flag.md",
     "of": {
       "country": "afghanistan"
     },
     "countryData": {
       "name": "Afghanistan",
-      "officialName": "Islamic Emirate of Afghanistan",
+      "officialName": "Islamic Republic of Afghanistan",
       "un": "member"
     },
     "cs": "afghanistan/flag.cs.svg",
     "trivia": [
       "- Only country to have changed its flag more than 20 times since 1900, reflecting decades of political upheaval\n",
-      "- The Taliban's plain white flag is one of the simplest national flags ever used\n",
-      "- The black-red-green tricolour's colours represent the dark past (black), blood shed for independence (red), and hope/Islam (green)"
+      "- The emblem contains a mosque with its mihrab facing Mecca, flanked by wheat sheaves and crowned by the Shahada\n",
+      "- The year inscribed — 1298 AH (1919 AD) — marks the Third Anglo-Afghan War and Afghan independence"
     ]
   },
   "af-kingdom": {

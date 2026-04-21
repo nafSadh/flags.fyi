@@ -1229,7 +1229,14 @@ function getWikiUrl(flagId, fd) {
 const commonsFileMap = {
   // Countries (current)
   'abkhazia': 'Flag_of_the_Republic_of_Abkhazia.svg',
-  'afghanistan': 'Flag_of_Afghanistan.svg',
+  'afghanistan': 'Flag_of_the_Islamic_Republic_of_Afghanistan.svg',
+  'ar-sun-of-may': 'Sun_of_May_(Argentine_Confederation).svg',
+  'ar-celeste-blanca': 'Flag_of_argentina_(1810-1812).svg',
+  'yerevan': 'Flag_of_Yerevan.svg',
+  'somaliland': 'Flag_of_Somaliland.svg',
+  'n-cyprus': 'Flag_of_the_Turkish_Republic_of_Northern_Cyprus.svg',
+  'greenland': 'Flag_of_Greenland.svg',
+  'uk': 'Flag_of_the_United_Kingdom.svg',
   'albania': 'Flag_of_Albania.svg',
   'algeria': 'Flag_of_Algeria.svg',
   'andorra': 'Flag_of_Andorra.svg',

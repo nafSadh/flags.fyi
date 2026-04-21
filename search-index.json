@@ -119,13 +119,13 @@
       "asia"
     ],
     "colors": [
-      "white",
       "black",
       "red",
-      "green"
+      "green",
+      "white"
     ],
     "flag": "/afghanistan/flag.svg",
-    "keywords": "afghanistan flag of afghanistan national-flag asia white black red green"
+    "keywords": "afghanistan flag of afghanistan national-flag asia black red green white"
   },
   {
     "id": "af-soviet",
