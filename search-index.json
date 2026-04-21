@@ -4321,6 +4321,292 @@
     "keywords": "iceland flag of iceland national-flag europe nordic blue white red"
   },
   {
+    "id": "ics-a",
+    "name": "ICS Alfa",
+    "title": "Flag of ICS Alfa",
+    "groups": [
+      "maritime"
+    ],
+    "colors": [],
+    "flag": "/maritime/ics-a.svg",
+    "keywords": "ics alfa flag of ics alfa maritime"
+  },
+  {
+    "id": "ics-b",
+    "name": "ICS Bravo",
+    "title": "Flag of ICS Bravo",
+    "groups": [
+      "maritime"
+    ],
+    "colors": [],
+    "flag": "/maritime/ics-b.svg",
+    "keywords": "ics bravo flag of ics bravo maritime"
+  },
+  {
+    "id": "ics-c",
+    "name": "ICS Charlie",
+    "title": "Flag of ICS Charlie",
+    "groups": [
+      "maritime"
+    ],
+    "colors": [],
+    "flag": "/maritime/ics-c.svg",
+    "keywords": "ics charlie flag of ics charlie maritime"
+  },
+  {
+    "id": "ics-d",
+    "name": "ICS Delta",
+    "title": "Flag of ICS Delta",
+    "groups": [
+      "maritime"
+    ],
+    "colors": [],
+    "flag": "/maritime/ics-d.svg",
+    "keywords": "ics delta flag of ics delta maritime"
+  },
+  {
+    "id": "ics-e",
+    "name": "ICS Echo",
+    "title": "Flag of ICS Echo",
+    "groups": [
+      "maritime"
+    ],
+    "colors": [],
+    "flag": "/maritime/ics-e.svg",
+    "keywords": "ics echo flag of ics echo maritime"
+  },
+  {
+    "id": "ics-f",
+    "name": "ICS Foxtrot",
+    "title": "Flag of ICS Foxtrot",
+    "groups": [
+      "maritime"
+    ],
+    "colors": [],
+    "flag": "/maritime/ics-f.svg",
+    "keywords": "ics foxtrot flag of ics foxtrot maritime"
+  },
+  {
+    "id": "ics-g",
+    "name": "ICS Golf",
+    "title": "Flag of ICS Golf",
+    "groups": [
+      "maritime"
+    ],
+    "colors": [],
+    "flag": "/maritime/ics-g.svg",
+    "keywords": "ics golf flag of ics golf maritime"
+  },
+  {
+    "id": "ics-h",
+    "name": "ICS Hotel",
+    "title": "Flag of ICS Hotel",
+    "groups": [
+      "maritime"
+    ],
+    "colors": [],
+    "flag": "/maritime/ics-h.svg",
+    "keywords": "ics hotel flag of ics hotel maritime"
+  },
+  {
+    "id": "ics-i",
+    "name": "ICS India",
+    "title": "Flag of ICS India",
+    "groups": [
+      "maritime"
+    ],
+    "colors": [],
+    "flag": "/maritime/ics-i.svg",
+    "keywords": "ics india flag of ics india maritime"
+  },
+  {
+    "id": "ics-j",
+    "name": "ICS Juliet",
+    "title": "Flag of ICS Juliet",
+    "groups": [
+      "maritime"
+    ],
+    "colors": [],
+    "flag": "/maritime/ics-j.svg",
+    "keywords": "ics juliet flag of ics juliet maritime"
+  },
+  {
+    "id": "ics-k",
+    "name": "ICS Kilo",
+    "title": "Flag of ICS Kilo",
+    "groups": [
+      "maritime"
+    ],
+    "colors": [],
+    "flag": "/maritime/ics-k.svg",
+    "keywords": "ics kilo flag of ics kilo maritime"
+  },
+  {
+    "id": "ics-l",
+    "name": "ICS Lima",
+    "title": "Flag of ICS Lima",
+    "groups": [
+      "maritime"
+    ],
+    "colors": [],
+    "flag": "/maritime/ics-l.svg",
+    "keywords": "ics lima flag of ics lima maritime"
+  },
+  {
+    "id": "ics-m",
+    "name": "ICS Mike",
+    "title": "Flag of ICS Mike",
+    "groups": [
+      "maritime"
+    ],
+    "colors": [],
+    "flag": "/maritime/ics-m.svg",
+    "keywords": "ics mike flag of ics mike maritime"
+  },
+  {
+    "id": "ics-n",
+    "name": "ICS November",
+    "title": "Flag of ICS November",
+    "groups": [
+      "maritime"
+    ],
+    "colors": [],
+    "flag": "/maritime/ics-n.svg",
+    "keywords": "ics november flag of ics november maritime"
+  },
+  {
+    "id": "ics-o",
+    "name": "ICS Oscar",
+    "title": "Flag of ICS Oscar",
+    "groups": [
+      "maritime"
+    ],
+    "colors": [],
+    "flag": "/maritime/ics-o.svg",
+    "keywords": "ics oscar flag of ics oscar maritime"
+  },
+  {
+    "id": "ics-p",
+    "name": "ICS Papa",
+    "title": "Flag of ICS Papa",
+    "groups": [
+      "maritime"
+    ],
+    "colors": [],
+    "flag": "/maritime/ics-p.svg",
+    "keywords": "ics papa flag of ics papa maritime"
+  },
+  {
+    "id": "ics-q",
+    "name": "ICS Quebec",
+    "title": "Flag of ICS Quebec",
+    "groups": [
+      "maritime"
+    ],
+    "colors": [],
+    "flag": "/maritime/ics-q.svg",
+    "keywords": "ics quebec flag of ics quebec maritime"
+  },
+  {
+    "id": "ics-r",
+    "name": "ICS Romeo",
+    "title": "Flag of ICS Romeo",
+    "groups": [
+      "maritime"
+    ],
+    "colors": [],
+    "flag": "/maritime/ics-r.svg",
+    "keywords": "ics romeo flag of ics romeo maritime"
+  },
+  {
+    "id": "ics-s",
+    "name": "ICS Sierra",
+    "title": "Flag of ICS Sierra",
+    "groups": [
+      "maritime"
+    ],
+    "colors": [],
+    "flag": "/maritime/ics-s.svg",
+    "keywords": "ics sierra flag of ics sierra maritime"
+  },
+  {
+    "id": "ics-t",
+    "name": "ICS Tango",
+    "title": "Flag of ICS Tango",
+    "groups": [
+      "maritime"
+    ],
+    "colors": [],
+    "flag": "/maritime/ics-t.svg",
+    "keywords": "ics tango flag of ics tango maritime"
+  },
+  {
+    "id": "ics-u",
+    "name": "ICS Uniform",
+    "title": "Flag of ICS Uniform",
+    "groups": [
+      "maritime"
+    ],
+    "colors": [],
+    "flag": "/maritime/ics-u.svg",
+    "keywords": "ics uniform flag of ics uniform maritime"
+  },
+  {
+    "id": "ics-v",
+    "name": "ICS Victor",
+    "title": "Flag of ICS Victor",
+    "groups": [
+      "maritime"
+    ],
+    "colors": [],
+    "flag": "/maritime/ics-v.svg",
+    "keywords": "ics victor flag of ics victor maritime"
+  },
+  {
+    "id": "ics-w",
+    "name": "ICS Whiskey",
+    "title": "Flag of ICS Whiskey",
+    "groups": [
+      "maritime"
+    ],
+    "colors": [],
+    "flag": "/maritime/ics-w.svg",
+    "keywords": "ics whiskey flag of ics whiskey maritime"
+  },
+  {
+    "id": "ics-x",
+    "name": "ICS X-ray",
+    "title": "Flag of ICS X-ray",
+    "groups": [
+      "maritime"
+    ],
+    "colors": [],
+    "flag": "/maritime/ics-x.svg",
+    "keywords": "ics x-ray flag of ics x-ray maritime"
+  },
+  {
+    "id": "ics-y",
+    "name": "ICS Yankee",
+    "title": "Flag of ICS Yankee",
+    "groups": [
+      "maritime"
+    ],
+    "colors": [],
+    "flag": "/maritime/ics-y.svg",
+    "keywords": "ics yankee flag of ics yankee maritime"
+  },
+  {
+    "id": "ics-z",
+    "name": "ICS Zulu",
+    "title": "Flag of ICS Zulu",
+    "groups": [
+      "maritime"
+    ],
+    "colors": [],
+    "flag": "/maritime/ics-z.svg",
+    "keywords": "ics zulu flag of ics zulu maritime"
+  },
+  {
     "id": "us/idaho",
     "name": "Idaho",
     "title": "Flag of Idaho",

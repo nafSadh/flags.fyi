@@ -3847,6 +3847,188 @@
     "id": "signal-flags",
     "index": "m/international-signal-flags"
   },
+  "ics-a": {
+    "g": "maritime",
+    "ns": "maritime",
+    "name": "ICS Alfa",
+    "id": "ics-a",
+    "index": "m/ics-alfa"
+  },
+  "ics-b": {
+    "g": "maritime",
+    "ns": "maritime",
+    "name": "ICS Bravo",
+    "id": "ics-b",
+    "index": "m/ics-bravo"
+  },
+  "ics-c": {
+    "g": "maritime",
+    "ns": "maritime",
+    "name": "ICS Charlie",
+    "id": "ics-c",
+    "index": "m/ics-charlie"
+  },
+  "ics-d": {
+    "g": "maritime",
+    "ns": "maritime",
+    "name": "ICS Delta",
+    "id": "ics-d",
+    "index": "m/ics-delta"
+  },
+  "ics-e": {
+    "g": "maritime",
+    "ns": "maritime",
+    "name": "ICS Echo",
+    "id": "ics-e",
+    "index": "m/ics-echo"
+  },
+  "ics-f": {
+    "g": "maritime",
+    "ns": "maritime",
+    "name": "ICS Foxtrot",
+    "id": "ics-f",
+    "index": "m/ics-foxtrot"
+  },
+  "ics-g": {
+    "g": "maritime",
+    "ns": "maritime",
+    "name": "ICS Golf",
+    "id": "ics-g",
+    "index": "m/ics-golf"
+  },
+  "ics-h": {
+    "g": "maritime",
+    "ns": "maritime",
+    "name": "ICS Hotel",
+    "id": "ics-h",
+    "index": "m/ics-hotel"
+  },
+  "ics-i": {
+    "g": "maritime",
+    "ns": "maritime",
+    "name": "ICS India",
+    "id": "ics-i",
+    "index": "m/ics-india"
+  },
+  "ics-j": {
+    "g": "maritime",
+    "ns": "maritime",
+    "name": "ICS Juliet",
+    "id": "ics-j",
+    "index": "m/ics-juliet"
+  },
+  "ics-k": {
+    "g": "maritime",
+    "ns": "maritime",
+    "name": "ICS Kilo",
+    "id": "ics-k",
+    "index": "m/ics-kilo"
+  },
+  "ics-l": {
+    "g": "maritime",
+    "ns": "maritime",
+    "name": "ICS Lima",
+    "id": "ics-l",
+    "index": "m/ics-lima"
+  },
+  "ics-m": {
+    "g": "maritime",
+    "ns": "maritime",
+    "name": "ICS Mike",
+    "id": "ics-m",
+    "index": "m/ics-mike"
+  },
+  "ics-n": {
+    "g": "maritime",
+    "ns": "maritime",
+    "name": "ICS November",
+    "id": "ics-n",
+    "index": "m/ics-november"
+  },
+  "ics-o": {
+    "g": "maritime",
+    "ns": "maritime",
+    "name": "ICS Oscar",
+    "id": "ics-o",
+    "index": "m/ics-oscar"
+  },
+  "ics-p": {
+    "g": "maritime",
+    "ns": "maritime",
+    "name": "ICS Papa",
+    "id": "ics-p",
+    "index": "m/ics-papa"
+  },
+  "ics-q": {
+    "g": "maritime",
+    "ns": "maritime",
+    "name": "ICS Quebec",
+    "id": "ics-q",
+    "index": "m/ics-quebec"
+  },
+  "ics-r": {
+    "g": "maritime",
+    "ns": "maritime",
+    "name": "ICS Romeo",
+    "id": "ics-r",
+    "index": "m/ics-romeo"
+  },
+  "ics-s": {
+    "g": "maritime",
+    "ns": "maritime",
+    "name": "ICS Sierra",
+    "id": "ics-s",
+    "index": "m/ics-sierra"
+  },
+  "ics-t": {
+    "g": "maritime",
+    "ns": "maritime",
+    "name": "ICS Tango",
+    "id": "ics-t",
+    "index": "m/ics-tango"
+  },
+  "ics-u": {
+    "g": "maritime",
+    "ns": "maritime",
+    "name": "ICS Uniform",
+    "id": "ics-u",
+    "index": "m/ics-uniform"
+  },
+  "ics-v": {
+    "g": "maritime",
+    "ns": "maritime",
+    "name": "ICS Victor",
+    "id": "ics-v",
+    "index": "m/ics-victor"
+  },
+  "ics-w": {
+    "g": "maritime",
+    "ns": "maritime",
+    "name": "ICS Whiskey",
+    "id": "ics-w",
+    "index": "m/ics-whiskey"
+  },
+  "ics-x": {
+    "g": "maritime",
+    "ns": "maritime",
+    "name": "ICS X-ray",
+    "id": "ics-x",
+    "index": "m/ics-x-ray"
+  },
+  "ics-y": {
+    "g": "maritime",
+    "ns": "maritime",
+    "name": "ICS Yankee",
+    "id": "ics-y",
+    "index": "m/ics-yankee"
+  },
+  "ics-z": {
+    "g": "maritime",
+    "ns": "maritime",
+    "name": "ICS Zulu",
+    "id": "ics-z",
+    "index": "m/ics-zulu"
+  },
   "us/california": {
     "ns": "us",
     "name": "California",

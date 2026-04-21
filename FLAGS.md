@@ -1,6 +1,6 @@
 # flags.fyi — All Flags
 
-755 flags total.
+781 flags total.
 
 ## Countries (707)
 
@@ -777,14 +777,40 @@
 | 18 | Rubber Pride | `pride-rubber` | `r/rubber-pride` |
 | 19 | Transgender Pride Flag | `pride-trans` | `r/transgender-pride-flag` |
 
-## Maritime (4)
+## Maritime (30)
 
 | # | Flag | ID | Index |
 |---|------|----|-------|
-| 1 | International Signal Flags | `signal-flags` | `m/international-signal-flags` |
-| 2 | Jolly Roger | `jolly-roger` | `m/jolly-roger` |
-| 3 | Red Ensign | `red-ensign` | `m/red-ensign` |
-| 4 | White Ensign | `white-ensign` | `m/white-ensign` |
+| 1 | ICS Alfa | `ics-a` | `m/ics-alfa` |
+| 2 | ICS Bravo | `ics-b` | `m/ics-bravo` |
+| 3 | ICS Charlie | `ics-c` | `m/ics-charlie` |
+| 4 | ICS Delta | `ics-d` | `m/ics-delta` |
+| 5 | ICS Echo | `ics-e` | `m/ics-echo` |
+| 6 | ICS Foxtrot | `ics-f` | `m/ics-foxtrot` |
+| 7 | ICS Golf | `ics-g` | `m/ics-golf` |
+| 8 | ICS Hotel | `ics-h` | `m/ics-hotel` |
+| 9 | ICS India | `ics-i` | `m/ics-india` |
+| 10 | ICS Juliet | `ics-j` | `m/ics-juliet` |
+| 11 | ICS Kilo | `ics-k` | `m/ics-kilo` |
+| 12 | ICS Lima | `ics-l` | `m/ics-lima` |
+| 13 | ICS Mike | `ics-m` | `m/ics-mike` |
+| 14 | ICS November | `ics-n` | `m/ics-november` |
+| 15 | ICS Oscar | `ics-o` | `m/ics-oscar` |
+| 16 | ICS Papa | `ics-p` | `m/ics-papa` |
+| 17 | ICS Quebec | `ics-q` | `m/ics-quebec` |
+| 18 | ICS Romeo | `ics-r` | `m/ics-romeo` |
+| 19 | ICS Sierra | `ics-s` | `m/ics-sierra` |
+| 20 | ICS Tango | `ics-t` | `m/ics-tango` |
+| 21 | ICS Uniform | `ics-u` | `m/ics-uniform` |
+| 22 | ICS Victor | `ics-v` | `m/ics-victor` |
+| 23 | ICS Whiskey | `ics-w` | `m/ics-whiskey` |
+| 24 | ICS X-ray | `ics-x` | `m/ics-x-ray` |
+| 25 | ICS Yankee | `ics-y` | `m/ics-yankee` |
+| 26 | ICS Zulu | `ics-z` | `m/ics-zulu` |
+| 27 | International Signal Flags | `signal-flags` | `m/international-signal-flags` |
+| 28 | Jolly Roger | `jolly-roger` | `m/jolly-roger` |
+| 29 | Red Ensign | `red-ensign` | `m/red-ensign` |
+| 30 | White Ensign | `white-ensign` | `m/white-ensign` |
 
 ## Other (1)
 

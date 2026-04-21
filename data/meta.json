@@ -3661,11 +3661,141 @@
   },
   "pride-genderqueer": {
     "prev": "pride-genderfluid",
+    "next": "ics-a",
+    "cat": "other"
+  },
+  "ics-a": {
+    "prev": "pride-genderqueer",
+    "next": "ics-b",
+    "cat": "other"
+  },
+  "ics-b": {
+    "prev": "ics-a",
+    "next": "ics-c",
+    "cat": "other"
+  },
+  "ics-c": {
+    "prev": "ics-b",
+    "next": "ics-d",
+    "cat": "other"
+  },
+  "ics-d": {
+    "prev": "ics-c",
+    "next": "ics-e",
+    "cat": "other"
+  },
+  "ics-e": {
+    "prev": "ics-d",
+    "next": "ics-f",
+    "cat": "other"
+  },
+  "ics-f": {
+    "prev": "ics-e",
+    "next": "ics-g",
+    "cat": "other"
+  },
+  "ics-g": {
+    "prev": "ics-f",
+    "next": "ics-h",
+    "cat": "other"
+  },
+  "ics-h": {
+    "prev": "ics-g",
+    "next": "ics-i",
+    "cat": "other"
+  },
+  "ics-i": {
+    "prev": "ics-h",
+    "next": "ics-j",
+    "cat": "other"
+  },
+  "ics-j": {
+    "prev": "ics-i",
+    "next": "ics-k",
+    "cat": "other"
+  },
+  "ics-k": {
+    "prev": "ics-j",
+    "next": "ics-l",
+    "cat": "other"
+  },
+  "ics-l": {
+    "prev": "ics-k",
+    "next": "ics-m",
+    "cat": "other"
+  },
+  "ics-m": {
+    "prev": "ics-l",
+    "next": "ics-n",
+    "cat": "other"
+  },
+  "ics-n": {
+    "prev": "ics-m",
+    "next": "ics-o",
+    "cat": "other"
+  },
+  "ics-o": {
+    "prev": "ics-n",
+    "next": "ics-p",
+    "cat": "other"
+  },
+  "ics-p": {
+    "prev": "ics-o",
+    "next": "ics-q",
+    "cat": "other"
+  },
+  "ics-q": {
+    "prev": "ics-p",
+    "next": "ics-r",
+    "cat": "other"
+  },
+  "ics-r": {
+    "prev": "ics-q",
+    "next": "ics-s",
+    "cat": "other"
+  },
+  "ics-s": {
+    "prev": "ics-r",
+    "next": "ics-t",
+    "cat": "other"
+  },
+  "ics-t": {
+    "prev": "ics-s",
+    "next": "ics-u",
+    "cat": "other"
+  },
+  "ics-u": {
+    "prev": "ics-t",
+    "next": "ics-v",
+    "cat": "other"
+  },
+  "ics-v": {
+    "prev": "ics-u",
+    "next": "ics-w",
+    "cat": "other"
+  },
+  "ics-w": {
+    "prev": "ics-v",
+    "next": "ics-x",
+    "cat": "other"
+  },
+  "ics-x": {
+    "prev": "ics-w",
+    "next": "ics-y",
+    "cat": "other"
+  },
+  "ics-y": {
+    "prev": "ics-x",
+    "next": "ics-z",
+    "cat": "other"
+  },
+  "ics-z": {
+    "prev": "ics-y",
     "next": "signal-flags",
     "cat": "other"
   },
   "signal-flags": {
-    "prev": "pride-genderqueer",
+    "prev": "ics-z",
     "next": "pride-intersex",
     "cat": "other"
   },
