@@ -66,6 +66,18 @@
     "keywords": "abruzzo flag of abruzzo sub europe"
   },
   {
+    "id": "id/aceh",
+    "name": "Aceh",
+    "title": "Flag of Aceh",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/indonesia-sub/aceh.svg",
+    "keywords": "aceh flag of aceh sub asia"
+  },
+  {
     "id": "achaemenid",
     "name": "Achaemenid Empire",
     "title": "Standard of the Achaemenid Empire",
@@ -1104,6 +1116,18 @@
     "keywords": "balearic islands flag of balearic islands sub europe"
   },
   {
+    "id": "id/bali",
+    "name": "Bali",
+    "title": "Flag of Bali",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/indonesia-sub/bali.svg",
+    "keywords": "bali flag of bali sub asia"
+  },
+  {
     "id": "bangladesh",
     "name": "Bangladesh",
     "title": "Flag of the People's Republic of Bangladesh",
@@ -1161,6 +1185,18 @@
     "colors": [],
     "flag": "/philippines-sub/bangsamoro.svg",
     "keywords": "bangsamoro (barmm) flag of bangsamoro (barmm) sub asia"
+  },
+  {
+    "id": "id/banten",
+    "name": "Banten",
+    "title": "Flag of Banten",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/indonesia-sub/banten.svg",
+    "keywords": "banten flag of banten sub asia"
   },
   {
     "id": "barbados",
@@ -1304,6 +1340,18 @@
     ],
     "flag": "/belize/flag.svg",
     "keywords": "belize flag of belize national-flag north-america blue red white"
+  },
+  {
+    "id": "id/bengkulu",
+    "name": "Bengkulu",
+    "title": "Flag of Bengkulu",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/indonesia-sub/bengkulu.svg",
+    "keywords": "bengkulu flag of bengkulu sub asia"
   },
   {
     "id": "benin",
@@ -2385,6 +2433,42 @@
     "keywords": "central african republic flag of the central african republic national-flag africa blue white green yellow red"
   },
   {
+    "id": "id/central-java",
+    "name": "Central Java",
+    "title": "Flag of Central Java",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/indonesia-sub/central-java.svg",
+    "keywords": "central java flag of central java sub asia"
+  },
+  {
+    "id": "id/central-kalimantan",
+    "name": "Central Kalimantan",
+    "title": "Flag of Central Kalimantan",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/indonesia-sub/central-kalimantan.svg",
+    "keywords": "central kalimantan flag of central kalimantan sub asia"
+  },
+  {
+    "id": "id/central-sulawesi",
+    "name": "Central Sulawesi",
+    "title": "Flag of Central Sulawesi",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/indonesia-sub/central-sulawesi.svg",
+    "keywords": "central sulawesi flag of central sulawesi sub asia"
+  },
+  {
     "id": "fr/centre-val-de-loire",
     "name": "Centre-Val de Loire",
     "title": "Flag of Centre-Val de Loire",
@@ -3316,6 +3400,42 @@
     "keywords": "east germany (gdr) flag of the german democratic republic historic former-flag europe black red gold"
   },
   {
+    "id": "id/east-java",
+    "name": "East Java",
+    "title": "Flag of East Java",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/indonesia-sub/east-java.svg",
+    "keywords": "east java flag of east java sub asia"
+  },
+  {
+    "id": "id/east-kalimantan",
+    "name": "East Kalimantan",
+    "title": "Flag of East Kalimantan",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/indonesia-sub/east-kalimantan.svg",
+    "keywords": "east kalimantan flag of east kalimantan sub asia"
+  },
+  {
+    "id": "id/east-nusa-tenggara",
+    "name": "East Nusa Tenggara",
+    "title": "Flag of East Nusa Tenggara",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/indonesia-sub/east-nusa-tenggara.svg",
+    "keywords": "east nusa tenggara flag of east nusa tenggara sub asia"
+  },
+  {
     "id": "east-pakistan",
     "name": "East Pakistan",
     "title": "Flag of East Pakistan",
@@ -4165,6 +4285,18 @@
     ],
     "flag": "/ghana-hist/gh-gold-coast.svg",
     "keywords": "gold coast colony flag of the gold coast colony historic colonial africa blue red white"
+  },
+  {
+    "id": "id/gorontalo",
+    "name": "Gorontalo",
+    "title": "Flag of Gorontalo",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/indonesia-sub/gorontalo.svg",
+    "keywords": "gorontalo flag of gorontalo sub asia"
   },
   {
     "id": "gran-colombia",
@@ -5470,6 +5602,18 @@
     "keywords": "jamaica flag of jamaica national-flag caribbean gold green black"
   },
   {
+    "id": "id/jambi",
+    "name": "Jambi",
+    "title": "Flag of Jambi",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/indonesia-sub/jambi.svg",
+    "keywords": "jambi flag of jambi sub asia"
+  },
+  {
     "id": "in/jammu-kashmir",
     "name": "Jammu & Kashmir",
     "title": "Flag of Jammu & Kashmir",
@@ -6470,6 +6614,18 @@
     "keywords": "ladakh flag of ladakh sub asia"
   },
   {
+    "id": "id/lampung",
+    "name": "Lampung",
+    "title": "Flag of Lampung",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/indonesia-sub/lampung.svg",
+    "keywords": "lampung flag of lampung sub asia"
+  },
+  {
     "id": "laos",
     "name": "Laos",
     "title": "Flag of the Lao People's Democratic Republic",
@@ -7036,6 +7192,18 @@
     ],
     "flag": "/malta/flag.svg",
     "keywords": "malta flag of the republic of malta national-flag europe white red grey"
+  },
+  {
+    "id": "id/maluku",
+    "name": "Maluku",
+    "title": "Flag of Maluku",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/indonesia-sub/maluku.svg",
+    "keywords": "maluku flag of maluku sub asia"
   },
   {
     "id": "egypt-mamluk",
@@ -8276,6 +8444,18 @@
     "keywords": "north dakota flag of north dakota sub north-america"
   },
   {
+    "id": "id/north-kalimantan",
+    "name": "North Kalimantan",
+    "title": "Flag of North Kalimantan",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/indonesia-sub/north-kalimantan.svg",
+    "keywords": "north kalimantan flag of north kalimantan sub asia"
+  },
+  {
     "id": "north-macedonia",
     "name": "North Macedonia",
     "title": "Flag of the Republic of North Macedonia",
@@ -8289,6 +8469,18 @@
     ],
     "flag": "/north-macedonia/flag.svg",
     "keywords": "north macedonia flag of the republic of north macedonia national-flag europe red yellow"
+  },
+  {
+    "id": "id/north-maluku",
+    "name": "North Maluku",
+    "title": "Flag of North Maluku",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/indonesia-sub/north-maluku.svg",
+    "keywords": "north maluku flag of north maluku sub asia"
   },
   {
     "id": "ru/north-ossetia",
@@ -8314,6 +8506,30 @@
     "colors": [],
     "flag": "/germany-sub/north-rhine-westphalia.svg",
     "keywords": "north rhine-westphalia flag of north rhine-westphalia sub europe"
+  },
+  {
+    "id": "id/north-sulawesi",
+    "name": "North Sulawesi",
+    "title": "Flag of North Sulawesi",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/indonesia-sub/north-sulawesi.svg",
+    "keywords": "north sulawesi flag of north sulawesi sub asia"
+  },
+  {
+    "id": "id/north-sumatra",
+    "name": "North Sumatra",
+    "title": "Flag of North Sumatra",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/indonesia-sub/north-sumatra.svg",
+    "keywords": "north sumatra flag of north sumatra sub asia"
   },
   {
     "id": "north-yemen",
@@ -8956,6 +9172,18 @@
     ],
     "flag": "/empires/papal-states.svg",
     "keywords": "papal states flag of the papal states historic empire europe gold white"
+  },
+  {
+    "id": "id/papua",
+    "name": "Papua",
+    "title": "Flag of Papua",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/indonesia-sub/papua.svg",
+    "keywords": "papua flag of papua sub asia"
   },
   {
     "id": "papua-new-guinea",
@@ -9772,6 +10000,18 @@
     "colors": [],
     "flag": "/us-states/rhode-island.svg",
     "keywords": "rhode island flag of rhode island sub north-america"
+  },
+  {
+    "id": "id/riau",
+    "name": "Riau",
+    "title": "Flag of Riau",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/indonesia-sub/riau.svg",
+    "keywords": "riau flag of riau sub asia"
   },
   {
     "id": "br/rj",
@@ -10937,6 +11177,18 @@
     "keywords": "south georgia & south sandwich islands south georgia and the south sandwich islands british-overseas blue red white"
   },
   {
+    "id": "id/south-kalimantan",
+    "name": "South Kalimantan",
+    "title": "Flag of South Kalimantan",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/indonesia-sub/south-kalimantan.svg",
+    "keywords": "south kalimantan flag of south kalimantan sub asia"
+  },
+  {
     "id": "south-sudan",
     "name": "South Sudan",
     "title": "Flag of the Republic of South Sudan",
@@ -10954,6 +11206,30 @@
     ],
     "flag": "/south-sudan/flag.svg",
     "keywords": "south sudan flag of the republic of south sudan national-flag africa black red green white blue yellow"
+  },
+  {
+    "id": "id/south-sulawesi",
+    "name": "South Sulawesi",
+    "title": "Flag of South Sulawesi",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/indonesia-sub/south-sulawesi.svg",
+    "keywords": "south sulawesi flag of south sulawesi sub asia"
+  },
+  {
+    "id": "id/south-sumatra",
+    "name": "South Sumatra",
+    "title": "Flag of South Sumatra",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/indonesia-sub/south-sumatra.svg",
+    "keywords": "south sumatra flag of south sumatra sub asia"
   },
   {
     "id": "vn-south",
@@ -10988,6 +11264,18 @@
     ],
     "flag": "/yemen/south-.svg",
     "keywords": "south yemen (pdry) flag of the people's democratic republic of yemen historic former-flag arab red white black blue"
+  },
+  {
+    "id": "id/southeast-sulawesi",
+    "name": "Southeast Sulawesi",
+    "title": "Flag of Southeast Sulawesi",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/indonesia-sub/southeast-sulawesi.svg",
+    "keywords": "southeast sulawesi flag of southeast sulawesi sub asia"
   },
   {
     "id": "smom",
@@ -12529,6 +12817,42 @@
     "keywords": "west germany flag of the federal republic of germany (west) historic former-flag europe black red gold"
   },
   {
+    "id": "id/west-java",
+    "name": "West Java",
+    "title": "Flag of West Java",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/indonesia-sub/west-java.svg",
+    "keywords": "west java flag of west java sub asia"
+  },
+  {
+    "id": "id/west-kalimantan",
+    "name": "West Kalimantan",
+    "title": "Flag of West Kalimantan",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/indonesia-sub/west-kalimantan.svg",
+    "keywords": "west kalimantan flag of west kalimantan sub asia"
+  },
+  {
+    "id": "id/west-nusa-tenggara",
+    "name": "West Nusa Tenggara",
+    "title": "Flag of West Nusa Tenggara",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/indonesia-sub/west-nusa-tenggara.svg",
+    "keywords": "west nusa tenggara flag of west nusa tenggara sub asia"
+  },
+  {
     "id": "pl/west-pomeranian",
     "name": "West Pomeranian Voivodeship",
     "title": "Flag of West Pomeranian Voivodeship",
@@ -12539,6 +12863,30 @@
     "colors": [],
     "flag": "/poland-sub/west-pomeranian.svg",
     "keywords": "west pomeranian voivodeship flag of west pomeranian voivodeship sub europe"
+  },
+  {
+    "id": "id/west-sulawesi",
+    "name": "West Sulawesi",
+    "title": "Flag of West Sulawesi",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/indonesia-sub/west-sulawesi.svg",
+    "keywords": "west sulawesi flag of west sulawesi sub asia"
+  },
+  {
+    "id": "id/west-sumatra",
+    "name": "West Sumatra",
+    "title": "Flag of West Sumatra",
+    "groups": [
+      "sub",
+      "asia"
+    ],
+    "colors": [],
+    "flag": "/indonesia-sub/west-sumatra.svg",
+    "keywords": "west sumatra flag of west sumatra sub asia"
   },
   {
     "id": "us/west-virginia",

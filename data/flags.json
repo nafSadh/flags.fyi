@@ -892,6 +892,209 @@
     "id": "indonesia",
     "index": "c/indonesia"
   },
+  "id/aceh": {
+    "g": "sub,asia",
+    "ns": "indonesia-sub",
+    "name": "Aceh",
+    "id": "id/aceh",
+    "index": "c/id/aceh"
+  },
+  "id/bali": {
+    "g": "sub,asia",
+    "ns": "indonesia-sub",
+    "name": "Bali",
+    "id": "id/bali",
+    "index": "c/id/bali"
+  },
+  "id/banten": {
+    "g": "sub,asia",
+    "ns": "indonesia-sub",
+    "name": "Banten",
+    "id": "id/banten",
+    "index": "c/id/banten"
+  },
+  "id/bengkulu": {
+    "g": "sub,asia",
+    "ns": "indonesia-sub",
+    "name": "Bengkulu",
+    "id": "id/bengkulu",
+    "index": "c/id/bengkulu"
+  },
+  "id/central-java": {
+    "g": "sub,asia",
+    "ns": "indonesia-sub",
+    "name": "Central Java",
+    "id": "id/central-java",
+    "index": "c/id/central-java"
+  },
+  "id/central-kalimantan": {
+    "g": "sub,asia",
+    "ns": "indonesia-sub",
+    "name": "Central Kalimantan",
+    "id": "id/central-kalimantan",
+    "index": "c/id/central-kalimantan"
+  },
+  "id/central-sulawesi": {
+    "g": "sub,asia",
+    "ns": "indonesia-sub",
+    "name": "Central Sulawesi",
+    "id": "id/central-sulawesi",
+    "index": "c/id/central-sulawesi"
+  },
+  "id/east-java": {
+    "g": "sub,asia",
+    "ns": "indonesia-sub",
+    "name": "East Java",
+    "id": "id/east-java",
+    "index": "c/id/east-java"
+  },
+  "id/east-kalimantan": {
+    "g": "sub,asia",
+    "ns": "indonesia-sub",
+    "name": "East Kalimantan",
+    "id": "id/east-kalimantan",
+    "index": "c/id/east-kalimantan"
+  },
+  "id/east-nusa-tenggara": {
+    "g": "sub,asia",
+    "ns": "indonesia-sub",
+    "name": "East Nusa Tenggara",
+    "id": "id/east-nusa-tenggara",
+    "index": "c/id/east-nusa-tenggara"
+  },
+  "id/gorontalo": {
+    "g": "sub,asia",
+    "ns": "indonesia-sub",
+    "name": "Gorontalo",
+    "id": "id/gorontalo",
+    "index": "c/id/gorontalo"
+  },
+  "id/jambi": {
+    "g": "sub,asia",
+    "ns": "indonesia-sub",
+    "name": "Jambi",
+    "id": "id/jambi",
+    "index": "c/id/jambi"
+  },
+  "id/lampung": {
+    "g": "sub,asia",
+    "ns": "indonesia-sub",
+    "name": "Lampung",
+    "id": "id/lampung",
+    "index": "c/id/lampung"
+  },
+  "id/maluku": {
+    "g": "sub,asia",
+    "ns": "indonesia-sub",
+    "name": "Maluku",
+    "id": "id/maluku",
+    "index": "c/id/maluku"
+  },
+  "id/north-kalimantan": {
+    "g": "sub,asia",
+    "ns": "indonesia-sub",
+    "name": "North Kalimantan",
+    "id": "id/north-kalimantan",
+    "index": "c/id/north-kalimantan"
+  },
+  "id/north-maluku": {
+    "g": "sub,asia",
+    "ns": "indonesia-sub",
+    "name": "North Maluku",
+    "id": "id/north-maluku",
+    "index": "c/id/north-maluku"
+  },
+  "id/north-sulawesi": {
+    "g": "sub,asia",
+    "ns": "indonesia-sub",
+    "name": "North Sulawesi",
+    "id": "id/north-sulawesi",
+    "index": "c/id/north-sulawesi"
+  },
+  "id/north-sumatra": {
+    "g": "sub,asia",
+    "ns": "indonesia-sub",
+    "name": "North Sumatra",
+    "id": "id/north-sumatra",
+    "index": "c/id/north-sumatra"
+  },
+  "id/papua": {
+    "g": "sub,asia",
+    "ns": "indonesia-sub",
+    "name": "Papua",
+    "id": "id/papua",
+    "index": "c/id/papua"
+  },
+  "id/riau": {
+    "g": "sub,asia",
+    "ns": "indonesia-sub",
+    "name": "Riau",
+    "id": "id/riau",
+    "index": "c/id/riau"
+  },
+  "id/south-kalimantan": {
+    "g": "sub,asia",
+    "ns": "indonesia-sub",
+    "name": "South Kalimantan",
+    "id": "id/south-kalimantan",
+    "index": "c/id/south-kalimantan"
+  },
+  "id/south-sulawesi": {
+    "g": "sub,asia",
+    "ns": "indonesia-sub",
+    "name": "South Sulawesi",
+    "id": "id/south-sulawesi",
+    "index": "c/id/south-sulawesi"
+  },
+  "id/south-sumatra": {
+    "g": "sub,asia",
+    "ns": "indonesia-sub",
+    "name": "South Sumatra",
+    "id": "id/south-sumatra",
+    "index": "c/id/south-sumatra"
+  },
+  "id/southeast-sulawesi": {
+    "g": "sub,asia",
+    "ns": "indonesia-sub",
+    "name": "Southeast Sulawesi",
+    "id": "id/southeast-sulawesi",
+    "index": "c/id/southeast-sulawesi"
+  },
+  "id/west-java": {
+    "g": "sub,asia",
+    "ns": "indonesia-sub",
+    "name": "West Java",
+    "id": "id/west-java",
+    "index": "c/id/west-java"
+  },
+  "id/west-kalimantan": {
+    "g": "sub,asia",
+    "ns": "indonesia-sub",
+    "name": "West Kalimantan",
+    "id": "id/west-kalimantan",
+    "index": "c/id/west-kalimantan"
+  },
+  "id/west-nusa-tenggara": {
+    "g": "sub,asia",
+    "ns": "indonesia-sub",
+    "name": "West Nusa Tenggara",
+    "id": "id/west-nusa-tenggara",
+    "index": "c/id/west-nusa-tenggara"
+  },
+  "id/west-sulawesi": {
+    "g": "sub,asia",
+    "ns": "indonesia-sub",
+    "name": "West Sulawesi",
+    "id": "id/west-sulawesi",
+    "index": "c/id/west-sulawesi"
+  },
+  "id/west-sumatra": {
+    "g": "sub,asia",
+    "ns": "indonesia-sub",
+    "name": "West Sumatra",
+    "id": "id/west-sumatra",
+    "index": "c/id/west-sumatra"
+  },
   "iran": {
     "g": "asia",
     "ns": "iran",

@@ -1856,11 +1856,16 @@
   },
   "it/abruzzo": {
     "prev": "au/aboriginal",
+    "next": "id/aceh",
+    "cat": "subdivisions"
+  },
+  "id/aceh": {
+    "prev": "it/abruzzo",
     "next": "br/ac",
     "cat": "subdivisions"
   },
   "br/ac": {
-    "prev": "it/abruzzo",
+    "prev": "id/aceh",
     "next": "ru/adygea",
     "cat": "subdivisions"
   },
@@ -2036,16 +2041,26 @@
   },
   "es/balearic-islands": {
     "prev": "mx/bcs",
+    "next": "id/bali",
+    "cat": "subdivisions"
+  },
+  "id/bali": {
+    "prev": "es/balearic-islands",
     "next": "ph/bangsamoro",
     "cat": "subdivisions"
   },
   "ph/bangsamoro": {
-    "prev": "es/balearic-islands",
+    "prev": "id/bali",
+    "next": "id/banten",
+    "cat": "subdivisions"
+  },
+  "id/banten": {
+    "prev": "ph/bangsamoro",
     "next": "ru/bashkortostan",
     "cat": "subdivisions"
   },
   "ru/bashkortostan": {
-    "prev": "ph/bangsamoro",
+    "prev": "id/banten",
     "next": "it/basilicata",
     "cat": "subdivisions"
   },
@@ -2066,11 +2081,16 @@
   },
   "ru/belgorod-oblast": {
     "prev": "de/bavaria",
+    "next": "id/bengkulu",
+    "cat": "subdivisions"
+  },
+  "id/bengkulu": {
+    "prev": "ru/belgorod-oblast",
     "next": "de/berlin",
     "cat": "subdivisions"
   },
   "de/berlin": {
-    "prev": "ru/belgorod-oblast",
+    "prev": "id/bengkulu",
     "next": "bermuda",
     "cat": "subdivisions"
   },
@@ -2331,11 +2351,26 @@
   },
   "br/ce": {
     "prev": "cayman-islands",
+    "next": "id/central-java",
+    "cat": "subdivisions"
+  },
+  "id/central-java": {
+    "prev": "br/ce",
+    "next": "id/central-kalimantan",
+    "cat": "subdivisions"
+  },
+  "id/central-kalimantan": {
+    "prev": "id/central-java",
+    "next": "id/central-sulawesi",
+    "cat": "subdivisions"
+  },
+  "id/central-sulawesi": {
+    "prev": "id/central-kalimantan",
     "next": "fr/centre-val-de-loire",
     "cat": "subdivisions"
   },
   "fr/centre-val-de-loire": {
-    "prev": "br/ce",
+    "prev": "id/central-sulawesi",
     "next": "es/ceuta",
     "cat": "subdivisions"
   },
@@ -2506,11 +2541,26 @@
   },
   "mx/dgo": {
     "prev": "ua/donetsk",
+    "next": "id/east-java",
+    "cat": "subdivisions"
+  },
+  "id/east-java": {
+    "prev": "mx/dgo",
+    "next": "id/east-kalimantan",
+    "cat": "subdivisions"
+  },
+  "id/east-kalimantan": {
+    "prev": "id/east-java",
+    "next": "id/east-nusa-tenggara",
+    "cat": "subdivisions"
+  },
+  "id/east-nusa-tenggara": {
+    "prev": "id/east-kalimantan",
     "next": "jp/ehime",
     "cat": "subdivisions"
   },
   "jp/ehime": {
-    "prev": "mx/dgo",
+    "prev": "id/east-nusa-tenggara",
     "next": "it/emilia-romagna",
     "cat": "subdivisions"
   },
@@ -2596,11 +2646,16 @@
   },
   "br/go": {
     "prev": "in/goa",
+    "next": "id/gorontalo",
+    "cat": "subdivisions"
+  },
+  "id/gorontalo": {
+    "prev": "br/go",
     "next": "fr/grand-est",
     "cat": "subdivisions"
   },
   "fr/grand-est": {
-    "prev": "br/go",
+    "prev": "id/gorontalo",
     "next": "pl/greater-poland",
     "cat": "subdivisions"
   },
@@ -2746,11 +2801,16 @@
   },
   "mx/jal": {
     "prev": "jp/iwate",
+    "next": "id/jambi",
+    "cat": "subdivisions"
+  },
+  "id/jambi": {
+    "prev": "mx/jal",
     "next": "in/jammu-kashmir",
     "cat": "subdivisions"
   },
   "in/jammu-kashmir": {
-    "prev": "mx/jal",
+    "prev": "id/jambi",
     "next": "jersey",
     "cat": "subdivisions"
   },
@@ -2931,11 +2991,16 @@
   },
   "in/ladakh": {
     "prev": "es/la-rioja",
+    "next": "id/lampung",
+    "cat": "subdivisions"
+  },
+  "id/lampung": {
+    "prev": "in/ladakh",
     "next": "it/lazio",
     "cat": "subdivisions"
   },
   "it/lazio": {
-    "prev": "in/ladakh",
+    "prev": "id/lampung",
     "next": "ru/leningrad-oblast",
     "cat": "subdivisions"
   },
@@ -3021,11 +3086,16 @@
   },
   "us/maine": {
     "prev": "in/maharashtra",
+    "next": "id/maluku",
+    "cat": "subdivisions"
+  },
+  "id/maluku": {
+    "prev": "us/maine",
     "next": "in/manipur",
     "cat": "subdivisions"
   },
   "in/manipur": {
-    "prev": "us/maine",
+    "prev": "id/maluku",
     "next": "ca/manitoba",
     "cat": "subdivisions"
   },
@@ -3291,21 +3361,41 @@
   },
   "us/north-dakota": {
     "prev": "us/north-carolina",
+    "next": "id/north-kalimantan",
+    "cat": "subdivisions"
+  },
+  "id/north-kalimantan": {
+    "prev": "us/north-dakota",
+    "next": "id/north-maluku",
+    "cat": "subdivisions"
+  },
+  "id/north-maluku": {
+    "prev": "id/north-kalimantan",
     "next": "ru/north-ossetia",
     "cat": "subdivisions"
   },
   "ru/north-ossetia": {
-    "prev": "us/north-dakota",
+    "prev": "id/north-maluku",
     "next": "de/north-rhine-westphalia",
     "cat": "subdivisions"
   },
   "de/north-rhine-westphalia": {
     "prev": "ru/north-ossetia",
+    "next": "id/north-sulawesi",
+    "cat": "subdivisions"
+  },
+  "id/north-sulawesi": {
+    "prev": "de/north-rhine-westphalia",
+    "next": "id/north-sumatra",
+    "cat": "subdivisions"
+  },
+  "id/north-sumatra": {
+    "prev": "id/north-sulawesi",
     "next": "uk/northern-ireland",
     "cat": "subdivisions"
   },
   "uk/northern-ireland": {
-    "prev": "de/north-rhine-westphalia",
+    "prev": "id/north-sumatra",
     "next": "au/nt",
     "cat": "subdivisions"
   },
@@ -3426,11 +3516,16 @@
   },
   "jp/osaka": {
     "prev": "ru/oryol-oblast",
+    "next": "id/papua",
+    "cat": "subdivisions"
+  },
+  "id/papua": {
+    "prev": "jp/osaka",
     "next": "br/pa",
     "cat": "subdivisions"
   },
   "br/pa": {
-    "prev": "jp/osaka",
+    "prev": "id/papua",
     "next": "br/pb",
     "cat": "subdivisions"
   },
@@ -3576,11 +3671,16 @@
   },
   "us/rhode-island": {
     "prev": "de/rhineland-palatinate",
+    "next": "id/riau",
+    "cat": "subdivisions"
+  },
+  "id/riau": {
+    "prev": "us/rhode-island",
     "next": "br/rj",
     "cat": "subdivisions"
   },
   "br/rj": {
-    "prev": "us/rhode-island",
+    "prev": "id/riau",
     "next": "br/rn",
     "cat": "subdivisions"
   },
@@ -3816,11 +3916,31 @@
   },
   "sgssi": {
     "prev": "us/south-dakota",
+    "next": "id/south-kalimantan",
+    "cat": "subdivisions"
+  },
+  "id/south-kalimantan": {
+    "prev": "sgssi",
+    "next": "id/south-sulawesi",
+    "cat": "subdivisions"
+  },
+  "id/south-sulawesi": {
+    "prev": "id/south-kalimantan",
+    "next": "id/south-sumatra",
+    "cat": "subdivisions"
+  },
+  "id/south-sumatra": {
+    "prev": "id/south-sulawesi",
+    "next": "id/southeast-sulawesi",
+    "cat": "subdivisions"
+  },
+  "id/southeast-sulawesi": {
+    "prev": "id/south-sumatra",
     "next": "mx/mex",
     "cat": "subdivisions"
   },
   "mx/mex": {
-    "prev": "sgssi",
+    "prev": "id/southeast-sulawesi",
     "next": "ru/stavropol-krai",
     "cat": "subdivisions"
   },
@@ -4111,16 +4231,41 @@
   },
   "us/washington-dc": {
     "prev": "us/washington",
+    "next": "id/west-java",
+    "cat": "subdivisions"
+  },
+  "id/west-java": {
+    "prev": "us/washington-dc",
+    "next": "id/west-kalimantan",
+    "cat": "subdivisions"
+  },
+  "id/west-kalimantan": {
+    "prev": "id/west-java",
+    "next": "id/west-nusa-tenggara",
+    "cat": "subdivisions"
+  },
+  "id/west-nusa-tenggara": {
+    "prev": "id/west-kalimantan",
     "next": "pl/west-pomeranian",
     "cat": "subdivisions"
   },
   "pl/west-pomeranian": {
-    "prev": "us/washington-dc",
+    "prev": "id/west-nusa-tenggara",
+    "next": "id/west-sulawesi",
+    "cat": "subdivisions"
+  },
+  "id/west-sulawesi": {
+    "prev": "pl/west-pomeranian",
+    "next": "id/west-sumatra",
+    "cat": "subdivisions"
+  },
+  "id/west-sumatra": {
+    "prev": "id/west-sulawesi",
     "next": "us/west-virginia",
     "cat": "subdivisions"
   },
   "us/west-virginia": {
-    "prev": "pl/west-pomeranian",
+    "prev": "id/west-sumatra",
     "next": "au/western-australia",
     "cat": "subdivisions"
   },
