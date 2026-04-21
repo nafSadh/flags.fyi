@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect y="400" width="1200" height="400" fill="#002868"/><rect width="1200" height="400" fill="#bf0a30"/><polygon points="600,200 620,260 685,260 632,300 652,360 600,320 548,360 568,300 515,260 580,260" fill="#c07328"/><line x1="600" y1="0" x2="600" y2="150" stroke="#ffd700" stroke-width="20"/>
-       <line x1="1200" y1="200" x2="1050" y2="200" stroke="#ffd700" stroke-width="20"/>
-       <line x1="600" y1="400" x2="600" y2="550" stroke="#ffd700" stroke-width="20"/>
-       <line x1="0" y1="200" x2="150" y2="200" stroke="#ffd700" stroke-width="20"/>
-       <line x1="900" y1="50" x2="800" y2="150" stroke="#ffd700" stroke-width="20"/>
-       <line x1="1050" y1="300" x2="950" y2="400" stroke="#ffd700" stroke-width="20"/>
-       <line x1="300" y1="550" x2="400" y2="450" stroke="#ffd700" stroke-width="20"/>
-       <line x1="150" y1="350" x2="250" y2="250" stroke="#ffd700" stroke-width="20"/></svg>

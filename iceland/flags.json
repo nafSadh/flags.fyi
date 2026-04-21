@@ -1,0 +1,52 @@
+{
+  "iceland": {
+    "title": "Flag of Iceland",
+    "ratio": "18:25",
+    "use": {
+      "as": "national flag and civil ensign",
+      "since": "1944-06-17"
+    },
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#02529C",
+        "cmyk": "100/70/0/10",
+        "note": "Represents the Atlantic Ocean surrounding Iceland and the mountains on clear days.",
+        "pantone": "287 C"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Symbolises the glaciers, snow, and ice that cover much of the island."
+      },
+      {
+        "color": "red",
+        "hex": "#DC1E35",
+        "cmyk": "0/90/80/0",
+        "note": "Evokes the volcanic fire and lava that created the island.",
+        "pantone": "1795 C"
+      }
+    ],
+    "desc": [
+      "- A blue field with an off-centre red Nordic cross outlined in white, the red cross itself bordered in white\n",
+      "- The cross arm extends to the right, aligning Iceland with other Nordic countries' cross-based flags\n",
+      "- First hoisted in 1915, adopted as a civil flag in 1918, and confirmed as the national flag on 17 June 1944 when Iceland became a republic"
+    ],
+    "article": "iceland/flag.md",
+    "of": {
+      "country": "iceland"
+    },
+    "countryData": {
+      "name": "Iceland",
+      "officialName": "Iceland",
+      "continent": "europe",
+      "un": "member"
+    },
+    "trivia": [
+      "- The colours together evoke Iceland's landscape: blue seas, white glaciers, red volcanoes\n",
+      "- The horizontal cross arm is set closer to the hoist, a shared convention of all Nordic flags\n",
+      "- The flag's proportions were fixed by law in 1944 at 18:25, unusual among national flags\n"
+    ]
+  }
+}

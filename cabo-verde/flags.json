@@ -1,0 +1,52 @@
+{
+  "cabo-verde": {
+    "title": "Flag of the Republic of Cabo Verde",
+    "ratio": "10:17",
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#003893",
+        "note": "Field representing the Atlantic Ocean surrounding the archipelago and the sky above it."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "note": "Narrow stripe signifying peace."
+      },
+      {
+        "color": "red",
+        "hex": "#CF2027",
+        "note": "Narrow stripe symbolising effort and resolve."
+      },
+      {
+        "color": "yellow",
+        "hex": "#F7D116",
+        "note": "Ten five-pointed stars representing the ten main islands of the archipelago."
+      }
+    ],
+    "desc": [
+      "- A blue field with three horizontal stripes (white, red, white) crossing the lower half\n",
+      "- A ring of ten yellow five-pointed stars circles the left of centre over the stripes\n",
+      "- Adopted on 22 September 1992 after multiparty reforms replaced the PAIGC-linked flag shared with Guinea-Bissau"
+    ],
+    "article": "cabo-verde/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1992-09-22"
+    },
+    "of": {
+      "country": "cabo-verde"
+    },
+    "countryData": {
+      "name": "Cabo Verde",
+      "officialName": "Republic of Cabo Verde",
+      "continent": "africa",
+      "un": "member"
+    },
+    "trivia": [
+      "- The ten stars match the ten principal islands: Santo Antão, São Vicente, São Nicolau, Sal, Boa Vista, Maio, Santiago, Fogo, Brava and Santa Luzia\n",
+      "- Replaced the red-yellow-green Pan-African flag used from independence in 1975 until 1992\n",
+      "- The country's official name was changed from Cape Verde to Cabo Verde in the UN in 2013\n"
+    ]
+  }
+}

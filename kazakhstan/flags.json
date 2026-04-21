@@ -1,0 +1,42 @@
+{
+  "kazakhstan": {
+    "title": "Flag of the Republic of Kazakhstan",
+    "ratio": "1:2",
+    "colors": [
+      {
+        "color": "sky blue",
+        "hex": "#00AFCA",
+        "note": "Represents the endless sky, peace, tranquillity, and unity of the Kazakh people"
+      },
+      {
+        "color": "gold",
+        "hex": "#FEC50C",
+        "note": "The sun, the steppe eagle, and the national ornamental pattern"
+      }
+    ],
+    "desc": [
+      "- Sky blue field with a golden 32-rayed sun above a soaring golden steppe eagle, and a vertical band of national ornamentation along the hoist\n",
+      "- Adopted on 4 June 1992 shortly after independence from the Soviet Union\n"
+    ],
+    "article": "kazakhstan/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1992-06-04"
+    },
+    "of": {
+      "country": "kazakhstan"
+    },
+    "countryData": {
+      "name": "Kazakhstan",
+      "officialName": "Republic of Kazakhstan",
+      "continent": "asia",
+      "location": "Central Asia, straddling the Europe-Asia boundary",
+      "un": "member"
+    },
+    "trivia": [
+      "- Designed by Shaken Niyazbekov, the flag was chosen from more than a thousand competition entries\n",
+      "- The sun has 32 rays, traditionally associated with abundance and warmth\n",
+      "- Kazakhstan is the world's largest landlocked country by area, stretching nearly 3,000 km across the Eurasian steppe\n"
+    ]
+  }
+}

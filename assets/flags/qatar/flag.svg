@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 800">
-  <!-- White section on hoist side -->
-  <rect width="400" height="800" fill="#FFFFFF"/>
-  <!-- Maroon section with 9 serrations -->
-  <path d="M 400 0 L 380 44.4 L 400 88.9 L 380 133.3 L 400 177.8 L 380 222.2 L 400 266.7 L 380 311.1 L 400 355.6 L 380 400.0 L 400 444.4 L 380 488.9 L 400 533.3 L 380 577.8 L 400 622.2 L 380 666.7 L 400 711.1 L 380 755.6 L 400 800.0 L 1400 800 L 1400 0 Z" fill="#8B1538"/>
-</svg>

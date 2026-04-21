@@ -1,0 +1,42 @@
+{
+  "kyrgyzstan": {
+    "title": "Flag of the Kyrgyz Republic",
+    "ratio": "3:5",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#FF0000",
+        "note": "Represents bravery and valour, and alludes to the banner of Manas the Noble"
+      },
+      {
+        "color": "yellow",
+        "hex": "#FFEF00",
+        "note": "The sun and tündük representing light, peace, and the traditional yurt"
+      }
+    ],
+    "desc": [
+      "- Red field with a yellow sun of 40 rays at the centre, overlaid with a stylised red tündük (the roof-ring of a yurt)\n",
+      "- Adopted on 3 March 1992 after independence and revised in 2023 to straighten the sun's rays\n"
+    ],
+    "article": "kyrgyzstan/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1992-03-03"
+    },
+    "of": {
+      "country": "kyrgyzstan"
+    },
+    "countryData": {
+      "name": "Kyrgyzstan",
+      "officialName": "Kyrgyz Republic",
+      "continent": "asia",
+      "location": "Central Asia, Tian Shan mountains",
+      "un": "member"
+    },
+    "trivia": [
+      "- The 40 rays of the sun represent the 40 Kyrgyz tribes united by the legendary hero Manas\n",
+      "- The tündük is the wooden crown of a yurt through which smoke escapes and sunlight enters, symbolising origin and home\n",
+      "- In 2023 parliament straightened the rays (from wavy to straight) to resemble sun rays rather than, as some critics said, sunflower petals\n"
+    ]
+  }
+}

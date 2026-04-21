@@ -1,0 +1,47 @@
+{
+  "laos": {
+    "title": "Flag of the Lao People's Democratic Republic",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#CE1126",
+        "note": "Represents the blood shed by the Lao people in the struggle for independence"
+      },
+      {
+        "color": "blue",
+        "hex": "#002868",
+        "note": "Represents the wealth of the country and the Mekong River"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "note": "The disc represents the full moon over the Mekong and the unity of the people"
+      }
+    ],
+    "desc": [
+      "- Three horizontal bands of red, blue (double width), and red with a white disc centred on the blue band\n",
+      "- Adopted on 2 December 1975 when the Pathet Lao abolished the monarchy and proclaimed the Lao PDR\n"
+    ],
+    "article": "laos/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1975-12-02"
+    },
+    "of": {
+      "country": "laos"
+    },
+    "countryData": {
+      "name": "Laos",
+      "officialName": "Lao People's Democratic Republic",
+      "continent": "asia",
+      "location": "Southeast Asia, Indochina",
+      "un": "member"
+    },
+    "trivia": [
+      "- The flag replaced a red banner with a white three-headed elephant that had represented the Kingdom of Laos\n",
+      "- It is one of the few current communist-state flags that does not feature a star or hammer and sickle\n",
+      "- The design was originally created in 1945 by Maha Sila Viravong for the Lao Issara independence movement\n"
+    ]
+  }
+}

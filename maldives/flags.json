@@ -1,0 +1,47 @@
+{
+  "maldives": {
+    "title": "Flag of the Republic of Maldives",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#D21034",
+        "note": "Represents the blood of national heroes and their willingness to sacrifice"
+      },
+      {
+        "color": "green",
+        "hex": "#007E3A",
+        "note": "Represents peace, prosperity, and the nation's date palms"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "note": "The crescent representing Islam, the state religion"
+      }
+    ],
+    "desc": [
+      "- Red field with a green rectangle at the centre bearing a white vertical crescent opening towards the fly\n",
+      "- Adopted on 25 July 1965, the day Maldives gained independence from the British protectorate\n"
+    ],
+    "article": "maldives/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1965-07-25"
+    },
+    "of": {
+      "country": "maldives"
+    },
+    "countryData": {
+      "name": "Maldives",
+      "officialName": "Republic of Maldives",
+      "continent": "asia",
+      "location": "Indian Ocean, South Asia",
+      "un": "member"
+    },
+    "trivia": [
+      "- The earlier flags of the Maldives Sultanate were plain red until a black-and-white hoist was added in the early 20th century\n",
+      "- Maldives is one of the lowest-lying nations on Earth, with an average elevation of about 1.5 metres\n",
+      "- The flag adopted at independence was largely a simplification of the pre-independence design by removing the black-and-white striped hoist\n"
+    ]
+  }
+}

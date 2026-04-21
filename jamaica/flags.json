@@ -1,0 +1,52 @@
+{
+  "jamaica": {
+    "title": "Flag of Jamaica",
+    "ratio": "1:2",
+    "use": {
+      "as": "national flag",
+      "since": "1962-08-06"
+    },
+    "colors": [
+      {
+        "color": "gold",
+        "hex": "#FED100",
+        "cmyk": "0/18/100/0",
+        "pantone": "116 C",
+        "note": "Diagonal saltire; represents the natural wealth and beauty of sunlight on the land."
+      },
+      {
+        "color": "green",
+        "hex": "#009B3A",
+        "cmyk": "100/0/88/21",
+        "pantone": "356 C",
+        "note": "Top and bottom triangles; represents hope and agricultural richness."
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "Hoist and fly triangles; represents the strength and creativity of the Jamaican people."
+      }
+    ],
+    "desc": [
+      "- A gold saltire on a field divided into four triangles: green at the top and bottom, black at the hoist and fly\n",
+      "- Adopted on 6 August 1962, the day Jamaica became independent from the United Kingdom\n",
+      "- The only national flag in the world not to include any of the colours red, white, or blue\n"
+    ],
+    "article": "jamaica/flag.md",
+    "of": {
+      "country": "jamaica"
+    },
+    "countryData": {
+      "name": "Jamaica",
+      "officialName": "Jamaica",
+      "continent": "north-america",
+      "un": "member"
+    },
+    "trivia": [
+      "- The flag's original motto was Hardships there are, but the land is green and the sun shineth; this is now rephrased as The sun shineth, the land is green, and the people are strong and creative\n",
+      "- Jamaica's flag is one of only two national flags (with Mauritania's) not to feature any red, white, or blue\n",
+      "- The saltire design was chosen partly because an earlier horizontal proposal was similar to Tanganyika's adopted flag\n"
+    ]
+  }
+}

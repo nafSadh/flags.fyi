@@ -1,0 +1,47 @@
+{
+  "cambodia": {
+    "title": "Flag of the Kingdom of Cambodia",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#032EA1",
+        "note": "Represents the monarchy, country, and royal authority"
+      },
+      {
+        "color": "red",
+        "hex": "#E00025",
+        "note": "Represents the nation and its people"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "note": "The depiction of Angkor Wat represents religion and the nation's heritage"
+      }
+    ],
+    "desc": [
+      "- Three horizontal bands of blue, red (double width), and blue with a white silhouette of Angkor Wat centred on the red band\n",
+      "- Readopted on 30 June 1993 after the restoration of the monarchy, reviving the pre-1970 royal flag\n"
+    ],
+    "article": "cambodia/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1993-06-30"
+    },
+    "of": {
+      "country": "cambodia"
+    },
+    "countryData": {
+      "name": "Cambodia",
+      "officialName": "Kingdom of Cambodia",
+      "continent": "asia",
+      "location": "Southeast Asia, Indochina",
+      "un": "member"
+    },
+    "trivia": [
+      "- Cambodia is the only national flag that features a building in its design\n",
+      "- The Angkor Wat temple has appeared on every Cambodian flag since 1863 in various forms\n",
+      "- The current design dates originally from 1948, briefly discontinued between 1970 and 1993\n"
+    ]
+  }
+}

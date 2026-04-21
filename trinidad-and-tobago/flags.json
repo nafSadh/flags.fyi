@@ -1,0 +1,51 @@
+{
+  "trinidad-and-tobago": {
+    "title": "Flag of the Republic of Trinidad and Tobago",
+    "ratio": "3:5",
+    "use": {
+      "as": "national flag",
+      "since": "1962-08-31"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#CE1126",
+        "cmyk": "0/92/82/19",
+        "pantone": "186 C",
+        "note": "Background field; represents the vitality of the land, warmth, and courage of the people."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Two parallel borders around the black diagonal; represents the sea, purity, and equality."
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "Diagonal band running from upper hoist to lower fly; represents the dedication of the people and shared wealth of the land."
+      }
+    ],
+    "desc": [
+      "- A red field with a black diagonal band bordered by two white stripes, running from the upper hoist to the lower fly\n",
+      "- Designed by Carlisle Chang, a noted Trinidadian painter, as part of an independence committee\n",
+      "- Adopted on 31 August 1962, the day of independence from the United Kingdom\n"
+    ],
+    "article": "trinidad-and-tobago/flag.md",
+    "of": {
+      "country": "trinidad-and-tobago"
+    },
+    "countryData": {
+      "name": "Trinidad and Tobago",
+      "officialName": "Republic of Trinidad and Tobago",
+      "continent": "north-america",
+      "un": "member"
+    },
+    "trivia": [
+      "- The three colours red, white, and black are said to represent fire, water, and earth, the elements of life\n",
+      "- The diagonal band symbolises the equality and solidarity of all citizens regardless of origin\n",
+      "- Designer Carlisle Chang was one of Trinidad and Tobago's most prominent visual artists and also contributed to the design of the national coat of arms\n"
+    ]
+  }
+}

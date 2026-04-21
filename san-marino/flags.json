@@ -1,0 +1,50 @@
+{
+  "san-marino": {
+    "title": "Flag of the Republic of San Marino",
+    "ratio": "3:4",
+    "use": {
+      "as": "national flag",
+      "since": "2011-07-22"
+    },
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Represents the snow-capped peaks of Mount Titano and purity."
+      },
+      {
+        "color": "light blue",
+        "hex": "#5EB6E4",
+        "cmyk": "60/10/0/5",
+        "note": "Represents the sky above the mountainous republic and liberty."
+      },
+      {
+        "color": "gold",
+        "hex": "#C8A04A",
+        "cmyk": "15/30/80/15",
+        "note": "The coat of arms border and the liberty crown reflect sovereignty and tradition."
+      }
+    ],
+    "desc": [
+      "- Two equal horizontal bands of white over light blue with the national coat of arms centred\n",
+      "- The coat of arms shows three silver towers on Mount Titano, topped by ostrich feathers and a closed crown, flanked by oak and laurel\n",
+      "- The current design was adopted on 22 July 2011, codifying a flag in essentially the same form since 1862"
+    ],
+    "article": "san-marino/flag.md",
+    "of": {
+      "country": "san-marino"
+    },
+    "countryData": {
+      "name": "San Marino",
+      "officialName": "Republic of San Marino",
+      "continent": "europe",
+      "un": "member"
+    },
+    "trivia": [
+      "- San Marino is the world's oldest extant republic, founded in AD 301 by Saint Marinus\n",
+      "- The three towers on the coat of arms are real: Guaita, Cesta, and Montale on Mount Titano\n",
+      "- The motto 'Libertas' (Liberty) appears on the scroll beneath the arms\n"
+    ]
+  }
+}

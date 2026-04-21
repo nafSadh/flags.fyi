@@ -1,0 +1,49 @@
+{
+  "liberia": {
+    "title": "Flag of the Republic of Liberia",
+    "ratio": "10:19",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#BF0A30",
+        "note": "Symbolises courage and the valour of the Liberian people."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "note": "Represents moral purity and the lone star of freedom in Africa."
+      },
+      {
+        "color": "blue",
+        "hex": "#002868",
+        "note": "The blue canton represents the African mainland from which liberated settlers came."
+      }
+    ],
+    "desc": [
+      "- Eleven alternating red and white horizontal stripes with a blue canton bearing a single white five-pointed star\n",
+      "- The eleven stripes honour the eleven signatories of the Liberian Declaration of Independence\n",
+      "- Adopted on 26 July 1847 upon independence, with a design deliberately modelled on the flag of the United States"
+    ],
+    "article": "liberia/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1847-07-26"
+    },
+    "of": {
+      "country": "liberia"
+    },
+    "countryData": {
+      "name": "Liberia",
+      "officialName": "Republic of Liberia",
+      "continent": "africa",
+      "location": "West Africa",
+      "un": "member"
+    },
+    "trivia": [
+      "- Liberia's flag is often mistaken at sea for the US flag because of its similar colours and stripe pattern\n",
+      "- The lone star gives Liberia its nickname, the Lone Star Republic\n",
+      "- As a flag of convenience, Liberia's ensign flies on one of the world's largest merchant fleets\n",
+      "- Designed by a committee of seven women led by Susannah Lewis in 1847"
+    ]
+  }
+}

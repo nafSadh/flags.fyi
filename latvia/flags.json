@@ -1,0 +1,44 @@
+{
+  "latvia": {
+    "title": "Flag of the Republic of Latvia",
+    "ratio": "1:2",
+    "use": {
+      "as": "national flag",
+      "since": "1990-02-27"
+    },
+    "colors": [
+      {
+        "color": "carmine red",
+        "hex": "#9E3039",
+        "cmyk": "0/85/65/45",
+        "note": "A distinctive dark carmine sometimes called 'Latvian red'; legend says it depicts the blood of a wounded chief that stained a white sheet."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "The central band represents honour, truth, and purity."
+      }
+    ],
+    "desc": [
+      "- Two deep carmine-red bands above and below a narrower white band (proportions 2:1:2)\n",
+      "- One of the oldest flags in the world — the earliest written reference dates to the Livonian Rhymed Chronicle around 1280\n",
+      "- Readopted on 27 February 1990 as Latvia moved toward restoring independence from the Soviet Union"
+    ],
+    "article": "latvia/flag.md",
+    "of": {
+      "country": "latvia"
+    },
+    "countryData": {
+      "name": "Latvia",
+      "officialName": "Republic of Latvia",
+      "continent": "europe",
+      "un": "member"
+    },
+    "trivia": [
+      "- The stripe ratio is exactly 2:1:2 — red, white, red — differing from Austria's evenly sized bands\n",
+      "- Legend says a mortally wounded Latgallian chief was wrapped in a white sheet; the edges stained by his blood became the flag pattern\n",
+      "- The Latvian shade of red is sometimes called 'grenadine' and is darker than the reds on most national flags\n"
+    ]
+  }
+}

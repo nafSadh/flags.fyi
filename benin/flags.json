@@ -1,0 +1,47 @@
+{
+  "benin": {
+    "title": "Flag of the Republic of Benin",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#008751",
+        "note": "Hoist-side vertical band representing hope and the palm groves of the south."
+      },
+      {
+        "color": "yellow",
+        "hex": "#FCD116",
+        "note": "Upper fly band symbolising the northern savannas and the country's wealth."
+      },
+      {
+        "color": "red",
+        "hex": "#E8112D",
+        "note": "Lower fly band honouring the courage of the ancestors."
+      }
+    ],
+    "desc": [
+      "- A green vertical band on the hoist side, with two horizontal bands of yellow over red on the fly\n",
+      "- The colours are Pan-African and trace back to the flag first adopted at independence in 1959\n",
+      "- Reinstated in 1990 after the end of the Marxist-Leninist People's Republic of Benin"
+    ],
+    "article": "benin/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1990-08-01"
+    },
+    "of": {
+      "country": "benin"
+    },
+    "countryData": {
+      "name": "Benin",
+      "officialName": "Republic of Benin",
+      "continent": "africa",
+      "un": "member"
+    },
+    "trivia": [
+      "- Originally adopted on 16 November 1959, replaced in 1975, and restored on 1 August 1990\n",
+      "- One of the earliest African flags to use the Pan-African green-yellow-red palette\n",
+      "- The country was known as Dahomey until 1975 before being renamed Benin\n"
+    ]
+  }
+}

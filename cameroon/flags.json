@@ -1,0 +1,47 @@
+{
+  "cameroon": {
+    "title": "Flag of the Republic of Cameroon",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#007A5E",
+        "note": "Hoist-side band evoking the forests of the south and hope for the future."
+      },
+      {
+        "color": "red",
+        "hex": "#CE1126",
+        "note": "Central band symbolising unity between the country's regions."
+      },
+      {
+        "color": "yellow",
+        "hex": "#FCD116",
+        "note": "Fly-side band representing the sun and the savannas of the north."
+      }
+    ],
+    "desc": [
+      "- Three equal vertical bands of green, red and yellow with a yellow five-pointed star on the red\n",
+      "- The Pan-African palette was introduced in 1957 and the star added in 1975 on reunification\n",
+      "- The star, known as the Star of Unity, marks the fusion of the formerly British and French Cameroons"
+    ],
+    "article": "cameroon/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1975-05-20"
+    },
+    "of": {
+      "country": "cameroon"
+    },
+    "countryData": {
+      "name": "Cameroon",
+      "officialName": "Republic of Cameroon",
+      "continent": "africa",
+      "un": "member"
+    },
+    "trivia": [
+      "- The 1961-1975 flag had two yellow stars in the green band, one for each former trust territory\n",
+      "- The single central star replaced them after the federal republic became a unitary state\n",
+      "- Cameroon was the first sub-Saharan African country to adopt the Pan-African colours, in 1957\n"
+    ]
+  }
+}

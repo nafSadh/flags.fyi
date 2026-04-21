@@ -1,0 +1,44 @@
+{
+  "north-macedonia": {
+    "title": "Flag of the Republic of North Macedonia",
+    "ratio": "1:2",
+    "use": {
+      "as": "national flag",
+      "since": "1995-10-05"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#D20000",
+        "cmyk": "0/100/100/10",
+        "note": "Traditional colour of the Macedonian region, present on historical flags back to the medieval period."
+      },
+      {
+        "color": "yellow",
+        "hex": "#FFD100",
+        "cmyk": "0/15/100/0",
+        "note": "Represents the sun of liberty — known as the 'new sun of liberty'."
+      }
+    ],
+    "desc": [
+      "- A red field with a stylised yellow sun in the centre, eight broadening rays extending to the edges of the flag\n",
+      "- Adopted on 5 October 1995 after Greek objections to an earlier 16-rayed 'Vergina Sun' design\n",
+      "- The current design ended a trade embargo by Greece and was part of the 1995 Interim Accord"
+    ],
+    "article": "north-macedonia/flag.md",
+    "of": {
+      "country": "north-macedonia"
+    },
+    "countryData": {
+      "name": "North Macedonia",
+      "officialName": "Republic of North Macedonia",
+      "continent": "europe",
+      "un": "member"
+    },
+    "trivia": [
+      "- The original 1992 flag used a 16-rayed Vergina Sun; Greece considered this a Hellenic symbol and imposed a trade embargo\n",
+      "- The redesign by artist Miroslav Grcev eliminated the Vergina Sun while retaining sun symbolism\n",
+      "- The country was renamed from 'the former Yugoslav Republic of Macedonia' to 'North Macedonia' in 2019 under the Prespa Agreement\n"
+    ]
+  }
+}

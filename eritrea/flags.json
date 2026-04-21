@@ -1,0 +1,52 @@
+{
+  "eritrea": {
+    "title": "Flag of the State of Eritrea",
+    "ratio": "1:2",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#EA0437",
+        "note": "Central triangle evoking the blood shed for independence."
+      },
+      {
+        "color": "green",
+        "hex": "#12AD2B",
+        "note": "Upper triangle representing agriculture and the land's fertility."
+      },
+      {
+        "color": "blue",
+        "hex": "#418FDE",
+        "note": "Lower triangle symbolising the bounty of the Red Sea."
+      },
+      {
+        "color": "yellow",
+        "hex": "#FFC72C",
+        "note": "Olive wreath and branch emblem representing peace and the country's mineral wealth."
+      }
+    ],
+    "desc": [
+      "- A red isosceles triangle based on the hoist side separates green (top) and blue (bottom) triangles\n",
+      "- A yellow olive wreath surrounding an olive branch, pointing towards the fly, is placed on the red\n",
+      "- Adopted on 24 May 1995, with the emblem derived from the 1952 federation flag of Eritrea"
+    ],
+    "article": "eritrea/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1995-05-24"
+    },
+    "of": {
+      "country": "eritrea"
+    },
+    "countryData": {
+      "name": "Eritrea",
+      "officialName": "State of Eritrea",
+      "continent": "africa",
+      "un": "member"
+    },
+    "trivia": [
+      "- The olive wreath has 30 leaves, commemorating the 30-year war of independence from Ethiopia\n",
+      "- The basic layout derives from the flag of the Eritrean People's Liberation Front (EPLF)\n",
+      "- Eritrea declared independence on 24 May 1993; the current flag was confirmed two years later\n"
+    ]
+  }
+}

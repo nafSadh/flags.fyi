@@ -1,0 +1,53 @@
+{
+  "saint-vincent-and-the-grenadines": {
+    "title": "Flag of Saint Vincent and the Grenadines",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "1985-10-21"
+    },
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#0072C6",
+        "cmyk": "100/42/0/22",
+        "pantone": "300 C",
+        "note": "Hoist vertical band; represents the sky and the Caribbean sea."
+      },
+      {
+        "color": "gold",
+        "hex": "#FCD116",
+        "cmyk": "0/17/91/1",
+        "pantone": "116 C",
+        "note": "Central vertical band; represents the warm sun and golden sands of the Grenadines."
+      },
+      {
+        "color": "green",
+        "hex": "#009E49",
+        "cmyk": "100/0/78/22",
+        "pantone": "356 C",
+        "note": "Fly vertical band and the diamond-shaped V emblem; represents lush vegetation and the vitality of the people."
+      }
+    ],
+    "desc": [
+      "- A vertical triband of blue, gold (double width), and green, with three green diamonds arranged as a V on the gold central band\n",
+      "- The V of diamonds stands for Vincent and also recalls the Grenadines, often nicknamed the Gems of the Antilles\n",
+      "- Designed by Swiss graphic artist Julien van der Wal and adopted on 21 October 1985, replacing the original independence-era flag\n"
+    ],
+    "article": "saint-vincent-and-the-grenadines/flag.md",
+    "of": {
+      "country": "saint-vincent-and-the-grenadines"
+    },
+    "countryData": {
+      "name": "Saint Vincent and the Grenadines",
+      "officialName": "Saint Vincent and the Grenadines",
+      "continent": "north-america",
+      "un": "member"
+    },
+    "trivia": [
+      "- The three diamonds representing the Grenadines are laid out as a V both for Vincent and for the island chain's chain of gems\n",
+      "- The Swiss designer Julien van der Wal created the 1985 revision; the current flag replaced the country's original 1979 independence banner\n",
+      "- The gold band is twice the width of each side band, producing the distinctive wide central emblem field\n"
+    ]
+  }
+}

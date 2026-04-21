@@ -1,0 +1,47 @@
+{
+  "mongolia": {
+    "title": "Flag of Mongolia",
+    "ratio": "1:2",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#C4272F",
+        "note": "Represents progress and prosperity; traditionally the colour of the hearth fire"
+      },
+      {
+        "color": "blue",
+        "hex": "#015197",
+        "note": "The 'eternal blue sky' (Tenger), a traditional symbol of the Mongolian nation"
+      },
+      {
+        "color": "yellow",
+        "hex": "#F9CF02",
+        "note": "The golden Soyombo emblem representing freedom and independence"
+      }
+    ],
+    "desc": [
+      "- Three vertical bands of red, blue, and red with the golden Soyombo symbol on the hoist-side red band\n",
+      "- Adopted on 12 February 1992 after the democratic transition, with the socialist star removed\n"
+    ],
+    "article": "mongolia/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1992-02-12"
+    },
+    "of": {
+      "country": "mongolia"
+    },
+    "countryData": {
+      "name": "Mongolia",
+      "officialName": "Mongolia",
+      "continent": "asia",
+      "location": "landlocked between Russia and China, East Asia",
+      "un": "member"
+    },
+    "trivia": [
+      "- The Soyombo symbol combines fire, sun, moon, earth, water, and the yin-yang in a single glyph attributed to Zanabazar in the 17th century\n",
+      "- A fourteen-pointed socialist star atop the Soyombo was removed in the 1992 redesign\n",
+      "- The two rectangles at the top and bottom of the Soyombo are traditionally interpreted as fortress walls or as the phrase 'friendship is stronger than stone'\n"
+    ]
+  }
+}

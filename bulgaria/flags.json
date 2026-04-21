@@ -1,0 +1,50 @@
+{
+  "bulgaria": {
+    "title": "Flag of the Republic of Bulgaria",
+    "ratio": "3:5",
+    "use": {
+      "as": "national flag",
+      "since": "1991-11-27"
+    },
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Represents peace, love, and freedom."
+      },
+      {
+        "color": "green",
+        "hex": "#00966E",
+        "cmyk": "100/0/82/29",
+        "note": "Symbolises agricultural wealth, freedom, and Bulgaria's fertile land."
+      },
+      {
+        "color": "red",
+        "hex": "#D62612",
+        "cmyk": "0/91/100/0",
+        "note": "Represents the courage and blood shed by Bulgarian soldiers during the struggle for independence."
+      }
+    ],
+    "desc": [
+      "- Three horizontal bands of equal width in white, green, and red from top to bottom\n",
+      "- First adopted in 1879 after independence from Ottoman rule; re-confirmed in the 1991 post-communist constitution\n",
+      "- The 1991 revision removed the communist-era state emblem from the white band"
+    ],
+    "article": "bulgaria/flag.md",
+    "of": {
+      "country": "bulgaria"
+    },
+    "countryData": {
+      "name": "Bulgaria",
+      "officialName": "Republic of Bulgaria",
+      "continent": "europe",
+      "un": "member"
+    },
+    "trivia": [
+      "- The tricolour draws on pan-Slavic colours introduced after Russia helped Bulgaria win independence in 1878\n",
+      "- Between 1947 and 1990 the flag bore the communist state emblem on the white stripe\n",
+      "- Bulgaria's flag law prohibits damaging, soiling, or otherwise desecrating the national flag\n"
+    ]
+  }
+}

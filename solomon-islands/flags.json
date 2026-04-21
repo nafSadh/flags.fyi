@@ -1,0 +1,52 @@
+{
+  "solomon-islands": {
+    "title": "Flag of the Solomon Islands",
+    "ratio": "1:2",
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#0051BA",
+        "note": "Represents the water surrounding the archipelago"
+      },
+      {
+        "color": "green",
+        "hex": "#215B33",
+        "note": "Represents the islands' lush forests and fertile land"
+      },
+      {
+        "color": "yellow",
+        "hex": "#FCE300",
+        "note": "Narrow diagonal stripe representing the sun"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "note": "Five stars originally representing the five administrative districts"
+      }
+    ],
+    "desc": [
+      "- Diagonally divided by a narrow yellow stripe from lower hoist to upper fly, with blue in the upper hoist and green in the lower fly, and five white five-pointed stars arranged in an X pattern in the blue triangle\n",
+      "- Adopted on 18 November 1977, nine months before independence from the United Kingdom\n"
+    ],
+    "article": "solomon-islands/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1977-11-18"
+    },
+    "of": {
+      "country": "solomon-islands"
+    },
+    "countryData": {
+      "name": "Solomon Islands",
+      "officialName": "Solomon Islands",
+      "continent": "oceania",
+      "location": "Melanesia, South Pacific",
+      "un": "member"
+    },
+    "trivia": [
+      "- The five stars originally represented the five administrative districts of the archipelago\n",
+      "- When new provinces were later created, the stars were kept unchanged and reinterpreted more generally as the island groups\n",
+      "- The flag remained the same design used before independence, a rare continuity among newly independent states\n"
+    ]
+  }
+}

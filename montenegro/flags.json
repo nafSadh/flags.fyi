@@ -1,0 +1,44 @@
+{
+  "montenegro": {
+    "title": "Flag of Montenegro",
+    "ratio": "1:2",
+    "use": {
+      "as": "national flag",
+      "since": "2004-07-13"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#C40308",
+        "cmyk": "0/100/95/20",
+        "note": "The red field derives from the historical flags of the Kingdom of Montenegro under the Petrovic-Njegos dynasty."
+      },
+      {
+        "color": "gold",
+        "hex": "#D4AF37",
+        "cmyk": "15/30/85/15",
+        "note": "The gold border and coat of arms evoke royalty, wealth, and tradition."
+      }
+    ],
+    "desc": [
+      "- A red field with a gold border surrounding a central gold coat of arms\n",
+      "- The coat of arms features a double-headed eagle with a shield bearing a lion passant, symbols of royal and ecclesiastical authority\n",
+      "- Adopted on 13 July 2004 (Statehood Day) and reaffirmed after Montenegro's independence from Serbia in 2006"
+    ],
+    "article": "montenegro/flag.md",
+    "of": {
+      "country": "montenegro"
+    },
+    "countryData": {
+      "name": "Montenegro",
+      "officialName": "Montenegro",
+      "continent": "europe",
+      "un": "member"
+    },
+    "trivia": [
+      "- The coat of arms revives the royal symbol of the Petrovic-Njegos dynasty that ruled until 1918\n",
+      "- 13 July marks both Montenegrin Statehood Day (1878 recognition at the Congress of Berlin) and the 1941 uprising against fascist occupation\n",
+      "- The double-headed eagle reflects Byzantine heritage shared with several neighbouring Balkan countries\n"
+    ]
+  }
+}

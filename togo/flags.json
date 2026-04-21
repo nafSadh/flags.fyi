@@ -1,0 +1,54 @@
+{
+  "togo": {
+    "title": "Flag of the Togolese Republic",
+    "ratio": "1:1.618",
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#006A4E",
+        "note": "Represents hope and agriculture, the backbone of the economy."
+      },
+      {
+        "color": "yellow",
+        "hex": "#FFCE00",
+        "note": "Symbolises mineral wealth and the power of faith and labour."
+      },
+      {
+        "color": "red",
+        "hex": "#D21034",
+        "note": "Represents the blood shed by patriots in the struggle for independence."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "note": "The white five-pointed star stands for life, purity, and liberty."
+      }
+    ],
+    "desc": [
+      "- Five equal horizontal bands of green and yellow, with a red square canton bearing a white five-pointed star\n",
+      "- The proportions are close to the golden ratio, approximately 1:1.618\n",
+      "- Adopted on 27 April 1960 at independence from French administration"
+    ],
+    "article": "togo/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1960-04-27"
+    },
+    "of": {
+      "country": "togo"
+    },
+    "countryData": {
+      "name": "Togo",
+      "officialName": "Togolese Republic",
+      "continent": "africa",
+      "location": "West Africa, Gulf of Guinea",
+      "un": "member"
+    },
+    "trivia": [
+      "- Togo's flag is said to have been designed by Paul Ahyi, a leading Togolese artist\n",
+      "- The 1:1.618 proportion closely follows the golden ratio, rare among national flags\n",
+      "- The stripe-and-canton layout resembles the flag of Liberia, another Pan-African signatory\n",
+      "- The five stripes symbolise the five regions of Togo"
+    ]
+  }
+}

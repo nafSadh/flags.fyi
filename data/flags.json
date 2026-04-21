@@ -2272,5 +2272,665 @@
     "g": "sub,oceania",
     "id": "au-torres-strait",
     "index": "c/au/torres-strait"
+  },
+  "benin": {
+    "g": "nf,africa",
+    "ns": "benin",
+    "id": "benin",
+    "index": "c/benin"
+  },
+  "botswana": {
+    "g": "nf,africa",
+    "ns": "botswana",
+    "id": "botswana",
+    "index": "c/botswana"
+  },
+  "burkina-faso": {
+    "g": "nf,africa",
+    "ns": "burkina-faso",
+    "id": "burkina-faso",
+    "index": "c/burkina-faso"
+  },
+  "burundi": {
+    "g": "nf,africa",
+    "ns": "burundi",
+    "id": "burundi",
+    "index": "c/burundi"
+  },
+  "cabo-verde": {
+    "g": "nf,africa",
+    "ns": "cabo-verde",
+    "id": "cabo-verde",
+    "index": "c/cabo-verde"
+  },
+  "cameroon": {
+    "g": "nf,africa",
+    "ns": "cameroon",
+    "id": "cameroon",
+    "index": "c/cameroon"
+  },
+  "central-african-republic": {
+    "g": "nf,africa",
+    "ns": "central-african-republic",
+    "id": "central-african-republic",
+    "index": "c/central-african-republic"
+  },
+  "congo-dr": {
+    "g": "nf,africa",
+    "ns": "congo-dr",
+    "id": "congo-dr",
+    "index": "c/congo-dr"
+  },
+  "congo-republic": {
+    "g": "nf,africa",
+    "ns": "congo-republic",
+    "id": "congo-republic",
+    "index": "c/congo-republic"
+  },
+  "cote-divoire": {
+    "g": "nf,africa",
+    "ns": "cote-divoire",
+    "id": "cote-divoire",
+    "index": "c/cote-divoire"
+  },
+  "equatorial-guinea": {
+    "g": "nf,africa",
+    "ns": "equatorial-guinea",
+    "id": "equatorial-guinea",
+    "index": "c/equatorial-guinea"
+  },
+  "eritrea": {
+    "g": "nf,africa,horn-of-africa",
+    "ns": "eritrea",
+    "id": "eritrea",
+    "index": "c/eritrea"
+  },
+  "eswatini": {
+    "g": "nf,africa",
+    "ns": "eswatini",
+    "id": "eswatini",
+    "index": "c/eswatini"
+  },
+  "gabon": {
+    "g": "nf,africa",
+    "ns": "gabon",
+    "id": "gabon",
+    "index": "c/gabon"
+  },
+  "gambia": {
+    "g": "nf,africa",
+    "ns": "gambia",
+    "id": "gambia",
+    "index": "c/gambia"
+  },
+  "guinea": {
+    "g": "nf,africa",
+    "ns": "guinea",
+    "id": "guinea",
+    "index": "c/guinea"
+  },
+  "guinea-bissau": {
+    "g": "nf,africa",
+    "ns": "guinea-bissau",
+    "id": "guinea-bissau",
+    "index": "c/guinea-bissau"
+  },
+  "lesotho": {
+    "g": "nf,africa",
+    "ns": "lesotho",
+    "id": "lesotho",
+    "index": "c/lesotho"
+  },
+  "liberia": {
+    "g": "nf,africa",
+    "ns": "liberia",
+    "id": "liberia",
+    "index": "c/liberia"
+  },
+  "madagascar": {
+    "g": "nf,africa",
+    "ns": "madagascar",
+    "id": "madagascar",
+    "index": "c/madagascar"
+  },
+  "malawi": {
+    "g": "nf,africa",
+    "ns": "malawi",
+    "id": "malawi",
+    "index": "c/malawi"
+  },
+  "mali": {
+    "g": "nf,africa",
+    "ns": "mali",
+    "id": "mali",
+    "index": "c/mali"
+  },
+  "mozambique": {
+    "g": "nf,africa",
+    "ns": "mozambique",
+    "id": "mozambique",
+    "index": "c/mozambique"
+  },
+  "namibia": {
+    "g": "nf,africa",
+    "ns": "namibia",
+    "id": "namibia",
+    "index": "c/namibia"
+  },
+  "niger": {
+    "g": "nf,africa",
+    "ns": "niger",
+    "id": "niger",
+    "index": "c/niger"
+  },
+  "rwanda": {
+    "g": "nf,africa",
+    "ns": "rwanda",
+    "id": "rwanda",
+    "index": "c/rwanda"
+  },
+  "sao-tome-and-principe": {
+    "g": "nf,africa",
+    "ns": "sao-tome-and-principe",
+    "id": "sao-tome-and-principe",
+    "index": "c/sao-tome-and-principe"
+  },
+  "senegal": {
+    "g": "nf,africa",
+    "ns": "senegal",
+    "id": "senegal",
+    "index": "c/senegal"
+  },
+  "seychelles": {
+    "g": "nf,africa",
+    "ns": "seychelles",
+    "id": "seychelles",
+    "index": "c/seychelles"
+  },
+  "sierra-leone": {
+    "g": "nf,africa",
+    "ns": "sierra-leone",
+    "id": "sierra-leone",
+    "index": "c/sierra-leone"
+  },
+  "south-sudan": {
+    "g": "nf,africa",
+    "ns": "south-sudan",
+    "id": "south-sudan",
+    "index": "c/south-sudan"
+  },
+  "togo": {
+    "g": "nf,africa",
+    "ns": "togo",
+    "id": "togo",
+    "index": "c/togo"
+  },
+  "uganda": {
+    "g": "nf,africa",
+    "ns": "uganda",
+    "id": "uganda",
+    "index": "c/uganda"
+  },
+  "zambia": {
+    "g": "nf,africa",
+    "ns": "zambia",
+    "id": "zambia",
+    "index": "c/zambia"
+  },
+  "zimbabwe": {
+    "g": "nf,africa",
+    "ns": "zimbabwe",
+    "id": "zimbabwe",
+    "index": "c/zimbabwe"
+  },
+  "belarus": {
+    "g": "nf,europe",
+    "ns": "belarus",
+    "id": "belarus",
+    "index": "c/belarus"
+  },
+  "bosnia-and-herzegovina": {
+    "g": "nf,europe",
+    "ns": "bosnia-and-herzegovina",
+    "id": "bosnia-and-herzegovina",
+    "index": "c/bosnia-and-herzegovina"
+  },
+  "bulgaria": {
+    "g": "nf,europe",
+    "ns": "bulgaria",
+    "id": "bulgaria",
+    "index": "c/bulgaria"
+  },
+  "estonia": {
+    "g": "nf,europe",
+    "ns": "estonia",
+    "id": "estonia",
+    "index": "c/estonia"
+  },
+  "iceland": {
+    "g": "nf,europe,nordic",
+    "ns": "iceland",
+    "id": "iceland",
+    "index": "c/iceland"
+  },
+  "kosovo": {
+    "g": "nf,europe",
+    "ns": "kosovo",
+    "id": "kosovo",
+    "index": "c/kosovo"
+  },
+  "latvia": {
+    "g": "nf,europe",
+    "ns": "latvia",
+    "id": "latvia",
+    "index": "c/latvia"
+  },
+  "liechtenstein": {
+    "g": "nf,europe",
+    "ns": "liechtenstein",
+    "id": "liechtenstein",
+    "index": "c/liechtenstein"
+  },
+  "lithuania": {
+    "g": "nf,europe",
+    "ns": "lithuania",
+    "id": "lithuania",
+    "index": "c/lithuania"
+  },
+  "luxembourg": {
+    "g": "nf,europe",
+    "ns": "luxembourg",
+    "id": "luxembourg",
+    "index": "c/luxembourg"
+  },
+  "malta": {
+    "g": "nf,europe",
+    "ns": "malta",
+    "id": "malta",
+    "index": "c/malta"
+  },
+  "moldova": {
+    "g": "nf,europe",
+    "ns": "moldova",
+    "id": "moldova",
+    "index": "c/moldova"
+  },
+  "monaco": {
+    "g": "nf,europe",
+    "ns": "monaco",
+    "id": "monaco",
+    "index": "c/monaco"
+  },
+  "montenegro": {
+    "g": "nf,europe",
+    "ns": "montenegro",
+    "id": "montenegro",
+    "index": "c/montenegro"
+  },
+  "north-macedonia": {
+    "g": "nf,europe",
+    "ns": "north-macedonia",
+    "id": "north-macedonia",
+    "index": "c/north-macedonia"
+  },
+  "san-marino": {
+    "g": "nf,europe",
+    "ns": "san-marino",
+    "id": "san-marino",
+    "index": "c/san-marino"
+  },
+  "serbia": {
+    "g": "nf,europe",
+    "ns": "serbia",
+    "id": "serbia",
+    "index": "c/serbia"
+  },
+  "slovakia": {
+    "g": "nf,europe",
+    "ns": "slovakia",
+    "id": "slovakia",
+    "index": "c/slovakia"
+  },
+  "slovenia": {
+    "g": "nf,europe",
+    "ns": "slovenia",
+    "id": "slovenia",
+    "index": "c/slovenia"
+  },
+  "vatican-city": {
+    "g": "nf,europe",
+    "ns": "vatican-city",
+    "id": "vatican-city",
+    "index": "c/vatican-city"
+  },
+  "myanmar": {
+    "g": "nf,asia,southeast-asia",
+    "ns": "myanmar",
+    "id": "myanmar",
+    "index": "c/myanmar"
+  },
+  "cambodia": {
+    "g": "nf,asia,southeast-asia",
+    "ns": "cambodia",
+    "id": "cambodia",
+    "index": "c/cambodia"
+  },
+  "laos": {
+    "g": "nf,asia,southeast-asia",
+    "ns": "laos",
+    "id": "laos",
+    "index": "c/laos"
+  },
+  "brunei": {
+    "g": "nf,asia,southeast-asia",
+    "ns": "brunei",
+    "id": "brunei",
+    "index": "c/brunei"
+  },
+  "timor-leste": {
+    "g": "nf,asia,southeast-asia",
+    "ns": "timor-leste",
+    "id": "timor-leste",
+    "index": "c/timor-leste"
+  },
+  "mongolia": {
+    "g": "nf,asia",
+    "ns": "mongolia",
+    "id": "mongolia",
+    "index": "c/mongolia"
+  },
+  "nepal": {
+    "g": "nf,asia,south-asia",
+    "ns": "nepal",
+    "id": "nepal",
+    "index": "c/nepal"
+  },
+  "sri-lanka": {
+    "g": "nf,asia,south-asia",
+    "ns": "sri-lanka",
+    "id": "sri-lanka",
+    "index": "c/sri-lanka"
+  },
+  "bhutan": {
+    "g": "nf,asia,south-asia",
+    "ns": "bhutan",
+    "id": "bhutan",
+    "index": "c/bhutan"
+  },
+  "maldives": {
+    "g": "nf,asia,south-asia",
+    "ns": "maldives",
+    "id": "maldives",
+    "index": "c/maldives"
+  },
+  "armenia": {
+    "g": "nf,asia",
+    "ns": "armenia",
+    "id": "armenia",
+    "index": "c/armenia"
+  },
+  "azerbaijan": {
+    "g": "nf,asia",
+    "ns": "azerbaijan",
+    "id": "azerbaijan",
+    "index": "c/azerbaijan"
+  },
+  "georgia": {
+    "g": "nf,asia",
+    "ns": "georgia",
+    "id": "georgia",
+    "index": "c/georgia"
+  },
+  "cyprus": {
+    "g": "nf,asia",
+    "ns": "cyprus",
+    "id": "cyprus",
+    "index": "c/cyprus"
+  },
+  "kazakhstan": {
+    "g": "nf,asia",
+    "ns": "kazakhstan",
+    "id": "kazakhstan",
+    "index": "c/kazakhstan"
+  },
+  "kyrgyzstan": {
+    "g": "nf,asia",
+    "ns": "kyrgyzstan",
+    "id": "kyrgyzstan",
+    "index": "c/kyrgyzstan"
+  },
+  "tajikistan": {
+    "g": "nf,asia",
+    "ns": "tajikistan",
+    "id": "tajikistan",
+    "index": "c/tajikistan"
+  },
+  "turkmenistan": {
+    "g": "nf,asia",
+    "ns": "turkmenistan",
+    "id": "turkmenistan",
+    "index": "c/turkmenistan"
+  },
+  "uzbekistan": {
+    "g": "nf,asia",
+    "ns": "uzbekistan",
+    "id": "uzbekistan",
+    "index": "c/uzbekistan"
+  },
+  "papua-new-guinea": {
+    "g": "nf,oceania",
+    "ns": "papua-new-guinea",
+    "id": "papua-new-guinea",
+    "index": "c/papua-new-guinea"
+  },
+  "solomon-islands": {
+    "g": "nf,oceania",
+    "ns": "solomon-islands",
+    "id": "solomon-islands",
+    "index": "c/solomon-islands"
+  },
+  "vanuatu": {
+    "g": "nf,oceania",
+    "ns": "vanuatu",
+    "id": "vanuatu",
+    "index": "c/vanuatu"
+  },
+  "samoa": {
+    "g": "nf,oceania",
+    "ns": "samoa",
+    "id": "samoa",
+    "index": "c/samoa"
+  },
+  "kiribati": {
+    "g": "nf,oceania",
+    "ns": "kiribati",
+    "id": "kiribati",
+    "index": "c/kiribati"
+  },
+  "nauru": {
+    "g": "nf,oceania",
+    "ns": "nauru",
+    "id": "nauru",
+    "index": "c/nauru"
+  },
+  "tuvalu": {
+    "g": "nf,oceania",
+    "ns": "tuvalu",
+    "id": "tuvalu",
+    "index": "c/tuvalu"
+  },
+  "tonga": {
+    "g": "nf,oceania",
+    "ns": "tonga",
+    "id": "tonga",
+    "index": "c/tonga"
+  },
+  "palau": {
+    "g": "nf,oceania",
+    "ns": "palau",
+    "id": "palau",
+    "index": "c/palau"
+  },
+  "micronesia": {
+    "g": "nf,oceania",
+    "ns": "micronesia",
+    "id": "micronesia",
+    "index": "c/micronesia"
+  },
+  "marshall-islands": {
+    "g": "nf,oceania",
+    "ns": "marshall-islands",
+    "id": "marshall-islands",
+    "index": "c/marshall-islands"
+  },
+  "venezuela": {
+    "g": "nf,south-america",
+    "ns": "venezuela",
+    "id": "venezuela",
+    "index": "c/venezuela"
+  },
+  "uruguay": {
+    "g": "nf,south-america",
+    "ns": "uruguay",
+    "id": "uruguay",
+    "index": "c/uruguay"
+  },
+  "paraguay": {
+    "g": "nf,south-america",
+    "ns": "paraguay",
+    "id": "paraguay",
+    "index": "c/paraguay"
+  },
+  "bolivia": {
+    "g": "nf,south-america",
+    "ns": "bolivia",
+    "id": "bolivia",
+    "index": "c/bolivia"
+  },
+  "ecuador": {
+    "g": "nf,south-america",
+    "ns": "ecuador",
+    "id": "ecuador",
+    "index": "c/ecuador"
+  },
+  "guyana": {
+    "g": "nf,south-america",
+    "ns": "guyana",
+    "id": "guyana",
+    "index": "c/guyana"
+  },
+  "suriname": {
+    "g": "nf,south-america",
+    "ns": "suriname",
+    "id": "suriname",
+    "index": "c/suriname"
+  },
+  "belize": {
+    "g": "nf,north-america",
+    "ns": "belize",
+    "id": "belize",
+    "index": "c/belize"
+  },
+  "costa-rica": {
+    "g": "nf,north-america",
+    "ns": "costa-rica",
+    "id": "costa-rica",
+    "index": "c/costa-rica"
+  },
+  "el-salvador": {
+    "g": "nf,north-america",
+    "ns": "el-salvador",
+    "id": "el-salvador",
+    "index": "c/el-salvador"
+  },
+  "guatemala": {
+    "g": "nf,north-america",
+    "ns": "guatemala",
+    "id": "guatemala",
+    "index": "c/guatemala"
+  },
+  "honduras": {
+    "g": "nf,north-america",
+    "ns": "honduras",
+    "id": "honduras",
+    "index": "c/honduras"
+  },
+  "nicaragua": {
+    "g": "nf,north-america",
+    "ns": "nicaragua",
+    "id": "nicaragua",
+    "index": "c/nicaragua"
+  },
+  "panama": {
+    "g": "nf,north-america",
+    "ns": "panama",
+    "id": "panama",
+    "index": "c/panama"
+  },
+  "bahamas": {
+    "g": "nf,caribbean",
+    "ns": "bahamas",
+    "id": "bahamas",
+    "index": "c/bahamas"
+  },
+  "barbados": {
+    "g": "nf,caribbean",
+    "ns": "barbados",
+    "id": "barbados",
+    "index": "c/barbados"
+  },
+  "dominica": {
+    "g": "nf,caribbean",
+    "ns": "dominica",
+    "id": "dominica",
+    "index": "c/dominica"
+  },
+  "dominican-republic": {
+    "g": "nf,caribbean",
+    "ns": "dominican-republic",
+    "id": "dominican-republic",
+    "index": "c/dominican-republic"
+  },
+  "grenada": {
+    "g": "nf,caribbean",
+    "ns": "grenada",
+    "id": "grenada",
+    "index": "c/grenada"
+  },
+  "haiti": {
+    "g": "nf,caribbean",
+    "ns": "haiti",
+    "id": "haiti",
+    "index": "c/haiti"
+  },
+  "jamaica": {
+    "g": "nf,caribbean",
+    "ns": "jamaica",
+    "id": "jamaica",
+    "index": "c/jamaica"
+  },
+  "saint-kitts-and-nevis": {
+    "g": "nf,caribbean",
+    "ns": "saint-kitts-and-nevis",
+    "id": "saint-kitts-and-nevis",
+    "index": "c/saint-kitts-and-nevis"
+  },
+  "saint-lucia": {
+    "g": "nf,caribbean",
+    "ns": "saint-lucia",
+    "id": "saint-lucia",
+    "index": "c/saint-lucia"
+  },
+  "saint-vincent-and-the-grenadines": {
+    "g": "nf,caribbean",
+    "ns": "saint-vincent-and-the-grenadines",
+    "id": "saint-vincent-and-the-grenadines",
+    "index": "c/saint-vincent-and-the-grenadines"
+  },
+  "trinidad-and-tobago": {
+    "g": "nf,caribbean",
+    "ns": "trinidad-and-tobago",
+    "id": "trinidad-and-tobago",
+    "index": "c/trinidad-and-tobago"
   }
 }

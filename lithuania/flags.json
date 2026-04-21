@@ -1,0 +1,50 @@
+{
+  "lithuania": {
+    "title": "Flag of the Republic of Lithuania",
+    "ratio": "3:5",
+    "use": {
+      "as": "national flag",
+      "since": "1989-03-20"
+    },
+    "colors": [
+      {
+        "color": "yellow",
+        "hex": "#FDB913",
+        "cmyk": "0/25/100/0",
+        "note": "Represents the sun, prosperity, and the light of sovereignty."
+      },
+      {
+        "color": "green",
+        "hex": "#006A44",
+        "cmyk": "100/0/85/40",
+        "note": "Symbolises the beauty of nature, freedom, and hope."
+      },
+      {
+        "color": "red",
+        "hex": "#C1272D",
+        "cmyk": "0/90/90/15",
+        "note": "Represents the blood shed by Lithuanians for the homeland and their courage."
+      }
+    ],
+    "desc": [
+      "- Three equal horizontal bands of yellow, green, and red from top to bottom\n",
+      "- Originally adopted in 1918 after the restoration of Lithuanian statehood; banned under Soviet occupation\n",
+      "- Re-adopted on 20 March 1989, shortly before formal independence was restored in 1990"
+    ],
+    "article": "lithuania/flag.md",
+    "of": {
+      "country": "lithuania"
+    },
+    "countryData": {
+      "name": "Lithuania",
+      "officialName": "Republic of Lithuania",
+      "continent": "europe",
+      "un": "member"
+    },
+    "trivia": [
+      "- The tricolour was designed by Tadas Daugirdas and Antanas Zmuidzinavicius in 1917\n",
+      "- A vertical version is used on some government buildings, with yellow at the hoist\n",
+      "- Lithuania also flies a historic red banner with the white Vytis knight as a state flag\n"
+    ]
+  }
+}

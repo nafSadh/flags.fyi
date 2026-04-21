@@ -1,0 +1,54 @@
+{
+  "malawi": {
+    "title": "Flag of the Republic of Malawi",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "black",
+        "hex": "#000000",
+        "note": "Represents the indigenous peoples of the African continent."
+      },
+      {
+        "color": "red",
+        "hex": "#CE1126",
+        "note": "Symbolises the blood shed in the struggle for African independence."
+      },
+      {
+        "color": "green",
+        "hex": "#339E35",
+        "note": "Represents Malawi's evergreen landscape and agriculture."
+      },
+      {
+        "color": "red-sun",
+        "hex": "#CE1126",
+        "note": "The red rising sun represents the dawn of hope and freedom over Africa."
+      }
+    ],
+    "desc": [
+      "- Three equal horizontal bands of black, red, and green with a red rising sun centred on the black band\n",
+      "- The rising sun bears 31 rays, marking Malawi as the 31st African nation to gain independence\n",
+      "- Adopted on 6 July 1964 at independence from the United Kingdom; colours derive from the Pan-African palette"
+    ],
+    "article": "malawi/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1964-07-06"
+    },
+    "of": {
+      "country": "malawi"
+    },
+    "countryData": {
+      "name": "Malawi",
+      "officialName": "Republic of Malawi",
+      "continent": "africa",
+      "location": "Southeast Africa",
+      "un": "member"
+    },
+    "trivia": [
+      "- The 31-ray rising sun commemorates Malawi being the 31st African country to achieve independence\n",
+      "- Between 2010 and 2012 a redesign placed a full white sun at centre; it was reverted after public opposition\n",
+      "- Based on the flag of the Malawi Congress Party, which led the independence movement\n",
+      "- The rising sun also symbolises hope for the whole African continent"
+    ]
+  }
+}

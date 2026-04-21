@@ -1,0 +1,45 @@
+{
+  "el-salvador": {
+    "title": "Flag of the Republic of El Salvador",
+    "ratio": "189:335",
+    "use": {
+      "as": "national flag",
+      "since": "1912-09-17"
+    },
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#0047AB",
+        "cmyk": "100/74/0/33",
+        "pantone": "286 C",
+        "note": "Upper and lower bands; represents the sky and the two oceans bordering Central America."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Central band bearing the coat of arms; represents peace."
+      }
+    ],
+    "desc": [
+      "- Three horizontal bands of blue, white, and blue, with the national coat of arms centred on the white band\n",
+      "- The coat of arms features a triangle (equality), five volcanoes (the Central American federation), a Phrygian cap, and the motto Dios Union Libertad\n",
+      "- Adopted on 17 September 1912, restoring the colours of the United Provinces of Central America\n"
+    ],
+    "article": "el-salvador/flag.md",
+    "of": {
+      "country": "el-salvador"
+    },
+    "countryData": {
+      "name": "El Salvador",
+      "officialName": "Republic of El Salvador",
+      "continent": "north-america",
+      "un": "member"
+    },
+    "trivia": [
+      "- The blue-white-blue pattern is shared with Argentina, Honduras, and Nicaragua, all descended from the flag of the United Provinces of Central America\n",
+      "- The five volcanoes on the coat of arms represent the original five states of the Central American federation\n",
+      "- The civil flag bears the inscription Dios Union Libertad (God Union Liberty) in gold instead of the full coat of arms\n"
+    ]
+  }
+}

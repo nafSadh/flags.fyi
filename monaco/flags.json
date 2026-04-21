@@ -1,0 +1,45 @@
+{
+  "monaco": {
+    "title": "Flag of the Principality of Monaco",
+    "ratio": "4:5",
+    "use": {
+      "as": "national flag",
+      "since": "1881-04-04"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#CE1126",
+        "cmyk": "0/95/90/10",
+        "note": "A heraldic colour of the House of Grimaldi, ruling dynasty since 1297.",
+        "pantone": "186 C"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "The second heraldic colour of the Grimaldi family."
+      }
+    ],
+    "desc": [
+      "- Two equal horizontal bands of red over white, derived from the House of Grimaldi's dynastic colours\n",
+      "- Adopted on 4 April 1881 under Prince Charles III, replacing earlier banners that included the Grimaldi coat of arms\n",
+      "- The current design is virtually identical to Indonesia's flag, differing mainly in proportions (4:5 vs 2:3)"
+    ],
+    "article": "monaco/flag.md",
+    "of": {
+      "country": "monaco"
+    },
+    "countryData": {
+      "name": "Monaco",
+      "officialName": "Principality of Monaco",
+      "continent": "europe",
+      "un": "member"
+    },
+    "trivia": [
+      "- One of the world's oldest national flags still in use, dating from 1339 in earlier forms\n",
+      "- Monaco's flag is nearly identical to Indonesia's and is visually very close to Poland's inverted\n",
+      "- The Grimaldi family also uses a state banner with the full coat of arms on a field of the same colours\n"
+    ]
+  }
+}

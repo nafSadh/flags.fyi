@@ -1,0 +1,59 @@
+{
+  "suriname": {
+    "title": "Flag of the Republic of Suriname",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "1975-11-25"
+    },
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#377E3F",
+        "cmyk": "80/0/70/45",
+        "pantone": "356 C",
+        "note": "Upper and lower bands; represents the fertility of the land and forests."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Two narrow bands; represents peace and justice."
+      },
+      {
+        "color": "red",
+        "hex": "#B40A2D",
+        "cmyk": "0/94/78/29",
+        "pantone": "186 C",
+        "note": "Wide central band; represents progress and love for the nation."
+      },
+      {
+        "color": "yellow",
+        "hex": "#ECC81D",
+        "cmyk": "0/16/88/8",
+        "pantone": "116 C",
+        "note": "Five-pointed star at the centre; symbolises unity, a bright future, and sacrifice."
+      }
+    ],
+    "desc": [
+      "- Five horizontal bands of green, white, red (double width), white, and green, with a yellow five-pointed star at the centre\n",
+      "- Adopted on 25 November 1975 when Suriname gained independence from the Netherlands\n",
+      "- Designed by Jacques Herman Pinas after a national design contest\n"
+    ],
+    "article": "suriname/flag.md",
+    "of": {
+      "country": "suriname"
+    },
+    "countryData": {
+      "name": "Suriname",
+      "officialName": "Republic of Suriname",
+      "continent": "south-america",
+      "un": "member"
+    },
+    "trivia": [
+      "- The five points of the yellow star represent the five major ethnic groups of Suriname: indigenous, Creole, Maroon, Indian, Javanese, and Chinese\n",
+      "- Green stands for fertile land, white for justice, red for progress, and yellow for a golden future\n",
+      "- Designed by Jacques Herman Pinas as the winning entry in the independence-era design competition\n"
+    ]
+  }
+}

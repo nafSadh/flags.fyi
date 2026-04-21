@@ -9,9 +9,9 @@
 <path fill="#fff" d="m0 0h15000v10000H0z"/>
 <g opacity=".5">
   <path fill="#fff" d="m0 0h15000v10000H0z"/>
-  <path fill="#FF9933" d="m0 0.0h15000v3333.3333333333335H0z"/>
+  <path fill="#FF671F" d="m0 0.0h15000v3333.3333333333335H0z"/>
   <path fill="#FFFFFF" d="m0 3333.3333333333335h15000v3333.3333333333335H0z"/>
-  <path fill="#138808" d="m0 6666.666666666667h15000v3333.3333333333335H0z"/>
+  <path fill="#046A38" d="m0 6666.666666666667h15000v3333.3333333333335H0z"/>
 </g>
 <g stroke="#000" stroke-width="140" stroke-linejoin="round" stroke-linecap="round">
   <path stroke="#444" stroke-width="250" d="m0 0h15000v10000H0z"/>

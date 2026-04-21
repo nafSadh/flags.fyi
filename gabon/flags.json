@@ -1,0 +1,47 @@
+{
+  "gabon": {
+    "title": "Flag of the Gabonese Republic",
+    "ratio": "3:4",
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#009E60",
+        "note": "Top band representing the country's forests and rich timber resources."
+      },
+      {
+        "color": "yellow",
+        "hex": "#FCD116",
+        "note": "Middle band evoking the equator, which passes through Gabon, and the sun."
+      },
+      {
+        "color": "blue",
+        "hex": "#3A75C4",
+        "note": "Bottom band standing for the Atlantic Ocean along the country's western coast."
+      }
+    ],
+    "desc": [
+      "- Three equal horizontal bands of green, yellow and blue with no emblem\n",
+      "- Adopted on 9 August 1960, days before full independence from France on 17 August\n",
+      "- Replaced an earlier tricolour that included a French flag in the canton and a narrower yellow stripe"
+    ],
+    "article": "gabon/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1960-08-09"
+    },
+    "of": {
+      "country": "gabon"
+    },
+    "countryData": {
+      "name": "Gabon",
+      "officialName": "Gabonese Republic",
+      "continent": "africa",
+      "un": "member"
+    },
+    "trivia": [
+      "- The three equal horizontal bands mark the equator (yellow) running across central Gabon\n",
+      "- An earlier 1959 version had a narrow yellow stripe and the French tricolour in the canton\n",
+      "- The palette deliberately avoids the Pan-African red, choosing blue for the Atlantic instead\n"
+    ]
+  }
+}

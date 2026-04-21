@@ -1,0 +1,57 @@
+{
+  "central-african-republic": {
+    "title": "Flag of the Central African Republic",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#003082",
+        "note": "Top stripe representing the sky and liberty."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "note": "Second stripe symbolising peace and dignity."
+      },
+      {
+        "color": "green",
+        "hex": "#289728",
+        "note": "Third stripe standing for hope and the country's forests."
+      },
+      {
+        "color": "yellow",
+        "hex": "#FFCE00",
+        "note": "Bottom stripe and star evoking tolerance and the savannas."
+      },
+      {
+        "color": "red",
+        "hex": "#D21034",
+        "note": "Vertical band crossing all stripes, symbolising the blood shared by humanity."
+      }
+    ],
+    "desc": [
+      "- Four equal horizontal bands of blue, white, green and yellow, crossed by a vertical red band\n",
+      "- A yellow five-pointed star appears in the top-left corner on the blue band\n",
+      "- The flag fuses the Pan-African colours with the blue, white and red of the former French colonial power"
+    ],
+    "article": "central-african-republic/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1958-12-01"
+    },
+    "of": {
+      "country": "central-african-republic"
+    },
+    "countryData": {
+      "name": "Central African Republic",
+      "officialName": "Central African Republic",
+      "continent": "africa",
+      "un": "member"
+    },
+    "trivia": [
+      "- Designed by Barthélemy Boganda, the founding father of the Central African Republic\n",
+      "- The red band was intended to show that Europeans and Africans share the same blood\n",
+      "- Adopted on 1 December 1958 and retained unchanged after full independence in 1960\n"
+    ]
+  }
+}

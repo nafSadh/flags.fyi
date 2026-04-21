@@ -1,0 +1,47 @@
+{
+  "samoa": {
+    "title": "Flag of the Independent State of Samoa",
+    "ratio": "1:2",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#C8102E",
+        "note": "Traditionally represents courage"
+      },
+      {
+        "color": "blue",
+        "hex": "#002868",
+        "note": "The canton representing freedom"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "note": "The five stars of the Southern Cross representing purity"
+      }
+    ],
+    "desc": [
+      "- Red field with a blue rectangle in the upper hoist quadrant containing five white five-pointed stars in the configuration of the Southern Cross\n",
+      "- Adopted on 24 February 1949, with a fifth small star added to the four-star 1948 version\n"
+    ],
+    "article": "samoa/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1949-02-24"
+    },
+    "of": {
+      "country": "samoa"
+    },
+    "countryData": {
+      "name": "Samoa",
+      "officialName": "Independent State of Samoa",
+      "continent": "oceania",
+      "location": "Polynesia, South Pacific",
+      "un": "member"
+    },
+    "trivia": [
+      "- Samoa was the first small Pacific nation to gain independence in the postwar era, on 1 January 1962\n",
+      "- The original 1948 flag had only four stars; the smaller Epsilon Crucis star was added in 1949\n",
+      "- The country was known as Western Samoa until 1997, when it officially shortened its name to simply Samoa\n"
+    ]
+  }
+}

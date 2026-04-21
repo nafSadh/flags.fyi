@@ -1,0 +1,52 @@
+{
+  "timor-leste": {
+    "title": "Flag of the Democratic Republic of Timor-Leste",
+    "ratio": "1:2",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#DC241F",
+        "note": "Represents the struggle for national liberation"
+      },
+      {
+        "color": "yellow",
+        "hex": "#FFC726",
+        "note": "Triangle symbolising the traces of colonialism in the country's history"
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "note": "Triangle representing the obscurantism that still needs to be overcome"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "note": "The five-pointed star representing the light that guides the nation"
+      }
+    ],
+    "desc": [
+      "- Red field with a yellow isosceles triangle from the hoist covering half the width, a smaller black triangle overlapping it, and a white five-pointed star on the black\n",
+      "- Adopted on 20 May 2002 at the restoration of independence after UN transitional administration\n"
+    ],
+    "article": "timor-leste/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "2002-05-20"
+    },
+    "of": {
+      "country": "timor-leste"
+    },
+    "countryData": {
+      "name": "Timor-Leste",
+      "officialName": "Democratic Republic of Timor-Leste",
+      "continent": "asia",
+      "location": "eastern half of Timor island, Maritime Southeast Asia",
+      "un": "member"
+    },
+    "trivia": [
+      "- The design revives the flag first raised in 1975 at the short-lived unilateral declaration of independence\n",
+      "- Timor-Leste is also known as East Timor, and both names are official\n",
+      "- The country became the first new sovereign state of the 21st century on 20 May 2002\n"
+    ]
+  }
+}

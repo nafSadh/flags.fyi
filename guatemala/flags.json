@@ -1,0 +1,59 @@
+{
+  "guatemala": {
+    "title": "Flag of the Republic of Guatemala",
+    "ratio": "5:8",
+    "use": {
+      "as": "national flag",
+      "since": "1871-08-17"
+    },
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#4997D0",
+        "cmyk": "64/28/0/18",
+        "pantone": "284 C",
+        "note": "Vertical bands at hoist and fly; represents the Pacific and Atlantic oceans and the sky."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Central vertical band bearing the coat of arms; represents peace and purity."
+      },
+      {
+        "color": "gold",
+        "hex": "#E3AD3D",
+        "cmyk": "0/25/75/11",
+        "pantone": "130 C",
+        "note": "Sun rays and scroll on the coat of arms; symbolises prosperity."
+      },
+      {
+        "color": "green",
+        "hex": "#498A30",
+        "cmyk": "47/0/66/46",
+        "pantone": "356 C",
+        "note": "Laurel wreath and quetzal tail on the coat of arms; stands for liberty."
+      }
+    ],
+    "desc": [
+      "- Three vertical bands of sky blue, white, and sky blue with the national coat of arms centred on the white band\n",
+      "- The coat of arms features a resplendent quetzal, a scroll of 15 September 1821 (independence), rifles, swords, and a laurel wreath\n",
+      "- Adopted on 17 August 1871 by decree after the Liberal Revolution led by Justo Rufino Barrios\n"
+    ],
+    "article": "guatemala/flag.md",
+    "of": {
+      "country": "guatemala"
+    },
+    "countryData": {
+      "name": "Guatemala",
+      "officialName": "Republic of Guatemala",
+      "continent": "north-america",
+      "un": "member"
+    },
+    "trivia": [
+      "- The resplendent quetzal on the coat of arms is the national bird, a symbol of liberty because it cannot live in captivity\n",
+      "- The sky blue is brighter than Honduras's or El Salvador's, distinguishing Guatemala from its federation-era neighbours\n",
+      "- The scroll records the date of Central America's independence from Spain: 15 de Septiembre de 1821\n"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "burkina-faso": {
+    "title": "Flag of Burkina Faso",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#EF2B2D",
+        "note": "Upper band evoking the revolution of 1983 that renamed the country Burkina Faso."
+      },
+      {
+        "color": "green",
+        "hex": "#009E49",
+        "note": "Lower band symbolising the hope and abundance of natural resources."
+      },
+      {
+        "color": "yellow",
+        "hex": "#FCD116",
+        "note": "Central five-pointed star representing the guiding light of the revolution."
+      }
+    ],
+    "desc": [
+      "- Two equal horizontal bands of red (top) and green (bottom) with a yellow five-pointed star centred\n",
+      "- The colours are Pan-African, matching several neighbours including Ghana and Senegal\n",
+      "- Adopted on 4 August 1984 when Upper Volta was renamed Burkina Faso under Thomas Sankara"
+    ],
+    "article": "burkina-faso/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1984-08-04"
+    },
+    "of": {
+      "country": "burkina-faso"
+    },
+    "countryData": {
+      "name": "Burkina Faso",
+      "officialName": "Burkina Faso",
+      "continent": "africa",
+      "un": "member"
+    },
+    "trivia": [
+      "- Replaced the black-white-red French-tricolour-inspired flag of Upper Volta on 4 August 1984\n",
+      "- Burkina Faso translates as 'Land of the Upright People' in Mossi and Dyula\n",
+      "- The design was promoted by revolutionary leader Thomas Sankara to break with the colonial past\n"
+    ]
+  }
+}

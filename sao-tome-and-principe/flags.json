@@ -1,0 +1,54 @@
+{
+  "sao-tome-and-principe": {
+    "title": "Flag of the Democratic Republic of São Tomé and Príncipe",
+    "ratio": "1:2",
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#12AD2B",
+        "note": "Represents the lush vegetation of the islands."
+      },
+      {
+        "color": "yellow",
+        "hex": "#FFCE00",
+        "note": "Symbolises cocoa, a principal crop, and tropical sunshine."
+      },
+      {
+        "color": "red",
+        "hex": "#D21034",
+        "note": "Represents the struggle for independence."
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "note": "The two black stars represent the African population of the two main islands, São Tomé and Príncipe."
+      }
+    ],
+    "desc": [
+      "- Three horizontal bands of green, yellow (double width), and green, with a red triangle at the hoist\n",
+      "- Two black five-pointed stars centred on the yellow band represent the two main islands\n",
+      "- Adopted on 12 July 1975 upon independence from Portugal"
+    ],
+    "article": "sao-tome-and-principe/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1975-07-12"
+    },
+    "of": {
+      "country": "sao-tome-and-principe"
+    },
+    "countryData": {
+      "name": "São Tomé and Príncipe",
+      "officialName": "Democratic Republic of São Tomé and Príncipe",
+      "continent": "africa",
+      "location": "Gulf of Guinea, off Central Africa",
+      "un": "member"
+    },
+    "trivia": [
+      "- Among the smallest countries in Africa by population, São Tomé and Príncipe uses Pan-African colours\n",
+      "- The two black stars echo the colour scheme of the Movement for the Liberation of São Tomé and Príncipe (MLSTP)\n",
+      "- The flag's Pan-African colours also pay tribute to Ghana, an early backer of the independence movement\n",
+      "- Princípe enjoys partial autonomy but shares the national flag"
+    ]
+  }
+}

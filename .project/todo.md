@@ -1,7 +1,7 @@
 # Flags.fyi — Master Checklist
 
-> **Generated:** 2026-03-22
-> **Total tracked:** 269 entities | **Done:** 269 | **Coverage:** 100%
+> **Generated:** 2026-04-20
+> **Total tracked:** 387 entities | **Done:** 377 | **Coverage:** 97%
 
 ---
 
@@ -51,10 +51,10 @@
 | Maritime & Piracy               |     4 |      100%  |
 | Sub-national & Regional         |     8 |      100%  |
 
-**Tracked: 387 flag entries** — 267 done (69%), 120 missing (31%).
+**Tracked: 387 flag entries** — 377 done (97%), 10 missing (3%).
 National-flag coverage dominates the gap (109 UN countries without data).
 
-> **Coverage as of 2026-04-19:** per-region lists below show actual status
+> **Coverage as of 2026-04-20:** per-region lists below show actual status
 > — each country is marked `[x]` if it exists in `data/flags.json`, else `[ ]`.
 
 ---
@@ -91,56 +91,56 @@ National-flag coverage dominates the gap (109 UN countries without data).
 
 ## Africa (non-Arab League)
 
-*7/42 done*
+*42/42 done*
 
 - [x] Angola — `angola`
-- [ ] Benin — `benin`
-- [ ] Botswana — `botswana`
-- [ ] Burkina Faso — `burkina-faso`
-- [ ] Burundi — `burundi`
-- [ ] Cabo Verde — `cabo-verde`
-- [ ] Cameroon — `cameroon`
-- [ ] Central African Republic — `central-african-republic`
-- [ ] Congo (DR) — `congo-dr`
-- [ ] Congo (Republic) — `congo-republic`
-- [ ] Cote d'Ivoire — `cote-divoire`
-- [ ] Equatorial Guinea — `equatorial-guinea`
-- [ ] Eritrea — `eritrea`
-- [ ] Eswatini — `eswatini`
+- [x] Benin — `benin`
+- [x] Botswana — `botswana`
+- [x] Burkina Faso — `burkina-faso`
+- [x] Burundi — `burundi`
+- [x] Cabo Verde — `cabo-verde`
+- [x] Cameroon — `cameroon`
+- [x] Central African Republic — `central-african-republic`
+- [x] Congo (DR) — `congo-dr`
+- [x] Congo (Republic) — `congo-republic`
+- [x] Cote d'Ivoire — `cote-divoire`
+- [x] Equatorial Guinea — `equatorial-guinea`
+- [x] Eritrea — `eritrea`
+- [x] Eswatini — `eswatini`
 - [x] Ethiopia — `ethiopia`
-- [ ] Gabon — `gabon`
-- [ ] Gambia — `gambia`
+- [x] Gabon — `gabon`
+- [x] Gambia — `gambia`
 - [x] Ghana — `ghana`
-- [ ] Guinea — `guinea`
-- [ ] Guinea-Bissau — `guinea-bissau`
+- [x] Guinea — `guinea`
+- [x] Guinea-Bissau — `guinea-bissau`
 - [x] Kenya — `kenya`
-- [ ] Lesotho — `lesotho`
-- [ ] Liberia — `liberia`
-- [ ] Madagascar — `madagascar`
-- [ ] Malawi — `malawi`
-- [ ] Mali — `mali`
-- [ ] Mozambique — `mozambique`
-- [ ] Namibia — `namibia`
-- [ ] Niger — `niger`
+- [x] Lesotho — `lesotho`
+- [x] Liberia — `liberia`
+- [x] Madagascar — `madagascar`
+- [x] Malawi — `malawi`
+- [x] Mali — `mali`
+- [x] Mozambique — `mozambique`
+- [x] Namibia — `namibia`
+- [x] Niger — `niger`
 - [x] Nigeria — `nigeria`
-- [ ] Rwanda — `rwanda`
-- [ ] Sao Tome and Principe — `sao-tome-and-principe`
-- [ ] Senegal — `senegal`
-- [ ] Seychelles — `seychelles`
-- [ ] Sierra Leone — `sierra-leone`
+- [x] Rwanda — `rwanda`
+- [x] Sao Tome and Principe — `sao-tome-and-principe`
+- [x] Senegal — `senegal`
+- [x] Seychelles — `seychelles`
+- [x] Sierra Leone — `sierra-leone`
 - [x] South Africa — `south-africa`
-- [ ] South Sudan — `south-sudan`
+- [x] South Sudan — `south-sudan`
 - [x] Tanzania — `tanzania`
-- [ ] Togo — `togo`
-- [ ] Uganda — `uganda`
-- [ ] Zambia — `zambia`
-- [ ] Zimbabwe — `zimbabwe`
+- [x] Togo — `togo`
+- [x] Uganda — `uganda`
+- [x] Zambia — `zambia`
+- [x] Zimbabwe — `zimbabwe`
 
 ---
 
 ## Asia & Oceania (non-Arab League)
 
-*20/50 done*
+*50/50 done*
 
 - [x] Afghanistan — `afghanistan`
 - [x] Bangladesh — `bangladesh` *(navy ensign also present)*
@@ -156,100 +156,100 @@ National-flag coverage dominates the gap (109 UN countries without data).
 - [x] Vietnam — `vietnam`
 - [x] Malaysia — `malaysia`
 - [x] Singapore — `singapore`
-- [ ] Myanmar — `myanmar`
-- [ ] Cambodia — `cambodia`
-- [ ] Laos — `laos`
-- [ ] Brunei — `brunei`
-- [ ] Timor-Leste — `timor-leste`
-- [ ] Mongolia — `mongolia`
-- [ ] Nepal — `nepal`
-- [ ] Sri Lanka — `sri-lanka`
-- [ ] Bhutan — `bhutan`
-- [ ] Maldives — `maldives`
+- [x] Myanmar — `myanmar`
+- [x] Cambodia — `cambodia`
+- [x] Laos — `laos`
+- [x] Brunei — `brunei`
+- [x] Timor-Leste — `timor-leste`
+- [x] Mongolia — `mongolia`
+- [x] Nepal — `nepal`
+- [x] Sri Lanka — `sri-lanka`
+- [x] Bhutan — `bhutan`
+- [x] Maldives — `maldives`
 - [x] Turkey — `turkey`
 - [x] Iran — `iran`
 - [x] Israel — `israel`
-- [ ] Armenia — `armenia`
-- [ ] Azerbaijan — `azerbaijan`
-- [ ] Georgia — `georgia`
-- [ ] Cyprus — `cyprus`
+- [x] Armenia — `armenia`
+- [x] Azerbaijan — `azerbaijan`
+- [x] Georgia — `georgia`
+- [x] Cyprus — `cyprus`
 - [x] Australia — `australia` *(states)*
 - [x] New Zealand — `new-zealand`
 - [x] Fiji — `fiji` *(divisions)*
-- [ ] Papua New Guinea — `papua-new-guinea`
-- [ ] Solomon Islands — `solomon-islands`
-- [ ] Vanuatu — `vanuatu`
-- [ ] Samoa — `samoa`
-- [ ] Kiribati — `kiribati`
-- [ ] Nauru — `nauru`
-- [ ] Tuvalu — `tuvalu`
-- [ ] Tonga — `tonga`
-- [ ] Palau — `palau`
-- [ ] Micronesia — `micronesia`
-- [ ] Marshall Islands — `marshall-islands`
-- [ ] Kazakhstan — `kazakhstan`
-- [ ] Kyrgyzstan — `kyrgyzstan`
-- [ ] Tajikistan — `tajikistan`
-- [ ] Turkmenistan — `turkmenistan`
-- [ ] Uzbekistan — `uzbekistan`
+- [x] Papua New Guinea — `papua-new-guinea`
+- [x] Solomon Islands — `solomon-islands`
+- [x] Vanuatu — `vanuatu`
+- [x] Samoa — `samoa`
+- [x] Kiribati — `kiribati`
+- [x] Nauru — `nauru`
+- [x] Tuvalu — `tuvalu`
+- [x] Tonga — `tonga`
+- [x] Palau — `palau`
+- [x] Micronesia — `micronesia`
+- [x] Marshall Islands — `marshall-islands`
+- [x] Kazakhstan — `kazakhstan`
+- [x] Kyrgyzstan — `kyrgyzstan`
+- [x] Tajikistan — `tajikistan`
+- [x] Turkmenistan — `turkmenistan`
+- [x] Uzbekistan — `uzbekistan`
 
 ---
 
 ## Europe
 
-*25/45 done*
+*45/45 done*
 
 - [x] Albania — `albania`
 - [x] Andorra — `andorra`
 - [x] Austria — `austria`
-- [ ] Belarus — `belarus`
+- [x] Belarus — `belarus`
 - [x] Belgium — `belgium`
-- [ ] Bosnia and Herzegovina — `bosnia-and-herzegovina`
-- [ ] Bulgaria — `bulgaria`
+- [x] Bosnia and Herzegovina — `bosnia-and-herzegovina`
+- [x] Bulgaria — `bulgaria`
 - [x] Croatia — `croatia`
 - [x] Czech Republic — `czech-republic`
 - [x] Denmark — `denmark`
-- [ ] Estonia — `estonia`
+- [x] Estonia — `estonia`
 - [x] Finland — `finland`
 - [x] France — `france`
 - [x] Germany — `germany`
 - [x] Greece — `greece`
 - [x] Hungary — `hungary`
-- [ ] Iceland — `iceland`
+- [x] Iceland — `iceland`
 - [x] Ireland — `ireland`
 - [x] Italy — `italy`
-- [ ] Kosovo — `kosovo`
-- [ ] Latvia — `latvia`
-- [ ] Liechtenstein — `liechtenstein`
-- [ ] Lithuania — `lithuania`
-- [ ] Luxembourg — `luxembourg`
-- [ ] Malta — `malta`
-- [ ] Moldova — `moldova`
-- [ ] Monaco — `monaco`
-- [ ] Montenegro — `montenegro`
+- [x] Kosovo — `kosovo`
+- [x] Latvia — `latvia`
+- [x] Liechtenstein — `liechtenstein`
+- [x] Lithuania — `lithuania`
+- [x] Luxembourg — `luxembourg`
+- [x] Malta — `malta`
+- [x] Moldova — `moldova`
+- [x] Monaco — `monaco`
+- [x] Montenegro — `montenegro`
 - [x] Netherlands — `netherlands`
-- [ ] North Macedonia — `north-macedonia`
+- [x] North Macedonia — `north-macedonia`
 - [x] Norway — `norway`
 - [x] Poland — `poland`
 - [x] Portugal — `portugal`
 - [x] Romania — `romania`
 - [x] Russia — `russia`
-- [ ] San Marino — `san-marino`
-- [ ] Serbia — `serbia`
-- [ ] Slovakia — `slovakia`
-- [ ] Slovenia — `slovenia`
+- [x] San Marino — `san-marino`
+- [x] Serbia — `serbia`
+- [x] Slovakia — `slovakia`
+- [x] Slovenia — `slovenia`
 - [x] Spain — `spain`
 - [x] Sweden — `sweden`
 - [x] Switzerland — `switzerland`
 - [x] Ukraine — `ukraine`
 - [x] United Kingdom — `uk` *(Crown Dependencies covered separately)*
-- [ ] Vatican City — `vatican-city`
+- [x] Vatican City — `vatican-city`
 
 ---
 
 ## Americas
 
-*10/35 done*
+*35/35 done*
 
 - [x] Antigua and Barbuda — `antigua-and-barbuda`
 - [x] United States — `us` *(California sub-national present)*
@@ -260,32 +260,32 @@ National-flag coverage dominates the gap (109 UN countries without data).
 - [x] Peru — `peru`
 - [x] Colombia — `colombia`
 - [x] Chile — `chile`
-- [ ] Venezuela — `venezuela`
-- [ ] Uruguay — `uruguay`
-- [ ] Paraguay — `paraguay`
-- [ ] Bolivia — `bolivia`
-- [ ] Ecuador — `ecuador`
-- [ ] Guyana — `guyana`
-- [ ] Suriname — `suriname`
-- [ ] Belize — `belize`
-- [ ] Costa Rica — `costa-rica`
-- [ ] El Salvador — `el-salvador`
-- [ ] Guatemala — `guatemala`
-- [ ] Honduras — `honduras`
-- [ ] Nicaragua — `nicaragua`
-- [ ] Panama — `panama`
-- [ ] Bahamas — `bahamas`
-- [ ] Barbados — `barbados`
+- [x] Venezuela — `venezuela`
+- [x] Uruguay — `uruguay`
+- [x] Paraguay — `paraguay`
+- [x] Bolivia — `bolivia`
+- [x] Ecuador — `ecuador`
+- [x] Guyana — `guyana`
+- [x] Suriname — `suriname`
+- [x] Belize — `belize`
+- [x] Costa Rica — `costa-rica`
+- [x] El Salvador — `el-salvador`
+- [x] Guatemala — `guatemala`
+- [x] Honduras — `honduras`
+- [x] Nicaragua — `nicaragua`
+- [x] Panama — `panama`
+- [x] Bahamas — `bahamas`
+- [x] Barbados — `barbados`
 - [x] Cuba — `cuba`
-- [ ] Dominica — `dominica`
-- [ ] Dominican Republic — `dominican-republic`
-- [ ] Grenada — `grenada`
-- [ ] Haiti — `haiti`
-- [ ] Jamaica — `jamaica`
-- [ ] Saint Kitts and Nevis — `saint-kitts-and-nevis`
-- [ ] Saint Lucia — `saint-lucia`
-- [ ] Saint Vincent and the Grenadines — `saint-vincent-and-the-grenadines`
-- [ ] Trinidad and Tobago — `trinidad-and-tobago`
+- [x] Dominica — `dominica`
+- [x] Dominican Republic — `dominican-republic`
+- [x] Grenada — `grenada`
+- [x] Haiti — `haiti`
+- [x] Jamaica — `jamaica`
+- [x] Saint Kitts and Nevis — `saint-kitts-and-nevis`
+- [x] Saint Lucia — `saint-lucia`
+- [x] Saint Vincent and the Grenadines — `saint-vincent-and-the-grenadines`
+- [x] Trinidad and Tobago — `trinidad-and-tobago`
 
 ---
 

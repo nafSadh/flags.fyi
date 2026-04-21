@@ -1,0 +1,52 @@
+{
+  "tajikistan": {
+    "title": "Flag of the Republic of Tajikistan",
+    "ratio": "1:2",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#CC0000",
+        "note": "Represents the sun, victory, and the unity of the nation"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "note": "Represents purity, cotton, snow in the high mountains, and friendship"
+      },
+      {
+        "color": "green",
+        "hex": "#006600",
+        "note": "Represents the fertile valleys and the Islamic faith of the majority"
+      },
+      {
+        "color": "gold",
+        "hex": "#F8C300",
+        "note": "The crown and seven stars emblem in the centre"
+      }
+    ],
+    "desc": [
+      "- Three horizontal bands of red, white (double width), and green with a centred emblem of a gold crown beneath an arc of seven five-pointed stars\n",
+      "- Adopted on 24 November 1992, replacing the Soviet-era flag after independence\n"
+    ],
+    "article": "tajikistan/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1992-11-24"
+    },
+    "of": {
+      "country": "tajikistan"
+    },
+    "countryData": {
+      "name": "Tajikistan",
+      "officialName": "Republic of Tajikistan",
+      "continent": "asia",
+      "location": "Central Asia, Pamir Mountains",
+      "un": "member"
+    },
+    "trivia": [
+      "- The crown (toj in Tajik) is a play on the country's name, literally 'the land of the crown'\n",
+      "- The seven stars echo a Tajik folk tradition in which seven is a sacred number symbolising perfection and happiness\n",
+      "- It is the only Central Asian national flag to feature the red-white-green tricolour, recalling Soviet Tajikistan's 1953 banner\n"
+    ]
+  }
+}

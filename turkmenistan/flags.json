@@ -1,0 +1,47 @@
+{
+  "turkmenistan": {
+    "title": "Flag of Turkmenistan",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#00843D",
+        "note": "Represents Islam and the country's lush landscape"
+      },
+      {
+        "color": "red",
+        "hex": "#CB2026",
+        "note": "The vertical carpet-pattern stripe representing the five major Turkmen tribes"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "note": "The crescent and stars above the carpet pattern"
+      }
+    ],
+    "desc": [
+      "- Green field with a vertical red stripe near the hoist containing five carpet guls, a white crescent and five white stars in the upper hoist, and two crossed olive branches beneath the guls\n",
+      "- Adopted on 19 February 1992 and amended in 2001 to add olive branches; current proportions set in 2001\n"
+    ],
+    "article": "turkmenistan/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1992-02-19"
+    },
+    "of": {
+      "country": "turkmenistan"
+    },
+    "countryData": {
+      "name": "Turkmenistan",
+      "officialName": "Turkmenistan",
+      "continent": "asia",
+      "location": "Central Asia, east of the Caspian Sea",
+      "un": "permanently neutral member"
+    },
+    "trivia": [
+      "- Often described as the world's most complex national flag because of its intricate carpet medallions (guls)\n",
+      "- The five guls represent the Teke, Yomut, Saryk, Chovdur, and Ersary tribes; olive branches were added in 2001 to reflect Turkmenistan's UN-recognised permanent neutrality\n",
+      "- The five stars echo the country's five provinces (welayats)\n"
+    ]
+  }
+}

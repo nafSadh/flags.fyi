@@ -7,7 +7,7 @@
 <path id="Star5" d="M0,-210 54.859957,-75.508253 199.721868,-64.893569 88.765275,28.841586 123.434903,169.893569 0,93.333333 -123.434903,169.893569 -88.765275,28.841586 -199.721868,-64.893569 -54.859957,-75.508253z"/>
 </defs>
 <g transform="scale(840)">
-<rect width="12" height="6" fill="#00008B"/>
+<rect width="12" height="6" fill="#012169"/>
 <path d="M0,0 6,3M6,0 0,3" stroke="#fff" stroke-width="0.6" clip-path="url(#c1)"/>
 <path d="M0,0 6,3M6,0 0,3" stroke="#e4002b" stroke-width="0.4" clip-path="url(#c2)"/>
 <path d="M3,0V3M0,1.5H6" stroke="#fff"/>

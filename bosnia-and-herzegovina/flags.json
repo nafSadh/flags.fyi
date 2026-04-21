@@ -1,0 +1,50 @@
+{
+  "bosnia-and-herzegovina": {
+    "title": "Flag of Bosnia and Herzegovina",
+    "ratio": "1:2",
+    "use": {
+      "as": "national flag",
+      "since": "1998-02-04"
+    },
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#002395",
+        "cmyk": "100/80/0/10",
+        "note": "A medium blue echoing European Union and United Nations symbolism, evoking peace."
+      },
+      {
+        "color": "yellow",
+        "hex": "#FECB00",
+        "cmyk": "0/20/100/0",
+        "note": "The triangle represents the country's three main ethnic groups — Bosniaks, Croats, and Serbs — and Bosnia's roughly triangular geographic shape."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "The row of stars represents Europe; the sequence continues infinitely, implying they extend beyond the flag's edges."
+      }
+    ],
+    "desc": [
+      "- A medium-blue field with a yellow right triangle rising from the bottom edge to the top hoist corner\n",
+      "- Seven full five-pointed white stars and two half-stars run diagonally beside the triangle's hypotenuse\n",
+      "- Adopted on 4 February 1998 after the Dayton Peace Agreement ended the Bosnian War"
+    ],
+    "article": "bosnia-and-herzegovina/flag.md",
+    "of": {
+      "country": "bosnia-and-herzegovina"
+    },
+    "countryData": {
+      "name": "Bosnia and Herzegovina",
+      "officialName": "Bosnia and Herzegovina",
+      "continent": "europe",
+      "un": "member"
+    },
+    "trivia": [
+      "- The design, by Mladen Kolobaric, was imposed by UN High Representative Carlos Westendorp after parliament failed to agree\n",
+      "- The stars are cut off at top and bottom to suggest an infinite series, symbolising continuity\n",
+      "- The triangle's three points are often interpreted as the three constituent peoples as well as the country's shape\n"
+    ]
+  }
+}

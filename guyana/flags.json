@@ -1,0 +1,65 @@
+{
+  "guyana": {
+    "title": "Flag of the Co-operative Republic of Guyana",
+    "ratio": "3:5",
+    "use": {
+      "as": "national flag",
+      "since": "1966-05-26"
+    },
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#009E49",
+        "cmyk": "100/0/78/22",
+        "pantone": "356 C",
+        "note": "Background field; represents the forests and agricultural richness of Guyana."
+      },
+      {
+        "color": "gold",
+        "hex": "#FCD116",
+        "cmyk": "0/17/91/1",
+        "pantone": "116 C",
+        "note": "Large triangle pointing from the hoist; represents mineral wealth."
+      },
+      {
+        "color": "red",
+        "hex": "#CE1126",
+        "cmyk": "0/92/82/19",
+        "pantone": "186 C",
+        "note": "Small triangle overlaid on the gold; symbolises the zeal and dynamism of nation-building."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Narrow border around the gold triangle; represents the many rivers and waters of Guyana."
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "Narrow border around the red triangle; stands for the endurance of the Guyanese people."
+      }
+    ],
+    "desc": [
+      "- A green field with a large gold isosceles triangle pointing from the hoist, overlaid with a smaller red triangle, with white and black fimbriations\n",
+      "- Known as the Golden Arrowhead, designed by American vexillologist Whitney Smith in the early 1960s\n",
+      "- Adopted on 26 May 1966 upon independence from the United Kingdom\n"
+    ],
+    "article": "guyana/flag.md",
+    "of": {
+      "country": "guyana"
+    },
+    "countryData": {
+      "name": "Guyana",
+      "officialName": "Co-operative Republic of Guyana",
+      "continent": "south-america",
+      "un": "member"
+    },
+    "trivia": [
+      "- Nicknamed the Golden Arrowhead, a reference to the forward-pointing triangles symbolising progress\n",
+      "- Whitney Smith, who designed the flag, later founded the Flag Research Center and coined the term vexillology\n",
+      "- The flag's five colours each carry distinct meaning, an unusually rich symbolic scheme among modern national flags\n"
+    ]
+  }
+}

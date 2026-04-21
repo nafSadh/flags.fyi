@@ -1,0 +1,47 @@
+{
+  "cyprus": {
+    "title": "Flag of the Republic of Cyprus",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "note": "Field representing peace"
+      },
+      {
+        "color": "copper",
+        "hex": "#D47600",
+        "note": "The silhouette of the island, coloured for the copper ore that gave Cyprus its name"
+      },
+      {
+        "color": "green",
+        "hex": "#4E5B31",
+        "note": "Two olive branches representing peace between the Greek and Turkish Cypriot communities"
+      }
+    ],
+    "desc": [
+      "- White field with a copper-coloured silhouette of the island above two crossed green olive branches\n",
+      "- Adopted on 16 August 1960 at independence from the United Kingdom\n"
+    ],
+    "article": "cyprus/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1960-08-16"
+    },
+    "of": {
+      "country": "cyprus"
+    },
+    "countryData": {
+      "name": "Cyprus",
+      "officialName": "Republic of Cyprus",
+      "continent": "asia",
+      "location": "eastern Mediterranean, near the Middle East",
+      "un": "member"
+    },
+    "trivia": [
+      "- Along with Kosovo, Cyprus is one of only two national flags that feature a map of the country itself\n",
+      "- The flag deliberately avoids the blue of Greece and the red of Turkey to stay neutral between the two communities\n",
+      "- The design was submitted to a national competition by teacher Ismet Guney in 1960\n"
+    ]
+  }
+}

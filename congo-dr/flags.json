@@ -1,0 +1,47 @@
+{
+  "congo-dr": {
+    "title": "Flag of the Democratic Republic of the Congo",
+    "ratio": "3:4",
+    "colors": [
+      {
+        "color": "sky blue",
+        "hex": "#007FFF",
+        "note": "Field representing peace."
+      },
+      {
+        "color": "yellow",
+        "hex": "#F7D618",
+        "note": "Diagonal stripe and star symbolising the country's wealth and a shining future."
+      },
+      {
+        "color": "red",
+        "hex": "#CE1021",
+        "note": "Narrow diagonal bands alongside the yellow stripe, evoking the blood of the country's martyrs."
+      }
+    ],
+    "desc": [
+      "- A sky-blue field crossed from lower hoist to upper fly by a yellow diagonal stripe edged in red\n",
+      "- A large yellow five-pointed star sits in the upper hoist corner\n",
+      "- Adopted on 20 February 2006 after the transitional government, closely reviving the 1963-1971 flag"
+    ],
+    "article": "congo-dr/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "2006-02-20"
+    },
+    "of": {
+      "country": "congo-dr"
+    },
+    "countryData": {
+      "name": "Congo (DR)",
+      "officialName": "Democratic Republic of the Congo",
+      "continent": "africa",
+      "un": "member"
+    },
+    "trivia": [
+      "- The current flag is a lighter-blue revival of the independence-era flag flown from 1963 to 1971\n",
+      "- Under Mobutu's Zaire (1971-1997), the country flew a green flag with a torch-bearing arm\n",
+      "- Laurent Kabila's 1997-2006 flag used a darker blue; the shade was brightened on readoption\n"
+    ]
+  }
+}

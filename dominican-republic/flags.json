@@ -1,0 +1,52 @@
+{
+  "dominican-republic": {
+    "title": "Flag of the Dominican Republic",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "1863-11-06"
+    },
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#002D62",
+        "cmyk": "100/82/0/48",
+        "pantone": "281 C",
+        "note": "Upper hoist and lower fly quarters; symbolises liberty, the sky, and divine protection."
+      },
+      {
+        "color": "red",
+        "hex": "#CE1126",
+        "cmyk": "0/92/82/19",
+        "pantone": "186 C",
+        "note": "Upper fly and lower hoist quarters; represents the blood shed by liberators."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "The central cross and coat of arms background; symbolises salvation and peace."
+      }
+    ],
+    "desc": [
+      "- A blue and red quartered field divided by a large white cross, with the national coat of arms at the centre\n",
+      "- The coat of arms features a Bible open to John 8:32, a cross, four Dominican flags, and the motto Dios, Patria, Libertad\n",
+      "- Adopted on 6 November 1863 during the War of Restoration against Spain, based on Juan Pablo Duarte's 1844 design\n"
+    ],
+    "article": "dominican-republic/flag.md",
+    "of": {
+      "country": "dominican-republic"
+    },
+    "countryData": {
+      "name": "Dominican Republic",
+      "officialName": "Dominican Republic",
+      "continent": "north-america",
+      "un": "member"
+    },
+    "trivia": [
+      "- The only national flag in the world whose coat of arms includes a Bible, open to the verse Y la verdad os hara libres (And the truth shall make you free)\n",
+      "- The design is derived from the flag of Haiti by adding a central white cross and rearranging the colours, reflecting the country's independence from Haitian rule in 1844\n",
+      "- 27 February, the anniversary of the 1844 declaration, is commemorated as Independence Day; the current flag version dates to 1863\n"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "kosovo": {
+    "title": "Flag of the Republic of Kosovo",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "2008-02-17"
+    },
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#244AA5",
+        "cmyk": "100/83/0/12",
+        "note": "A deep blue matching European Union symbolism, signalling Kosovo's European aspirations."
+      },
+      {
+        "color": "gold",
+        "hex": "#D0A650",
+        "cmyk": "12/28/84/11",
+        "note": "The gold silhouette depicts the geographic outline of Kosovo."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "The six stars represent Kosovo's main ethnic groups — Albanians, Serbs, Turks, Gorani, Roma, and Bosniaks."
+      }
+    ],
+    "desc": [
+      "- A blue field bearing a gold silhouette of the map of Kosovo, centred slightly toward the hoist\n",
+      "- An arc of six equal white five-pointed stars above the map\n",
+      "- Adopted on 17 February 2008, the day Kosovo declared independence from Serbia"
+    ],
+    "article": "kosovo/flag.md",
+    "of": {
+      "country": "kosovo"
+    },
+    "countryData": {
+      "name": "Kosovo",
+      "officialName": "Republic of Kosovo",
+      "continent": "europe",
+      "un": "limited"
+    },
+    "trivia": [
+      "- The flag was chosen through an international competition; the winning design is by Muhamer Ibrahimi\n",
+      "- It is one of only a few national flags to depict the country's geographic outline\n",
+      "- Kosovo is a partially recognised state: over 100 UN member states recognise it, but it is not itself a UN member\n"
+    ]
+  }
+}

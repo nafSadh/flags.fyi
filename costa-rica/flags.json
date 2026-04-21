@@ -1,0 +1,52 @@
+{
+  "costa-rica": {
+    "title": "Flag of the Republic of Costa Rica",
+    "ratio": "3:5",
+    "use": {
+      "as": "national flag",
+      "since": "1848-11-27"
+    },
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#001489",
+        "cmyk": "100/88/0/46",
+        "pantone": "286 C",
+        "note": "Upper and lower bands; represents the sky, opportunity, and idealism."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Bands between the blue and red; represents peace, wisdom, and happiness."
+      },
+      {
+        "color": "red",
+        "hex": "#DA291C",
+        "cmyk": "0/94/95/11",
+        "pantone": "186 C",
+        "note": "Central double-wide band; represents warmth, generosity, and the blood shed for liberty."
+      }
+    ],
+    "desc": [
+      "- Five horizontal bands of blue, white, red (double width), white, and blue; the state flag bears the coat of arms in a white oval on the red band toward the hoist\n",
+      "- Designed by Pacifica Fernandez, wife of President Jose Maria Castro Madriz, and adopted on 27 November 1848\n",
+      "- The red band was added to the earlier yellow-white-blue arrangement, inspired by the flag of France of the 1848 revolutions\n"
+    ],
+    "article": "costa-rica/flag.md",
+    "of": {
+      "country": "costa-rica"
+    },
+    "countryData": {
+      "name": "Costa Rica",
+      "officialName": "Republic of Costa Rica",
+      "continent": "north-america",
+      "un": "member"
+    },
+    "trivia": [
+      "- The flag was inspired by the French tricolour after the 1848 revolutions in Europe, reflecting Costa Rica's turn toward republican ideals\n",
+      "- The coat of arms on the state flag depicts three volcanoes, two oceans, and seven stars for the country's provinces\n",
+      "- The civil flag, flown without the coat of arms, is identical in colours and arrangement to that of Thailand\n"
+    ]
+  }
+}

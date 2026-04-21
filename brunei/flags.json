@@ -1,0 +1,52 @@
+{
+  "brunei": {
+    "title": "Flag of the Nation of Brunei, the Abode of Peace",
+    "ratio": "1:2",
+    "colors": [
+      {
+        "color": "yellow",
+        "hex": "#F7E017",
+        "note": "The royal colour of Brunei, representing the Sultan"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "note": "Diagonal stripe representing the chief ministers of the sultanate"
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "note": "Diagonal stripe representing the chief ministers of the sultanate"
+      },
+      {
+        "color": "red",
+        "hex": "#CF1126",
+        "note": "The national emblem and crest at the centre"
+      }
+    ],
+    "desc": [
+      "- Yellow field with two diagonal stripes of white and black and the national emblem in red at the centre\n",
+      "- The emblem shows a crescent, a parasol, wings, hands, and a scroll bearing the state motto\n"
+    ],
+    "article": "brunei/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1959-09-29"
+    },
+    "of": {
+      "country": "brunei"
+    },
+    "countryData": {
+      "name": "Brunei",
+      "officialName": "Nation of Brunei, the Abode of Peace",
+      "continent": "asia",
+      "location": "north coast of Borneo, Southeast Asia",
+      "un": "member"
+    },
+    "trivia": [
+      "- The Arabic motto on the scroll reads 'Always in service with God's guidance'\n",
+      "- The crescent stands for Islam, the state religion of Brunei\n",
+      "- The emblem was added in 1959, turning a simpler 1906 yellow-and-stripes banner into the current design\n"
+    ]
+  }
+}

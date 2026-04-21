@@ -1,0 +1,47 @@
+{
+  "congo-republic": {
+    "title": "Flag of the Republic of the Congo",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#009543",
+        "note": "Upper hoist triangle symbolising the country's forests and agricultural richness."
+      },
+      {
+        "color": "yellow",
+        "hex": "#FBDE4A",
+        "note": "Diagonal band representing friendship and nobility."
+      },
+      {
+        "color": "red",
+        "hex": "#DC241F",
+        "note": "Lower fly triangle standing for the struggle for independence."
+      }
+    ],
+    "desc": [
+      "- A yellow diagonal band runs from the lower hoist to the upper fly, dividing green and red triangles\n",
+      "- Uses the Pan-African palette originally adopted at independence from France in 1959\n",
+      "- Readopted on 10 June 1991 after the end of the People's Republic of the Congo's Marxist era"
+    ],
+    "article": "congo-republic/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1991-06-10"
+    },
+    "of": {
+      "country": "congo-republic"
+    },
+    "countryData": {
+      "name": "Congo (Republic)",
+      "officialName": "Republic of the Congo",
+      "continent": "africa",
+      "un": "member"
+    },
+    "trivia": [
+      "- The flag was first hoisted on 18 August 1959, a year before full independence from France\n",
+      "- Between 1970 and 1991 the country flew a red Marxist-Leninist flag with a hammer and hoe emblem\n",
+      "- Brazzaville, the capital, sits directly across the Congo River from Kinshasa in the DRC\n"
+    ]
+  }
+}

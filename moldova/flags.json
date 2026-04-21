@@ -1,0 +1,56 @@
+{
+  "moldova": {
+    "title": "Flag of the Republic of Moldova",
+    "ratio": "1:2",
+    "use": {
+      "as": "national flag",
+      "since": "1990-04-27"
+    },
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#0046AE",
+        "cmyk": "100/75/0/20",
+        "note": "Represents the sky and freedom."
+      },
+      {
+        "color": "yellow",
+        "hex": "#FFD100",
+        "cmyk": "0/15/100/0",
+        "note": "Symbolises the wheatfields and agricultural wealth of Moldova."
+      },
+      {
+        "color": "red",
+        "hex": "#CC092F",
+        "cmyk": "0/95/80/10",
+        "note": "Stands for sacrifice, struggle, and historical courage."
+      },
+      {
+        "color": "brown",
+        "hex": "#A97142",
+        "cmyk": "0/40/70/40",
+        "note": "The aurochs head of the coat of arms — a traditional Moldavian heraldic symbol."
+      }
+    ],
+    "desc": [
+      "- Three equal vertical bands of blue, yellow, and red — a pattern reflecting close historical ties with Romania\n",
+      "- The national coat of arms, centred on the yellow band, features an aurochs head with star, rose, and crescent\n",
+      "- Adopted on 27 April 1990 during the independence movement; confirmed after independence from the Soviet Union in 1991"
+    ],
+    "article": "moldova/flag.md",
+    "of": {
+      "country": "moldova"
+    },
+    "countryData": {
+      "name": "Moldova",
+      "officialName": "Republic of Moldova",
+      "continent": "europe",
+      "un": "member"
+    },
+    "trivia": [
+      "- Moldova is one of only a handful of countries with different designs on the obverse and reverse of its flag, as the coat of arms only appears on one side\n",
+      "- The aurochs head with a star between its horns is the historical emblem of the Principality of Moldavia\n",
+      "- The tricolour intentionally echoes Romania's flag, reflecting shared Romanian ethnic and linguistic heritage\n"
+    ]
+  }
+}

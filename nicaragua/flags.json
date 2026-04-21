@@ -1,0 +1,52 @@
+{
+  "nicaragua": {
+    "title": "Flag of the Republic of Nicaragua",
+    "ratio": "3:5",
+    "use": {
+      "as": "national flag",
+      "since": "1908-09-04"
+    },
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#0067C6",
+        "cmyk": "100/50/0/22",
+        "pantone": "286 C",
+        "note": "Upper and lower bands; represents the Caribbean Sea and Pacific Ocean."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Central band bearing the coat of arms; represents peace, integrity, and purity."
+      },
+      {
+        "color": "gold",
+        "hex": "#FFC61E",
+        "cmyk": "0/22/88/0",
+        "pantone": "116 C",
+        "note": "Sun rays and detailing on the coat of arms; symbolises the sun rising over the isthmus."
+      }
+    ],
+    "desc": [
+      "- Three horizontal bands of cobalt blue, white, and cobalt blue with the national coat of arms on the central band\n",
+      "- The coat of arms features a triangle (equality), five volcanoes (the Central American union), a Phrygian cap, a rainbow, and the words Republica de Nicaragua America Central\n",
+      "- Adopted on 4 September 1908 during the presidency of Jose Santos Zelaya\n"
+    ],
+    "article": "nicaragua/flag.md",
+    "of": {
+      "country": "nicaragua"
+    },
+    "countryData": {
+      "name": "Nicaragua",
+      "officialName": "Republic of Nicaragua",
+      "continent": "north-america",
+      "un": "member"
+    },
+    "trivia": [
+      "- Nicaragua and Argentina are among the few countries whose flag colours are used to depict a rainbow on the coat of arms\n",
+      "- The five volcanoes on the coat of arms represent the five original states of the United Provinces of Central America\n",
+      "- The flag colours trace back directly to Manuel Jose Arce's banner for the Central American federation of 1823\n"
+    ]
+  }
+}

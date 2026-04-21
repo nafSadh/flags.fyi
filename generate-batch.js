@@ -1384,7 +1384,7 @@ for (const flag of newFlags) {
     includesJson[flag.ns] = 'flags.json';
   }
 
-  // Create assets/flags/{ns}/ directory and files
+  // Create {ns}/ directory and files
   const nsDir = path.join(ASSETS, flag.ns.split('.')[0]);
   fs.mkdirSync(nsDir, { recursive: true });
 

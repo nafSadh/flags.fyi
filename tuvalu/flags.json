@@ -1,0 +1,57 @@
+{
+  "tuvalu": {
+    "title": "Flag of Tuvalu",
+    "ratio": "1:2",
+    "colors": [
+      {
+        "color": "light blue",
+        "hex": "#5B92E5",
+        "note": "Represents the Pacific Ocean surrounding the islands"
+      },
+      {
+        "color": "dark blue",
+        "hex": "#012169",
+        "note": "The Union Jack in the canton representing Commonwealth heritage"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "note": "Separators within the Union Jack and detailing"
+      },
+      {
+        "color": "yellow",
+        "hex": "#FFCE00",
+        "note": "Nine five-pointed stars representing the country's nine islands"
+      },
+      {
+        "color": "red",
+        "hex": "#C8102E",
+        "note": "Crosses within the Union Jack"
+      }
+    ],
+    "desc": [
+      "- Light blue ensign with the Union Jack in the upper hoist canton and nine yellow five-pointed stars arranged in the fly area in a stylised map of the atolls\n",
+      "- Adopted on 1 October 1978 at independence and briefly replaced in 1995-1997 before being restored\n"
+    ],
+    "article": "tuvalu/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1997-04-11"
+    },
+    "of": {
+      "country": "tuvalu"
+    },
+    "countryData": {
+      "name": "Tuvalu",
+      "officialName": "Tuvalu",
+      "continent": "oceania",
+      "location": "Polynesia, central Pacific",
+      "un": "member"
+    },
+    "trivia": [
+      "- The nine stars form a stylised map of Tuvalu's nine islands, geographically placed east on the flag to match the actual archipelago\n",
+      "- Between 1995 and 1997 a modified flag without the Union Jack was briefly in use before the original was restored\n",
+      "- Tuvalu's name literally means 'eight standing together' because only eight of the nine atolls were historically inhabited\n"
+    ]
+  }
+}

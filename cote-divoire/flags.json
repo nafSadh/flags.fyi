@@ -1,0 +1,47 @@
+{
+  "cote-divoire": {
+    "title": "Flag of the Republic of Côte d'Ivoire",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "orange",
+        "hex": "#FF8200",
+        "note": "Hoist-side band representing the savannas of the north and the land's fertility."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "note": "Central band symbolising peace and national unity."
+      },
+      {
+        "color": "green",
+        "hex": "#009A44",
+        "note": "Fly-side band evoking the forests of the south and hope for the future."
+      }
+    ],
+    "desc": [
+      "- Three equal vertical bands of orange, white and green\n",
+      "- Inspired by the French tricolour, the flag uses African-tuned colours rather than blue and red\n",
+      "- Adopted on 3 December 1959 and kept unchanged after full independence in 1960"
+    ],
+    "article": "cote-divoire/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1959-12-03"
+    },
+    "of": {
+      "country": "cote-divoire"
+    },
+    "countryData": {
+      "name": "Côte d'Ivoire",
+      "officialName": "Republic of Côte d'Ivoire",
+      "continent": "africa",
+      "un": "member"
+    },
+    "trivia": [
+      "- Mirror-image of Ireland's tricolour, which has green at the hoist and orange at the fly\n",
+      "- The government has requested since 1986 that the name Côte d'Ivoire not be translated\n",
+      "- Orange also alludes to the country's northern savannas, while green stands for the southern forests\n"
+    ]
+  }
+}

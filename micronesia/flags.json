@@ -1,0 +1,42 @@
+{
+  "micronesia": {
+    "title": "Flag of the Federated States of Micronesia",
+    "ratio": "10:19",
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#4092C4",
+        "note": "United Nations-style blue representing the Pacific Ocean"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "note": "Four five-pointed stars representing the federated states"
+      }
+    ],
+    "desc": [
+      "- Light blue field with four white five-pointed stars arranged in a diamond pattern at the centre\n",
+      "- Adopted on 30 November 1978 when the four states ratified the constitution of the Federated States of Micronesia\n"
+    ],
+    "article": "micronesia/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1978-11-30"
+    },
+    "of": {
+      "country": "micronesia"
+    },
+    "countryData": {
+      "name": "Micronesia",
+      "officialName": "Federated States of Micronesia",
+      "continent": "oceania",
+      "location": "Micronesia, western Pacific",
+      "un": "member"
+    },
+    "trivia": [
+      "- The four stars represent the four states: Yap, Chuuk, Pohnpei, and Kosrae\n",
+      "- The design derives from the flag of the US Trust Territory of the Pacific Islands, with the number of stars reduced from six to four\n",
+      "- The UN-style light blue was chosen to acknowledge the Trust Territory's earlier UN administration\n"
+    ]
+  }
+}

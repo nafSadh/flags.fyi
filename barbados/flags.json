@@ -1,0 +1,52 @@
+{
+  "barbados": {
+    "title": "Flag of Barbados",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "1966-11-30"
+    },
+    "colors": [
+      {
+        "color": "ultramarine",
+        "hex": "#00267F",
+        "cmyk": "100/90/0/22",
+        "pantone": "280 C",
+        "note": "Outer vertical bands; represents the sea and the sky."
+      },
+      {
+        "color": "gold",
+        "hex": "#FFC726",
+        "cmyk": "0/22/93/0",
+        "pantone": "116 C",
+        "note": "Central vertical band; represents the sand of Barbadian beaches."
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "The broken trident on the central band; symbolises the break from colonial rule."
+      }
+    ],
+    "desc": [
+      "- A vertical triband of ultramarine, gold, and ultramarine with a black broken trident head on the gold band\n",
+      "- Designed by Grantley Prescod, a teacher, and chosen from over a thousand entries in a national competition\n",
+      "- Adopted on 30 November 1966, the day of independence from the United Kingdom\n"
+    ],
+    "article": "barbados/flag.md",
+    "of": {
+      "country": "barbados"
+    },
+    "countryData": {
+      "name": "Barbados",
+      "officialName": "Barbados",
+      "continent": "north-america",
+      "un": "member"
+    },
+    "trivia": [
+      "- The broken trident alludes to the trident of Neptune on Barbados's pre-independence colonial badge; the break symbolises departure from Britain\n",
+      "- The three prongs of the trident represent the three principles of democracy: government of, for, and by the people\n",
+      "- Known locally as The Broken Trident, the flag has remained unchanged since independence in 1966\n"
+    ]
+  }
+}

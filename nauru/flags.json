@@ -1,0 +1,47 @@
+{
+  "nauru": {
+    "title": "Flag of the Republic of Nauru",
+    "ratio": "1:2",
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#002B7F",
+        "note": "Represents the Pacific Ocean surrounding Nauru"
+      },
+      {
+        "color": "yellow",
+        "hex": "#FFC61E",
+        "note": "Horizontal stripe representing the Equator"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "note": "Twelve-pointed star representing the twelve original tribes of Nauru"
+      }
+    ],
+    "desc": [
+      "- Blue field crossed horizontally by a narrow yellow stripe, with a white twelve-pointed star in the lower hoist quadrant\n",
+      "- Adopted on 31 January 1968 at independence from Australian administration\n"
+    ],
+    "article": "nauru/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1968-01-31"
+    },
+    "of": {
+      "country": "nauru"
+    },
+    "countryData": {
+      "name": "Nauru",
+      "officialName": "Republic of Nauru",
+      "continent": "oceania",
+      "location": "Micronesia, central Pacific",
+      "un": "member"
+    },
+    "trivia": [
+      "- The flag literally maps the country's geography: the yellow stripe is the Equator and the star's position shows Nauru's location just south of it\n",
+      "- The twelve points of the star represent the twelve original tribes of Nauru\n",
+      "- Nauru is the third-smallest country in the world by area, only 21 square kilometres\n"
+    ]
+  }
+}

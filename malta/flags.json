@@ -1,0 +1,51 @@
+{
+  "malta": {
+    "title": "Flag of the Republic of Malta",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "1964-09-21"
+    },
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "The hoist half is white, one of the traditional colours associated with the Knights of Malta."
+      },
+      {
+        "color": "red",
+        "hex": "#CF142B",
+        "cmyk": "0/90/80/15",
+        "note": "The fly half is red, the second traditional colour of the Knights of Malta.",
+        "pantone": "186 C"
+      },
+      {
+        "color": "grey",
+        "hex": "#A0A0A0",
+        "cmyk": "0/0/0/40",
+        "note": "The George Cross in the canton is shown in grey with red fimbriation."
+      }
+    ],
+    "desc": [
+      "- Two equal vertical bands of white at the hoist and red at the fly\n",
+      "- A representation of the George Cross, edged in red, appears in the upper-hoist (canton) corner of the white field\n",
+      "- Adopted on 21 September 1964 when Malta gained independence from the United Kingdom"
+    ],
+    "article": "malta/flag.md",
+    "of": {
+      "country": "malta"
+    },
+    "countryData": {
+      "name": "Malta",
+      "officialName": "Republic of Malta",
+      "continent": "europe",
+      "un": "member"
+    },
+    "trivia": [
+      "- The George Cross was awarded to Malta by King George VI in 1942 for the island's bravery during WWII siege\n",
+      "- The white and red colours date to the banner of Count Roger of Sicily, who reconquered Malta from the Arabs in 1091\n",
+      "- Malta is the only country with a British military decoration depicted on its flag\n"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "zambia": {
+    "title": "Flag of the Republic of Zambia",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#198A00",
+        "note": "Represents the country's lush vegetation and natural resources."
+      },
+      {
+        "color": "red",
+        "hex": "#DE2010",
+        "note": "Symbolises the struggle for freedom from colonial rule."
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "note": "Represents the Zambian people."
+      },
+      {
+        "color": "orange",
+        "hex": "#EF7D00",
+        "note": "Represents the nation's mineral wealth, especially copper."
+      }
+    ],
+    "desc": [
+      "- A green field with three vertical stripes of red, black, and orange in the lower fly\n",
+      "- An orange African fish eagle in flight soars above the stripes in the upper fly\n",
+      "- Adopted on 24 October 1964 at independence from the United Kingdom; minor hue revision in 1996"
+    ],
+    "article": "zambia/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1964-10-24"
+    },
+    "of": {
+      "country": "zambia"
+    },
+    "countryData": {
+      "name": "Zambia",
+      "officialName": "Republic of Zambia",
+      "continent": "africa",
+      "location": "Southern Africa, landlocked",
+      "un": "member"
+    },
+    "trivia": [
+      "- Zambia is unusual in placing its emblem and stripes in the fly rather than the hoist\n",
+      "- The African fish eagle also features on the national coat of arms\n",
+      "- Copper is the nation's key export, represented by the orange stripe and eagle\n",
+      "- A 1996 tweak adjusted the shade of green from a lighter to a darker hue"
+    ]
+  }
+}

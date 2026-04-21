@@ -1,0 +1,54 @@
+{
+  "rwanda": {
+    "title": "Flag of the Republic of Rwanda",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#00A1DE",
+        "note": "Represents happiness and peace."
+      },
+      {
+        "color": "yellow",
+        "hex": "#FAD201",
+        "note": "Symbolises economic development and mineral wealth."
+      },
+      {
+        "color": "green",
+        "hex": "#20603D",
+        "note": "Represents prosperity, work, and the country's natural resources."
+      },
+      {
+        "color": "yellow-sun",
+        "hex": "#E5BE01",
+        "note": "The 24-ray sun stands for enlightenment, unity, and transparency in the fight against ignorance."
+      }
+    ],
+    "desc": [
+      "- Three horizontal bands of blue (double width), yellow, and green with a 24-ray golden sun at the upper fly\n",
+      "- Adopted on 25 October 2001 to replace the former red-yellow-green tricolour associated with the genocide\n",
+      "- Designed by artist Alphonse Kirimobenecyo to symbolise a new era of unity and hope"
+    ],
+    "article": "rwanda/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "2001-10-25"
+    },
+    "of": {
+      "country": "rwanda"
+    },
+    "countryData": {
+      "name": "Rwanda",
+      "officialName": "Republic of Rwanda",
+      "continent": "africa",
+      "location": "East Africa, Great Lakes region",
+      "un": "member"
+    },
+    "trivia": [
+      "- Rwanda deliberately avoided red in the new flag because of its association with the 1994 genocide\n",
+      "- The previous flag from 1962 was a vertical red-yellow-green tricolour with the letter R\n",
+      "- The 24-ray sun was added to symbolise enlightenment and the dawn of a new era\n",
+      "- Designer Alphonse Kirimobenecyo is also a poet and sculptor from Rwanda"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "guinea": {
+    "title": "Flag of the Republic of Guinea",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#CE1126",
+        "note": "Hoist-side band symbolising the blood of martyrs and the sacrifices of labour."
+      },
+      {
+        "color": "yellow",
+        "hex": "#FCD116",
+        "note": "Central band evoking the sun, gold and the country's mineral resources."
+      },
+      {
+        "color": "green",
+        "hex": "#009460",
+        "note": "Fly-side band representing the vegetation, agriculture and rural solidarity."
+      }
+    ],
+    "desc": [
+      "- Three equal vertical bands of red, yellow and green with no emblem\n",
+      "- Uses the Pan-African palette in a layout mirroring the flag of neighbouring Mali\n",
+      "- Adopted on 10 November 1958, weeks after Guinea rejected membership of the French Community"
+    ],
+    "article": "guinea/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1958-11-10"
+    },
+    "of": {
+      "country": "guinea"
+    },
+    "countryData": {
+      "name": "Guinea",
+      "officialName": "Republic of Guinea",
+      "continent": "africa",
+      "un": "member"
+    },
+    "trivia": [
+      "- Guinea became independent on 2 October 1958 after being the only territory to vote 'No' to de Gaulle's community\n",
+      "- The three colours also match the national motto 'Travail, Justice, Solidarité'\n",
+      "- Mali's flag uses the same colours in the reverse horizontal order with vertical bands\n"
+    ]
+  }
+}

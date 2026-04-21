@@ -1,0 +1,47 @@
+{
+  "botswana": {
+    "title": "Flag of the Republic of Botswana",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "light blue",
+        "hex": "#6DA9D2",
+        "note": "Represents water, in particular the rain-bearing skies and the national motto Pula ('rain')."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "note": "Together with black, symbolises racial harmony and the zebra, the national animal."
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "note": "Symbolises racial harmony alongside white; drawn from the zebra's stripes."
+      }
+    ],
+    "desc": [
+      "- A light blue field with a central horizontal black stripe edged in white\n",
+      "- The design deliberately contrasts with apartheid-era South Africa's red, white and blue\n",
+      "- Adopted on 30 September 1966 when the Bechuanaland Protectorate gained independence"
+    ],
+    "article": "botswana/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1966-09-30"
+    },
+    "of": {
+      "country": "botswana"
+    },
+    "countryData": {
+      "name": "Botswana",
+      "officialName": "Republic of Botswana",
+      "continent": "africa",
+      "un": "member"
+    },
+    "trivia": [
+      "- The national motto 'Pula' means rain in Setswana, which is scarce and precious in the Kalahari\n",
+      "- Black and white evoke the zebra, Botswana's national animal\n",
+      "- One of the few African flags not using Pan-African red, yellow, green, or black\n"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "palau": {
+    "title": "Flag of the Republic of Palau",
+    "ratio": "5:8",
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#4AADD6",
+        "note": "Represents the Pacific Ocean and the transition from foreign domination to self-government"
+      },
+      {
+        "color": "yellow",
+        "hex": "#FFDE00",
+        "note": "The disc representing the full moon, considered the optimal time for human activity in Palauan tradition"
+      }
+    ],
+    "desc": [
+      "- Light blue field with a large yellow disc slightly offset toward the hoist\n",
+      "- Adopted on 1 January 1981 when Palau achieved internal self-government under the Compact of Free Association\n"
+    ],
+    "article": "palau/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1981-01-01"
+    },
+    "of": {
+      "country": "palau"
+    },
+    "countryData": {
+      "name": "Palau",
+      "officialName": "Republic of Palau",
+      "continent": "oceania",
+      "location": "Micronesia, western Pacific",
+      "un": "member"
+    },
+    "trivia": [
+      "- Although the colours and disc-on-blue layout resemble Japan's flag, the Palauan disc represents the moon rather than the sun and is deliberately off-centre\n",
+      "- The full moon is considered the best time for fishing, planting, and celebrations in Palauan tradition\n",
+      "- Palau is the world's twelfth-smallest country by population, with around 18,000 residents\n"
+    ]
+  }
+}

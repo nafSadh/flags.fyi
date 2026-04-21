@@ -1,0 +1,54 @@
+{
+  "uganda": {
+    "title": "Flag of the Republic of Uganda",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "black",
+        "hex": "#000000",
+        "note": "Represents the people of Africa."
+      },
+      {
+        "color": "yellow",
+        "hex": "#FCDC04",
+        "note": "Symbolises the African sunshine."
+      },
+      {
+        "color": "red",
+        "hex": "#D90000",
+        "note": "Stands for African brotherhood, the natural bond shared by all Africans."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "note": "The white disc bearing the crested crane provides the background for the national emblem."
+      }
+    ],
+    "desc": [
+      "- Six equal horizontal bands of black, yellow, red, black, yellow, and red\n",
+      "- A white disc centred on the flag bears a left-facing grey crowned crane, the national bird\n",
+      "- Adopted on 9 October 1962 at independence from the United Kingdom"
+    ],
+    "article": "uganda/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1962-10-09"
+    },
+    "of": {
+      "country": "uganda"
+    },
+    "countryData": {
+      "name": "Uganda",
+      "officialName": "Republic of Uganda",
+      "continent": "africa",
+      "location": "East Africa, Great Lakes region",
+      "un": "member"
+    },
+    "trivia": [
+      "- The grey crowned crane has been a Ugandan symbol since British colonial times\n",
+      "- The crane faces the hoist, a stance said to signify a willingness to move forward\n",
+      "- The flag was designed by Grace Ibingira of the Uganda People's Congress\n",
+      "- The six stripes are a doubled version of the Pan-African colour sequence"
+    ]
+  }
+}

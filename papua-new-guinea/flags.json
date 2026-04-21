@@ -1,0 +1,52 @@
+{
+  "papua-new-guinea": {
+    "title": "Flag of the Independent State of Papua New Guinea",
+    "ratio": "3:4",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#CE1126",
+        "note": "Traditional colour of the highland peoples"
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "note": "Traditional colour of the coastal peoples and the Southern Cross constellation"
+      },
+      {
+        "color": "yellow",
+        "hex": "#FCD116",
+        "note": "The Raggiana bird-of-paradise, the national bird"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "note": "The stars of the Southern Cross"
+      }
+    ],
+    "desc": [
+      "- Field divided diagonally from upper hoist to lower fly: red upper-fly with a yellow Raggiana bird-of-paradise, black lower-hoist with five white stars of the Southern Cross\n",
+      "- Adopted on 1 July 1971 and retained at independence on 16 September 1975\n"
+    ],
+    "article": "papua-new-guinea/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1971-07-01"
+    },
+    "of": {
+      "country": "papua-new-guinea"
+    },
+    "countryData": {
+      "name": "Papua New Guinea",
+      "officialName": "Independent State of Papua New Guinea",
+      "continent": "oceania",
+      "location": "eastern half of New Guinea and surrounding islands, Melanesia",
+      "un": "member"
+    },
+    "trivia": [
+      "- Designed by 15-year-old Susan Karike, making it one of the few national flags created by a teenager\n",
+      "- Red and black were the traditional colours of many Papuan tribes long before unification\n",
+      "- The Raggiana bird-of-paradise in flight symbolises the nation's emergence into sovereign statehood\n"
+    ]
+  }
+}

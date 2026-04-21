@@ -1,0 +1,59 @@
+{
+  "venezuela": {
+    "title": "Flag of the Bolivarian Republic of Venezuela",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "2006-03-12"
+    },
+    "colors": [
+      {
+        "color": "yellow",
+        "hex": "#FCE300",
+        "cmyk": "0/10/100/0",
+        "pantone": "116 C",
+        "note": "Top band; represents the wealth of the land and its resources."
+      },
+      {
+        "color": "blue",
+        "hex": "#00247D",
+        "cmyk": "100/85/5/22",
+        "pantone": "280 C",
+        "note": "Middle band; represents the Caribbean Sea separating Venezuela from Spain."
+      },
+      {
+        "color": "red",
+        "hex": "#CF142B",
+        "cmyk": "0/100/85/10",
+        "pantone": "186 C",
+        "note": "Bottom band; represents the blood shed in the struggle for independence."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "The eight stars in an arc on the blue band; symbolise the original provinces that signed the Act of Independence."
+      }
+    ],
+    "desc": [
+      "- A horizontal tricolour of yellow, blue, and red with an arc of eight white five-pointed stars on the blue band\n",
+      "- The state flag adds the national coat of arms in the upper hoist corner\n",
+      "- Designed by Francisco de Miranda in 1806 and updated in 2006 to add an eighth star representing Guayana province\n"
+    ],
+    "article": "venezuela/flag.md",
+    "of": {
+      "country": "venezuela"
+    },
+    "countryData": {
+      "name": "Venezuela",
+      "officialName": "Bolivarian Republic of Venezuela",
+      "continent": "south-america",
+      "un": "member"
+    },
+    "trivia": [
+      "- The flag is shared in colour order with Colombia and Ecuador, all of which descend from Gran Colombia\n",
+      "- The eighth star was added in 2006 by President Hugo Chavez, honouring Simon Bolivar's 1817 decree to include Guayana\n",
+      "- The original seven-star version, designed by Francisco de Miranda, dates from 1806 and is among the oldest independence banners in the Americas\n"
+    ]
+  }
+}

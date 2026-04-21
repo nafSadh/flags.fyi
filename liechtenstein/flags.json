@@ -1,0 +1,50 @@
+{
+  "liechtenstein": {
+    "title": "Flag of the Principality of Liechtenstein",
+    "ratio": "3:5",
+    "use": {
+      "as": "national flag",
+      "since": "1937-06-24"
+    },
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#002B7F",
+        "cmyk": "100/85/0/20",
+        "note": "Represents the sky above the Alpine country."
+      },
+      {
+        "color": "red",
+        "hex": "#CE1126",
+        "cmyk": "0/95/90/10",
+        "note": "Symbolises the evening fires lit in homes across the mountainous principality."
+      },
+      {
+        "color": "gold",
+        "hex": "#FFD83D",
+        "cmyk": "0/15/80/0",
+        "note": "The princely crown represents the unity of the people with their princely house."
+      }
+    ],
+    "desc": [
+      "- Two equal horizontal bands of blue over red, with a gold princely crown in the upper hoist canton\n",
+      "- The crown was added in 1937 after Liechtenstein discovered Haiti used an identical blue-red flag at the 1936 Berlin Olympics\n",
+      "- Adopted on 24 June 1937, the basic bicolour dates to 1921 with antecedents from 1764"
+    ],
+    "article": "liechtenstein/flag.md",
+    "of": {
+      "country": "liechtenstein"
+    },
+    "countryData": {
+      "name": "Liechtenstein",
+      "officialName": "Principality of Liechtenstein",
+      "continent": "europe",
+      "un": "member"
+    },
+    "trivia": [
+      "- The 1936 Olympics incident — discovering Haiti's identical flag — directly prompted adding the crown\n",
+      "- The current crown depiction was redesigned in 1982 to give it a more three-dimensional appearance\n",
+      "- Prince Franz Joseph II chose blue and red as the dynastic colours of the House of Liechtenstein\n"
+    ]
+  }
+}

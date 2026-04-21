@@ -1,0 +1,52 @@
+{
+  "uzbekistan": {
+    "title": "Flag of the Republic of Uzbekistan",
+    "ratio": "1:2",
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#0099B5",
+        "note": "Represents the eternal blue sky and life-giving water, as well as a link to the empire of Timur"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "note": "Represents peace, purity, and the striving for enlightenment"
+      },
+      {
+        "color": "green",
+        "hex": "#1EB53A",
+        "note": "Represents nature, fertility, and the renewal of life"
+      },
+      {
+        "color": "red",
+        "hex": "#CE1126",
+        "note": "Two thin fimbriations representing the vital force within every human being"
+      }
+    ],
+    "desc": [
+      "- Three horizontal bands of blue, white, and green separated by thin red fimbriations, with a white crescent and twelve white stars in the upper hoist\n",
+      "- Adopted on 18 November 1991 at independence from the Soviet Union\n"
+    ],
+    "article": "uzbekistan/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1991-11-18"
+    },
+    "of": {
+      "country": "uzbekistan"
+    },
+    "countryData": {
+      "name": "Uzbekistan",
+      "officialName": "Republic of Uzbekistan",
+      "continent": "asia",
+      "location": "Central Asia",
+      "un": "member"
+    },
+    "trivia": [
+      "- The crescent symbolises the nation's rebirth and Islamic heritage\n",
+      "- The twelve stars represent the twelve months of the year and the twelve signs of the Uzbek zodiac, or alternatively the twelve regions of the country\n",
+      "- Uzbekistan was the first post-Soviet Central Asian state to adopt a new national flag, just three months after independence\n"
+    ]
+  }
+}

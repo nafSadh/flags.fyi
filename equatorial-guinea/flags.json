@@ -1,0 +1,57 @@
+{
+  "equatorial-guinea": {
+    "title": "Flag of the Republic of Equatorial Guinea",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#3E9A00",
+        "note": "Top band representing the country's natural resources and forests."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "note": "Middle band symbolising peace."
+      },
+      {
+        "color": "red",
+        "hex": "#E32118",
+        "note": "Bottom band honouring the struggle for independence."
+      },
+      {
+        "color": "blue",
+        "hex": "#0073CE",
+        "note": "Hoist-side triangle evoking the sea linking mainland and islands."
+      },
+      {
+        "color": "yellow",
+        "hex": "#FFD700",
+        "note": "Used in the central coat of arms with a silk-cotton tree."
+      }
+    ],
+    "desc": [
+      "- Three equal horizontal bands of green, white and red with a blue triangle at the hoist\n",
+      "- The national coat of arms is centred on the white band\n",
+      "- The arms feature a silk-cotton tree, six stars and the motto Unidad, Paz, Justicia"
+    ],
+    "article": "equatorial-guinea/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1979-08-21"
+    },
+    "of": {
+      "country": "equatorial-guinea"
+    },
+    "countryData": {
+      "name": "Equatorial Guinea",
+      "officialName": "Republic of Equatorial Guinea",
+      "continent": "africa",
+      "un": "member"
+    },
+    "trivia": [
+      "- The six stars on the arms represent the mainland (Río Muni) and five inhabited islands\n",
+      "- The silk-cotton tree in the arms is the one under which the first treaty with Spain was signed\n",
+      "- Flown without the arms from 1973 until 1979 under dictator Francisco Macías Nguema\n"
+    ]
+  }
+}

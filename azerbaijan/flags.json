@@ -1,0 +1,52 @@
+{
+  "azerbaijan": {
+    "title": "Flag of the Republic of Azerbaijan",
+    "ratio": "1:2",
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#0092BC",
+        "note": "Represents Azerbaijan's Turkic heritage"
+      },
+      {
+        "color": "red",
+        "hex": "#EF3340",
+        "note": "Represents modernisation and progress"
+      },
+      {
+        "color": "green",
+        "hex": "#509E2F",
+        "note": "Represents Islam, the faith of the majority"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "note": "The crescent and eight-pointed star emblem at the centre"
+      }
+    ],
+    "desc": [
+      "- Three horizontal bands of blue, red, and green with a white crescent and eight-pointed star centred on the red band\n",
+      "- Originally adopted in 1918 by the Azerbaijan Democratic Republic and restored on 5 February 1991 during independence from the USSR\n"
+    ],
+    "article": "azerbaijan/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1991-02-05"
+    },
+    "of": {
+      "country": "azerbaijan"
+    },
+    "countryData": {
+      "name": "Azerbaijan",
+      "officialName": "Republic of Azerbaijan",
+      "continent": "asia",
+      "location": "South Caucasus",
+      "un": "member"
+    },
+    "trivia": [
+      "- Popularly described as representing 'Turkism, modernism, and Islam' after a formulation attributed to early nationalist thinker Ali bey Huseynzade\n",
+      "- The eight points of the star are sometimes said to symbolise the eight branches of the Turkic peoples\n",
+      "- Azerbaijan was the first majority-Muslim country to grant women the vote, in 1918 under the flag's original adoption\n"
+    ]
+  }
+}

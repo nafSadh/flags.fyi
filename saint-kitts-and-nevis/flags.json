@@ -1,0 +1,65 @@
+{
+  "saint-kitts-and-nevis": {
+    "title": "Flag of the Federation of Saint Kitts and Nevis",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "1983-09-19"
+    },
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#009E49",
+        "cmyk": "100/0/78/22",
+        "pantone": "356 C",
+        "note": "Lower hoist triangle; represents the fertile land of the islands."
+      },
+      {
+        "color": "red",
+        "hex": "#E4272E",
+        "cmyk": "0/86/87/2",
+        "pantone": "186 C",
+        "note": "Upper fly triangle; represents the struggle against slavery and colonialism."
+      },
+      {
+        "color": "yellow",
+        "hex": "#FFD100",
+        "cmyk": "0/18/100/0",
+        "pantone": "116 C",
+        "note": "Thin borders and two fimbriations; represents year-round sunshine."
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "Diagonal band and two stars; represents African heritage."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Two five-pointed stars on the black band; represents hope and liberty for Saint Kitts and Nevis."
+      }
+    ],
+    "desc": [
+      "- A diagonal black band bordered by thin yellow stripes and two white five-pointed stars, dividing the flag into a green lower-hoist triangle and a red upper-fly triangle\n",
+      "- Designed by Edrice Lewis, a student, from over two hundred national competition entries\n",
+      "- Adopted on 19 September 1983 at independence from the United Kingdom\n"
+    ],
+    "article": "saint-kitts-and-nevis/flag.md",
+    "of": {
+      "country": "saint-kitts-and-nevis"
+    },
+    "countryData": {
+      "name": "Saint Kitts and Nevis",
+      "officialName": "Federation of Saint Christopher and Nevis",
+      "continent": "north-america",
+      "un": "member"
+    },
+    "trivia": [
+      "- The two white stars represent the two islands of the federation, Saint Kitts and Nevis, each signifying hope and liberty\n",
+      "- The designer, Edrice Lewis, was a secondary-school student when her entry won the national competition\n",
+      "- The yellow fimbriation is notably narrow, often rendered as fine gold lines between the black diagonal and the larger colour fields\n"
+    ]
+  }
+}

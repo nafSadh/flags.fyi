@@ -1,0 +1,47 @@
+{
+  "bhutan": {
+    "title": "Flag of the Kingdom of Bhutan",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "yellow",
+        "hex": "#FFD520",
+        "note": "Represents the secular authority of the king"
+      },
+      {
+        "color": "orange",
+        "hex": "#FF4E12",
+        "note": "Represents the Buddhist spiritual tradition, particularly the Drukpa Kagyu and Nyingma schools"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "note": "The Druk (thunder dragon) representing the country and its purity"
+      }
+    ],
+    "desc": [
+      "- Diagonally divided from hoist-bottom to fly-top into yellow (upper hoist) and orange (lower fly), with a white Druk (thunder dragon) clutching four jewels centred on the dividing line\n",
+      "- Introduced in 1949 and standardised in 1969 to its current proportions and dragon design\n"
+    ],
+    "article": "bhutan/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1969-01-01"
+    },
+    "of": {
+      "country": "bhutan"
+    },
+    "countryData": {
+      "name": "Bhutan",
+      "officialName": "Kingdom of Bhutan",
+      "continent": "asia",
+      "location": "Eastern Himalayas, South Asia",
+      "un": "member"
+    },
+    "trivia": [
+      "- Druk means 'thunder dragon', and Bhutan's endonym Druk Yul translates as 'Land of the Thunder Dragon'\n",
+      "- The jewels (norbu) clutched in the dragon's claws represent the wealth and prosperity of the country\n",
+      "- Earlier versions of the flag showed a green dragon; the colour was changed to white in 1969 to symbolise purity\n"
+    ]
+  }
+}

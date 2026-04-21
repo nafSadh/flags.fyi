@@ -1,0 +1,52 @@
+{
+  "lesotho": {
+    "title": "Flag of the Kingdom of Lesotho",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#00209F",
+        "note": "Top band symbolising rain, which gives Lesotho its lifeblood water."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "note": "Middle band representing peace."
+      },
+      {
+        "color": "green",
+        "hex": "#009543",
+        "note": "Bottom band evoking prosperity and the land."
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "note": "Mokorotlo Basotho hat, symbolising the indigenous culture of the nation."
+      }
+    ],
+    "desc": [
+      "- Three horizontal bands of blue (top), white (middle) and green (bottom)\n",
+      "- A black mokorotlo, the traditional Basotho straw hat, is centred on the white band\n",
+      "- Adopted on 4 October 2006 for the 40th anniversary of independence, replacing an earlier military-themed design"
+    ],
+    "article": "lesotho/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "2006-10-04"
+    },
+    "of": {
+      "country": "lesotho"
+    },
+    "countryData": {
+      "name": "Lesotho",
+      "officialName": "Kingdom of Lesotho",
+      "continent": "africa",
+      "un": "member"
+    },
+    "trivia": [
+      "- The 1987-2006 flag bore a shield with an assegai and knobkerrie, reflecting military rule\n",
+      "- Lesotho is entirely surrounded by South Africa, one of only three fully enclaved states\n",
+      "- The mokorotlo is said to be modelled on Mount Qiloane in the Thaba Bosiu region\n"
+    ]
+  }
+}

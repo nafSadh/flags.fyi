@@ -1,0 +1,59 @@
+{
+  "zimbabwe": {
+    "title": "Flag of the Republic of Zimbabwe",
+    "ratio": "1:2",
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#008751",
+        "note": "Represents the nation's agriculture and rural land."
+      },
+      {
+        "color": "yellow",
+        "hex": "#FFD200",
+        "note": "Symbolises the country's abundant mineral wealth."
+      },
+      {
+        "color": "red",
+        "hex": "#EF3340",
+        "note": "Represents the blood shed during the liberation struggle."
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "note": "Represents the heritage and ethnicity of the Black majority population."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "note": "The white triangle and emblem stand for peace."
+      }
+    ],
+    "desc": [
+      "- Seven horizontal stripes of green, yellow, red, black, red, yellow, and green\n",
+      "- A white triangle at the hoist bears a red five-pointed star and the golden Great Zimbabwe bird\n",
+      "- Adopted on 18 April 1980 at independence from the United Kingdom, replacing the Rhodesian flag"
+    ],
+    "article": "zimbabwe/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1980-04-18"
+    },
+    "of": {
+      "country": "zimbabwe"
+    },
+    "countryData": {
+      "name": "Zimbabwe",
+      "officialName": "Republic of Zimbabwe",
+      "continent": "africa",
+      "location": "Southern Africa, landlocked",
+      "un": "member"
+    },
+    "trivia": [
+      "- The golden bird is the Great Zimbabwe bird, a soapstone sculpture found at the medieval Great Zimbabwe ruins\n",
+      "- The red star represents the revolutionary aspirations of the ZANU-PF liberation movement\n",
+      "- Zimbabwe's flag replaced the green-white-green banner of Rhodesia flown under white-minority rule\n",
+      "- The colour scheme draws on the flag of the ZANU (Patriotic Front), which led the liberation war"
+    ]
+  }
+}

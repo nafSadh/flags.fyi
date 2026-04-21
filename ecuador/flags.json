@@ -1,0 +1,53 @@
+{
+  "ecuador": {
+    "title": "Flag of the Republic of Ecuador",
+    "ratio": "1:2",
+    "use": {
+      "as": "national flag",
+      "since": "1900-09-26"
+    },
+    "colors": [
+      {
+        "color": "yellow",
+        "hex": "#FFDD00",
+        "cmyk": "0/13/100/0",
+        "pantone": "116 C",
+        "note": "Top band at double width; represents the land's wealth and crops."
+      },
+      {
+        "color": "blue",
+        "hex": "#034EA2",
+        "cmyk": "100/76/0/22",
+        "pantone": "286 C",
+        "note": "Middle band; represents the sky, sea, and rivers."
+      },
+      {
+        "color": "red",
+        "hex": "#ED1C24",
+        "cmyk": "0/92/90/0",
+        "pantone": "186 C",
+        "note": "Bottom band; represents the blood of patriots."
+      }
+    ],
+    "desc": [
+      "- A horizontal tricolour of yellow (double width), blue, and red with the national coat of arms centred\n",
+      "- Descended from the flag of Gran Colombia designed by Francisco de Miranda in 1806\n",
+      "- The current design with the coat of arms was formalised on 26 September 1900\n"
+    ],
+    "article": "ecuador/flag.md",
+    "of": {
+      "country": "ecuador"
+    },
+    "countryData": {
+      "name": "Ecuador",
+      "officialName": "Republic of Ecuador",
+      "continent": "south-america",
+      "un": "member"
+    },
+    "trivia": [
+      "- Ecuador, Colombia, and Venezuela share the yellow-blue-red colour scheme inherited from Gran Colombia\n",
+      "- The coat of arms features Mount Chimborazo, a steamship on the Guayas River, and a condor, distinguishing Ecuador's flag from its sister republics\n",
+      "- 26 September is celebrated as Flag Day in Ecuador\n"
+    ]
+  }
+}

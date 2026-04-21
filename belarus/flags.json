@@ -1,0 +1,50 @@
+{
+  "belarus": {
+    "title": "Flag of the Republic of Belarus",
+    "ratio": "1:2",
+    "use": {
+      "as": "national flag",
+      "since": "1995-06-07"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#C8313E",
+        "cmyk": "0/85/79/0",
+        "note": "Represents the past — sacrifice, courage, and the country's historical struggles."
+      },
+      {
+        "color": "green",
+        "hex": "#4AA657",
+        "cmyk": "74/0/100/20",
+        "note": "Symbolises hope, renewal, and Belarusian forests and farmland."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "The hoist ornament in red on white depicts traditional Belarusian rushnik embroidery."
+      }
+    ],
+    "desc": [
+      "- Two horizontal bands of red (top, two-thirds) and green (bottom, one-third)\n",
+      "- A vertical red-on-white decorative pattern runs along the hoist, derived from traditional rushnik embroidery\n",
+      "- Adopted by referendum on 14 May 1995, modelled on the Byelorussian SSR flag minus Soviet emblems"
+    ],
+    "article": "belarus/flag.md",
+    "of": {
+      "country": "belarus"
+    },
+    "countryData": {
+      "name": "Belarus",
+      "officialName": "Republic of Belarus",
+      "continent": "europe",
+      "un": "member"
+    },
+    "trivia": [
+      "- The ornament pattern originated on a 1917 rushnik (ritual cloth) woven by Matrona Markevich\n",
+      "- The 1995 design replaced the white-red-white flag used 1991-1995 after restoring independence\n",
+      "- In 2012 the original hammer-and-sickle-free ornament was slightly redrawn by presidential decree\n"
+    ]
+  }
+}

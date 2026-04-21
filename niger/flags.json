@@ -1,0 +1,54 @@
+{
+  "niger": {
+    "title": "Flag of the Republic of the Niger",
+    "ratio": "6:7",
+    "colors": [
+      {
+        "color": "orange",
+        "hex": "#E05206",
+        "note": "Represents the Sahara Desert in the north of the country."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "note": "Symbolises purity and the Niger River."
+      },
+      {
+        "color": "green",
+        "hex": "#0DB02B",
+        "note": "Represents the fertile southern regions and hope."
+      },
+      {
+        "color": "orange-disc",
+        "hex": "#E05206",
+        "note": "The orange disc represents the sun."
+      }
+    ],
+    "desc": [
+      "- Three equal horizontal bands of orange, white, and green with an orange disc centred on the white band\n",
+      "- The near-square 6:7 proportion is unusual among national flags\n",
+      "- Adopted on 23 November 1959, before full independence from France on 3 August 1960"
+    ],
+    "article": "niger/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1959-11-23"
+    },
+    "of": {
+      "country": "niger"
+    },
+    "countryData": {
+      "name": "Niger",
+      "officialName": "Republic of the Niger",
+      "continent": "africa",
+      "location": "West Africa, Sahel",
+      "un": "member"
+    },
+    "trivia": [
+      "- Niger's 6:7 ratio is the most nearly square of any African national flag\n",
+      "- The orange disc is traditionally centred on the middle band rather than placed at a canton\n",
+      "- The flag's colours evoke the land: Sahara to the north, the Niger River, and savannah in the south\n",
+      "- The design dates from the period of autonomous self-government within the French Community"
+    ]
+  }
+}

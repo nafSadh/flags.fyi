@@ -1,0 +1,52 @@
+{
+  "panama": {
+    "title": "Flag of the Republic of Panama",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "1904-06-04"
+    },
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Upper hoist and lower fly quarters; represents peace between political parties."
+      },
+      {
+        "color": "red",
+        "hex": "#DA121A",
+        "cmyk": "0/96/93/2",
+        "pantone": "186 C",
+        "note": "Lower hoist quarter; represents the Liberal Party."
+      },
+      {
+        "color": "blue",
+        "hex": "#005AA7",
+        "cmyk": "100/73/0/35",
+        "pantone": "286 C",
+        "note": "Upper fly quarter; represents the Conservative Party."
+      }
+    ],
+    "desc": [
+      "- Divided into four rectangles: white upper hoist with a blue star, red lower hoist, blue upper fly, and white lower fly with a red star\n",
+      "- Designed by Manuel Encarnacion Amador, son of Panama's first president Manuel Amador Guerrero\n",
+      "- Adopted provisionally on 4 November 1903 and officially on 4 June 1904 following independence from Colombia\n"
+    ],
+    "article": "panama/flag.md",
+    "of": {
+      "country": "panama"
+    },
+    "countryData": {
+      "name": "Panama",
+      "officialName": "Republic of Panama",
+      "continent": "north-america",
+      "un": "member"
+    },
+    "trivia": [
+      "- The blue and red quarters represent the historic Conservative and Liberal parties; the white quarters stand for the peace between them\n",
+      "- The blue star symbolises purity and honesty in public life; the red star symbolises authority and law\n",
+      "- 4 November, the date of the provisional adoption, is celebrated annually as Flag Day in Panama\n"
+    ]
+  }
+}

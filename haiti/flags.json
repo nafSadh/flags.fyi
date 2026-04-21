@@ -1,0 +1,52 @@
+{
+  "haiti": {
+    "title": "Flag of the Republic of Haiti",
+    "ratio": "3:5",
+    "use": {
+      "as": "national flag",
+      "since": "1986-02-17"
+    },
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#00209F",
+        "cmyk": "100/87/0/38",
+        "pantone": "281 C",
+        "note": "Upper band; represents Haitians of African descent and solidarity with the continent."
+      },
+      {
+        "color": "red",
+        "hex": "#D21034",
+        "cmyk": "0/92/75/18",
+        "pantone": "186 C",
+        "note": "Lower band; represents Haitians of mixed heritage and the blood shed for liberty."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Central rectangle bearing the coat of arms; represents peace."
+      }
+    ],
+    "desc": [
+      "- Two horizontal bands of blue and red with the national coat of arms on a white rectangle at the centre\n",
+      "- The coat of arms features a palm tree topped with the Phrygian cap of liberty, flanked by cannons and flags, above the motto L'Union Fait la Force\n",
+      "- The current version was restored on 17 February 1986 after the fall of the Duvalier regime, returning the original 1803 colours\n"
+    ],
+    "article": "haiti/flag.md",
+    "of": {
+      "country": "haiti"
+    },
+    "countryData": {
+      "name": "Haiti",
+      "officialName": "Republic of Haiti",
+      "continent": "north-america",
+      "un": "member"
+    },
+    "trivia": [
+      "- According to tradition, the flag was created in May 1803 when Jean-Jacques Dessalines tore the white from the French tricolour, symbolically removing European rule\n",
+      "- The motto L'Union Fait la Force (Unity Makes Strength) commemorates the successful 1791 to 1804 slave revolt that produced the first independent Black republic\n",
+      "- Between 1964 and 1986 the Duvalier regime used a black and red flag; the original blue and red was restored after his son's fall from power\n"
+    ]
+  }
+}

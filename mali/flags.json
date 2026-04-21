@@ -1,0 +1,49 @@
+{
+  "mali": {
+    "title": "Flag of the Republic of Mali",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#14B53A",
+        "note": "Represents fertility, the land, and hope."
+      },
+      {
+        "color": "yellow",
+        "hex": "#FCD116",
+        "note": "Symbolises purity and the country's mineral wealth."
+      },
+      {
+        "color": "red",
+        "hex": "#CE1126",
+        "note": "Represents the blood shed in the struggle for independence."
+      }
+    ],
+    "desc": [
+      "- A vertical tricolour of green, yellow, and red of equal width\n",
+      "- Uses the Pan-African colours arranged in the same order as the Ethiopian flag but rotated vertically\n",
+      "- Adopted on 1 March 1961, replacing an earlier version that bore a black human figure (the kanaga) at centre"
+    ],
+    "article": "mali/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1961-03-01"
+    },
+    "of": {
+      "country": "mali"
+    },
+    "countryData": {
+      "name": "Mali",
+      "officialName": "Republic of Mali",
+      "continent": "africa",
+      "location": "West Africa",
+      "un": "member"
+    },
+    "trivia": [
+      "- The original 1959 flag carried a black human figure called the kanaga at its centre\n",
+      "- The figure was removed in 1961 after objections from the country's Muslim majority to depictions of people\n",
+      "- The flag shares its colour order with Guinea, which uses the same tricolour in reverse\n",
+      "- Green, yellow, and red are the Pan-African colours inspired by Ethiopia's tricolour"
+    ]
+  }
+}

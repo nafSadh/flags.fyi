@@ -1,0 +1,59 @@
+{
+  "mozambique": {
+    "title": "Flag of the Republic of Mozambique",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#009A3D",
+        "note": "Represents the richness of the land."
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "note": "Represents the African continent."
+      },
+      {
+        "color": "yellow",
+        "hex": "#FFD100",
+        "note": "Symbolises the country's mineral wealth."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "note": "Represents peace."
+      },
+      {
+        "color": "red",
+        "hex": "#E21A1C",
+        "note": "Recalls the centuries of resistance to colonialism and the war of independence."
+      }
+    ],
+    "desc": [
+      "- Three horizontal bands of green, black (fimbriated white), and yellow, with a red triangle at the hoist\n",
+      "- The triangle carries a yellow star, an open book, a hoe, and an AK-47 rifle with bayonet\n",
+      "- Adopted on 1 May 1983; the emblem symbolises education, agriculture, and defence of the nation"
+    ],
+    "article": "mozambique/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1983-05-01"
+    },
+    "of": {
+      "country": "mozambique"
+    },
+    "countryData": {
+      "name": "Mozambique",
+      "officialName": "Republic of Mozambique",
+      "continent": "africa",
+      "location": "Southeast Africa",
+      "un": "member"
+    },
+    "trivia": [
+      "- Mozambique is the only national flag in the world that features a modern assault rifle\n",
+      "- The AK-47 represents vigilance and the armed struggle that led to independence from Portugal\n",
+      "- The open book on the triangle symbolises the importance of education\n",
+      "- Multiple proposals to redesign the flag and remove the rifle have been rejected since 2005"
+    ]
+  }
+}

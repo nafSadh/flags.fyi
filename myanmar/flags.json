@@ -1,0 +1,52 @@
+{
+  "myanmar": {
+    "title": "Flag of the Republic of the Union of Myanmar",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "yellow",
+        "hex": "#FECB00",
+        "note": "Represents solidarity among the nation's ethnic groups"
+      },
+      {
+        "color": "green",
+        "hex": "#34B233",
+        "note": "Represents peace, tranquillity, and the country's lush landscape"
+      },
+      {
+        "color": "red",
+        "hex": "#EA2839",
+        "note": "Symbolises courage and decisiveness"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "note": "The central star represents the union of the country"
+      }
+    ],
+    "desc": [
+      "- Three equal horizontal bands of yellow, green, and red with a large white five-pointed star in the centre\n",
+      "- Adopted on 21 October 2010 under the 2008 constitution, replacing the socialist-era flag used since 1974\n"
+    ],
+    "article": "myanmar/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "2010-10-21"
+    },
+    "of": {
+      "country": "myanmar"
+    },
+    "countryData": {
+      "name": "Myanmar",
+      "officialName": "Republic of the Union of Myanmar",
+      "continent": "asia",
+      "location": "Southeast Asia",
+      "un": "member"
+    },
+    "trivia": [
+      "- The tricolour bands echo those on the 1943-1945 flag used during Japanese occupation\n",
+      "- The white star was enlarged compared to the colonial-era and socialist predecessors\n",
+      "- Myanmar is also widely known as Burma, a name still used by several governments and organisations\n"
+    ]
+  }
+}

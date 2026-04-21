@@ -1,0 +1,52 @@
+{
+  "bahamas": {
+    "title": "Flag of the Commonwealth of The Bahamas",
+    "ratio": "1:2",
+    "use": {
+      "as": "national flag",
+      "since": "1973-07-10"
+    },
+    "colors": [
+      {
+        "color": "aquamarine",
+        "hex": "#00778B",
+        "cmyk": "100/15/35/38",
+        "pantone": "7713 C",
+        "note": "Upper and lower bands; represents the turquoise waters that surround the archipelago."
+      },
+      {
+        "color": "yellow",
+        "hex": "#FFC72C",
+        "cmyk": "0/22/91/0",
+        "pantone": "116 C",
+        "note": "Central band; represents the sun and golden sand beaches."
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "Equilateral triangle at the hoist; symbolises the vigour and force of the Bahamian people."
+      }
+    ],
+    "desc": [
+      "- Three horizontal bands of aquamarine, gold, and aquamarine with a black equilateral triangle based at the hoist\n",
+      "- Adopted on 10 July 1973 upon independence from the United Kingdom\n",
+      "- Designed through a national competition; colours and proportions were standardised by the Bahamas government\n"
+    ],
+    "article": "bahamas/flag.md",
+    "of": {
+      "country": "bahamas"
+    },
+    "countryData": {
+      "name": "Bahamas",
+      "officialName": "Commonwealth of The Bahamas",
+      "continent": "north-america",
+      "un": "member"
+    },
+    "trivia": [
+      "- The design was chosen from among public submissions; no single designer is officially credited with the final artwork\n",
+      "- The aquamarine (not blue) is specifically evocative of the shallow Caribbean waters around the islands\n",
+      "- The black triangle pointing into the gold and blue symbolises the unity and forward determination of the people\n"
+    ]
+  }
+}

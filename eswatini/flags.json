@@ -1,0 +1,57 @@
+{
+  "eswatini": {
+    "title": "Flag of the Kingdom of Eswatini",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#3E5EB9",
+        "note": "Top and bottom bands symbolising peace and stability."
+      },
+      {
+        "color": "yellow",
+        "hex": "#FFD900",
+        "note": "Narrow bands framing the central red, standing for the country's mineral resources."
+      },
+      {
+        "color": "red",
+        "hex": "#B10C0C",
+        "note": "Broad central band evoking past battles for the nation."
+      },
+      {
+        "color": "black",
+        "hex": "#333333",
+        "note": "Elements of the central shield representing the ox-hide Nguni warrior shield."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "note": "Elements of the shield and staff feathers symbolising the monarchy."
+      }
+    ],
+    "desc": [
+      "- Blue bands at top and bottom, a broad red band in the middle separated by narrow yellow stripes\n",
+      "- A large Nguni warrior shield flanked by two assegais and a fighting staff is centred on the red\n",
+      "- The decorated staff is adorned with tassels made from widowbird and lourie feathers worn by the king"
+    ],
+    "article": "eswatini/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1968-10-06"
+    },
+    "of": {
+      "country": "eswatini"
+    },
+    "countryData": {
+      "name": "Eswatini",
+      "officialName": "Kingdom of Eswatini",
+      "continent": "africa",
+      "un": "member"
+    },
+    "trivia": [
+      "- Based on a military banner given to the Emasotsha Regiment by King Sobhuza II in 1941\n",
+      "- The lidlabe shield is half black and half white to symbolise racial harmony\n",
+      "- The country was known as Swaziland until King Mswati III renamed it Eswatini in 2018\n"
+    ]
+  }
+}

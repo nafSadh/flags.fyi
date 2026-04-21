@@ -1,0 +1,54 @@
+{
+  "senegal": {
+    "title": "Flag of the Republic of Senegal",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#00853F",
+        "note": "Represents Islam, the country's majority religion, and the hope of its people."
+      },
+      {
+        "color": "yellow",
+        "hex": "#FDEF42",
+        "note": "Symbolises wealth and progress drawn from labour."
+      },
+      {
+        "color": "red",
+        "hex": "#E31B23",
+        "note": "Recalls the blood shed in the struggle for independence and a determination to fight poverty."
+      },
+      {
+        "color": "green-star",
+        "hex": "#00853F",
+        "note": "The green five-pointed star symbolises unity and hope."
+      }
+    ],
+    "desc": [
+      "- A vertical tricolour of green, yellow, and red with a green five-pointed star centred on the yellow band\n",
+      "- The Pan-African colours are arranged as a vertical tricolour in the style of the French flag\n",
+      "- Adopted on 20 August 1960 when Senegal withdrew from the Mali Federation and became fully independent"
+    ],
+    "article": "senegal/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1960-08-20"
+    },
+    "of": {
+      "country": "senegal"
+    },
+    "countryData": {
+      "name": "Senegal",
+      "officialName": "Republic of Senegal",
+      "continent": "africa",
+      "location": "West Africa, Atlantic coast",
+      "un": "member"
+    },
+    "trivia": [
+      "- Senegal's flag closely resembles that of Mali, reflecting the brief union of the two as the Mali Federation in 1959-1960\n",
+      "- The central green star replaces the black human figure that had appeared on the Mali Federation flag\n",
+      "- The vertical tricolour format is a legacy of French colonial-era design\n",
+      "- Green, yellow, and red are the Pan-African colours inspired by Ethiopia's flag"
+    ]
+  }
+}

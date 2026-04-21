@@ -10,11 +10,11 @@
 <g opacity=".5">
   <path fill="#fff" d="m0 0h15000v10000H0z"/>
   <path fill="#E30A17" d="m0 0.0h15000v5000.0H0z"/>
-  <path fill="#E30A17" d="m0 5000.0h15000v5000.0H0z"/>
+  <path fill="#FFFFFF" d="m0 5000.0h15000v5000.0H0z"/>
 </g>
 <g stroke="#000" stroke-width="140" stroke-linejoin="round" stroke-linecap="round">
   <path stroke="#444" stroke-width="250" d="m0 0h15000v10000H0z"/>
-  <!-- solid red field -->
+  <path d="m0 5000.0h15000"/>
   <path stroke="#222" stroke-width="75" stroke-dasharray="200,200" d="m7500.0 -2500.0v15000"/>
 </g>
 <g stroke="#00f" stroke-width="75" marker-start="url(#left-arrow)">

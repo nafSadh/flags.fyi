@@ -1,0 +1,49 @@
+{
+  "sierra-leone": {
+    "title": "Flag of the Republic of Sierra Leone",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#1EB53A",
+        "note": "Represents agriculture, the mountains, and natural resources."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "note": "Symbolises unity and justice."
+      },
+      {
+        "color": "blue",
+        "hex": "#0072C6",
+        "note": "Represents the natural harbour of Freetown and the Atlantic Ocean."
+      }
+    ],
+    "desc": [
+      "- Three equal horizontal bands of green, white, and blue\n",
+      "- The colours reflect Sierra Leone's landscape, principles, and coastal geography\n",
+      "- Adopted on 27 April 1961 upon independence from the United Kingdom"
+    ],
+    "article": "sierra-leone/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1961-04-27"
+    },
+    "of": {
+      "country": "sierra-leone"
+    },
+    "countryData": {
+      "name": "Sierra Leone",
+      "officialName": "Republic of Sierra Leone",
+      "continent": "africa",
+      "location": "West Africa, Atlantic coast",
+      "un": "member"
+    },
+    "trivia": [
+      "- The flag was designed by the College of Arms in London ahead of independence\n",
+      "- Blue refers specifically to the natural harbour of Freetown, one of the largest in the world\n",
+      "- Sierra Leone has kept the same flag through decades of political upheaval and civil war\n",
+      "- The tricolour is frequently displayed vertically at ceremonies in the capital"
+    ]
+  }
+}

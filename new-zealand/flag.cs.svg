@@ -49,14 +49,14 @@
 	<path fill="#fff" d="m0 0h100800v50400H0z"/>
 	<g opacity=".5">
 		<g transform="scale(840)">
-			<path fill="#00247D" d="m0 0h120v60H0z"/>
+			<path fill="#012169" d="m0 0h120v60H0z"/>
 			<g clip-path="url(#f)" stroke="#c8102e" stroke-width="6">
 				<path stroke="#fff" stroke-width="6" d="m0 0 60 30M0 30 60 0"/>
 				<path stroke="#c8102e" stroke-width="4" clip-path="url(#s)" d="m0 0 60 30M0 30 60 0"/>
 				<path stroke="#fff" stroke-width="10" d="m30 0v31M0 15h62"/>
 				<path d="m30 0v31M0 15h62"/>
 			</g>
-			<path fill="#00247D" d="m60 0h60v60H0V30h60z"/>
+			<path fill="#012169" d="m60 0h60v60H0V30h60z"/>
 		</g>
 		<path id="s" fill="#c8102e" stroke="#fff" stroke-width="420" d="m75600 6751 747 2300h2419l-1957 1422 748 2300-1957-1421-1957 1421 748-2300-1957-1422h2419zm9982 9118 648 1996h2098l-1697 1233 648 1995-1697-1233-1697 1233 648-1995-1697-1233h2098zm-9982 20680 847 2606h2739l-2216 1610 846 2606-2216-1611-2216 1611 846-2606-2216-1610h2739zM63954 18467l748 2301h2419l-1957 1422 747 2300-1957-1422-1956 1422 747-2300-1957-1422h2419z"/>
 	</g>

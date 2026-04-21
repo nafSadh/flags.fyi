@@ -1,0 +1,52 @@
+{
+  "luxembourg": {
+    "title": "Flag of the Grand Duchy of Luxembourg",
+    "ratio": "3:5",
+    "use": {
+      "as": "national flag",
+      "since": "1972-06-23"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#ED2939",
+        "cmyk": "0/85/80/0",
+        "note": "Derived from the red lion of the Counts of Luxembourg heraldry.",
+        "pantone": "032 C"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Represents the silver background of the historic coat of arms."
+      },
+      {
+        "color": "light blue",
+        "hex": "#00A1DE",
+        "cmyk": "80/0/5/0",
+        "note": "Symbolises the blue stripes behind the lion in the Luxembourg arms.",
+        "pantone": "299 C"
+      }
+    ],
+    "desc": [
+      "- Three equal horizontal bands of red, white, and light blue from top to bottom\n",
+      "- Based on the Luxembourg coat of arms, which features a red lion on blue-and-white stripes\n",
+      "- Officially adopted on 23 June 1972 to clarify the specific shade of blue after confusion with the Netherlands"
+    ],
+    "article": "luxembourg/flag.md",
+    "of": {
+      "country": "luxembourg"
+    },
+    "countryData": {
+      "name": "Luxembourg",
+      "officialName": "Grand Duchy of Luxembourg",
+      "continent": "europe",
+      "un": "member"
+    },
+    "trivia": [
+      "- First used in the mid-19th century, the flag differs from the Netherlands' only in the lighter shade of blue\n",
+      "- Luxembourg also uses a civil ensign with a rampant red lion on blue and white stripes — the historic heraldic banner\n",
+      "- The 1972 law specified the exact blue to prevent the continued confusion with Dutch vessels\n"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "armenia": {
+    "title": "Flag of the Republic of Armenia",
+    "ratio": "1:2",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#D90012",
+        "note": "Represents the Armenian Highland, the people's struggle for survival, and the Christian faith"
+      },
+      {
+        "color": "blue",
+        "hex": "#0033A0",
+        "note": "Represents the desire of Armenians to live peacefully under clear skies"
+      },
+      {
+        "color": "orange",
+        "hex": "#F2A800",
+        "note": "Represents the creative talent and hard-working nature of the Armenian people"
+      }
+    ],
+    "desc": [
+      "- Three horizontal bands of red, blue, and orange of equal width\n",
+      "- Readopted on 24 August 1990 during the dissolution of the USSR, reviving the 1918-1922 First Republic flag\n"
+    ],
+    "article": "armenia/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1990-08-24"
+    },
+    "of": {
+      "country": "armenia"
+    },
+    "countryData": {
+      "name": "Armenia",
+      "officialName": "Republic of Armenia",
+      "continent": "asia",
+      "location": "South Caucasus",
+      "un": "member"
+    },
+    "trivia": [
+      "- The colours are known in Armenian as 'yerakouyn' (tricolour), and their meanings are set out in the 2006 Law on the National Flag\n",
+      "- The orange band is sometimes called 'apricot' and reflects the national fruit and its Armenian-Latin name prunus armeniaca\n",
+      "- Armenia was the first country in the world to adopt Christianity as its state religion, in 301 AD\n"
+    ]
+  }
+}

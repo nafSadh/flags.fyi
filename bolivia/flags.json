@@ -1,0 +1,53 @@
+{
+  "bolivia": {
+    "title": "Flag of the Plurinational State of Bolivia",
+    "ratio": "15:22",
+    "use": {
+      "as": "national flag",
+      "since": "1851-10-31"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#D52B1E",
+        "cmyk": "0/86/90/10",
+        "pantone": "186 C",
+        "note": "Top band; represents the valour and blood of the nation's heroes."
+      },
+      {
+        "color": "yellow",
+        "hex": "#F9E300",
+        "cmyk": "0/10/100/0",
+        "pantone": "116 C",
+        "note": "Middle band; represents the country's mineral wealth."
+      },
+      {
+        "color": "green",
+        "hex": "#007934",
+        "cmyk": "100/0/80/30",
+        "pantone": "356 C",
+        "note": "Bottom band; represents the fertility of the land."
+      }
+    ],
+    "desc": [
+      "- A horizontal tricolour of red, yellow, and green; the state flag bears the national coat of arms at the centre of the yellow band\n",
+      "- Adopted on 31 October 1851 during the presidency of Manuel Isidoro Belzu, replacing an earlier yellow-green-red arrangement\n",
+      "- The Wiphala, a square multicoloured emblem of the Andean peoples, became a dual state flag in the 2009 constitution\n"
+    ],
+    "article": "bolivia/flag.md",
+    "of": {
+      "country": "bolivia"
+    },
+    "countryData": {
+      "name": "Bolivia",
+      "officialName": "Plurinational State of Bolivia",
+      "continent": "south-america",
+      "un": "member"
+    },
+    "trivia": [
+      "- The current order was fixed by decree in 1851 after earlier designs placed the colours in different sequences\n",
+      "- The Wiphala, adopted alongside the tricolour in 2009, represents Bolivia's indigenous majority and the Qullasuyu region of the Inca Empire\n",
+      "- The ratio of 15:22 is unusually wide among national flags\n"
+    ]
+  }
+}

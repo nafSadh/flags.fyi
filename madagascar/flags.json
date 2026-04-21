@@ -1,0 +1,49 @@
+{
+  "madagascar": {
+    "title": "Flag of the Republic of Madagascar",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "note": "Represents purity; paired with red it recalls the Merina kingdom's colours."
+      },
+      {
+        "color": "red",
+        "hex": "#FC3D32",
+        "note": "Symbolises sovereignty and the Merina monarchy of pre-colonial Madagascar."
+      },
+      {
+        "color": "green",
+        "hex": "#007E3A",
+        "note": "Represents the Hova, the peasant class, and hope for a prosperous nation."
+      }
+    ],
+    "desc": [
+      "- A vertical white band on the hoist side with two horizontal bands of red above green on the fly\n",
+      "- The unusual hoist-side vertical stripe distinguishes Madagascar from other tricolours\n",
+      "- Adopted on 14 October 1958 ahead of full independence from France on 26 June 1960"
+    ],
+    "article": "madagascar/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1958-10-14"
+    },
+    "of": {
+      "country": "madagascar"
+    },
+    "countryData": {
+      "name": "Madagascar",
+      "officialName": "Republic of Madagascar",
+      "continent": "africa",
+      "location": "Indian Ocean, off southeast Africa",
+      "un": "member"
+    },
+    "trivia": [
+      "- White and red were the traditional colours of the Merina kingdom that unified much of the island\n",
+      "- The flag was adopted two years before full independence from France\n",
+      "- Madagascar's flag has remained unchanged since 1958, surviving multiple republics\n",
+      "- The hoist-side vertical stripe is shared with few other national flags"
+    ]
+  }
+}

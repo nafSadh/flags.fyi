@@ -1,6 +1,6 @@
 {
   "abkhazia": {
-    "prev": "north-yemen",
+    "prev": "zimbabwe",
     "next": "afghanistan",
     "cat": "countries"
   },
@@ -81,21 +81,36 @@
   },
   "ar-celeste-blanca": {
     "prev": "ar-sun-of-may",
+    "next": "armenia",
+    "cat": "countries"
+  },
+  "armenia": {
+    "prev": "ar-celeste-blanca",
     "next": "australia",
     "cat": "countries"
   },
   "australia": {
-    "prev": "ar-celeste-blanca",
+    "prev": "armenia",
     "next": "austria",
     "cat": "countries"
   },
   "austria": {
     "prev": "australia",
+    "next": "azerbaijan",
+    "cat": "countries"
+  },
+  "azerbaijan": {
+    "prev": "austria",
+    "next": "bahamas",
+    "cat": "countries"
+  },
+  "bahamas": {
+    "prev": "azerbaijan",
     "next": "bahrain",
     "cat": "countries"
   },
   "bahrain": {
-    "prev": "austria",
+    "prev": "bahamas",
     "next": "bangladesh",
     "cat": "countries"
   },
@@ -116,16 +131,56 @@
   },
   "bangladesh-navy": {
     "prev": "east-pakistan",
+    "next": "barbados",
+    "cat": "countries"
+  },
+  "barbados": {
+    "prev": "bangladesh-navy",
+    "next": "belarus",
+    "cat": "countries"
+  },
+  "belarus": {
+    "prev": "barbados",
     "next": "belgium",
     "cat": "countries"
   },
   "belgium": {
-    "prev": "bangladesh-navy",
+    "prev": "belarus",
+    "next": "belize",
+    "cat": "countries"
+  },
+  "belize": {
+    "prev": "belgium",
+    "next": "benin",
+    "cat": "countries"
+  },
+  "benin": {
+    "prev": "belize",
+    "next": "bhutan",
+    "cat": "countries"
+  },
+  "bhutan": {
+    "prev": "benin",
+    "next": "bolivia",
+    "cat": "countries"
+  },
+  "bolivia": {
+    "prev": "bhutan",
+    "next": "bosnia-and-herzegovina",
+    "cat": "countries"
+  },
+  "bosnia-and-herzegovina": {
+    "prev": "bolivia",
+    "next": "botswana",
+    "cat": "countries"
+  },
+  "botswana": {
+    "prev": "bosnia-and-herzegovina",
     "next": "brazil",
     "cat": "countries"
   },
   "brazil": {
-    "prev": "belgium",
+    "prev": "botswana",
     "next": "br-provisional",
     "cat": "countries"
   },
@@ -136,16 +191,56 @@
   },
   "br-empire": {
     "prev": "br-provisional",
+    "next": "brunei",
+    "cat": "countries"
+  },
+  "brunei": {
+    "prev": "br-empire",
+    "next": "bulgaria",
+    "cat": "countries"
+  },
+  "bulgaria": {
+    "prev": "brunei",
+    "next": "burkina-faso",
+    "cat": "countries"
+  },
+  "burkina-faso": {
+    "prev": "bulgaria",
+    "next": "burundi",
+    "cat": "countries"
+  },
+  "burundi": {
+    "prev": "burkina-faso",
+    "next": "cabo-verde",
+    "cat": "countries"
+  },
+  "cabo-verde": {
+    "prev": "burundi",
+    "next": "cambodia",
+    "cat": "countries"
+  },
+  "cambodia": {
+    "prev": "cabo-verde",
+    "next": "cameroon",
+    "cat": "countries"
+  },
+  "cameroon": {
+    "prev": "cambodia",
     "next": "canada",
     "cat": "countries"
   },
   "canada": {
-    "prev": "br-empire",
+    "prev": "cameroon",
+    "next": "central-african-republic",
+    "cat": "countries"
+  },
+  "central-african-republic": {
+    "prev": "canada",
     "next": "chad",
     "cat": "countries"
   },
   "chad": {
-    "prev": "canada",
+    "prev": "central-african-republic",
     "next": "chile",
     "cat": "countries"
   },
@@ -186,11 +281,31 @@
   },
   "comoros": {
     "prev": "colombia",
+    "next": "congo-dr",
+    "cat": "countries"
+  },
+  "congo-dr": {
+    "prev": "comoros",
+    "next": "congo-republic",
+    "cat": "countries"
+  },
+  "congo-republic": {
+    "prev": "congo-dr",
+    "next": "costa-rica",
+    "cat": "countries"
+  },
+  "costa-rica": {
+    "prev": "congo-republic",
+    "next": "cote-divoire",
+    "cat": "countries"
+  },
+  "cote-divoire": {
+    "prev": "costa-rica",
     "next": "croatia",
     "cat": "countries"
   },
   "croatia": {
-    "prev": "comoros",
+    "prev": "cote-divoire",
     "next": "cuba",
     "cat": "countries"
   },
@@ -201,11 +316,16 @@
   },
   "cu-lone-star": {
     "prev": "cuba",
+    "next": "cyprus",
+    "cat": "countries"
+  },
+  "cyprus": {
+    "prev": "cu-lone-star",
     "next": "czech-republic",
     "cat": "countries"
   },
   "czech-republic": {
-    "prev": "cu-lone-star",
+    "prev": "cyprus",
     "next": "denmark",
     "cat": "countries"
   },
@@ -216,16 +336,31 @@
   },
   "djibouti": {
     "prev": "denmark",
+    "next": "dominica",
+    "cat": "countries"
+  },
+  "dominica": {
+    "prev": "djibouti",
+    "next": "dominican-republic",
+    "cat": "countries"
+  },
+  "dominican-republic": {
+    "prev": "dominica",
     "next": "eagle-of-saladin",
     "cat": "countries"
   },
   "eagle-of-saladin": {
-    "prev": "djibouti",
+    "prev": "dominican-republic",
+    "next": "ecuador",
+    "cat": "countries"
+  },
+  "ecuador": {
+    "prev": "eagle-of-saladin",
     "next": "egypt",
     "cat": "countries"
   },
   "egypt": {
-    "prev": "eagle-of-saladin",
+    "prev": "ecuador",
     "next": "egypt-uar",
     "cat": "countries"
   },
@@ -271,11 +406,36 @@
   },
   "fatimid": {
     "prev": "ayyubid",
+    "next": "el-salvador",
+    "cat": "countries"
+  },
+  "el-salvador": {
+    "prev": "fatimid",
+    "next": "equatorial-guinea",
+    "cat": "countries"
+  },
+  "equatorial-guinea": {
+    "prev": "el-salvador",
+    "next": "eritrea",
+    "cat": "countries"
+  },
+  "eritrea": {
+    "prev": "equatorial-guinea",
+    "next": "estonia",
+    "cat": "countries"
+  },
+  "estonia": {
+    "prev": "eritrea",
+    "next": "eswatini",
+    "cat": "countries"
+  },
+  "eswatini": {
+    "prev": "estonia",
     "next": "ethiopia",
     "cat": "countries"
   },
   "ethiopia": {
-    "prev": "fatimid",
+    "prev": "eswatini",
     "next": "et-derg",
     "cat": "countries"
   },
@@ -311,11 +471,26 @@
   },
   "fr-bourbon": {
     "prev": "fr-free-france",
+    "next": "gabon",
+    "cat": "countries"
+  },
+  "gabon": {
+    "prev": "fr-bourbon",
+    "next": "gambia",
+    "cat": "countries"
+  },
+  "gambia": {
+    "prev": "gabon",
+    "next": "georgia",
+    "cat": "countries"
+  },
+  "georgia": {
+    "prev": "gambia",
     "next": "germany",
     "cat": "countries"
   },
   "germany": {
-    "prev": "fr-bourbon",
+    "prev": "georgia",
     "next": "de-east-germany",
     "cat": "countries"
   },
@@ -381,16 +556,56 @@
   },
   "gr-independence": {
     "prev": "gr-kingdom",
+    "next": "grenada",
+    "cat": "countries"
+  },
+  "grenada": {
+    "prev": "gr-independence",
+    "next": "guatemala",
+    "cat": "countries"
+  },
+  "guatemala": {
+    "prev": "grenada",
+    "next": "guinea",
+    "cat": "countries"
+  },
+  "guinea": {
+    "prev": "guatemala",
+    "next": "guinea-bissau",
+    "cat": "countries"
+  },
+  "guinea-bissau": {
+    "prev": "guinea",
+    "next": "guyana",
+    "cat": "countries"
+  },
+  "guyana": {
+    "prev": "guinea-bissau",
+    "next": "haiti",
+    "cat": "countries"
+  },
+  "haiti": {
+    "prev": "guyana",
+    "next": "honduras",
+    "cat": "countries"
+  },
+  "honduras": {
+    "prev": "haiti",
     "next": "hungary",
     "cat": "countries"
   },
   "hungary": {
-    "prev": "gr-independence",
+    "prev": "honduras",
+    "next": "iceland",
+    "cat": "countries"
+  },
+  "iceland": {
+    "prev": "hungary",
     "next": "india",
     "cat": "countries"
   },
   "india": {
-    "prev": "hungary",
+    "prev": "iceland",
     "next": "in-independence",
     "cat": "countries"
   },
@@ -541,11 +756,16 @@
   },
   "roman-empire": {
     "prev": "venice",
+    "next": "jamaica",
+    "cat": "countries"
+  },
+  "jamaica": {
+    "prev": "roman-empire",
     "next": "japan",
     "cat": "countries"
   },
   "japan": {
-    "prev": "roman-empire",
+    "prev": "jamaica",
     "next": "jp-rising-sun-navy",
     "cat": "countries"
   },
@@ -566,11 +786,16 @@
   },
   "jordan": {
     "prev": "jp-tokugawa",
+    "next": "kazakhstan",
+    "cat": "countries"
+  },
+  "kazakhstan": {
+    "prev": "jordan",
     "next": "kenya",
     "cat": "countries"
   },
   "kenya": {
-    "prev": "jordan",
+    "prev": "kazakhstan",
     "next": "ke-colonial",
     "cat": "countries"
   },
@@ -581,11 +806,16 @@
   },
   "scotland-kingdom": {
     "prev": "ke-colonial",
+    "next": "kiribati",
+    "cat": "countries"
+  },
+  "kiribati": {
+    "prev": "scotland-kingdom",
     "next": "korea",
     "cat": "countries"
   },
   "korea": {
-    "prev": "scotland-kingdom",
+    "prev": "kiribati",
     "next": "kr-taegeukgi-1883",
     "cat": "countries"
   },
@@ -596,26 +826,56 @@
   },
   "kr-joseon": {
     "prev": "kr-taegeukgi-1883",
+    "next": "kosovo",
+    "cat": "countries"
+  },
+  "kosovo": {
+    "prev": "kr-joseon",
     "next": "kuwait",
     "cat": "countries"
   },
   "kuwait": {
-    "prev": "kr-joseon",
+    "prev": "kosovo",
+    "next": "kyrgyzstan",
+    "cat": "countries"
+  },
+  "kyrgyzstan": {
+    "prev": "kuwait",
+    "next": "laos",
+    "cat": "countries"
+  },
+  "laos": {
+    "prev": "kyrgyzstan",
+    "next": "latvia",
+    "cat": "countries"
+  },
+  "latvia": {
+    "prev": "laos",
     "next": "lebanon",
     "cat": "countries"
   },
   "lebanon": {
-    "prev": "kuwait",
+    "prev": "latvia",
     "next": "french-lebanon",
     "cat": "countries"
   },
   "french-lebanon": {
     "prev": "lebanon",
+    "next": "lesotho",
+    "cat": "countries"
+  },
+  "lesotho": {
+    "prev": "french-lebanon",
+    "next": "liberia",
+    "cat": "countries"
+  },
+  "liberia": {
+    "prev": "lesotho",
     "next": "libya",
     "cat": "countries"
   },
   "libya": {
-    "prev": "french-lebanon",
+    "prev": "liberia",
     "next": "libya-jamahiriya",
     "cat": "countries"
   },
@@ -661,16 +921,61 @@
   },
   "libya-civil": {
     "prev": "libya-ottoman",
+    "next": "liechtenstein",
+    "cat": "countries"
+  },
+  "liechtenstein": {
+    "prev": "libya-civil",
+    "next": "lithuania",
+    "cat": "countries"
+  },
+  "lithuania": {
+    "prev": "liechtenstein",
+    "next": "luxembourg",
+    "cat": "countries"
+  },
+  "luxembourg": {
+    "prev": "lithuania",
+    "next": "madagascar",
+    "cat": "countries"
+  },
+  "madagascar": {
+    "prev": "luxembourg",
+    "next": "malawi",
+    "cat": "countries"
+  },
+  "malawi": {
+    "prev": "madagascar",
     "next": "malaysia",
     "cat": "countries"
   },
   "malaysia": {
-    "prev": "libya-civil",
+    "prev": "malawi",
+    "next": "maldives",
+    "cat": "countries"
+  },
+  "maldives": {
+    "prev": "malaysia",
+    "next": "mali",
+    "cat": "countries"
+  },
+  "mali": {
+    "prev": "maldives",
+    "next": "malta",
+    "cat": "countries"
+  },
+  "malta": {
+    "prev": "mali",
+    "next": "marshall-islands",
+    "cat": "countries"
+  },
+  "marshall-islands": {
+    "prev": "malta",
     "next": "mauritania",
     "cat": "countries"
   },
   "mauritania": {
-    "prev": "malaysia",
+    "prev": "marshall-islands",
     "next": "mauritania-1959",
     "cat": "countries"
   },
@@ -701,16 +1006,41 @@
   },
   "mx-empire": {
     "prev": "mx-three-guarantees",
+    "next": "micronesia",
+    "cat": "countries"
+  },
+  "micronesia": {
+    "prev": "mx-empire",
     "next": "moheli",
     "cat": "countries"
   },
   "moheli": {
-    "prev": "mx-empire",
+    "prev": "micronesia",
+    "next": "moldova",
+    "cat": "countries"
+  },
+  "moldova": {
+    "prev": "moheli",
+    "next": "monaco",
+    "cat": "countries"
+  },
+  "monaco": {
+    "prev": "moldova",
+    "next": "mongolia",
+    "cat": "countries"
+  },
+  "mongolia": {
+    "prev": "monaco",
+    "next": "montenegro",
+    "cat": "countries"
+  },
+  "montenegro": {
+    "prev": "mongolia",
     "next": "morocco",
     "cat": "countries"
   },
   "morocco": {
-    "prev": "moheli",
+    "prev": "montenegro",
     "next": "almohad",
     "cat": "countries"
   },
@@ -726,31 +1056,71 @@
   },
   "idrisid": {
     "prev": "almoravid",
+    "next": "mozambique",
+    "cat": "countries"
+  },
+  "mozambique": {
+    "prev": "idrisid",
+    "next": "myanmar",
+    "cat": "countries"
+  },
+  "myanmar": {
+    "prev": "mozambique",
     "next": "korea-dprk",
     "cat": "countries"
   },
   "korea-dprk": {
-    "prev": "idrisid",
+    "prev": "myanmar",
+    "next": "namibia",
+    "cat": "countries"
+  },
+  "namibia": {
+    "prev": "korea-dprk",
+    "next": "nauru",
+    "cat": "countries"
+  },
+  "nauru": {
+    "prev": "namibia",
+    "next": "nepal",
+    "cat": "countries"
+  },
+  "nepal": {
+    "prev": "nauru",
     "next": "netherlands",
     "cat": "countries"
   },
   "netherlands": {
-    "prev": "korea-dprk",
+    "prev": "nepal",
     "next": "new-zealand",
     "cat": "countries"
   },
   "new-zealand": {
     "prev": "netherlands",
+    "next": "nicaragua",
+    "cat": "countries"
+  },
+  "nicaragua": {
+    "prev": "new-zealand",
+    "next": "niger",
+    "cat": "countries"
+  },
+  "niger": {
+    "prev": "nicaragua",
     "next": "nigeria",
     "cat": "countries"
   },
   "nigeria": {
-    "prev": "new-zealand",
+    "prev": "niger",
+    "next": "north-macedonia",
+    "cat": "countries"
+  },
+  "north-macedonia": {
+    "prev": "nigeria",
     "next": "norway",
     "cat": "countries"
   },
   "norway": {
-    "prev": "nigeria",
+    "prev": "north-macedonia",
     "next": "oman",
     "cat": "countries"
   },
@@ -766,16 +1136,36 @@
   },
   "pk-muslim-league": {
     "prev": "pakistan",
+    "next": "palau",
+    "cat": "countries"
+  },
+  "palau": {
+    "prev": "pk-muslim-league",
     "next": "palestine",
     "cat": "countries"
   },
   "palestine": {
-    "prev": "pk-muslim-league",
+    "prev": "palau",
+    "next": "panama",
+    "cat": "countries"
+  },
+  "panama": {
+    "prev": "palestine",
+    "next": "papua-new-guinea",
+    "cat": "countries"
+  },
+  "papua-new-guinea": {
+    "prev": "panama",
+    "next": "paraguay",
+    "cat": "countries"
+  },
+  "paraguay": {
+    "prev": "papua-new-guinea",
     "next": "peru",
     "cat": "countries"
   },
   "peru": {
-    "prev": "palestine",
+    "prev": "paraguay",
     "next": "philippines",
     "cat": "countries"
   },
@@ -841,11 +1231,46 @@
   },
   "ru-imperial": {
     "prev": "ru-sfsr",
+    "next": "rwanda",
+    "cat": "countries"
+  },
+  "rwanda": {
+    "prev": "ru-imperial",
+    "next": "saint-kitts-and-nevis",
+    "cat": "countries"
+  },
+  "saint-kitts-and-nevis": {
+    "prev": "rwanda",
+    "next": "saint-lucia",
+    "cat": "countries"
+  },
+  "saint-lucia": {
+    "prev": "saint-kitts-and-nevis",
+    "next": "saint-vincent-and-the-grenadines",
+    "cat": "countries"
+  },
+  "saint-vincent-and-the-grenadines": {
+    "prev": "saint-lucia",
+    "next": "samoa",
+    "cat": "countries"
+  },
+  "samoa": {
+    "prev": "saint-vincent-and-the-grenadines",
+    "next": "san-marino",
+    "cat": "countries"
+  },
+  "san-marino": {
+    "prev": "samoa",
+    "next": "sao-tome-and-principe",
+    "cat": "countries"
+  },
+  "sao-tome-and-principe": {
+    "prev": "san-marino",
     "next": "saudi-arabia",
     "cat": "countries"
   },
   "saudi-arabia": {
-    "prev": "ru-imperial",
+    "prev": "sao-tome-and-principe",
     "next": "hejaz",
     "cat": "countries"
   },
@@ -856,16 +1281,51 @@
   },
   "rashidun": {
     "prev": "hejaz",
+    "next": "senegal",
+    "cat": "countries"
+  },
+  "senegal": {
+    "prev": "rashidun",
+    "next": "serbia",
+    "cat": "countries"
+  },
+  "serbia": {
+    "prev": "senegal",
+    "next": "seychelles",
+    "cat": "countries"
+  },
+  "seychelles": {
+    "prev": "serbia",
+    "next": "sierra-leone",
+    "cat": "countries"
+  },
+  "sierra-leone": {
+    "prev": "seychelles",
     "next": "singapore",
     "cat": "countries"
   },
   "singapore": {
-    "prev": "rashidun",
+    "prev": "sierra-leone",
+    "next": "slovakia",
+    "cat": "countries"
+  },
+  "slovakia": {
+    "prev": "singapore",
+    "next": "slovenia",
+    "cat": "countries"
+  },
+  "slovenia": {
+    "prev": "slovakia",
+    "next": "solomon-islands",
+    "cat": "countries"
+  },
+  "solomon-islands": {
+    "prev": "slovenia",
     "next": "somalia",
     "cat": "countries"
   },
   "somalia": {
-    "prev": "singapore",
+    "prev": "solomon-islands",
     "next": "italian-somaliland",
     "cat": "countries"
   },
@@ -886,11 +1346,16 @@
   },
   "za-prinsevlag": {
     "prev": "south-africa",
+    "next": "south-sudan",
+    "cat": "countries"
+  },
+  "south-sudan": {
+    "prev": "za-prinsevlag",
     "next": "spain",
     "cat": "countries"
   },
   "spain": {
-    "prev": "za-prinsevlag",
+    "prev": "south-sudan",
     "next": "es-francoist",
     "cat": "countries"
   },
@@ -906,21 +1371,31 @@
   },
   "es-empire": {
     "prev": "es-republic",
+    "next": "sri-lanka",
+    "cat": "countries"
+  },
+  "sri-lanka": {
+    "prev": "es-empire",
     "next": "sudan",
     "cat": "countries"
   },
   "sudan": {
-    "prev": "es-empire",
+    "prev": "sri-lanka",
     "next": "anglo-egyptian-sudan",
     "cat": "countries"
   },
   "anglo-egyptian-sudan": {
     "prev": "sudan",
+    "next": "suriname",
+    "cat": "countries"
+  },
+  "suriname": {
+    "prev": "anglo-egyptian-sudan",
     "next": "sweden",
     "cat": "countries"
   },
   "sweden": {
-    "prev": "anglo-egyptian-sudan",
+    "prev": "suriname",
     "next": "switzerland",
     "cat": "countries"
   },
@@ -941,11 +1416,16 @@
   },
   "umayyad": {
     "prev": "french-syria",
+    "next": "tajikistan",
+    "cat": "countries"
+  },
+  "tajikistan": {
+    "prev": "umayyad",
     "next": "tanzania",
     "cat": "countries"
   },
   "tanzania": {
-    "prev": "umayyad",
+    "prev": "tajikistan",
     "next": "thailand",
     "cat": "countries"
   },
@@ -956,11 +1436,31 @@
   },
   "th-siam-elephant": {
     "prev": "thailand",
+    "next": "timor-leste",
+    "cat": "countries"
+  },
+  "timor-leste": {
+    "prev": "th-siam-elephant",
+    "next": "togo",
+    "cat": "countries"
+  },
+  "togo": {
+    "prev": "timor-leste",
+    "next": "tonga",
+    "cat": "countries"
+  },
+  "tonga": {
+    "prev": "togo",
+    "next": "trinidad-and-tobago",
+    "cat": "countries"
+  },
+  "trinidad-and-tobago": {
+    "prev": "tonga",
     "next": "tunisia",
     "cat": "countries"
   },
   "tunisia": {
-    "prev": "th-siam-elephant",
+    "prev": "trinidad-and-tobago",
     "next": "turkey",
     "cat": "countries"
   },
@@ -986,11 +1486,26 @@
   },
   "byzantine": {
     "prev": "ottoman",
+    "next": "turkmenistan",
+    "cat": "countries"
+  },
+  "turkmenistan": {
+    "prev": "byzantine",
+    "next": "tuvalu",
+    "cat": "countries"
+  },
+  "tuvalu": {
+    "prev": "turkmenistan",
+    "next": "uganda",
+    "cat": "countries"
+  },
+  "uganda": {
+    "prev": "tuvalu",
     "next": "ukraine",
     "cat": "countries"
   },
   "ukraine": {
-    "prev": "byzantine",
+    "prev": "uganda",
     "next": "uae",
     "cat": "countries"
   },
@@ -1016,11 +1531,36 @@
   },
   "us-betsy-ross": {
     "prev": "us-confederate-stars-bars",
+    "next": "uruguay",
+    "cat": "countries"
+  },
+  "uruguay": {
+    "prev": "us-betsy-ross",
+    "next": "uzbekistan",
+    "cat": "countries"
+  },
+  "uzbekistan": {
+    "prev": "uruguay",
+    "next": "vanuatu",
+    "cat": "countries"
+  },
+  "vanuatu": {
+    "prev": "uzbekistan",
+    "next": "vatican-city",
+    "cat": "countries"
+  },
+  "vatican-city": {
+    "prev": "vanuatu",
+    "next": "venezuela",
+    "cat": "countries"
+  },
+  "venezuela": {
+    "prev": "vatican-city",
     "next": "vietnam",
     "cat": "countries"
   },
   "vietnam": {
-    "prev": "us-betsy-ross",
+    "prev": "venezuela",
     "next": "vn-south",
     "cat": "countries"
   },
@@ -1046,6 +1586,16 @@
   },
   "north-yemen": {
     "prev": "south-yemen",
+    "next": "zambia",
+    "cat": "countries"
+  },
+  "zambia": {
+    "prev": "north-yemen",
+    "next": "zimbabwe",
+    "cat": "countries"
+  },
+  "zimbabwe": {
+    "prev": "zambia",
     "next": "abkhazia",
     "cat": "countries"
   },

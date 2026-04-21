@@ -1,0 +1,42 @@
+{
+  "tonga": {
+    "title": "Flag of the Kingdom of Tonga",
+    "ratio": "1:2",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#C10000",
+        "note": "Represents the blood of Christ shed on the cross"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "note": "The canton and the couped cross representing purity"
+      }
+    ],
+    "desc": [
+      "- Red field with a white rectangle in the upper hoist canton containing a red couped (Greek) cross\n",
+      "- Adopted on 4 November 1875 under the Tongan Constitution proclaimed by King George Tupou I\n"
+    ],
+    "article": "tonga/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1875-11-04"
+    },
+    "of": {
+      "country": "tonga"
+    },
+    "countryData": {
+      "name": "Tonga",
+      "officialName": "Kingdom of Tonga",
+      "continent": "oceania",
+      "location": "Polynesia, South Pacific",
+      "un": "member"
+    },
+    "trivia": [
+      "- Tonga is the only Pacific Island nation that was never formally colonised, though it was a British-protected state from 1900 to 1970\n",
+      "- The constitution of 1875 mandates that the flag can never be changed, making it one of the most legally entrenched national symbols\n",
+      "- The cross reflects the Christian foundation that King George Tupou I wove into the constitutional monarchy\n"
+    ]
+  }
+}

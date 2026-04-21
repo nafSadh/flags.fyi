@@ -1,0 +1,65 @@
+{
+  "dominica": {
+    "title": "Flag of the Commonwealth of Dominica",
+    "ratio": "1:2",
+    "use": {
+      "as": "national flag",
+      "since": "1978-11-03"
+    },
+    "colors": [
+      {
+        "color": "green",
+        "hex": "#006A4E",
+        "cmyk": "100/0/50/60",
+        "pantone": "3425 C",
+        "note": "Background field; represents the lush vegetation of the island."
+      },
+      {
+        "color": "yellow",
+        "hex": "#FAE042",
+        "cmyk": "0/11/81/2",
+        "pantone": "115 C",
+        "note": "One arm of the cross; represents sunshine, the main agricultural products, and the Carib people."
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "One arm of the cross; represents the rich soil and African heritage."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "One arm of the cross; represents the clear rivers, waterfalls, and the purity of aspiration."
+      },
+      {
+        "color": "red",
+        "hex": "#D41C30",
+        "cmyk": "0/87/77/17",
+        "pantone": "186 C",
+        "note": "Central disc bearing the sisserou parrot and ten stars; represents social justice."
+      }
+    ],
+    "desc": [
+      "- A green field with a triple cross of yellow, black, and white stripes, and a red disc at the centre bearing the sisserou parrot ringed by ten green five-pointed stars\n",
+      "- Designed by playwright Alwin Bully and adopted on 3 November 1978 at independence from the United Kingdom\n",
+      "- One of the few national flags to depict an endangered species: the endemic sisserou parrot (Amazona imperialis)\n"
+    ],
+    "article": "dominica/flag.md",
+    "of": {
+      "country": "dominica"
+    },
+    "countryData": {
+      "name": "Dominica",
+      "officialName": "Commonwealth of Dominica",
+      "continent": "north-america",
+      "un": "member"
+    },
+    "trivia": [
+      "- The ten stars represent the country's ten parishes; the ring of green five-pointed stars is unique among national flags\n",
+      "- The sisserou parrot is endemic to Dominica and appears on no other national flag\n",
+      "- The flag has been modified three times since adoption, including changes to the parrot's orientation and the stars' outline\n"
+    ]
+  }
+}

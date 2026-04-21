@@ -1,0 +1,50 @@
+{
+  "slovakia": {
+    "title": "Flag of the Slovak Republic",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "1992-09-03"
+    },
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "A pan-Slavic colour representing peace."
+      },
+      {
+        "color": "blue",
+        "hex": "#0B4EA2",
+        "cmyk": "100/75/0/20",
+        "note": "A pan-Slavic colour representing loyalty and truth."
+      },
+      {
+        "color": "red",
+        "hex": "#EE1C25",
+        "cmyk": "0/90/85/0",
+        "note": "A pan-Slavic colour representing the bloodshed and courage of the Slovak people."
+      }
+    ],
+    "desc": [
+      "- Three equal horizontal bands of white, blue, and red (pan-Slavic colours) with the national coat of arms placed toward the hoist\n",
+      "- The coat of arms shows a white double-cross on three blue hills, on a red shield with a white fimbriation\n",
+      "- Adopted on 3 September 1992 and enshrined in the Constitution when Slovakia separated peacefully from Czechoslovakia in 1993"
+    ],
+    "article": "slovakia/flag.md",
+    "of": {
+      "country": "slovakia"
+    },
+    "countryData": {
+      "name": "Slovakia",
+      "officialName": "Slovak Republic",
+      "continent": "europe",
+      "un": "member"
+    },
+    "trivia": [
+      "- The double-cross on three hills has been a Slovak symbol since at least the 14th century\n",
+      "- The three hills are traditionally identified as Tatra, Fatra, and Matra\n",
+      "- Without the coat of arms, Slovakia's flag is identical to the flags of Russia and Slovenia in colour pattern\n"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "saint-lucia": {
+    "title": "Flag of Saint Lucia",
+    "ratio": "1:2",
+    "use": {
+      "as": "national flag",
+      "since": "1967-03-01"
+    },
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#66CCDA",
+        "cmyk": "52/9/15/0",
+        "pantone": "311 C",
+        "note": "Background field; represents the sky and the Caribbean and Atlantic waters around the island."
+      },
+      {
+        "color": "gold",
+        "hex": "#FFCE00",
+        "cmyk": "0/19/100/0",
+        "pantone": "116 C",
+        "note": "Triangle inside the white and black triangles; represents sunshine and prosperity."
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "The large black triangle on top; represents the dominant African heritage of the people."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Narrow border around the black triangle; represents the European cultural contribution."
+      }
+    ],
+    "desc": [
+      "- A cerulean blue field bearing a large isosceles triangle composed of a tall black triangle fimbriated in white, in front of a shorter golden triangle\n",
+      "- The emblem together evokes the twin volcanic plugs, the Pitons, that rise from the sea on the island's southwest coast\n",
+      "- Designed by Dunstan St. Omer and adopted on 1 March 1967 upon associated statehood; retained at full independence in 1979\n"
+    ],
+    "article": "saint-lucia/flag.md",
+    "of": {
+      "country": "saint-lucia"
+    },
+    "countryData": {
+      "name": "Saint Lucia",
+      "officialName": "Saint Lucia",
+      "continent": "north-america",
+      "un": "member"
+    },
+    "trivia": [
+      "- The two triangles represent the Pitons, Gros Piton and Petit Piton, volcanic plugs that are a UNESCO World Heritage Site and an iconic symbol of the island\n",
+      "- The designer, Dunstan St. Omer, was a noted Saint Lucian painter and close friend of Nobel laureate Derek Walcott\n",
+      "- The flag's hue has been adjusted twice since 1967 to lighten the blue and make it more distinct from other Caribbean flags\n"
+    ]
+  }
+}

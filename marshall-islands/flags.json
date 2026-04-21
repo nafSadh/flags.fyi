@@ -1,0 +1,47 @@
+{
+  "marshall-islands": {
+    "title": "Flag of the Republic of the Marshall Islands",
+    "ratio": "10:19",
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#1F3A93",
+        "note": "Represents the Pacific Ocean"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "note": "The upper diagonal stripe representing the Ratak (sunrise) chain of islands"
+      },
+      {
+        "color": "orange",
+        "hex": "#DD7500",
+        "note": "The lower diagonal stripe representing the Ralik (sunset) chain of islands"
+      }
+    ],
+    "desc": [
+      "- Blue field with two widening diagonal stripes (white over orange) from lower hoist to upper fly, and a large white 24-pointed star in the upper hoist\n",
+      "- Adopted on 1 May 1979 when the Marshall Islands became self-governing under the Compact of Free Association\n"
+    ],
+    "article": "marshall-islands/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1979-05-01"
+    },
+    "of": {
+      "country": "marshall-islands"
+    },
+    "countryData": {
+      "name": "Marshall Islands",
+      "officialName": "Republic of the Marshall Islands",
+      "continent": "oceania",
+      "location": "Micronesia, central Pacific",
+      "un": "member"
+    },
+    "trivia": [
+      "- Designed by Emlain Kabua, wife of then-President Amata Kabua, making it one of the few national flags designed by a head of state's spouse\n",
+      "- The 24-pointed star represents the 24 electoral districts of the Marshall Islands; the four longer rays mark the four main cultural centres\n",
+      "- The widening stripes signify the equator rising toward the sunrise, symbolising growth and hope\n"
+    ]
+  }
+}

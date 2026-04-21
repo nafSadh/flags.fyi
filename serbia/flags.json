@@ -1,0 +1,56 @@
+{
+  "serbia": {
+    "title": "Flag of the Republic of Serbia",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "2010-11-11"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#C6363C",
+        "cmyk": "0/85/70/15",
+        "note": "One of the traditional pan-Slavic colours, symbolising blood shed for freedom."
+      },
+      {
+        "color": "blue",
+        "hex": "#0C4076",
+        "cmyk": "100/75/0/40",
+        "note": "The second pan-Slavic colour, representing freedom and loyalty."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Symbolises peace and honesty."
+      },
+      {
+        "color": "gold",
+        "hex": "#EDB92E",
+        "cmyk": "5/25/95/5",
+        "note": "The double-headed eagle and crown of the lesser coat of arms, reflecting royal Serbian tradition."
+      }
+    ],
+    "desc": [
+      "- Three equal horizontal bands of red, blue, and white (pan-Slavic colours) with the lesser coat of arms set to the hoist side\n",
+      "- The coat of arms shows a white double-headed eagle with the Serbian Cross on a red shield, topped by a royal crown\n",
+      "- The modern form was codified on 11 November 2010 during the Republic of Serbia's post-Yugoslav era"
+    ],
+    "article": "serbia/flag.md",
+    "of": {
+      "country": "serbia"
+    },
+    "countryData": {
+      "name": "Serbia",
+      "officialName": "Republic of Serbia",
+      "continent": "europe",
+      "un": "member"
+    },
+    "trivia": [
+      "- The red-blue-white tricolour dates back to 1835, introduced under Prince Milos Obrenovic\n",
+      "- The Serbian Cross — a cross with four stylised 'C' letters — is said to stand for 'Samo sloga Srbina spasava' ('Only unity saves the Serbs')\n",
+      "- Serbia uses both a state flag (with coat of arms) and a simpler civil flag (without)\n"
+    ]
+  }
+}

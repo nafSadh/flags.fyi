@@ -9,10 +9,9 @@
 <path fill="#fff" d="m0 0h10000v5000H0z"/>
 <g opacity=".5">
   <path fill="#fff" d="m0 0h10000v5000H0z"/>
-  <path fill="#C8102E" d="m0 0h2500v5000H0z"/>
-  <path fill="#FFFFFF" d="m2500 0h7500v1666.7H2500z"/>
-  <path fill="#C8102E" d="m2500 1666.7h7500v1666.7H2500z"/>
-  <path fill="#009A44" d="m2500 3333.4h7500v1666.6H2500z"/>
+  <path fill="#FFFFFF" d="m0.0 0h3333.3333333333335v5000H0.0z"/>
+  <path fill="#C8102E" d="m3333.3333333333335 0h3333.3333333333335v5000H3333.3333333333335z"/>
+  <path fill="#009A44" d="m6666.666666666667 0h3333.3333333333335v5000H6666.666666666667z"/>
 </g>
 <g stroke="#000" stroke-width="140" stroke-linejoin="round" stroke-linecap="round">
   <path stroke="#444" stroke-width="250" d="m0 0h10000v5000H0z"/>

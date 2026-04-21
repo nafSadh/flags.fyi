@@ -1,0 +1,52 @@
+{
+  "uruguay": {
+    "title": "Flag of the Oriental Republic of Uruguay",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "1830-07-11"
+    },
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#0038A8",
+        "cmyk": "100/79/0/34",
+        "pantone": "286 C",
+        "note": "Four horizontal stripes; represent the original nine departments at independence."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Five stripes and canton; represent peace and the anti-royalist cause."
+      },
+      {
+        "color": "yellow",
+        "hex": "#FCD116",
+        "cmyk": "0/17/91/1",
+        "pantone": "116 C",
+        "note": "The Sun of May in the canton; symbolises independence and the May Revolution of 1810."
+      }
+    ],
+    "desc": [
+      "- Nine alternating horizontal stripes of white and blue, with a white canton bearing a golden Sun of May with a human face and sixteen rays\n",
+      "- Designed by Joaquin Suarez and adopted on 11 July 1830, nine months after the country's independence was confirmed\n",
+      "- The stripes originally numbered nineteen (one per department) but were reduced to nine for legibility in 1830\n"
+    ],
+    "article": "uruguay/flag.md",
+    "of": {
+      "country": "uruguay"
+    },
+    "countryData": {
+      "name": "Uruguay",
+      "officialName": "Oriental Republic of Uruguay",
+      "continent": "south-america",
+      "un": "member"
+    },
+    "trivia": [
+      "- The design was inspired by Argentina's flag, reflecting Uruguay's origins in the United Provinces of the Rio de la Plata\n",
+      "- The Sun of May commemorates the 25 May 1810 overthrow of Spanish rule in Buenos Aires that sparked independence across the region\n",
+      "- The same sun symbol appears on the flags of Argentina and on Uruguay's coat of arms\n"
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "honduras": {
+    "title": "Flag of the Republic of Honduras",
+    "ratio": "1:2",
+    "use": {
+      "as": "national flag",
+      "since": "1866-03-07"
+    },
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#0073CF",
+        "cmyk": "100/46/0/19",
+        "pantone": "285 C",
+        "note": "Upper and lower bands and five central stars; represents the sky, the Caribbean, and the Pacific."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Central band; represents peace, prosperity, and the Honduran land between two seas."
+      }
+    ],
+    "desc": [
+      "- Three horizontal bands of turquoise blue, white, and turquoise blue, with five blue five-pointed stars in an X pattern on the white band\n",
+      "- Adopted on 7 March 1866, based on the flag of the United Provinces of Central America\n",
+      "- The hue of the blue was officially updated to a lighter turquoise in 2022 to distinguish it from neighbouring flags\n"
+    ],
+    "article": "honduras/flag.md",
+    "of": {
+      "country": "honduras"
+    },
+    "countryData": {
+      "name": "Honduras",
+      "officialName": "Republic of Honduras",
+      "continent": "north-america",
+      "un": "member"
+    },
+    "trivia": [
+      "- The five stars represent the five states of the former Federal Republic of Central America: Guatemala, El Salvador, Honduras, Nicaragua, and Costa Rica\n",
+      "- The blue was changed from navy to turquoise in January 2022 by Congress, reflecting the colour of the Caribbean Sea\n",
+      "- The flag is essentially identical to El Salvador's and Nicaragua's apart from the central emblem\n"
+    ]
+  }
+}

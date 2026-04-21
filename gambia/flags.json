@@ -1,0 +1,52 @@
+{
+  "gambia": {
+    "title": "Flag of the Republic of The Gambia",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#CE1126",
+        "note": "Top band evoking the sun and the savannas."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "note": "Narrow stripes bordering the blue, symbolising peace and unity."
+      },
+      {
+        "color": "blue",
+        "hex": "#0C1C8C",
+        "note": "Central band representing the Gambia River that defines the country."
+      },
+      {
+        "color": "green",
+        "hex": "#3A7728",
+        "note": "Bottom band standing for agriculture and the land."
+      }
+    ],
+    "desc": [
+      "- Three horizontal bands of red, blue and green, separated by narrow white fimbriations\n",
+      "- The central blue band depicts the Gambia River around which the country is shaped\n",
+      "- Adopted on 18 February 1965 when the country became independent from the United Kingdom"
+    ],
+    "article": "gambia/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1965-02-18"
+    },
+    "of": {
+      "country": "gambia"
+    },
+    "countryData": {
+      "name": "The Gambia",
+      "officialName": "Republic of The Gambia",
+      "continent": "africa",
+      "un": "member"
+    },
+    "trivia": [
+      "- Remained in use unchanged during the 1982-1989 Senegambia Confederation with Senegal\n",
+      "- The Gambia River, symbolised by the blue band, runs the entire length of the country\n",
+      "- Designed by accountant Louis Thomasi, chosen without an open public competition\n"
+    ]
+  }
+}

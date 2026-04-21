@@ -1,0 +1,47 @@
+{
+  "burundi": {
+    "title": "Flag of the Republic of Burundi",
+    "ratio": "3:5",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#CE1126",
+        "note": "Symbolises the suffering endured during the struggle for independence."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "note": "Central saltire and disc representing peace."
+      },
+      {
+        "color": "green",
+        "hex": "#1EB53A",
+        "note": "Represents hope for future development."
+      }
+    ],
+    "desc": [
+      "- A white saltire divides the field into alternating red (top and bottom) and green (hoist and fly)\n",
+      "- A white disc at the centre bears three red six-pointed stars arranged in a triangle\n",
+      "- The three stars stand for the national motto Unité, Travail, Progrès and for the Hutu, Tutsi, and Twa peoples"
+    ],
+    "article": "burundi/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1967-03-28"
+    },
+    "of": {
+      "country": "burundi"
+    },
+    "countryData": {
+      "name": "Burundi",
+      "officialName": "Republic of Burundi",
+      "continent": "africa",
+      "un": "member"
+    },
+    "trivia": [
+      "- The three stars also represent loyalty to God, the King and the country in older interpretations\n",
+      "- Current proportions of 3:5 were confirmed in 1982 after minor adjustments from the 1967 design\n",
+      "- The original 1962 flag featured a karyenda drum and sorghum plant, dropped after the 1966 coup\n"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "vatican-city": {
+    "title": "Flag of Vatican City",
+    "ratio": "1:1",
+    "use": {
+      "as": "national flag and state flag of the Holy See",
+      "since": "1929-06-07"
+    },
+    "colors": [
+      {
+        "color": "yellow",
+        "hex": "#FFE000",
+        "cmyk": "0/10/100/0",
+        "note": "Represents the golden key of Heaven in the Papal emblem."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Represents the silver key of Earth and the papacy."
+      },
+      {
+        "color": "gold",
+        "hex": "#C8A04A",
+        "cmyk": "15/30/80/15",
+        "note": "The papal tiara and gold key depict spiritual authority."
+      },
+      {
+        "color": "red",
+        "hex": "#C8102E",
+        "cmyk": "0/100/80/10",
+        "note": "The cord binding the keys — a detail from the Holy See emblem."
+      }
+    ],
+    "desc": [
+      "- Two equal vertical bands of yellow (hoist) and white (fly), with the papal emblem centred on the white\n",
+      "- The emblem consists of the triregnum (three-tiered papal tiara) and two crossed keys — one gold, one silver, bound with a red cord\n",
+      "- Adopted on 7 June 1929 when the Vatican City State was established by the Lateran Treaty with Italy"
+    ],
+    "article": "vatican-city/flag.md",
+    "of": {
+      "country": "vatican-city"
+    },
+    "countryData": {
+      "name": "Vatican City",
+      "officialName": "Vatican City State",
+      "continent": "europe",
+      "un": "observer"
+    },
+    "trivia": [
+      "- Along with Switzerland's, Vatican City's flag is one of only two national flags with a square ratio (1:1)\n",
+      "- The crossed keys represent the 'keys of the kingdom of heaven' given by Christ to Saint Peter in the Gospel of Matthew\n",
+      "- The Holy See holds permanent observer status at the United Nations rather than full membership\n"
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "seychelles": {
+    "title": "Flag of the Republic of Seychelles",
+    "ratio": "1:2",
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#003F87",
+        "note": "Represents the sky and the sea that surrounds the archipelago."
+      },
+      {
+        "color": "yellow",
+        "hex": "#FCD955",
+        "note": "Symbolises the sun that lights and warms the islands."
+      },
+      {
+        "color": "red",
+        "hex": "#D62828",
+        "note": "Represents the people and their determination to work together in unity and love."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "note": "Symbolises social justice and harmony."
+      },
+      {
+        "color": "green",
+        "hex": "#007A3D",
+        "note": "Represents the land and the natural environment."
+      }
+    ],
+    "desc": [
+      "- Five oblique bands of blue, yellow, red, white, and green radiating from the lower hoist corner\n",
+      "- The bands fan out like rays, suggesting a young country moving into a dynamic new future\n",
+      "- Adopted on 18 June 1996, replacing an earlier post-1977 socialist-era design"
+    ],
+    "article": "seychelles/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1996-06-18"
+    },
+    "of": {
+      "country": "seychelles"
+    },
+    "countryData": {
+      "name": "Seychelles",
+      "officialName": "Republic of Seychelles",
+      "continent": "africa",
+      "location": "Indian Ocean, east of mainland Africa",
+      "un": "member"
+    },
+    "trivia": [
+      "- The radiating stripe pattern is nearly unique among national flags\n",
+      "- Blue and yellow come from the ruling Seychelles People's Progressive Front, red and white from the former opposition\n",
+      "- Seychelles has had four different flags since gaining independence from the UK in 1976\n",
+      "- The design symbolises a dynamic young country moving into the future"
+    ]
+  }
+}

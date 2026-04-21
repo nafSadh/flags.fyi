@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><polygon points="0,0 0,600 900,400 1200,600 1200,0" fill="#002868"/><polygon points="900,0 900,250 1000,300 900,350 900,600" fill="#bf0a30"/><rect x="100" y="100" width="700" height="400" fill="#ffffff"/>
-       <circle cx="400" cy="300" r="80" fill="#bf0a30"/>
-       <circle cx="400" cy="300" r="60" fill="#ffffff"/>
-       <circle cx="400" cy="300" r="40" fill="#bf0a30"/>
-       <!-- Simplified O stars (just showing the concept) -->
-       <circle cx="200" cy="200" r="15" fill="#bf0a30"/>
-       <circle cx="600" cy="200" r="15" fill="#bf0a30"/>
-       <circle cx="200" cy="400" r="15" fill="#bf0a30"/>
-       <circle cx="600" cy="400" r="15" fill="#bf0a30"/></svg>

@@ -1,0 +1,52 @@
+{
+  "sri-lanka": {
+    "title": "Flag of the Democratic Socialist Republic of Sri Lanka",
+    "ratio": "1:2",
+    "colors": [
+      {
+        "color": "maroon",
+        "hex": "#8D153A",
+        "note": "Represents the Sinhalese majority and the gold lion of the ancient Kingdom of Kandy"
+      },
+      {
+        "color": "yellow",
+        "hex": "#F5C518",
+        "note": "Border representing the Buddhist teaching of the middle path and unifying all communities"
+      },
+      {
+        "color": "green",
+        "hex": "#00534E",
+        "note": "Vertical stripe representing the Muslim minority"
+      },
+      {
+        "color": "orange",
+        "hex": "#EB7400",
+        "note": "Vertical stripe representing the Tamil minority"
+      }
+    ],
+    "desc": [
+      "- Two vertical stripes of green and orange at the hoist, beside a maroon panel bearing a gold lion holding a sword, all within a yellow border and with a bo leaf in each corner of the maroon panel\n",
+      "- Originally adopted in 1951 and modified in 1972 with four bo leaves replacing spearheads\n"
+    ],
+    "article": "sri-lanka/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1972-05-22"
+    },
+    "of": {
+      "country": "sri-lanka"
+    },
+    "countryData": {
+      "name": "Sri Lanka",
+      "officialName": "Democratic Socialist Republic of Sri Lanka",
+      "continent": "asia",
+      "location": "island in the Indian Ocean, South Asia",
+      "un": "member"
+    },
+    "trivia": [
+      "- Also known as the Lion Flag, the design is based on the royal standard of the last king of Kandy, seized by the British in 1815\n",
+      "- The bo leaves represent the four Buddhist virtues of kindness, compassion, equanimity, and happiness\n",
+      "- The flag is among the oldest continuous national symbols still in use, with the lion motif dating back more than two millennia\n"
+    ]
+  }
+}

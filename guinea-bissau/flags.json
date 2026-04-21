@@ -1,0 +1,52 @@
+{
+  "guinea-bissau": {
+    "title": "Flag of the Republic of Guinea-Bissau",
+    "ratio": "1:2",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#CE1126",
+        "note": "Vertical band at the hoist recalling the blood of those lost in the liberation struggle."
+      },
+      {
+        "color": "yellow",
+        "hex": "#FCD116",
+        "note": "Upper fly band symbolising the sun and the harvest."
+      },
+      {
+        "color": "green",
+        "hex": "#009E49",
+        "note": "Lower fly band evoking hope and the country's vegetation."
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "note": "Five-pointed star on the red band representing the African people and unity."
+      }
+    ],
+    "desc": [
+      "- A red vertical band at the hoist with two horizontal bands of yellow over green on the fly\n",
+      "- A black five-pointed star is centred on the red band\n",
+      "- Adopted on 24 September 1973 at the declaration of independence from Portugal"
+    ],
+    "article": "guinea-bissau/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1973-09-24"
+    },
+    "of": {
+      "country": "guinea-bissau"
+    },
+    "countryData": {
+      "name": "Guinea-Bissau",
+      "officialName": "Republic of Guinea-Bissau",
+      "continent": "africa",
+      "un": "member"
+    },
+    "trivia": [
+      "- Derived from the flag of the PAIGC liberation movement that fought for independence\n",
+      "- Nearly identical in layout to Benin's flag apart from the black star and proportions\n",
+      "- Until 1992 the design was shared with Cabo Verde as a symbol of the intended unification\n"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slovenia": {
+    "title": "Flag of the Republic of Slovenia",
+    "ratio": "1:2",
+    "use": {
+      "as": "national flag",
+      "since": "1991-06-27"
+    },
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "A pan-Slavic colour representing peace."
+      },
+      {
+        "color": "blue",
+        "hex": "#0F47AF",
+        "cmyk": "100/75/0/10",
+        "note": "A pan-Slavic colour representing loyalty and the Adriatic Sea."
+      },
+      {
+        "color": "red",
+        "hex": "#D22630",
+        "cmyk": "0/95/85/5",
+        "note": "A pan-Slavic colour representing the blood shed in the struggle for independence."
+      },
+      {
+        "color": "gold",
+        "hex": "#FFDD00",
+        "cmyk": "0/15/100/0",
+        "note": "The three gold stars on the coat of arms are taken from the historic Counts of Celje crest."
+      }
+    ],
+    "desc": [
+      "- Three equal horizontal bands of white, blue, and red (pan-Slavic colours) with the national coat of arms at the upper hoist\n",
+      "- The coat of arms shows a white Mount Triglav with three blue wavy lines below it and three six-pointed gold stars above\n",
+      "- Adopted on 27 June 1991, two days after Slovenia declared independence from Yugoslavia"
+    ],
+    "article": "slovenia/flag.md",
+    "of": {
+      "country": "slovenia"
+    },
+    "countryData": {
+      "name": "Slovenia",
+      "officialName": "Republic of Slovenia",
+      "continent": "europe",
+      "un": "member"
+    },
+    "trivia": [
+      "- Mount Triglav, at 2,864 m, is Slovenia's highest peak and a national symbol\n",
+      "- The wavy lines represent the Adriatic Sea and the country's rivers\n",
+      "- The three stars come from the crest of the medieval Counts of Celje — the last great Slovene aristocratic dynasty\n"
+    ]
+  }
+}

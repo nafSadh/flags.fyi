@@ -1,0 +1,53 @@
+{
+  "grenada": {
+    "title": "Flag of Grenada",
+    "ratio": "3:5",
+    "use": {
+      "as": "national flag",
+      "since": "1974-02-07"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#CE1126",
+        "cmyk": "0/92/82/19",
+        "pantone": "186 C",
+        "note": "Border of the flag and central disc; represents courage and vitality."
+      },
+      {
+        "color": "yellow",
+        "hex": "#FCD116",
+        "cmyk": "0/17/91/1",
+        "pantone": "116 C",
+        "note": "Two triangles and seven stars; represents wisdom, warmth, and the Grenadian sun."
+      },
+      {
+        "color": "green",
+        "hex": "#007A5E",
+        "cmyk": "90/0/80/52",
+        "pantone": "356 C",
+        "note": "Two triangles and nutmeg emblem; represents the vegetation and the nutmeg spice."
+      }
+    ],
+    "desc": [
+      "- A rectangular flag with a red border containing six yellow five-pointed stars, and an inner rectangle divided diagonally into green and yellow triangles, with a central red disc bearing a seventh yellow star\n",
+      "- A stylised green nutmeg pod appears in the hoist-side green triangle\n",
+      "- Designed by Anthony C. George and adopted on 7 February 1974 at independence from the United Kingdom\n"
+    ],
+    "article": "grenada/flag.md",
+    "of": {
+      "country": "grenada"
+    },
+    "countryData": {
+      "name": "Grenada",
+      "officialName": "Grenada",
+      "continent": "north-america",
+      "un": "member"
+    },
+    "trivia": [
+      "- The seven yellow stars represent Grenada's seven parishes; the central star in the red disc represents the capital Saint George's\n",
+      "- Nutmeg is Grenada's major export, earning it the nickname the Isle of Spice; the pod emblem is the only one on any national flag\n",
+      "- Anthony C. George, the flag's designer, was a Grenadian artist whose choice of bold colours reflects Caribbean vibrancy\n"
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "belize": {
+    "title": "Flag of Belize",
+    "ratio": "2:3",
+    "use": {
+      "as": "national flag",
+      "since": "1981-09-21"
+    },
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#003F87",
+        "cmyk": "100/75/0/44",
+        "pantone": "286 C",
+        "note": "Central royal blue field; represents the People's United Party and the Caribbean Sea."
+      },
+      {
+        "color": "red",
+        "hex": "#CE1126",
+        "cmyk": "0/92/82/19",
+        "pantone": "186 C",
+        "note": "Two horizontal stripes at top and bottom; represents the United Democratic Party."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Circular field bearing the coat of arms; represents peace."
+      }
+    ],
+    "desc": [
+      "- A royal blue field with narrow red horizontal stripes at the top and bottom, and the national coat of arms on a white disc at the centre\n",
+      "- The coat of arms features two loggers flanking a mahogany tree beneath the motto Sub Umbra Floreo (Under the Shade I Flourish)\n",
+      "- Adopted on 21 September 1981, the day Belize gained independence from the United Kingdom\n"
+    ],
+    "article": "belize/flag.md",
+    "of": {
+      "country": "belize"
+    },
+    "countryData": {
+      "name": "Belize",
+      "officialName": "Belize",
+      "continent": "north-america",
+      "un": "member"
+    },
+    "trivia": [
+      "- Belize's flag is the only national flag to depict human beings as a primary design element\n",
+      "- The red stripes were added at independence to represent the opposition UDP alongside the ruling PUP, a gesture of national unity\n",
+      "- The fifty leaves surrounding the shield commemorate the People's Committee formed in 1950 that led to independence\n"
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "nepal": {
+    "title": "Flag of the Federal Democratic Republic of Nepal",
+    "ratio": "Irregular (approx 5:4)",
+    "colors": [
+      {
+        "color": "crimson",
+        "hex": "#DC143C",
+        "note": "The national colour of Nepal, representing the rhododendron and the bravery of the people"
+      },
+      {
+        "color": "blue",
+        "hex": "#003893",
+        "note": "Border representing peace and harmony"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "note": "The stylised sun and crescent moon emblems"
+      }
+    ],
+    "desc": [
+      "- Two stacked crimson triangular pennons with a blue border, featuring a white stylised moon in the upper pennon and a white sun in the lower pennon\n",
+      "- The only national flag in the world that is not a rectangle or square\n",
+      "- Proportions and construction were formalised in the 1962 constitution and carried into the 2015 republic\n"
+    ],
+    "article": "nepal/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1962-12-16"
+    },
+    "of": {
+      "country": "nepal"
+    },
+    "countryData": {
+      "name": "Nepal",
+      "officialName": "Federal Democratic Republic of Nepal",
+      "continent": "asia",
+      "location": "Himalayas, South Asia",
+      "un": "member"
+    },
+    "trivia": [
+      "- The current shape is a simplification of two separate pennons once flown by rival Rana and Shah branches of the royal family\n",
+      "- The 1962 constitution defines the flag's exact geometry with twenty-four precise construction rules\n",
+      "- Until 1962 the sun and moon carried stylised human faces, removed in the modern version\n"
+    ]
+  }
+}

@@ -9,12 +9,13 @@
 <path fill="#fff" d="m0 0h15000v10000H0z"/>
 <g opacity=".5">
   <path fill="#fff" d="m0 0h15000v10000H0z"/>
-  <path fill="#006600" d="m0 0h6000v10000H0z"/>
-  <path fill="#FF0000" d="m6000 0h9000v10000H6000z"/>
+  <path fill="#006600" d="m0 0.0h15000v3333.3333333333335H0z"/>
+  <path fill="#FF0000" d="m0 3333.3333333333335h15000v3333.3333333333335H0z"/>
+  <path fill="#FFFF00" d="m0 6666.666666666667h15000v3333.3333333333335H0z"/>
 </g>
 <g stroke="#000" stroke-width="140" stroke-linejoin="round" stroke-linecap="round">
   <path stroke="#444" stroke-width="250" d="m0 0h15000v10000H0z"/>
-  <path d="m6000 0v10000"/>
+  <path d="m0 3333.3333333333335h15000m-15000 3333.3333333333335h15000"/>
   <path stroke="#222" stroke-width="75" stroke-dasharray="200,200" d="m7500.0 -2500.0v15000m-10000.0 -5000.0h20000"/>
 </g>
 <g stroke="#00f" stroke-width="75" marker-start="url(#left-arrow)">

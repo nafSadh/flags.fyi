@@ -1,0 +1,42 @@
+{
+  "georgia": {
+    "title": "Flag of Georgia",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "note": "Field representing innocence, chastity, purity, and wisdom"
+      },
+      {
+        "color": "red",
+        "hex": "#FF0000",
+        "note": "The central cross and four smaller crosses representing Christianity and the five holy wounds"
+      }
+    ],
+    "desc": [
+      "- White field with a large red St George's cross dividing it into four quarters, each bearing a smaller red Bolnisi-Katskhi cross\n",
+      "- Adopted on 14 January 2004, replacing the 1990 red-and-black flag after the Rose Revolution\n"
+    ],
+    "article": "georgia/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "2004-01-14"
+    },
+    "of": {
+      "country": "georgia"
+    },
+    "countryData": {
+      "name": "Georgia",
+      "officialName": "Georgia",
+      "continent": "asia",
+      "location": "South Caucasus",
+      "un": "member"
+    },
+    "trivia": [
+      "- Known as the Five Cross Flag, the design is based on medieval banners dating back to the 14th-century Kingdom of Georgia\n",
+      "- The four smaller Bolnisi-Katskhi crosses refer to the five wounds of Christ, linking the flag directly to the Georgian Orthodox Church\n",
+      "- The flag was championed by the United National Movement opposition before being formally adopted after the 2003 Rose Revolution\n"
+    ]
+  }
+}

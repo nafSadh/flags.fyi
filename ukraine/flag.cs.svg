@@ -18,8 +18,8 @@
 	<path fill="#f8f8f8" d="m-3780-31500h90720v63000H-3780z"/>
 	<path fill="#fff" d="m0-27720h83160v55440H0z"/>
 	<g opacity=".5" transform="scale(27720)">
-		<path fill="#0057B7" d="m0-1h3v1H0z"/>
-		<path fill="#FFD700" d="m0 0h3v1H0z"/>
+		<path fill="#005bbb" d="m0-1h3v1H0z"/>
+		<path fill="#ffd500" d="m0 0h3v1H0z"/>
 	</g>
 	<g stroke="#000" stroke-width="140" stroke-linejoin="round" stroke-linecap="round">
 		<g opacity=".4" stroke-width="100">

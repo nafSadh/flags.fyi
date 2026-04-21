@@ -1,0 +1,52 @@
+{
+  "vanuatu": {
+    "title": "Flag of the Republic of Vanuatu",
+    "ratio": "11:18",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#CE1126",
+        "note": "Represents the blood of boars and humans and the unity of the ni-Vanuatu people"
+      },
+      {
+        "color": "green",
+        "hex": "#009543",
+        "note": "Represents the country's fertile islands"
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "note": "The triangle at the hoist and the fimbriations representing the Melanesian people"
+      },
+      {
+        "color": "yellow",
+        "hex": "#FFCE00",
+        "note": "The Y-shaped stripe and central emblem representing the Christian faith shining through the islands"
+      }
+    ],
+    "desc": [
+      "- Red over green field with a black triangle at the hoist and a yellow Y-shaped stripe edged in black running horizontally and into the triangle; a yellow boar's tusk encircling two crossed yellow namele leaves sits inside the triangle\n",
+      "- Adopted on 30 July 1980 at independence from the Anglo-French condominium\n"
+    ],
+    "article": "vanuatu/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1980-07-30"
+    },
+    "of": {
+      "country": "vanuatu"
+    },
+    "countryData": {
+      "name": "Vanuatu",
+      "officialName": "Republic of Vanuatu",
+      "continent": "oceania",
+      "location": "Melanesia, South Pacific",
+      "un": "member"
+    },
+    "trivia": [
+      "- The Y-shape reflects the rough geographic layout of the main islands and also represents the light of Christianity spreading through the archipelago\n",
+      "- The boar's tusk is a traditional symbol of prosperity worn as a pendant across much of Vanuatu\n",
+      "- The two crossed namele fern leaves traditionally signify peace; their 39 fronds recall the 39 members of the first parliament\n"
+    ]
+  }
+}

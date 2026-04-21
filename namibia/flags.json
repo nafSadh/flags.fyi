@@ -1,0 +1,59 @@
+{
+  "namibia": {
+    "title": "Flag of the Republic of Namibia",
+    "ratio": "2:3",
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#003580",
+        "note": "Represents the sky, the Atlantic Ocean, and Namibia's precious water resources."
+      },
+      {
+        "color": "red",
+        "hex": "#D21034",
+        "note": "Symbolises the Namibian people and their determination to build a future of equal opportunity."
+      },
+      {
+        "color": "green",
+        "hex": "#009543",
+        "note": "Represents vegetation and agricultural resources."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "note": "Represents peace and unity."
+      },
+      {
+        "color": "yellow",
+        "hex": "#FFCE00",
+        "note": "The gold sun represents life and energy."
+      }
+    ],
+    "desc": [
+      "- A diagonal red band edged with white divides the flag, with blue in the upper hoist and green in the lower fly\n",
+      "- A 12-ray golden sun sits in the blue upper hoist triangle\n",
+      "- Adopted on 21 March 1990 at independence from South African administration"
+    ],
+    "article": "namibia/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1990-03-21"
+    },
+    "of": {
+      "country": "namibia"
+    },
+    "countryData": {
+      "name": "Namibia",
+      "officialName": "Republic of Namibia",
+      "continent": "africa",
+      "location": "Southern Africa, Atlantic coast",
+      "un": "member"
+    },
+    "trivia": [
+      "- The 12-ray golden sun echoes the motif on the flag of the South West Africa People's Organisation (SWAPO)\n",
+      "- The diagonal colour scheme was chosen from over 800 design proposals submitted during independence\n",
+      "- Namibia was the last African country under European-originated rule to achieve independence\n",
+      "- The flag design was adopted by the Constituent Assembly on 2 February 1990"
+    ]
+  }
+}

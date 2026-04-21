@@ -1,0 +1,52 @@
+{
+  "kiribati": {
+    "title": "Flag of the Republic of Kiribati",
+    "ratio": "1:2",
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#CE1126",
+        "note": "The upper field representing the sky"
+      },
+      {
+        "color": "blue",
+        "hex": "#003F87",
+        "note": "The lower wavy stripes representing the Pacific Ocean"
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "note": "Three wavy stripes and separators representing the three island groups"
+      },
+      {
+        "color": "yellow",
+        "hex": "#FFCE00",
+        "note": "The rising sun and the frigatebird"
+      }
+    ],
+    "desc": [
+      "- Red upper half with a rising golden sun of seventeen rays and a golden frigatebird in flight; lower half has three wavy white stripes alternating with three wavy blue stripes\n",
+      "- Adopted on 12 July 1979, the day Kiribati gained independence from the United Kingdom\n"
+    ],
+    "article": "kiribati/flag.md",
+    "use": {
+      "as": "national flag",
+      "since": "1979-07-12"
+    },
+    "of": {
+      "country": "kiribati"
+    },
+    "countryData": {
+      "name": "Kiribati",
+      "officialName": "Republic of Kiribati",
+      "continent": "oceania",
+      "location": "Micronesia, central Pacific",
+      "un": "member"
+    },
+    "trivia": [
+      "- The seventeen rays of the sun stand for the sixteen Gilbert Islands plus Banaba\n",
+      "- The three pairs of wavy stripes represent the three island groups: the Gilbert, Phoenix, and Line Islands\n",
+      "- The frigatebird is a symbol of power, freedom, and the traditional seafaring culture of the I-Kiribati people\n"
+    ]
+  }
+}

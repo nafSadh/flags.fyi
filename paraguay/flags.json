@@ -1,0 +1,52 @@
+{
+  "paraguay": {
+    "title": "Flag of the Republic of Paraguay",
+    "ratio": "3:5",
+    "use": {
+      "as": "national flag",
+      "since": "1842-11-25"
+    },
+    "colors": [
+      {
+        "color": "red",
+        "hex": "#D52B1E",
+        "cmyk": "0/86/90/10",
+        "pantone": "186 C",
+        "note": "Top band; symbolises patriotism, valour, heroism, and equality."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Middle band; represents purity, unity, and peace."
+      },
+      {
+        "color": "blue",
+        "hex": "#0038A8",
+        "cmyk": "100/79/0/34",
+        "pantone": "286 C",
+        "note": "Bottom band; represents liberty, truth, and justice."
+      }
+    ],
+    "desc": [
+      "- A horizontal tricolour of red, white, and blue with the national coat of arms on the obverse and the Treasury seal on the reverse\n",
+      "- Adopted on 25 November 1842 by Carlos Antonio Lopez following independence from Argentina and Spain in 1811\n",
+      "- The only national flag in the world with distinct emblems on each side\n"
+    ],
+    "article": "paraguay/flag.md",
+    "of": {
+      "country": "paraguay"
+    },
+    "countryData": {
+      "name": "Paraguay",
+      "officialName": "Republic of Paraguay",
+      "continent": "south-america",
+      "un": "member"
+    },
+    "trivia": [
+      "- The obverse bears the coat of arms with a gold star, palm, and olive branches; the reverse bears the Treasury seal with a lion, staff, and phrygian cap\n",
+      "- The distinct two-sided design was formalised in 1842 but dates from earlier revolutionary banners\n",
+      "- The 3:5 ratio was officially standardised in 2013 after a long period of varying proportions\n"
+    ]
+  }
+}

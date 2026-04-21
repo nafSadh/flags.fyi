@@ -2,7 +2,7 @@
 /**
  * build.js — Static site generator for flags.fyi
  *
- * Reads flag data from data/ and assets from assets/flags/,
+ * Reads flag data from data/ and per-namespace /{ns}/ dirs at repo root,
  * then generates static HTML pages into the repo root so that
  * the repo itself IS the gh-pages deployable (no separate build output).
  *
@@ -13,9 +13,12 @@ const fs = require('fs');
 const path = require('path');
 
 // ─── paths ───────────────────────────────────────────────────────────────────
+// Flag sources live directly in /{namespace}/ dirs at repo root — flag.svg,
+// flag.md, flags.json co-located with the generated index.html. No separate
+// assets/ staging dir; build.js reads and writes in the same tree.
 const ROOT = __dirname;
 const DATA = path.join(ROOT, 'data');
-const ASSETS_FLAGS = path.join(ROOT, 'assets', 'flags');
+const ASSETS_FLAGS = ROOT;
 
 // ─── simple Markdown renderer (no external dep needed) ───────────────────────
 // Handles: headings, paragraphs, bold, italic, links, lists, tables, code
@@ -1692,41 +1695,6 @@ function generate404() {
   console.log('  200.html, 404.html');
 }
 
-// ─── copy flag SVG/PNG assets to root-level directories ──────────────────────
-function copyFlagAssets() {
-  const entries = fs.readdirSync(ASSETS_FLAGS, { withFileTypes: true });
-  let count = 0;
-  for (const entry of entries) {
-    if (entry.isDirectory()) {
-      const src = path.join(ASSETS_FLAGS, entry.name);
-      const dest = path.join(ROOT, entry.name);
-      fs.mkdirSync(dest, { recursive: true });
-      const files = fs.readdirSync(src);
-      for (const file of files) {
-        if (/\.(svg|png|jpg|jpeg|gif)$/i.test(file)) {
-          fs.copyFileSync(path.join(src, file), path.join(dest, file));
-          count++;
-        }
-      }
-      // also handle subdirectories (e.g. british/ has sub-namespaces)
-      for (const file of files) {
-        const subPath = path.join(src, file);
-        if (fs.statSync(subPath).isDirectory()) {
-          const subDest = path.join(dest, file);
-          fs.mkdirSync(subDest, { recursive: true });
-          const subFiles = fs.readdirSync(subPath);
-          for (const sf of subFiles) {
-            if (/\.(svg|png|jpg|jpeg|gif)$/i.test(sf)) {
-              fs.copyFileSync(path.join(subPath, sf), path.join(subDest, sf));
-              count++;
-            }
-          }
-        }
-      }
-    }
-  }
-  return count;
-}
 
 // ─── sitemap.xml ────────────────────────────────────────────────────────────
 function generateSitemap() {
@@ -1785,10 +1753,6 @@ function generateRobotsTxt() {
 // ─── main ────────────────────────────────────────────────────────────────────
 function main() {
   console.log('Building flags.fyi static site...\n');
-
-  console.log('Copying flag assets...');
-  const assetCount = copyFlagAssets();
-  console.log(`  Copied ${assetCount} image files\n`);
 
   console.log('Generating pages:');
   generateLanding();

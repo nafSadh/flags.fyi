@@ -1,0 +1,51 @@
+{
+  "estonia": {
+    "title": "Flag of the Republic of Estonia",
+    "ratio": "7:11",
+    "use": {
+      "as": "national flag",
+      "since": "1990-08-07"
+    },
+    "colors": [
+      {
+        "color": "blue",
+        "hex": "#0072CE",
+        "cmyk": "100/55/0/0",
+        "note": "Represents Estonia's lakes and sky, as well as loyalty, truth, and the ancient quest for freedom.",
+        "pantone": "285 C"
+      },
+      {
+        "color": "black",
+        "hex": "#000000",
+        "cmyk": "0/0/0/100",
+        "note": "Symbolises the rich dark soil of the homeland and the historical hardships Estonians have endured."
+      },
+      {
+        "color": "white",
+        "hex": "#FFFFFF",
+        "cmyk": "0/0/0/0",
+        "note": "Represents birch bark, snow, and the Estonian people's striving toward enlightenment and hope."
+      }
+    ],
+    "desc": [
+      "- Three horizontal bands of equal width: blue on top, black in the middle, and white at the bottom\n",
+      "- Created by students at the University of Tartu in 1881 as the banner of the Estonian Students' Society\n",
+      "- First adopted nationally in 1922, banned during Soviet occupation, and re-adopted on 7 August 1990"
+    ],
+    "article": "estonia/flag.md",
+    "of": {
+      "country": "estonia"
+    },
+    "countryData": {
+      "name": "Estonia",
+      "officialName": "Republic of Estonia",
+      "continent": "europe",
+      "un": "member"
+    },
+    "trivia": [
+      "- The flag was consecrated at Otepää parish church on 4 June 1884, a date now celebrated as the Estonian Flag Day\n",
+      "- The blue-black-white banner flew defiantly on Tall Hermann tower in Tallinn on 24 February 1989 as independence loomed\n",
+      "- Some Estonians interpret the colours as blue sky, dark soil, and birch trees — elements of the national landscape\n"
+    ]
+  }
+}
