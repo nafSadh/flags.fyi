@@ -109,9 +109,11 @@ for (const [id, fd] of Object.entries(flagsJson)) {
 for (const [id, fd] of Object.entries(flagsJson)) {
   const g = (fd.g || '').split(',').map(s => s.trim());
 
-  // Skip non-national-attributable: intl, maritime, pride, pan, cities
-  if (g.includes('intl') || g.includes('maritime') || g.includes('pride') || g.includes('pan')) continue;
+  // Skip non-national-attributable: intl, pride, pan, cities.
+  // Maritime flags attributed to a specific country (via 'now') stay.
+  if (g.includes('intl') || g.includes('pride') || g.includes('pan')) continue;
   if (g.includes('city')) continue;
+  if (g.includes('maritime') && !fd.now) continue;
 
   // Determine target country
   let targetId = null;
