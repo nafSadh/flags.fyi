@@ -1,5 +1,17 @@
 [
   {
+    "id": "ar/0",
+    "name": "0",
+    "title": "Flag of 0",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/argentina-sub/0.svg",
+    "keywords": "0 flag of 0 sub south-america"
+  },
+  {
     "id": "abbasid",
     "name": "Abbasid Caliphate",
     "title": "Flag of the Abbasid Caliphate (Black Standard)",
@@ -1487,6 +1499,18 @@
     "keywords": "brunei flag of the nation of brunei, the abode of peace national-flag asia southeast-asia yellow white black red"
   },
   {
+    "id": "ar/buenos-aires",
+    "name": "Buenos Aires Province",
+    "title": "Flag of Buenos Aires Province",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/argentina-sub/buenos-aires.svg",
+    "keywords": "buenos aires province flag of buenos aires province sub south-america"
+  },
+  {
     "id": "bulgaria",
     "name": "Bulgaria",
     "title": "Flag of the Republic of Bulgaria",
@@ -2072,6 +2096,18 @@
     "keywords": "catalonia flag of catalonia sub europe"
   },
   {
+    "id": "ar/catamarca",
+    "name": "Catamarca",
+    "title": "Flag of Catamarca",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/argentina-sub/catamarca.svg",
+    "keywords": "catamarca flag of catamarca sub south-america"
+  },
+  {
     "id": "cayman-islands",
     "name": "Cayman Islands",
     "title": "Flag of Cayman Islands",
@@ -2127,6 +2163,18 @@
     "colors": [],
     "flag": "/spain-sub/ceuta.svg",
     "keywords": "ceuta flag of ceuta sub europe"
+  },
+  {
+    "id": "ar/chaco",
+    "name": "Chaco",
+    "title": "Flag of Chaco",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/argentina-sub/chaco.svg",
+    "keywords": "chaco flag of chaco sub south-america"
   },
   {
     "id": "chad",
@@ -2219,6 +2267,30 @@
     ],
     "flag": "/china/flag.svg",
     "keywords": "china flag of the people's republic of china asia east-asia red yellow"
+  },
+  {
+    "id": "ar/chubut",
+    "name": "Chubut",
+    "title": "Flag of Chubut",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/argentina-sub/chubut.svg",
+    "keywords": "chubut flag of chubut sub south-america"
+  },
+  {
+    "id": "ar/buenos-aires-city",
+    "name": "City of Buenos Aires",
+    "title": "Flag of City of Buenos Aires",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/argentina-sub/buenos-aires-city.svg",
+    "keywords": "city of buenos aires flag of city of buenos aires sub south-america"
   },
   {
     "id": "mx/coa",
@@ -2399,6 +2471,18 @@
     "keywords": "connecticut flag of connecticut sub north-america"
   },
   {
+    "id": "ar/cordoba",
+    "name": "Córdoba",
+    "title": "Flag of Córdoba",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/argentina-sub/cordoba.svg",
+    "keywords": "córdoba flag of córdoba sub south-america"
+  },
+  {
     "id": "uk/cornwall",
     "name": "Cornwall (St Piran)",
     "title": "Flag of Cornwall (St Piran)",
@@ -2412,6 +2496,18 @@
     ],
     "flag": "/uk-sub/uk-cornwall.svg",
     "keywords": "cornwall (st piran) flag of cornwall (st piran) sub europe black white"
+  },
+  {
+    "id": "ar/corrientes",
+    "name": "Corrientes",
+    "title": "Flag of Corrientes",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/argentina-sub/corrientes.svg",
+    "keywords": "corrientes flag of corrientes sub south-america"
   },
   {
     "id": "costa-rica",
@@ -3281,6 +3377,18 @@
     "colors": [],
     "flag": "/us-states/florida.svg",
     "keywords": "florida flag of florida sub north-america"
+  },
+  {
+    "id": "ar/formosa",
+    "name": "Formosa",
+    "title": "Flag of Formosa",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/argentina-sub/formosa.svg",
+    "keywords": "formosa flag of formosa sub south-america"
   },
   {
     "id": "france",
@@ -4618,6 +4726,18 @@
     "keywords": "joseon dynasty royal standard of the joseon dynasty historic east-asia red blue"
   },
   {
+    "id": "ar/jujuy",
+    "name": "Jujuy",
+    "title": "Flag of Jujuy",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/argentina-sub/jujuy.svg",
+    "keywords": "jujuy flag of jujuy sub south-america"
+  },
+  {
     "id": "juneteenth",
     "name": "Juneteenth",
     "title": "Juneteenth Flag — Emancipation Commemorative Flag",
@@ -5200,6 +5320,30 @@
     ],
     "flag": "/kyrgyzstan/flag.svg",
     "keywords": "kyrgyzstan flag of the kyrgyz republic national-flag asia red yellow"
+  },
+  {
+    "id": "ar/la-pampa",
+    "name": "La Pampa",
+    "title": "Flag of La Pampa",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/argentina-sub/la-pampa.svg",
+    "keywords": "la pampa flag of la pampa sub south-america"
+  },
+  {
+    "id": "ar/la-rioja",
+    "name": "La Rioja",
+    "title": "Flag of La Rioja",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/argentina-sub/la-rioja.svg",
+    "keywords": "la rioja flag of la rioja sub south-america"
   },
   {
     "id": "es/la-rioja",
@@ -5910,6 +6054,18 @@
     "keywords": "melilla flag of melilla sub europe"
   },
   {
+    "id": "ar/mendoza",
+    "name": "Mendoza",
+    "title": "Flag of Mendoza",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/argentina-sub/mendoza.svg",
+    "keywords": "mendoza flag of mendoza sub south-america"
+  },
+  {
     "id": "merina",
     "name": "Merina Kingdom",
     "title": "Flag of the Merina Kingdom",
@@ -6060,6 +6216,18 @@
     "colors": [],
     "flag": "/us-states/minnesota.svg",
     "keywords": "minnesota flag of minnesota sub north-america"
+  },
+  {
+    "id": "ar/misiones",
+    "name": "Misiones",
+    "title": "Flag of Misiones",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/argentina-sub/misiones.svg",
+    "keywords": "misiones flag of misiones sub south-america"
   },
   {
     "id": "us/mississippi",
@@ -7979,6 +8147,18 @@
     "keywords": "rio grande do sul flag of rio grande do sul sub south-america"
   },
   {
+    "id": "ar/rio-negro",
+    "name": "Río Negro",
+    "title": "Flag of Río Negro",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/argentina-sub/rio-negro.svg",
+    "keywords": "río negro flag of río negro sub south-america"
+  },
+  {
     "id": "roman-empire",
     "name": "Roman Empire",
     "title": "Vexillum of the Roman Empire",
@@ -8215,6 +8395,18 @@
     "keywords": "saitama prefecture flag of saitama prefecture sub asia"
   },
   {
+    "id": "ar/salta",
+    "name": "Salta",
+    "title": "Flag of Salta",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/argentina-sub/salta.svg",
+    "keywords": "salta flag of salta sub south-america"
+  },
+  {
     "id": "samanid",
     "name": "Samanid Empire",
     "title": "Flag of the Samanid Empire",
@@ -8245,6 +8437,30 @@
     ],
     "flag": "/samoa/flag.svg",
     "keywords": "samoa flag of the independent state of samoa national-flag oceania red blue white"
+  },
+  {
+    "id": "ar/san-juan",
+    "name": "San Juan",
+    "title": "Flag of San Juan",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/argentina-sub/san-juan.svg",
+    "keywords": "san juan flag of san juan sub south-america"
+  },
+  {
+    "id": "ar/san-luis",
+    "name": "San Luis",
+    "title": "Flag of San Luis",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/argentina-sub/san-luis.svg",
+    "keywords": "san luis flag of san luis sub south-america"
   },
   {
     "id": "mx/slp",
@@ -8285,6 +8501,42 @@
     "colors": [],
     "flag": "/brazil-sub/sc.svg",
     "keywords": "santa catarina flag of santa catarina sub south-america"
+  },
+  {
+    "id": "ar/santa-cruz",
+    "name": "Santa Cruz",
+    "title": "Flag of Santa Cruz",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/argentina-sub/santa-cruz.svg",
+    "keywords": "santa cruz flag of santa cruz sub south-america"
+  },
+  {
+    "id": "ar/santa-fe",
+    "name": "Santa Fe",
+    "title": "Flag of Santa Fe",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/argentina-sub/santa-fe.svg",
+    "keywords": "santa fe flag of santa fe sub south-america"
+  },
+  {
+    "id": "ar/santiago-del-estero",
+    "name": "Santiago del Estero",
+    "title": "Flag of Santiago del Estero",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/argentina-sub/santiago-del-estero.svg",
+    "keywords": "santiago del estero flag of santiago del estero sub south-america"
   },
   {
     "id": "br/sp",
@@ -9351,6 +9603,18 @@
     ],
     "flag": "/movements/tibetan.svg",
     "keywords": "tibetan flag flag of tibet (snow lion flag) pan asia white blue red yellow"
+  },
+  {
+    "id": "ar/tierra-del-fuego",
+    "name": "Tierra del Fuego",
+    "title": "Flag of Tierra del Fuego",
+    "groups": [
+      "sub",
+      "south-america"
+    ],
+    "colors": [],
+    "flag": "/argentina-sub/tierra-del-fuego.svg",
+    "keywords": "tierra del fuego flag of tierra del fuego sub south-america"
   },
   {
     "id": "timor-leste",

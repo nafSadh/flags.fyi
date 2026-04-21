@@ -1844,8 +1844,13 @@
     "next": "abkhazia",
     "cat": "countries"
   },
-  "au/aboriginal": {
+  "ar/0": {
     "prev": "mx/zac",
+    "next": "au/aboriginal",
+    "cat": "subdivisions"
+  },
+  "au/aboriginal": {
+    "prev": "ar/0",
     "next": "it/abruzzo",
     "cat": "subdivisions"
   },
@@ -2061,11 +2066,16 @@
   },
   "british-virgin-islands": {
     "prev": "british-overseas-territories",
+    "next": "ar/buenos-aires",
+    "cat": "subdivisions"
+  },
+  "ar/buenos-aires": {
+    "prev": "british-virgin-islands",
     "next": "it/calabria",
     "cat": "subdivisions"
   },
   "it/calabria": {
-    "prev": "british-virgin-islands",
+    "prev": "ar/buenos-aires",
     "next": "us/california",
     "cat": "subdivisions"
   },
@@ -2236,11 +2246,16 @@
   },
   "es/catalonia": {
     "prev": "es/castilla-la-mancha",
+    "next": "ar/catamarca",
+    "cat": "subdivisions"
+  },
+  "ar/catamarca": {
+    "prev": "es/catalonia",
     "next": "cayman-islands",
     "cat": "subdivisions"
   },
   "cayman-islands": {
-    "prev": "es/catalonia",
+    "prev": "ar/catamarca",
     "next": "br/ce",
     "cat": "subdivisions"
   },
@@ -2251,11 +2266,16 @@
   },
   "es/ceuta": {
     "prev": "br/ce",
+    "next": "ar/chaco",
+    "cat": "subdivisions"
+  },
+  "ar/chaco": {
+    "prev": "es/ceuta",
     "next": "in/chandigarh",
     "cat": "subdivisions"
   },
   "in/chandigarh": {
-    "prev": "es/ceuta",
+    "prev": "ar/chaco",
     "next": "mx/chp",
     "cat": "subdivisions"
   },
@@ -2271,11 +2291,21 @@
   },
   "mx/chh": {
     "prev": "jp/chiba",
+    "next": "ar/chubut",
+    "cat": "subdivisions"
+  },
+  "ar/chubut": {
+    "prev": "mx/chh",
+    "next": "ar/buenos-aires-city",
+    "cat": "subdivisions"
+  },
+  "ar/buenos-aires-city": {
+    "prev": "ar/chubut",
     "next": "mx/coa",
     "cat": "subdivisions"
   },
   "mx/coa": {
-    "prev": "mx/chh",
+    "prev": "ar/buenos-aires-city",
     "next": "mx/col",
     "cat": "subdivisions"
   },
@@ -2296,16 +2326,26 @@
   },
   "us/connecticut": {
     "prev": "es/madrid",
+    "next": "ar/cordoba",
+    "cat": "subdivisions"
+  },
+  "ar/cordoba": {
+    "prev": "us/connecticut",
     "next": "uk/cornwall",
     "cat": "subdivisions"
   },
   "uk/cornwall": {
-    "prev": "us/connecticut",
+    "prev": "ar/cordoba",
+    "next": "ar/corrientes",
+    "cat": "subdivisions"
+  },
+  "ar/corrientes": {
+    "prev": "uk/cornwall",
     "next": "in/dadra-nagar-haveli",
     "cat": "subdivisions"
   },
   "in/dadra-nagar-haveli": {
-    "prev": "uk/cornwall",
+    "prev": "ar/corrientes",
     "next": "us/delaware",
     "cat": "subdivisions"
   },
@@ -2361,11 +2401,16 @@
   },
   "us/florida": {
     "prev": "es/extremadura",
+    "next": "ar/formosa",
+    "cat": "subdivisions"
+  },
+  "ar/formosa": {
+    "prev": "us/florida",
     "next": "it/friuli-venezia-giulia",
     "cat": "subdivisions"
   },
   "it/friuli-venezia-giulia": {
-    "prev": "us/florida",
+    "prev": "ar/formosa",
     "next": "jp/fukui",
     "cat": "subdivisions"
   },
@@ -2531,11 +2576,16 @@
   },
   "in/jharkhand": {
     "prev": "jersey",
+    "next": "ar/jujuy",
+    "cat": "subdivisions"
+  },
+  "ar/jujuy": {
+    "prev": "in/jharkhand",
     "next": "jp/kagawa",
     "cat": "subdivisions"
   },
   "jp/kagawa": {
-    "prev": "in/jharkhand",
+    "prev": "ar/jujuy",
     "next": "jp/kagoshima",
     "cat": "subdivisions"
   },
@@ -2576,11 +2626,21 @@
   },
   "jp/kyoto": {
     "prev": "jp/kumamoto",
+    "next": "ar/la-pampa",
+    "cat": "subdivisions"
+  },
+  "ar/la-pampa": {
+    "prev": "jp/kyoto",
+    "next": "ar/la-rioja",
+    "cat": "subdivisions"
+  },
+  "ar/la-rioja": {
+    "prev": "ar/la-pampa",
     "next": "es/la-rioja",
     "cat": "subdivisions"
   },
   "es/la-rioja": {
-    "prev": "jp/kyoto",
+    "prev": "ar/la-rioja",
     "next": "in/ladakh",
     "cat": "subdivisions"
   },
@@ -2681,11 +2741,16 @@
   },
   "es/melilla": {
     "prev": "de/mecklenburg-vorpommern",
+    "next": "ar/mendoza",
+    "cat": "subdivisions"
+  },
+  "ar/mendoza": {
+    "prev": "es/melilla",
     "next": "mx/cmx",
     "cat": "subdivisions"
   },
   "mx/cmx": {
-    "prev": "es/melilla",
+    "prev": "ar/mendoza",
     "next": "us/michigan",
     "cat": "subdivisions"
   },
@@ -2711,11 +2776,16 @@
   },
   "us/minnesota": {
     "prev": "br/mg",
+    "next": "ar/misiones",
+    "cat": "subdivisions"
+  },
+  "ar/misiones": {
+    "prev": "us/minnesota",
     "next": "us/mississippi",
     "cat": "subdivisions"
   },
   "us/mississippi": {
-    "prev": "us/minnesota",
+    "prev": "ar/misiones",
     "next": "us/missouri",
     "cat": "subdivisions"
   },
@@ -3036,11 +3106,16 @@
   },
   "br/rs": {
     "prev": "br/rn",
+    "next": "ar/rio-negro",
+    "cat": "subdivisions"
+  },
+  "ar/rio-negro": {
+    "prev": "br/rs",
     "next": "br/ro",
     "cat": "subdivisions"
   },
   "br/ro": {
-    "prev": "br/rs",
+    "prev": "ar/rio-negro",
     "next": "br/rr",
     "cat": "subdivisions"
   },
@@ -3066,21 +3141,51 @@
   },
   "jp/saitama": {
     "prev": "saint-helena",
+    "next": "ar/salta",
+    "cat": "subdivisions"
+  },
+  "ar/salta": {
+    "prev": "jp/saitama",
+    "next": "ar/san-juan",
+    "cat": "subdivisions"
+  },
+  "ar/san-juan": {
+    "prev": "ar/salta",
+    "next": "ar/san-luis",
+    "cat": "subdivisions"
+  },
+  "ar/san-luis": {
+    "prev": "ar/san-juan",
     "next": "mx/slp",
     "cat": "subdivisions"
   },
   "mx/slp": {
-    "prev": "jp/saitama",
+    "prev": "ar/san-luis",
     "next": "br/sc",
     "cat": "subdivisions"
   },
   "br/sc": {
     "prev": "mx/slp",
+    "next": "ar/santa-cruz",
+    "cat": "subdivisions"
+  },
+  "ar/santa-cruz": {
+    "prev": "br/sc",
+    "next": "ar/santa-fe",
+    "cat": "subdivisions"
+  },
+  "ar/santa-fe": {
+    "prev": "ar/santa-cruz",
+    "next": "ar/santiago-del-estero",
+    "cat": "subdivisions"
+  },
+  "ar/santiago-del-estero": {
+    "prev": "ar/santa-fe",
     "next": "br/sp",
     "cat": "subdivisions"
   },
   "br/sp": {
-    "prev": "br/sc",
+    "prev": "ar/santiago-del-estero",
     "next": "it/sardinia",
     "cat": "subdivisions"
   },
@@ -3211,11 +3316,16 @@
   },
   "de/thuringia": {
     "prev": "us/texas",
+    "next": "ar/tierra-del-fuego",
+    "cat": "subdivisions"
+  },
+  "ar/tierra-del-fuego": {
+    "prev": "de/thuringia",
     "next": "mx/tlx",
     "cat": "subdivisions"
   },
   "mx/tlx": {
-    "prev": "de/thuringia",
+    "prev": "ar/tierra-del-fuego",
     "next": "br/to",
     "cat": "subdivisions"
   },
@@ -3386,7 +3496,7 @@
   },
   "mx/zac": {
     "prev": "ca/yukon",
-    "next": "au/aboriginal",
+    "next": "ar/0",
     "cat": "subdivisions"
   },
   "african-union": {

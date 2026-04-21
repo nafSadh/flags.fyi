@@ -89,6 +89,160 @@
     "id": "argentina",
     "index": "c/argentina"
   },
+  "ar/0": {
+    "g": "sub,south-america",
+    "ns": "argentina-sub",
+    "name": "0",
+    "id": "ar/0",
+    "index": "c/ar/0"
+  },
+  "ar/buenos-aires-city": {
+    "g": "sub,south-america",
+    "ns": "argentina-sub",
+    "name": "City of Buenos Aires",
+    "id": "ar/buenos-aires-city",
+    "index": "c/ar/buenos-aires-city"
+  },
+  "ar/buenos-aires": {
+    "g": "sub,south-america",
+    "ns": "argentina-sub",
+    "name": "Buenos Aires Province",
+    "id": "ar/buenos-aires",
+    "index": "c/ar/buenos-aires"
+  },
+  "ar/catamarca": {
+    "g": "sub,south-america",
+    "ns": "argentina-sub",
+    "name": "Catamarca",
+    "id": "ar/catamarca",
+    "index": "c/ar/catamarca"
+  },
+  "ar/chaco": {
+    "g": "sub,south-america",
+    "ns": "argentina-sub",
+    "name": "Chaco",
+    "id": "ar/chaco",
+    "index": "c/ar/chaco"
+  },
+  "ar/chubut": {
+    "g": "sub,south-america",
+    "ns": "argentina-sub",
+    "name": "Chubut",
+    "id": "ar/chubut",
+    "index": "c/ar/chubut"
+  },
+  "ar/cordoba": {
+    "g": "sub,south-america",
+    "ns": "argentina-sub",
+    "name": "Córdoba",
+    "id": "ar/cordoba",
+    "index": "c/ar/cordoba"
+  },
+  "ar/corrientes": {
+    "g": "sub,south-america",
+    "ns": "argentina-sub",
+    "name": "Corrientes",
+    "id": "ar/corrientes",
+    "index": "c/ar/corrientes"
+  },
+  "ar/formosa": {
+    "g": "sub,south-america",
+    "ns": "argentina-sub",
+    "name": "Formosa",
+    "id": "ar/formosa",
+    "index": "c/ar/formosa"
+  },
+  "ar/jujuy": {
+    "g": "sub,south-america",
+    "ns": "argentina-sub",
+    "name": "Jujuy",
+    "id": "ar/jujuy",
+    "index": "c/ar/jujuy"
+  },
+  "ar/la-pampa": {
+    "g": "sub,south-america",
+    "ns": "argentina-sub",
+    "name": "La Pampa",
+    "id": "ar/la-pampa",
+    "index": "c/ar/la-pampa"
+  },
+  "ar/la-rioja": {
+    "g": "sub,south-america",
+    "ns": "argentina-sub",
+    "name": "La Rioja",
+    "id": "ar/la-rioja",
+    "index": "c/ar/la-rioja"
+  },
+  "ar/mendoza": {
+    "g": "sub,south-america",
+    "ns": "argentina-sub",
+    "name": "Mendoza",
+    "id": "ar/mendoza",
+    "index": "c/ar/mendoza"
+  },
+  "ar/misiones": {
+    "g": "sub,south-america",
+    "ns": "argentina-sub",
+    "name": "Misiones",
+    "id": "ar/misiones",
+    "index": "c/ar/misiones"
+  },
+  "ar/rio-negro": {
+    "g": "sub,south-america",
+    "ns": "argentina-sub",
+    "name": "Río Negro",
+    "id": "ar/rio-negro",
+    "index": "c/ar/rio-negro"
+  },
+  "ar/salta": {
+    "g": "sub,south-america",
+    "ns": "argentina-sub",
+    "name": "Salta",
+    "id": "ar/salta",
+    "index": "c/ar/salta"
+  },
+  "ar/san-juan": {
+    "g": "sub,south-america",
+    "ns": "argentina-sub",
+    "name": "San Juan",
+    "id": "ar/san-juan",
+    "index": "c/ar/san-juan"
+  },
+  "ar/san-luis": {
+    "g": "sub,south-america",
+    "ns": "argentina-sub",
+    "name": "San Luis",
+    "id": "ar/san-luis",
+    "index": "c/ar/san-luis"
+  },
+  "ar/santa-cruz": {
+    "g": "sub,south-america",
+    "ns": "argentina-sub",
+    "name": "Santa Cruz",
+    "id": "ar/santa-cruz",
+    "index": "c/ar/santa-cruz"
+  },
+  "ar/santa-fe": {
+    "g": "sub,south-america",
+    "ns": "argentina-sub",
+    "name": "Santa Fe",
+    "id": "ar/santa-fe",
+    "index": "c/ar/santa-fe"
+  },
+  "ar/santiago-del-estero": {
+    "g": "sub,south-america",
+    "ns": "argentina-sub",
+    "name": "Santiago del Estero",
+    "id": "ar/santiago-del-estero",
+    "index": "c/ar/santiago-del-estero"
+  },
+  "ar/tierra-del-fuego": {
+    "g": "sub,south-america",
+    "ns": "argentina-sub",
+    "name": "Tierra del Fuego",
+    "id": "ar/tierra-del-fuego",
+    "index": "c/ar/tierra-del-fuego"
+  },
   "ascension-island": {
     "ns": "british",
     "g": "bot",
