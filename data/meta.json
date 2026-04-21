@@ -1976,11 +1976,16 @@
   },
   "es/asturias": {
     "prev": "in/assam",
+    "next": "au/act",
+    "cat": "subdivisions"
+  },
+  "au/act": {
+    "prev": "es/asturias",
     "next": "de/baden-wurttemberg",
     "cat": "subdivisions"
   },
   "de/baden-wurttemberg": {
-    "prev": "es/asturias",
+    "prev": "au/act",
     "next": "br/ba",
     "cat": "subdivisions"
   },
@@ -2921,11 +2926,16 @@
   },
   "uk/northern-ireland": {
     "prev": "de/north-rhine-westphalia",
+    "next": "au/nt",
+    "cat": "subdivisions"
+  },
+  "au/nt": {
+    "prev": "uk/northern-ireland",
     "next": "ca/northwest-territories",
     "cat": "subdivisions"
   },
   "ca/northwest-territories": {
-    "prev": "uk/northern-ireland",
+    "prev": "au/nt",
     "next": "ca/nova-scotia",
     "cat": "subdivisions"
   },
@@ -3061,11 +3071,16 @@
   },
   "ca/quebec": {
     "prev": "in/punjab",
+    "next": "au/queensland",
+    "cat": "subdivisions"
+  },
+  "au/queensland": {
+    "prev": "ca/quebec",
     "next": "mx/qro",
     "cat": "subdivisions"
   },
   "mx/qro": {
-    "prev": "ca/quebec",
+    "prev": "au/queensland",
     "next": "mx/qr",
     "cat": "subdivisions"
   },
@@ -3261,11 +3276,16 @@
   },
   "mx/son": {
     "prev": "mx/sin",
+    "next": "au/south-australia",
+    "cat": "subdivisions"
+  },
+  "au/south-australia": {
+    "prev": "mx/son",
     "next": "us/south-carolina",
     "cat": "subdivisions"
   },
   "us/south-carolina": {
-    "prev": "mx/son",
+    "prev": "au/south-australia",
     "next": "us/south-dakota",
     "cat": "subdivisions"
   },
@@ -3296,11 +3316,16 @@
   },
   "in/tamil-nadu": {
     "prev": "mx/tam",
+    "next": "au/tasmania",
+    "cat": "subdivisions"
+  },
+  "au/tasmania": {
+    "prev": "in/tamil-nadu",
     "next": "in/telangana",
     "cat": "subdivisions"
   },
   "in/telangana": {
-    "prev": "in/tamil-nadu",
+    "prev": "au/tasmania",
     "next": "us/tennessee",
     "cat": "subdivisions"
   },
@@ -3426,11 +3451,16 @@
   },
   "us/vermont": {
     "prev": "mx/ver",
+    "next": "au/victoria",
+    "cat": "subdivisions"
+  },
+  "au/victoria": {
+    "prev": "us/vermont",
     "next": "us/virginia",
     "cat": "subdivisions"
   },
   "us/virginia": {
-    "prev": "us/vermont",
+    "prev": "au/victoria",
     "next": "jp/wakayama",
     "cat": "subdivisions"
   },
@@ -3456,11 +3486,16 @@
   },
   "us/west-virginia": {
     "prev": "us/washington-dc",
+    "next": "au/western-australia",
+    "cat": "subdivisions"
+  },
+  "au/western-australia": {
+    "prev": "us/west-virginia",
     "next": "us/wisconsin",
     "cat": "subdivisions"
   },
   "us/wisconsin": {
-    "prev": "us/west-virginia",
+    "prev": "au/western-australia",
     "next": "us/wyoming",
     "cat": "subdivisions"
   },

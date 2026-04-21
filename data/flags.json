@@ -4666,6 +4666,55 @@
     "id": "au/new-south-wales",
     "index": "c/au/new-south-wales"
   },
+  "au/victoria": {
+    "g": "sub,oceania",
+    "ns": "australia-sub",
+    "name": "Victoria",
+    "id": "au/victoria",
+    "index": "c/au/victoria"
+  },
+  "au/queensland": {
+    "g": "sub,oceania",
+    "ns": "australia-sub",
+    "name": "Queensland",
+    "id": "au/queensland",
+    "index": "c/au/queensland"
+  },
+  "au/south-australia": {
+    "g": "sub,oceania",
+    "ns": "australia-sub",
+    "name": "South Australia",
+    "id": "au/south-australia",
+    "index": "c/au/south-australia"
+  },
+  "au/western-australia": {
+    "g": "sub,oceania",
+    "ns": "australia-sub",
+    "name": "Western Australia",
+    "id": "au/western-australia",
+    "index": "c/au/western-australia"
+  },
+  "au/tasmania": {
+    "g": "sub,oceania",
+    "ns": "australia-sub",
+    "name": "Tasmania",
+    "id": "au/tasmania",
+    "index": "c/au/tasmania"
+  },
+  "au/act": {
+    "g": "sub,oceania",
+    "ns": "australia-sub",
+    "name": "Australian Capital Territory",
+    "id": "au/act",
+    "index": "c/au/act"
+  },
+  "au/nt": {
+    "g": "sub,oceania",
+    "ns": "australia-sub",
+    "name": "Northern Territory",
+    "id": "au/nt",
+    "index": "c/au/nt"
+  },
   "au/torres-strait": {
     "name": "Torres Strait Islander Flag",
     "ns": "australia-sub",

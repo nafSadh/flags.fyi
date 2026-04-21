@@ -813,6 +813,18 @@
     "keywords": "australia flag of australia oceania dark blue red white"
   },
   {
+    "id": "au/act",
+    "name": "Australian Capital Territory",
+    "title": "Flag of Australian Capital Territory",
+    "groups": [
+      "sub",
+      "oceania"
+    ],
+    "colors": [],
+    "flag": "/australia-sub/act.svg",
+    "keywords": "australian capital territory flag of australian capital territory sub oceania"
+  },
+  {
     "id": "austria",
     "name": "Austria",
     "title": "Flag of Austria",
@@ -6969,6 +6981,18 @@
     "keywords": "northern ireland (ulster banner) ulster banner sub europe white red blue"
   },
   {
+    "id": "au/nt",
+    "name": "Northern Territory",
+    "title": "Flag of Northern Territory",
+    "groups": [
+      "sub",
+      "oceania"
+    ],
+    "colors": [],
+    "flag": "/australia-sub/nt.svg",
+    "keywords": "northern territory flag of northern territory sub oceania"
+  },
+  {
     "id": "ca/northwest-territories",
     "name": "Northwest Territories",
     "title": "Flag of Northwest Territories",
@@ -7880,6 +7904,18 @@
     ],
     "flag": "/canada-sub/quebec.svg",
     "keywords": "quebec flag of quebec (fleurdelisé) sub north-america blue white"
+  },
+  {
+    "id": "au/queensland",
+    "name": "Queensland",
+    "title": "Flag of Queensland",
+    "groups": [
+      "sub",
+      "oceania"
+    ],
+    "colors": [],
+    "flag": "/australia-sub/queensland.svg",
+    "keywords": "queensland flag of queensland sub oceania"
   },
   {
     "id": "mx/qro",
@@ -9081,6 +9117,18 @@
     "keywords": "south african republic (transvaal) flag of the south african republic (transvaal) historic empire africa green red white blue"
   },
   {
+    "id": "au/south-australia",
+    "name": "South Australia",
+    "title": "Flag of South Australia",
+    "groups": [
+      "sub",
+      "oceania"
+    ],
+    "colors": [],
+    "flag": "/australia-sub/south-australia.svg",
+    "keywords": "south australia flag of south australia sub oceania"
+  },
+  {
     "id": "us/south-carolina",
     "name": "South Carolina",
     "title": "Flag of South Carolina",
@@ -9502,6 +9550,18 @@
     ],
     "flag": "/tanzania/flag.svg",
     "keywords": "tanzania flag of tanzania africa horn-of-africa green yellow black blue"
+  },
+  {
+    "id": "au/tasmania",
+    "name": "Tasmania",
+    "title": "Flag of Tasmania",
+    "groups": [
+      "sub",
+      "oceania"
+    ],
+    "colors": [],
+    "flag": "/australia-sub/tasmania.svg",
+    "keywords": "tasmania flag of tasmania sub oceania"
   },
   {
     "id": "in/telangana",
@@ -10296,6 +10356,18 @@
     "keywords": "vermont flag of vermont sub north-america"
   },
   {
+    "id": "au/victoria",
+    "name": "Victoria",
+    "title": "Flag of Victoria",
+    "groups": [
+      "sub",
+      "oceania"
+    ],
+    "colors": [],
+    "flag": "/australia-sub/victoria.svg",
+    "keywords": "victoria flag of victoria sub oceania"
+  },
+  {
     "id": "vietnam",
     "name": "Vietnam",
     "title": "Flag of Vietnam",
@@ -10422,6 +10494,18 @@
     "colors": [],
     "flag": "/us-states/west-virginia.svg",
     "keywords": "west virginia flag of west virginia sub north-america"
+  },
+  {
+    "id": "au/western-australia",
+    "name": "Western Australia",
+    "title": "Flag of Western Australia",
+    "groups": [
+      "sub",
+      "oceania"
+    ],
+    "colors": [],
+    "flag": "/australia-sub/western-australia.svg",
+    "keywords": "western australia flag of western australia sub oceania"
   },
   {
     "id": "white-ensign",
