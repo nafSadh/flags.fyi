@@ -1921,11 +1921,16 @@
   },
   "jp/aomori": {
     "prev": "anguilla-governor",
+    "next": "es/aragon",
+    "cat": "subdivisions"
+  },
+  "es/aragon": {
+    "prev": "jp/aomori",
     "next": "us/arizona",
     "cat": "subdivisions"
   },
   "us/arizona": {
-    "prev": "jp/aomori",
+    "prev": "es/aragon",
     "next": "us/arkansas",
     "cat": "subdivisions"
   },
@@ -1946,11 +1951,16 @@
   },
   "in/assam": {
     "prev": "ascension-island",
+    "next": "es/asturias",
+    "cat": "subdivisions"
+  },
+  "es/asturias": {
+    "prev": "in/assam",
     "next": "de/baden-wurttemberg",
     "cat": "subdivisions"
   },
   "de/baden-wurttemberg": {
-    "prev": "in/assam",
+    "prev": "es/asturias",
     "next": "br/ba",
     "cat": "subdivisions"
   },
@@ -1966,11 +1976,16 @@
   },
   "mx/bcs": {
     "prev": "mx/bc",
+    "next": "es/balearic-islands",
+    "cat": "subdivisions"
+  },
+  "es/balearic-islands": {
+    "prev": "mx/bcs",
     "next": "es/basque",
     "cat": "subdivisions"
   },
   "es/basque": {
-    "prev": "mx/bcs",
+    "prev": "es/balearic-islands",
     "next": "de/bavaria",
     "cat": "subdivisions"
   },
@@ -2036,11 +2051,21 @@
   },
   "mx/cam": {
     "prev": "us/california",
+    "next": "es/canary-islands",
+    "cat": "subdivisions"
+  },
+  "es/canary-islands": {
+    "prev": "mx/cam",
+    "next": "es/cantabria",
+    "cat": "subdivisions"
+  },
+  "es/cantabria": {
+    "prev": "es/canary-islands",
     "next": "ch/aargau",
     "cat": "subdivisions"
   },
   "ch/aargau": {
-    "prev": "mx/cam",
+    "prev": "es/cantabria",
     "next": "ch/appenzell-ar",
     "cat": "subdivisions"
   },
@@ -2166,21 +2191,41 @@
   },
   "ch/zurich": {
     "prev": "ch/zug",
+    "next": "es/castile-leon",
+    "cat": "subdivisions"
+  },
+  "es/castile-leon": {
+    "prev": "ch/zurich",
+    "next": "es/castilla-la-mancha",
+    "cat": "subdivisions"
+  },
+  "es/castilla-la-mancha": {
+    "prev": "es/castile-leon",
+    "next": "es/catalonia",
+    "cat": "subdivisions"
+  },
+  "es/catalonia": {
+    "prev": "es/castilla-la-mancha",
     "next": "cayman-islands",
     "cat": "subdivisions"
   },
   "cayman-islands": {
-    "prev": "ch/zurich",
+    "prev": "es/catalonia",
     "next": "br/ce",
     "cat": "subdivisions"
   },
   "br/ce": {
     "prev": "cayman-islands",
+    "next": "es/ceuta",
+    "cat": "subdivisions"
+  },
+  "es/ceuta": {
+    "prev": "br/ce",
     "next": "in/chandigarh",
     "cat": "subdivisions"
   },
   "in/chandigarh": {
-    "prev": "br/ce",
+    "prev": "es/ceuta",
     "next": "mx/chp",
     "cat": "subdivisions"
   },
@@ -2211,11 +2256,16 @@
   },
   "us/colorado": {
     "prev": "mx/col",
+    "next": "es/madrid",
+    "cat": "subdivisions"
+  },
+  "es/madrid": {
+    "prev": "us/colorado",
     "next": "us/connecticut",
     "cat": "subdivisions"
   },
   "us/connecticut": {
-    "prev": "us/colorado",
+    "prev": "es/madrid",
     "next": "uk/cornwall",
     "cat": "subdivisions"
   },
@@ -2266,11 +2316,16 @@
   },
   "br/es": {
     "prev": "uk/england",
+    "next": "es/extremadura",
+    "cat": "subdivisions"
+  },
+  "es/extremadura": {
+    "prev": "br/es",
     "next": "us/florida",
     "cat": "subdivisions"
   },
   "us/florida": {
-    "prev": "br/es",
+    "prev": "es/extremadura",
     "next": "jp/fukui",
     "cat": "subdivisions"
   },
@@ -2286,11 +2341,16 @@
   },
   "jp/fukushima": {
     "prev": "jp/fukuoka",
+    "next": "es/galicia",
+    "cat": "subdivisions"
+  },
+  "es/galicia": {
+    "prev": "jp/fukushima",
     "next": "us/georgia",
     "cat": "subdivisions"
   },
   "us/georgia": {
-    "prev": "jp/fukushima",
+    "prev": "es/galicia",
     "next": "gibraltar",
     "cat": "subdivisions"
   },
@@ -2476,11 +2536,16 @@
   },
   "jp/kyoto": {
     "prev": "jp/kumamoto",
+    "next": "es/la-rioja",
+    "cat": "subdivisions"
+  },
+  "es/la-rioja": {
+    "prev": "jp/kyoto",
     "next": "in/ladakh",
     "cat": "subdivisions"
   },
   "in/ladakh": {
-    "prev": "jp/kyoto",
+    "prev": "es/la-rioja",
     "next": "us/louisiana",
     "cat": "subdivisions"
   },
@@ -2546,11 +2611,16 @@
   },
   "de/mecklenburg-vorpommern": {
     "prev": "br/ms",
+    "next": "es/melilla",
+    "cat": "subdivisions"
+  },
+  "es/melilla": {
+    "prev": "de/mecklenburg-vorpommern",
     "next": "mx/cmx",
     "cat": "subdivisions"
   },
   "mx/cmx": {
-    "prev": "de/mecklenburg-vorpommern",
+    "prev": "es/melilla",
     "next": "us/michigan",
     "cat": "subdivisions"
   },
@@ -2631,11 +2701,16 @@
   },
   "jp/nara": {
     "prev": "jp/nagasaki",
+    "next": "es/navarre",
+    "cat": "subdivisions"
+  },
+  "es/navarre": {
+    "prev": "jp/nara",
     "next": "mx/nay",
     "cat": "subdivisions"
   },
   "mx/nay": {
-    "prev": "jp/nara",
+    "prev": "es/navarre",
     "next": "us/nebraska",
     "cat": "subdivisions"
   },
@@ -2826,11 +2901,16 @@
   },
   "in/rajasthan": {
     "prev": "mx/qr",
+    "next": "es/murcia",
+    "cat": "subdivisions"
+  },
+  "es/murcia": {
+    "prev": "in/rajasthan",
     "next": "de/rhineland-palatinate",
     "cat": "subdivisions"
   },
   "de/rhineland-palatinate": {
-    "prev": "in/rajasthan",
+    "prev": "es/murcia",
     "next": "us/rhode-island",
     "cat": "subdivisions"
   },
@@ -3081,11 +3161,16 @@
   },
   "in/uttarakhand": {
     "prev": "in/uttar-pradesh",
+    "next": "es/valencia",
+    "cat": "subdivisions"
+  },
+  "es/valencia": {
+    "prev": "in/uttarakhand",
     "next": "mx/ver",
     "cat": "subdivisions"
   },
   "mx/ver": {
-    "prev": "in/uttarakhand",
+    "prev": "es/valencia",
     "next": "us/vermont",
     "cat": "subdivisions"
   },

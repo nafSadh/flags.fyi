@@ -576,6 +576,18 @@
     "keywords": "arab league flag of the league of arab states intl arab green gold"
   },
   {
+    "id": "es/aragon",
+    "name": "Aragon",
+    "title": "Flag of Aragon",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/spain-sub/aragon.svg",
+    "keywords": "aragon flag of aragon sub europe"
+  },
+  {
     "id": "argentina",
     "name": "Argentina",
     "title": "Flag of Argentina",
@@ -724,6 +736,18 @@
     "colors": [],
     "flag": "/india-sub/assam.svg",
     "keywords": "assam flag of assam sub asia"
+  },
+  {
+    "id": "es/asturias",
+    "name": "Asturias",
+    "title": "Flag of Asturias",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/spain-sub/asturias.svg",
+    "keywords": "asturias flag of asturias sub europe"
   },
   {
     "id": "australia",
@@ -896,6 +920,18 @@
     "colors": [],
     "flag": "/mexico-sub/bcs.svg",
     "keywords": "baja california sur flag of baja california sur sub north-america"
+  },
+  {
+    "id": "es/balearic-islands",
+    "name": "Balearic Islands",
+    "title": "Flag of Balearic Islands",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/spain-sub/balearic-islands.svg",
+    "keywords": "balearic islands flag of balearic islands sub europe"
   },
   {
     "id": "bangladesh",
@@ -1577,6 +1613,30 @@
     "keywords": "canada flag of canada north-america red white"
   },
   {
+    "id": "es/canary-islands",
+    "name": "Canary Islands",
+    "title": "Flag of Canary Islands",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/spain-sub/canary-islands.svg",
+    "keywords": "canary islands flag of canary islands sub europe"
+  },
+  {
+    "id": "es/cantabria",
+    "name": "Cantabria",
+    "title": "Flag of Cantabria",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/spain-sub/cantabria.svg",
+    "keywords": "cantabria flag of cantabria sub europe"
+  },
+  {
     "id": "ch/aargau",
     "name": "Canton of Aargau",
     "title": "Flag of Canton of Aargau",
@@ -1889,6 +1949,30 @@
     "keywords": "canton of zürich flag of canton of zürich sub europe"
   },
   {
+    "id": "es/castile-leon",
+    "name": "Castile and León",
+    "title": "Flag of Castile and León",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/spain-sub/castile-leon.svg",
+    "keywords": "castile and león flag of castile and león sub europe"
+  },
+  {
+    "id": "es/castilla-la-mancha",
+    "name": "Castilla-La Mancha",
+    "title": "Flag of Castilla-La Mancha",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/spain-sub/castilla-la-mancha.svg",
+    "keywords": "castilla-la mancha flag of castilla-la mancha sub europe"
+  },
+  {
     "id": "catalan",
     "name": "Catalan Senyera",
     "title": "The Senyera (Flag of Catalonia)",
@@ -1902,6 +1986,18 @@
     ],
     "flag": "/movements/catalan.svg",
     "keywords": "catalan senyera the senyera (flag of catalonia) pan europe yellow red"
+  },
+  {
+    "id": "es/catalonia",
+    "name": "Catalonia",
+    "title": "Flag of Catalonia",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/spain-sub/catalonia.svg",
+    "keywords": "catalonia flag of catalonia sub europe"
   },
   {
     "id": "cayman-islands",
@@ -1947,6 +2043,18 @@
     ],
     "flag": "/central-african-republic/flag.svg",
     "keywords": "central african republic flag of the central african republic national-flag africa blue white green yellow red"
+  },
+  {
+    "id": "es/ceuta",
+    "name": "Ceuta",
+    "title": "Flag of Ceuta",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/spain-sub/ceuta.svg",
+    "keywords": "ceuta flag of ceuta sub europe"
   },
   {
     "id": "chad",
@@ -2109,6 +2217,18 @@
     ],
     "flag": "/intl/commonwealth.svg",
     "keywords": "commonwealth of nations flag of the commonwealth of nations intl blue gold"
+  },
+  {
+    "id": "es/madrid",
+    "name": "Community of Madrid",
+    "title": "Flag of Community of Madrid",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/spain-sub/madrid.svg",
+    "keywords": "community of madrid flag of community of madrid sub europe"
   },
   {
     "id": "comoros",
@@ -2974,6 +3094,18 @@
     "keywords": "european union flag of europe / european union intl europe blue gold"
   },
   {
+    "id": "es/extremadura",
+    "name": "Extremadura",
+    "title": "Flag of Extremadura",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/spain-sub/extremadura.svg",
+    "keywords": "extremadura flag of extremadura sub europe"
+  },
+  {
     "id": "fatimid",
     "name": "Fatimid Caliphate",
     "title": "Flag of the Fatimid Caliphate",
@@ -3215,6 +3347,18 @@
     ],
     "flag": "/gabon/flag.svg",
     "keywords": "gabon flag of the gabonese republic national-flag africa green yellow blue"
+  },
+  {
+    "id": "es/galicia",
+    "name": "Galicia",
+    "title": "Flag of Galicia",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/spain-sub/galicia.svg",
+    "keywords": "galicia flag of galicia sub europe"
   },
   {
     "id": "gambia",
@@ -4962,6 +5106,18 @@
     "keywords": "kyrgyzstan flag of the kyrgyz republic national-flag asia red yellow"
   },
   {
+    "id": "es/la-rioja",
+    "name": "La Rioja",
+    "title": "Flag of La Rioja",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/spain-sub/la-rioja.svg",
+    "keywords": "la rioja flag of la rioja sub europe"
+  },
+  {
     "id": "in/ladakh",
     "name": "Ladakh",
     "title": "Flag of Ladakh",
@@ -5586,6 +5742,18 @@
     "keywords": "mecklenburg-vorpommern flag of mecklenburg-vorpommern sub europe"
   },
   {
+    "id": "es/melilla",
+    "name": "Melilla",
+    "title": "Flag of Melilla",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/spain-sub/melilla.svg",
+    "keywords": "melilla flag of melilla sub europe"
+  },
+  {
     "id": "merina",
     "name": "Merina Kingdom",
     "title": "Flag of the Merina Kingdom",
@@ -6113,6 +6281,18 @@
     ],
     "flag": "/nauru/flag.svg",
     "keywords": "nauru flag of the republic of nauru national-flag oceania blue yellow white"
+  },
+  {
+    "id": "es/navarre",
+    "name": "Navarre",
+    "title": "Flag of Navarre",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/spain-sub/navarre.svg",
+    "keywords": "navarre flag of navarre sub europe"
   },
   {
     "id": "mx/nay",
@@ -7377,6 +7557,18 @@
     ],
     "flag": "/maritime/red-ensign.svg",
     "keywords": "red ensign red ensign of the british merchant navy maritime red blue white"
+  },
+  {
+    "id": "es/murcia",
+    "name": "Region of Murcia",
+    "title": "Flag of Region of Murcia",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/spain-sub/murcia.svg",
+    "keywords": "region of murcia flag of region of murcia sub europe"
   },
   {
     "id": "florence",
@@ -9415,6 +9607,18 @@
     ],
     "flag": "/uzbekistan/flag.svg",
     "keywords": "uzbekistan flag of the republic of uzbekistan national-flag asia blue white green red"
+  },
+  {
+    "id": "es/valencia",
+    "name": "Valencian Community",
+    "title": "Flag of Valencian Community",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/spain-sub/valencia.svg",
+    "keywords": "valencian community flag of valencian community sub europe"
   },
   {
     "id": "vanuatu",

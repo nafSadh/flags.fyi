@@ -4169,6 +4169,125 @@
     "id": "es/basque",
     "index": "c/es/basque"
   },
+  "es/aragon": {
+    "g": "sub,europe",
+    "ns": "spain-sub",
+    "name": "Aragon",
+    "id": "es/aragon",
+    "index": "c/es/aragon"
+  },
+  "es/asturias": {
+    "g": "sub,europe",
+    "ns": "spain-sub",
+    "name": "Asturias",
+    "id": "es/asturias",
+    "index": "c/es/asturias"
+  },
+  "es/balearic-islands": {
+    "g": "sub,europe",
+    "ns": "spain-sub",
+    "name": "Balearic Islands",
+    "id": "es/balearic-islands",
+    "index": "c/es/balearic-islands"
+  },
+  "es/canary-islands": {
+    "g": "sub,europe",
+    "ns": "spain-sub",
+    "name": "Canary Islands",
+    "id": "es/canary-islands",
+    "index": "c/es/canary-islands"
+  },
+  "es/cantabria": {
+    "g": "sub,europe",
+    "ns": "spain-sub",
+    "name": "Cantabria",
+    "id": "es/cantabria",
+    "index": "c/es/cantabria"
+  },
+  "es/castile-leon": {
+    "g": "sub,europe",
+    "ns": "spain-sub",
+    "name": "Castile and León",
+    "id": "es/castile-leon",
+    "index": "c/es/castile-leon"
+  },
+  "es/castilla-la-mancha": {
+    "g": "sub,europe",
+    "ns": "spain-sub",
+    "name": "Castilla-La Mancha",
+    "id": "es/castilla-la-mancha",
+    "index": "c/es/castilla-la-mancha"
+  },
+  "es/catalonia": {
+    "g": "sub,europe",
+    "ns": "spain-sub",
+    "name": "Catalonia",
+    "id": "es/catalonia",
+    "index": "c/es/catalonia"
+  },
+  "es/extremadura": {
+    "g": "sub,europe",
+    "ns": "spain-sub",
+    "name": "Extremadura",
+    "id": "es/extremadura",
+    "index": "c/es/extremadura"
+  },
+  "es/galicia": {
+    "g": "sub,europe",
+    "ns": "spain-sub",
+    "name": "Galicia",
+    "id": "es/galicia",
+    "index": "c/es/galicia"
+  },
+  "es/la-rioja": {
+    "g": "sub,europe",
+    "ns": "spain-sub",
+    "name": "La Rioja",
+    "id": "es/la-rioja",
+    "index": "c/es/la-rioja"
+  },
+  "es/madrid": {
+    "g": "sub,europe",
+    "ns": "spain-sub",
+    "name": "Community of Madrid",
+    "id": "es/madrid",
+    "index": "c/es/madrid"
+  },
+  "es/murcia": {
+    "g": "sub,europe",
+    "ns": "spain-sub",
+    "name": "Region of Murcia",
+    "id": "es/murcia",
+    "index": "c/es/murcia"
+  },
+  "es/navarre": {
+    "g": "sub,europe",
+    "ns": "spain-sub",
+    "name": "Navarre",
+    "id": "es/navarre",
+    "index": "c/es/navarre"
+  },
+  "es/valencia": {
+    "g": "sub,europe",
+    "ns": "spain-sub",
+    "name": "Valencian Community",
+    "id": "es/valencia",
+    "index": "c/es/valencia"
+  },
+  "es/ceuta": {
+    "g": "sub,europe",
+    "ns": "spain-sub",
+    "name": "Ceuta",
+    "id": "es/ceuta",
+    "index": "c/es/ceuta"
+  },
+  "es/melilla": {
+    "g": "sub,europe",
+    "ns": "spain-sub",
+    "name": "Melilla",
+    "id": "es/melilla",
+    "index": "c/es/melilla"
+  },
   "es/andalusia": {
     "name": "Andalusia",
     "ns": "spain-sub",
