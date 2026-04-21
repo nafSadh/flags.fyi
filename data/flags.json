@@ -3231,6 +3231,111 @@
     "id": "de/prussia",
     "index": "c/de/prussia"
   },
+  "de/baden-wurttemberg": {
+    "g": "sub,europe",
+    "ns": "germany-sub",
+    "name": "Baden-Württemberg",
+    "id": "de/baden-wurttemberg",
+    "index": "c/de/baden-wurttemberg"
+  },
+  "de/berlin": {
+    "g": "sub,europe",
+    "ns": "germany-sub",
+    "name": "Berlin",
+    "id": "de/berlin",
+    "index": "c/de/berlin"
+  },
+  "de/brandenburg": {
+    "g": "sub,europe",
+    "ns": "germany-sub",
+    "name": "Brandenburg",
+    "id": "de/brandenburg",
+    "index": "c/de/brandenburg"
+  },
+  "de/bremen": {
+    "g": "sub,europe",
+    "ns": "germany-sub",
+    "name": "Bremen",
+    "id": "de/bremen",
+    "index": "c/de/bremen"
+  },
+  "de/hamburg": {
+    "g": "sub,europe",
+    "ns": "germany-sub",
+    "name": "Hamburg",
+    "id": "de/hamburg",
+    "index": "c/de/hamburg"
+  },
+  "de/hesse": {
+    "g": "sub,europe",
+    "ns": "germany-sub",
+    "name": "Hesse",
+    "id": "de/hesse",
+    "index": "c/de/hesse"
+  },
+  "de/mecklenburg-vorpommern": {
+    "g": "sub,europe",
+    "ns": "germany-sub",
+    "name": "Mecklenburg-Vorpommern",
+    "id": "de/mecklenburg-vorpommern",
+    "index": "c/de/mecklenburg-vorpommern"
+  },
+  "de/lower-saxony": {
+    "g": "sub,europe",
+    "ns": "germany-sub",
+    "name": "Lower Saxony",
+    "id": "de/lower-saxony",
+    "index": "c/de/lower-saxony"
+  },
+  "de/north-rhine-westphalia": {
+    "g": "sub,europe",
+    "ns": "germany-sub",
+    "name": "North Rhine-Westphalia",
+    "id": "de/north-rhine-westphalia",
+    "index": "c/de/north-rhine-westphalia"
+  },
+  "de/rhineland-palatinate": {
+    "g": "sub,europe",
+    "ns": "germany-sub",
+    "name": "Rhineland-Palatinate",
+    "id": "de/rhineland-palatinate",
+    "index": "c/de/rhineland-palatinate"
+  },
+  "de/saarland": {
+    "g": "sub,europe",
+    "ns": "germany-sub",
+    "name": "Saarland",
+    "id": "de/saarland",
+    "index": "c/de/saarland"
+  },
+  "de/saxony": {
+    "g": "sub,europe",
+    "ns": "germany-sub",
+    "name": "Saxony",
+    "id": "de/saxony",
+    "index": "c/de/saxony"
+  },
+  "de/saxony-anhalt": {
+    "g": "sub,europe",
+    "ns": "germany-sub",
+    "name": "Saxony-Anhalt",
+    "id": "de/saxony-anhalt",
+    "index": "c/de/saxony-anhalt"
+  },
+  "de/schleswig-holstein": {
+    "g": "sub,europe",
+    "ns": "germany-sub",
+    "name": "Schleswig-Holstein",
+    "id": "de/schleswig-holstein",
+    "index": "c/de/schleswig-holstein"
+  },
+  "de/thuringia": {
+    "g": "sub,europe",
+    "ns": "germany-sub",
+    "name": "Thuringia",
+    "id": "de/thuringia",
+    "index": "c/de/thuringia"
+  },
   "es/basque": {
     "name": "Basque Country (Ikurriña)",
     "ns": "spain-sub",

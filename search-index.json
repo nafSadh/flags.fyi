@@ -710,6 +710,18 @@
     "keywords": "azerbaijan flag of the republic of azerbaijan national-flag asia blue red green white"
   },
   {
+    "id": "de/baden-wurttemberg",
+    "name": "Baden-Württemberg",
+    "title": "Flag of Baden-Württemberg",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/germany-sub/baden-wurttemberg.svg",
+    "keywords": "baden-württemberg flag of baden-württemberg sub europe"
+  },
+  {
     "id": "bahamas",
     "name": "Bahamas",
     "title": "Flag of the Commonwealth of The Bahamas",
@@ -899,6 +911,18 @@
     "keywords": "benin flag of the republic of benin national-flag africa green yellow red"
   },
   {
+    "id": "de/berlin",
+    "name": "Berlin",
+    "title": "Flag of Berlin",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/germany-sub/berlin.svg",
+    "keywords": "berlin flag of berlin sub europe"
+  },
+  {
     "id": "bermuda",
     "name": "Bermuda",
     "title": "Flag of Bermuda",
@@ -1028,6 +1052,18 @@
     "keywords": "bourbon france flag of bourbon france historic former-flag europe white"
   },
   {
+    "id": "de/brandenburg",
+    "name": "Brandenburg",
+    "title": "Flag of Brandenburg",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/germany-sub/brandenburg.svg",
+    "keywords": "brandenburg flag of brandenburg sub europe"
+  },
+  {
     "id": "brazil",
     "name": "Brazil",
     "title": "Flag of Brazil",
@@ -1059,6 +1095,18 @@
     ],
     "flag": "/brazil-hist/br-provisional.svg",
     "keywords": "brazilian provisional republic flag of the provisional republic of brazil historic former-flag south-america green yellow blue"
+  },
+  {
+    "id": "de/bremen",
+    "name": "Bremen",
+    "title": "Flag of Bremen",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/germany-sub/bremen.svg",
+    "keywords": "bremen flag of bremen sub europe"
   },
   {
     "id": "british-antarctic-territory",
@@ -3231,6 +3279,18 @@
     "keywords": "haiti flag of the republic of haiti national-flag caribbean blue red white"
   },
   {
+    "id": "de/hamburg",
+    "name": "Hamburg",
+    "title": "Flag of Hamburg",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/germany-sub/hamburg.svg",
+    "keywords": "hamburg flag of hamburg sub europe"
+  },
+  {
     "id": "iraq-hashemite",
     "name": "Hashemite Iraq",
     "title": "Hashemite Kingdom of Iraq",
@@ -3262,6 +3322,18 @@
     ],
     "flag": "/us-states/hawaii.svg",
     "keywords": "hawaii flag of hawaii sub north-america oceania blue red white"
+  },
+  {
+    "id": "de/hesse",
+    "name": "Hesse",
+    "title": "Flag of Hesse",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/germany-sub/hesse.svg",
+    "keywords": "hesse flag of hesse sub europe"
   },
   {
     "id": "jp/hiroshima",
@@ -4554,6 +4626,18 @@
     "keywords": "lithuania flag of the republic of lithuania national-flag europe yellow green red"
   },
   {
+    "id": "de/lower-saxony",
+    "name": "Lower Saxony",
+    "title": "Flag of Lower Saxony",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/germany-sub/lower-saxony.svg",
+    "keywords": "lower saxony flag of lower saxony sub europe"
+  },
+  {
     "id": "luxembourg",
     "name": "Luxembourg",
     "title": "Flag of the Grand Duchy of Luxembourg",
@@ -4852,6 +4936,18 @@
     ],
     "flag": "/comoros/mayotte.svg",
     "keywords": "mayotte flag of mayotte — disputed comoros territory africa white"
+  },
+  {
+    "id": "de/mecklenburg-vorpommern",
+    "name": "Mecklenburg-Vorpommern",
+    "title": "Flag of Mecklenburg-Vorpommern",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/germany-sub/mecklenburg-vorpommern.svg",
+    "keywords": "mecklenburg-vorpommern flag of mecklenburg-vorpommern sub europe"
   },
   {
     "id": "merina",
@@ -5457,6 +5553,18 @@
     ],
     "flag": "/north-macedonia/flag.svg",
     "keywords": "north macedonia flag of the republic of north macedonia national-flag europe red yellow"
+  },
+  {
+    "id": "de/north-rhine-westphalia",
+    "name": "North Rhine-Westphalia",
+    "title": "Flag of North Rhine-Westphalia",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/germany-sub/north-rhine-westphalia.svg",
+    "keywords": "north rhine-westphalia flag of north rhine-westphalia sub europe"
   },
   {
     "id": "north-yemen",
@@ -6347,6 +6455,18 @@
     "keywords": "republic of venice flag of the republic of venice historic empire europe red gold"
   },
   {
+    "id": "de/rhineland-palatinate",
+    "name": "Rhineland-Palatinate",
+    "title": "Flag of Rhineland-Palatinate",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/germany-sub/rhineland-palatinate.svg",
+    "keywords": "rhineland-palatinate flag of rhineland-palatinate sub europe"
+  },
+  {
     "id": "roman-empire",
     "name": "Roman Empire",
     "title": "Vexillum of the Roman Empire",
@@ -6439,6 +6559,18 @@
     ],
     "flag": "/rwanda/flag.svg",
     "keywords": "rwanda flag of the republic of rwanda national-flag africa blue yellow green yellow-sun"
+  },
+  {
+    "id": "de/saarland",
+    "name": "Saarland",
+    "title": "Flag of Saarland",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/germany-sub/saarland.svg",
+    "keywords": "saarland flag of saarland sub europe"
   },
   {
     "id": "safavid",
@@ -6665,6 +6797,42 @@
     ],
     "flag": "/saudi-arabia/flag.svg",
     "keywords": "saudi arabia flag of saudi arabia national-flag asia arab gulf green white"
+  },
+  {
+    "id": "de/saxony",
+    "name": "Saxony",
+    "title": "Flag of Saxony",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/germany-sub/saxony.svg",
+    "keywords": "saxony flag of saxony sub europe"
+  },
+  {
+    "id": "de/saxony-anhalt",
+    "name": "Saxony-Anhalt",
+    "title": "Flag of Saxony-Anhalt",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/germany-sub/saxony-anhalt.svg",
+    "keywords": "saxony-anhalt flag of saxony-anhalt sub europe"
+  },
+  {
+    "id": "de/schleswig-holstein",
+    "name": "Schleswig-Holstein",
+    "title": "Flag of Schleswig-Holstein",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/germany-sub/schleswig-holstein.svg",
+    "keywords": "schleswig-holstein flag of schleswig-holstein sub europe"
   },
   {
     "id": "uk/scotland",
@@ -7438,6 +7606,18 @@
     ],
     "flag": "/thailand/flag.svg",
     "keywords": "thailand flag of thailand (thong trairong) asia southeast-asia red white dark blue"
+  },
+  {
+    "id": "de/thuringia",
+    "name": "Thuringia",
+    "title": "Flag of Thuringia",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/germany-sub/thuringia.svg",
+    "keywords": "thuringia flag of thuringia sub europe"
   },
   {
     "id": "tibetan",

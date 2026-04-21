@@ -1901,26 +1901,46 @@
   },
   "ascension-island": {
     "prev": "us/arizona",
+    "next": "de/baden-wurttemberg",
+    "cat": "subdivisions"
+  },
+  "de/baden-wurttemberg": {
+    "prev": "ascension-island",
     "next": "es/basque",
     "cat": "subdivisions"
   },
   "es/basque": {
-    "prev": "ascension-island",
+    "prev": "de/baden-wurttemberg",
     "next": "de/bavaria",
     "cat": "subdivisions"
   },
   "de/bavaria": {
     "prev": "es/basque",
+    "next": "de/berlin",
+    "cat": "subdivisions"
+  },
+  "de/berlin": {
+    "prev": "de/bavaria",
     "next": "bermuda",
     "cat": "subdivisions"
   },
   "bermuda": {
-    "prev": "de/bavaria",
+    "prev": "de/berlin",
+    "next": "de/brandenburg",
+    "cat": "subdivisions"
+  },
+  "de/brandenburg": {
+    "prev": "bermuda",
+    "next": "de/bremen",
+    "cat": "subdivisions"
+  },
+  "de/bremen": {
+    "prev": "de/brandenburg",
     "next": "ca/british-columbia",
     "cat": "subdivisions"
   },
   "ca/british-columbia": {
-    "prev": "bermuda",
+    "prev": "de/bremen",
     "next": "british-antarctic-territory",
     "cat": "subdivisions"
   },
@@ -2156,16 +2176,26 @@
   },
   "jp/gunma": {
     "prev": "guernsey",
+    "next": "de/hamburg",
+    "cat": "subdivisions"
+  },
+  "de/hamburg": {
+    "prev": "jp/gunma",
     "next": "us/hawaii",
     "cat": "subdivisions"
   },
   "us/hawaii": {
-    "prev": "jp/gunma",
+    "prev": "de/hamburg",
+    "next": "de/hesse",
+    "cat": "subdivisions"
+  },
+  "de/hesse": {
+    "prev": "us/hawaii",
     "next": "jp/hiroshima",
     "cat": "subdivisions"
   },
   "jp/hiroshima": {
-    "prev": "us/hawaii",
+    "prev": "de/hesse",
     "next": "jp/hokkaido",
     "cat": "subdivisions"
   },
@@ -2231,21 +2261,31 @@
   },
   "jp/kyoto": {
     "prev": "jp/kumamoto",
+    "next": "de/lower-saxony",
+    "cat": "subdivisions"
+  },
+  "de/lower-saxony": {
+    "prev": "jp/kyoto",
     "next": "mann",
     "cat": "subdivisions"
   },
   "mann": {
-    "prev": "jp/kyoto",
+    "prev": "de/lower-saxony",
     "next": "us/maryland",
     "cat": "subdivisions"
   },
   "us/maryland": {
     "prev": "mann",
+    "next": "de/mecklenburg-vorpommern",
+    "cat": "subdivisions"
+  },
+  "de/mecklenburg-vorpommern": {
+    "prev": "us/maryland",
     "next": "jp/mie",
     "cat": "subdivisions"
   },
   "jp/mie": {
-    "prev": "us/maryland",
+    "prev": "de/mecklenburg-vorpommern",
     "next": "us/mississippi",
     "cat": "subdivisions"
   },
@@ -2301,11 +2341,16 @@
   },
   "jp/niigata": {
     "prev": "us/new-york",
+    "next": "de/north-rhine-westphalia",
+    "cat": "subdivisions"
+  },
+  "de/north-rhine-westphalia": {
+    "prev": "jp/niigata",
     "next": "uk/northern-ireland",
     "cat": "subdivisions"
   },
   "uk/northern-ireland": {
-    "prev": "jp/niigata",
+    "prev": "de/north-rhine-westphalia",
     "next": "us/ohio",
     "cat": "subdivisions"
   },
@@ -2356,11 +2401,21 @@
   },
   "ca/quebec": {
     "prev": "us/puerto-rico",
+    "next": "de/rhineland-palatinate",
+    "cat": "subdivisions"
+  },
+  "de/rhineland-palatinate": {
+    "prev": "ca/quebec",
+    "next": "de/saarland",
+    "cat": "subdivisions"
+  },
+  "de/saarland": {
+    "prev": "de/rhineland-palatinate",
     "next": "jp/saga",
     "cat": "subdivisions"
   },
   "jp/saga": {
-    "prev": "ca/quebec",
+    "prev": "de/saarland",
     "next": "saint-helena",
     "cat": "subdivisions"
   },
@@ -2376,11 +2431,26 @@
   },
   "sark": {
     "prev": "jp/saitama",
+    "next": "de/saxony",
+    "cat": "subdivisions"
+  },
+  "de/saxony": {
+    "prev": "sark",
+    "next": "de/saxony-anhalt",
+    "cat": "subdivisions"
+  },
+  "de/saxony-anhalt": {
+    "prev": "de/saxony",
+    "next": "de/schleswig-holstein",
+    "cat": "subdivisions"
+  },
+  "de/schleswig-holstein": {
+    "prev": "de/saxony-anhalt",
     "next": "uk/scotland",
     "cat": "subdivisions"
   },
   "uk/scotland": {
-    "prev": "sark",
+    "prev": "de/schleswig-holstein",
     "next": "jp/shiga",
     "cat": "subdivisions"
   },
@@ -2421,11 +2491,16 @@
   },
   "us/texas": {
     "prev": "in/tamil-nadu",
+    "next": "de/thuringia",
+    "cat": "subdivisions"
+  },
+  "de/thuringia": {
+    "prev": "us/texas",
     "next": "jp/tochigi",
     "cat": "subdivisions"
   },
   "jp/tochigi": {
-    "prev": "us/texas",
+    "prev": "de/thuringia",
     "next": "jp/tokushima",
     "cat": "subdivisions"
   },
