@@ -1057,6 +1057,18 @@
     "keywords": "azores flag of azores sub europe"
   },
   {
+    "id": "hu/bacs-kiskun",
+    "name": "Bacs Kiskun",
+    "title": "Flag of Bacs Kiskun",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/hungary-sub/bacs-kiskun.svg",
+    "keywords": "bacs kiskun flag of bacs kiskun sub europe"
+  },
+  {
     "id": "de/baden-wurttemberg",
     "name": "Baden-Württemberg",
     "title": "Flag of Baden-Württemberg",
@@ -1241,6 +1253,18 @@
     "colors": [],
     "flag": "/indonesia-sub/banten.svg",
     "keywords": "banten flag of banten sub asia"
+  },
+  {
+    "id": "hu/baranya",
+    "name": "Baranya",
+    "title": "Flag of Baranya",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/hungary-sub/baranya.svg",
+    "keywords": "baranya flag of baranya sub europe"
   },
   {
     "id": "barbados",
@@ -1877,6 +1901,30 @@
     "keywords": "bucharest flag of bucharest city"
   },
   {
+    "id": "ro/bucharest-ro",
+    "name": "Bucharest Ro",
+    "title": "Flag of Bucharest Ro",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/romania-sub/bucharest-ro.svg",
+    "keywords": "bucharest ro flag of bucharest ro sub europe"
+  },
+  {
+    "id": "hu/budapest",
+    "name": "Budapest",
+    "title": "Flag of Budapest",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/hungary-sub/budapest.svg",
+    "keywords": "budapest flag of budapest sub europe"
+  },
+  {
     "id": "budapest",
     "name": "Budapest",
     "title": "Flag of Budapest",
@@ -1925,6 +1973,18 @@
     ],
     "flag": "/bulgaria/flag.svg",
     "keywords": "bulgaria flag of the republic of bulgaria national-flag europe white green red"
+  },
+  {
+    "id": "at/burgenland",
+    "name": "Burgenland",
+    "title": "Flag of Burgenland",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/austria-sub/burgenland.svg",
+    "keywords": "burgenland flag of burgenland sub europe"
   },
   {
     "id": "burkina-faso",
@@ -2489,6 +2549,18 @@
     "colors": [],
     "flag": "/cities/caracas.svg",
     "keywords": "caracas flag of caracas city"
+  },
+  {
+    "id": "at/carinthia",
+    "name": "Carinthia",
+    "title": "Flag of Carinthia",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/austria-sub/carinthia.svg",
+    "keywords": "carinthia flag of carinthia sub europe"
   },
   {
     "id": "es/castile-leon",
@@ -6238,6 +6310,18 @@
     "keywords": "kansas flag of kansas sub north-america"
   },
   {
+    "id": "cz/karlovy-vary",
+    "name": "Karlovy Vary",
+    "title": "Flag of Karlovy Vary",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/czech-sub/karlovy-vary.svg",
+    "keywords": "karlovy vary flag of karlovy vary sub europe"
+  },
+  {
     "id": "in/karnataka",
     "name": "Karnataka",
     "title": "Flag of Karnataka",
@@ -7113,6 +7197,18 @@
     "keywords": "lesser poland voivodeship flag of lesser poland voivodeship sub europe"
   },
   {
+    "id": "cz/liberec",
+    "name": "Liberec",
+    "title": "Flag of Liberec",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/czech-sub/liberec.svg",
+    "keywords": "liberec flag of liberec sub europe"
+  },
+  {
     "id": "liberia",
     "name": "Liberia",
     "title": "Flag of the Republic of Liberia",
@@ -7353,6 +7449,18 @@
     "colors": [],
     "flag": "/us-states/louisiana.svg",
     "keywords": "louisiana flag of louisiana sub north-america"
+  },
+  {
+    "id": "at/lower-austria",
+    "name": "Lower Austria",
+    "title": "Flag of Lower Austria",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/austria-sub/lower-austria.svg",
+    "keywords": "lower austria flag of lower austria sub europe"
   },
   {
     "id": "de/lower-saxony",
@@ -7731,6 +7839,18 @@
     "colors": [],
     "flag": "/british/mann.svg",
     "keywords": "mann (isle of man) flag of the isle of man british-overseas"
+  },
+  {
+    "id": "ro/maramures",
+    "name": "Maramures",
+    "title": "Flag of Maramures",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/romania-sub/maramures.svg",
+    "keywords": "maramures flag of maramures sub europe"
   },
   {
     "id": "br/ma",
@@ -8380,6 +8500,18 @@
     ],
     "flag": "/british/montserrat.svg",
     "keywords": "montserrat flag of montserrat british-overseas blue red white"
+  },
+  {
+    "id": "cz/moravian-silesian",
+    "name": "Moravian Silesian",
+    "title": "Flag of Moravian Silesian",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/czech-sub/moravian-silesian.svg",
+    "keywords": "moravian silesian flag of moravian silesian sub europe"
   },
   {
     "id": "ru/mordovia",
@@ -9378,6 +9510,18 @@
     "keywords": "oklahoma flag of oklahoma sub north-america"
   },
   {
+    "id": "cz/olomouc",
+    "name": "Olomouc",
+    "title": "Flag of Olomouc",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/czech-sub/olomouc.svg",
+    "keywords": "olomouc flag of olomouc sub europe"
+  },
+  {
     "id": "olympic",
     "name": "Olympic Flag",
     "title": "The Olympic Flag",
@@ -9875,6 +10019,18 @@
     "keywords": "paraná flag of paraná sub south-america"
   },
   {
+    "id": "cz/pardubice",
+    "name": "Pardubice",
+    "title": "Flag of Pardubice",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/czech-sub/pardubice.svg",
+    "keywords": "pardubice flag of pardubice sub europe"
+  },
+  {
     "id": "paris",
     "name": "Paris",
     "title": "Flag of Paris",
@@ -10185,6 +10341,18 @@
     ],
     "flag": "/portugal/flag.svg",
     "keywords": "portugal flag of portugal europe green red yellow"
+  },
+  {
+    "id": "cz/prague",
+    "name": "Prague",
+    "title": "Flag of Prague",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/czech-sub/prague.svg",
+    "keywords": "prague flag of prague sub europe"
   },
   {
     "id": "prague",
@@ -11082,6 +11250,18 @@
     "keywords": "salta flag of salta sub south-america"
   },
   {
+    "id": "at/salzburg",
+    "name": "Salzburg",
+    "title": "Flag of Salzburg",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/austria-sub/salzburg.svg",
+    "keywords": "salzburg flag of salzburg sub europe"
+  },
+  {
     "id": "samanid",
     "name": "Samanid Empire",
     "title": "Flag of the Samanid Empire",
@@ -11887,6 +12067,18 @@
     "keywords": "south australia flag of south australia sub oceania"
   },
   {
+    "id": "cz/south-bohemia",
+    "name": "South Bohemia",
+    "title": "Flag of South Bohemia",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/czech-sub/south-bohemia.svg",
+    "keywords": "south bohemia flag of south bohemia sub europe"
+  },
+  {
     "id": "us/south-carolina",
     "name": "South Carolina",
     "title": "Flag of South Carolina",
@@ -11951,6 +12143,18 @@
     "colors": [],
     "flag": "/indonesia-sub/south-kalimantan.svg",
     "keywords": "south kalimantan flag of south kalimantan sub asia"
+  },
+  {
+    "id": "cz/south-moravia",
+    "name": "South Moravia",
+    "title": "Flag of South Moravia",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/czech-sub/south-moravia.svg",
+    "keywords": "south moravia flag of south moravia sub europe"
   },
   {
     "id": "south-sudan",
@@ -12145,6 +12349,18 @@
     "colors": [],
     "flag": "/russia-sub/stavropol-krai.svg",
     "keywords": "stavropol krai flag of stavropol krai sub europe asia"
+  },
+  {
+    "id": "at/styria",
+    "name": "Styria",
+    "title": "Flag of Styria",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/austria-sub/styria.svg",
+    "keywords": "styria flag of styria sub europe"
   },
   {
     "id": "pl/subcarpathian",
@@ -13248,6 +13464,18 @@
     "keywords": "united states flag of the united states of america national-flag north-america red (old glory red) white blue (old glory blue)"
   },
   {
+    "id": "at/upper-austria",
+    "name": "Upper Austria",
+    "title": "Flag of Upper Austria",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/austria-sub/upper-austria.svg",
+    "keywords": "upper austria flag of upper austria sub europe"
+  },
+  {
     "id": "uruguay",
     "name": "Uruguay",
     "title": "Flag of the Oriental Republic of Uruguay",
@@ -13478,6 +13706,18 @@
     "keywords": "vienna flag of vienna city"
   },
   {
+    "id": "at/vienna-state",
+    "name": "Vienna State",
+    "title": "Flag of Vienna State",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/austria-sub/vienna-state.svg",
+    "keywords": "vienna state flag of vienna state sub europe"
+  },
+  {
     "id": "vietnam",
     "name": "Vietnam",
     "title": "Flag of Vietnam",
@@ -13577,6 +13817,18 @@
     "colors": [],
     "flag": "/ukraine-sub/volyn.svg",
     "keywords": "volyn flag of volyn sub europe"
+  },
+  {
+    "id": "at/vorarlberg",
+    "name": "Vorarlberg",
+    "title": "Flag of Vorarlberg",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/austria-sub/vorarlberg.svg",
+    "keywords": "vorarlberg flag of vorarlberg sub europe"
   },
   {
     "id": "ru/voronezh-oblast",

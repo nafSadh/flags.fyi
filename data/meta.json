@@ -2331,11 +2331,16 @@
   },
   "pt/azores": {
     "prev": "fr/auvergne-rhone-alpes",
+    "next": "hu/bacs-kiskun",
+    "cat": "subdivisions"
+  },
+  "hu/bacs-kiskun": {
+    "prev": "pt/azores",
     "next": "de/baden-wurttemberg",
     "cat": "subdivisions"
   },
   "de/baden-wurttemberg": {
-    "prev": "pt/azores",
+    "prev": "hu/bacs-kiskun",
     "next": "br/ba",
     "cat": "subdivisions"
   },
@@ -2371,11 +2376,16 @@
   },
   "id/banten": {
     "prev": "ph/bangsamoro",
+    "next": "hu/baranya",
+    "cat": "subdivisions"
+  },
+  "hu/baranya": {
+    "prev": "id/banten",
     "next": "ru/bashkortostan",
     "cat": "subdivisions"
   },
   "ru/bashkortostan": {
-    "prev": "id/banten",
+    "prev": "hu/baranya",
     "next": "it/basilicata",
     "cat": "subdivisions"
   },
@@ -2471,16 +2481,31 @@
   },
   "ru/bryansk-oblast": {
     "prev": "be/brussels-capital",
+    "next": "ro/bucharest-ro",
+    "cat": "subdivisions"
+  },
+  "ro/bucharest-ro": {
+    "prev": "ru/bryansk-oblast",
+    "next": "hu/budapest",
+    "cat": "subdivisions"
+  },
+  "hu/budapest": {
+    "prev": "ro/bucharest-ro",
     "next": "ar/buenos-aires",
     "cat": "subdivisions"
   },
   "ar/buenos-aires": {
-    "prev": "ru/bryansk-oblast",
+    "prev": "hu/budapest",
+    "next": "at/burgenland",
+    "cat": "subdivisions"
+  },
+  "at/burgenland": {
+    "prev": "ar/buenos-aires",
     "next": "ru/buryatia",
     "cat": "subdivisions"
   },
   "ru/buryatia": {
-    "prev": "ar/buenos-aires",
+    "prev": "at/burgenland",
     "next": "it/calabria",
     "cat": "subdivisions"
   },
@@ -2641,11 +2666,16 @@
   },
   "ch/zurich": {
     "prev": "ch/zug",
+    "next": "at/carinthia",
+    "cat": "subdivisions"
+  },
+  "at/carinthia": {
+    "prev": "ch/zurich",
     "next": "es/castile-leon",
     "cat": "subdivisions"
   },
   "es/castile-leon": {
-    "prev": "ch/zurich",
+    "prev": "at/carinthia",
     "next": "es/castilla-la-mancha",
     "cat": "subdivisions"
   },
@@ -3236,11 +3266,16 @@
   },
   "us/kansas": {
     "prev": "jp/kanagawa",
+    "next": "cz/karlovy-vary",
+    "cat": "subdivisions"
+  },
+  "cz/karlovy-vary": {
+    "prev": "us/kansas",
     "next": "in/karnataka",
     "cat": "subdivisions"
   },
   "in/karnataka": {
-    "prev": "us/kansas",
+    "prev": "cz/karlovy-vary",
     "next": "ru/kemerovo-oblast",
     "cat": "subdivisions"
   },
@@ -3371,11 +3406,16 @@
   },
   "pl/lesser-poland": {
     "prev": "ru/leningrad-oblast",
+    "next": "cz/liberec",
+    "cat": "subdivisions"
+  },
+  "cz/liberec": {
+    "prev": "pl/lesser-poland",
     "next": "it/liguria",
     "cat": "subdivisions"
   },
   "it/liguria": {
-    "prev": "pl/lesser-poland",
+    "prev": "cz/liberec",
     "next": "nl/limburg",
     "cat": "subdivisions"
   },
@@ -3406,11 +3446,16 @@
   },
   "us/louisiana": {
     "prev": "it/lombardy",
+    "next": "at/lower-austria",
+    "cat": "subdivisions"
+  },
+  "at/lower-austria": {
+    "prev": "us/louisiana",
     "next": "de/lower-saxony",
     "cat": "subdivisions"
   },
   "de/lower-saxony": {
-    "prev": "us/louisiana",
+    "prev": "at/lower-austria",
     "next": "pl/lower-silesian",
     "cat": "subdivisions"
   },
@@ -3481,11 +3526,16 @@
   },
   "mann": {
     "prev": "ca/manitoba",
+    "next": "ro/maramures",
+    "cat": "subdivisions"
+  },
+  "ro/maramures": {
+    "prev": "mann",
     "next": "br/ma",
     "cat": "subdivisions"
   },
   "br/ma": {
-    "prev": "mann",
+    "prev": "ro/maramures",
     "next": "it/marche",
     "cat": "subdivisions"
   },
@@ -3611,11 +3661,16 @@
   },
   "montserrat": {
     "prev": "us/montana",
+    "next": "cz/moravian-silesian",
+    "cat": "subdivisions"
+  },
+  "cz/moravian-silesian": {
+    "prev": "montserrat",
     "next": "ru/mordovia",
     "cat": "subdivisions"
   },
   "ru/mordovia": {
-    "prev": "montserrat",
+    "prev": "cz/moravian-silesian",
     "next": "mx/mor",
     "cat": "subdivisions"
   },
@@ -3866,11 +3921,16 @@
   },
   "us/oklahoma": {
     "prev": "jp/okinawa",
+    "next": "cz/olomouc",
+    "cat": "subdivisions"
+  },
+  "cz/olomouc": {
+    "prev": "us/oklahoma",
     "next": "ru/omsk-oblast",
     "cat": "subdivisions"
   },
   "ru/omsk-oblast": {
-    "prev": "us/oklahoma",
+    "prev": "cz/olomouc",
     "next": "ca/ontario",
     "cat": "subdivisions"
   },
@@ -3926,11 +3986,16 @@
   },
   "br/pr": {
     "prev": "br/pb",
+    "next": "cz/pardubice",
+    "cat": "subdivisions"
+  },
+  "cz/pardubice": {
+    "prev": "br/pr",
     "next": "fr/pays-de-la-loire",
     "cat": "subdivisions"
   },
   "fr/pays-de-la-loire": {
-    "prev": "br/pr",
+    "prev": "cz/pardubice",
     "next": "us/pennsylvania",
     "cat": "subdivisions"
   },
@@ -3981,11 +4046,16 @@
   },
   "pl/pomeranian": {
     "prev": "ua/poltava",
+    "next": "cz/prague",
+    "cat": "subdivisions"
+  },
+  "cz/prague": {
+    "prev": "pl/pomeranian",
     "next": "ru/primorsky-krai",
     "cat": "subdivisions"
   },
   "ru/primorsky-krai": {
-    "prev": "pl/pomeranian",
+    "prev": "cz/prague",
     "next": "ca/prince-edward-island",
     "cat": "subdivisions"
   },
@@ -4146,11 +4216,16 @@
   },
   "ar/salta": {
     "prev": "ru/sakhalin-oblast",
+    "next": "at/salzburg",
+    "cat": "subdivisions"
+  },
+  "at/salzburg": {
+    "prev": "ar/salta",
     "next": "ru/samara-oblast",
     "cat": "subdivisions"
   },
   "ru/samara-oblast": {
-    "prev": "ar/salta",
+    "prev": "at/salzburg",
     "next": "ar/san-juan",
     "cat": "subdivisions"
   },
@@ -4291,11 +4366,16 @@
   },
   "au/south-australia": {
     "prev": "mx/son",
+    "next": "cz/south-bohemia",
+    "cat": "subdivisions"
+  },
+  "cz/south-bohemia": {
+    "prev": "au/south-australia",
     "next": "us/south-carolina",
     "cat": "subdivisions"
   },
   "us/south-carolina": {
-    "prev": "au/south-australia",
+    "prev": "cz/south-bohemia",
     "next": "us/south-dakota",
     "cat": "subdivisions"
   },
@@ -4316,11 +4396,16 @@
   },
   "id/south-kalimantan": {
     "prev": "nl/south-holland",
+    "next": "cz/south-moravia",
+    "cat": "subdivisions"
+  },
+  "cz/south-moravia": {
+    "prev": "id/south-kalimantan",
     "next": "id/south-sulawesi",
     "cat": "subdivisions"
   },
   "id/south-sulawesi": {
-    "prev": "id/south-kalimantan",
+    "prev": "cz/south-moravia",
     "next": "id/south-sumatra",
     "cat": "subdivisions"
   },
@@ -4341,11 +4426,16 @@
   },
   "ru/stavropol-krai": {
     "prev": "mx/mex",
+    "next": "at/styria",
+    "cat": "subdivisions"
+  },
+  "at/styria": {
+    "prev": "ru/stavropol-krai",
     "next": "pl/subcarpathian",
     "cat": "subdivisions"
   },
   "pl/subcarpathian": {
-    "prev": "ru/stavropol-krai",
+    "prev": "at/styria",
     "next": "ua/sumy",
     "cat": "subdivisions"
   },
@@ -4531,11 +4621,16 @@
   },
   "it/umbria": {
     "prev": "ru/ulyanovsk-oblast",
+    "next": "at/upper-austria",
+    "cat": "subdivisions"
+  },
+  "at/upper-austria": {
+    "prev": "it/umbria",
     "next": "us/utah",
     "cat": "subdivisions"
   },
   "us/utah": {
-    "prev": "it/umbria",
+    "prev": "at/upper-austria",
     "next": "nl/utrecht",
     "cat": "subdivisions"
   },
@@ -4576,11 +4671,16 @@
   },
   "au/victoria": {
     "prev": "us/vermont",
+    "next": "at/vienna-state",
+    "cat": "subdivisions"
+  },
+  "at/vienna-state": {
+    "prev": "au/victoria",
     "next": "ua/vinnytsia",
     "cat": "subdivisions"
   },
   "ua/vinnytsia": {
-    "prev": "au/victoria",
+    "prev": "at/vienna-state",
     "next": "us/virginia",
     "cat": "subdivisions"
   },
@@ -4606,11 +4706,16 @@
   },
   "ua/volyn": {
     "prev": "ru/vologda-oblast",
+    "next": "at/vorarlberg",
+    "cat": "subdivisions"
+  },
+  "at/vorarlberg": {
+    "prev": "ua/volyn",
     "next": "ru/voronezh-oblast",
     "cat": "subdivisions"
   },
   "ru/voronezh-oblast": {
-    "prev": "ua/volyn",
+    "prev": "at/vorarlberg",
     "next": "jp/wakayama",
     "cat": "subdivisions"
   },

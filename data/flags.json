@@ -257,6 +257,62 @@
     "id": "austria",
     "index": "c/austria"
   },
+  "at/burgenland": {
+    "g": "sub,europe",
+    "ns": "austria-sub",
+    "name": "Burgenland",
+    "id": "at/burgenland",
+    "index": "c/at/burgenland"
+  },
+  "at/carinthia": {
+    "g": "sub,europe",
+    "ns": "austria-sub",
+    "name": "Carinthia",
+    "id": "at/carinthia",
+    "index": "c/at/carinthia"
+  },
+  "at/lower-austria": {
+    "g": "sub,europe",
+    "ns": "austria-sub",
+    "name": "Lower Austria",
+    "id": "at/lower-austria",
+    "index": "c/at/lower-austria"
+  },
+  "at/salzburg": {
+    "g": "sub,europe",
+    "ns": "austria-sub",
+    "name": "Salzburg",
+    "id": "at/salzburg",
+    "index": "c/at/salzburg"
+  },
+  "at/styria": {
+    "g": "sub,europe",
+    "ns": "austria-sub",
+    "name": "Styria",
+    "id": "at/styria",
+    "index": "c/at/styria"
+  },
+  "at/upper-austria": {
+    "g": "sub,europe",
+    "ns": "austria-sub",
+    "name": "Upper Austria",
+    "id": "at/upper-austria",
+    "index": "c/at/upper-austria"
+  },
+  "at/vienna-state": {
+    "g": "sub,europe",
+    "ns": "austria-sub",
+    "name": "Vienna State",
+    "id": "at/vienna-state",
+    "index": "c/at/vienna-state"
+  },
+  "at/vorarlberg": {
+    "g": "sub,europe",
+    "ns": "austria-sub",
+    "name": "Vorarlberg",
+    "id": "at/vorarlberg",
+    "index": "c/at/vorarlberg"
+  },
   "bahrain": {
     "g": "nf,arab,gulf",
     "id": "bahrain",
@@ -635,6 +691,62 @@
     "id": "czech-republic",
     "index": "c/czech-republic"
   },
+  "cz/karlovy-vary": {
+    "g": "sub,europe",
+    "ns": "czech-sub",
+    "name": "Karlovy Vary",
+    "id": "cz/karlovy-vary",
+    "index": "c/cz/karlovy-vary"
+  },
+  "cz/liberec": {
+    "g": "sub,europe",
+    "ns": "czech-sub",
+    "name": "Liberec",
+    "id": "cz/liberec",
+    "index": "c/cz/liberec"
+  },
+  "cz/moravian-silesian": {
+    "g": "sub,europe",
+    "ns": "czech-sub",
+    "name": "Moravian Silesian",
+    "id": "cz/moravian-silesian",
+    "index": "c/cz/moravian-silesian"
+  },
+  "cz/olomouc": {
+    "g": "sub,europe",
+    "ns": "czech-sub",
+    "name": "Olomouc",
+    "id": "cz/olomouc",
+    "index": "c/cz/olomouc"
+  },
+  "cz/pardubice": {
+    "g": "sub,europe",
+    "ns": "czech-sub",
+    "name": "Pardubice",
+    "id": "cz/pardubice",
+    "index": "c/cz/pardubice"
+  },
+  "cz/prague": {
+    "g": "sub,europe",
+    "ns": "czech-sub",
+    "name": "Prague",
+    "id": "cz/prague",
+    "index": "c/cz/prague"
+  },
+  "cz/south-bohemia": {
+    "g": "sub,europe",
+    "ns": "czech-sub",
+    "name": "South Bohemia",
+    "id": "cz/south-bohemia",
+    "index": "c/cz/south-bohemia"
+  },
+  "cz/south-moravia": {
+    "g": "sub,europe",
+    "ns": "czech-sub",
+    "name": "South Moravia",
+    "id": "cz/south-moravia",
+    "index": "c/cz/south-moravia"
+  },
   "denmark": {
     "g": "europe,nordic",
     "ns": "denmark",
@@ -934,6 +1046,27 @@
     "name": "Hungary",
     "id": "hungary",
     "index": "c/hungary"
+  },
+  "hu/bacs-kiskun": {
+    "g": "sub,europe",
+    "ns": "hungary-sub",
+    "name": "Bacs Kiskun",
+    "id": "hu/bacs-kiskun",
+    "index": "c/hu/bacs-kiskun"
+  },
+  "hu/baranya": {
+    "g": "sub,europe",
+    "ns": "hungary-sub",
+    "name": "Baranya",
+    "id": "hu/baranya",
+    "index": "c/hu/baranya"
+  },
+  "hu/budapest": {
+    "g": "sub,europe",
+    "ns": "hungary-sub",
+    "name": "Budapest",
+    "id": "hu/budapest",
+    "index": "c/hu/budapest"
   },
   "india": {
     "g": "asia,south-asia",
@@ -2101,6 +2234,20 @@
     "name": "Romania",
     "id": "romania",
     "index": "c/romania"
+  },
+  "ro/bucharest-ro": {
+    "g": "sub,europe",
+    "ns": "romania-sub",
+    "name": "Bucharest Ro",
+    "id": "ro/bucharest-ro",
+    "index": "c/ro/bucharest-ro"
+  },
+  "ro/maramures": {
+    "g": "sub,europe",
+    "ns": "romania-sub",
+    "name": "Maramures",
+    "id": "ro/maramures",
+    "index": "c/ro/maramures"
   },
   "russia": {
     "g": "europe",
