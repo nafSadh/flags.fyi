@@ -71,9 +71,9 @@
     });
   }
 
-  // All-flags page: toggle .search-hidden on .flag-grid a
+  // All-flags page: toggle .search-hidden on flag anchors (both pill grid and block grid)
   function filterAllPage(query) {
-    var links = document.querySelectorAll('.flag-grid a');
+    var links = document.querySelectorAll('.flag-grid a, .flag-blocks a');
     if (!query) {
       for (var i = 0; i < links.length; i++) links[i].classList.remove('search-hidden');
       if (searchCount) searchCount.textContent = '';

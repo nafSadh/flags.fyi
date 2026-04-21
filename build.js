@@ -894,7 +894,10 @@ function generateFlagIndex() {
   });
   let allItems = '';
   for (const flagId of alphabeticalIds) {
-    allItems += flagItem(flagId, getFullFlagData(flagId));
+    const fd = getFullFlagData(flagId);
+    const name = fd._name || flagId;
+    const flagPath = fd.flag ? '/' + fd.flag : ('/' + flagId + '/flag.svg');
+    allItems += `<a href="/${flagId}/" class="flag-block"><img src="${escHtml(flagPath)}" alt="${escHtml(name)}" loading="lazy"><span class="fb-name">${escHtml(name)}</span></a>`;
   }
   const allDir = path.join(baseDir, 'all');
   fs.mkdirSync(allDir, { recursive: true });
@@ -916,7 +919,7 @@ function generateFlagIndex() {
       <input type="text" id="flagSearch" class="search-input" placeholder="Search flags by name, color, or category..." autocomplete="off" aria-label="Search flags">
       <span class="search-count" id="searchCount"></span>
     </div>
-    <div class="flag-grid">${allItems}
+    <div class="flag-blocks">${allItems}
     </div>
   </main>
   <script src="/app.js"><\/script>
@@ -1224,12 +1227,32 @@ function getWikiUrl(flagId, fd) {
   return 'https://en.wikipedia.org/wiki/Flag_of_' + name.replace(/ /g, '_');
 }
 
+// Wikipedia article for the entity itself (country, empire, city, etc.),
+// as opposed to the flag-of-X article returned by getWikiUrl.
+function getEntityWikiUrl(flagId, fd) {
+  if (fd.wikiEntity) return fd.wikiEntity.startsWith('http') ? fd.wikiEntity : 'https://en.wikipedia.org/wiki/' + fd.wikiEntity;
+  const name = fd._name || '';
+  return 'https://en.wikipedia.org/wiki/' + name.replace(/ /g, '_');
+}
+
+// Wikipedia entity extracts (2-3 sentence summaries) cached at build time.
+let wikiExtracts = {};
+try {
+  wikiExtracts = JSON.parse(fs.readFileSync(path.join(DATA, 'wiki-extracts.json'), 'utf8'));
+} catch (e) { /* no cache yet */ }
+
+function getWikiExtract(flagId) {
+  const entry = wikiExtracts[flagId];
+  return entry && entry.extract ? entry.extract : null;
+}
+
 // ─── Wikimedia Commons reference map ────────────────────────────────────────
 // Known Wikimedia Commons filenames for flags (verified sources)
 const commonsFileMap = {
   // Countries (current)
   'abkhazia': 'Flag_of_the_Republic_of_Abkhazia.svg',
   'afghanistan': 'Flag_of_the_Islamic_Republic_of_Afghanistan.svg',
+  'ayyubid': 'Flag_of_Saladin.svg',
   'ar-sun-of-may': 'Sun_of_May_(Argentine_Confederation).svg',
   'ar-celeste-blanca': 'Flag_of_argentina_(1810-1812).svg',
   'yerevan': 'Flag_of_Yerevan.svg',
@@ -2090,9 +2113,18 @@ function generateFlagPage(flagId) {
     categoryRailHtml += `<a href="/flag-index/${cat.id}/" class="rail-btn" title="${escHtml(cat.title)}">${cat.icon}</a>\n`;
   }
 
-  // Wikipedia link
+  // Wikipedia links: flag article + entity article
   const wikiUrl = getWikiUrl(flagId, fd);
-  const wikiRailBtn = `<a href="${escHtml(wikiUrl)}" class="rail-btn" title="Wikipedia" target="_blank" rel="noopener"><svg width="20" height="20" viewBox="0 0 128 128"><use href="#icon-wiki"/></svg></a>\n`;
+  const entityWikiUrl = getEntityWikiUrl(flagId, fd);
+  const wikiRailBtn = `<a href="${escHtml(wikiUrl)}" class="rail-btn" title="Wikipedia: ${escHtml(fd.title || 'Flag')}" target="_blank" rel="noopener"><svg width="20" height="20" viewBox="0 0 128 128"><use href="#icon-wiki"/></svg></a>\n`;
+  // Entity summary (2–3 sentence Wikipedia extract) + link to the entity article
+  const entityExtract = getWikiExtract(flagId);
+  const entitySummaryHtml = entityExtract
+    ? `<div class="entity-summary"><p>${escHtml(entityExtract)}</p><a href="${escHtml(entityWikiUrl)}" class="entity-wiki-link" target="_blank" rel="noopener">About ${escHtml(fd._name)} on Wikipedia <span aria-hidden="true">\u2197</span></a></div>`
+    : (entityWikiUrl && entityWikiUrl !== wikiUrl
+      ? `<a href="${escHtml(entityWikiUrl)}" class="entity-wiki-link" target="_blank" rel="noopener">About ${escHtml(fd._name)} on Wikipedia <span aria-hidden="true">\u2197</span></a>`
+      : '');
+  const entityWikiLink = entitySummaryHtml;
 
   // Wikimedia Commons reference
   const commonsUrl = getCommonsUrl(flagId);
@@ -2215,6 +2247,7 @@ function generateFlagPage(flagId) {
         ${colorsHtml}
         <a href="${escHtml(wikiUrl)}" class="wiki-link" target="_blank" rel="noopener" aria-label="View on Wikipedia"><svg width="20" height="20" viewBox="0 0 128 128" aria-hidden="true"><use href="#icon-wiki"/></svg></a>
         ${commonsBtn}
+        ${entityWikiLink}
       </div>
       <div class="sidebar-bottom">
         ${relatedHtml}

@@ -200,7 +200,7 @@ main .search-count { color: var(--text-light); }
 }
 
 /* Hide filtered items on the all-flags page */
-.flag-grid a.search-hidden { display: none; }
+.flag-grid a.search-hidden, .flag-blocks a.search-hidden { display: none; }
 
 /* ═══════════════════════════════════════════════════════════════════
    FLAG INDEX GRID
@@ -404,6 +404,20 @@ body.flag-page { overflow: hidden; height: 100vh; }
 }
 .wiki-link:hover { color: var(--text); }
 .wiki-link svg { width: 16px; height: 16px; flex-shrink: 0; }
+.entity-summary {
+  margin-top: 0.75rem; padding-top: 0.75rem;
+  border-top: 1px solid var(--border);
+}
+.entity-summary p {
+  font-size: 0.82rem; line-height: 1.5; color: var(--text);
+  margin-bottom: 0.4rem;
+}
+.entity-wiki-link {
+  display: inline-block; margin-top: 0.25rem;
+  font-size: 0.8rem; color: var(--primary);
+  text-decoration: none; padding: 0.1rem 0;
+}
+.entity-wiki-link:hover { text-decoration: underline; }
 
 /* Bottom group: successor + related + category tags */
 .sidebar-bottom {
