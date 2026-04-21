@@ -711,6 +711,125 @@
     "id": "france",
     "index": "c/france"
   },
+  "fr/auvergne-rhone-alpes": {
+    "g": "sub,europe",
+    "ns": "france-sub",
+    "name": "Auvergne-Rhône-Alpes",
+    "id": "fr/auvergne-rhone-alpes",
+    "index": "c/fr/auvergne-rhone-alpes"
+  },
+  "fr/bourgogne-franche-comte": {
+    "g": "sub,europe",
+    "ns": "france-sub",
+    "name": "Bourgogne-Franche-Comté",
+    "id": "fr/bourgogne-franche-comte",
+    "index": "c/fr/bourgogne-franche-comte"
+  },
+  "fr/brittany": {
+    "g": "sub,europe",
+    "ns": "france-sub",
+    "name": "Brittany",
+    "id": "fr/brittany",
+    "index": "c/fr/brittany"
+  },
+  "fr/centre-val-de-loire": {
+    "g": "sub,europe",
+    "ns": "france-sub",
+    "name": "Centre-Val de Loire",
+    "id": "fr/centre-val-de-loire",
+    "index": "c/fr/centre-val-de-loire"
+  },
+  "fr/corsica": {
+    "g": "sub,europe",
+    "ns": "france-sub",
+    "name": "Corsica",
+    "id": "fr/corsica",
+    "index": "c/fr/corsica"
+  },
+  "fr/french-guiana": {
+    "g": "sub,europe",
+    "ns": "france-sub",
+    "name": "French Guiana",
+    "id": "fr/french-guiana",
+    "index": "c/fr/french-guiana"
+  },
+  "fr/grand-est": {
+    "g": "sub,europe",
+    "ns": "france-sub",
+    "name": "Grand Est",
+    "id": "fr/grand-est",
+    "index": "c/fr/grand-est"
+  },
+  "fr/guadeloupe": {
+    "g": "sub,europe",
+    "ns": "france-sub",
+    "name": "Guadeloupe",
+    "id": "fr/guadeloupe",
+    "index": "c/fr/guadeloupe"
+  },
+  "fr/hauts-de-france": {
+    "g": "sub,europe",
+    "ns": "france-sub",
+    "name": "Hauts-de-France",
+    "id": "fr/hauts-de-france",
+    "index": "c/fr/hauts-de-france"
+  },
+  "fr/ile-de-france": {
+    "g": "sub,europe",
+    "ns": "france-sub",
+    "name": "Île-de-France",
+    "id": "fr/ile-de-france",
+    "index": "c/fr/ile-de-france"
+  },
+  "fr/la-reunion": {
+    "g": "sub,europe",
+    "ns": "france-sub",
+    "name": "Réunion",
+    "id": "fr/la-reunion",
+    "index": "c/fr/la-reunion"
+  },
+  "fr/martinique": {
+    "g": "sub,europe",
+    "ns": "france-sub",
+    "name": "Martinique",
+    "id": "fr/martinique",
+    "index": "c/fr/martinique"
+  },
+  "fr/mayotte": {
+    "g": "sub,europe",
+    "ns": "france-sub",
+    "name": "Mayotte",
+    "id": "fr/mayotte",
+    "index": "c/fr/mayotte"
+  },
+  "fr/normandy": {
+    "g": "sub,europe",
+    "ns": "france-sub",
+    "name": "Normandy",
+    "id": "fr/normandy",
+    "index": "c/fr/normandy"
+  },
+  "fr/nouvelle-aquitaine": {
+    "g": "sub,europe",
+    "ns": "france-sub",
+    "name": "Nouvelle-Aquitaine",
+    "id": "fr/nouvelle-aquitaine",
+    "index": "c/fr/nouvelle-aquitaine"
+  },
+  "fr/occitanie": {
+    "g": "sub,europe",
+    "ns": "france-sub",
+    "name": "Occitanie",
+    "id": "fr/occitanie",
+    "index": "c/fr/occitanie"
+  },
+  "fr/pays-de-la-loire": {
+    "g": "sub,europe",
+    "ns": "france-sub",
+    "name": "Pays de la Loire",
+    "id": "fr/pays-de-la-loire",
+    "index": "c/fr/pays-de-la-loire"
+  },
   "germany": {
     "g": "europe",
     "ns": "germany",

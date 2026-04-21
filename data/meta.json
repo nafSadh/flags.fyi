@@ -1981,11 +1981,16 @@
   },
   "au/act": {
     "prev": "es/asturias",
+    "next": "fr/auvergne-rhone-alpes",
+    "cat": "subdivisions"
+  },
+  "fr/auvergne-rhone-alpes": {
+    "prev": "au/act",
     "next": "de/baden-wurttemberg",
     "cat": "subdivisions"
   },
   "de/baden-wurttemberg": {
-    "prev": "au/act",
+    "prev": "fr/auvergne-rhone-alpes",
     "next": "br/ba",
     "cat": "subdivisions"
   },
@@ -2031,11 +2036,16 @@
   },
   "bermuda": {
     "prev": "de/berlin",
+    "next": "fr/bourgogne-franche-comte",
+    "cat": "subdivisions"
+  },
+  "fr/bourgogne-franche-comte": {
+    "prev": "bermuda",
     "next": "de/brandenburg",
     "cat": "subdivisions"
   },
   "de/brandenburg": {
-    "prev": "bermuda",
+    "prev": "fr/bourgogne-franche-comte",
     "next": "de/bremen",
     "cat": "subdivisions"
   },
@@ -2071,11 +2081,16 @@
   },
   "british-virgin-islands": {
     "prev": "british-overseas-territories",
+    "next": "fr/brittany",
+    "cat": "subdivisions"
+  },
+  "fr/brittany": {
+    "prev": "british-virgin-islands",
     "next": "ar/buenos-aires",
     "cat": "subdivisions"
   },
   "ar/buenos-aires": {
-    "prev": "british-virgin-islands",
+    "prev": "fr/brittany",
     "next": "it/calabria",
     "cat": "subdivisions"
   },
@@ -2266,11 +2281,16 @@
   },
   "br/ce": {
     "prev": "cayman-islands",
+    "next": "fr/centre-val-de-loire",
+    "cat": "subdivisions"
+  },
+  "fr/centre-val-de-loire": {
+    "prev": "br/ce",
     "next": "es/ceuta",
     "cat": "subdivisions"
   },
   "es/ceuta": {
-    "prev": "br/ce",
+    "prev": "fr/centre-val-de-loire",
     "next": "ar/chaco",
     "cat": "subdivisions"
   },
@@ -2346,11 +2366,16 @@
   },
   "ar/corrientes": {
     "prev": "uk/cornwall",
+    "next": "fr/corsica",
+    "cat": "subdivisions"
+  },
+  "fr/corsica": {
+    "prev": "ar/corrientes",
     "next": "in/dadra-nagar-haveli",
     "cat": "subdivisions"
   },
   "in/dadra-nagar-haveli": {
-    "prev": "ar/corrientes",
+    "prev": "fr/corsica",
     "next": "us/delaware",
     "cat": "subdivisions"
   },
@@ -2411,11 +2436,16 @@
   },
   "ar/formosa": {
     "prev": "us/florida",
+    "next": "fr/french-guiana",
+    "cat": "subdivisions"
+  },
+  "fr/french-guiana": {
+    "prev": "ar/formosa",
     "next": "it/friuli-venezia-giulia",
     "cat": "subdivisions"
   },
   "it/friuli-venezia-giulia": {
-    "prev": "ar/formosa",
+    "prev": "fr/french-guiana",
     "next": "jp/fukui",
     "cat": "subdivisions"
   },
@@ -2461,11 +2491,21 @@
   },
   "br/go": {
     "prev": "in/goa",
+    "next": "fr/grand-est",
+    "cat": "subdivisions"
+  },
+  "fr/grand-est": {
+    "prev": "br/go",
+    "next": "fr/guadeloupe",
+    "cat": "subdivisions"
+  },
+  "fr/guadeloupe": {
+    "prev": "fr/grand-est",
     "next": "mx/gto",
     "cat": "subdivisions"
   },
   "mx/gto": {
-    "prev": "br/go",
+    "prev": "fr/guadeloupe",
     "next": "guernsey",
     "cat": "subdivisions"
   },
@@ -2496,11 +2536,16 @@
   },
   "in/haryana": {
     "prev": "de/hamburg",
+    "next": "fr/hauts-de-france",
+    "cat": "subdivisions"
+  },
+  "fr/hauts-de-france": {
+    "prev": "in/haryana",
     "next": "us/hawaii",
     "cat": "subdivisions"
   },
   "us/hawaii": {
-    "prev": "in/haryana",
+    "prev": "fr/hauts-de-france",
     "next": "de/hesse",
     "cat": "subdivisions"
   },
@@ -2536,11 +2581,16 @@
   },
   "us/idaho": {
     "prev": "jp/ibaraki",
+    "next": "fr/ile-de-france",
+    "cat": "subdivisions"
+  },
+  "fr/ile-de-france": {
+    "prev": "us/idaho",
     "next": "us/illinois",
     "cat": "subdivisions"
   },
   "us/illinois": {
-    "prev": "us/idaho",
+    "prev": "fr/ile-de-france",
     "next": "us/indiana",
     "cat": "subdivisions"
   },
@@ -2716,11 +2766,16 @@
   },
   "it/marche": {
     "prev": "br/ma",
+    "next": "fr/martinique",
+    "cat": "subdivisions"
+  },
+  "fr/martinique": {
+    "prev": "it/marche",
     "next": "us/maryland",
     "cat": "subdivisions"
   },
   "us/maryland": {
-    "prev": "it/marche",
+    "prev": "fr/martinique",
     "next": "us/massachusetts",
     "cat": "subdivisions"
   },
@@ -2736,11 +2791,16 @@
   },
   "br/ms": {
     "prev": "br/mt",
+    "next": "fr/mayotte",
+    "cat": "subdivisions"
+  },
+  "fr/mayotte": {
+    "prev": "br/ms",
     "next": "de/mecklenburg-vorpommern",
     "cat": "subdivisions"
   },
   "de/mecklenburg-vorpommern": {
-    "prev": "br/ms",
+    "prev": "fr/mayotte",
     "next": "es/melilla",
     "cat": "subdivisions"
   },
@@ -2906,11 +2966,16 @@
   },
   "jp/niigata": {
     "prev": "ca/newfoundland-labrador",
+    "next": "fr/normandy",
+    "cat": "subdivisions"
+  },
+  "fr/normandy": {
+    "prev": "jp/niigata",
     "next": "us/north-carolina",
     "cat": "subdivisions"
   },
   "us/north-carolina": {
-    "prev": "jp/niigata",
+    "prev": "fr/normandy",
     "next": "us/north-dakota",
     "cat": "subdivisions"
   },
@@ -2936,11 +3001,16 @@
   },
   "ca/northwest-territories": {
     "prev": "au/nt",
+    "next": "fr/nouvelle-aquitaine",
+    "cat": "subdivisions"
+  },
+  "fr/nouvelle-aquitaine": {
+    "prev": "ca/northwest-territories",
     "next": "ca/nova-scotia",
     "cat": "subdivisions"
   },
   "ca/nova-scotia": {
-    "prev": "ca/northwest-territories",
+    "prev": "fr/nouvelle-aquitaine",
     "next": "mx/nl",
     "cat": "subdivisions"
   },
@@ -2956,11 +3026,16 @@
   },
   "mx/oax": {
     "prev": "ca/nunavut",
+    "next": "fr/occitanie",
+    "cat": "subdivisions"
+  },
+  "fr/occitanie": {
+    "prev": "mx/oax",
     "next": "in/odisha",
     "cat": "subdivisions"
   },
   "in/odisha": {
-    "prev": "mx/oax",
+    "prev": "fr/occitanie",
     "next": "us/ohio",
     "cat": "subdivisions"
   },
@@ -3016,11 +3091,16 @@
   },
   "br/pr": {
     "prev": "br/pb",
+    "next": "fr/pays-de-la-loire",
+    "cat": "subdivisions"
+  },
+  "fr/pays-de-la-loire": {
+    "prev": "br/pr",
     "next": "us/pennsylvania",
     "cat": "subdivisions"
   },
   "us/pennsylvania": {
-    "prev": "br/pr",
+    "prev": "fr/pays-de-la-loire",
     "next": "br/pe",
     "cat": "subdivisions"
   },
@@ -3096,11 +3176,16 @@
   },
   "es/murcia": {
     "prev": "in/rajasthan",
+    "next": "fr/la-reunion",
+    "cat": "subdivisions"
+  },
+  "fr/la-reunion": {
+    "prev": "es/murcia",
     "next": "de/rhineland-palatinate",
     "cat": "subdivisions"
   },
   "de/rhineland-palatinate": {
-    "prev": "es/murcia",
+    "prev": "fr/la-reunion",
     "next": "us/rhode-island",
     "cat": "subdivisions"
   },

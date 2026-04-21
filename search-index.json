@@ -889,6 +889,18 @@
     "keywords": "austria-hungary naval ensign of austria-hungary historic empire europe red white gold"
   },
   {
+    "id": "fr/auvergne-rhone-alpes",
+    "name": "Auvergne-Rhône-Alpes",
+    "title": "Flag of Auvergne-Rhône-Alpes",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/france-sub/auvergne-rhone-alpes.svg",
+    "keywords": "auvergne-rhône-alpes flag of auvergne-rhône-alpes sub europe"
+  },
+  {
     "id": "ayutthaya",
     "name": "Ayutthaya Kingdom",
     "title": "Flag of the Ayutthaya Kingdom",
@@ -1359,6 +1371,18 @@
     "keywords": "bourbon france flag of bourbon france historic former-flag europe white"
   },
   {
+    "id": "fr/bourgogne-franche-comte",
+    "name": "Bourgogne-Franche-Comté",
+    "title": "Flag of Bourgogne-Franche-Comté",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/france-sub/bourgogne-franche-comte.svg",
+    "keywords": "bourgogne-franche-comté flag of bourgogne-franche-comté sub europe"
+  },
+  {
     "id": "de/brandenburg",
     "name": "Brandenburg",
     "title": "Flag of Brandenburg",
@@ -1546,6 +1570,18 @@
     ],
     "flag": "/british/virgin-islands.svg",
     "keywords": "british virgin islands flag of british virgin islands british-overseas blue red white"
+  },
+  {
+    "id": "fr/brittany",
+    "name": "Brittany",
+    "title": "Flag of Brittany",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/france-sub/brittany.svg",
+    "keywords": "brittany flag of brittany sub europe"
   },
   {
     "id": "brunei",
@@ -2220,6 +2256,18 @@
     "keywords": "central african republic flag of the central african republic national-flag africa blue white green yellow red"
   },
   {
+    "id": "fr/centre-val-de-loire",
+    "name": "Centre-Val de Loire",
+    "title": "Flag of Centre-Val de Loire",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/france-sub/centre-val-de-loire.svg",
+    "keywords": "centre-val de loire flag of centre-val de loire sub europe"
+  },
+  {
     "id": "es/ceuta",
     "name": "Ceuta",
     "title": "Flag of Ceuta",
@@ -2575,6 +2623,18 @@
     "colors": [],
     "flag": "/argentina-sub/corrientes.svg",
     "keywords": "corrientes flag of corrientes sub south-america"
+  },
+  {
+    "id": "fr/corsica",
+    "name": "Corsica",
+    "title": "Flag of Corsica",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/france-sub/corsica.svg",
+    "keywords": "corsica flag of corsica sub europe"
   },
   {
     "id": "costa-rica",
@@ -3533,6 +3593,18 @@
     "keywords": "french algeria flag of french algeria historic colonial maghreb blue white red"
   },
   {
+    "id": "fr/french-guiana",
+    "name": "French Guiana",
+    "title": "Flag of French Guiana",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/france-sub/french-guiana.svg",
+    "keywords": "french guiana flag of french guiana sub europe"
+  },
+  {
     "id": "french-lebanon",
     "name": "French Mandate Lebanon",
     "title": "Flag of the French Mandate of Lebanon",
@@ -3863,6 +3935,18 @@
     "keywords": "grand duchy of lithuania royal banner of the grand duchy of lithuania historic empire europe red white yellow"
   },
   {
+    "id": "fr/grand-est",
+    "name": "Grand Est",
+    "title": "Flag of Grand Est",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/france-sub/grand-est.svg",
+    "keywords": "grand est flag of grand est sub europe"
+  },
+  {
     "id": "grande-comore",
     "name": "Grande Comore",
     "title": "Flag of Grande Comore — Comoros Island",
@@ -3951,6 +4035,18 @@
     ],
     "flag": "/grenada/flag.svg",
     "keywords": "grenada flag of grenada national-flag caribbean red yellow green"
+  },
+  {
+    "id": "fr/guadeloupe",
+    "name": "Guadeloupe",
+    "title": "Flag of Guadeloupe",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/france-sub/guadeloupe.svg",
+    "keywords": "guadeloupe flag of guadeloupe sub europe"
   },
   {
     "id": "mx/gto",
@@ -4149,6 +4245,18 @@
     ],
     "flag": "/iraq/hashemite.svg",
     "keywords": "hashemite iraq hashemite kingdom of iraq historic black white green red"
+  },
+  {
+    "id": "fr/hauts-de-france",
+    "name": "Hauts-de-France",
+    "title": "Flag of Hauts-de-France",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/france-sub/hauts-de-france.svg",
+    "keywords": "hauts-de-france flag of hauts-de-france sub europe"
   },
   {
     "id": "us/hawaii",
@@ -4633,6 +4741,18 @@
     ],
     "flag": "/caliphates/idrisid.svg",
     "keywords": "idrisid dynasty flag of the idrisid dynasty historic caliphate maghreb white green"
+  },
+  {
+    "id": "fr/ile-de-france",
+    "name": "Île-de-France",
+    "title": "Flag of Île-de-France",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/france-sub/ile-de-france.svg",
+    "keywords": "île-de-france flag of île-de-france sub europe"
   },
   {
     "id": "us/illinois",
@@ -6331,6 +6451,18 @@
     "keywords": "marshall islands flag of the republic of the marshall islands national-flag oceania blue white orange"
   },
   {
+    "id": "fr/martinique",
+    "name": "Martinique",
+    "title": "Flag of Martinique",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/france-sub/martinique.svg",
+    "keywords": "martinique flag of martinique sub europe"
+  },
+  {
     "id": "us/maryland",
     "name": "Maryland",
     "title": "Flag of Maryland",
@@ -6447,6 +6579,18 @@
     ],
     "flag": "/comoros/mayotte.svg",
     "keywords": "mayotte flag of mayotte — disputed comoros territory africa white"
+  },
+  {
+    "id": "fr/mayotte",
+    "name": "Mayotte",
+    "title": "Flag of Mayotte",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/france-sub/mayotte.svg",
+    "keywords": "mayotte flag of mayotte sub europe"
   },
   {
     "id": "de/mecklenburg-vorpommern",
@@ -7314,6 +7458,18 @@
     "keywords": "nonbinary pride flag of nonbinary pride pride"
   },
   {
+    "id": "fr/normandy",
+    "name": "Normandy",
+    "title": "Flag of Normandy",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/france-sub/normandy.svg",
+    "keywords": "normandy flag of normandy sub europe"
+  },
+  {
     "id": "us/north-carolina",
     "name": "North Carolina",
     "title": "Flag of North Carolina",
@@ -7439,6 +7595,18 @@
     "keywords": "norway flag of norway europe nordic red blue white"
   },
   {
+    "id": "fr/nouvelle-aquitaine",
+    "name": "Nouvelle-Aquitaine",
+    "title": "Flag of Nouvelle-Aquitaine",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/france-sub/nouvelle-aquitaine.svg",
+    "keywords": "nouvelle-aquitaine flag of nouvelle-aquitaine sub europe"
+  },
+  {
     "id": "ca/nova-scotia",
     "name": "Nova Scotia",
     "title": "Flag of Nova Scotia",
@@ -7485,6 +7653,18 @@
     "colors": [],
     "flag": "/mexico-sub/oax.svg",
     "keywords": "oaxaca flag of oaxaca sub north-america"
+  },
+  {
+    "id": "fr/occitanie",
+    "name": "Occitanie",
+    "title": "Flag of Occitanie",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/france-sub/occitanie.svg",
+    "keywords": "occitanie flag of occitanie sub europe"
   },
   {
     "id": "in/odisha",
@@ -7977,6 +8157,18 @@
     ],
     "flag": "/empires/parthian.svg",
     "keywords": "parthian empire banner of the parthian empire historic empire asia black yellow"
+  },
+  {
+    "id": "fr/pays-de-la-loire",
+    "name": "Pays de la Loire",
+    "title": "Flag of Pays de la Loire",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/france-sub/pays-de-la-loire.svg",
+    "keywords": "pays de la loire flag of pays de la loire sub europe"
   },
   {
     "id": "us/pennsylvania",
@@ -8572,6 +8764,18 @@
     ],
     "flag": "/empires/venice.svg",
     "keywords": "republic of venice flag of the republic of venice historic empire europe red gold"
+  },
+  {
+    "id": "fr/la-reunion",
+    "name": "Réunion",
+    "title": "Flag of Réunion",
+    "groups": [
+      "sub",
+      "europe"
+    ],
+    "colors": [],
+    "flag": "/france-sub/la-reunion.svg",
+    "keywords": "réunion flag of réunion sub europe"
   },
   {
     "id": "de/rhineland-palatinate",
