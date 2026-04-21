@@ -5690,6 +5690,18 @@
     "keywords": "manipur flag of manipur sub asia"
   },
   {
+    "id": "ca/manitoba",
+    "name": "Manitoba",
+    "title": "Flag of Manitoba",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/canada-sub/manitoba.svg",
+    "keywords": "manitoba flag of manitoba sub north-america"
+  },
+  {
     "id": "mann",
     "name": "Mann (Isle of Man)",
     "title": "Flag of the Isle of Man",
@@ -6536,6 +6548,18 @@
     "keywords": "nevada flag of nevada sub north-america"
   },
   {
+    "id": "ca/new-brunswick",
+    "name": "New Brunswick",
+    "title": "Flag of New Brunswick",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/canada-sub/new-brunswick.svg",
+    "keywords": "new brunswick flag of new brunswick sub north-america"
+  },
+  {
     "id": "us/new-hampshire",
     "name": "New Hampshire",
     "title": "Flag of New Hampshire",
@@ -6619,6 +6643,18 @@
     ],
     "flag": "/new-zealand/flag.svg",
     "keywords": "new zealand flag of new zealand oceania blue red white"
+  },
+  {
+    "id": "ca/newfoundland-labrador",
+    "name": "Newfoundland and Labrador",
+    "title": "Flag of Newfoundland and Labrador",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/canada-sub/newfoundland-labrador.svg",
+    "keywords": "newfoundland and labrador flag of newfoundland and labrador sub north-america"
   },
   {
     "id": "nicaragua",
@@ -6765,6 +6801,18 @@
     "keywords": "northern ireland (ulster banner) ulster banner sub europe white red blue"
   },
   {
+    "id": "ca/northwest-territories",
+    "name": "Northwest Territories",
+    "title": "Flag of Northwest Territories",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/canada-sub/northwest-territories.svg",
+    "keywords": "northwest territories flag of northwest territories sub north-america"
+  },
+  {
     "id": "norway",
     "name": "Norway",
     "title": "Flag of Norway",
@@ -6781,6 +6829,18 @@
     "keywords": "norway flag of norway europe nordic red blue white"
   },
   {
+    "id": "ca/nova-scotia",
+    "name": "Nova Scotia",
+    "title": "Flag of Nova Scotia",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/canada-sub/nova-scotia.svg",
+    "keywords": "nova scotia flag of nova scotia sub north-america"
+  },
+  {
     "id": "mx/nl",
     "name": "Nuevo León",
     "title": "Flag of Nuevo León",
@@ -6791,6 +6851,18 @@
     "colors": [],
     "flag": "/mexico-sub/nl.svg",
     "keywords": "nuevo león flag of nuevo león sub north-america"
+  },
+  {
+    "id": "ca/nunavut",
+    "name": "Nunavut",
+    "title": "Flag of Nunavut",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/canada-sub/nunavut.svg",
+    "keywords": "nunavut flag of nunavut sub north-america"
   },
   {
     "id": "mx/oax",
@@ -7440,6 +7512,18 @@
     ],
     "flag": "/portugal/flag.svg",
     "keywords": "portugal flag of portugal europe green red yellow"
+  },
+  {
+    "id": "ca/prince-edward-island",
+    "name": "Prince Edward Island",
+    "title": "Flag of Prince Edward Island",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/canada-sub/prince-edward-island.svg",
+    "keywords": "prince edward island flag of prince edward island sub north-america"
   },
   {
     "id": "moldavia",
@@ -8253,6 +8337,18 @@
     "colors": [],
     "flag": "/british/sark.svg",
     "keywords": "sark flag of sark british-overseas"
+  },
+  {
+    "id": "ca/saskatchewan",
+    "name": "Saskatchewan",
+    "title": "Flag of Saskatchewan",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/canada-sub/saskatchewan.svg",
+    "keywords": "saskatchewan flag of saskatchewan sub north-america"
   },
   {
     "id": "sassanid-alt",
@@ -10166,6 +10262,18 @@
     "colors": [],
     "flag": "/mexico-sub/yuc.svg",
     "keywords": "yucatán flag of yucatán sub north-america"
+  },
+  {
+    "id": "ca/yukon",
+    "name": "Yukon",
+    "title": "Flag of Yukon",
+    "groups": [
+      "sub",
+      "north-america"
+    ],
+    "colors": [],
+    "flag": "/canada-sub/yukon.svg",
+    "keywords": "yukon flag of yukon sub north-america"
   },
   {
     "id": "mx/zac",

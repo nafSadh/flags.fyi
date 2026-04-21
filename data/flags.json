@@ -3882,6 +3882,69 @@
     "id": "ca/quebec",
     "index": "c/ca/quebec"
   },
+  "ca/manitoba": {
+    "g": "sub,north-america",
+    "ns": "canada-sub",
+    "name": "Manitoba",
+    "id": "ca/manitoba",
+    "index": "c/ca/manitoba"
+  },
+  "ca/new-brunswick": {
+    "g": "sub,north-america",
+    "ns": "canada-sub",
+    "name": "New Brunswick",
+    "id": "ca/new-brunswick",
+    "index": "c/ca/new-brunswick"
+  },
+  "ca/newfoundland-labrador": {
+    "g": "sub,north-america",
+    "ns": "canada-sub",
+    "name": "Newfoundland and Labrador",
+    "id": "ca/newfoundland-labrador",
+    "index": "c/ca/newfoundland-labrador"
+  },
+  "ca/nova-scotia": {
+    "g": "sub,north-america",
+    "ns": "canada-sub",
+    "name": "Nova Scotia",
+    "id": "ca/nova-scotia",
+    "index": "c/ca/nova-scotia"
+  },
+  "ca/prince-edward-island": {
+    "g": "sub,north-america",
+    "ns": "canada-sub",
+    "name": "Prince Edward Island",
+    "id": "ca/prince-edward-island",
+    "index": "c/ca/prince-edward-island"
+  },
+  "ca/saskatchewan": {
+    "g": "sub,north-america",
+    "ns": "canada-sub",
+    "name": "Saskatchewan",
+    "id": "ca/saskatchewan",
+    "index": "c/ca/saskatchewan"
+  },
+  "ca/northwest-territories": {
+    "g": "sub,north-america",
+    "ns": "canada-sub",
+    "name": "Northwest Territories",
+    "id": "ca/northwest-territories",
+    "index": "c/ca/northwest-territories"
+  },
+  "ca/nunavut": {
+    "g": "sub,north-america",
+    "ns": "canada-sub",
+    "name": "Nunavut",
+    "id": "ca/nunavut",
+    "index": "c/ca/nunavut"
+  },
+  "ca/yukon": {
+    "g": "sub,north-america",
+    "ns": "canada-sub",
+    "name": "Yukon",
+    "id": "ca/yukon",
+    "index": "c/ca/yukon"
+  },
   "uk/scotland": {
     "g": "sub,europe",
     "ns": "uk-sub",

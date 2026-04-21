@@ -2631,11 +2631,16 @@
   },
   "in/manipur": {
     "prev": "us/maine",
+    "next": "ca/manitoba",
+    "cat": "subdivisions"
+  },
+  "ca/manitoba": {
+    "prev": "in/manipur",
     "next": "mann",
     "cat": "subdivisions"
   },
   "mann": {
-    "prev": "in/manipur",
+    "prev": "ca/manitoba",
     "next": "br/ma",
     "cat": "subdivisions"
   },
@@ -2786,11 +2791,16 @@
   },
   "us/nevada": {
     "prev": "us/nebraska",
+    "next": "ca/new-brunswick",
+    "cat": "subdivisions"
+  },
+  "ca/new-brunswick": {
+    "prev": "us/nevada",
     "next": "us/new-hampshire",
     "cat": "subdivisions"
   },
   "us/new-hampshire": {
-    "prev": "us/nevada",
+    "prev": "ca/new-brunswick",
     "next": "us/new-jersey",
     "cat": "subdivisions"
   },
@@ -2811,11 +2821,16 @@
   },
   "us/new-york": {
     "prev": "au/new-south-wales",
+    "next": "ca/newfoundland-labrador",
+    "cat": "subdivisions"
+  },
+  "ca/newfoundland-labrador": {
+    "prev": "us/new-york",
     "next": "jp/niigata",
     "cat": "subdivisions"
   },
   "jp/niigata": {
-    "prev": "us/new-york",
+    "prev": "ca/newfoundland-labrador",
     "next": "us/north-carolina",
     "cat": "subdivisions"
   },
@@ -2836,16 +2851,31 @@
   },
   "uk/northern-ireland": {
     "prev": "de/north-rhine-westphalia",
+    "next": "ca/northwest-territories",
+    "cat": "subdivisions"
+  },
+  "ca/northwest-territories": {
+    "prev": "uk/northern-ireland",
+    "next": "ca/nova-scotia",
+    "cat": "subdivisions"
+  },
+  "ca/nova-scotia": {
+    "prev": "ca/northwest-territories",
     "next": "mx/nl",
     "cat": "subdivisions"
   },
   "mx/nl": {
-    "prev": "uk/northern-ireland",
+    "prev": "ca/nova-scotia",
+    "next": "ca/nunavut",
+    "cat": "subdivisions"
+  },
+  "ca/nunavut": {
+    "prev": "mx/nl",
     "next": "mx/oax",
     "cat": "subdivisions"
   },
   "mx/oax": {
-    "prev": "mx/nl",
+    "prev": "ca/nunavut",
     "next": "in/odisha",
     "cat": "subdivisions"
   },
@@ -2931,11 +2961,16 @@
   },
   "pitcairn": {
     "prev": "it/piedmont",
+    "next": "ca/prince-edward-island",
+    "cat": "subdivisions"
+  },
+  "ca/prince-edward-island": {
+    "prev": "pitcairn",
     "next": "de/prussia",
     "cat": "subdivisions"
   },
   "de/prussia": {
-    "prev": "pitcairn",
+    "prev": "ca/prince-edward-island",
     "next": "mx/pue",
     "cat": "subdivisions"
   },
@@ -3056,11 +3091,16 @@
   },
   "sark": {
     "prev": "it/sardinia",
+    "next": "ca/saskatchewan",
+    "cat": "subdivisions"
+  },
+  "ca/saskatchewan": {
+    "prev": "sark",
     "next": "de/saxony",
     "cat": "subdivisions"
   },
   "de/saxony": {
-    "prev": "sark",
+    "prev": "ca/saskatchewan",
     "next": "de/saxony-anhalt",
     "cat": "subdivisions"
   },
@@ -3336,11 +3376,16 @@
   },
   "mx/yuc": {
     "prev": "jp/yamanashi",
+    "next": "ca/yukon",
+    "cat": "subdivisions"
+  },
+  "ca/yukon": {
+    "prev": "mx/yuc",
     "next": "mx/zac",
     "cat": "subdivisions"
   },
   "mx/zac": {
-    "prev": "mx/yuc",
+    "prev": "ca/yukon",
     "next": "au/aboriginal",
     "cat": "subdivisions"
   },
