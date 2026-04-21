@@ -158,6 +158,23 @@
     "keywords": "african union flag of the african union intl africa green gold white"
   },
   {
+    "id": "afsharid",
+    "name": "Afsharid Dynasty",
+    "title": "State Flag of the Afsharid Dynasty",
+    "groups": [
+      "historic",
+      "empire",
+      "asia"
+    ],
+    "colors": [
+      "red",
+      "blue",
+      "white"
+    ],
+    "flag": "/empires/afsharid.svg",
+    "keywords": "afsharid dynasty state flag of the afsharid dynasty historic empire asia red blue white"
+  },
+  {
     "id": "us/alaska",
     "name": "Alaska",
     "title": "Flag of Alaska",
@@ -1754,6 +1771,24 @@
     "keywords": "dominican republic flag of the dominican republic national-flag caribbean blue red white"
   },
   {
+    "id": "milan",
+    "name": "Duchy of Milan",
+    "title": "Flag of the Duchy of Milan",
+    "groups": [
+      "historic",
+      "empire",
+      "europe"
+    ],
+    "colors": [
+      "gold",
+      "white",
+      "black",
+      "blue"
+    ],
+    "flag": "/empires/milan.svg",
+    "keywords": "duchy of milan flag of the duchy of milan historic empire europe gold white black blue"
+  },
+  {
     "id": "pl-duchy-warsaw",
     "name": "Duchy of Warsaw",
     "title": "Flag of the Duchy of Warsaw",
@@ -2448,6 +2483,23 @@
     ],
     "flag": "/ghana-hist/gh-gold-coast.svg",
     "keywords": "gold coast colony flag of the gold coast colony historic colonial africa blue red white"
+  },
+  {
+    "id": "gran-colombia",
+    "name": "Gran Colombia",
+    "title": "Flag of Gran Colombia",
+    "groups": [
+      "historic",
+      "empire",
+      "south-america"
+    ],
+    "colors": [
+      "yellow",
+      "blue",
+      "red"
+    ],
+    "flag": "/empires/gran-colombia.svg",
+    "keywords": "gran colombia flag of gran colombia historic empire south-america yellow blue red"
   },
   {
     "id": "lithuania-gd",
@@ -3408,6 +3460,22 @@
     "keywords": "kingdom of jerusalem flag of the kingdom of jerusalem historic empire levant white gold"
   },
   {
+    "id": "leon",
+    "name": "Kingdom of León",
+    "title": "Royal Banner of the Kingdom of León",
+    "groups": [
+      "historic",
+      "empire",
+      "europe"
+    ],
+    "colors": [
+      "white",
+      "purple"
+    ],
+    "flag": "/empires/leon.svg",
+    "keywords": "kingdom of león royal banner of the kingdom of león historic empire europe white purple"
+  },
+  {
     "id": "libya-kingdom",
     "name": "Kingdom of Libya",
     "title": "Kingdom of Libya",
@@ -3422,6 +3490,22 @@
     ],
     "flag": "/libya/flag.svg",
     "keywords": "kingdom of libya kingdom of libya historic red black white green"
+  },
+  {
+    "id": "navarre",
+    "name": "Kingdom of Navarre",
+    "title": "Flag of the Kingdom of Navarre",
+    "groups": [
+      "historic",
+      "empire",
+      "europe"
+    ],
+    "colors": [
+      "red",
+      "gold"
+    ],
+    "flag": "/empires/navarre.svg",
+    "keywords": "kingdom of navarre flag of the kingdom of navarre historic empire europe red gold"
   },
   {
     "id": "scotland-kingdom",
@@ -4649,6 +4733,24 @@
     "keywords": "ontario flag of ontario sub north-america red white green"
   },
   {
+    "id": "orange-free-state",
+    "name": "Orange Free State",
+    "title": "Flag of the Orange Free State",
+    "groups": [
+      "historic",
+      "empire",
+      "africa"
+    ],
+    "colors": [
+      "orange",
+      "white",
+      "red",
+      "blue"
+    ],
+    "flag": "/empires/orange-free-state.svg",
+    "keywords": "orange free state flag of the orange free state historic empire africa orange white red blue"
+  },
+  {
     "id": "oic",
     "name": "Organisation of Islamic Cooperation",
     "title": "Flag of the Organisation of Islamic Cooperation",
@@ -5862,6 +5964,24 @@
     "keywords": "south africa prinsevlag flag of south africa (1928–1994) historic former-flag africa orange white blue"
   },
   {
+    "id": "transvaal",
+    "name": "South African Republic (Transvaal)",
+    "title": "Flag of the South African Republic (Transvaal)",
+    "groups": [
+      "historic",
+      "empire",
+      "africa"
+    ],
+    "colors": [
+      "green",
+      "red",
+      "white",
+      "blue"
+    ],
+    "flag": "/empires/transvaal.svg",
+    "keywords": "south african republic (transvaal) flag of the south african republic (transvaal) historic empire africa green red white blue"
+  },
+  {
     "id": "us/south-carolina",
     "name": "South Carolina",
     "title": "Flag of South Carolina",
@@ -6072,6 +6192,23 @@
     ],
     "flag": "/empires/sultanate-rum.svg",
     "keywords": "sultanate of rûm flag of the sultanate of rûm historic empire asia blue white black"
+  },
+  {
+    "id": "zanzibar-sultanate",
+    "name": "Sultanate of Zanzibar",
+    "title": "Flag of the Sultanate of Zanzibar (1963)",
+    "groups": [
+      "historic",
+      "empire",
+      "africa"
+    ],
+    "colors": [
+      "red",
+      "green",
+      "yellow"
+    ],
+    "flag": "/empires/zanzibar-sultanate.svg",
+    "keywords": "sultanate of zanzibar flag of the sultanate of zanzibar (1963) historic empire africa red green yellow"
   },
   {
     "id": "suriname",

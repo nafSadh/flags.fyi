@@ -281,11 +281,16 @@
   },
   "colombia": {
     "prev": "mongol",
+    "next": "gran-colombia",
+    "cat": "countries"
+  },
+  "gran-colombia": {
+    "prev": "colombia",
     "next": "comoros",
     "cat": "countries"
   },
   "comoros": {
-    "prev": "colombia",
+    "prev": "gran-colombia",
     "next": "congo-dr",
     "cat": "countries"
   },
@@ -691,11 +696,16 @@
   },
   "qajar": {
     "prev": "pahlavi",
+    "next": "afsharid",
+    "cat": "countries"
+  },
+  "afsharid": {
+    "prev": "qajar",
     "next": "safavid",
     "cat": "countries"
   },
   "safavid": {
-    "prev": "qajar",
+    "prev": "afsharid",
     "next": "samanid",
     "cat": "countries"
   },
@@ -791,11 +801,16 @@
   },
   "it-kingdom": {
     "prev": "it-social-republic",
+    "next": "milan",
+    "cat": "countries"
+  },
+  "milan": {
+    "prev": "it-kingdom",
     "next": "florence",
     "cat": "countries"
   },
   "florence": {
-    "prev": "it-kingdom",
+    "prev": "milan",
     "next": "genoa",
     "cat": "countries"
   },
@@ -1431,11 +1446,21 @@
   },
   "za-prinsevlag": {
     "prev": "south-africa",
+    "next": "orange-free-state",
+    "cat": "countries"
+  },
+  "orange-free-state": {
+    "prev": "za-prinsevlag",
+    "next": "transvaal",
+    "cat": "countries"
+  },
+  "transvaal": {
+    "prev": "orange-free-state",
     "next": "south-sudan",
     "cat": "countries"
   },
   "south-sudan": {
-    "prev": "za-prinsevlag",
+    "prev": "transvaal",
     "next": "spain",
     "cat": "countries"
   },
@@ -1471,11 +1496,21 @@
   },
   "castile": {
     "prev": "aragon",
+    "next": "leon",
+    "cat": "countries"
+  },
+  "leon": {
+    "prev": "castile",
+    "next": "navarre",
+    "cat": "countries"
+  },
+  "navarre": {
+    "prev": "leon",
     "next": "sri-lanka",
     "cat": "countries"
   },
   "sri-lanka": {
-    "prev": "castile",
+    "prev": "navarre",
     "next": "sudan",
     "cat": "countries"
   },
@@ -1526,11 +1561,16 @@
   },
   "tanzania": {
     "prev": "tajikistan",
+    "next": "zanzibar-sultanate",
+    "cat": "countries"
+  },
+  "zanzibar-sultanate": {
+    "prev": "tanzania",
     "next": "thailand",
     "cat": "countries"
   },
   "thailand": {
-    "prev": "tanzania",
+    "prev": "zanzibar-sultanate",
     "next": "th-siam-elephant",
     "cat": "countries"
   },

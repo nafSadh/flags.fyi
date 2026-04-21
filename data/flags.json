@@ -1398,6 +1398,78 @@
     "id": "omani-empire",
     "index": "c/oman:1696"
   },
+  "leon": {
+    "g": "h,empire,europe",
+    "ns": "empires",
+    "name": "Kingdom of León",
+    "now": "spain",
+    "years": "910–1230",
+    "id": "leon",
+    "index": "c/spain:910"
+  },
+  "navarre": {
+    "g": "h,empire,europe",
+    "ns": "empires",
+    "name": "Kingdom of Navarre",
+    "now": "spain",
+    "years": "824–1620",
+    "id": "navarre",
+    "index": "c/spain:824"
+  },
+  "milan": {
+    "g": "h,empire,europe",
+    "ns": "empires",
+    "name": "Duchy of Milan",
+    "now": "italy",
+    "years": "1395–1796",
+    "id": "milan",
+    "index": "c/italy:1395"
+  },
+  "afsharid": {
+    "g": "h,empire,asia",
+    "ns": "empires",
+    "name": "Afsharid Dynasty",
+    "now": "iran",
+    "years": "1736–1796",
+    "id": "afsharid",
+    "index": "c/iran:1736"
+  },
+  "zanzibar-sultanate": {
+    "g": "h,empire,africa",
+    "ns": "empires",
+    "name": "Sultanate of Zanzibar",
+    "now": "tanzania",
+    "years": "1856–1964",
+    "id": "zanzibar-sultanate",
+    "index": "c/tanzania:1856"
+  },
+  "transvaal": {
+    "g": "h,empire,africa",
+    "ns": "empires",
+    "name": "South African Republic (Transvaal)",
+    "now": "south-africa",
+    "years": "1852–1902",
+    "id": "transvaal",
+    "index": "c/south-africa:1852"
+  },
+  "orange-free-state": {
+    "g": "h,empire,africa",
+    "ns": "empires",
+    "name": "Orange Free State",
+    "now": "south-africa",
+    "years": "1854–1902",
+    "id": "orange-free-state",
+    "index": "c/south-africa:1854"
+  },
+  "gran-colombia": {
+    "g": "h,empire,south-america",
+    "ns": "empires",
+    "name": "Gran Colombia",
+    "now": "colombia",
+    "years": "1819–1831",
+    "id": "gran-colombia",
+    "index": "c/colombia:1819"
+  },
   "qajar": {
     "g": "h,asia",
     "ns": "persia",

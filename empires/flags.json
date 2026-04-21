@@ -843,5 +843,174 @@
       "- After Said's death in 1856 the empire split between his sons — one taking Oman, the other Zanzibar\n",
       "- Modern Oman's flag added the red pale with the national emblem — a direct continuation of this heritage"
     ]
+  },
+  "leon": {
+    "title": "Royal Banner of the Kingdom of Le\u00f3n",
+    "ratio": "1:2",
+    "colors": [
+      {"color": "white", "hex": "#ffffff", "note": "Argent field."},
+      {"color": "purple", "hex": "#5a0071", "cmyk": "50/100/0/56", "note": "Purpure rampant lion — the canting arms of León (\"lion\")."}
+    ],
+    "desc": [
+      "- The Kingdom of León (910–1230) was a medieval Iberian Christian kingdom that, alongside Castile and Aragon, drove the Reconquista\n",
+      "- **Construction:** a white swallowtail banner charged with a purple **rampant lion** — a rare heraldic use of purple, canting on the kingdom's Latin name **legio** (\"legion\") popularly misread as \"leo\" (lion)\n",
+      "- United with Castile in 1230 under Ferdinand III, forming the Crown of Castile"
+    ],
+    "flag": "empires/leon.svg",
+    "countryData": {"name": "Kingdom of León", "officialName": "Regnum Legionense", "un": "none"},
+    "trivia": [
+      "- Claimed descent from the Visigothic Kingdom of Asturias; some historians consider it the direct heir of the Roman legio VII Gemina\n",
+      "- The lion remains on today's Spanish coat of arms (quartered with Castile's castle)\n",
+      "- León's **Cortes** of 1188 is argued by UNESCO to be Europe's first parliament"
+    ]
+  },
+  "navarre": {
+    "title": "Flag of the Kingdom of Navarre",
+    "ratio": "2:3",
+    "colors": [
+      {"color": "red", "hex": "#ce1126", "note": "Gules field."},
+      {"color": "gold", "hex": "#ffcc00", "note": "Chain of Navarre with emerald at centre."}
+    ],
+    "desc": [
+      "- The Kingdom of Navarre (824–1620) was a Basque-Romance Pyrenean kingdom that straddled today's Spain-France border\n",
+      "- **Construction:** a red field with the golden **Chain of Navarre** — a radial eight-pointed pattern of heavy chains with a central emerald, said to commemorate Sancho VII breaking the chains around the Almohad caliph's tent at Las Navas de Tolosa (1212)\n",
+      "- The chain-and-emerald survives on today's Spanish region of Navarra's flag and arms"
+    ],
+    "flag": "empires/navarre.svg",
+    "countryData": {"name": "Kingdom of Navarre", "officialName": "Nafarroako Erresuma", "un": "none"},
+    "trivia": [
+      "- The southern (Iberian) kingdom was annexed to Castile in 1512; the northern (Pyrenean) kingdom endured until its king became Henry IV of France in 1589\n",
+      "- The emerald story is legendary — heraldists connect the chains to the **carbuncle** (escarbunclo) motif common in Occitan and Provençal arms\n",
+      "- Motto: \"Pro libertate patria gens libera state\" (\"A free people stand for the liberty of their country\")"
+    ]
+  },
+  "milan": {
+    "title": "Flag of the Duchy of Milan",
+    "ratio": "2:3",
+    "colors": [
+      {"color": "gold", "hex": "#ffcc00", "note": "Imperial canton."},
+      {"color": "white", "hex": "#ffffff", "note": "Visconti canton."},
+      {"color": "black", "hex": "#000000", "note": "Imperial eagle."},
+      {"color": "blue", "hex": "#4a90d9", "note": "Biscione (serpent)."}
+    ],
+    "desc": [
+      "- The Duchy of Milan (1395–1796) was a major north-Italian state ruled successively by the Visconti, Sforza, Spanish Habsburgs, and Austrian Habsburgs\n",
+      "- **Construction:** a quartered banner combining the **imperial eagle** (black on gold, sable on or) — marking HRE fief status — with the **Visconti biscione** (a blue serpent consuming a child, argent on azure), the dynastic emblem of the first Milanese ruling house\n",
+      "- The biscione survives today on the Milan city coat of arms and the Alfa Romeo logo"
+    ],
+    "flag": "empires/milan.svg",
+    "countryData": {"name": "Duchy of Milan", "officialName": "Ducato di Milano", "un": "none"},
+    "trivia": [
+      "- The biscione is said to represent a Saracen defeated by a crusading Visconti ancestor, though modern scholars dispute the legend\n",
+      "- Home to Leonardo da Vinci for much of his career under Sforza and French rule\n",
+      "- Passed to the Habsburgs by the 1714 Treaty of Rastatt; became part of unified Italy in 1861"
+    ]
+  },
+  "afsharid": {
+    "title": "State Flag of the Afsharid Dynasty",
+    "ratio": "2:3",
+    "colors": [
+      {"color": "red", "hex": "#e2231a", "note": "Upper band."},
+      {"color": "blue", "hex": "#2e9df6", "note": "Middle band."},
+      {"color": "white", "hex": "#ffffff", "note": "Lower band."}
+    ],
+    "desc": [
+      "- The Afsharid dynasty (1736–1796) was founded by the conqueror **Nader Shah**, who carved a short-lived Iranian empire reaching from the Caucasus to Delhi after the Safavid collapse\n",
+      "- **Construction:** a horizontal tricolour of red, blue, and white — the state banner introduced under Nader as a replacement for the Safavid green\n",
+      "- Plain variants were more common in practice; ceremonial banners added the Shir-o-Khorshid or Qur'anic inscriptions"
+    ],
+    "flag": "empires/afsharid.svg",
+    "countryData": {"name": "Afsharid Dynasty", "officialName": "Afsharid Iran", "un": "none"},
+    "trivia": [
+      "- Nader sacked Delhi in 1739, carrying off the Peacock Throne and the Koh-i-Noor diamond\n",
+      "- His assassination in 1747 fractured the empire; the Zand dynasty and later the Qajars succeeded him\n",
+      "- Nader's military innovations influenced later Iranian armies into the Qajar era"
+    ]
+  },
+  "zanzibar-sultanate": {
+    "title": "Flag of the Sultanate of Zanzibar (1963)",
+    "ratio": "2:3",
+    "colors": [
+      {"color": "red", "hex": "#ce1126", "note": "Omani dynastic red — inherited from the Busaid of Oman."},
+      {"color": "green", "hex": "#0d8a3a", "note": "Independence disc."},
+      {"color": "yellow", "hex": "#fcd116", "note": "Clove buds — Zanzibar's spice heritage."}
+    ],
+    "desc": [
+      "- The Sultanate of Zanzibar (1856–1964) was the Indian-Ocean successor to the Omani Empire; this flag was used in its brief independent constitutional monarchy (December 1963 – January 1964)\n",
+      "- **Construction:** a red field with a green disc charged with two yellow **clove buds** — Zanzibar's principal export and the root of its colonial economy\n",
+      "- Earlier Sultanate flags were plain red, reflecting dynastic continuity with the Busaidi rulers of Oman"
+    ],
+    "flag": "empires/zanzibar-sultanate.svg",
+    "countryData": {"name": "Sultanate of Zanzibar", "officialName": "Sulṭānat Zanjībār", "un": "observer"},
+    "trivia": [
+      "- Overthrown by the Zanzibar Revolution of January 1964; the sultan fled and the archipelago merged with Tanganyika to form Tanzania\n",
+      "- Stone Town (Zanzibar's old quarter) is a UNESCO World Heritage Site documenting the Swahili-Arab-Omani cultural fusion\n",
+      "- Freddie Mercury was born Farrokh Bulsara in Zanzibar's Parsi community in 1946, during British protectorate"
+    ]
+  },
+  "transvaal": {
+    "title": "Flag of the South African Republic (Transvaal)",
+    "ratio": "2:3",
+    "colors": [
+      {"color": "green", "hex": "#236f4f", "note": "Voortrekker green at the hoist."},
+      {"color": "red", "hex": "#c1272d", "note": "Dutch-tricolour red."},
+      {"color": "white", "hex": "#ffffff", "note": "Dutch-tricolour white."},
+      {"color": "blue", "hex": "#21428f", "note": "Dutch-tricolour blue."}
+    ],
+    "desc": [
+      "- The South African Republic (Zuid-Afrikaansche Republiek, 1852–1902) was a Voortrekker Boer state in the Transvaal region, defeated and annexed by Britain in the Second Boer War\n",
+      "- **Construction:** the **Vierkleur** (four-colour) — a green vertical band at the hoist, and three horizontal bands of red-white-blue (Dutch national colours) at the fly\n",
+      "- The green band was added to distinguish the Boer flag from the Netherlands tricolour"
+    ],
+    "flag": "empires/transvaal.svg",
+    "countryData": {"name": "South African Republic", "officialName": "Zuid-Afrikaansche Republiek", "un": "none"},
+    "trivia": [
+      "- Discovery of gold on the Witwatersrand (1886) transformed the Republic's economy and fuelled the war with Britain\n",
+      "- Presidents included Paul Kruger, whose face survives on the Krugerrand gold coin\n",
+      "- The Vierkleur was briefly revived on the pre-1994 South African flag"
+    ]
+  },
+  "orange-free-state": {
+    "title": "Flag of the Orange Free State",
+    "ratio": "2:3",
+    "colors": [
+      {"color": "orange", "hex": "#fe7b00", "note": "The Orange — for the ruling House of Orange heritage."},
+      {"color": "white", "hex": "#ffffff", "note": "Interstripes."},
+      {"color": "red", "hex": "#c1272d", "note": "Canton — Dutch red."},
+      {"color": "blue", "hex": "#21428f", "note": "Canton — Dutch blue."}
+    ],
+    "desc": [
+      "- The Orange Free State (Oranje-Vrijstaat, 1854–1902) was a Boer republic between the Orange and Vaal rivers, sister-state to the Transvaal\n",
+      "- **Construction:** seven horizontal stripes alternating orange and white, with a **Dutch tricolour** (red-white-blue) in the canton at the upper hoist\n",
+      "- The orange colour honoured the House of Orange-Nassau; the canton signalled Dutch-Afrikaner heritage"
+    ],
+    "flag": "empires/orange-free-state.svg",
+    "countryData": {"name": "Orange Free State", "officialName": "Oranje-Vrijstaat", "un": "none"},
+    "trivia": [
+      "- Founded when the Voortrekkers signed the Bloemfontein Convention with Britain (1854)\n",
+      "- Notable for being recognised by the US, France, and other powers as a sovereign state\n",
+      "- Annexed as the Orange River Colony after the Boer surrender (1902); became a province of the Union of South Africa in 1910"
+    ]
+  },
+  "gran-colombia": {
+    "title": "Flag of Gran Colombia",
+    "ratio": "2:3",
+    "colors": [
+      {"color": "yellow", "hex": "#fcd116", "note": "Mineral wealth of the Americas."},
+      {"color": "blue", "hex": "#003893", "note": "Oceans and Caribbean."},
+      {"color": "red", "hex": "#ce1126", "note": "Blood of independence."}
+    ],
+    "desc": [
+      "- Gran Colombia (1819–1831) was the Bolivarian federal republic that briefly united today's Colombia, Venezuela, Ecuador, and Panama\n",
+      "- **Construction:** a horizontal tricolour of yellow (double-width), blue, and red — the design adopted by Francisco de Miranda in 1806 and used by Bolívar — with the **República de Colombia** central coat of arms\n",
+      "- The tricolour survives on all three modern successor flags (Colombia, Venezuela, Ecuador)"
+    ],
+    "flag": "empires/gran-colombia.svg",
+    "countryData": {"name": "Gran Colombia", "officialName": "República de Colombia", "un": "none"},
+    "trivia": [
+      "- Dissolved in 1831 after Venezuela and Ecuador seceded; Bolívar died that same year, disillusioned with his dream of a united Andes\n",
+      "- The Cosiata movement (1826) led by General Páez in Venezuela began the breakup\n",
+      "- Panama remained part of Colombia until its 1903 US-backed independence during the canal era"
+    ]
   }
 }
