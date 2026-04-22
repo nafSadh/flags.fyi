@@ -108,7 +108,7 @@ nav.site-nav {
 }
 nav.site-nav ul { list-style: none; display: flex; gap: 0.75rem; align-items: center; }
 nav.site-nav ul li { display: flex; align-items: center; }
-nav.site-nav ul.nav-right { gap: 0.9rem; }
+nav.site-nav ul.nav-right { gap: 0.7rem; }
 nav.site-nav a { text-decoration: none; color: rgba(255,255,255,0.85); }
 nav.site-nav a:hover { color: #fff; text-decoration: none; }
 .site-logo {
@@ -122,21 +122,21 @@ nav.site-nav a:hover { color: #fff; text-decoration: none; }
 .nav-title {
   font-size: 1rem; font-weight: 600; color: #fff;
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
-  text-align: center; flex: 1; padding: 0 1rem;
+  text-align: center; flex: 1; padding: 0 0.5rem;
 }
 
 /* ─── Nav search (icon by default; expands leftward on hover/focus) ──
-   The .nav-search container stays at 34x34 so layout never reflows.
+   The .nav-search container stays at 28x28 so layout never reflows.
    The input is absolute-positioned and grows toward the left. */
 .nav-search {
   position: relative;
-  width: 34px; height: 34px; flex-shrink: 0;
+  width: 28px; height: 28px; flex-shrink: 0;
 }
 .nav-search-input {
   position: absolute; right: 0; top: 0;
-  width: 34px; height: 34px;
-  padding: 0 34px 0 12px;  /* right padding leaves room for the icon */
-  border-radius: 17px;
+  width: 28px; height: 28px;
+  padding: 0 28px 0 10px;  /* right padding leaves room for the icon */
+  border-radius: 14px;
   background: rgba(255,255,255,0.08);
   border: 1px solid rgba(255,255,255,0.15);
   color: #fff; font-size: 0.85rem; font-family: var(--font);
@@ -146,12 +146,12 @@ nav.site-nav a:hover { color: #fff; text-decoration: none; }
 .nav-search:hover .nav-search-input,
 .nav-search:focus-within .nav-search-input,
 .nav-search.nav-search-has-value .nav-search-input {
-  width: 220px;
+  width: 200px;
   background: rgba(255,255,255,0.2);
   border-color: rgba(255,255,255,0.35);
 }
 .nav-search-icon {
-  position: absolute; right: 9px; top: 50%; transform: translateY(-50%);
+  position: absolute; right: 7px; top: 50%; transform: translateY(-50%);
   color: rgba(255,255,255,0.85); pointer-events: none; z-index: 1;
 }
 .nav-search-input::placeholder {
@@ -200,13 +200,15 @@ nav.site-nav a:hover { color: #fff; text-decoration: none; }
 /* ─── Theme toggle button ──────────────────────────────────────────── */
 .theme-toggle {
   display: inline-flex; align-items: center; justify-content: center;
-  width: 34px; height: 34px; border-radius: 50%;
+  width: 28px; height: 28px; border-radius: 50%;
   background: rgba(255,255,255,0.08); color: #fff;
   border: 1px solid rgba(255,255,255,0.15);
   cursor: pointer; padding: 0;
   transition: background 0.15s, border-color 0.15s, transform 0.1s;
   flex-shrink: 0;
 }
+.theme-toggle svg { width: 14px; height: 14px; }
+.nav-search-icon { width: 14px; height: 14px; }
 .theme-toggle:hover { background: rgba(255,255,255,0.2); border-color: rgba(255,255,255,0.35); }
 .theme-toggle:active { transform: scale(0.92); }
 .theme-toggle svg { display: none; }
