@@ -146,7 +146,7 @@ nav.site-nav a:hover { color: #fff; text-decoration: none; }
 .nav-search:hover .nav-search-input,
 .nav-search:focus-within .nav-search-input,
 .nav-search.nav-search-has-value .nav-search-input {
-  width: 200px;
+  width: min(200px, calc(100vw - 250px));
   background: rgba(255,255,255,0.2);
   border-color: rgba(255,255,255,0.35);
 }
