@@ -195,6 +195,10 @@ nav.site-nav a:hover { color: #fff; text-decoration: none; }
 /* On narrow screens, hide the nav-title so search + controls fit */
 @media (max-width: 640px) {
   body.flag-page .nav-title { display: none; }
+  /* Tighten nav-right gap so icons don't crowd on 360–375 widths */
+  nav.site-nav ul.nav-right { gap: 0.4rem; }
+  /* Note: input font-size bump to 16px lives at the end of this file so it
+     overrides the .search-input base rule that's defined further down. */
 }
 
 /* ─── Theme toggle button ──────────────────────────────────────────── */
@@ -254,7 +258,8 @@ nav.site-nav a:hover { color: #fff; text-decoration: none; }
   display: flex; gap: 0.6rem; flex-wrap: wrap; justify-content: center;
 }
 .hero-landing a.btn {
-  display: inline-block; padding: 0.65rem 1.5rem;
+  display: inline-flex; align-items: center; justify-content: center;
+  padding: 0.65rem 1.5rem; min-height: 44px;
   background: rgba(255,255,255,0.9); color: var(--primary); border-radius: 2rem;
   font-weight: 600; text-decoration: none; font-size: 1rem;
 }
@@ -420,6 +425,9 @@ main .search-count { color: var(--text-light); }
 
 @media (max-width: 600px) {
   .hub-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+  /* Narrow columns can't fit 6 × 24×16 thumbs legibly. Show 3 at 1.5× size. */
+  .hub-preview { width: 36px; height: 24px; }
+  .hub-thumbs .hub-preview:nth-child(n+4) { display: none; }
 }
 
 /* ═══════════════════════════════════════════════════════════════════
@@ -878,6 +886,8 @@ body.flag-page.dive-open .flag-column > .sidebar-info h1 { font-size: 1.1rem; }
 
   /* ── Hamburger button visible on mobile; hide desktop-only links ── */
   .burger-btn { display: flex; }
+  /* Needs to beat `nav.site-nav ul li { display: flex }` — match specificity */
+  nav.site-nav ul li.desktop-only,
   .desktop-only { display: none; }
 
   /* ── Mobile bottom nav ── */
@@ -975,4 +985,18 @@ body.flag-page.dive-open .flag-column > .sidebar-info h1 { font-size: 1.1rem; }
 .hub-top-links a:hover {
   background: var(--primary-light); border-color: var(--primary-muted);
   color: var(--primary);
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   MOBILE INPUT OVERRIDES (must come last — beats .search-input default)
+   iOS Safari auto-zooms any text input whose font-size < 16px on focus.
+   ═══════════════════════════════════════════════════════════════════ */
+@media (max-width: 640px) {
+  .nav-search-input,
+  .search-input,
+  main .search-input { font-size: 16px; }
+  /* Drop the nav-search icon on pages that already have a visible in-page
+     flag search (flag-index hub, all-flags). Two search entry points on a
+     375px viewport just competes for the same tap. */
+  body:has(#flagSearch) .nav-search { display: none; }
 }

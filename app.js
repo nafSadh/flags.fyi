@@ -37,6 +37,14 @@
     if (sidebarInfo && flagColumn) {
       flagColumn.appendChild(sidebarInfo);
     }
+    // On mobile the drawer sits ~1000px below the current scroll position —
+    // if we don't scroll to it the open action looks like nothing happened.
+    // Desktop layout keeps everything in view, so no-op there.
+    if (window.matchMedia('(max-width: 860px)').matches) {
+      requestAnimationFrame(function () {
+        deepDive.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    }
   }
 
   function closeDeepDive() {

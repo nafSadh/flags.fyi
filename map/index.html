@@ -166,6 +166,32 @@ nav {
   .nav-mid { display: none; }
   #pbk { display: inline-block; }
 }
+/* Narrow phones: tighten the navbar so Timeline doesn't run off-screen.
+   Search collapses to an icon-sized pill that expands on focus; the Flat /
+   Globe / Timeline controls keep full labels but with slimmer padding. */
+@media (max-width: 640px) {
+  nav { padding: 0 0.75rem; }
+  .nav-r { gap: 4px; }
+  .site-logo { font-size: 0.9rem; }
+  #si {
+    width: 36px; padding: 5px 10px 5px 24px; font-size: 16px;
+    color: transparent; caret-color: transparent;
+  }
+  /* When expanded, make room by overlapping the nb buttons — search is
+     absolute-positioned so flex siblings stay put. The results dropdown
+     already covers full width on mobile. */
+  #si:focus {
+    width: 120px; color: #fff; caret-color: #fff;
+  }
+  #si::placeholder { color: transparent; }
+  #si:focus::placeholder { color: rgba(255,255,255,.6); }
+  .sic { left: 9px; }
+  #sr { width: calc(100vw - 24px); right: -4px; left: auto; }
+  .nb { padding: 5px 8px; font-size: 0.72rem; }
+  /* Pull zoom controls inward so iOS/Android edge-swipe gestures don't
+     overlap tap targets. */
+  #zc { right: 20px; }
+}
 ::-webkit-scrollbar { width: 5px; }
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }

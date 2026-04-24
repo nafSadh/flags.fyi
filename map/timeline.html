@@ -92,6 +92,25 @@ nav { position: fixed; top: 0; left: 0; right: 0; z-index: 20; height: var(--nav
 .lg-line { width: 14px; height: 1.2px; background: var(--primary); opacity: .6; margin: 0 4px; display: inline-block; }
 
 @media (max-width: 768px) { .rl { width: 90px; min-width: 90px; } .rl img { display: none; } #ruler { left: 90px; } #lineage { left: 90px; } }
+/* Narrow phones: the filter/sort pill bar can't fit on one 52px row.
+   Bump --navbar-h so the ruler/timeline offsets (which all derive from it)
+   stay aligned, stack the logo above the pills, and shrink pill padding. */
+@media (max-width: 640px) {
+  :root { --navbar-h: 84px; }
+  nav {
+    padding: 6px 0.75rem;
+    flex-direction: column; align-items: stretch;
+    gap: 4px;
+  }
+  .site-logo { align-self: flex-start; line-height: 1; }
+  .nav-r { gap: 3px; row-gap: 4px; justify-content: flex-start; }
+  .sep { display: none; }
+  .nb { padding: 4px 7px; font-size: 0.68rem; }
+  /* The density/lineage legend competes with the last table row and its
+     meaning is self-evident from the visuals. Drop it on narrow widths. */
+  #lg { display: none; }
+  #st { font-size: 0.55rem; }
+}
 ::-webkit-scrollbar { width: 5px; height: 5px; }
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
